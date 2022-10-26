@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1>Welcome to Spotify Unwrapped</h1>
+<p>Login Successful!</p>
+
+
+<p>User ID: {{ user.user_id }}</p>
+<p>Display Name: {{ user.display_name }}</p>
+<p>Profile Photo: <img src="{{ user.profile_photo }}"></p>
+
+{% endblock %}
