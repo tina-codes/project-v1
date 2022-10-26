@@ -2,11 +2,11 @@
 
 {% block body %}
 <h1>Welcome to Spotify Unwrapped</h1>
-<p>Login Successful!</p>
-
-
-<p>User ID: {{ user.user_id }}</p>
-<p>Display Name: {{ user.display_name }}</p>
-<p>Profile Photo: <img src="{{ user.profile_photo }}"></p>
+<p>Logged in as:</p>
+<p><img src="{{ user.profile_photo }}" width=100></p>
+<p>{{ user.display_name }}</p>
+{% for track in top_items %}
+    <li>{{ track.artist.name }} - {{ track.name }}</a></li>
+{% endfor %}
 
 {% endblock %}

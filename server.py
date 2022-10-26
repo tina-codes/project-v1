@@ -24,6 +24,17 @@ def show_homepage():
 
     return render_template('homepage.html')
 
+@app.route('/unwrapped')
+def unwrapped():
+    user_id = session.get('user')
+    current_user = crud.get_user_by_id(user_id)
+
+    top_items = crud.get_top_tracks(user_id)
+
+    return render_template('unwrapped.html',
+                            user=current_user,
+                            top_items=top_items)
+
 @app.route('/login')
 def login():
     ''' Send user to Spotify for authorization'''
@@ -51,38 +62,39 @@ def loggedin():
         res = spotify.get_users_profile(auth_header)
         profile_data = res.json()
         current_user = crud.create_update_user(profile_data)
+        session['user'] = profile_data['id']
 
-        user_id = profile_data['id']
-        date = datetime.now()
-        audio_features_list = []
-        timespans = ['long_term', 'medium_term', 'short_term']
-
-        for time in timespans:
-            res = spotify.get_users_top_items(auth_header, 'tracks', 'time')
-            tracks = res.json()
-            audio_features_list.append(crud.create_top_tracks(tracks, user_id, date, 'time'))
-
-        for query_string in audio_features_list:
-            res = spotify.get_audio_features(auth_header, query_string)
-            features = res.json()
-            crud.create_audio_features(features)
-
-
-        
         db.session.commit()
 
         if valid_token(profile_data):
-            return render_template('unwrapped.html',
-                               user=current_user)
+            return redirect('/topitems.json')
 
     return render_template('unwrapped.html')
 
-@app.route('/unwrapped')
-def unwrapped():
+@app.route('/topitems.json')
+def get_user_items():
 
-    return render_template('unwrapped.html',
-                               user=current_user)
+    user_id = session.get('user')
+    top_tracks = crud.check_for_top_tracks(user_id)
+    
+    if top_tracks == None:
+        auth_header = session['auth_header']
+        timestamp = datetime.now()
+        feature_queries = []
+        timespans = ['long_term', 'medium_term', 'short_term']
 
+        for timespan in timespans:
+            res = spotify.get_users_top_items(auth_header, 'tracks', timespan)
+            tracks = res.json()
+            feature_queries.append(crud.create_top_tracks(tracks, user_id, timestamp, timespan))
+
+        for query_string in feature_queries:
+            res = spotify.get_audio_features(auth_header, query_string)
+            api_response = res.json()
+            print(api_response)
+            crud.create_audio_features(api_response)
+
+    return redirect('/unwrapped')
 
 
 

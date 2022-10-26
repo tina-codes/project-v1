@@ -30,7 +30,6 @@ def create_update_user(profile_data):
 
     return current_user
 
-
 def create_top_tracks(user_top_items, user_id, timestamp, timespan):
     '''Processes user's top tracks, returns list of lists.
     
@@ -49,7 +48,7 @@ def create_top_tracks(user_top_items, user_id, timestamp, timespan):
     albums = []     #4
     tracks = []     #5
 
-    user_items = user_top_items['item']
+    user_items = user_top_items['items']
    
     for item in user_items:
 
@@ -62,55 +61,73 @@ def create_top_tracks(user_top_items, user_id, timestamp, timespan):
         rank_counter += 1
         track_ids.append(spotify_id)
         top_items.append(top_item)
+        
 
         # Create associated artists
+        
         artist_id = item['artists'][0]['id']
         artist_name=item['artists'][0]['name']
-        artist = Artist(artist_id=artist_id,
-                        name=artist_name)
-        artist_ids.append(artist_id)
-        artists.append(artist)
+
+        curr_artist = Artist.query.get(artist_id)
+        if curr_artist == None:
+            artist = Artist(artist_id=artist_id,
+                            name=artist_name)
+            # artist_ids.append(artist_id)
+            # artists.append(artist)
+            db.session.add(artist)
 
         # Create associated albums
-        album_id = item['album']['id'],
-        album_name = item['album']['name'],
-        release_date = date.strptime(item['album']['release_date'], '%Y-%m-%d'),
-        img_url = item['album']['images'][0]['url'],
-        album = Album(album_id=album_id,
-                    name=album_name,
-                    release_date=release_date,
-                    img_url=img_url,
-                    artist_id=artist_id)
-        albums.append(album)
+        album_id = item['album']['id']
+        album_name = item['album']['name']
+        # release_date = datetime.strptime(item['album']['release_date'], '%Y'),
+        img_url = item['album']['images'][0]['url']
+
+        curr_album = Album.query.get(album_id)
+        if curr_album == None:
+            album = Album(album_id=album_id,
+                        name=album_name,
+                        # release_date=release_date,
+                        img_url=img_url,
+                        artist_id=artist_id)
+            # albums.append(album)
+            db.session.add(album)
 
         # Create associated tracks
-        track_id = item['id'],
-        track_name = item['name'],
-        popularity = item['popularity'],
-        track = Track(track_id = track_id,
-                    album_id = album_id,
-                    name = track_name,
-                    popularity = popularity)
-        tracks.append(track)
+        track_id = item['id']
+        track_name = item['name']
+        popularity = item['popularity']
+        curr_track = Track.query.get(track_id)
+        if curr_track == None:
+            track = Track(track_id = track_id,
+                        artist_id= artist_id,
+                        album_id = album_id,
+                        name = track_name,
+                        popularity = popularity)
+            # tracks.append(track)
+            db.session.add(track)
+            db.session.commit()
         
     db.session.add_all(top_items)
-    db.session.add_all(albums)
-    db.session.add_all(artists)
-    db.session.add_all(tracks)
+    # db.session.add_all(albums)
+    # db.session.add_all(artists)
+    # db.session.add_all(tracks)
 
-    feature_query_string = '%2C'.join(track_ids)
+
+    db.session.commit()
+
+    feature_query_string = ','.join(track_ids)
 
     return feature_query_string
 
 
-def create_audio_features(response_item):
+def create_audio_features(api_response):
     '''Creates and returns list of audio features objects.'''
 
     all_track_features = []
 
-    audio_features = response_item['audio_features']
+    features = api_response['audio_features']
 
-    for track in audio_features:
+    for track in features:
         track_id = track['id']
         danceability = track['danceability']
         energy = track['energy']
@@ -126,22 +143,24 @@ def create_audio_features(response_item):
         time_signature = track['time_signature']
         duration_ms = track['duration_ms']
 
-        track_features = Feature(track_id=track_id,
-                    danceability=danceability,
-                    energy=energy,
-                    key=key,
-                    loudness=loudness,
-                    mode=mode,
-                    speechiness=speechiness,
-                    acousticness=acousticness,
-                    instrumentalness=instrumentalness,
-                    liveness=liveness,
-                    valence=valence,
-                    tempo=tempo,
-                    time_signature=time_signature,
-                    duration_ms=duration_ms)
+        curr_track = Feature.query.get(track_id)
+        if curr_track == None:
+            track_features = Feature(track_id=track_id,
+                        danceability=danceability,
+                        energy=energy,
+                        key=key,
+                        loudness=loudness,
+                        mode=mode,
+                        speechiness=speechiness,
+                        acousticness=acousticness,
+                        instrumentalness=instrumentalness,
+                        liveness=liveness,
+                        valence=valence,
+                        tempo=tempo,
+                        time_signature=time_signature,
+                        duration_ms=duration_ms)
 
-        all_track_features.append(track_features)
+            all_track_features.append(track_features)
     
     db.session.add_all(all_track_features)
 
@@ -149,23 +168,29 @@ def create_audio_features(response_item):
 
 ##### Retrieval Functions #####
 
-# def get_user_by_id(user_id):
-#     '''Returns an updated user.'''
+def get_user_by_id(user_id):
+    '''Get current user by user_id.'''
+    return User.query.get(user_id)
 
-#     return User.query.get(user_id)
+def check_for_top_tracks(user_id):
+    '''Checks to see if top tracks already available.'''
+    user_items = Item.query.filter(user_id == user_id).first()
+    return user_items
 
-# def get_most_recent_top_items(user_id, item_type, timespan, date):
-#     '''Returns list of ids for users most recent top items.'''
+def get_top_tracks(user_id):
+    '''Returns list of ids for users most recent top items.'''
 
-#     ### Date passed through 
+    user_items = Item.query.filter(user_id == user_id).all()
+    item_list = []
+    top_items = []
 
-#     top_items = TopItem.query.filter(user_id == user_id,
-#                             item_type == item_type, 
-#                             timespan == timespan,
-#                             date == date)
-#     item_list = []
+    for item in user_items:
+        item_list.append(item.spotify_id)
 
-#     for item in top_items:
+    for item in item_list:
+        top_items.append(Track.query.get(item))
+
+    return top_items
 
 
 

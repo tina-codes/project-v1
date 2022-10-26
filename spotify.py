@@ -79,7 +79,7 @@ def get_users_profile(auth_header):
 
 
 def get_users_top_items(auth_header, sptype, timespan):
-    url = '{}/{}/{}?time_range={}&limit=50'.format(SPOTIFY_API_URL, 'me', 'top', sptype, timespan)
+    url = '{}/{}/{}/{}?time_range={}&limit=50'.format(SPOTIFY_API_URL, 'me', 'top', sptype, timespan)
     res = requests.get(url, headers=auth_header)
     return res
 
