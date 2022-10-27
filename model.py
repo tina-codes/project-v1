@@ -7,7 +7,7 @@ db = SQLAlchemy()
 
 def connect_to_db(flask_app, db_uri="postgresql:///spotifyunwrapped"):
     flask_app.config["SQLALCHEMY_DATABASE_URI"] = db_uri
-    flask_app.config["SQLALCHEMY_ECHO"] = True
+    flask_app.config["SQLALCHEMY_ECHO"] = False
     flask_app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
     db.app = flask_app
@@ -49,7 +49,7 @@ class Item(db.Model):
     user_id = db.Column(db.String(30), 
                         db.ForeignKey('users.user_id'),
                         nullable=False)
-    date = db.Column(db.DateTime, nullable=False)
+    date = db.Column(db.Integer, nullable=False)
     item_type = db.Column(db.String(10), nullable=False)
     timespan = db.Column(db.String(11), nullable=False)
     rank = db.Column(db.Integer, nullable=False)
@@ -71,7 +71,7 @@ class Album(db.Model):
                             db.ForeignKey('artists.artist_id'),
                             nullable=False)
     name = db.Column(db.String(50), nullable=False)
-    release_date = db.Column(db.Date)
+    release_year = db.Column(db.Integer)
     img_url = db.Column(db.String)
 
     artist = db.relationship('Artist', back_populates='albums')

@@ -16,7 +16,14 @@ app = Flask(__name__)
 app.secret_key = 'dev'
 app.jinja_env.undefined = StrictUndefined
 
-# Flask routes go here
+#### TEST ROUTES ####
+@app.route('/test')
+def show_page():
+    '''Show test page.'''
+
+    return render_template('final_unwrapped.html')
+
+#####################
 
 @app.route('/')
 def show_homepage():
@@ -26,14 +33,22 @@ def show_homepage():
 
 @app.route('/unwrapped')
 def unwrapped():
-    user_id = session.get('user')
-    current_user = crud.get_user_by_id(user_id)
+    '''Load page if user is logged in, redirect to homepage if not.'''
 
-    top_items = crud.get_top_tracks(user_id)
+    if 'user' in session:
+        user_id = session.get('user')
 
-    return render_template('unwrapped.html',
-                            user=current_user,
-                            top_items=top_items)
+        current_user = crud.get_user_by_id(user_id)
+        # top_items = crud.get_top_tracks(user_id)
+        # snapshot = crud.get_snapshot_dates(user_id)
+
+        return render_template('unwrapped.html',
+                                # snapshot=snapshot,
+                                # top_items=top_items
+                                user=current_user)
+
+    else:
+        return redirect('/')
 
 @app.route('/login')
 def login():
@@ -53,9 +68,9 @@ def callback():
 def valid_token(resp):
     return resp is not None and not 'error' in resp
 
-@app.route('/loggedin.json')
+@app.route('/loggedin')
 def loggedin():
-    '''Confirm user is logged in and send api requests'''
+    '''Confirm user is logged in and request profile data'''
     if 'auth_header' in session:
         auth_header = session['auth_header']
         
@@ -67,19 +82,20 @@ def loggedin():
         db.session.commit()
 
         if valid_token(profile_data):
-            return redirect('/topitems.json')
+            return redirect('/api/topitems')
 
-    return render_template('unwrapped.html')
+    return redirect('/')
 
-@app.route('/topitems.json')
+@app.route('/api/topitems')
 def get_user_items():
-
-    user_id = session.get('user')
-    top_tracks = crud.check_for_top_tracks(user_id)
+    '''Request top tracks and audio features'''
     
-    if top_tracks == None:
+    timestamp = datetime.now().timestamp()
+    user_id = session.get('user')
+    top_tracks = crud.check_for_top_tracks(user_id, timestamp)
+    
+    if top_tracks == True:
         auth_header = session['auth_header']
-        timestamp = datetime.now()
         feature_queries = []
         timespans = ['long_term', 'medium_term', 'short_term']
 
@@ -91,11 +107,18 @@ def get_user_items():
         for query_string in feature_queries:
             res = spotify.get_audio_features(auth_header, query_string)
             api_response = res.json()
-            print(api_response)
             crud.create_audio_features(api_response)
 
-    return redirect('/unwrapped')
+    return redirect('/test')
+##### CHANGE BACK TO '/unwrapped'
 
+@app.route('/items.json')
+def get_items_json():
+    """Return a JSON response with top items."""
+    user_id = session.get('user')
+    top_items = crud.get_top_items(user_id, 'long_term', 'track')
+
+    return jsonify({'items': top_items})
 
 
 if __name__ == "__main__":

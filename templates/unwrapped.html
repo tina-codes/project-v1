@@ -5,6 +5,9 @@
 <p>Logged in as:</p>
 <p><img src="{{ user.profile_photo }}" width=100></p>
 <p>{{ user.display_name }}</p>
+{% for each in snapshot %}
+<p>{{ each.date }} - {{ each.timespan }}</p>
+{% endfor %}
 {% for track in top_items %}
     <li>{{ track.artist.name }} - {{ track.name }}</a></li>
 {% endfor %}
