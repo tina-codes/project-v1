@@ -1,133 +1,174 @@
 // React Components for Unwrapped
 
-// Custom hook to change style of selected nav item
-// function useNav() {
-//     const [isClicked, setIsClicked] = useState(null);
+//////// need to create CurrentItem - similar to ItemNav but for all tracks
 
-//     useEffect(() => {
-//         function handleNavClick(navClick) {
-//             setIsClicked(navClick.isClicked);
-//         }
+function ItemNav(props) {
+// Takes in list of items to show in item nav (ex top tracks)
+// On click will set selectedItem
+
+    return (
+        <li><button className="itemLink" id={props.id}>{props.displayText}</button></li>
+    );
+};
+
+function ViewNav(props) {
+    // Takes in list of items to show in item nav (ex top tracks)
+    // On click will set view
+        return (
+            <button className="viewLink" id={props.id}>{props.displayText}</button>
+        );
+    };
+
+// This component displays if selectedItem a track
+function DisplayDetails(props) {
+    return (
+        <h4>{props.artist} - {props.name}</h4>
+    );
+};
+
+// This component displays if selectedItem is top_tracks
+function DisplayNav(props) {
+    return (
+        <button className="displayNav" id={props.option}>{props.option}</button>
+    );
+};
+
+    // Main function that contains everything else
+function GetData() {
+    const [type, setType] = React.useState('track'); // Set by navbar onClick
+    const [viewOptions, setViewOptions] = React.useState([]); // Set by fetch req
+    const [view, setView] = React.useState('short_term'); // Set by viewNav onClick
+    const [items, setItems] = React.useState([]); // Set by fetch req
+    const [selectedItem, setSelectedItem] = React.useState('top_tracks'); // set by itemNav onClick
+    
+    
+    const url = '/get-items';
+    const queryUrl = `${url}?item_type=${type}&timespan=${view}` // Tell crud function what to send back
+    
+    React.useEffect(() => {
+        fetch(queryUrl)
+        .then((response) => response.json())
+        .then((data) => {
+          setViewOptions(data.viewOptions);
+          setItems(data.items);
+        });
+      }, []); /// setView can be called other places than just the ViewNav
+    
+    const viewOptionsList = [];
+    const itemOptions = [];
+    
+    for (const option of viewOptions) {
+        viewOptionsList.push(
+          <ViewNav 
+          key={option.timespan}
+          id={option.timespan}
+          displayText={option.displayText}
+          />
+        );
+    };
+    
+    for (const item of items) {
+      itemOptions.push(
+          <ItemNav
+          key={item.itemId}
+          id={item.itemId}
+          displayText={item.displayText}
+          />
+      );
+      };
 
     
-//     })
+    const displayNavWindow = [];
+        
+    if (selectedItem === 'top_tracks') {
+        const displayNav = [
+            'acousticness',
+            'danceability',
+            'energy',
+            'instrumentalness',
+            'liveness',
+            'speechiness',
+            'valence'];
 
-// }
+        for (const option of displayNav) {
+            displayNavWindow.push(
+                <DisplayNav
+                key={option}
+                option={option}
+                />
+            );
+        };
+    } else {
+        for (const item of items) {
+            if (item.itemID === selectedItem) {
+                displayNavWindow.push(
+                    <DisplayDetails
+                    artist={item.artist}
+                    name={item.name}
+                    />
+                );
+            };
+        };
+    };
 
-// function navBarItem(props) {
-//     const isClicked = useNav(props.Item.name);
-
-//     return (
-//         <li style={{ color: isClicked ? 'green' : 'white' }}>
-//             {props.Item.name}
-//         </li>
-//     );
-// }
-
-
-function ViewItem(props) {
-// Takes in list of items to show in item nav (ex top tracks)
-// !!! Will have to add link to chart or whatever
-    return (
-        <li> {props.rank} {props.artist} - {props.name}</li>
-    );
-}
-
-function ItemNavContainer() {
-// Populates ItemNav
-    const [items, setItems] = React.useState([]);
-
-    React.useEffect(() => {
-        fetch('/items.json')
-        .then((response) => response.json())
-        .then((data) => setItems(data.items))
-    }, []);
-
-    const topItems = [];
-
-    for (const currentItem of items) {
-        topItems.push(
-            <ViewItem
-                key={currentItem.rank}
-                rank={currentItem.rank}
-                artist={currentItem.artist}
-                name={currentItem.name}
-            />
-        );
-    }
 
     return (
         <React.Fragment>
-            <NavBar />
-            <div id="current">
-                <h2>Top Tracks:</h2>
-            </div>
-            <div id="itemNav">
-                <ul>{topItems}</ul>
+            <div className="container">
+                <div className="row">
+                    <div className="col"><div id="navBar"><NavBar /></div></div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <div id="viewNav">
+                            {viewOptionsList}
+                        </div>
+                        <div id="currentItem">
+                        <h2>Top Tracks:</h2>
+                        </div>
+                        <div id="itemNav">
+                        <ol>{itemOptions}</ol>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div id="displayNav">
+                        {displayNavWindow}
+                        </div>
+                        <div id="chartDisplay">
+                            DISPLAY CHART HERE
+                            <canvas id="dataChart" width="400" height="400"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <div id="footer">Footer links go here</div>
+                    </div>
+                </div>
             </div>
         </React.Fragment>
     );
 
 }
 
-ReactDOM.render(<ItemNavContainer />, document.querySelector('#testrun'));
-
 function NavBar() {
-  return (
-    <React.Fragment>
-    <div id="navigate">
-        <h2>!!!Navigation Bar!!!</h2>
-    </div>
-    </React.Fragment>
-  )
-}
+
+    return (
+      <React.Fragment>
+        <button className="navbar" key="tracks">Tracks</button>
+        <button className="navbar" key="profile">View Profile</button>
+      </React.Fragment>
+    );
+  };
 
 
-// function SelectView(props) {
-//     const [itemType, setType] = React.useState('track');
-//     const [timespan, setTimespan] = React.useState('short_term');
-  
-//     function changeView() {
-//       fetch('/change-view', {
-//         method: 'POST',
-//         headers: {
-//           'content-type': 'application/json',
-//         },
-//         body: JSON.stringify({ "item_type": itemType, "timespan": timespan })
-//       })
-//         .then((response) => response.json())
-//         .then((jsonResponse) => {
-//           const cardAdded = jsonResponse.cardAdded;
-//           props.addCard(cardAdded);
-//         });
-//     }
-//     return (
-//       <React.Fragment>
-//         <h2>Add New Trading Card</h2>
-//         <label htmlFor="nameInput">Name</label>
-//         <input
-//           value={name}
-//           onChange={(event) => setName(event.target.value)}
-//           id="nameInput"
-//           style={{ marginLeft: "5px" }}
-//         ></input>
-//         <label
-//           htmlFor="skillInput"
-//           style={{ marginLeft: "10px", marginRight: "5px" }}
-//         >
-//           Skill
-//         </label>
-//         <input
-//           value={skill}
-//           onChange={(event) => setSkill(event.target.value)}
-//           id="skillInput"
-//         ></input>
-//         <button style={{ marginLeft: "10px" }} onClick={addNewCard}>
-//           Add
-//         </button>
-//       </React.Fragment>
-//     );
-//   }
-  
-//   ReactDOM.render(<TradingCardContainer />, document.getElementById('testrun'));
-  
+// pass selectedItem as props
+
+
+
+
+
+
+ReactDOM.render(<GetData />, document.querySelector('#root'));
+
+

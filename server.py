@@ -112,13 +112,30 @@ def get_user_items():
     return redirect('/test')
 ##### CHANGE BACK TO '/unwrapped'
 
-@app.route('/items.json')
+@app.route('/get-items')
 def get_items_json():
     """Return a JSON response with top items."""
     user_id = session.get('user')
-    top_items = crud.get_top_items(user_id, 'long_term', 'track')
+    timespan = request.args.get('timespan')
+    item_type = request.args.get('item_type')
+    viewOptions, top_items = crud.get_top_items(user_id, timespan, item_type)
 
-    return jsonify({'items': top_items})
+    print('Flask works!')
+
+
+    return jsonify({'viewOptions': viewOptions, 'items': top_items, 'currentView': 'Top Tracks'})
+
+@app.route('/track-data')
+def get_chart_data():
+    '''Return a JSON response with track features.'''
+
+    item_id = request.args.get('item_id')
+
+    # data = list of lists: featuresLabels and featuresData
+    data = get_features_by_track_id(item_id)
+
+    return jsonify({'data': data})
+
 
 
 if __name__ == "__main__":

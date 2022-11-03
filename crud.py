@@ -187,31 +187,63 @@ def get_snapshot_dates(user_id):
     # snapshots = user_items.query.distinct(Item.date).all()
 
     return snapshot
-    
 
-def get_top_items(user_id, timespan, item_type):
+
+def get_top_items(user_id, view, item_type):
     '''Returns list of ids for user's most recent top items.'''
 
-    user_items = Item.query.filter(Item.user_id == user_id,
-                            Item.timespan == timespan,
-                            Item.item_type == item_type).all()
+    if item_type == 'track':
+        user_items = Item.query.filter(Item.user_id == user_id,
+                                Item.timespan == view,
+                                Item.item_type == item_type).all()
 
-    item_list = []
-    top_items = []
-    rank = 0
-    table = item_type.capitalize()
+        item_list = []
+        top_items = []
+        viewOptions = [{'timespan': 'short_term', 'displayText': 'Month'},
+                {'timespan': 'medium_term', 'displayText': 'Six Months'},
+                {'timespan': 'long_term', 'displayText': 'All Time'}]
+        all_tracks = []
+        rank = 0
 
+        for item in user_items:
+            item_list.append(item.spotify_id)
 
-    for item in user_items:
-        item_list.append(item.spotify_id)
+        for item in item_list:
+            rank += 1
+            track = Track.query.get(item)
+            top_items.append({'rank': rank,
+                            'artist': track.artist.name,
+                            'album': track.album.name,
+                            'name': track.name,
+                            'itemId': track.track_id,
+                            'itemType': 'track',
+                            'displayText': f'{track.artist.name} - {track.name}'})
+        
+        return [viewOptions, top_items]
 
-    for item in item_list:
-        rank += 1
-        track = Track.query.get(item)
-        top_items.append({'rank': rank,
-                        'artist': track.artist.name,
-                        'name': track.name})
-    return top_items
+def get_features_by_track_id(track_id):
+    ''' Return lists of labels and features for given track.'''
+
+    track = Feature.query.get(track_id)
+
+    featuresLabels = [
+        'acousticness',
+        'danceability',
+        'energy',
+        'instrumentalness',
+        'liveness',
+        'speechiness',
+        'valence']
+
+    featuresData = []
+
+    for feature in featuresLabels:
+        featuresData.append(track.feature)
+
+    return featuresLabels, featuresData
+
+    
+    
 
 
 
