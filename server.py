@@ -16,15 +16,6 @@ app = Flask(__name__)
 app.secret_key = 'dev'
 app.jinja_env.undefined = StrictUndefined
 
-#### TEST ROUTES ####
-@app.route('/test')
-def show_page():
-    '''Show test page.'''
-
-    return render_template('final_unwrapped.html')
-
-#####################
-
 @app.route('/')
 def show_homepage():
     '''Show the application's homepage.'''
@@ -39,12 +30,8 @@ def unwrapped():
         user_id = session.get('user')
 
         current_user = crud.get_user_by_id(user_id)
-        # top_items = crud.get_top_tracks(user_id)
-        # snapshot = crud.get_snapshot_dates(user_id)
 
         return render_template('unwrapped.html',
-                                # snapshot=snapshot,
-                                # top_items=top_items
                                 user=current_user)
 
     else:
@@ -109,7 +96,7 @@ def get_user_items():
             api_response = res.json()
             crud.create_audio_features(api_response)
 
-    return redirect('/test')
+    return redirect('/unwrapped')
 ##### CHANGE BACK TO '/unwrapped'
 
 @app.route('/get-items')

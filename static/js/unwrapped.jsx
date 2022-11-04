@@ -19,7 +19,7 @@ function createChart(selectedItem) {
                 'speechiness',
                 'valence'],
             datasets: [{
-                label: selectedItem.displayText,
+                // label: selectedItem.displayText,
                 data: selectedItem.featureData,
                 fill: true,
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -31,6 +31,15 @@ function createChart(selectedItem) {
             }, ]
             },
         options: {
+            plugins: {
+                legend: {
+                    display: false
+                },
+                title: {
+                    display: true,
+                    text: selectedItem.displayText
+                }
+            },
             scales: {
                 r: {
                     angleLines: {
@@ -127,7 +136,7 @@ function GetData() {
                             {viewOptionsList}
                         </div>
                         <div id="currentItem">
-                        <h2>Top Tracks:</h2>
+                        {/* <button className="currViewLink" id={option.timespan} onClick={() => setView(option.timespan)}>{option.displayText}</button> */}
                         </div>
                         <div id="itemNav">
                         <ol>{itemOptions}</ol>
@@ -138,7 +147,6 @@ function GetData() {
                         {/* {displayNavWindow} */}
                         </div>
                         <div id="chartDisplay">
-                            DISPLAY CHART HERE
                             <canvas id="dataChart" width="400" height="400"></canvas>
                         </div>
                     </div>
