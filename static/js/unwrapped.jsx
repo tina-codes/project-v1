@@ -1,45 +1,45 @@
 // React Components for Unwrapped
+let chart;
 
-//////// need to create CurrentItem - similar to ItemNav but for all tracks
+function createChart(selectedItem) {
 
-function ItemNav(props) {
-// Takes in list of items to show in item nav (ex top tracks)
-// On click will set selectedItem
-
-    return (
-        <li><button className="itemLink" id={props.id}>{props.displayText}</button></li>
-    );
-};
-
-function ViewNav(props) {
-    // Takes in list of items to show in item nav (ex top tracks)
-    // On click will set view
-        return (
-            <button className="viewLink" id={props.id}>{props.displayText}</button>
-        );
+    if (chart) {
+        chart.destroy();
     };
 
-// This component displays if selectedItem a track
-function DisplayDetails(props) {
-    return (
-        <h4>{props.artist} - {props.name}</h4>
-    );
-};
+    chart = new Chart(document.querySelector('#dataChart'), {
+        type: 'radar',
+        data: {
+            labels: [
+                'acousticness',
+                'danceability',
+                'energy',
+                'instrumentalness',
+                'liveness',
+                'speechiness',
+                'valence'],
+            datasets: [{
+                label: selectedItem.displayText,
+                data: selectedItem.featureData,
+                fill: true,
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgb(255, 99, 132)',
+                pointBackgroundColor: 'rgb(255, 99, 132)',
+                pointBorderColor: '#fff',
+                pointHoverBackgroundColor: '#fff',
+                pointHoverBorderColor: 'rgb(255, 99, 132)'
+            }, ]
+            },
+        });
+    };
 
-// This component displays if selectedItem is top_tracks
-function DisplayNav(props) {
-    return (
-        <button className="displayNav" id={props.option}>{props.option}</button>
-    );
-};
-
-    // Main function that contains everything else
+// Main function that contains everything else
 function GetData() {
     const [type, setType] = React.useState('track'); // Set by navbar onClick
     const [viewOptions, setViewOptions] = React.useState([]); // Set by fetch req
     const [view, setView] = React.useState('short_term'); // Set by viewNav onClick
     const [items, setItems] = React.useState([]); // Set by fetch req
-    const [selectedItem, setSelectedItem] = React.useState('top_tracks'); // set by itemNav onClick
+    const [selectedItem, setSelectedItem] = React.useState({}); // set by itemNav onClick
     
     
     const url = '/get-items';
@@ -51,72 +51,64 @@ function GetData() {
         .then((data) => {
           setViewOptions(data.viewOptions);
           setItems(data.items);
+          setSelectedItem({'itemId': data.ttItem.itemId,
+                        'displayText': data.ttItem.displayText,
+                        'featureData': data.ttItem.featureData});
+            console.log(data)
+            console.log(type)
+            console.log(view)
+            console.log(`XXX ${data.ttItem.itemId}`);
+            console.log(`YYY${selectedItem}`);   
         });
-      }, []); /// setView can be called other places than just the ViewNav
+      }, [type, view]);
+
+
+    if (selectedItem != {}) {
+        console.log(selectedItem)
+    createChart(selectedItem);
+    }
+
+    
     
     const viewOptionsList = [];
     const itemOptions = [];
     
     for (const option of viewOptions) {
         viewOptionsList.push(
-          <ViewNav 
-          key={option.timespan}
-          id={option.timespan}
-          displayText={option.displayText}
-          />
+          <button className="viewLink" id={option.timespan} onClick={() => setView(option.timespan)}>{option.displayText}</button>
         );
     };
     
     for (const item of items) {
       itemOptions.push(
-          <ItemNav
-          key={item.itemId}
-          id={item.itemId}
-          displayText={item.displayText}
-          />
+          <li><button className="itemLink" id={item.itemId} onClick={() => handleItemSelect(item)}>{item.displayText}</button></li>
       );
       };
 
-    
-    const displayNavWindow = [];
-        
-    if (selectedItem === 'top_tracks') {
-        const displayNav = [
-            'acousticness',
-            'danceability',
-            'energy',
-            'instrumentalness',
-            'liveness',
-            'speechiness',
-            'valence'];
+    function handleItemSelect(item) {
+        setSelectedItem({'itemId': item.itemId,
+                        'displayText': item.displayText,
+                        'featureData': item.featureData});
 
-        for (const option of displayNav) {
-            displayNavWindow.push(
-                <DisplayNav
-                key={option}
-                option={option}
-                />
-            );
+        if (chart) {
+            chart.destroy();
         };
-    } else {
-        for (const item of items) {
-            if (item.itemID === selectedItem) {
-                displayNavWindow.push(
-                    <DisplayDetails
-                    artist={item.artist}
-                    name={item.name}
-                    />
-                );
-            };
-        };
+        
+        createChart(selectedItem);
     };
+
 
 
     return (
         <React.Fragment>
             <div className="container">
                 <div className="row">
-                    <div className="col"><div id="navBar"><NavBar /></div></div>
+                    <div className="col">
+                        <div id="navBar">
+                        <button className="navbar" id="tracks" onClick={() => setType('track')}>Tracks</button>
+                        <button className="navbar" id="profile">View Profile</button>
+                        </div>
+                    </div>
                 </div>
                 <div className="row">
                     <div className="col">
@@ -132,7 +124,7 @@ function GetData() {
                     </div>
                     <div className="col">
                         <div id="displayNav">
-                        {displayNavWindow}
+                        {/* {displayNavWindow} */}
                         </div>
                         <div id="chartDisplay">
                             DISPLAY CHART HERE
@@ -148,27 +140,37 @@ function GetData() {
             </div>
         </React.Fragment>
     );
-
 }
-
-function NavBar() {
-
-    return (
-      <React.Fragment>
-        <button className="navbar" key="tracks">Tracks</button>
-        <button className="navbar" key="profile">View Profile</button>
-      </React.Fragment>
-    );
-  };
-
-
-// pass selectedItem as props
-
-
-
-
-
 
 ReactDOM.render(<GetData />, document.querySelector('#root'));
 
 
+// const displayNavWindow = [];
+        
+    // if (selectedItem === 'top_tracks') {
+    //     const displayNav = [
+    //         'acousticness',
+    //         'danceability',
+    //         'energy',
+    //         'instrumentalness',
+    //         'liveness',
+    //         'speechiness',
+    //         'valence'];
+
+    //     for (const option of displayNav) {
+    //         displayNavWindow.push(
+    //             <button className="displayNav" key={option} id={option}>{option}</button>
+    //         );
+    //     };
+    // } else {
+    //     for (const item in items) {
+    //         if (item.itemID === selectedItem) {
+    //             console.log('later');
+    //             console.log(items);
+    //             console.log(selectedItem);
+    //             displayNavWindow.push(
+    //                 <div>{item.artist} - {item.name}</div>
+    //             );
+    //         };
+    //     };
+    // };

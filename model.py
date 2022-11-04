@@ -130,7 +130,7 @@ class Feature(db.Model):
     
 
     def __repr__(self):
-        return f'<Feature track_id={track_id}>'
+        return f'<Feature track_id={self.track_id}>'
 
 
 class Artist(db.Model):

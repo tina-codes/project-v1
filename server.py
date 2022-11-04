@@ -118,12 +118,10 @@ def get_items_json():
     user_id = session.get('user')
     timespan = request.args.get('timespan')
     item_type = request.args.get('item_type')
-    viewOptions, top_items = crud.get_top_items(user_id, timespan, item_type)
+    viewOptions, top_items, top_tracks_features = crud.get_top_items(user_id, timespan, item_type)
 
-    print('Flask works!')
-
-
-    return jsonify({'viewOptions': viewOptions, 'items': top_items, 'currentView': 'Top Tracks'})
+    return jsonify({'viewOptions': viewOptions, 'items': top_items, 'currentView': 'Top Tracks', 
+            'ttItem': {'itemId': 'top_tracks', 'displayText': 'Top Tracks', 'featureData': top_tracks_features}})
 
 @app.route('/track-data')
 def get_chart_data():
@@ -132,9 +130,11 @@ def get_chart_data():
     item_id = request.args.get('item_id')
 
     # data = list of lists: featuresLabels and featuresData
-    data = get_features_by_track_id(item_id)
+    featuresLabels, featuresData = crud.get_features_by_track_id(item_id)
 
-    return jsonify({'data': data})
+    
+
+    return jsonify({'featuresLabels': featuresLabels, 'featuresData': featuresData})
 
 
 
