@@ -30,6 +30,17 @@ function createChart(selectedItem) {
                 pointHoverBorderColor: 'rgb(255, 99, 132)'
             }, ]
             },
+        options: {
+            scales: {
+                r: {
+                    angleLines: {
+                        display: false
+                    },
+                    suggestedMin: 0,
+                    suggestedMax: 1
+                }
+            }
+        },
         });
     };
 
