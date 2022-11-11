@@ -85,3 +85,14 @@ def get_audio_features(auth_header, query_string):
     url = '{}/{}?ids={}'.format(SPOTIFY_API_URL, 'audio-features', query_string)
     res = requests.get(url, headers=auth_header)
     return res
+
+def get_artists_info(auth_header, query_string):
+    url = '{}/{}?ids={}'.format(SPOTIFY_API_URL, 'artists', query_string)
+    res = requests.get(url, headers=auth_header)
+    return res
+
+def get_artist_top_tracks(auth_header, query_string):
+    url = '{}/{}/{}/{}?market=US'.format(SPOTIFY_API_URL, 'artists', query_string, 'top-tracks')
+    res = requests.get(url, headers=auth_header)
+    
+    return res

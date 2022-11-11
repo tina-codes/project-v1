@@ -34,7 +34,7 @@ class User(db.Model):
     items = db.relationship('Item', back_populates='user')
 
     def __repr__(self):
-        return f"<User user_id={user_id}>"
+        return f"<User user_id={self.user_id}>"
 
 class Item(db.Model):
     """A user's top Spotify items.
@@ -58,7 +58,7 @@ class Item(db.Model):
     user = db.relationship('User', back_populates='items')
 
     def __repr__(self):
-        f'<Item id={id} user_id={user_id} item_type={item_type} spotify_id={spotify_id}>'
+        f'<Item id={self.id} user_id={self.user_id} item_type={self.item_type} spotify_id={self.spotify_id}>'
 
 class Album(db.Model):
     '''An album'''
@@ -70,7 +70,7 @@ class Album(db.Model):
     artist_id = db.Column(db.String(22),
                             db.ForeignKey('artists.artist_id'),
                             nullable=False)
-    name = db.Column(db.String(50), nullable=False)
+    name = db.Column(db.String(100), nullable=False)
     release_year = db.Column(db.Integer)
     img_url = db.Column(db.String)
 
@@ -78,7 +78,7 @@ class Album(db.Model):
     tracks = db.relationship('Track', back_populates='album')
 
     def __repr__(self):
-        return f'<Album album_id={album_id} name={name}>'
+        return f'<Album album_id={self.album_id} name={self.name}>'
 
 class Track(db.Model):
     '''A single track'''
@@ -93,7 +93,7 @@ class Track(db.Model):
     album_id = db.Column(db.String(22),
                             db.ForeignKey('albums.album_id'),
                             nullable=False)
-    name = db.Column(db.String(50), nullable=False)
+    name = db.Column(db.String(100), nullable=False)
     popularity = db.Column(db.Integer, nullable=False)
     
     artist = db.relationship('Artist', back_populates='tracks')
@@ -101,7 +101,7 @@ class Track(db.Model):
     feature = db.relationship('Feature', uselist=False, back_populates='track')
 
     def __repr__(self):
-        return f'<Track track_id={track_id} name={name}>'
+        return f'<Track track_id={self.track_id} name={self.name}>'
 
 class Feature(db.Model):
     '''Audio features of a track.'''
@@ -140,61 +140,60 @@ class Artist(db.Model):
 
     artist_id = db.Column(db.String(22),
                             primary_key=True)
-    name = db.Column(db.String(50), nullable=False)
-    ## These are for version 2
-    # popularity = db.Column(db.Integer) #Only through artist item
-    # followers = db.Column(db.Integer) #Only through artist item
-    # img_url = db.Column(db.String) #Only through artist item
+    name = db.Column(db.String(100), nullable=False)
+    popularity = db.Column(db.Integer) #Only through artist item
+    followers = db.Column(db.Integer) #Only through artist item
+    img_url = db.Column(db.String) #Only through artist item
     
     albums = db.relationship('Album', back_populates='artist')
     tracks = db.relationship('Track', back_populates='artist')
-    # artist_genres = db.relationship('ArtistGenre', back_populates='artist')
+    artist_genres = db.relationship('ArtistGenre', back_populates='artist')
 
     def __repr__(self):
-        return f'<Artist artist_id={artist_id} name={name}>'
+        return f'<Artist artist_id={self.artist_id} name={self.name}>'
 
 
-###### Genres only come up in top artist search, add to V2
+class ArtistGenre(db.Model):
+    '''Connection between artists and genres.'''
 
-# class ArtistGenre(db.Model):
-#     '''Connection between artists and genres.'''
+    __tablename__ = 'artists_genres'
+    # __table_args__ = (db.UniqueConstraint
+    #                 ('artist_id', 'genre_id', 
+    #                 name='unique_artist_genre'))       
+    id = db.Column(db.Integer,
+                    autoincrement=True,
+                    primary_key=True)
+    artist_id = db.Column(db.String(22),
+                    db.ForeignKey('artists.artist_id'),
+                    nullable=False)
+    genre = db.Column(db.String(30),
+                    db.ForeignKey('genres.genre'),
+                    nullable=False)
 
-#     __tablename__ = 'artists_genres'
-#     __table_args__ = (db.UniqueConstraint
-#                     ('artist_id', 'genre_id', 
-#                     name='unique_artist_genre'))       
-#     id = db.Column(db.Integer,
-#                     autoincrement=True,
-#                     primary_key=True)
-#     artist_id = db.Column(db.String(22),
-#                     ForeignKey(artists.artist_id),
-#                     nullable=False)
-#     genre = db.Column(db.String(30),
-#                     ForeignKey(genres.genre),
-#                     nullable=False)
+    artist = db.relationship('Artist', back_populates='artist_genres')
+    genres = db.relationship('Genre', back_populates='artist_genres')
 
-#     artist = db.relationship('Artist', back_populates='artist_genres')
-#     genres = db.relationship('Genre', back_populates='artist_genres')
+    def __repr__(self):
+        return f'<ArtistGenre id={self.id} artist_id={self.artist_id} genre={self.genre}>'
 
-#     def __repr__(self):
-#         return f'<ArtistGenre id={id} artist_id={artist_id} genre={genre}>'
+class Genre(db.Model):
+    '''Music genres.'''
 
-# class Genre(db.Model):
-#     '''Music genres.'''
+    __tablename__ = 'genres'
 
-#     __tablename__ = 'genres'
+    genre = db.Column(db.String(30),
+                    primary_key=True,
+                    nullable=False)
+    name = db.Column(db.String(30),
+                    nullable=False)
+    is_seed = db.Column(db.Boolean,
+                        default=False,
+                        nullable=False)
 
-#     genre = db.Column(db.String(30),
-#                     primary_key=True,
-#                     nullable=False)
-#     is_seed = db.Column(db.Boolean,
-#                         default=False,
-#                         nullable=False)
+    artist_genres = db.relationship('ArtistGenre', back_populates='genres')
 
-#     artist_genres = db.relationship('ArtistGenre', back_populates='genres')
-
-#     def __repr__(self):
-#         return f"<Genre genre={genre}>"
+    def __repr__(self):
+        return f"<Genre genre={self.genre}>"
     
 
                 

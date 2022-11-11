@@ -1,37 +1,75 @@
 /* to round profile photos: */
 img {
     border-radius: 50%;
+    width: 50px;
   }
 
 /* To create nav lists without bullets */
-ul {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+
+button {
+  background-color: Transparent;
+  border: none;
+}
+
+button:active {
+  font-weight: bold;
+  color: green;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0; 
+  font-size: x-small;
+  display: inline-block;
+  list-style-position: inside;
+}
+
+#itemNav {
+  font-size: x-small;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+#profile {
+  
+}
+
+#navBar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 /* Style for buttons in itemNav  */
 .itemLink {
-
+  
 }
 
 /* Style for buttons in viewNav */
-
 .viewLink {
-
+  float: left;
+  font-size: small;
 }
 
 /* Style for buttons in Navigation bar */
 .navbar {
-  
+  float: left;
+  font-size: 40px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
-/* Style for buttons in display nav */
-.displayNav {
-
-}
 
 /* styling for curentView */
-.currViewLink {
-
+.currView {
+  font-size: small;
 }
