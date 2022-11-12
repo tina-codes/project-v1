@@ -627,6 +627,7 @@ def get_items_for_nav(item_type, user_id, timespan):
         tracks = get_items_by_ids(top_item_ids, item_type)
         tracklist = get_track_features(tracks)
         all_tracks = get_avg_for_tracks(top_item_ids)
+
         
     else:
         tracklist = []
@@ -643,7 +644,8 @@ def get_items_for_nav(item_type, user_id, timespan):
     items = [{'itemId': item_id, 'itemType': item_type,
             'displayText': displayText, 'featureData': all_tracks},
             tracklist]
-
+            
+    # print(items)
     return items
 
 ### Create function to delete user data, make sure there's some kind of confirmation

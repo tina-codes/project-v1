@@ -189,6 +189,8 @@ def get_items_json():
     viewOptions = crud.get_view_options_by_type(item_type)
     photo = session.get('photo')
 
+    # print({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo})
+
     return jsonify({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo})
 
 

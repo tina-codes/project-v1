@@ -92,20 +92,23 @@ function GetData() {
         .then((data) => {
             setViewOptions(data.viewOptions);
             setItems(data.items);
+            console.log(navType)
             setNavType(searchTerms.type);
+            console.log(navType)
             setSelectedItem(data.parentItem);
             setParentItem(data.parentItem);
             setProfilePhoto(data.photo);
+            console.log('######## Fetch Done')
             });
-            console.log("#########  Finishing Fetch Request  #########");
-            console.log('type:', type)
-            console.log('viewOptions:', viewOptions)
-            console.log('view:', view)
-            console.log('selectedItem:', selectedItem)
-            console.log('parentItem:', parentItem)
-            console.log('navType:', navType)
-            console.log('searchTerms:', searchTerms)
-            console.log('items:', items)
+            // console.log("#########  Finishing Fetch Request  #########");
+            // console.log('type:', type)
+            // console.log('viewOptions:', viewOptions)
+            // console.log('view:', view)
+            // console.log('selectedItem:', selectedItem)
+            // console.log('parentItem:', parentItem)
+            // console.log('navType:', navType)
+            // console.log('searchTerms:', searchTerms)
+            // console.log('items:', items)
     }, [searchTerms]);
 
     const [type, setType] = React.useState('track'); // Set by navbar onClick
@@ -119,17 +122,18 @@ function GetData() {
     
     const itemOptions = [];
 
-    console.log('#########  Creating Item Navs  #########')
-        console.log('type:', type)
-        console.log('viewOptions:', viewOptions)
-        console.log('view:', view)
-        console.log('selectedItem:', selectedItem)
-        console.log('parentItem:', parentItem)
-        console.log('navType:', navType)
-        console.log('searchTerms:', searchTerms)
-        console.log('items:', items)
-
+    // console.log('#########  Creating Item Navs  #########')
+    //     console.log('type:', type)
+    //     console.log('viewOptions:', viewOptions)
+    //     console.log('view:', view)
+    //     console.log('selectedItem:', selectedItem)
+    //     console.log('parentItem:', parentItem)
+    //     console.log('navType:', navType)
+    //     console.log('searchTerms:', searchTerms)
+    //     console.log('items:', items)
+    console.log(navType)
     for (const item of items) {
+        
         if ((navType === 'genre') || (navType === 'artist')) {
             const itemId = item[0]['itemId']
             const displayText = item[0]['displayText']
@@ -158,7 +162,7 @@ function GetData() {
             );
         };
     };
-
+    console.log(navType)
     // console.log("NavItems");
     // console.log(itemOptions);
 
@@ -191,7 +195,9 @@ function GetData() {
         console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle non track select");
         const parent = item[0]
         const tracklist = item[1]['items']
+        console.log(navType)
         setNavType('track')
+        console.log(navType)
         setItems(tracklist);
         setSelectedItem(parent);
         setParentItem(parent);
@@ -205,12 +211,24 @@ function GetData() {
                             'featureData': item.featureData,
                             'itemType': item.itemType});
         displayChart(selectedItem);
+        console.log(navType)
     };
 
     function handleNavClick(newType) {
         console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle Nav select");
-        // setNavType(newType);
+        // 
         setType(newType);
+        console.log(navType)
+        // setView('short_term');
+        // handleSearchTerms();
+        setSearchTerms({'type': newType, 'view': 'short_term'})
+    };
+
+    function handleNavClickTracks(newType) {
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle Nav select");
+        setNavType('track');
+        setType(newType);
+        console.log(navType)
         // setView('short_term');
         // handleSearchTerms();
         setSearchTerms({'type': newType, 'view': 'short_term'})
@@ -230,7 +248,7 @@ function GetData() {
                 <div className="row">
                     <div className="col">
                         <div id="navBar">
-                        <button className="navbar" id="track" onClick={() => handleNavClick('track')}>Track</button>
+                        <button className="navbar" id="track" onClick={() => handleNavClickTracks('track')}>Tracks</button>
                         <button className="navbar" id="artist" onClick={() => handleNavClick('artist')}>Artists</button>
                         <button className="navbar" id="genre" onClick={() => handleNavClick('genre')}>Genres</button>
                         <a href="/profile" className="navbar" id="profile"><img src={profilePhoto}/></a>
