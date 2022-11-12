@@ -1,4 +1,3 @@
-// React Components for Unwrapped
 let chart;
 
 function createChart(selectedItem) {
@@ -54,12 +53,61 @@ function createChart(selectedItem) {
     };
 
 
+function CreateItemNavs(props) {
+    return (
+        <li><button className="itemLink" id={props.itemId} onClick={() => props.handleNonTrackSelect(props.item)}> {props.displayText}</button></li>
+    );
+}
 
-
-
+function CreateItemNavsTrack(props) {
+    return (
+        <li><button className="itemLink" id={props.itemId} onClick={() => props.handleItemSelect(props.item)}> {props.displayText}</button></li>
+    );
+}
 
 // Main function that contains everything else
 function GetData() {
+
+    const [searchTerms, setSearchTerms] = React.useState({'type': 'track', 'view': 'short_term'})
+    
+    console.log("#########  Rendering GetData  #########");
+    // console.log('type:', type)
+    // console.log('viewOptions:', viewOptions)
+    // console.log('view:', view)
+    // console.log('selectedItem:', selectedItem)
+    // console.log('parentItem:', parentItem)
+    // console.log('navType:', navType)
+    // console.log('searchTerms:', searchTerms)
+    // console.log('items:', items)
+
+    const url = '/get-items';
+
+    React.useEffect(() => {
+        console.log('#########  Running UseEffect  #########')
+        // console.log(`type: ${type} searchTerms.type ${searchTerms.type}`)
+        // console.log(`view: ${view} searchTerms.view ${searchTerms.view}`)
+        const queryUrl = `${url}?item_type=${searchTerms.type}&timespan=${searchTerms.view}`
+        fetch(queryUrl)
+        .then((response) => response.json())
+        .then((data) => {
+            setViewOptions(data.viewOptions);
+            setItems(data.items);
+            setNavType(searchTerms.type);
+            setSelectedItem(data.parentItem);
+            setParentItem(data.parentItem);
+            setProfilePhoto(data.photo);
+            });
+            console.log("#########  Finishing Fetch Request  #########");
+            console.log('type:', type)
+            console.log('viewOptions:', viewOptions)
+            console.log('view:', view)
+            console.log('selectedItem:', selectedItem)
+            console.log('parentItem:', parentItem)
+            console.log('navType:', navType)
+            console.log('searchTerms:', searchTerms)
+            console.log('items:', items)
+    }, [searchTerms]);
+
     const [type, setType] = React.useState('track'); // Set by navbar onClick
     const [viewOptions, setViewOptions] = React.useState([]); // Set by fetch req
     const [view, setView] = React.useState('short_term'); // Set by viewNav onClick
@@ -68,52 +116,61 @@ function GetData() {
     const [parentItem, setParentItem] = React.useState({});
     const [navType, setNavType] = React.useState('track')
     const [profilePhoto, setProfilePhoto] = React.useState('')
-    // const [artistCall, setArtistCall] = React.useState(false);
     
-    console.log("Rendering GetData component");
-    const url = '/get-items';
+    const itemOptions = [];
 
-    React.useEffect(() => {
-        console.log('Run UseEffect')
-        console.log(type)
-        console.log(view)
-        const queryUrl = `${url}?item_type=${type}&timespan=${view}`
-        fetch(queryUrl)
-        .then((response) => response.json())
-        .then((data) => {
-            setViewOptions(data.viewOptions);
-            setItems(data.items);
-            setSelectedItem(data.parentItem);
-            setParentItem(data.parentItem);
-            setNavType(type);
-            setProfilePhoto(data.photo);
-            });
-    }, [type, view]);
+    console.log('#########  Creating Item Navs  #########')
+        console.log('type:', type)
+        console.log('viewOptions:', viewOptions)
+        console.log('view:', view)
+        console.log('selectedItem:', selectedItem)
+        console.log('parentItem:', parentItem)
+        console.log('navType:', navType)
+        console.log('searchTerms:', searchTerms)
+        console.log('items:', items)
 
-    // React.useEffect(() => {
-    //     console.log('CALLING TOP ARTISTS');
-    //     fetch(`/api/topartists?sendReq=${artistCall}`)
-    //     .then(() => {
-    //         console.log('Top Artists Complete')
-    //     });
-    //     return setArtistCall(true)
-    // }, []);
-        
-        
+    for (const item of items) {
+        if ((navType === 'genre') || (navType === 'artist')) {
+            const itemId = item[0]['itemId']
+            const displayText = item[0]['displayText']
+            console.log('### CreateItemNavs Nontracks ###')
+            itemOptions.push(
+                <CreateItemNavs 
+                    key={itemId}
+                    id={itemId}
+                    displayText={displayText}
+                    handleNonTrackSelect={handleNonTrackSelect}
+                    item={item}
+                />
+            );
+        } else {
+            console.log('### CreateItemNavs Tracks ###')
+            // console.log(item.itemId)
+            // console.log(item.displayText)
+            itemOptions.push(
+                <CreateItemNavsTrack 
+                    key={item.itemId}
+                    id={item.itemId}
+                    displayText={item.displayText}
+                    item={item}
+                    handleItemSelect={handleItemSelect}
+                />
+            );
+        };
+    };
+
+    // console.log("NavItems");
+    // console.log(itemOptions);
 
     if (selectedItem != {}) {
         createChart(selectedItem);
     };
 
     const viewOptionsList = [];    
-    
-    // console.log(items)
 
-    // const itemOptions = createItemNavs(items);
-    
     for (const option of viewOptions) {
         viewOptionsList.push(
-          <button className="viewLink" key= {option.timespan} id={option.timespan} onClick={() => setView(option.timespan)}>{option.displayText}</button>
+          <button className="viewLink" key= {option.timespan} id={option.timespan} onClick={() => handleViewSelect(option.timespan)}>{option.displayText}</button>
         );
     };
 
@@ -124,31 +181,25 @@ function GetData() {
         createChart(selectedItem);
     };
 
-    function handleViewSelect() {
-
-    }
-
-
     function handleParentSelect(parentItem) {
-        console.log("Handle parent select");
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle parent select");
         setSelectedItem(parentItem);
         displayChart(selectedItem);
     };
 
     function handleNonTrackSelect(item) {
-        console.log("Handle non track select");
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle non track select");
         const parent = item[0]
         const tracklist = item[1]['items']
-        console.log(tracklist)
         setNavType('track')
+        setItems(tracklist);
         setSelectedItem(parent);
         setParentItem(parent);
-        setItems(tracklist);
         displayChart(selectedItem);
     };
 
     function handleItemSelect(item) {
-        console.log("Handle item select");
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle track select");
         setSelectedItem({'itemId': item.itemId,
                             'displayText': item.displayText,
                             'featureData': item.featureData,
@@ -157,53 +208,19 @@ function GetData() {
     };
 
     function handleNavClick(newType) {
-        console.log("Handle nav click");
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle Nav select");
+        // setNavType(newType);
         setType(newType);
-        setView('short_term');
+        // setView('short_term');
+        // handleSearchTerms();
+        setSearchTerms({'type': newType, 'view': 'short_term'})
     };
 
-    function CreateItemNavs(props) {
-
-        console.log("Creating Item Navs")
-        console.log(props.type)
-        const itemOptions = [];
-        
-        if ((props.type === 'genre') || (props.type === 'artist')) {
-            console.log('type not track')
-            console.log(props.type)
-            for (const item of props.items) {
-                const itemId = item[0]['itemId']
-                const displayText = item[0]['displayText']
-                // // console.log(thing)
-                // if (thing.length > 0) {
-                //     // console.log(thing[0])
-                //     console.log(thing[0]['itemId'])
-                //     console.log(thing[0]['displayText'])
-                // } else {
-                //     console.log('Empty')
-                //     // console.log(thing)
-                // };
-                // // console.log(thing[0]['itemId'])
-                // // const displayText = item[0]['displayText']
-                itemOptions.push(
-                    <li key={itemId}><button className="itemLink" id={itemId} onClick={() => handleNonTrackSelect(item)}>{displayText}</button></li>
-                    // <li key={item.itemId}><button className="itemLink"  id={item.itemId} onClick={() => handleItemSelect(item)}>{item.displayText}</button></li>
-                );
-                };
-        } else {
-            console.log('type is track')
-            console.log(props.type)
-            for (const item of props.items) {
-                itemOptions.push(
-                    <li key={item.itemId}><button className="itemLink"  id={item.itemId} onClick={() => handleItemSelect(item)}>{item.displayText}</button></li>
-                );
-                };
-        };
-        return (
-            <React.Fragment>
-                {itemOptions}
-            </React.Fragment> 
-            );
+    function handleViewSelect(newView) {
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle view select");
+        setView(newView);
+        // handleSearchTerms();
+        setSearchTerms({'type': type, 'view': newView})
     };
 
 
@@ -213,7 +230,7 @@ function GetData() {
                 <div className="row">
                     <div className="col">
                         <div id="navBar">
-                        <button className="navbar" id="track" onClick={() => handleNavClick('tracks')}>Track</button>
+                        <button className="navbar" id="track" onClick={() => handleNavClick('track')}>Track</button>
                         <button className="navbar" id="artist" onClick={() => handleNavClick('artist')}>Artists</button>
                         <button className="navbar" id="genre" onClick={() => handleNavClick('genre')}>Genres</button>
                         <a href="/profile" className="navbar" id="profile"><img src={profilePhoto}/></a>
@@ -234,7 +251,7 @@ function GetData() {
                             </ol>
                             </div>
                             <div id="itemNav">
-                            <ol><CreateItemNavs items={items} type={navType} /></ol>
+                            <ol>{itemOptions}</ol>
                             </div>
                         </div>
                     </div>
@@ -257,58 +274,5 @@ function GetData() {
     );
 }
 
-
-
-
 ReactDOM.render(<GetData />, document.querySelector('#root'));
 
-
-// const displayNavWindow = [];
-        
-    // if (selectedItem === 'top_tracks') {
-    //     const displayNav = [
-    //         'acousticness',
-    //         'danceability',
-    //         'energy',
-    //         'instrumentalness',
-    //         'liveness',
-    //         'speechiness',
-    //         'valence'];
-
-    //     for (const option of displayNav) {
-    //         displayNavWindow.push(
-    //             <button className="displayNav" key={option} id={option}>{option}</button>
-    //         );
-    //     };
-    // } else {
-    //     for (const item in items) {
-    //         if (item.itemID === selectedItem) {
-    //             console.log('later');
-    //             console.log(items);
-    //             console.log(selectedItem);
-    //             displayNavWindow.push(
-    //                 <div>{item.artist} - {item.name}</div>
-    //             );
-    //         };
-    //     };
-    // };
-
-      // React.useEffect(() => {
-    //     let apiRunning = true;
-    //     fetch(queryUrl)
-    //     .then((response) => {
-    //         if (apiRunning) {
-    //             response.json()
-    //             .then((data) => {
-    //                 setViewOptions(data.viewOptions);
-    //                 setItems(data.items);
-    //                 setSelectedItem(data.parentItem);
-    //                 setParentItem(data.parentItem);
-    //             });
-    //         };
-    //     });
-    //     return () => {
-    //         apiRunning = false;
-    //     };
-    // }, [type, view]);
-    

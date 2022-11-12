@@ -179,9 +179,12 @@ def get_user_artists():
 @app.route('/get-items')
 def get_items_json():
     """Return a JSON response with nav items."""
+
     user_id = session.get('user')
     timespan = request.args.get('timespan')
     item_type = request.args.get('item_type')
+    print("getitems params")
+    print(item_type, user_id, timespan)
     parentItem, items = crud.get_items_for_nav(item_type, user_id, timespan)
     viewOptions = crud.get_view_options_by_type(item_type)
     photo = session.get('photo')
