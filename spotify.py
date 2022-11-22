@@ -27,7 +27,7 @@ SPOTIFY_TOKEN_URL = SPOTIFY_AUTH_BASE_URL.format('api/token')
 
 CLIENT_SIDE_URL = os.environ['CLIENT_SIDE_URL']
 PORT = os.environ['PORT']
-SCOPE = 'playlist-modify-public user-top-read user-read-private'
+SCOPE = 'playlist-modify-public user-top-read user-read-private user-follow-read'
 STATE = ''
 SHOW_DIALOG_bool = True
 SHOW_DIALOG_str = str(SHOW_DIALOG_bool).lower()
@@ -95,4 +95,10 @@ def get_artist_top_tracks(auth_header, query_string):
     url = '{}/{}/{}/{}?market=US'.format(SPOTIFY_API_URL, 'artists', query_string, 'top-tracks')
     res = requests.get(url, headers=auth_header)
     
+    return res
+
+def check_user_follows(auth_header, query_string):
+    url = '{}/{}/following/contains?type=user&ids={}'.format(SPOTIFY_API_URL, 'me', query_string)
+    res = requests.get(url, headers=auth_header)
+
     return res

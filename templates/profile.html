@@ -1,18 +1,68 @@
 {% extends 'base.html' %}
+{% block head %}
+<style>
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+  #basic-demo { height: 200px; }
+  #datavis { height: 200px; }
+  #force-layout { height: 500px; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+{% endblock %}
 
 {% block body %}
-<h1>Welcome to Spotify Unwrapped</h1>
-    <div>
-      <img src="{{ photo }}">
-        <h2>{{ name }}</h1>
-          <p>
-            <a href="/unwrapped">Return to Unwrapped</a>
-          </p>
-          <p>
-            <a href="/logout">Log Out</a>
-          </p>
-        </div>
-    </div>
-</p>
+<div id="profile">
+  <h1>Welcome to Spotify Unwrapped</h1>
+  <div>
+      <h2>
+        <img class="profileImg" src="{{ current_user.profile_photo }}">
+          {{ current_user.display_name }}
+      </h2>
+      <p>Last data refresh: {{ last_refresh }} | </p>
+      <p>
+        <a href="/unwrapped">Return to Unwrapped</a> | 
+        <a href="/logout">Log Out</a>
+      </p>
+      <h3>Following</h3>
+      {% for followed in following %}
+      <a href="/unwrapped/{{ followed.user_id }}">
+      <img class="profileImg" src="{{ followed.profile_photo }}"/>
+      </a>
+      {{ followed.display_name }}
+      {% endfor %}
+      <h3>Followers</h3>
+      {% for follower in followers %}
+      <a href="/unwrapped/{{ follower.user_id }}"></a>
+      <img class="profileImg" src="{{ follower.profile_photo }}"/>
+      </a>
+      {{ follower.display_name }}
+      {% endfor %}
+      <p>
+        {{ tastes.decade_labels }} :: {{ tastes.decade_count }}
+      </p>
+      <p>
+        {{ tastes.top_genre_labels }} :: {{ tastes.top_genre_counts }}
+      </p>
+  </div>
+</div>
 
+<div id="datavis">
+  <svg></svg>
+</div>
+
+<div id="basic-demo">
+  <svg></svg>
+</div>
+<div>
+  <p>
+    <h3><a href="/deleteuser">Delete My Data</a> </h3>
+  </p>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="/static/js/profile.js"></script>
+<script src="/static/js/d3.js"></script>
 {% endblock %}

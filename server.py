@@ -20,8 +20,6 @@ app.jinja_env.undefined = StrictUndefined
 def show_homepage():
     '''Show the application's homepage.'''
 
-    # print(f"homepage: {datetime.now()}") #######
-
     return render_template('homepage.html')
 
 @app.route('/unwrapped')
@@ -29,12 +27,28 @@ def unwrapped():
     '''Load page if user is logged in, redirect to homepage if not.'''
 
     if 'user' in session:
-        user_id = session.get('user')
+        session['userview'] = session['user']
+        return render_template('unwrapped.html')
 
-        current_user = crud.get_user_by_id(user_id)
+    else:
+        return redirect('/')
 
-        return render_template('unwrapped.html',
-                                user=current_user)
+# @app.route('/unwrapped/<user_id>')
+# def unwrapped_friends_view(friend_id):
+#     '''Load Unwrapped with friend's music.'''
+
+#     session['friend'] = friend_id
+
+#     return render_template('unwrapped.html')
+
+@app.route('/unwrapped/<user_id>')
+def unwrapped_friend(user_id):
+    '''Load page if user is logged in, redirect to homepage if not.'''
+
+    if 'user' in session:
+        session['userview'] = user_id
+
+        return render_template('unwrapped.html')
 
     else:
         return redirect('/')
@@ -42,7 +56,6 @@ def unwrapped():
 @app.route('/login')
 def login():
     ''' Send user to Spotify for authorization'''
-    # print(f"login: {datetime.now()}") #######
 
     return redirect(spotify.AUTH_URL)
 
@@ -63,18 +76,40 @@ def loggedin():
     '''Confirm user is logged in and request profile data'''
     if 'auth_header' in session:
         auth_header = session['auth_header']
+        timestamp = datetime.now().timestamp()
         
         res = spotify.get_users_profile(auth_header)
         api_response = res.json()
-        current_user = crud.create_update_user(api_response)
-        session['user'] = api_response['id']
-        session['photo'] = api_response['images'][0]['url']
-        session['name'] = api_response['display_name']
+        current_user, query_string = crud.create_update_user(api_response, timestamp)
 
-        db.session.commit()
+        # user_id = api_response['id']
+        # session['user'] = user_id
+        # session['photo'] = api_response['images'][0]['url']
+        # session['name'] = api_response['display_name']
 
-        if valid_token(api_response):
-            return redirect('/api/topitems')
+        user_id = current_user.user_id
+        session['user'] = user_id
+        session['photo'] = current_user.profile_photo
+        session['name'] = current_user.display_name
+
+        last_data_pull = crud.get_last_data_refresh_date(user_id)
+
+        if len(query_string) > 0:
+            res2 = spotify.check_user_follows(auth_header, query_string)
+            following_check = res2.json()
+            crud.create_user_relationship(current_user, query_string, following_check)
+            if valid_token(following_check):
+                if last_data_pull is None:
+                    return redirect('/api/topitems')
+                else:
+                    return redirect('/unwrapped')
+
+        else:
+            if valid_token(api_response):
+                if last_data_pull is None:
+                    return redirect('/api/topitems')
+                else:
+                    return redirect('/unwrapped')
 
     return redirect('/')
 
@@ -82,19 +117,34 @@ def loggedin():
 def show_profile():
     '''Show user profile.'''
 
-    name = session.get('name')
-    photo = session.get('photo')
+    user_id = session.get('user')
+    current_user = crud.get_user_by_id(user_id)
+    tastes = crud.get_users_taste_profile(user_id)
+    following, followers = crud.get_user_friends(user_id)
+    last_data_pull = crud.get_last_data_refresh_date(user_id)
+    last_refresh = datetime.fromtimestamp(last_data_pull).strftime('%B %d, %Y')
 
     return render_template('profile.html',
-                            photo=photo,
-                            name=name)
+                            current_user=current_user,
+                            last_refresh=last_refresh,
+                            tastes=tastes,
+                            following=following,
+                            followers=followers)
+
+@app.route('/deleteuser')
+def delete_user_data():
+    '''Delete user's data and profile.'''
+    user_id = session.get('user')
+    crud.delete_user_data(user_id)
+
+    return redirect('/')
+
 
 @app.route('/logout')
 def log_out():
     '''Log user out.'''
 
-    session['user'] = None
-    session.modified = True
+    session.clear()
 
     return redirect('/')
 
@@ -129,7 +179,6 @@ def get_user_tracks():
             api_response = res.json()
             crud.update_artists(api_response)
 
-    # return redirect('/unwrapped')
     return redirect('/api/topartists')
 
 @app.route('/api/topartists')
@@ -150,46 +199,53 @@ def get_user_artists():
         for timespan in timespans:
             res = spotify.get_users_top_items(auth_header, 'artists', timespan)
             artists = res.json()
-            print(f"Calling create_top_artists for user_id {user_id}, timespan {timespan}")
+
             artist_queries.extend(crud.create_top_artists(artists, user_id, timestamp, timespan))
-        # print(f"Top artists pulled: {datetime.now()}") ##########
 
-        #Get top tracks for each artist
-
-        # print(f"artist_queries: {artist_queries}") ##########
         for query_string in artist_queries:
-            # print(f"query_string: {query_string}") ##########
             feature_queries = []
             res = spotify.get_artist_top_tracks(auth_header, query_string)
             api_response = res.json()
             feature_queries.append(crud.create_artist_tracks(api_response))
 
-            print(f"157 feature_queries: {feature_queries}") ##########
             for query_string in feature_queries:
                 if len(query_string) > 0:
-                    print(f"159 feature_queries: {feature_queries}") ##########
                     res = spotify.get_audio_features(auth_header, query_string)
                     api_response = res.json()
                     crud.create_audio_features(api_response)
-        print(f"end artists top tracks: {datetime.now()}") ##########
 
     return redirect('/unwrapped')
 
 
+# @app.route('/get-items')
+# def get_items_json():
+#     '''Return a JSON response with nav items.'''
+    
+#     if 'friend' in session:
+#         user_id = session.get('friend')
+#     else:
+#         user_id = session.get('user')
+        
+#     photo = session.get('photo')
+#     timespan = request.args.get('timespan')
+#     item_type = request.args.get('item_type')
+#     parentItem, items = crud.get_items_for_nav(item_type, user_id, timespan)
+#     viewOptions = crud.get_view_options_by_type(item_type)
+
+#     return jsonify({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo})
+
 @app.route('/get-items')
 def get_items_json():
-    """Return a JSON response with nav items."""
-
-    user_id = session.get('user')
+    '''Return a JSON response with nav items.'''
+    
+    curr_user_id = session.get('user')
+    user_id = session.get('userview')
+        
+    photo = session.get('photo')
     timespan = request.args.get('timespan')
     item_type = request.args.get('item_type')
-    print("getitems params")
-    print(item_type, user_id, timespan)
     parentItem, items = crud.get_items_for_nav(item_type, user_id, timespan)
     viewOptions = crud.get_view_options_by_type(item_type)
-    photo = session.get('photo')
-
-    # print({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo})
 
     return jsonify({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo})
 

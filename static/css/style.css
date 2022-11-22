@@ -1,21 +1,51 @@
-/* to round profile photos: */
-img {
+/* Page styling */
+body {
+  background-color: #191414;
+  color: #FFFFFF;
+  }
+
+/* Image styling */
+.profileImg {
     border-radius: 50%;
     width: 50px;
   }
 
-/* To create nav lists without bullets */
+.artistImg {
+  width: 75px;
+}
 
+/* Button/Link styling */
 button {
   background-color: Transparent;
   border: none;
+  color: #FFFFFF;
 }
 
 button:active {
-  font-weight: bold;
-  color: green;
+  /* font-weight: bold; */
+  color: #1db954;
 }
 
+.active {
+  font-weight: bold;
+  color: #1db954;
+}
+
+.login {
+  background-color: #1db954;
+  border: none;
+  color:#FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+/* Item nav styling */
 ol {
   list-style-type: none;
   padding: 0; 
@@ -25,21 +55,34 @@ ol {
   list-style-position: inside;
 }
 
+.itemLink {
+  
+}
+
 #itemNav {
   font-size: x-small;
   height: 80vh;
   overflow-y: auto;
 }
 
-#profile {
-  
+/* Style for buttons in viewNav */
+.viewLink {
+  float: left;
+  font-size: small;
+  font-weight: bold;
 }
 
-#navBar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+/* Style for buttons in Navigation bar */
+.navbar {
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+#profile {
+  
 }
 
 #footer {
@@ -49,27 +92,24 @@ ol {
   width: 40%;
 }
 
-/* Style for buttons in itemNav  */
-.itemLink {
-  
-}
-
-/* Style for buttons in viewNav */
-.viewLink {
+.detailDisplay {
   float: left;
   font-size: small;
-}
-
-/* Style for buttons in Navigation bar */
-.navbar {
-  float: left;
-  font-size: 40px;
-  margin-right: 25px;
-  margin-left: 25px;
+  line-height: .6;
+  padding-right: 10px;
 }
 
 
 /* styling for curentView */
 .currView {
   font-size: small;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }

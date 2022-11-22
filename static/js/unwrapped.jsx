@@ -1,6 +1,6 @@
 let chart;
 
-function createChart(selectedItem) {
+function createChart(chartItem) {
 
     if (chart) {
         chart.destroy();
@@ -18,15 +18,14 @@ function createChart(selectedItem) {
                 'speechiness',
                 'valence'],
             datasets: [{
-                // label: selectedItem.displayText,
-                data: selectedItem.featureData,
+                data: chartItem.featureData.slice(0, 7),
                 fill: true,
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                borderColor: 'rgb(255, 99, 132)',
-                pointBackgroundColor: 'rgb(255, 99, 132)',
+                backgroundColor: 'rgba(30, 215, 96, 0.2)',
+                borderColor: 'rgb(30, 215, 96)',
+                pointBackgroundColor: 'rgb(30, 215, 96)',
                 pointBorderColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
-                pointHoverBorderColor: 'rgb(255, 99, 132)'
+                pointHoverBorderColor: 'rgb(30, 215, 96)'
             }, ]
             },
         options: {
@@ -35,19 +34,32 @@ function createChart(selectedItem) {
                     display: false
                 },
                 title: {
-                    display: true,
-                    text: selectedItem.displayText
+                    display: false,
+                    text: chartItem.displayText
                 }
             },
             scales: {
                 r: {
                     angleLines: {
-                        display: false
+                        // display: false
+                        color: 'rgba(255, 255, 255, 0.2)'
+                    },
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.7)'
+                    },
+                    pointLabels: {
+                        color: 'rgba(255, 255, 255)'
+                    },
+                    ticks: {
+                        color: 'rgba(255, 255, 255)',
+                        backdropColor: 'rgba(25, 20, 20, 0.5)'
                     },
                     suggestedMin: 0,
-                    suggestedMax: 1
-                }
-            }
+                    suggestedMax: 1,
+                },
+                
+            },
+
         },
         });
     };
@@ -55,189 +67,177 @@ function createChart(selectedItem) {
 
 function CreateItemNavs(props) {
     return (
-        <li><button className="itemLink" id={props.itemId} onClick={() => props.handleNonTrackSelect(props.item)}> {props.displayText}</button></li>
+        <li key={props.itemId}><button className="itemLink" id={props.itemId} onClick={() => props.handleNonTrackSelect(props.item)}> {props.displayText}</button></li>
     );
 }
 
 function CreateItemNavsTrack(props) {
     return (
-        <li><button className="itemLink" id={props.itemId} onClick={() => props.handleItemSelect(props.item)}> {props.displayText}</button></li>
+        <li key={props.itemId}><button className="itemLink" id={props.itemId} onClick={() => props.handleItemSelect(props.item)}> {props.displayText}</button></li>
     );
 }
 
+function ItemDetails(props) {
+    const pitchNotation = ['C', 'C♯/D♭', 'D', 'D♯/E♭', 'E', 'F', 'F♯/G♭', 'G', 'G♯/A♭', 'A', 'A♯/B♭', 'B']
+    const modeList = ['Minor', 'Major']
+    const pitchInt = Math.round(props.pitchNotation)
+    const pitch = pitchNotation[pitchInt]
+    const modeInt = Math.round(props.mode)
+    const mode = modeList[modeInt]
+
+
+    return (
+        <React.Fragment>
+            <h6>{props.displayText}</h6>
+            <div className="detailDisplay"><img className="artistImg" src={props.imgUrl}/></div>
+            <div className="detailDisplay">
+            <p>Popularity: {Math.round(props.popularity)} | Loudness: {Math.round(props.loudness)} | Tempo: {Math.round(props.tempo)} BPM</p>
+            <p>Time Signature: {Math.round(props.timeSignature)}/4 | Key: {pitch} | Mode: {mode}</p>
+            <p>Duration: {props.duration}</p>
+            </div>
+        </React.Fragment>
+    );
+};
+
 // Main function that contains everything else
 function GetData() {
-
-    const [searchTerms, setSearchTerms] = React.useState({'type': 'track', 'view': 'short_term'})
-    
-    console.log("#########  Rendering GetData  #########");
-    // console.log('type:', type)
-    // console.log('viewOptions:', viewOptions)
-    // console.log('view:', view)
-    // console.log('selectedItem:', selectedItem)
-    // console.log('parentItem:', parentItem)
-    // console.log('navType:', navType)
-    // console.log('searchTerms:', searchTerms)
-    // console.log('items:', items)
-
-    const url = '/get-items';
-
-    React.useEffect(() => {
-        console.log('#########  Running UseEffect  #########')
-        // console.log(`type: ${type} searchTerms.type ${searchTerms.type}`)
-        // console.log(`view: ${view} searchTerms.view ${searchTerms.view}`)
-        const queryUrl = `${url}?item_type=${searchTerms.type}&timespan=${searchTerms.view}`
-        fetch(queryUrl)
-        .then((response) => response.json())
-        .then((data) => {
-            setViewOptions(data.viewOptions);
-            setItems(data.items);
-            console.log(navType)
-            setNavType(searchTerms.type);
-            console.log(navType)
-            setSelectedItem(data.parentItem);
-            setParentItem(data.parentItem);
-            setProfilePhoto(data.photo);
-            console.log('######## Fetch Done')
-            });
-            // console.log("#########  Finishing Fetch Request  #########");
-            // console.log('type:', type)
-            // console.log('viewOptions:', viewOptions)
-            // console.log('view:', view)
-            // console.log('selectedItem:', selectedItem)
-            // console.log('parentItem:', parentItem)
-            // console.log('navType:', navType)
-            // console.log('searchTerms:', searchTerms)
-            // console.log('items:', items)
-    }, [searchTerms]);
-
+    const [searchTerms, setSearchTerms] = React.useState({'type': 'track', 'view': 'short_term'});
     const [type, setType] = React.useState('track'); // Set by navbar onClick
     const [viewOptions, setViewOptions] = React.useState([]); // Set by fetch req
     const [view, setView] = React.useState('short_term'); // Set by viewNav onClick
     const [items, setItems] = React.useState([]); // Set by fetch req
     const [selectedItem, setSelectedItem] = React.useState({}); // set by itemNav onClick
     const [parentItem, setParentItem] = React.useState({});
-    const [navType, setNavType] = React.useState('track')
-    const [profilePhoto, setProfilePhoto] = React.useState('')
-    
-    const itemOptions = [];
+    const [navType, setNavType] = React.useState('track');
+    const [profilePhoto, setProfilePhoto] = React.useState('');
 
-    // console.log('#########  Creating Item Navs  #########')
-    //     console.log('type:', type)
-    //     console.log('viewOptions:', viewOptions)
-    //     console.log('view:', view)
-    //     console.log('selectedItem:', selectedItem)
-    //     console.log('parentItem:', parentItem)
-    //     console.log('navType:', navType)
-    //     console.log('searchTerms:', searchTerms)
-    //     console.log('items:', items)
-    console.log(navType)
-    for (const item of items) {
+    const url = '/get-items';
+
+
+    React.useEffect(() => {
+        const queryUrl = `${url}?item_type=${searchTerms.type}&timespan=${searchTerms.view}`
+        fetch(queryUrl)
+        .then((response) => response.json())
+        .then((data) => {
+            setViewOptions(data.viewOptions);
+            setItems(data.items);
+            setNavType(searchTerms.type);
+            setSelectedItem(data.parentItem);
+            setParentItem(data.parentItem);
+            setProfilePhoto(data.photo);
+            displayChart(data.parentItem);
+        });
+    }, [searchTerms]);
+
+    const createItemOptions = React.useMemo(() => {
+        const itemOptions = [];
+
+        for (const item of items) {
         
-        if ((navType === 'genre') || (navType === 'artist')) {
-            const itemId = item[0]['itemId']
-            const displayText = item[0]['displayText']
-            console.log('### CreateItemNavs Nontracks ###')
-            itemOptions.push(
-                <CreateItemNavs 
-                    key={itemId}
-                    id={itemId}
-                    displayText={displayText}
-                    handleNonTrackSelect={handleNonTrackSelect}
-                    item={item}
-                />
-            );
-        } else {
-            console.log('### CreateItemNavs Tracks ###')
-            // console.log(item.itemId)
-            // console.log(item.displayText)
-            itemOptions.push(
-                <CreateItemNavsTrack 
-                    key={item.itemId}
-                    id={item.itemId}
-                    displayText={item.displayText}
-                    item={item}
-                    handleItemSelect={handleItemSelect}
-                />
-            );
+            if ((navType === 'genre') || (navType === 'artist')) {
+                const itemId = item[0]['itemId']
+                const displayText = item[0]['displayText']
+                itemOptions.push(
+                    <CreateItemNavs 
+                        key={itemId}
+                        id={itemId}
+                        displayText={displayText}
+                        handleNonTrackSelect={handleNonTrackSelect}
+                        item={item}
+                    />
+                );
+            } else {
+                itemOptions.push(
+                    <CreateItemNavsTrack 
+                        key={item.itemId}
+                        id={item.itemId}
+                        displayText={item.displayText}
+                        item={item}
+                        handleItemSelect={handleItemSelect}
+                    />
+                );
+            };
         };
-    };
-    console.log(navType)
-    // console.log("NavItems");
-    // console.log(itemOptions);
+        return itemOptions
+    }, [navType, items]);
+    
+    console.log(profilePhoto)  //////////////////////////
+    const displayDetails = [];
 
-    if (selectedItem != {}) {
-        createChart(selectedItem);
+    if (selectedItem.featureData !== undefined) {
+        displayDetails.push(
+            <ItemDetails
+            key={selectedItem.itemId}
+            imgUrl={selectedItem.imgUrl}
+            displayText={selectedItem.displayText}
+            popularity={selectedItem.featureData[13]}
+            loudness={selectedItem.featureData[11]}
+            tempo={selectedItem.featureData[12]}
+            timeSignature={selectedItem.featureData[8]}
+            pitchNotation={selectedItem.featureData[9]}
+            mode={selectedItem.featureData[10]}
+            duration={selectedItem.featureData[7]}
+            />
+        );
     };
+
 
     const viewOptionsList = [];    
 
     for (const option of viewOptions) {
         viewOptionsList.push(
-          <button className="viewLink" key= {option.timespan} id={option.timespan} onClick={() => handleViewSelect(option.timespan)}>{option.displayText}</button>
+          <button className="viewLink" key={option.timespan} id={option.timespan} onClick={() => handleViewSelect(option.timespan)}>{option.displayText}</button>
         );
     };
 
-    function displayChart() {
+    function displayChart(chartItem) {
         if (chart) {
             chart.destroy();
         };
-        createChart(selectedItem);
+        createChart(chartItem);
     };
 
     function handleParentSelect(parentItem) {
-        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle parent select");
         setSelectedItem(parentItem);
-        displayChart(selectedItem);
+        displayChart(parentItem);
     };
 
     function handleNonTrackSelect(item) {
-        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle non track select");
         const parent = item[0]
         const tracklist = item[1]['items']
-        console.log(navType)
         setNavType('track')
-        console.log(navType)
         setItems(tracklist);
         setSelectedItem(parent);
         setParentItem(parent);
-        displayChart(selectedItem);
+        displayChart(parent);
     };
 
     function handleItemSelect(item) {
-        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle track select");
         setSelectedItem({'itemId': item.itemId,
                             'displayText': item.displayText,
+                            'imgUrl': item.imgUrl,
                             'featureData': item.featureData,
                             'itemType': item.itemType});
-        displayChart(selectedItem);
-        console.log(navType)
+        displayChart({'itemId': item.itemId,
+        'displayText': item.displayText,
+        'imgUrl': item.imgUrl,
+        'featureData': item.featureData,
+        'itemType': item.itemType});
     };
 
     function handleNavClick(newType) {
-        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle Nav select");
-        // 
         setType(newType);
-        console.log(navType)
-        // setView('short_term');
-        // handleSearchTerms();
-        setSearchTerms({'type': newType, 'view': 'short_term'})
+        setSearchTerms({'type': newType, 'view': 'short_term'});
     };
 
     function handleNavClickTracks(newType) {
-        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle Nav select");
         setNavType('track');
         setType(newType);
-        console.log(navType)
-        // setView('short_term');
-        // handleSearchTerms();
         setSearchTerms({'type': newType, 'view': 'short_term'})
     };
 
     function handleViewSelect(newView) {
-        console.log("!!!!!!!!!!!!!!!!!!!!!!!! Handle view select");
         setView(newView);
-        // handleSearchTerms();
         setSearchTerms({'type': type, 'view': newView})
     };
 
@@ -247,11 +247,24 @@ function GetData() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <div id="navBar">
-                        <button className="navbar" id="track" onClick={() => handleNavClickTracks('track')}>Tracks</button>
-                        <button className="navbar" id="artist" onClick={() => handleNavClick('artist')}>Artists</button>
-                        <button className="navbar" id="genre" onClick={() => handleNavClick('genre')}>Genres</button>
-                        <a href="/profile" className="navbar" id="profile"><img src={profilePhoto}/></a>
+                        <div className="row">
+                            <div className="col">
+                            <button className="navbar" id="track" onClick={() => handleNavClickTracks('track')}>Tracks</button>
+                            </div>
+                            <div className="col">
+                            <button className="navbar" id="artist" onClick={() => handleNavClick('artist')}>Artists</button>
+                            </div>
+                            <div className="col">
+                            <button className="navbar" id="genre" onClick={() => handleNavClick('genre')}>Genres</button>
+                            </div>
+                            <div className="col">
+                            <a href="/profile" className="navbar" id="profile">Profile</a>
+                            </div>
+                            <div className="col">
+                            <a href="/unwrapped" className="navbar" id="profilePhoto">
+                                <img className="profileImg" src={profilePhoto}/>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -269,13 +282,13 @@ function GetData() {
                             </ol>
                             </div>
                             <div id="itemNav">
-                            <ol>{itemOptions}</ol>
+                            <ol>{createItemOptions}</ol>
                             </div>
                         </div>
                     </div>
                     <div className="col">
-                        <div id="displayNav">
-                        {/* {displayNavWindow} */}
+                        <div id="detailDisplay">
+                            {displayDetails}
                         </div>
                         <div id="chartDisplay">
                             <canvas id="dataChart" width="400" height="400"></canvas>

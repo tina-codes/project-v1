@@ -15,6 +15,11 @@ def connect_to_db(flask_app, db_uri="postgresql:///spotifyunwrapped"):
 
     print("Connected to the db!")
 
+friend = db.Table('friends',
+    db.Column('friend_id', db.Integer, primary_key=True),
+    db.Column('f1_id', db.String(30), db.ForeignKey('users.user_id')),
+    db.Column('f2_id', db.String(30), db.ForeignKey('users.user_id'))
+)
 
 
 
@@ -30,11 +35,25 @@ class User(db.Model):
                         primary_key=True)
     display_name = db.Column(db.String(30))
     profile_photo = db.Column(db.String)
+    created = db.Column(db.Integer,
+                        nullable=False)
+    last_login = db.Column(db.Integer,
+                        nullable=False)
 
     items = db.relationship('Item', back_populates='user')
+    following = db.relationship('User',
+                            secondary=friend,
+                            primaryjoin=user_id == friend.c.f1_id,
+                            secondaryjoin=user_id == friend.c.f2_id,
+                            backref='followers')
+
+    def get_all_friends(self):
+        """ Get all friends, those you are following AND those following you. """
+        return self.following + self.followers
 
     def __repr__(self):
         return f"<User user_id={self.user_id}>"
+
 
 class Item(db.Model):
     """A user's top Spotify items.
@@ -72,7 +91,7 @@ class Album(db.Model):
                             nullable=False)
     name = db.Column(db.String(100), nullable=False)
     release_year = db.Column(db.Integer)
-    img_url = db.Column(db.String)
+    img_url = db.Column(db.String, default='')
 
     artist = db.relationship('Artist', back_populates='albums')
     tracks = db.relationship('Track', back_populates='album')
@@ -141,9 +160,9 @@ class Artist(db.Model):
     artist_id = db.Column(db.String(22),
                             primary_key=True)
     name = db.Column(db.String(100), nullable=False)
-    popularity = db.Column(db.Integer) #Only through artist item
-    followers = db.Column(db.Integer) #Only through artist item
-    img_url = db.Column(db.String) #Only through artist item
+    popularity = db.Column(db.Integer, default=0) #Only through artist item
+    followers = db.Column(db.Integer, default=0) #Only through artist item
+    img_url = db.Column(db.String, default='') #Only through artist item
     
     albums = db.relationship('Album', back_populates='artist')
     tracks = db.relationship('Track', back_populates='artist')
