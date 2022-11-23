@@ -1,0 +1,39 @@
+/* Page styling */
+body {
+  background-color: #191414;
+  color: #FFFFFF;
+}
+  
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #1db954;
+}
+
+a:active {
+  color: #1db954;
+}
+  
+/* Image styling */
+.profileImg {
+  border-radius: 50%;
+  width: 50px;
+}
+  
+.artistImg {
+  /* object-fit: contain; */
+  width: 75px;
+}
+  
+#footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+ }
+  
+ 
+  

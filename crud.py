@@ -580,6 +580,7 @@ def get_track_features(track_ids):
                     'itemType': 'track',
                     'displayText': f'{count}. {track.artist.name} - {track.name}',
                     'imgUrl': track.album.img_url,
+                    'album': f'Album: {track.album.name}',
                     'featureData': [feature.acousticness, # 0
                             feature.danceability, # 1
                             feature.energy, # 2
@@ -695,7 +696,7 @@ def get_tracklist(parent_type, parent_id):
     all_tracks = get_avg_for_tracks(track_ids)
 
     item = [{'itemId': parent_id, 'itemType': parent_type,
-            'displayText': displayText, 'imgUrl': '',
+            'displayText': displayText, 'imgUrl': '', 'album': '',
             'featureData': all_tracks}, {'items': tracklist}]
 
     return item, track_ids
@@ -736,7 +737,7 @@ def get_items_for_nav(item_type, user_id, timespan):
         all_tracks = get_avg_for_tracks(tracks)
 
     items = [{'itemId': item_id, 'itemType': item_type,
-            'displayText': displayText, 'imgUrl': '',
+            'displayText': displayText, 'imgUrl': '', 'album': '',
             'featureData': all_tracks}, tracklist]
 
     return items

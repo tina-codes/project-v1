@@ -67,13 +67,13 @@ function createChart(chartItem) {
 
 function CreateItemNavs(props) {
     return (
-        <li key={props.itemId}><button className="itemLink" id={props.itemId} onClick={() => props.handleNonTrackSelect(props.item)}> {props.displayText}</button></li>
+        <li key={props.itemId}><button className={props.className} id={props.itemId} onClick={() => props.handleNonTrackSelect(props.item)}> {props.displayText}</button></li>
     );
 }
 
 function CreateItemNavsTrack(props) {
     return (
-        <li key={props.itemId}><button className="itemLink" id={props.itemId} onClick={() => props.handleItemSelect(props.item)}> {props.displayText}</button></li>
+        <li key={props.itemId}><button className={props.className} id={props.itemId} onClick={() => props.handleItemSelect(props.item)}> {props.displayText}</button></li>
     );
 }
 
@@ -89,12 +89,13 @@ function ItemDetails(props) {
     return (
         <React.Fragment>
             <h6>{props.displayText}</h6>
-            <div className="detailDisplay"><img className="artistImg" src={props.imgUrl}/></div>
-            <div className="detailDisplay">
+            <div id="details" className="detailDisplay">
             <p>Popularity: {Math.round(props.popularity)} | Loudness: {Math.round(props.loudness)} | Tempo: {Math.round(props.tempo)} BPM</p>
             <p>Time Signature: {Math.round(props.timeSignature)}/4 | Key: {pitch} | Mode: {mode}</p>
             <p>Duration: {props.duration}</p>
+            <p>{props.album}</p>
             </div>
+            <div id="albumCover" className="detailDisplay"><img className="artistImg" src={props.imgUrl}/></div>
         </React.Fragment>
     );
 };
@@ -110,6 +111,7 @@ function GetData() {
     const [parentItem, setParentItem] = React.useState({});
     const [navType, setNavType] = React.useState('track');
     const [profilePhoto, setProfilePhoto] = React.useState('');
+    const [active, setActive] = React.useState('');
 
     const url = '/get-items';
 
@@ -126,11 +128,13 @@ function GetData() {
             setParentItem(data.parentItem);
             setProfilePhoto(data.photo);
             displayChart(data.parentItem);
+            setActive('parent')
         });
     }, [searchTerms]);
 
     const createItemOptions = React.useMemo(() => {
         const itemOptions = [];
+        console.log(active)
 
         for (const item of items) {
         
@@ -141,6 +145,7 @@ function GetData() {
                     <CreateItemNavs 
                         key={itemId}
                         id={itemId}
+                        className={active === itemId ? "active" : "inactive"}
                         displayText={displayText}
                         handleNonTrackSelect={handleNonTrackSelect}
                         item={item}
@@ -151,6 +156,7 @@ function GetData() {
                     <CreateItemNavsTrack 
                         key={item.itemId}
                         id={item.itemId}
+                        className={active === item.itemId ? "active" : "inactive"}
                         displayText={item.displayText}
                         item={item}
                         handleItemSelect={handleItemSelect}
@@ -158,10 +164,10 @@ function GetData() {
                 );
             };
         };
+        console.log(active)
         return itemOptions
-    }, [navType, items]);
+    }, [navType, items, active]);
     
-    console.log(profilePhoto)  //////////////////////////
     const displayDetails = [];
 
     if (selectedItem.featureData !== undefined) {
@@ -170,6 +176,7 @@ function GetData() {
             key={selectedItem.itemId}
             imgUrl={selectedItem.imgUrl}
             displayText={selectedItem.displayText}
+            album={selectedItem.album}
             popularity={selectedItem.featureData[13]}
             loudness={selectedItem.featureData[11]}
             tempo={selectedItem.featureData[12]}
@@ -186,9 +193,9 @@ function GetData() {
 
     for (const option of viewOptions) {
         viewOptionsList.push(
-          <button className="viewLink" key={option.timespan} id={option.timespan} onClick={() => handleViewSelect(option.timespan)}>{option.displayText}</button>
+          <button className={view === option.timespan ? "active" : "inactive"} key={option.timespan} id={option.timespan} onClick={() => handleViewSelect(option.timespan)}>{option.displayText}</button>
         );
-    };
+    };      
 
     function displayChart(chartItem) {
         if (chart) {
@@ -200,6 +207,7 @@ function GetData() {
     function handleParentSelect(parentItem) {
         setSelectedItem(parentItem);
         displayChart(parentItem);
+        setActive('parent');
     };
 
     function handleNonTrackSelect(item) {
@@ -216,6 +224,7 @@ function GetData() {
         setSelectedItem({'itemId': item.itemId,
                             'displayText': item.displayText,
                             'imgUrl': item.imgUrl,
+                            'album': item.album,
                             'featureData': item.featureData,
                             'itemType': item.itemType});
         displayChart({'itemId': item.itemId,
@@ -223,6 +232,8 @@ function GetData() {
         'imgUrl': item.imgUrl,
         'featureData': item.featureData,
         'itemType': item.itemType});
+        setActive(item.itemId);
+        console.log(active)
     };
 
     function handleNavClick(newType) {
@@ -248,23 +259,25 @@ function GetData() {
                 <div className="row">
                     <div className="col">
                         <div className="row">
+                            <div id="navigation">
                             <div className="col">
-                            <button className="navbar" id="track" onClick={() => handleNavClickTracks('track')}>Tracks</button>
+                            <button className={type === "track" ? "active" : "inactive"} id="track" onClick={() => handleNavClickTracks('track')}>Tracks</button>
                             </div>
                             <div className="col">
-                            <button className="navbar" id="artist" onClick={() => handleNavClick('artist')}>Artists</button>
+                            <button className={type === "artist" ? "active" : "inactive"} id="artist" onClick={() => handleNavClick('artist')}>Artists</button>
                             </div>
                             <div className="col">
-                            <button className="navbar" id="genre" onClick={() => handleNavClick('genre')}>Genres</button>
+                            <button className={type === "genre" ? "active" : "inactive"} id="genre" onClick={() => handleNavClick('genre')}>Genres</button>
                             </div>
                             <div className="col">
-                            <a href="/profile" className="navbar" id="profile">Profile</a>
+                            <a href="/profile"  id="profile">Profile</a>
                             </div>
                             <div className="col">
-                            <a href="/unwrapped" className="navbar" id="profilePhoto">
+                            <a href="/unwrapped" id="profilePhoto">
                                 <img className="profileImg" src={profilePhoto}/>
                                 </a>
                             </div>
+                            </div>  
                         </div>
                     </div>
                 </div>
@@ -276,10 +289,10 @@ function GetData() {
                             </div>
                         </div>
                         <div className="row">
-                            <div id="currentItem">
-                            <ol>
-                            <button className="currView" id={parentItem.itemId} onClick={() => handleParentSelect(parentItem)}>{parentItem.displayText}</button>
-                            </ol>
+                            <div>
+                            <ul>
+                            <button id="currentItem" className={active === "parent" ? "active" : "inactive"} id={parentItem.itemId} onClick={() => handleParentSelect(parentItem)}>{parentItem.displayText}</button>
+                            </ul>
                             </div>
                             <div id="itemNav">
                             <ol>{createItemOptions}</ol>
@@ -287,11 +300,13 @@ function GetData() {
                         </div>
                     </div>
                     <div className="col">
-                        <div id="detailDisplay">
-                            {displayDetails}
-                        </div>
-                        <div id="chartDisplay">
-                            <canvas id="dataChart" width="400" height="400"></canvas>
+                        <div id="dataPane">
+                            <div id="detailDisplay">
+                                {displayDetails}
+                            </div>
+                            <div id="chartDisplay">
+                                <canvas id="dataChart" width="400" height="400"></canvas>
+                            </div>
                         </div>
                     </div>
                 </div>

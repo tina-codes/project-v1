@@ -1,115 +1,83 @@
-/* Page styling */
-body {
-  background-color: #191414;
-  color: #FFFFFF;
-  }
-
-/* Image styling */
-.profileImg {
-    border-radius: 50%;
-    width: 50px;
-  }
-
-.artistImg {
-  width: 75px;
-}
-
-/* Button/Link styling */
 button {
-  background-color: Transparent;
-  border: none;
-  color: #FFFFFF;
+    background-color: Transparent;
+    border: none;
+}
+button:hover {
+    color: #1db954;
 }
 
-button:active {
-  /* font-weight: bold; */
-  color: #1db954;
+#artist, #track, #genre, #profile, #profilePhoto {
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    background-color: Transparent;
+    order: none; 
 }
 
-.active {
-  font-weight: bold;
-  color: #1db954;
+#viewNav {
+    float: left;
+    font-size: small;
+    font-weight: bold;
 }
 
-.login {
-  background-color: #1db954;
-  border: none;
-  color:#FFFFFF;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
-}
-
-/* Item nav styling */
 ol {
-  list-style-type: none;
-  padding: 0; 
-  margin: 0; 
-  font-size: x-small;
-  display: inline-block;
-  list-style-position: inside;
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    font-size: x-small;
+    font-weight: bold;
+    display: inline-block;
+    list-style-position: inside;
 }
-
-.itemLink {
-  
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    font-size: small;
+    font-weight: bold;
+    display: inline-block;
+    list-style-position: inside;
 }
 
 #itemNav {
-  font-size: x-small;
-  height: 80vh;
-  overflow-y: auto;
-}
-
-/* Style for buttons in viewNav */
-.viewLink {
-  float: left;
-  font-size: small;
-  font-weight: bold;
-}
-
-/* Style for buttons in Navigation bar */
-.navbar {
-  float: left;
-  font-size: 40px;
-  font-weight: bold;
-  margin-right: 25px;
-  margin-left: 25px;
-}
-
-#profile {
-  
-}
-
-#footer {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+    height: 80vh;
+    overflow-y: auto;
 }
 
 .detailDisplay {
-  float: left;
-  font-size: small;
-  line-height: .6;
-  padding-right: 10px;
+    float: left;
+    font-size: small;
+    line-height: .4;
+    padding-right: 10px;
 }
 
+#details {
+    width: 75%;
+}
 
-/* styling for curentView */
-.currView {
-  font-size: small;
+#albumCover {
+    width: 25%;
+}
+
+#detailDisplay {
+    height: 25%;
+}
+
+#chartDisplay {
+    height: 75%;
+}
+    
+.inactive {
+    color: #fff;
+}
+
+.active {
+    color: #1db954;
 }
 
 h6 {
-  font-weight: bold;
-}
-
-a {
-  text-decoration: none;
-  color: #ffffff;
+    font-weight: 600;
 }
