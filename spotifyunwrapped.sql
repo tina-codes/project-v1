@@ -602,8 +602,8 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 1jkGweRc6Ek8tqoBNW8snj	6AWdGez5g1jxpfl9XD4wI3	Happening in the Grey Area	2015	https://i.scdn.co/image/ab67616d0000b2733dd286c5a87898ef05e1b2fd
 79bRQkpKURXEnggeLVVxFq	7HeVXdOdMhLslVputGTZFQ	Timber Timbre	2009	https://i.scdn.co/image/ab67616d0000b273e17997b5e006fa2a01de51e1
 2U1BUKvsYIkUik7xEhAP0C	7HeVXdOdMhLslVputGTZFQ	Hot Dreams	2014	https://i.scdn.co/image/ab67616d0000b27323a8f42410bec13a9cca2a49
-2tWkGlUTyWZcVsqryi8U1q	7HeVXdOdMhLslVputGTZFQ	Creep On Creepin' On	2011	https://i.scdn.co/image/ab67616d0000b273d4e5892341fbc81751662d3b
 1peaWfJtqMtLmqKK79Cpxu	7HeVXdOdMhLslVputGTZFQ	Timber Timbre	2009	https://i.scdn.co/image/ab67616d0000b273491194f0fea2ddb08367e44d
+2tWkGlUTyWZcVsqryi8U1q	7HeVXdOdMhLslVputGTZFQ	Creep On Creepin' On	2011	https://i.scdn.co/image/ab67616d0000b273d4e5892341fbc81751662d3b
 49I6QGpLjGJYC9WlyMEPhG	7HeVXdOdMhLslVputGTZFQ	Sincerely, Future Pollution	2017	https://i.scdn.co/image/ab67616d0000b273f69a5e14a18f784fad63c42a
 5xINyvUV0bHyJxBdFTT8xI	7HeVXdOdMhLslVputGTZFQ	Dissociation Tapes, Volume 1	2021	https://i.scdn.co/image/ab67616d0000b273ae460712b0eebc55493b83e6
 4hTlbmXBvgkbvOmvKJFVP3	6CWTBjOJK75cTE8Xv8u1kj	Arts & Crafts: X	2013	https://i.scdn.co/image/ab67616d0000b273fe1358f9a10061d2e9c2ddef
@@ -697,6 +697,7 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 5haiFJR9CxVYTS3MpZX1NQ	3tJ9PkBOrG7hFkHeNM2tbw	Edição especial para alguém muito especial	1998	https://i.scdn.co/image/ab67616d0000b273daa58d8e6b46db67c73df93c
 4RPiOtWQymIOwQhazukSAu	3tJ9PkBOrG7hFkHeNM2tbw	Vale dos Reis: As Sete Portas da Energia	2012	https://i.scdn.co/image/ab67616d0000b273dbc810b6639541544adb1c33
 7bY4SH61zQPK4bnffxu64P	3tJ9PkBOrG7hFkHeNM2tbw	O Movimento	1994	https://i.scdn.co/image/ab67616d0000b273e5e7aefe5111dd924e534894
+14tdR8SF0t6aDvGW95d4EA	0BHm7qbh3ENxvXzkQAG7MP	Tudum Remix	2021	https://i.scdn.co/image/ab67616d0000b273d3b8a9f241d45e0999d8b584
 4Pjo3KsaX35V2VHKER39T2	3tJ9PkBOrG7hFkHeNM2tbw	Dose dupla 2	1995	https://i.scdn.co/image/ab67616d0000b273437160af6a89a1689d0333d5
 06Atso1IAfXUpWakHGZdjh	3tJ9PkBOrG7hFkHeNM2tbw	Carnaval Nostalgia	2016	https://i.scdn.co/image/ab67616d0000b2734d3f29b483ba2b253e7f4344
 6KMdn9HDIqcBPaaok0K34K	2ApaG60P4r0yhBoDCGD8YG	Either/Or	1997	https://i.scdn.co/image/ab67616d0000b27336e934bdc6f83dd9d022389d
@@ -708,8 +709,8 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 6cx4GVNs03Pu4ZczRnWiLd	4RnBFZRiMLRyZy0AzzTg2C	RTJ4	2020	https://i.scdn.co/image/ab67616d0000b2736494393bd8d0fc0d338af3d6
 0RTHMVF27KRMHIGnF7iLru	4xRYI6VqpkE3UwrDrAZL8L	Vinyl Days	2022	https://i.scdn.co/image/ab67616d0000b273539aa9de441d386859c5d181
 3YQRfcAxfqX4KJt4o0yCTm	6GEykX11lQqp92UVOQQCC7	Hip Hop 50: Vol. 1	2022	https://i.scdn.co/image/ab67616d0000b273baf09e7a651570156243bf75
-0L9rBwT5kUeKlwg7HOqwUU	3s7WzrEs4FkNObqj4WyfQm	Long Live DJ Shay	2022	https://i.scdn.co/image/ab67616d0000b273287f3ce80f21b0d0eaeda5d5
 5mi7FKaWE5CtcOjdyxScA7	165ZgPlLkK7bf5bDoFc6Sb	Chocolate Starfish And The Hot Dog Flavored Water	2000	https://i.scdn.co/image/ab67616d0000b2734a31b146c7cf07705d912efe
+0L9rBwT5kUeKlwg7HOqwUU	3s7WzrEs4FkNObqj4WyfQm	Long Live DJ Shay	2022	https://i.scdn.co/image/ab67616d0000b273287f3ce80f21b0d0eaeda5d5
 2PXyfq0RX8BpA1NfOhnFaJ	6GEykX11lQqp92UVOQQCC7	Our Streets (feat. A$AP Ferg) (feat. A$AP Ferg)	2017	https://i.scdn.co/image/ab67616d0000b2739c8f80bb92d5a4289109a8df
 4mLRYZaEEXZn5Ze3gxqtsf	6GEykX11lQqp92UVOQQCC7	Headlines (feat. Westside Gunn, Conway & Benny)	2019	https://i.scdn.co/image/ab67616d0000b273da019b592a2e98188cea6875
 6SFd0NeIrUfZoqCSjoFpe8	4nvFFLtv7ZqoTr83387uK4	A Giant Step	2014	https://i.scdn.co/image/ab67616d0000b273bfa3b54c5b632d077ad792c7
@@ -721,6 +722,9 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 31t6VcIOZ3WqsSH2F9Zcy0	1anAI9P9iSzc9qzLv6AtHZ	Spirit Mission	2022	https://i.scdn.co/image/ab67616d0000b2731f2af841a559bc01448905ef
 25gXJ8YPQpkC9fUEF5Wxlt	1anAI9P9iSzc9qzLv6AtHZ	What's It Like?	2019	https://i.scdn.co/image/ab67616d0000b2733367807e50d5163ecc0ccb16
 22rxIV4YCzp5LpFPDt95Kc	1anAI9P9iSzc9qzLv6AtHZ	Songs from 2014	2016	https://i.scdn.co/image/ab67616d0000b27384e7e4beb620014e8a71ed08
+3Yko2SxDk4hc6fncIBQlcM	2auiVi8sUZo17dLy1HwrTU	A Seat at the Table	2016	https://i.scdn.co/image/ab67616d0000b2731c4540d0ecafaa45305aa5a0
+4WF4HvVT7VjGnVjxjoCR6w	2auiVi8sUZo17dLy1HwrTU	When I Get Home	2019	https://i.scdn.co/image/ab67616d0000b273b1150f77ae2fbf0d5b4715fc
+6VCjvboIlNJ3N881Xja6ng	2auiVi8sUZo17dLy1HwrTU	Losing You	2012	https://i.scdn.co/image/ab67616d0000b2734c6a71f3fc50ec1fce3f8f28
 50j4Wm1b9hLpSpPIA39Vp9	6zvul52xwTWzilBZl6BUbT	Surfer Rosa	1988	https://i.scdn.co/image/ab67616d0000b273626ad9bb7d5f84c59652b161
 0DQyTVcDhK9wm0f6RaErWO	6zvul52xwTWzilBZl6BUbT	Doolittle	1989	https://i.scdn.co/image/ab67616d0000b273cafe9404f872e4c0e91a8cc8
 5F9YYEKDxenkRpyuovdqZe	6zvul52xwTWzilBZl6BUbT	Head Carrier	2016	https://i.scdn.co/image/ab67616d0000b273e420e17950e1432fa2aea4d1
@@ -729,32 +733,16 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 6FCzvataOZh68j8OKzOt9a	3RGLhK1IP9jnYFH4BRFJBS	London Calling (Remastered)	1979	https://i.scdn.co/image/ab67616d0000b273cd9d8bc9ef04014b6e90e182
 26zldGZFvob9Lj0kXZ6v7u	3RGLhK1IP9jnYFH4BRFJBS	The Cost of Living - EP	2013	https://i.scdn.co/image/ab67616d0000b2733f0dae4c4a881a0ebb714920
 49kzgMsxHU5CTeb2XmFHjo	3RGLhK1IP9jnYFH4BRFJBS	The Clash (Remastered)	1977	https://i.scdn.co/image/ab67616d0000b27346db502388d44edb43ebb261
-02j4VRhJ7MKK0Jf3FtBBsD	2bToe6WyGvADJftreuXh2K	Special Night	2016	https://i.scdn.co/image/ab67616d0000b273918cd232ff0ae6b148bd48f3
-7ElHdWPD6YbkbltJQgCiDc	2bToe6WyGvADJftreuXh2K	My World	2009	https://i.scdn.co/image/ab67616d0000b2735c3ca0a711ccc10f37950046
-6sPPhqjKQHveRVqR6Ijf8s	2bToe6WyGvADJftreuXh2K	It Rains Love	2019	https://i.scdn.co/image/ab67616d0000b273eeb714dd5f7e70889154b586
-1mtrVXhx0JBuv53GqqJbiG	2bToe6WyGvADJftreuXh2K	Faithful Man (Instrumentals)	2012	https://i.scdn.co/image/ab67616d0000b27389fae2760a5cfc1a2a289df8
-2uKHclIQ4IphYCgJyKfSCe	2bToe6WyGvADJftreuXh2K	Big Crown Vaults Vol. 1 - Lee Fields & The Expressions	2020	https://i.scdn.co/image/ab67616d0000b273040c25691559f0c6c70c65fa
-3u38Zm1pGlCrGZSsUk2396	2bToe6WyGvADJftreuXh2K	Emma Jean	2014	https://i.scdn.co/image/ab67616d0000b2732789845d006a9fcaf36dc644
 0u0CJa9zwFbGSU8JWQYS5G	432R46LaYsJZV2Gmc4jUV5	Love Will Tear Us Apart	1980	https://i.scdn.co/image/ab67616d0000b2731e0fdc2906851e29d09320c3
 33qkK1brpt6t8unIpeM2Oy	432R46LaYsJZV2Gmc4jUV5	Unknown Pleasures (Collector's Edition)	1979	https://i.scdn.co/image/ab67616d0000b27316eb1e685e6bd37ab3228de6
 51BKPr5L8cGZGk9bl9Jf5L	432R46LaYsJZV2Gmc4jUV5	Transmission	1979	https://i.scdn.co/image/ab67616d0000b273c5d8dac0b019953e2e00151e
 2KPhpTUihx9KRWRwBtpTeJ	432R46LaYsJZV2Gmc4jUV5	Substance	2010	https://i.scdn.co/image/ab67616d0000b273a1d7fb161ce10fbd09b08183
 5bXAysvuhQbyWllgYuahwt	432R46LaYsJZV2Gmc4jUV5	Atmosphere	1980	https://i.scdn.co/image/ab67616d0000b27374d7ecc4658fe88970feaa7a
-0X9oLn2APMvGOIsogM1TSp	1PryMSya1JnSAlcwYawCxp	The Exciting Sounds of Menahan Street Band	2021	https://i.scdn.co/image/ab67616d0000b2733caa41a592b491dda9b9a817
-54XBNTrXWfYgYhPbWVRLpX	1PryMSya1JnSAlcwYawCxp	There's a New Day Coming / Tommy Don't	2019	https://i.scdn.co/image/ab67616d0000b2731ae13baf1f76a2fc91f501c0
-6wdxaAC6P7f6w05QadHFcB	1PryMSya1JnSAlcwYawCxp	Make the Road By Walking	2008	https://i.scdn.co/image/ab67616d0000b273eebefe17779f3c57284e3c35
-1MY3VMNUb73QNJhZB92uGB	1PryMSya1JnSAlcwYawCxp	The Crossing	2012	https://i.scdn.co/image/ab67616d0000b273acc8a2d86203636c7899a7a7
 3a7wlGYi97AWoOBZxgjp77	1nGqKVGfPPiVgxMdx8hYOI	Don't All Look Up At Once	2013	https://i.scdn.co/image/ab67616d0000b273c9ff850c99c602b5491115ee
 51BUgK2KdAD7Jtm4nIbKdO	1nGqKVGfPPiVgxMdx8hYOI	This Way to Oblivion	2020	https://i.scdn.co/image/ab67616d0000b2732d6ff637b5ebbf106fdb367b
 17udU4Qibj6l4h0HWNd0EO	1nGqKVGfPPiVgxMdx8hYOI	Farewell Griffin	2017	https://i.scdn.co/image/ab67616d0000b2738bdddf11bcd58e7396be0dd5
 51kJncbEEq7mLs3J8C2dII	1nGqKVGfPPiVgxMdx8hYOI	his first and last sounds	2022	https://i.scdn.co/image/ab67616d0000b2732df5310c55777fb1e8ac2331
 6ZsUkdYEqcFuVVfqsnPLSK	1nGqKVGfPPiVgxMdx8hYOI	Ezra Bell	2018	https://i.scdn.co/image/ab67616d0000b2734f095ff02b2a1bb8fd70b26b
-7iTm9yZznLHb1GBOVm5IB1	7FKTg75ADVMZgY3P9ZMRtH	Citrona	2018	https://i.scdn.co/image/ab67616d0000b27335cedd0fe1bd17882886d400
-1gu4P2JcclHD1BvDXx2pqq	7FKTg75ADVMZgY3P9ZMRtH	Shadowglow	2022	https://i.scdn.co/image/ab67616d0000b27375bd963206d2c22841553e38
-6uGsmECvPd2VoQI5OfnSPL	7FKTg75ADVMZgY3P9ZMRtH	August (Acoustic)	2019	https://i.scdn.co/image/ab67616d0000b2735b674842e8fbd342df2e2cb4
-6tM8YvhhXemdO5xjsmS8Ro	7FKTg75ADVMZgY3P9ZMRtH	Heavy Colors	2017	https://i.scdn.co/image/ab67616d0000b2733d79d99049ec6b41c59ad5a1
-3GSahG4letshmP6jWif5rh	7FKTg75ADVMZgY3P9ZMRtH	Churches	2018	https://i.scdn.co/image/ab67616d0000b2730931bcd45fbb95dcd3c9c2a8
-4cZhiGqIqqqlHxWOC9r7Jp	7FKTg75ADVMZgY3P9ZMRtH	Something You Needed	2020	https://i.scdn.co/image/ab67616d0000b273553697592a70a6a963ab9fa3
 7gPql7GFpBMOxeO80vMMsC	7bu3H8JO7d0UbMoVzbo70s	Three Imaginary Boys (Deluxe Edition)	1979	https://i.scdn.co/image/ab67616d0000b2735d0d65102be8606e439e54cc
 3x1CmNdXWU0DzpTZXFFRZu	7bu3H8JO7d0UbMoVzbo70s	Wish	1992	https://i.scdn.co/image/ab67616d0000b273e410fa31e3dfcc7521cde86d
 37Q22g0n9PzBLX6lNddrIa	7bu3H8JO7d0UbMoVzbo70s	Kiss Me, Kiss Me, Kiss Me	1987	https://i.scdn.co/image/ab67616d0000b2737f22337546d61faca55e0f4f
@@ -763,6 +751,12 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 6vQB3ZBxnQPP3jQcGV2qzg	7bu3H8JO7d0UbMoVzbo70s	Disintegration (Deluxe Edition)	1989	https://i.scdn.co/image/ab67616d0000b273c7ca2db25ad377e022bc3975
 1T7A6Dt7KktX7pOw4I4Jzj	7bu3H8JO7d0UbMoVzbo70s	Seventeen Seconds (Deluxe Edition)	1980	https://i.scdn.co/image/ab67616d0000b27399027d2948260fdb37436d5d
 6fFTxlpJPGQbO3CbVz9MOS	7bu3H8JO7d0UbMoVzbo70s	Japanese Whispers	1983	https://i.scdn.co/image/ab67616d0000b27354cff06df14254eb6ea2dacb
+02j4VRhJ7MKK0Jf3FtBBsD	2bToe6WyGvADJftreuXh2K	Special Night	2016	https://i.scdn.co/image/ab67616d0000b273918cd232ff0ae6b148bd48f3
+7ElHdWPD6YbkbltJQgCiDc	2bToe6WyGvADJftreuXh2K	My World	2009	https://i.scdn.co/image/ab67616d0000b2735c3ca0a711ccc10f37950046
+6sPPhqjKQHveRVqR6Ijf8s	2bToe6WyGvADJftreuXh2K	It Rains Love	2019	https://i.scdn.co/image/ab67616d0000b273eeb714dd5f7e70889154b586
+1mtrVXhx0JBuv53GqqJbiG	2bToe6WyGvADJftreuXh2K	Faithful Man (Instrumentals)	2012	https://i.scdn.co/image/ab67616d0000b27389fae2760a5cfc1a2a289df8
+2uKHclIQ4IphYCgJyKfSCe	2bToe6WyGvADJftreuXh2K	Big Crown Vaults Vol. 1 - Lee Fields & The Expressions	2020	https://i.scdn.co/image/ab67616d0000b273040c25691559f0c6c70c65fa
+3u38Zm1pGlCrGZSsUk2396	2bToe6WyGvADJftreuXh2K	Emma Jean	2014	https://i.scdn.co/image/ab67616d0000b2732789845d006a9fcaf36dc644
 7a00isM0AXaDU9VFb7MOfA	0MVp3LuNho9Hk6Q1owsWwt	The Eventually Home	2008	https://i.scdn.co/image/ab67616d0000b2734f8f8eff961c4a030d57da50
 7iu0ZqtMGYifxPNnL9h7UX	0MVp3LuNho9Hk6Q1owsWwt	The Bitter End	2007	https://i.scdn.co/image/ab67616d0000b273d54295b01a5be27503e8c7d9
 6mCotg8AmjUM3ViiEyoeew	0MVp3LuNho9Hk6Q1owsWwt	The Church of the Good Thief	2012	https://i.scdn.co/image/ab67616d0000b27304fb43d06749a259a49a4be1
@@ -774,6 +768,23 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 1WprYNkzlwjeBzByXIZARq	1SQRv42e4PjEYfPhS0Tk9E	One for the Road (Live)	1980	https://i.scdn.co/image/ab67616d0000b273f05dcfe54ef2928a4e2e744d
 3sccYVndePjnjJHpfVsOoU	1SQRv42e4PjEYfPhS0Tk9E	Everybody's in Show-Biz (Super Deluxe)	1972	https://i.scdn.co/image/ab67616d0000b273e616896604a520a2ef9c58f9
 7aKN7yS7Z9mDtPioRPmcqX	1SQRv42e4PjEYfPhS0Tk9E	State of Confusion	1983	https://i.scdn.co/image/ab67616d0000b273350b8393f8f3e33ea1b6137b
+0Z1Y5L90NjqUD351YUQWdA	4BFMTELQyWJU1SwqcXMBm3	The Stooges	1969	https://i.scdn.co/image/ab67616d0000b273002d4aa00a80e1be587cef7e
+6mxbG8KrOTZIxlP4gzaliM	4BFMTELQyWJU1SwqcXMBm3	Raw Power	1973	https://i.scdn.co/image/ab67616d0000b2738bced1064027c32db4b01f6e
+2jIzYmu0kYyj2NeO9p5Sx5	4BFMTELQyWJU1SwqcXMBm3	Heavy Liquid 'The Album'	2017	https://i.scdn.co/image/ab67616d0000b273c7b636d481ce3ce4dba51690
+3FTcomSFg2zWSqWLRgBYpv	4BFMTELQyWJU1SwqcXMBm3	Fun House (Deluxe Edition)	1970	https://i.scdn.co/image/ab67616d0000b27313aa419336db598eb2674b1a
+6vHqopioDuXtXTDoJhQZls	4BFMTELQyWJU1SwqcXMBm3	Raw Power (Legacy Edition)	1973	https://i.scdn.co/image/ab67616d0000b27392f5a11ecdc254e9169cf1ca
+5qhXaVIC5BdE4a5Kq1FMZG	4BFMTELQyWJU1SwqcXMBm3	Funhouse	1970	https://i.scdn.co/image/ab67616d0000b2732c7d41ae194ef7aaaba3fee3
+5S38cTeAWT2aqlArzdWbuc	4BFMTELQyWJU1SwqcXMBm3	The Weirdness	2007	https://i.scdn.co/image/ab67616d0000b273a1734be2bdf36e58b58df7b2
+0X9oLn2APMvGOIsogM1TSp	1PryMSya1JnSAlcwYawCxp	The Exciting Sounds of Menahan Street Band	2021	https://i.scdn.co/image/ab67616d0000b2733caa41a592b491dda9b9a817
+54XBNTrXWfYgYhPbWVRLpX	1PryMSya1JnSAlcwYawCxp	There's a New Day Coming / Tommy Don't	2019	https://i.scdn.co/image/ab67616d0000b2731ae13baf1f76a2fc91f501c0
+6wdxaAC6P7f6w05QadHFcB	1PryMSya1JnSAlcwYawCxp	Make the Road By Walking	2008	https://i.scdn.co/image/ab67616d0000b273eebefe17779f3c57284e3c35
+1MY3VMNUb73QNJhZB92uGB	1PryMSya1JnSAlcwYawCxp	The Crossing	2012	https://i.scdn.co/image/ab67616d0000b273acc8a2d86203636c7899a7a7
+7iTm9yZznLHb1GBOVm5IB1	7FKTg75ADVMZgY3P9ZMRtH	Citrona	2018	https://i.scdn.co/image/ab67616d0000b27335cedd0fe1bd17882886d400
+1gu4P2JcclHD1BvDXx2pqq	7FKTg75ADVMZgY3P9ZMRtH	Shadowglow	2022	https://i.scdn.co/image/ab67616d0000b27375bd963206d2c22841553e38
+6uGsmECvPd2VoQI5OfnSPL	7FKTg75ADVMZgY3P9ZMRtH	August (Acoustic)	2019	https://i.scdn.co/image/ab67616d0000b2735b674842e8fbd342df2e2cb4
+6tM8YvhhXemdO5xjsmS8Ro	7FKTg75ADVMZgY3P9ZMRtH	Heavy Colors	2017	https://i.scdn.co/image/ab67616d0000b2733d79d99049ec6b41c59ad5a1
+3GSahG4letshmP6jWif5rh	7FKTg75ADVMZgY3P9ZMRtH	Churches	2018	https://i.scdn.co/image/ab67616d0000b2730931bcd45fbb95dcd3c9c2a8
+4cZhiGqIqqqlHxWOC9r7Jp	7FKTg75ADVMZgY3P9ZMRtH	Something You Needed	2020	https://i.scdn.co/image/ab67616d0000b273553697592a70a6a963ab9fa3
 7nqQxq17r4eUTqsDAdrL6v	0oL26Dn9y761yfJgNb3vfu	Misery	2019	https://i.scdn.co/image/ab67616d0000b273079f0dfcc05d7cd097a2b73a
 2ZwK8x38X6dRgBTZNSACVU	0oL26Dn9y761yfJgNb3vfu	Let Down	2020	https://i.scdn.co/image/ab67616d0000b27364311e10169adb0beaa6af96
 3LuBghNdV7Z1WSiN53P9OI	0oL26Dn9y761yfJgNb3vfu	Nineties	2016	https://i.scdn.co/image/ab67616d0000b2735a98cee63a9f3cd6e858473d
@@ -783,13 +794,6 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 3akwfKkhkypQRsK18KURaA	0oL26Dn9y761yfJgNb3vfu	Everything Will Be Ok Eventually	2021	https://i.scdn.co/image/ab67616d0000b2737abac2f82e3fe9ab600c4c46
 1fOUybYJNec1lhpwWIln83	0oL26Dn9y761yfJgNb3vfu	Anniversary II	2021	https://i.scdn.co/image/ab67616d0000b273873ab76befb072412a8e21a8
 0bwOZcIDnfGPTDN6CGkA1D	0oL26Dn9y761yfJgNb3vfu	Snow in Montana	2022	https://i.scdn.co/image/ab67616d0000b273653679ec9d5d4ebb5236cc12
-0Z1Y5L90NjqUD351YUQWdA	4BFMTELQyWJU1SwqcXMBm3	The Stooges	1969	https://i.scdn.co/image/ab67616d0000b273002d4aa00a80e1be587cef7e
-6mxbG8KrOTZIxlP4gzaliM	4BFMTELQyWJU1SwqcXMBm3	Raw Power	1973	https://i.scdn.co/image/ab67616d0000b2738bced1064027c32db4b01f6e
-2jIzYmu0kYyj2NeO9p5Sx5	4BFMTELQyWJU1SwqcXMBm3	Heavy Liquid 'The Album'	2017	https://i.scdn.co/image/ab67616d0000b273c7b636d481ce3ce4dba51690
-3FTcomSFg2zWSqWLRgBYpv	4BFMTELQyWJU1SwqcXMBm3	Fun House (Deluxe Edition)	1970	https://i.scdn.co/image/ab67616d0000b27313aa419336db598eb2674b1a
-6vHqopioDuXtXTDoJhQZls	4BFMTELQyWJU1SwqcXMBm3	Raw Power (Legacy Edition)	1973	https://i.scdn.co/image/ab67616d0000b27392f5a11ecdc254e9169cf1ca
-5qhXaVIC5BdE4a5Kq1FMZG	4BFMTELQyWJU1SwqcXMBm3	Funhouse	1970	https://i.scdn.co/image/ab67616d0000b2732c7d41ae194ef7aaaba3fee3
-5S38cTeAWT2aqlArzdWbuc	4BFMTELQyWJU1SwqcXMBm3	The Weirdness	2007	https://i.scdn.co/image/ab67616d0000b273a1734be2bdf36e58b58df7b2
 2IpHSccHdJGTncaiuSKBjI	0v6gOfGBclTSGu6agfXb23	Drain The Blood	2010	https://i.scdn.co/image/ab67616d0000b2731e22641f1a5ca545e3889481
 5X27E81cePL9bNER4QEjmO	0v6gOfGBclTSGu6agfXb23	Hometowns	2009	https://i.scdn.co/image/ab67616d0000b273c9b282dc2d2b3cc1ff55d67b
 0yuaRX2zpvhm3lq6cppVRI	0v6gOfGBclTSGu6agfXb23	The Wild	2017	https://i.scdn.co/image/ab67616d0000b2739b08c20687b7f37c9f1e7cbf
@@ -800,10 +804,6 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 6NTrwu1XJ56jBPx7HMksbZ	0yNLKJebCb8Aueb54LYya3	Power Corruption and Lies	1983	https://i.scdn.co/image/ab67616d0000b273a0bb93884823982d57cb2004
 2DI73ocB6x1ExxoJbT4QI8	0yNLKJebCb8Aueb54LYya3	Movement	1981	https://i.scdn.co/image/ab67616d0000b2733799b162f6b365f781b07515
 7mIOgbore2HTzdh2ZyS4rH	0yNLKJebCb8Aueb54LYya3	Republic	1993	https://i.scdn.co/image/ab67616d0000b2738120870086c90b8de2309ef0
-6BN0KczNzSrfmKoQzd6lMS	4fXkvh05wFhuH77MfD4m9o	Half The City	2014	https://i.scdn.co/image/ab67616d0000b273793d44aad3d0c0158d517c15
-2fRc3TJSXKXGFdnmcm17p2	4fXkvh05wFhuH77MfD4m9o	Sea of Noise	2016	https://i.scdn.co/image/ab67616d0000b2733aab37beee0e9198e3c324e7
-4EN9bVE0g7gUvQlNdPrUhL	4fXkvh05wFhuH77MfD4m9o	Young Sick Camellia	2018	https://i.scdn.co/image/ab67616d0000b273aff0f524411824c03ab57302
-36YdveJJhT49E0blTQODsS	4fXkvh05wFhuH77MfD4m9o	Spotify Sessions (Live at SXSW 2014)	2014	https://i.scdn.co/image/ab67616d0000b2730cd990475f5d5ee748f91144
 5eqcF7pWzHgWpGdEmHgeSN	2x9SpqnPi8rlE9pjHBwmSC	Talking Heads '77 (Deluxe Version)	1977	https://i.scdn.co/image/ab67616d0000b273e71708b667804f6241dd1a59
 4sLCQxMRfn3gAHrBNZtbTH	2x9SpqnPi8rlE9pjHBwmSC	Speaking in Tongues (Deluxe Version)	1983	https://i.scdn.co/image/ab67616d0000b273e35e2e2a4bfa8a30a78fc532
 3AQgdwMNCiN7awXch5fAaG	2x9SpqnPi8rlE9pjHBwmSC	Remain in Light (Deluxe Version)	1980	https://i.scdn.co/image/ab67616d0000b273e56fa8c916dc6ce419dcf557
@@ -825,10 +825,45 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 7waoPlopLlOLdZnY6PkW5S	7foyQbi7GKriLiv1GPVEwt	Susto	2014	https://i.scdn.co/image/ab67616d0000b2739effb26dd0d5a22d400067a0
 07Lss95oyQ0H0UP5i87G0A	7foyQbi7GKriLiv1GPVEwt	Ever Since I Lost My Mind	2019	https://i.scdn.co/image/ab67616d0000b2734155a6e6c0029afae4cb5b36
 752tNJJGYbjlnFfSZBO9ju	7foyQbi7GKriLiv1GPVEwt	Weather Balloons [Feat. Frances Cone]	2019	https://i.scdn.co/image/ab67616d0000b2736354c8293366d9cd0d71335f
-5TJvbSps6D0gy3DHqeb8FP	6m4tJuf67jwVSvMP34hrck	Look Closer	2015	https://i.scdn.co/image/ab67616d0000b2732e5dff1708f7a0a08c7134aa
 4xwx0x7k6c5VuThz5qVqmV	1nJvji2KIlWSseXRSlNYsC	The Velvet Underground & Nico 45th Anniversary	1967	https://i.scdn.co/image/ab67616d0000b27398260c528e6eec9dd431c1d7
 2HOf3Nb44Us8U9oEtKLSrX	1nJvji2KIlWSseXRSlNYsC	The Velvet Underground (45th Anniversary)	1969	https://i.scdn.co/image/ab67616d0000b2739a2c40b6a1af4a92aac991c5
 2ny1rPsLOoKNFZhMLubMrs	1nJvji2KIlWSseXRSlNYsC	Loaded: Re-Loaded 45th Anniversary Edition	1970	https://i.scdn.co/image/ab67616d0000b273a6d589272dca67a07a00c8a8
+3gBVdu4a1MMJVMy6vwPEb8	4Z8W4fKeB5YxbusRsdQVPb	Pablo Honey	1993	https://i.scdn.co/image/ab67616d0000b273df55e326ed144ab4f5cecf95
+6dVIqQ8qmQ5GBnJ9shOYGE	4Z8W4fKeB5YxbusRsdQVPb	OK Computer	1997	https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856
+35UJLpClj5EDrhpNIi4DFg	4Z8W4fKeB5YxbusRsdQVPb	The Bends	1995	https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12
+5vkqYmiPBYLaalcmjujWxK	4Z8W4fKeB5YxbusRsdQVPb	In Rainbows	2007	https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9
+6BN0KczNzSrfmKoQzd6lMS	4fXkvh05wFhuH77MfD4m9o	Half The City	2014	https://i.scdn.co/image/ab67616d0000b273793d44aad3d0c0158d517c15
+2fRc3TJSXKXGFdnmcm17p2	4fXkvh05wFhuH77MfD4m9o	Sea of Noise	2016	https://i.scdn.co/image/ab67616d0000b2733aab37beee0e9198e3c324e7
+4EN9bVE0g7gUvQlNdPrUhL	4fXkvh05wFhuH77MfD4m9o	Young Sick Camellia	2018	https://i.scdn.co/image/ab67616d0000b273aff0f524411824c03ab57302
+36YdveJJhT49E0blTQODsS	4fXkvh05wFhuH77MfD4m9o	Spotify Sessions (Live at SXSW 2014)	2014	https://i.scdn.co/image/ab67616d0000b2730cd990475f5d5ee748f91144
+6C9WzlQANeoD0GW5B41YJt	00tVTdpEhQQw1bqdu8RCx2	Agents Of Fortune	1976	https://i.scdn.co/image/ab67616d0000b2733ac318439ae56ce048d7bf5d
+7v4kEpVtppoMm80m43lGzt	00tVTdpEhQQw1bqdu8RCx2	Fire of Unknown Origin	1981	https://i.scdn.co/image/ab67616d0000b2736895da04b237964b95c2a166
+105oUsR7H8AJNELy43XF3w	00tVTdpEhQQw1bqdu8RCx2	Spectres	1977	https://i.scdn.co/image/ab67616d0000b2735e045d1e56f161d40c9acf8d
+6xxUsZyckaV0shjOJ0cVpf	00tVTdpEhQQw1bqdu8RCx2	Blue Oyster Cult	1972	https://i.scdn.co/image/ab67616d0000b273a63fc9073db1233ea6c7ae74
+0QWjK3wGoCug92yQIeBdxu	00tVTdpEhQQw1bqdu8RCx2	Shaun White Snowboarding: Official Soundtrack	2008	https://i.scdn.co/image/ab67616d0000b273a491440a3688f01c9f3b5062
+0cs4Eli5HS6BomzJ9yfrAw	00tVTdpEhQQw1bqdu8RCx2	Secret Treaties	1974	https://i.scdn.co/image/ab67616d0000b273407eab7e6414b8782345a4db
+35RIka08weHJaKXqn4ZEHI	00tVTdpEhQQw1bqdu8RCx2	Cult Classic (Remastered)	1994	https://i.scdn.co/image/ab67616d0000b273d5971805ff808a34c4fcf8fa
+7jQs5baTMHitYnJJX6JJMU	00tVTdpEhQQw1bqdu8RCx2	The Revolution By Night	1983	https://i.scdn.co/image/ab67616d0000b2735437de9255abe9fc9ecf5291
+1Kw0H84LL5YuP37Kh8lbzY	0vqkz1b2qBkoYrGMj2CUWq	Fly Me To The Moon	1969	https://i.scdn.co/image/ab67616d0000b2738521692e95d60d4ba9331fe9
+7eVKCG0KD8FCvIlx8E1pBG	0vqkz1b2qBkoYrGMj2CUWq	Midnight Mover: The Bobby Womack Story	1993	https://i.scdn.co/image/ab67616d0000b273a70b89929f67316f0fa4426b
+3b4FRQBIqULkm6vudUXkcS	0vqkz1b2qBkoYrGMj2CUWq	The Poet	2021	https://i.scdn.co/image/ab67616d0000b273f26bf182b667df204ed7cd46
+6szJ4kcqwQvLfXN5IqV9T4	0vqkz1b2qBkoYrGMj2CUWq	Understanding	1972	https://i.scdn.co/image/ab67616d0000b2739281f2f3a709aa505d920b38
+5RavdrN0me6xkp4okXQWNI	0vqkz1b2qBkoYrGMj2CUWq	Dayglo Reflection (Orchestral Version)	2022	https://i.scdn.co/image/ab67616d0000b2730f8d08099050413931d5bdcc
+1d0vqL31qzWAWB8cxyfvuP	0vqkz1b2qBkoYrGMj2CUWq	The Bravest Man in the Universe	2012	https://i.scdn.co/image/ab67616d0000b2734753e9132706ec06c9f7cbfa
+6aBN9OWwAcB49LWlI95ekd	0vqkz1b2qBkoYrGMj2CUWq	The Best Of Bobby Womack - The Soul Years	2008	https://i.scdn.co/image/ab67616d0000b2730005beaf2189c4687ca1e060
+4Pv7m8D82A1Xun7xNCKZjJ	2FXC3k01G6Gw61bmprjgqS	Hozier (Expanded Edition)	2014	https://i.scdn.co/image/ab67616d0000b2734ca68d59a4a29c856a4a39c2
+27rVuwJ0g0eKRpnvEhQl3G	0xRXCcSX89eobfrshSVdyu	Tell It To My Heart	2021	https://i.scdn.co/image/ab67616d0000b273a97f3fad25245a1453b1b3b2
+6HzebUNgGlzC1AMBwHGIkH	6WY7D3jk8zTrHtmkqqo5GI	The Bones (with Hozier)	2019	https://i.scdn.co/image/ab67616d0000b27323a1cd02bc99c6e8ad9ed0df
+5aO7IZl8KxtyCeke37Jvk4	2FXC3k01G6Gw61bmprjgqS	Swan Upon Leda	2022	https://i.scdn.co/image/ab67616d0000b273b53427fe60e7ae869ba9b1a1
+2c7gFThUYyo2t6ogAgIYNw	2FXC3k01G6Gw61bmprjgqS	Wasteland, Baby!	2019	https://i.scdn.co/image/ab67616d0000b2735795e01c151ba5a8ce4bd295
+4vqaqoTEbNyeeSHJA6KpdM	2g3PKH7Z1Ofn5oGR6oDjLy	Here Are the Sonics	1965	https://i.scdn.co/image/ab67616d0000b2733b8f9c148e9eead1143c78e6
+3FeFoMQnGxb8D9FKkCC5ES	2g3PKH7Z1Ofn5oGR6oDjLy	The Sonics Boom	2013	https://i.scdn.co/image/ab67616d0000b273493af4d76e3fdbf61f58c307
+5joOZaTA1gkFmw0eLM8ASR	2g3PKH7Z1Ofn5oGR6oDjLy	Maintaining My Cool	1991	https://i.scdn.co/image/ab67616d0000b273dd5ec60c23158c063f54ebdf
+2EmUijeHFyILSHUC2kzxXv	2g3PKH7Z1Ofn5oGR6oDjLy	Introducing The Sonics	2011	https://i.scdn.co/image/ab67616d0000b27360d60f7060028564336037b5
+2P1FIwA6kUTaacKrKoKl1o	2g3PKH7Z1Ofn5oGR6oDjLy	This Is the Sonics	2015	https://i.scdn.co/image/ab67616d0000b2733e4a69451a62e04fd71d7d27
+02ikKnPQUJEz3pJ80yTnKS	2oqwwcM17wrP9hBD25zKSR	EP	2016	https://i.scdn.co/image/ab67616d0000b273d20f1ce118b8c2bc2a3be4ca
+7BKGTpCWDwTCeHnlLFcfLJ	2oqwwcM17wrP9hBD25zKSR	Lewis Del Mar	2016	https://i.scdn.co/image/ab67616d0000b27311555ed45c4377e101d7979d
+0f6br7CLoGXr5WhM4ZS23K	2oqwwcM17wrP9hBD25zKSR	AUGUST	2020	https://i.scdn.co/image/ab67616d0000b273323b486defbe382273719626
 4BrJEabBSw59bwSjKZl25p	32Ko3nL0210QAt14S3Rs4Y	Seventeen	2016	https://i.scdn.co/image/ab67616d0000b273ea18068c00c9780c65415c6a
 7HxeuvcM84U4sWEtOSlePG	32Ko3nL0210QAt14S3Rs4Y	win'20	2020	https://i.scdn.co/image/ab67616d0000b2734b3973fe57b73ffaab463c15
 0C0Oq2jJhJ4Rs6IwgCe0Ob	32Ko3nL0210QAt14S3Rs4Y	I Don't Know	2020	https://i.scdn.co/image/ab67616d0000b2739aea6e6ddcfd574556a96ff8
@@ -838,44 +873,396 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 6a9bsIUvtXmqj6HaEOIAq3	32Ko3nL0210QAt14S3Rs4Y	Better Off	2018	https://i.scdn.co/image/ab67616d0000b273f3844685c74004d516e62a5f
 2HatDWFqyd2cFNHX7wX7Yp	32Ko3nL0210QAt14S3Rs4Y	Demos	2015	https://i.scdn.co/image/ab67616d0000b273d4b27d4a7cbf79f091d824e4
 5RkPNFjpGpN5KiTRpTRjzv	32Ko3nL0210QAt14S3Rs4Y	High Beam	2017	https://i.scdn.co/image/ab67616d0000b27391f03e7518a16f7e937129e2
-3gBVdu4a1MMJVMy6vwPEb8	4Z8W4fKeB5YxbusRsdQVPb	Pablo Honey	1993	https://i.scdn.co/image/ab67616d0000b273df55e326ed144ab4f5cecf95
-6dVIqQ8qmQ5GBnJ9shOYGE	4Z8W4fKeB5YxbusRsdQVPb	OK Computer	1997	https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856
-35UJLpClj5EDrhpNIi4DFg	4Z8W4fKeB5YxbusRsdQVPb	The Bends	1995	https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12
-5vkqYmiPBYLaalcmjujWxK	4Z8W4fKeB5YxbusRsdQVPb	In Rainbows	2007	https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9
-7tZbEknszSim0Ug0Zv3pxf	4zsrUnozu6zRlVELQezaBn	What Have You Done, My Brother?	2009	https://i.scdn.co/image/ab67616d0000b273fb5ff8376c7bc2f70ecb8af8
-57mOAqbdhcMncLg0rjaY7w	4zsrUnozu6zRlVELQezaBn	Cold World	2014	https://i.scdn.co/image/ab67616d0000b273e278a1b6b7b239aa15ba2360
-4WlxosPPabfbXUJ1w9gpKc	4zsrUnozu6zRlVELQezaBn	Daptone Gold, Vol. II	2015	https://i.scdn.co/image/ab67616d0000b273f8f92cacf69e7e1001c66b08
-6C9WzlQANeoD0GW5B41YJt	00tVTdpEhQQw1bqdu8RCx2	Agents Of Fortune	1976	https://i.scdn.co/image/ab67616d0000b2733ac318439ae56ce048d7bf5d
-7v4kEpVtppoMm80m43lGzt	00tVTdpEhQQw1bqdu8RCx2	Fire of Unknown Origin	1981	https://i.scdn.co/image/ab67616d0000b2736895da04b237964b95c2a166
-105oUsR7H8AJNELy43XF3w	00tVTdpEhQQw1bqdu8RCx2	Spectres	1977	https://i.scdn.co/image/ab67616d0000b2735e045d1e56f161d40c9acf8d
-6xxUsZyckaV0shjOJ0cVpf	00tVTdpEhQQw1bqdu8RCx2	Blue Oyster Cult	1972	https://i.scdn.co/image/ab67616d0000b273a63fc9073db1233ea6c7ae74
-0QWjK3wGoCug92yQIeBdxu	00tVTdpEhQQw1bqdu8RCx2	Shaun White Snowboarding: Official Soundtrack	2008	https://i.scdn.co/image/ab67616d0000b273a491440a3688f01c9f3b5062
-0cs4Eli5HS6BomzJ9yfrAw	00tVTdpEhQQw1bqdu8RCx2	Secret Treaties	1974	https://i.scdn.co/image/ab67616d0000b273407eab7e6414b8782345a4db
-35RIka08weHJaKXqn4ZEHI	00tVTdpEhQQw1bqdu8RCx2	Cult Classic (Remastered)	1994	https://i.scdn.co/image/ab67616d0000b273d5971805ff808a34c4fcf8fa
-1Kw0H84LL5YuP37Kh8lbzY	0vqkz1b2qBkoYrGMj2CUWq	Fly Me To The Moon	1969	https://i.scdn.co/image/ab67616d0000b2738521692e95d60d4ba9331fe9
-7eVKCG0KD8FCvIlx8E1pBG	0vqkz1b2qBkoYrGMj2CUWq	Midnight Mover: The Bobby Womack Story	1993	https://i.scdn.co/image/ab67616d0000b273a70b89929f67316f0fa4426b
-3b4FRQBIqULkm6vudUXkcS	0vqkz1b2qBkoYrGMj2CUWq	The Poet	2021	https://i.scdn.co/image/ab67616d0000b273f26bf182b667df204ed7cd46
-6szJ4kcqwQvLfXN5IqV9T4	0vqkz1b2qBkoYrGMj2CUWq	Understanding	1972	https://i.scdn.co/image/ab67616d0000b2739281f2f3a709aa505d920b38
-5RavdrN0me6xkp4okXQWNI	0vqkz1b2qBkoYrGMj2CUWq	Dayglo Reflection (Orchestral Version)	2022	https://i.scdn.co/image/ab67616d0000b2730f8d08099050413931d5bdcc
-1d0vqL31qzWAWB8cxyfvuP	0vqkz1b2qBkoYrGMj2CUWq	The Bravest Man in the Universe	2012	https://i.scdn.co/image/ab67616d0000b2734753e9132706ec06c9f7cbfa
-6aBN9OWwAcB49LWlI95ekd	0vqkz1b2qBkoYrGMj2CUWq	The Best Of Bobby Womack - The Soul Years	2008	https://i.scdn.co/image/ab67616d0000b2730005beaf2189c4687ca1e060
-2EwoYRFQRJqw7BTVG6GlTw	2AV6XDIs32ofIJhkkDevjm	Move on Up	1970	https://i.scdn.co/image/ab67616d0000b273b97b45e7885537d42ed46cdf
-3tgJmEz0R0ZsRSrpwafp4R	2AV6XDIs32ofIJhkkDevjm	Curtis (Expanded Edition)	1970	https://i.scdn.co/image/ab67616d0000b273775a6bee6c704ec29aec00f4
-5QuvlU7nCUZZJauMvhlWR4	2AV6XDIs32ofIJhkkDevjm	Superfly: Deluxe 25th Anniversary Edition	1972	https://i.scdn.co/image/ab67616d0000b273177fea3fc7f8075fdb40f167
-5ljIGCRRvS48V4ADzPGav2	2AV6XDIs32ofIJhkkDevjm	Superfly (O.S.T.)	1972	https://i.scdn.co/image/ab67616d0000b27307b7db689327e99ad5602d57
-4M8Zce860gRCdyv1hXOK32	2AV6XDIs32ofIJhkkDevjm	New World Order	1997	https://i.scdn.co/image/ab67616d0000b2739f5f805c003810a4d32544b5
-3Jm5rknuSOa0tTFDLpJbCg	2AV6XDIs32ofIJhkkDevjm	There's No Place Like America Today	1975	https://i.scdn.co/image/ab67616d0000b273b5938a2da18fbb6184daf6e2
-7tIqCuFn9DqkHE1lRj9C6L	2AV6XDIs32ofIJhkkDevjm	Roots	1971	https://i.scdn.co/image/ab67616d0000b273dfc5f5aa3a2e1fb1cc3eeb55
-4Pv7m8D82A1Xun7xNCKZjJ	2FXC3k01G6Gw61bmprjgqS	Hozier (Expanded Edition)	2014	https://i.scdn.co/image/ab67616d0000b2734ca68d59a4a29c856a4a39c2
-27rVuwJ0g0eKRpnvEhQl3G	0xRXCcSX89eobfrshSVdyu	Tell It To My Heart	2021	https://i.scdn.co/image/ab67616d0000b273a97f3fad25245a1453b1b3b2
-6HzebUNgGlzC1AMBwHGIkH	6WY7D3jk8zTrHtmkqqo5GI	The Bones (with Hozier)	2019	https://i.scdn.co/image/ab67616d0000b27323a1cd02bc99c6e8ad9ed0df
-5aO7IZl8KxtyCeke37Jvk4	2FXC3k01G6Gw61bmprjgqS	Swan Upon Leda	2022	https://i.scdn.co/image/ab67616d0000b273b53427fe60e7ae869ba9b1a1
-2c7gFThUYyo2t6ogAgIYNw	2FXC3k01G6Gw61bmprjgqS	Wasteland, Baby!	2019	https://i.scdn.co/image/ab67616d0000b2735795e01c151ba5a8ce4bd295
-4vqaqoTEbNyeeSHJA6KpdM	2g3PKH7Z1Ofn5oGR6oDjLy	Here Are the Sonics	1965	https://i.scdn.co/image/ab67616d0000b2733b8f9c148e9eead1143c78e6
-3FeFoMQnGxb8D9FKkCC5ES	2g3PKH7Z1Ofn5oGR6oDjLy	The Sonics Boom	2013	https://i.scdn.co/image/ab67616d0000b273493af4d76e3fdbf61f58c307
-2EmUijeHFyILSHUC2kzxXv	2g3PKH7Z1Ofn5oGR6oDjLy	Introducing The Sonics	2011	https://i.scdn.co/image/ab67616d0000b27360d60f7060028564336037b5
-5joOZaTA1gkFmw0eLM8ASR	2g3PKH7Z1Ofn5oGR6oDjLy	Maintaining My Cool	1991	https://i.scdn.co/image/ab67616d0000b273dd5ec60c23158c063f54ebdf
-2P1FIwA6kUTaacKrKoKl1o	2g3PKH7Z1Ofn5oGR6oDjLy	This Is the Sonics	2015	https://i.scdn.co/image/ab67616d0000b2733e4a69451a62e04fd71d7d27
+1n1znRLH7iRtkhjbrCs0wi	4lYtGx5NZQJHsMyhHc5iz3	Off The Bone	1983	https://i.scdn.co/image/ab67616d0000b27327c337cfb2be8c395b04d61d
+6S9rbimtTmC0v6UBWqSpay	4lYtGx5NZQJHsMyhHc5iz3	Songs The Lord Taught Us	1980	https://i.scdn.co/image/ab67616d0000b273d2c32a4c277f8cd46f89f700
+111E8uRgwGQo9YJJBvpALn	4lYtGx5NZQJHsMyhHc5iz3	Psychedelic Jungle	1981	https://i.scdn.co/image/ab67616d0000b273133d663963bdaa99891a5cee
+4QV8iMlscaIpidQHcErzbE	4oV5EVJ0XFWsJKoOvdRPvl	Alien Lanes	1995	https://i.scdn.co/image/ab67616d0000b2730b546e6852751aaa90eba3cb
+2VQKZAvtL5epxdEOuLVP6t	4oV5EVJ0XFWsJKoOvdRPvl	Bee Thousand	1994	https://i.scdn.co/image/ab67616d0000b273bdbe874ff5ea3b896b3880d6
+52YpKa3SQfp2obWDHgzYKx	4oV5EVJ0XFWsJKoOvdRPvl	Sunfish Holy Breakfast	1996	https://i.scdn.co/image/ab67616d0000b273e84afceb38fa71509e37944b
+5zSfOxsBE4yFfcbc2gRd4q	14ep6TM2JzapH5nk7vaora	The Path	2019	https://i.scdn.co/image/ab67616d0000b273924e7a7975c7f6e57c130686
+3nbCR6OsvvZTYI0yXNGxFA	14ep6TM2JzapH5nk7vaora	Wattswave IV: Dreams	2018	https://i.scdn.co/image/ab67616d0000b27303c4f94168472870b35963b6
+28IlwCwIt69Xh627BwUC8F	6tbLPxj1uQ6vsRQZI2YFCT	Mother	2020	https://i.scdn.co/image/ab67616d0000b27366b9bf56e2e057eed8ba6297
+1JIIc6FIetBaCAzWkCSBjL	6tbLPxj1uQ6vsRQZI2YFCT	Ritual	2017	https://i.scdn.co/image/ab67616d0000b27305d9b34c8a670ec1447121c8
+6yWMN087PgSimbcVmHLEwG	2yEwvVSSSUkcLeSTNyHKh8	Ænima	1996	https://i.scdn.co/image/ab67616d0000b273dce45359981d62e087a29e6f
+0pC7lxDWdDQntOfCPfvbj6	14ep6TM2JzapH5nk7vaora	EXPERIENCE	2020	https://i.scdn.co/image/ab67616d0000b273f32e9617285ecf31754943ce
+7xYiTrbTL57QO0bb4hXIKo	00FQb4jTyendYWaN8pK0wa	Lust For Life	2017	https://i.scdn.co/image/ab67616d0000b27395e2fd1accb339fa14878190
+7jMxSZ332lLfENKNEFAd9P	6tbLPxj1uQ6vsRQZI2YFCT	Black Widow	2014	https://i.scdn.co/image/ab67616d0000b27399e85232736d3eb3adc12f22
+36z4UWQiasJxyuePtCH5Ij	5HYNPEO2NNBONQkp3Mvwvc	Emoji Antique	2015	https://i.scdn.co/image/ab67616d0000b273f29a2f32a138c0158aea2150
+3aTXBCkLau3VP53JXez2hB	14ep6TM2JzapH5nk7vaora	The Path	2019	https://i.scdn.co/image/ab67616d0000b2738fa394dd05d74d6082db6f66
+5dR0fhE3oveLRSUMMQ3oRB	7AQzXO3NPNQsI7oNu5rC3r	Marcy Playground	1997	https://i.scdn.co/image/ab67616d0000b27337d1e5c1ca98ce1ecd754d04
+1fvWYcbjuycyHpzNPH1Vfk	2yEwvVSSSUkcLeSTNyHKh8	10,000 Days	2006	https://i.scdn.co/image/ab67616d0000b273781369aabc39c792cc55604f
+7acEciVtnuTzmwKptkjth5	2yEwvVSSSUkcLeSTNyHKh8	Fear Inoculum	2019	https://i.scdn.co/image/ab67616d0000b27326e6b6f666ef40b6b8365e3e
+2sXJQdHykPYcRQ7xFhwzMR	1LB8qB5BPb3MHQrfkvifXU	In Color	1977	https://i.scdn.co/image/ab67616d0000b27357a0bca6d7da93cd0c551f6a
+5sHvTCk793vr9EkSKcD7IT	0RqtSIYZmd4fiBKVFqyIqD	A Beautiful Lie	2005	https://i.scdn.co/image/ab67616d0000b273865b538169f199dac610b854
+2JHjVEvYNVQ9FUUMB2LcMl	5KDIH2gF0VpelTqyQS7udb	Break the Cycle	2001	https://i.scdn.co/image/ab67616d0000b273437a8cfd8293ddf6d800c384
+5X7aXBpPLFxNvQGlZv7Nl6	77aDWNQLrjzW7i6YBRhCbQ	Fuck Me	2017	https://i.scdn.co/image/ab67616d0000b273927479bd4ec3a2b1e39008a4
+6471rrLPKqZgXQ6TqN5AgU	2MqhkhX4npxDZ62ObR5ELO	Best Of	2010	https://i.scdn.co/image/ab67616d0000b27384366df7e9b8adcb2ccf71e5
+7hwhuEQT4Fp5bzwLlYZtiz	1KCSPY1glIKqW2TotWuXOR	Beautiful Trauma	2017	https://i.scdn.co/image/ab67616d0000b27300164c96548a622d34b39828
+5MqyhhHbT13zsloD3uHhlQ	67ea9eGLXYMsO2eYQRui3w	Who's Next (Deluxe Edition)	1971	https://i.scdn.co/image/ab67616d0000b273fe24dcd263c08c6dd84b6e8c
+1ROVEUk4lc2vD4a0IN1TWS	3TOqt5oJwL9BE2NG9MEwDa	Immortalized (Deluxe Edition)	2015	https://i.scdn.co/image/ab67616d0000b273a58c62e75b82e9c3b47d9ef3
+7mTxBqXEBsSmtTOk8N6NIp	3G5WkIXbDxdNoGWHZbXDjI	T*ts Up Mask On	2020	https://i.scdn.co/image/ab67616d0000b273d210334099a3897e19d8080d
+2dpS2uYlkzDsPjl3IZbNjD	1KCSPY1glIKqW2TotWuXOR	Greatest Hits...So Far!!!	2010	https://i.scdn.co/image/ab67616d0000b2730eb56329734f9400c1639359
+3KHkCXWAJANXQztdpMmKt4	74eX4C98E4FCrAMl39qRsJ	Hallelujah	2016	https://i.scdn.co/image/ab67616d0000b273e0008d241f55aefb0788eadf
+3yIfX4ZW0sYJyw1EMVvfWr	6CwfuxIqcltXDGjfZsMd9A	Purge The Poison (feat. Pussy Riot)	2021	https://i.scdn.co/image/ab67616d0000b2732c4d1adb95f41c7c7cf30f9d
+69wjSAZXZiD2EBia3b3gxL	6zFYqv1mOsgBRQbae3JJ9e	Piano Man (Legacy Edition)	1973	https://i.scdn.co/image/ab67616d0000b273aff4aef671b2510be7c115b3
+3GWdoCGEZLjrsofidLFwgV	4QM5QCHicznALtX885CnZC	Daddy AF	2019	https://i.scdn.co/image/ab67616d0000b273ca6187161cf8e97badac518f
+3lFQ9ihSNR5YD0yi0yTzdC	5nGIFgo0shDenQYSE0Sn7c	The Open Door	2006	https://i.scdn.co/image/ab67616d0000b2737b8aabae10ab5bbe7c7f11c5
+1cppTra3p7ByUGqNsv3Qla	5qa31A9HySw3T7MKWI9bGg	THE S(EX) TAPES	2020	https://i.scdn.co/image/ab67616d0000b273577dd278fa34655ace27f2c5
+3u8UbYIIZkOtawXLDuu57l	6tbLPxj1uQ6vsRQZI2YFCT	Blood	2012	https://i.scdn.co/image/ab67616d0000b273c6aa6fca567129638c3c4355
+29omXgzwHznEed7roEZgRM	3G5WkIXbDxdNoGWHZbXDjI	Don't Be A Ball Sack	2021	https://i.scdn.co/image/ab67616d0000b27355666ff71a4930784c8c1d0a
+19ZUoDOWmYb59rG5p5WoSW	1AwO9pWEBSBoWdEZu28XDC	That Bad Eartha	1956	https://i.scdn.co/image/ab67616d0000b273e6e6f2ebd26cafafe82ef36d
+6qb9MDR0lfsN9a2pw77uJy	4yvcSjfu4PC0CYQyLy4wSq	How To Be A Human Being	2016	https://i.scdn.co/image/ab67616d0000b273ec3d15eab5bd77027abc4b23
+2FgknX5e7fJlriQtxvpLhZ	1moxjboGR7GNWYIMWsRjgG	Lungs (Deluxe Edition)	2009	https://i.scdn.co/image/ab67616d0000b2730672b0f8756ae2af86e8a5ce
+0jHGiwT6YJhI1OV75cbnlW	1caBfBEapzw8z2Qz9q0OaQ	Never Gonna Learn EP	2022	https://i.scdn.co/image/ab67616d0000b273416f9e33134314ceee097c11
+7xg7u99lilTCPbaRfnYuy6	0vYkHhJ48Bs3jWcvZXvOrP	Horses (Legacy Edition)	1975	https://i.scdn.co/image/ab67616d0000b273770198dcbd8d97b29e99b621
+6Ymyr8aoX1jHVvrbGpyL24	1ET1wIkDmuCBC80XcTr3Sg	Thirteen Tales Of Love And Revenge	2008	https://i.scdn.co/image/ab67616d0000b273c81e8d3a686ea9d982c18330
+4oWkraZHpmMWsR96zVKaOT	6tbLPxj1uQ6vsRQZI2YFCT	Blood 1983	2022	https://i.scdn.co/image/ab67616d0000b273c4b06a884cbd65ee9231c12e
+4HyW5B0Xi7iY0rV6q9tlVs	7gcUMQcBkw833YqXciq0WB	NERVOUS	2021	https://i.scdn.co/image/ab67616d0000b273aee3e0efc9bb23391b2c0185
+0TcP4beTgxQmREuHJ7BBY2	7x3f7c0fBanNlQwpx1255g	Françoise Hardy (Tous les garçons et les filles)	1962	https://i.scdn.co/image/ab67616d0000b2731a1679a314d4c3855881ed01
+0SHpIbyBLUugMXsl3yNkUz	4iHNK0tOyZPYnBU7nGAgpQ	Emotions	1991	https://i.scdn.co/image/ab67616d0000b273cac78df6ec3c73e118a308e0
+12wZUFIsldyDhaPneJX9iU	75xNYf2GU5wtQqBrd74SlY	Satanic Prostitute	2019	https://i.scdn.co/image/ab67616d0000b2731efeac1ff945f4c2cf7f4307
+6RoosIKwrQCNYyAw5xidRl	49aaHxvAJ0tCh0F15OnwIl	Fiction Feels Good	2020	https://i.scdn.co/image/ab67616d0000b2736bab65bcefcc0f3690ab17ce
+2ZPgzxiWsWCmCaC9jzNumu	4SdIXLzfabqU61iK7SnKAU	GAY 4 ME (feat. Lauren Sanderson)	2022	https://i.scdn.co/image/ab67616d0000b273b9136e94d7e75b27db04df91
+5ErztBSKEEKJDYzmlAbOy2	6tbLPxj1uQ6vsRQZI2YFCT	The Dream	2012	https://i.scdn.co/image/ab67616d0000b273a5e8e801bac9b0ec74f799bd
+5vQaqB1ZfaOW6BSEGuQ8HC	7jZMxhsB8djyIbYmoiJSTs	Ur Best Friend	2021	https://i.scdn.co/image/ab67616d0000b273063b0fabaec2d94b18ad8a74
+6QeosPQpJckkW0Obir5RT8	00FQb4jTyendYWaN8pK0wa	Chemtrails Over The Country Club	2021	https://i.scdn.co/image/ab67616d0000b273ca929c6e766cb8591a286e0d
+1on2vSrrLw2LJfbqSgocJ6	0cGUm45nv7Z6M6qdXYQGTX	Honey	2017	https://i.scdn.co/image/ab67616d0000b273220bf008506c760faeb85fc5
+7n7QlAD8PJQswHuWW8Xdm8	3ZJxEmjYZd5VOqZ8o3aXiL	PRINCESS	2016	https://i.scdn.co/image/ab67616d0000b273445210241a384e02742ad71e
+5D6nWYP4m00b3LsXYOkzir	11T0XSkxSB5KUPTe8P8BOl	BADA BING! BADA BOOM!	2019	https://i.scdn.co/image/ab67616d0000b273691853ca53c125d0161bafb3
+2QFXjy3u6Bl6ctdK9FS9eF	202HZzqKvPsMHcbwnDZx7u	My Agenda	2020	https://i.scdn.co/image/ab67616d0000b273fe05d794d4ebe29f1ddfcbc8
+2HtT4gawEGgOvAPUO7tiU2	4Gzfk9Lxm67nBs7E9BZjzG	Gravel & Wine	2011	https://i.scdn.co/image/ab67616d0000b273855b214e8eb9590fecfe29b2
+6tjA8CqgIYfPoBMBansXBi	0Xkd9GsWwOYETVF0kPXZIG	The Best Of	2006	https://i.scdn.co/image/ab67616d0000b273eaa5ddce8183134ee57a4018
+5l7whBWhClQiC0pFLpPcRi	2cAXhrWAztXGwk6r15ibW2	Love and Other Lies	2022	https://i.scdn.co/image/ab67616d0000b2736064c05b57123df634910611
+600XgAY1N6sRPVczmBogiF	100sLnojEpcadRx4edEBA6	Kicker	2015	https://i.scdn.co/image/ab67616d0000b27345108945892f2bae307486e1
+2AqpuNC4IqjOWfRIMOMczq	3VjZEaHXvNbCmV5jc0VfZR	Cali God	2017	https://i.scdn.co/image/ab67616d0000b273277679f7718960d6935f88ea
+25eZFwT2UvVK1kxC3wMoSW	4tpUmLEVLCGFr93o8hFFIB	Greatest Hits: Blondie	2006	https://i.scdn.co/image/ab67616d0000b2734a91996f05bcfcdbc2c88e0e
+4B2pV5Zds6478QOqA8yqdj	3rWZHrfrsPBxVy692yAIxF	WILLOW	2019	https://i.scdn.co/image/ab67616d0000b2733e0c22d13bc9b4044e90ab9f
+5cAJxOFxRwXkCihLMQJYtl	3rWZHrfrsPBxVy692yAIxF	3	2014	https://i.scdn.co/image/ab67616d0000b2732e2e393c5933ec6db7822508
+1qPnZBLqLtVw6ER90x84Wb	6tbLPxj1uQ6vsRQZI2YFCT	Beautiful Tragedy	2012	https://i.scdn.co/image/ab67616d0000b2735de395d32c067e831cc8684f
+4JupbzBjFWUQVT8uQ8FF3p	6tbLPxj1uQ6vsRQZI2YFCT	Whore 1983	2022	https://i.scdn.co/image/ab67616d0000b27392028a87a877dbd5d95288d3
+0JGOiO34nwfUdDrD612dOp	6qqNVTkY8uBg9cP3Jd7DAH	Happier Than Ever	2021	https://i.scdn.co/image/ab67616d0000b2732a038d3bf875d23e4aeaa84e
+1aQLXLo5hr1l3l9h7EVJWM	6E8uXyNsUKeGOgRqAOcgBa	The Best Of Georgia Gibbs: The Mercury Years	1996	https://i.scdn.co/image/ab67616d0000b273f263bde11677d0a1d1832c5f
+2SVRzumTLUTdoHgYNQ4Rh9	6blEmsLU25ewy8hHtgZaSL	Worldwide Torture	2020	https://i.scdn.co/image/ab67616d0000b273eea4d8ef4ad2b9b0a7f00d37
+2byvabkqGEA7G4viYaoOlp	6tbLPxj1uQ6vsRQZI2YFCT	A Star-Crossed Wasteland	2010	https://i.scdn.co/image/ab67616d0000b2735da58a08b88c4077642b981f
+2etxKdN5Y3oBednnrGpOaG	14ep6TM2JzapH5nk7vaora	The Path	2019	https://i.scdn.co/image/ab67616d0000b2733565138df12f37790df1e769
+5zpL1adaFeRNPjgf6SkEei	14ep6TM2JzapH5nk7vaora	Lofi Christmas 2	2018	https://i.scdn.co/image/ab67616d0000b273202ff967f7d2b4b4aa1978db
+0aFtAfy01TIYWb6iJGxiU7	14ep6TM2JzapH5nk7vaora	INTUITION	2022	https://i.scdn.co/image/ab67616d0000b273b334dcdca41e71ba0f18bdbe
+7qCQOUdbHrDmRLZpLwOjGU	14ep6TM2JzapH5nk7vaora	THE MAN AND THE BIRDS	2022	https://i.scdn.co/image/ab67616d0000b27376924d63d1626faa7406fad5
+2UNs8HyFV2QVAICFyVhgZV	14ep6TM2JzapH5nk7vaora	JBPWAVE: Genesis	2018	https://i.scdn.co/image/ab67616d0000b2732ae379b7bae88b932fa3c081
+4OdaRG0vEpMtFV8XJW2met	14ep6TM2JzapH5nk7vaora	EXPERIENCE	2020	https://i.scdn.co/image/ab67616d0000b2731ca0b6a0dd8d58f1a79c8fb4
+3bY7zKbVCNqv9jNI90dmFu	14ep6TM2JzapH5nk7vaora	WATTSWAVE IV: DREAMS	2018	https://i.scdn.co/image/ab67616d0000b273c47ad3068132da6b16496fa2
+3LMsFkOLJImsFFUddEjLDy	3iJJD5v7oIFUevW4N5w5cj	Iowa Dream	2019	https://i.scdn.co/image/ab67616d0000b273dfa60b502cd4426c386888f1
+0cJ39KJ52lQ2tnZUyy299i	3iJJD5v7oIFUevW4N5w5cj	Calling Out Of Context	2000	https://i.scdn.co/image/ab67616d0000b273de8d964b97a77d617ff64381
+3pYFqjWzClbyDKvACv5bVQ	3iJJD5v7oIFUevW4N5w5cj	Another Thought	1993	https://i.scdn.co/image/ab67616d0000b273f4d28609ebda619d4acb2391
+7hodLjVNQZSsNEqvG77ZkI	3iJJD5v7oIFUevW4N5w5cj	World Of Echo	1986	https://i.scdn.co/image/ab67616d0000b273e583b34467e3d02048b96aa3
+02WH3YQOSzeEwwZK1jQWjX	3iJJD5v7oIFUevW4N5w5cj	Love Is Overtaking Me	2004	https://i.scdn.co/image/ab67616d0000b273d3becfaa8851f7b953017ed3
+6hPkbAV3ZXpGZBGUvL6jVM	6XyY86QOPPrYVGvF9ch6wz	Hybrid Theory (Bonus Edition)	2000	https://i.scdn.co/image/ab67616d0000b273e2f039481babe23658fc719a
+4Gfnly5CzMJQqkUFfoHaP3	6XyY86QOPPrYVGvF9ch6wz	Meteora	2003	https://i.scdn.co/image/ab67616d0000b273b4ad7ebaf4575f120eb3f193
+2tlTBLz2w52rpGCLBGyGw6	6XyY86QOPPrYVGvF9ch6wz	Minutes to Midnight	2007	https://i.scdn.co/image/ab67616d0000b27346e207de66ba06422897f769
+4lhyg7YGQagE8FT8cZBqyw	3nFkdlSjzX9mRTtwJOzDYB	Numb / Encore: MTV Ultimate Mash-Ups Presents Collision Course	2004	https://i.scdn.co/image/ab67616d0000b2737282412ad025c14f7039f516
+4XHIjbhjRmqWlosjj5rqSI	6XyY86QOPPrYVGvF9ch6wz	LIVING THINGS	2012	https://i.scdn.co/image/ab67616d0000b273987fb4c5ec8790e9f637a4a4
+1bC9urRjJDIecKaA7e8OtQ	2lVklP2whG8hFeQnfenH2k	Move On	2021	https://i.scdn.co/image/ab67616d0000b2736ab96647c218f4ee5a3afc26
+6f4598ldLTai2Vm2WszDep	2lVklP2whG8hFeQnfenH2k	SUPERPOWERS	2017	https://i.scdn.co/image/ab67616d0000b27321e010e788c0f8186a400576
+3v2bM9ivWdqBCJujakTkdL	2lVklP2whG8hFeQnfenH2k	I'll Get There	2021	https://i.scdn.co/image/ab67616d0000b2732315cc45e0f13f2cafc66788
+4WER0jHByxYmFwXZgRL6Pk	2CCcoAwiAwpIs1hcsqkk3b	Listen, Dream	2019	https://i.scdn.co/image/ab67616d0000b27393e5fa347b980d1ef0a85d56
+43YwhBeUOwdiJKzg1Ut3HE	6WO91WQMsVTfS1oET3Tfs3	Intro	2022	https://i.scdn.co/image/ab67616d0000b2738e3c5621f03cb83e04450b22
+3WxDoCNoBBXRJOdrpbQAnG	2CCcoAwiAwpIs1hcsqkk3b	Stop n' Listen	1998	https://i.scdn.co/image/ab67616d0000b273a46177a46265a48f973e8701
+44IxTo82DCUN2qFXyXc09T	2CCcoAwiAwpIs1hcsqkk3b	Resurgence	2016	https://i.scdn.co/image/ab67616d0000b27388b917c479388d0a47fef6e0
+1ChauYEiQTj1Oq9YrIXlrO	3N7feSJ5L5LiXyBvcFVUPm	who am i?	2020	https://i.scdn.co/image/ab67616d0000b273eabb3e3b3fea9ce8690bd339
+5l5m1hnH4punS1GQXgEi3T	2yEwvVSSSUkcLeSTNyHKh8	Lateralus	2001	https://i.scdn.co/image/ab67616d0000b273ca41a947c13b78749c4953b1
+3Esn6LoXuWtLZNYq8FCzr0	2yEwvVSSSUkcLeSTNyHKh8	Undertow	1993	https://i.scdn.co/image/ab67616d0000b27382298636c94b8167c4793db2
+0KTj6k94XZh0c6IEMfxeWV	4yvcSjfu4PC0CYQyLy4wSq	Dreamland (+ Bonus Levels)	2020	https://i.scdn.co/image/ab67616d0000b2739e495fb707973f3390850eea
+4SRt3uGUROnTFCw41dzHIh	4yvcSjfu4PC0CYQyLy4wSq	Heat Waves (Expansion Pack)	2021	https://i.scdn.co/image/ab67616d0000b273ca715be1bb97fc0129955123
+14IOe7ahxQPTwUYUQX3IFi	4yvcSjfu4PC0CYQyLy4wSq	ZABA	2014	https://i.scdn.co/image/ab67616d0000b2737a293e6787c6d200c5077cd0
+4nr6ytQ4OrEralEu4LhIVp	4yvcSjfu4PC0CYQyLy4wSq	Dreamland (+ Bonus Levels)	2021	https://i.scdn.co/image/ab67616d0000b27320154c1edea81bf39988e1a9
+29M1rpCsLwuhfhSvurLtvy	0DAZn759crST1j1p3Y2qTn	Song Of The Sea	2004	https://i.scdn.co/image/ab67616d0000b27393841d36249805e5d78137a1
+6l4110MiDXq0APRJqfNY1r	0DAZn759crST1j1p3Y2qTn	Incantation	1996	https://i.scdn.co/image/ab67616d0000b27323465cdbc6bae8c66696613c
+2XQ1tT05aEyL2WTUaLXi1u	0DAZn759crST1j1p3Y2qTn	Neofolk Romantique	2013	https://i.scdn.co/image/ab67616d0000b273c2e629be228299f74c0eec56
+2CDhKaXbRZlwkowhqbHavc	1TjaxisqOtZkkNRqGYGBNY	Songs for the Waning Year	2008	https://i.scdn.co/image/ab67616d0000b273f53380a25a0957ce481fb021
+4w9GGiYm45kGM5fbKx9FuP	0DAZn759crST1j1p3Y2qTn	Portals	2016	https://i.scdn.co/image/ab67616d0000b273faad7b2f4d907d6766114bd0
+3HED2IUaNSnbOe88a7ZdwM	053q0ukIDRgzwTr4vNSwab	Visions	2012	https://i.scdn.co/image/ab67616d0000b273550133f6d334ed152d75aa56
+4wsyyLWO72hZ39U6hrl31A	053q0ukIDRgzwTr4vNSwab	Shinigami Eyes	2022	https://i.scdn.co/image/ab67616d0000b273017ec700a9624eec4a7a1e3f
+7J84ixPVFehy6FcLk8rhk3	053q0ukIDRgzwTr4vNSwab	Art Angels	2015	https://i.scdn.co/image/ab67616d0000b2734f1235383b41920e64b00a78
+4zyqNfmTrnvUejh8M1IEh9	053q0ukIDRgzwTr4vNSwab	Miss Anthropocene (Deluxe Edition)	2020	https://i.scdn.co/image/ab67616d0000b2731a302aafa2ea587960e27951
+438ToDoVaJH5aTIXXrlDyI	3PyJHH2wyfQK3WZrk9rpmP	DEMIDEVIL	2021	https://i.scdn.co/image/ab67616d0000b27311b63834a1a557cc77403458
+1VGVJdmvOSRK2w9RKXk18A	053q0ukIDRgzwTr4vNSwab	Cyberpunk 2077: Radio, Vol. 2 (Original Soundtrack)	2020	https://i.scdn.co/image/ab67616d0000b273a91a5b301baac1f46e6f30eb
+1WdV2sVtRWpiaPAxyvq51r	053q0ukIDRgzwTr4vNSwab	Player Of Games	2021	https://i.scdn.co/image/ab67616d0000b273d4316d60f0987758291942c7
+2PjlaxlMunGOUvcRzlTbtE	6ueGR6SWhUJfvEhqkvMsVs	Dirty Computer	2018	https://i.scdn.co/image/ab67616d0000b2730a60fb0deda858270cca82ee
+7MvSB0JTdtl1pSwZcgvYQX	6ueGR6SWhUJfvEhqkvMsVs	The ArchAndroid	2010	https://i.scdn.co/image/ab67616d0000b273120a1366324c2ae1728e17e5
+5rzxGeVyCV74SvV5hjLRAU	6ueGR6SWhUJfvEhqkvMsVs	Yoga	2015	https://i.scdn.co/image/ab67616d0000b273fbf594435bcb7b30636efc02
+3bnHtSmmsgJiG82hGCmsq9	6ueGR6SWhUJfvEhqkvMsVs	The Electric Lady	2013	https://i.scdn.co/image/ab67616d0000b27357cc241e3fc4e95eea8c4b20
+27RUK36qlkCtwySz0pBQXq	6ueGR6SWhUJfvEhqkvMsVs	UglyDolls (Original Motion Picture Soundtrack)	2019	https://i.scdn.co/image/ab67616d0000b2738fcb9839ce121f945e67d07d
+0dZB8UHYsM7jKmm7ByzAVq	49qiE8dj4JuNdpYGRPdKbF	Come What(ever) May [10th Anniversary Edition]	2006	https://i.scdn.co/image/ab67616d0000b273b424aeb510016daa1bc0251c
+2nCHgPLLyIgxFKUBYuMKPn	49qiE8dj4JuNdpYGRPdKbF	House of Gold & Bones, Part 1	2012	https://i.scdn.co/image/ab67616d0000b2738328645e58684d8770a8475f
+1zxVmbhE7PevJT8Z6w6upn	49qiE8dj4JuNdpYGRPdKbF	Stone Sour	2002	https://i.scdn.co/image/ab67616d0000b273d2b113d2a75b3168ed9675e3
+4PERSgw7TXqpEZlIVN6zHr	49qiE8dj4JuNdpYGRPdKbF	Hydrograd	2017	https://i.scdn.co/image/ab67616d0000b27349ca1daa7d94fbbd6ddbba87
+5tgokdjXViimLTW4LwiXMC	49qiE8dj4JuNdpYGRPdKbF	Audio Secrecy	2010	https://i.scdn.co/image/ab67616d0000b27392102fd4e273c18e53db3e7f
+4n2cBoeyuL21un0GB8hu9q	49qiE8dj4JuNdpYGRPdKbF	Straight Outta Burbank	2015	https://i.scdn.co/image/ab67616d0000b27303139782ac78c663c4a084a3
+28yHV3Gdg30AiB8h8em1eW	3qm84nBOXUEQ2vnTfUTTFC	Appetite For Destruction	1987	https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5
+0CxPbTRARqKUYighiEY9Sz	3qm84nBOXUEQ2vnTfUTTFC	Use Your Illusion I	1991	https://i.scdn.co/image/ab67616d0000b273e44963b8bb127552ac761873
+00eiw4KOJZ7eC3NBEpmH4C	3qm84nBOXUEQ2vnTfUTTFC	Use Your Illusion II	1991	https://i.scdn.co/image/ab67616d0000b27392d21aef6c0d288cc4c05973
+3edmYBHOTxfz8NxJE1QmTP	3qm84nBOXUEQ2vnTfUTTFC	Appetite For Destruction (Super Deluxe Edition)	1987	https://i.scdn.co/image/ab67616d0000b2737e1774622a9c5f52b7dd1c33
+6ssU2hZQfuJVTrwc463Ma4	0e9C27umtAZF9E2jqyRfeP	Carry Us Away	2020	https://i.scdn.co/image/ab67616d0000b273f06fb1ffa6304c7ef6a1a09e
+2mHAYyspw9eCOGKhW7lvnS	0e9C27umtAZF9E2jqyRfeP	Reanimated Voices	2022	https://i.scdn.co/image/ab67616d0000b273972e335613d88be262f467b0
+5OOLdSsfHOIaX3btu50XBR	0e9C27umtAZF9E2jqyRfeP	Blight	2022	https://i.scdn.co/image/ab67616d0000b273d1e09e5b900463deebe1628f
+0U1iGUMa7w84jrny8URO5f	0e9C27umtAZF9E2jqyRfeP	History Reimagined	2021	https://i.scdn.co/image/ab67616d0000b2733deab2235c99de1742e960ac
+0fELI71l0QCQD461aOkSTJ	0ZJoU0Z8MIukDaRiFwMZcp	Glacier Marriage	2021	https://i.scdn.co/image/ab67616d0000b27364c625ba48a042b561513be9
+5Ap3F8CxjjsQKZGASDcHNA	6ogn9necmbUdCppmNnGOdi	Jagged Little Pill (2015 Remaster)	1995	https://i.scdn.co/image/ab67616d0000b273242e643ea07118ecf677a6ef
+2QXT4rGSfqjqfgpZ059yKp	6ogn9necmbUdCppmNnGOdi	Supposed Former Infatuation Junkie	1998	https://i.scdn.co/image/ab67616d0000b273c694da863eeeae3149c5c590
+0kKfmdca8GY7bDWFWtY801	6ogn9necmbUdCppmNnGOdi	Under Rug Swept	2002	https://i.scdn.co/image/ab67616d0000b273d78336d6cea76829a83069f9
+4N7LuZYpstQrtcHIoOKzqg	6ogn9necmbUdCppmNnGOdi	The Collection (Standard Edition)	2005	https://i.scdn.co/image/ab67616d0000b273d00e49003543a5bb5aa5b873
+0LkVxRq8mZbPUaRgEEvxKv	6ogn9necmbUdCppmNnGOdi	Live / Unplugged	1999	https://i.scdn.co/image/ab67616d0000b27321efe6654042386a884431b8
+2Q9oTK48eb85waX1fFJsvj	1KCSPY1glIKqW2TotWuXOR	The Truth About Love	2012	https://i.scdn.co/image/ab67616d0000b2739d0f0d226987b449808e7b6f
+3uQMzfrf4kUNGsCtmTtjPh	1KCSPY1glIKqW2TotWuXOR	Raise Your Glass	2010	https://i.scdn.co/image/ab67616d0000b2736f3451faa271fbe470685f34
+1LOJfNDxQhbpssKx7oM7at	1KCSPY1glIKqW2TotWuXOR	Funhouse (Expanded Edition)	2008	https://i.scdn.co/image/ab67616d0000b2735a45d5041e4ffcb9f756f740
+6MCHSjoEVriUjWE6LERAaR	1KCSPY1glIKqW2TotWuXOR	Never Gonna Not Dance Again	2022	https://i.scdn.co/image/ab67616d0000b273a342edc8d90ae68d99333bab
+061vVdNVxwouz0INdQeOkn	1KCSPY1glIKqW2TotWuXOR	All I Know So Far: Setlist	2021	https://i.scdn.co/image/ab67616d0000b273622e777dae28385599c114c8
+5rK6h49Qd6gSxxbQGMrWfq	1KCSPY1glIKqW2TotWuXOR	I'm Not Dead	2006	https://i.scdn.co/image/ab67616d0000b2730156b42e6443277454bb30fa
+02wEEiMLBV64tAhyPCtD4J	1KCSPY1glIKqW2TotWuXOR	Irrelevant	2022	https://i.scdn.co/image/ab67616d0000b273a709c82c6e5b3412970d5aeb
+1jRyMHSkbnP8GwptMnh66z	5HYNPEO2NNBONQkp3Mvwvc	Selfies on Kodachrome	2015	https://i.scdn.co/image/ab67616d0000b273cbd2dfb4d97eab0b6d55d3a3
+4kZggLkaCdeboIu94dn8KB	5HYNPEO2NNBONQkp3Mvwvc	Swipe Right For Vintage	2015	https://i.scdn.co/image/ab67616d0000b273eb4f30a4e726d28bb8844764
+1c8vOBrWZQS7VGrSmMkmpk	5HYNPEO2NNBONQkp3Mvwvc	Top Hat On Fleek	2015	https://i.scdn.co/image/ab67616d0000b27321026adbe27d43ccdc68ad80
+2T46DrPiNwn89DDfl8J48E	5HYNPEO2NNBONQkp3Mvwvc	Clubbin' With Grandpa	2014	https://i.scdn.co/image/ab67616d0000b27350ffe99e5fd90480107f597b
+334uy6wA5harUKkI4rf62z	5HYNPEO2NNBONQkp3Mvwvc	Historical Misappropriation	2014	https://i.scdn.co/image/ab67616d0000b273949b99fe6f0408a3088cb7c3
+48DZGgsnOeX8CZR2SjUMmH	5HYNPEO2NNBONQkp3Mvwvc	Fake Blues	2017	https://i.scdn.co/image/ab67616d0000b273db98644d3e494e667d5187fa
+5CUFurrJe05hnz189d5mDK	5HYNPEO2NNBONQkp3Mvwvc	33 Resolutions Per Minute	2017	https://i.scdn.co/image/ab67616d0000b2735cb23d27338f4f3d848120ca
+2fwH1QL0wgnbbXiHWCYs1D	6om12Ev5ppgoMy3OYSoech	ReAniMate: The CoVeRs eP	2011	https://i.scdn.co/image/ab67616d0000b273b42f2b51fbd20e682dec02a4
+4TyrGrbnsOVKOXVut2huz2	6om12Ev5ppgoMy3OYSoech	The Strange Case of... (Deluxe)	2012	https://i.scdn.co/image/ab67616d0000b273b14af798474c18407f8b3f52
+5iMlDARMRcsRn0hvFMgDfS	6om12Ev5ppgoMy3OYSoech	Halestorm (Deluxe)	2009	https://i.scdn.co/image/ab67616d0000b2732dcec3f47a055f91ed1969a5
+27Bw4tTQWjEv3jpp6ynGfu	6om12Ev5ppgoMy3OYSoech	Back From the Dead	2022	https://i.scdn.co/image/ab67616d0000b273d928c53eaad4ba4c766afea1
+6jPjpEJBxT0HN71TAEohZ0	6om12Ev5ppgoMy3OYSoech	Into the Wild Life (Deluxe)	2015	https://i.scdn.co/image/ab67616d0000b27391295436bcc70bf9614487ad
+2JzsMlDbOOZbiXmfHAOREG	6om12Ev5ppgoMy3OYSoech	Mine	2022	https://i.scdn.co/image/ab67616d0000b273bf08046871631d6586ab111f
+788r22Bhr3IHLTNPy8pZea	2feDdbD5araYcm6JhFHHw7	Euphoria (Original Score from the HBO Series)	2019	https://i.scdn.co/image/ab67616d0000b27389c39ba1acdf33ed7acd3867
+0FSsRH1jeZqKbGcHwq3UO0	2feDdbD5araYcm6JhFHHw7	Imagination & the Misfit Kid	2019	https://i.scdn.co/image/ab67616d0000b273e4c03429788f0aff263a5fc6
+6bsCl6iS6dvC4xaiBlecPv	2feDdbD5araYcm6JhFHHw7	Jealous - EP	2014	https://i.scdn.co/image/ab67616d0000b2733bba6a5b7ed4477f2e8f90c7
+0ujHQ5WCLuKJQXOqXpGtpf	5WUlDfRSoLAfcVSX1WnrxN	LABRINTH, SIA & DIPLO PRESENT... LSD	2019	https://i.scdn.co/image/ab67616d0000b2733f159ae07dd556323f39f47b
+0zjbNtfnMLmt2q50E3wDx8	2feDdbD5araYcm6JhFHHw7	Imagination & the Misfit Kid	2019	https://i.scdn.co/image/ab67616d0000b27343bc512b34c0dba811c70e12
+43tSLc6ZxW8TTRLrBO0SU1	2feDdbD5araYcm6JhFHHw7	EUPHORIA SEASON 2 OFFICIAL SCORE (FROM THE HBO ORIGINAL SERIES)	2022	https://i.scdn.co/image/ab67616d0000b2739b057c2bcfced3d43740adaa
+0gsiszk6JWYwAyGvaTTud4	3RNrq3jvMZxD9ZyoOZbQOD	Follow The Leader	1998	https://i.scdn.co/image/ab67616d0000b27350d216aebaf98e8ac9947fd5
+2c7ynrgZP08xNtkJi9MhjF	3RNrq3jvMZxD9ZyoOZbQOD	See You On the Other Side	2005	https://i.scdn.co/image/ab67616d0000b27374c1560b64750a1774495144
+5U0pevIOTrPoDsN8YsBCBh	3RNrq3jvMZxD9ZyoOZbQOD	Issues	1999	https://i.scdn.co/image/ab67616d0000b2731c229cb7c9851fb0c67e2af8
+1OzMlpOy3QYFYrnM9YShH9	3RNrq3jvMZxD9ZyoOZbQOD	Live & Rare	2006	https://i.scdn.co/image/ab67616d0000b27316ca70ae96340e9f5f605690
+1L9iPuSu8FZFaFzzqHQarF	3RNrq3jvMZxD9ZyoOZbQOD	Word Up! (The Remixes)	2004	https://i.scdn.co/image/ab67616d0000b273d28bc84c691163fb094787fa
+1MqmDK2xw4isOPhiUb9eXO	3RNrq3jvMZxD9ZyoOZbQOD	Untouchables	2002	https://i.scdn.co/image/ab67616d0000b27367b097c11348179a60c0866d
+3487OYBtnRl82qA6tfyWco	3RNrq3jvMZxD9ZyoOZbQOD	Take A Look In The Mirror	2003	https://i.scdn.co/image/ab67616d0000b2731db105273d8af0e255e491ec
+2b813fSxxzp9lcOfnLrrTH	3RNrq3jvMZxD9ZyoOZbQOD	Life Is Peachy	1996	https://i.scdn.co/image/ab67616d0000b273ad4ca82999655cfc56c86828
+1PAxC4UQ1HQzCbfoDMpFIZ	4gKo3LXoxHriLS6CBKThAU	The Folks I Love	2021	https://i.scdn.co/image/ab67616d0000b273b7f9463a42383978ad4f8b26
+1ngCM5T0CSIGWdgNWGAqB6	4gKo3LXoxHriLS6CBKThAU	Sea to Sky	2021	https://i.scdn.co/image/ab67616d0000b273ef1d633bbf53515fa44bd880
+5m2gJQ8uSKQYCvwoooGwKf	20q3NJtmeKSi3BTnmUFK16	Nancy Mulligan	2022	https://i.scdn.co/image/ab67616d0000b2731d378babdaf996e7ce39513e
+5PEfNDn9GLnKbR3KKZb0fN	4gKo3LXoxHriLS6CBKThAU	Hoist the Colours	2021	https://i.scdn.co/image/ab67616d0000b273d82338aeb60b7a1cba8bd3d7
+7c6r7iZmrlyY3oVvBU8btM	4gKo3LXoxHriLS6CBKThAU	Don't Make Me	2019	https://i.scdn.co/image/ab67616d0000b273ebe8ea8a4c13a1d471ec7a4a
+3qAFi30gvYYEnEM5rCCtqp	4gKo3LXoxHriLS6CBKThAU	Wild One	2022	https://i.scdn.co/image/ab67616d0000b273e1d96bfdf7c29100744fef68
+37nbyO9hjO4LIpq96HfKby	4gKo3LXoxHriLS6CBKThAU	Forever (in my mind)	2022	https://i.scdn.co/image/ab67616d0000b273d979453798bf977529bff6be
+01cipgct2Fs6B4erVHVbB6	4gKo3LXoxHriLS6CBKThAU	I'm not there yet	2022	https://i.scdn.co/image/ab67616d0000b273b3baf57a556b8bbc9d605a4b
+7wGLeeJt18EBjc181FP2cM	2pqd3HsfsvcBGtHvPOg6eg	Mister Asylum	2015	https://i.scdn.co/image/ab67616d0000b273b7897784eee989d4f97f8579
+3TC40H9dIJArFzy0rWnWCg	2pqd3HsfsvcBGtHvPOg6eg	The Boy Who Died Wolf	2016	https://i.scdn.co/image/ab67616d0000b2730412a482b98670e4d98a55fd
+0SWbz68LauoDrMdgdNv6gr	2pqd3HsfsvcBGtHvPOg6eg	The Midnight Demon Club	2022	https://i.scdn.co/image/ab67616d0000b273cf88e7a465f979556100e59c
+16ah4zHJlxx3wjRFg3nkSl	2pqd3HsfsvcBGtHvPOg6eg	MCID	2019	https://i.scdn.co/image/ab67616d0000b273162c318de3706730be75a201
+0bCAjiUamIFqKJsekOYuRw	0k17h0D3J5VfsdmQ1iZtE9	Wish You Were Here	1975	https://i.scdn.co/image/ab67616d0000b2731a84d71391df7469c5ab8539
+5Dbax7G8SWrP9xyzkOvy2F	0k17h0D3J5VfsdmQ1iZtE9	The Wall	1979	https://i.scdn.co/image/ab67616d0000b2735d48e2f56d691f9a4e4b0bdf
+4LH4d3cOWNNsVw41Gqt2kv	0k17h0D3J5VfsdmQ1iZtE9	The Dark Side of the Moon	1973	https://i.scdn.co/image/ab67616d0000b273ea7caaff71dea1051d49b2fe
+4KqorQ6C7yDXvqgfgGrnvm	5Va9LuEmaZxnbk1gMnjMD7	Greatest Hits	2001	https://i.scdn.co/image/ab67616d0000b273c77d365e5d5732f06bec6117
+4QrhfVaznhrAPlM5xCKBPh	5Va9LuEmaZxnbk1gMnjMD7	3 Years, 5 Months And 2 Days In The Life Of...	1992	https://i.scdn.co/image/ab67616d0000b2734be225a31e2e5bb6cfa921f6
+0h3rxIcX0RNqqeNdj9ngZB	5Va9LuEmaZxnbk1gMnjMD7	Zingalamaduni	1994	https://i.scdn.co/image/ab67616d0000b273dc1788fdef3962be8ca8449a
+7ql593Au4JADM3UHtIw7cs	5Va9LuEmaZxnbk1gMnjMD7	For the FKN Love	2021	https://i.scdn.co/image/ab67616d0000b27317af2e15eebfb6d32eaa7939
+0VT2emnH6OD535swnaI2b8	5Va9LuEmaZxnbk1gMnjMD7	Since the Last Time	2007	https://i.scdn.co/image/ab67616d0000b27322be8fea94b722765722fab2
+1P2L7DD1DCqb0VfpMyByLl	74eX4C98E4FCrAMl39qRsJ	Wake Up Call	2017	https://i.scdn.co/image/ab67616d0000b273af7be01d388305b7308df2e1
+2d4tYx2ulDP1Kgudxsrs7B	74eX4C98E4FCrAMl39qRsJ	Scars & Souvenirs (Special Edition)	2008	https://i.scdn.co/image/ab67616d0000b2733a7c61f8e1b879dd5a2a8ae3
+6SfhyLVugAsXYDvs966WBn	74eX4C98E4FCrAMl39qRsJ	Savages	2014	https://i.scdn.co/image/ab67616d0000b273fe40036b3c09a151b9b2ccc4
+2JUpjRRxWKUZwVwY9sTXS1	74eX4C98E4FCrAMl39qRsJ	The Truth Is... (Special Edition)	2011	https://i.scdn.co/image/ab67616d0000b2731994d4fee1588a93a1c31745
+2AcRfLUDOjcjFrysc0WY7R	74eX4C98E4FCrAMl39qRsJ	Dinosaur	2022	https://i.scdn.co/image/ab67616d0000b2733eef9b5f7af1b6b4001dfb31
+3nJnyDV8fwFpffo0EyHQto	0X380XXQSNBYuleKzav5UO	The Downward Spiral	1994	https://i.scdn.co/image/ab67616d0000b273f69bd9abbfeb819840993207
+56Us3Q6UIM4jKJZlWhqddL	0X380XXQSNBYuleKzav5UO	With Teeth	2005	https://i.scdn.co/image/ab67616d0000b273f489b4582e496de8f71e88da
+3umFHeEpc4yLXtrRcv9gLN	0X380XXQSNBYuleKzav5UO	Pretty Hate Machine	1989	https://i.scdn.co/image/ab67616d0000b2739764c0993e45db213f0e359f
+4jyWDa1yM9ul7zgUdR80hw	0X380XXQSNBYuleKzav5UO	Broken	1992	https://i.scdn.co/image/ab67616d0000b273f1234cfed5f06fd58e76b06f
+77PY9VYriArqduEpkD2Ues	0X380XXQSNBYuleKzav5UO	Lost Highway	1997	https://i.scdn.co/image/ab67616d0000b273aa2fb952909df46a2c13fa74
+0aBrxKKNYOM5FvtCGoy5Hy	65NrBzD3Jnf1iqbDjuUYjD	Release Your Mind	2018	https://i.scdn.co/image/ab67616d0000b2732870e5ec784571c96bdee5b5
+0M8rYJSqRmsRLiKDL8bJAE	65NrBzD3Jnf1iqbDjuUYjD	Withering	2018	https://i.scdn.co/image/ab67616d0000b273b2d7f6463e1209d7d87fb7b1
+0kDCsx0s9JjwmKGPkAAbS1	65NrBzD3Jnf1iqbDjuUYjD	The Blizzard Was Relentless, But Surely He Was Getting Closer to That Shimmer	2021	https://i.scdn.co/image/ab67616d0000b273d03b355bd3b02db4a9148547
+4GJxpFYhWWkSO4NwJrAUvy	65NrBzD3Jnf1iqbDjuUYjD	Strawberry Fields	2022	https://i.scdn.co/image/ab67616d0000b27347a6c0c6b79d9bfc708f1068
+3bTZgPevR8VerXJ1bBhG7I	65NrBzD3Jnf1iqbDjuUYjD	All we need is time...	2022	https://i.scdn.co/image/ab67616d0000b273b5f1999f9ac2b295ffcba888
+7GnjwXMxeIiIiHRKqTzC96	65NrBzD3Jnf1iqbDjuUYjD	Waiting for You	2015	https://i.scdn.co/image/ab67616d0000b2739f3fd4c3c8cd998df710c484
+58hhTOPQoKbdzxD5r7Y7F4	65NrBzD3Jnf1iqbDjuUYjD	New Horizons	2022	https://i.scdn.co/image/ab67616d0000b273c995d3ae12b4ad2555d981e6
+7APnZJwayR3lH9aUDPDYQB	2VYQTNDsvvKN9wmU5W7xpj	Antichrist Superstar	1996	https://i.scdn.co/image/ab67616d0000b273c61d3a663bd18fe8cd97c947
+5XiQM9S9V3XL03xxmIMPeb	2VYQTNDsvvKN9wmU5W7xpj	Smells Like Children	1995	https://i.scdn.co/image/ab67616d0000b273e79c8fbf147c2875a2542993
+3stFLIWyYH4a8u0bdxDopt	2VYQTNDsvvKN9wmU5W7xpj	Holy Wood	2000	https://i.scdn.co/image/ab67616d0000b273489ccb220bdb619c61acdfcd
+7fmOTYDQn9DIXCy1YDrl4S	2VYQTNDsvvKN9wmU5W7xpj	Lest We Forget - The Best Of	2004	https://i.scdn.co/image/ab67616d0000b273eabdb4fe7c535b5f40171eb4
+69ACUmut0hbGOSonmU4kNS	2VYQTNDsvvKN9wmU5W7xpj	Mechanical Animals	1998	https://i.scdn.co/image/ab67616d0000b27348f31f0d658ebfb9a049769e
+38FWu0ePBmlNQdpg6WiLld	2VYQTNDsvvKN9wmU5W7xpj	The Golden Age Of Grotesque	2003	https://i.scdn.co/image/ab67616d0000b273811b86375e5c3ef8ba365345
+7xubspY1zmyTduYWnkGNxT	2VYQTNDsvvKN9wmU5W7xpj	The Jack 2 Pack (The Nightmare Before Christmas)	2006	https://i.scdn.co/image/ab67616d0000b2733183d685e21fad0233710ac3
+2jTbcSPVTBRAoc3mHU6hy0	0JDkhL4rjiPNEp92jAgJnS	Oh, Pretty Woman	1962	https://i.scdn.co/image/ab67616d0000b2731b3c09cb3ec9f618664f2622
+1UPcuqLY9PC99fQAqWgrSU	0JDkhL4rjiPNEp92jAgJnS	Mystery Girl	1989	https://i.scdn.co/image/ab67616d0000b273ef89c52c42eaf1f89347a16c
+5txtL5NwxbzS5ENtNEWGpS	0JDkhL4rjiPNEp92jAgJnS	Sings Lonely and Blue	1961	https://i.scdn.co/image/ab67616d0000b273ad7b6ec702c5f75075c66d48
+21REQ6X34DCAcoxtj654TI	0JDkhL4rjiPNEp92jAgJnS	Crying	1962	https://i.scdn.co/image/ab67616d0000b2732b150c08d3c57a785b02c578
+48CvRZSBT0FbOHKLFfHy0n	0JDkhL4rjiPNEp92jAgJnS	The Essential Roy Orbison	2006	https://i.scdn.co/image/ab67616d0000b2734516a5d74bac51f3afcba85a
+5OpNbQPffWNtVhWCF6GziB	0JDkhL4rjiPNEp92jAgJnS	In Dreams	1963	https://i.scdn.co/image/ab67616d0000b273ed717255beab9002539714c7
+4HBLunZ4GQjnraimqR77Ir	5Qlt3zQ63Z99mNhuun0JAT	Gorgeous George	2011	https://i.scdn.co/image/ab67616d0000b27351893e443844361a44675df4
+3llsvOzqNnROO871G1Pkst	5Qlt3zQ63Z99mNhuun0JAT	I'm Not Following You	1997	https://i.scdn.co/image/ab67616d0000b273deba98676b12d3ec63275bec
+32d5TXQwHyJUqvdiNa7FLK	5Qlt3zQ63Z99mNhuun0JAT	Doctor Syntax	2002	https://i.scdn.co/image/ab67616d0000b2735e3fccf2a13483940127fd54
+3EIP6yHRKXPcHXpWdTAvBm	5Qlt3zQ63Z99mNhuun0JAT	Badbea	2019	https://i.scdn.co/image/ab67616d0000b273ab33f72e2c1d01eb151d104a
+6wIIQcHIwWU57I7Ic379zh	5Qlt3zQ63Z99mNhuun0JAT	The Possibilities Are Endless	2014	https://i.scdn.co/image/ab67616d0000b273c8a9c4d809a945ea7456a077
+0rSLgV8p5FzfnqlEk4GzxE	69GGBxA162lTqCwzJG5jLp	Closer	2016	https://i.scdn.co/image/ab67616d0000b273495ce6da9aeb159e94eaa453
+2KqlAl1Kl5fZvbFgJ0qFB6	3Nrfpe0tUJi4K4DXYWgMUX	MAP OF THE SOUL : PERSONA	2019	https://i.scdn.co/image/ab67616d0000b27318d0ed4f969b376893f9a38f
+68enXe5XcJdciSDAZr0Alr	26VFTg2z8YR0cCuwLzESi2	Manic	2020	https://i.scdn.co/image/ab67616d0000b2737636e1c9e67eaafc9f49aefd
+1VAc77UvK5wj8ZSWCo3V2b	02kJSzxNuaWGqwubyUba0Z	The Beautiful & Damned	2017	https://i.scdn.co/image/ab67616d0000b273046527a9c176f7c2916f3530
+7dQ734EW0iLvQfF6vBFNiZ	5CiGnKThu5ctn9pBxv7DGa	FRIENDS KEEP SECRETS	2018	https://i.scdn.co/image/ab67616d0000b273693dbf001d5b2d06ad9e5f4d
+7GjG91tyHQNGEHzKJaqOi0	26VFTg2z8YR0cCuwLzESi2	hopeless fountain kingdom (Deluxe)	2017	https://i.scdn.co/image/ab67616d0000b2730f7ad6d8d829906c17cae210
+49DV9eFp2xTdtO7veew5xS	7CajNmpbOovFoOoasH2HaY	Funk Wav Bounces Vol. 2	2022	https://i.scdn.co/image/ab67616d0000b273c5844aae8ac82f2a4fa6415e
+1eleCBhP2R8TXEDquvybwC	64KEffDW9EtZ1y2vBYgq8T	Be Kind (with Halsey)	2020	https://i.scdn.co/image/ab67616d0000b273fdf2e993e10e67396b3bf759
+2GCDQipR2hfrNzLC9FCwaf	26VFTg2z8YR0cCuwLzESi2	So Good	2022	https://i.scdn.co/image/ab67616d0000b27339e6616a499bc092f469cae0
+3CrWNG2oqbEBHKAqfZP6CO	4VpWzXVUAR2YyQuWQpNGAf	Sunset Mission	2016	https://i.scdn.co/image/ab67616d0000b273ed0674a60e6ff315c01b411b
+4RvU10koPNztzYeXOlwLWG	2CCcoAwiAwpIs1hcsqkk3b	your Own Self	2022	https://i.scdn.co/image/ab67616d0000b273bb98ca0fe289e33abeaeb782
+3950FHVErcINW3tjRgjebQ	46auOkH1pk28rWrSoUNhLo	Pony	2019	https://i.scdn.co/image/ab67616d0000b273471d881744ac34ebe4eb7636
+2hCcPHWTbvF81CiXPUrM6I	46auOkH1pk28rWrSoUNhLo	Bronco	2022	https://i.scdn.co/image/ab67616d0000b273778051b03d5d4364a84c12c5
+2wuSSfY2acuozXaOth22B1	4Q1IDfpCe7ZRhPDfqeb5dd	Unchained Melody / You've Lost That Lovin' Feelin'	2020	https://i.scdn.co/image/ab67616d0000b273462582df688169b9158daeb7
+39R5c82ytTeEF85kmJTtNT	46auOkH1pk28rWrSoUNhLo	Show Pony	2020	https://i.scdn.co/image/ab67616d0000b273bf10c2848e7ee2ca6cdb2a9c
+1FNBevfbKAzZsgI2RpkkQQ	3klZnJvYGIbWritVwQD434	Small Town Boy	2020	https://i.scdn.co/image/ab67616d0000b2731b55c3257d316d184d641800
+38aH4OObJSjtO48q2eNoA4	5qa31A9HySw3T7MKWI9bGg	Girl Of My Dreams	2022	https://i.scdn.co/image/ab67616d0000b27354d18b47810756f87282ea43
+5esH2DAz24R8zMbnttuFCK	5qa31A9HySw3T7MKWI9bGg	Suckerpunch	2022	https://i.scdn.co/image/ab67616d0000b273307b6829450d2de763627c8f
+2JqdcyrOqUzCJQOeuJ7h5u	5qa31A9HySw3T7MKWI9bGg	Bitter	2020	https://i.scdn.co/image/ab67616d0000b2730af1e2a115beaf720502ad7a
+5NUs7V7ETbYhyArrEGxyPr	1lmU3giNF3CSbkVSQmLpHQ	Another Life	2021	https://i.scdn.co/image/ab67616d0000b2732c227ea037c950d3dc6bdb7f
+5if1VcWOdT94468kyjgN3Z	1QRj3hoop9Mv5VvHQkwPEp	Bitch Back	2022	https://i.scdn.co/image/ab67616d0000b273e29dd63f4ab628e18d8665fe
+13topfW33NjnACjnRiZBX7	2xiIXseIJcq3nG7C8fHeBj	Three Days Grace	2003	https://i.scdn.co/image/ab67616d0000b27377922eaa071fb388270f203f
+4ZDwEvXIKxWdwhAQK8ndBU	2xiIXseIJcq3nG7C8fHeBj	One-X	2006	https://i.scdn.co/image/ab67616d0000b2739dcf31d6b5eb82fa24de783a
+0YkHsU3Mblh7jvNngbV20W	2xiIXseIJcq3nG7C8fHeBj	Human	2015	https://i.scdn.co/image/ab67616d0000b2738443a724ced4e3bef303fb7a
+4drZZN0HTkJzcdlPmmQyqG	2xiIXseIJcq3nG7C8fHeBj	EXPLOSIONS	2022	https://i.scdn.co/image/ab67616d0000b27391c8a7df5913c07233a99551
+0vv1zKShlm7WuawEup5Mf4	2xiIXseIJcq3nG7C8fHeBj	Life Starts Now	2009	https://i.scdn.co/image/ab67616d0000b273bf55e4d8d4120679b13394af
+3539EbNgIdEDGBKkUf4wno	6liAMWkVf5LH7YR9yfFy1Y	Dummy	1994	https://i.scdn.co/image/ab67616d0000b273dc20397b139223620af148f6
+4BnNSzOWadogStvyYshJIo	6liAMWkVf5LH7YR9yfFy1Y	Third	2008	https://i.scdn.co/image/ab67616d0000b2732529c50c11cb07f6f9e3ab29
+3G36754KQVLyGuskraEAVA	6liAMWkVf5LH7YR9yfFy1Y	Portishead	1997	https://i.scdn.co/image/ab67616d0000b273d48721bfc334d8a5d1faeffb
+6IvosVciDOQ9NAPaKwhtLY	3TOqt5oJwL9BE2NG9MEwDa	The Sickness	2000	https://i.scdn.co/image/ab67616d0000b2732b222dcd5c4fcac7c0e81da2
+0Te7OvzuUMnbsqCneIDUm6	3TOqt5oJwL9BE2NG9MEwDa	Ten Thousand Fists	2005	https://i.scdn.co/image/ab67616d0000b273bbdafec608fc5329ec2ad831
+6hz9f6H7URtoigU517WjD6	3TOqt5oJwL9BE2NG9MEwDa	Indestructible (Deluxe Edition)	2008	https://i.scdn.co/image/ab67616d0000b2731aeed60b435be44dd68a57a3
+0ZgFPrROyBNPg4jx2a261Q	3TOqt5oJwL9BE2NG9MEwDa	Unstoppable	2022	https://i.scdn.co/image/ab67616d0000b273854d0c13c0f3e0df0e0f2151
+0P5THTr6VX4rtxd8riRVOM	3TOqt5oJwL9BE2NG9MEwDa	Hey You	2022	https://i.scdn.co/image/ab67616d0000b273f8f1deb8f8df7d71834e60ff
+3216GEWxTUvZ0PKsuy51pW	1NVCNKYdNcuh92vE4rSxpo	All Hail The End	2010	https://i.scdn.co/image/ab67616d0000b27399ecc91acce98da111b5aece
+73PVurmsIZadmiv9JagYBp	1NVCNKYdNcuh92vE4rSxpo	Thousand Yard Stare	2022	https://i.scdn.co/image/ab67616d0000b27315c01b04a981859fb02e8a7f
+7yELPPOJbq10HhOINUgFw9	1NVCNKYdNcuh92vE4rSxpo	As The Last Light Drains	2003	https://i.scdn.co/image/ab67616d0000b273c35ef6693255b0362778a314
+7fLR2TaTzUA3GM48YkTIRb	4xdB09l6ULFYOmbpUIS994	UltraViolet	2020	https://i.scdn.co/image/ab67616d0000b273dc20cd1bd3a3d3824ac457f1
+7caYpJcRNYyHzjSVIxupNh	4xdB09l6ULFYOmbpUIS994	1P / Halley	2020	https://i.scdn.co/image/ab67616d0000b2739e0863baae06ccb6aa7a853b
+17kFf7XXzca88YFsGdvGdV	4xdB09l6ULFYOmbpUIS994	Westerlies	2020	https://i.scdn.co/image/ab67616d0000b273b95c889c11f99293bec61510
+0kExoRi0p74VnSLjn5E9R2	1NVCNKYdNcuh92vE4rSxpo	Lift The Curse	2007	https://i.scdn.co/image/ab67616d0000b27340c0df9eae09b6b447512ed5
+4KLzZPo6c9rl9V367wjxWe	1NVCNKYdNcuh92vE4rSxpo	Queen	2022	https://i.scdn.co/image/ab67616d0000b27325e4e864789dae796d4fbb12
+59Tni3gA1OczshFWTMxmbo	6B5c4sch27tWHAGdarpPaW	Finding Beauty In Negative Spaces (Bonus Track Version)	2007	https://i.scdn.co/image/ab67616d0000b273c418220159462cdd7cfeb9a1
+1mMgrxFYBUMKANGbapmXxi	6B5c4sch27tWHAGdarpPaW	Disclaimer II	2004	https://i.scdn.co/image/ab67616d0000b2732b08b69dddd1cb3976a9fa40
+1C5xrwfzgDM0hz7Kb035V3	6B5c4sch27tWHAGdarpPaW	Karma and Effect	2005	https://i.scdn.co/image/ab67616d0000b273c66ad69a4c9fec63e6f49a3a
+5u0UdiircjbveLg8cs39iw	6B5c4sch27tWHAGdarpPaW	Disclaimer	2002	https://i.scdn.co/image/ab67616d0000b2731085abdeea4d93b7c1d39554
+1Bjmcy5hWGdGQ0zANfgIzh	6B5c4sch27tWHAGdarpPaW	Holding Onto Strings Better Left To Fray	2011	https://i.scdn.co/image/ab67616d0000b27339477981dfefab8d7526a0b6
+4ZpfSlHwUXaL6kgFTL6hMk	6B5c4sch27tWHAGdarpPaW	Isolate And Medicate	2014	https://i.scdn.co/image/ab67616d0000b273754e9d511ba0f55c3b9bda4b
+0Ts5Jzl0y8Nc13RVuEJFxi	3G5WkIXbDxdNoGWHZbXDjI	Savage Daughter	2020	https://i.scdn.co/image/ab67616d0000b273fea21bce28214b1f9dc17211
+1VOP7WvAPHtuy9BrxE8RZf	3G5WkIXbDxdNoGWHZbXDjI	Nobody To Love	2021	https://i.scdn.co/image/ab67616d0000b273e8acb69179a19ae2e350677b
+5bxzfw7ghZwncljHoj8kfs	3G5WkIXbDxdNoGWHZbXDjI	Stop Giving Men Microphones	2022	https://i.scdn.co/image/ab67616d0000b273d82d929040a9d59315cc07b1
+7BVIQmVzsqiatOYh1EOnI0	3G5WkIXbDxdNoGWHZbXDjI	No Babies	2022	https://i.scdn.co/image/ab67616d0000b2731c7176f352a294729f1a0941
+130X8At9eJrRpCki8HomwG	3G5WkIXbDxdNoGWHZbXDjI	Life Goes On	2020	https://i.scdn.co/image/ab67616d0000b273f9a6e39518f2687b664deef4
+2kxUnLQBN0M4bUNmLJ4nLt	3G5WkIXbDxdNoGWHZbXDjI	It's All A Joke. (Live)	2021	https://i.scdn.co/image/ab67616d0000b2738ac97c470b03eb06024ec6db
+5m5Fx07bdPdtY4CFxPNwd8	3G5WkIXbDxdNoGWHZbXDjI	Sarah Hester Ross (Musical Comedy Live)	2018	https://i.scdn.co/image/ab67616d0000b2732f40faaecfcbe4ca2f6b9d9f
+7k9XuT8AWAnDc4CCL216qq	3G5WkIXbDxdNoGWHZbXDjI	As The World Caves In (Oh Love)	2022	https://i.scdn.co/image/ab67616d0000b2731f2d6cfa47877c7a7cb50ea4
+64aKkqxc3Ur2LYIKeS5osS	5YGY8feqx7naU7z4HrwZM6	The Time Of Our Lives	2009	https://i.scdn.co/image/ab67616d0000b273d6c3ad6a2a27471e1d5e8103
+5BRhg6NSEZOj0BR6Iz56fR	5YGY8feqx7naU7z4HrwZM6	Plastic Hearts	2020	https://i.scdn.co/image/ab67616d0000b2738cffb7c6c40759eaf8a5a142
+2xDo02ZrqGjkkOcsm35E5L	4VpWzXVUAR2YyQuWQpNGAf	Black Earth	2016	https://i.scdn.co/image/ab67616d0000b273717c8c88ccd10ee1daf63a19
+6l8mnq08KVmXmsaIKSBCuX	4VpWzXVUAR2YyQuWQpNGAf	Midnight Radio	1995	https://i.scdn.co/image/ab67616d0000b273bc6ac9cfebce7d580a78b975
+5CRJpwVreE9DgrjvvM2ZqF	4VpWzXVUAR2YyQuWQpNGAf	Piano Nights	2013	https://i.scdn.co/image/ab67616d0000b273cd1ea9944a14e1a667a514c4
+2B4lHoTCpWbxQPTZmCOjnH	3HVdAiMNjYrQIKlOGxoGh5	Hellbilly Deluxe	1998	https://i.scdn.co/image/ab67616d0000b27313d4adf9e4b938f88266f4e4
+2ExOcLFwyExzkXK0ea180I	3HVdAiMNjYrQIKlOGxoGh5	The Sinister Urge	2001	https://i.scdn.co/image/ab67616d0000b2731d624949c965172774b98178
+1IaJD3LbEBdVMBSS8UH07e	3HVdAiMNjYrQIKlOGxoGh5	The Lunar Injection Kool Aid Eclipse Conspiracy	2021	https://i.scdn.co/image/ab67616d0000b273928108f62467c9eedea6e1bb
+1lRP2viDsQVnL5FZwTsFwB	3HVdAiMNjYrQIKlOGxoGh5	Hellbilly Deluxe 2 (Special Edition)	2010	https://i.scdn.co/image/ab67616d0000b273985d725b260dec995c1ac31d
+4cwVkh8oYGwLGeVM0Jl35K	3HVdAiMNjYrQIKlOGxoGh5	The Electric Warlock Acid Witch Satanic Orgy Celebration Dispenser	2016	https://i.scdn.co/image/ab67616d0000b2734de9478913a6736b3b2d8ea8
+64l32tBDSlQsiauo1hhy4M	5DDSCugRjUhxIdW4tkFWXI	What Is Love?	2018	https://i.scdn.co/image/ab67616d0000b273010774edae4183c325841aec
+5dlmA4BVDZskRQmrqaGDlY	5DDSCugRjUhxIdW4tkFWXI	Let Go and Relax	2018	https://i.scdn.co/image/ab67616d0000b2736b89bc7db5f7dc9bc71968dc
+1Kkn1lN9QVZGzQU5UXpEDE	5DDSCugRjUhxIdW4tkFWXI	Are You Tired of Playing the Social Game?	2018	https://i.scdn.co/image/ab67616d0000b2730649f2e0c4dbb53c89c964cc
+5jX8dP3U73hqTxPAetCxw9	5DDSCugRjUhxIdW4tkFWXI	Don't Take Life Too Seriously	2018	https://i.scdn.co/image/ab67616d0000b273c9e2d0321b5867901a0e0e03
+038i8HRCxLqjN16fDdRNqL	5DDSCugRjUhxIdW4tkFWXI	What Have You Forgotten?	2019	https://i.scdn.co/image/ab67616d0000b2732996e3424305968f8a85bb47
+0lkdVIaNwQ9B1NP0y3JsgD	5DDSCugRjUhxIdW4tkFWXI	It All Makes Sense	2019	https://i.scdn.co/image/ab67616d0000b273cfcd9561142ed1c329cc05b1
+2Az6miDDBaVm31lVbdP5FS	5DDSCugRjUhxIdW4tkFWXI	The Story of the Chinese Farmer	2018	https://i.scdn.co/image/ab67616d0000b273dd1a39cf480e9ca958cedb80
+3D0I5IuGm06tx7vcWrsw94	5DDSCugRjUhxIdW4tkFWXI	Why You Should Never Feel Guilty	2019	https://i.scdn.co/image/ab67616d0000b27301d3d9af83d2411ead33d596
+3JRJWsFX65zMkCiVmLVY72	5DDSCugRjUhxIdW4tkFWXI	Let Go	2018	https://i.scdn.co/image/ab67616d0000b273902500639e6716587e7b41e9
+4gTzK7lWIKqVm6GQcA1qgM	5DDSCugRjUhxIdW4tkFWXI	The One Thing Everyone Should Learn	2018	https://i.scdn.co/image/ab67616d0000b273c25d8af47eb7b3295f196cfb
+45PWXKtlGjqOPXurzjthfC	4KlYg0F5KG9QNDFKaeTNAy	Judgement	2007	https://i.scdn.co/image/ab67616d0000b273cf4d365cf7580e5ed489a1d2
+0BUIbWXO0NgStZNiy7Bodc	4KlYg0F5KG9QNDFKaeTNAy	Automatic	2011	https://i.scdn.co/image/ab67616d0000b2730c929e9a00afc3c9c5526ab1
+3MDQtJKPbTxvbM6HhCkDrY	4KlYg0F5KG9QNDFKaeTNAy	Noire	2018	https://i.scdn.co/image/ab67616d0000b2739bc7e2536e913de788747871
+6QrKSO5DXsPGGbvqSTQ5UF	4KlYg0F5KG9QNDFKaeTNAy	Futureperfect	2002	https://i.scdn.co/image/ab67616d0000b273a9cb951ed016f66ed7805f97
+0ePUvI74Sz0awGfcjoHZP2	4KlYg0F5KG9QNDFKaeTNAy	Matter + Form	2005	https://i.scdn.co/image/ab67616d0000b2730ae55c3c1d0a54af4c0a9e86
+4M9oBtmn9gTV5TJfhDQ2vJ	3OHbToMuJihWhRcqzKjpBd	The Singles Collection - Deluxe Bonus Track Edition (Remastered)	2003	https://i.scdn.co/image/ab67616d0000b273fe9dfc5fec0ece5ce4aff56a
+3j7nicLAWXM0Fb08q9XGyf	4NgfOZCL9Ml67xzM0xzIvC	Pearl (Legacy Edition)	1971	https://i.scdn.co/image/ab67616d0000b2736f8c26346723dd0531696bed
+2rogKfOpmCFuqNhtGKf2dX	4J69yWrKwWJgjv3DKTZcGo	Cheap Thrills	1968	https://i.scdn.co/image/ab67616d0000b2731ba5ee8bc24979ce3eee4797
+5rFRfDq52l2l5RtS5kxA9A	4NgfOZCL9Ml67xzM0xzIvC	I Got Dem Ol' Kozmic Blues Again Mama!	1969	https://i.scdn.co/image/ab67616d0000b27301d3519435afd897e2c2d848
+4W821NJLoB9uHHkAFNXXKu	4J69yWrKwWJgjv3DKTZcGo	Big Brother & The Holding Company	1967	https://i.scdn.co/image/ab67616d0000b273555cadb7c5c8ad8bd20ac373
+0vhOZ1ksYSS3HLD8RFiinl	0ATg66209dS5nFsvobJlRt	1 Giant Leap	2002	https://i.scdn.co/image/ab67616d0000b273d5e86e9d7121df36c2779c63
+2goBVmiGnMy30ZdZ2HzQbm	0ATg66209dS5nFsvobJlRt	Speech	1996	https://i.scdn.co/image/ab67616d0000b273f74eab21b3d0a013e4bec0dc
+3wteOr9PuLaMgew7R9gLDl	0ATg66209dS5nFsvobJlRt	Hoopla	1999	https://i.scdn.co/image/ab67616d0000b273a52d036abf408c82b697ea26
+4ZDBQSIDIZRUBOG2OHcN3T	05fG473iIaoy82BF1aGhL8	Vol. 3: The Subliminal Verses	2004	https://i.scdn.co/image/ab67616d0000b2736b3463e7160d333ada4b175a
+2ISXjEm0D4chvU2IDNvUqk	05fG473iIaoy82BF1aGhL8	All Hope Is Gone (10th Anniversary)	2008	https://i.scdn.co/image/ab67616d0000b273e7fbc0883149094912559f2c
+0ApKaazNHf0gzjAYZauexq	05fG473iIaoy82BF1aGhL8	.5: The Gray Chapter (Special Edition)	2014	https://i.scdn.co/image/ab67616d0000b273eed722040c6810f7a7da93ea
+754RY5WpZ2LTUZsk8kDBju	05fG473iIaoy82BF1aGhL8	We Are Not Your Kind	2019	https://i.scdn.co/image/ab67616d0000b27326f20b4d67c0c7b0f137ce4f
+5lOFvOWAdy9G6p44noRILU	05fG473iIaoy82BF1aGhL8	Slipknot	1999	https://i.scdn.co/image/ab67616d0000b27349de1b4acdde02e84c6023b7
+3hWTXO0w02D6YpVRyLRmQz	05fG473iIaoy82BF1aGhL8	The End, So Far	2022	https://i.scdn.co/image/ab67616d0000b273c3eedff14af24fdd988ed1a7
+73ZvpuYhKDr2FW4vlPsTpW	0cGUm45nv7Z6M6qdXYQGTX	While We Wait	2019	https://i.scdn.co/image/ab67616d0000b273cccb973e9ff7440fbaf8485e
+32jei6omhyLZDCg8Ijvoym	0cGUm45nv7Z6M6qdXYQGTX	SweetSexySavage (Deluxe)	2017	https://i.scdn.co/image/ab67616d0000b27378394761781d70751fc8d931
+0mZIUXje90JtHxPNzWsJNR	6VuMaDnrHyPL1p4EHjYLi7	Voicenotes	2018	https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66
+3wpdeV1FZfiEnelZSfAFp4	2qxJFvFYMEDqd7ui6kSAcq	Good Thing (with Kehlani)	2019	https://i.scdn.co/image/ab67616d0000b273c824820b3a74839b91b4036a
+2D37uNhXgherfImusGBKTx	0cGUm45nv7Z6M6qdXYQGTX	Honey	2017	https://i.scdn.co/image/ab67616d0000b2739b64833815a10221d0e02b69
+4KdtEKjY3Gi0mKiSdy96ML	4kYSro6naA4h99UJvo89HB	Invasion of Privacy	2018	https://i.scdn.co/image/ab67616d0000b273a0caffda54afd0a65995bbab
+2VUhkRrg5dEJIGewOBOc7J	3KNIG74xSTc3dj0TRy7pGX	Moon Boy	2021	https://i.scdn.co/image/ab67616d0000b2735af60d7ec22b1b70933ac381
+1fZRXWVJVe07UcD4GowJ8j	0cGUm45nv7Z6M6qdXYQGTX	blue water road	2022	https://i.scdn.co/image/ab67616d0000b273a4a3bc6543cd460d534a13a4
+5eKuModdAdZRmc51241r4D	3PyJHH2wyfQK3WZrk9rpmP	Hi, It's Me	2019	https://i.scdn.co/image/ab67616d0000b2734d165570efefd46cfad3eb36
+6JZYS7UElSfjyTgFgE1ApG	3PyJHH2wyfQK3WZrk9rpmP	Daisy 2.0 (feat. Hatsune Miku)	2020	https://i.scdn.co/image/ab67616d0000b2735064363e1b38af783f93f1a7
+3RDqXDc1bAETps54MSSOW0	5YGY8feqx7naU7z4HrwZM6	Bangerz (Deluxe Version)	2013	https://i.scdn.co/image/ab67616d0000b2736b18d0490878750cd69abf2c
+6vdLdzihSWxV8FgWU2GSvA	3hv9jJF3adDNsBSIQDqcjp	Late Night Feelings	2019	https://i.scdn.co/image/ab67616d0000b273de087ae2924d2c1654f60d74
+5xG9gJcs9ut3qDWezHUlsX	5YGY8feqx7naU7z4HrwZM6	Younger Now	2017	https://i.scdn.co/image/ab67616d0000b2739012e092ad8ed4731ea11134
+1fc8tPf36cZhNYpNFrWh7o	5YGY8feqx7naU7z4HrwZM6	Hannah Montana The Movie	2009	https://i.scdn.co/image/ab67616d0000b2730e8ba185f3e9f15630a7b5fb
+6Aqt69riJ3JPLxIEI8EkzT	2tIP7SsRs7vjIcLrU85W8J	WITHOUT YOU (with Miley Cyrus)	2021	https://i.scdn.co/image/ab67616d0000b273c01093b31199328192c8e421
+4SmLiMThmp5f4dCTOsIguj	7aWpPjjgItUnXljFxYYKZI	Songs For My Funeral	2021	https://i.scdn.co/image/ab67616d0000b273b5c50ba599a67c9575eb63d0
+5DkmK3sQcBanrRg1lFHlMs	2FovgCfOwN9iqbkCBlKFdT	Soul Sucker, Pt. 2	2021	https://i.scdn.co/image/ab67616d0000b2736cf3cf1934c9ba16adb43262
+1jX2gY0FSPjwHzRtDBFa70	0okpgBQamDqOZazBeH0J3I	Fuck It (feat. DeathbyRomy)	2022	https://i.scdn.co/image/ab67616d0000b273288f5a0e91efe54b624b2037
+0AUG7Sa8IIiCHTW6GONdf2	4u5smJBskI6Adzv08PuiUP	lil kiiwi	2020	https://i.scdn.co/image/ab67616d0000b27304090677fe520a72568910ec
+02k59B671W2g0wbwqFxPL8	7aWpPjjgItUnXljFxYYKZI	Entropy	2022	https://i.scdn.co/image/ab67616d0000b27316f618d2e6fceb1c48cc698e
+7ImKhsLPJoydUHcaN0H9ZR	7aWpPjjgItUnXljFxYYKZI	Dangerous (feat. blackbear)	2019	https://i.scdn.co/image/ab67616d0000b2735abb465783220912ecd4a3d9
+0MrrJTGzbex5SHBCZmf3cR	1FgsVeOhRYuSw2ghkIXV0A	All Hallows’ DREAM	2022	https://i.scdn.co/image/ab67616d0000b273fa060d3a461f864237c49697
+3Np4ztZJFfK4IGT72lzqUo	6blEmsLU25ewy8hHtgZaSL	Yandere	2020	https://i.scdn.co/image/ab67616d0000b273fe241bfcc63f9583143c051a
+5zGyQgvJKk2o8qBYh5O1PZ	6blEmsLU25ewy8hHtgZaSL	Puppy Pound	2022	https://i.scdn.co/image/ab67616d0000b273013c487cac95f97ebac9407e
+5H3icDEybgGmZac7nyFQWy	6blEmsLU25ewy8hHtgZaSL	Monster Truck	2020	https://i.scdn.co/image/ab67616d0000b2734172cf3e6471372297fce002
+4AxaQkhxbVMENx0jFWR01Y	6blEmsLU25ewy8hHtgZaSL	R U Looking 4 Me Now	2021	https://i.scdn.co/image/ab67616d0000b2734a3a686102c43bad1238d88e
+5IRp7hBdLQOz5gB90M1hg0	3PyJHH2wyfQK3WZrk9rpmP	Tantrum	2020	https://i.scdn.co/image/ab67616d0000b2739ee25a36c6fe0c2841fff542
+2AWdSvqkBNvj9eeM48KQTJ	3PyJHH2wyfQK3WZrk9rpmP	Halloweenie IV: Innards	2021	https://i.scdn.co/image/ab67616d0000b273c41af63dd888032c52715215
+3UScUhqhOIpRVeYhKHSxSe	3PyJHH2wyfQK3WZrk9rpmP	Unlikeable	2018	https://i.scdn.co/image/ab67616d0000b27343ec14794e0f8711233d32b3
+5FmtIdXlRz4uyqjp7ECJsH	3PyJHH2wyfQK3WZrk9rpmP	Panic Attacks in Paradise / Maggots	2021	https://i.scdn.co/image/ab67616d0000b27387d239699a2e8a57508070bd
+6Vsml6sziVKBHxbMEp5wgQ	3dctbbXhrRgigX1icexnws	Lemonade Mouth	2011	https://i.scdn.co/image/ab67616d0000b273d9a239d0a67fc31a9b9fff59
+1DBeQGiRdap7iuvuxSx3bD	3LjhVl7GzYsza1biQjTpaN	This Side of Paradise - EP	2015	https://i.scdn.co/image/03dc1a009e2dec953f53aa10b69024b0d9db2b7d
+1h0qJIukGxKxxG4lfT0UOf	5qa31A9HySw3T7MKWI9bGg	Cherry (feat. Hayley Kiyoko)	2021	https://i.scdn.co/image/ab67616d0000b2733aff79d5dac209c0b50c854c
+2oRkkW6ZudviRBd6mx4CfL	3LjhVl7GzYsza1biQjTpaN	Expectations	2018	https://i.scdn.co/image/ab67616d0000b2735b41313f5e512786926f3da9
+6nRu1dwPkZlk467QaV1Q0N	3LjhVl7GzYsza1biQjTpaN	demons	2019	https://i.scdn.co/image/ab67616d0000b2730a458b5a578100cfe98ac894
+2TJlASpVb5tgcEY0RMyZjQ	3LjhVl7GzYsza1biQjTpaN	PANORAMA	2022	https://i.scdn.co/image/ab67616d0000b273c322bae44bf4b8a02b9a2eed
+73FYKSgOypVgghYr8GsEGl	49aaHxvAJ0tCh0F15OnwIl	Heal	2012	https://i.scdn.co/image/ab67616d0000b27396663c059e615c7db2ed9bb6
+75aUQwIa504ehmWDDkXMXi	49aaHxvAJ0tCh0F15OnwIl	Euphoria	2012	https://i.scdn.co/image/ab67616d0000b27307b6f8844fac976b744dac44
+5ChvqR6pa683F4PFICJqWE	49aaHxvAJ0tCh0F15OnwIl	Neon Lights	2022	https://i.scdn.co/image/ab67616d0000b27338351ddfb61c87e687c1c94e
+7uCqq0kNl91s2A0sy3CYIE	49aaHxvAJ0tCh0F15OnwIl	Så mycket bättre 2020 - Tolkningarna	2020	https://i.scdn.co/image/ab67616d0000b2733b0f7ed80978cc0c1d6be671
+2QKjjyP9LOg1JqYYz6NQxB	49aaHxvAJ0tCh0F15OnwIl	Du är min man (Så mycket bättre 2020)	2020	https://i.scdn.co/image/ab67616d0000b2730f2cddb5233bffdea57b7957
+4bJiKSTDQvVgAzkgtrHx97	49aaHxvAJ0tCh0F15OnwIl	I'm in It with You	2015	https://i.scdn.co/image/ab67616d0000b2730b0bd43bce281d974eb73576
+5KobRojZEROOh0CyLeLMbw	49aaHxvAJ0tCh0F15OnwIl	Statements	2017	https://i.scdn.co/image/ab67616d0000b2739b5d8fad045509b6c541b8a2
+0XfG8dpX4kjuk0owtiHkMm	49aaHxvAJ0tCh0F15OnwIl	Paper Light (Higher)	2015	https://i.scdn.co/image/ab67616d0000b2737ca9cab54381692aca53663c
+3SQr5VHmYRkAGGMTCBbbnP	4QM5QCHicznALtX885CnZC	Mine	2019	https://i.scdn.co/image/ab67616d0000b2739390a9abd94385f7ef1b7d66
+7xCaejeRwZ0h10RSfXuBeK	4QM5QCHicznALtX885CnZC	Troubled Paradise	2021	https://i.scdn.co/image/ab67616d0000b273c9131003f26485c8016e3024
+4cbs7e96BjbFaKqafPA8ZR	4QM5QCHicznALtX885CnZC	Hello Kitty	2018	https://i.scdn.co/image/ab67616d0000b27385e1a4e3692d910ddb8416e6
+0e35TENSTAVVkaHlVEsTtz	4QM5QCHicznALtX885CnZC	Slayyyter	2019	https://i.scdn.co/image/ab67616d0000b2736e22dc3ef575f6810b8e2d5f
+759tt2Z0PhIjKDEmbEVswM	4QM5QCHicznALtX885CnZC	Stupid Boy (feat. Big Freedia)	2021	https://i.scdn.co/image/ab67616d0000b2732e47ae9cae04ba1e93fd4a8b
+0tGwBl1H2dLqrOPceQ8CS0	5Lz5CnywFeg4Rs4l76OtG2	honey catching season	2022	https://i.scdn.co/image/ab67616d0000b2738c0b2f7c981cbdf484e60051
+2fKXo7qmQYw5u0DOeKhQoU	5Lz5CnywFeg4Rs4l76OtG2	she calls me daddy	2021	https://i.scdn.co/image/ab67616d0000b273fcef543ac8f55c57cf11337c
+5vlaew4MTOnlOfon5T0vfK	5Lz5CnywFeg4Rs4l76OtG2	mercy	2021	https://i.scdn.co/image/ab67616d0000b27395ea5ca32e4d5c8d65188b97
+6PuXHEyn0T3KYcmzCGikNP	5Lz5CnywFeg4Rs4l76OtG2	cult leader (King Kitty Remix)	2022	https://i.scdn.co/image/ab67616d0000b273efbcf819984d352c979a49d7
+4fXvwuGNst1OzuwVdoK80D	245PKF3hKjtxJKIG153kF0	Girl Next Door	2022	https://i.scdn.co/image/ab67616d0000b273fa21ccc9a67f565ca3ca272c
+5yMX1oz6JdR8ApLCB0TwOT	5Lz5CnywFeg4Rs4l76OtG2	golden retriever boy	2021	https://i.scdn.co/image/ab67616d0000b273cb7d5ddcd2661916a25bf739
+3HHNR44YbP7XogMVwzbodx	246dkjvS1zLTtiykXe5h60	Twelve Carat Toothache	2022	https://i.scdn.co/image/ab67616d0000b27334362676667a4322838ccc97
+2Q5DPv9uliinOBSdNooIe3	5cj0lLjcoR7YOSnhnX0Po5	Vegas (From the Original Motion Picture Soundtrack ELVIS)	2022	https://i.scdn.co/image/ab67616d0000b27329e2914af6e83df7e963d365
+1nAQbHeOWTfQzbOoFrvndW	5cj0lLjcoR7YOSnhnX0Po5	Planet Her	2021	https://i.scdn.co/image/ab67616d0000b2734df3245f26298a1579ecc321
+1MmVkhiwTH0BkNOU3nw5d3	5cj0lLjcoR7YOSnhnX0Po5	Hot Pink	2019	https://i.scdn.co/image/ab67616d0000b27382b243023b937fd579a35533
+2fYhqwDWXjbpjaIJPEfKFw	66CXWjxzNUsdJxJ2JdwvnR	thank u, next	2019	https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8
+3euz4vS7ezKGnNSwgyvKcd	66CXWjxzNUsdJxJ2JdwvnR	Positions	2020	https://i.scdn.co/image/ab67616d0000b2735ef878a782c987d38d82b605
+4ZyeHIgdujClXSjC2cSqSb	1Xyo4u8uXC1ZmMpatF05PJ	After Hours (Deluxe)	2020	https://i.scdn.co/image/ab67616d0000b273b5097b81179824803664aaaf
+5mUdh6YWnUvf0MfklEk1oi	66CXWjxzNUsdJxJ2JdwvnR	Stuck with U	2020	https://i.scdn.co/image/ab67616d0000b2732babb9dbd8f5146112f1bf86
+6EVYTRG1drKdO8OnIQBeEj	66CXWjxzNUsdJxJ2JdwvnR	My Everything (Deluxe)	2014	https://i.scdn.co/image/ab67616d0000b273deec12a28d1e336c5052e9aa
+27MNgBEnLCKoafz1g2Zu97	66CXWjxzNUsdJxJ2JdwvnR	Santa Tell Me	2014	https://i.scdn.co/image/ab67616d0000b273fb704b7e832b40f08c14629c
+3zVB99XMdbP9HTVNg0GJwV	66CXWjxzNUsdJxJ2JdwvnR	boyfriend	2019	https://i.scdn.co/image/ab67616d0000b2732ca010dcf3863a07611d8b4f
+3tx8gQqWbGwqIGZHqDNrGe	66CXWjxzNUsdJxJ2JdwvnR	Sweetener	2018	https://i.scdn.co/image/ab67616d0000b273c3af0c2355c24ed7023cd394
 2uhB1KivbFnlkARpbd0Cvu	6PfSUFtkMVoDkx4MQkzOi3	1000 gecs	2019	https://i.scdn.co/image/ab67616d0000b2734123c0f9b6689205d20f350f
 7Amrg2WughWQXMEmUfjhl3	5vSQUyT33qxr1xAX2Tkf3A	32 Levels (Deluxe)	2016	https://i.scdn.co/image/ab67616d0000b27312eb63d50e68cd097f56f92c
 6d1vGZsr6Uy3h9IigBpPAf	0eDvMgVFoNV3TpwtrVCoTj	Meet The Woo	2019	https://i.scdn.co/image/ab67616d0000b2738fe5d04b06aff90f9fe796f5
@@ -934,11 +1321,7 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 0qnExDZfz0kVeBjixPsyjS	6PfSUFtkMVoDkx4MQkzOi3	1000 gecs and The Tree of Clues	2020	https://i.scdn.co/image/ab67616d0000b273f91a3040f0be854026ad2dd0
 6wTyGUWGCilBFZ837k5aRi	1URnnhqYAYcrqrcwql10ft	SAVAGE MODE II	2020	https://i.scdn.co/image/ab67616d0000b273aa57907bf0cb2ca0c8cc74bc
 3zOkSAbg9o7gQ3yXtZhx5v	13ubrt8QOOCPljQ2FL1Kca	Babushka Boi	2019	https://i.scdn.co/image/ab67616d0000b273f0af4e62df674240cc7a35f8
-3zy8FiB9URB4b2yNOwMM36	6PfSUFtkMVoDkx4MQkzOi3	mememe	2021	https://i.scdn.co/image/ab67616d0000b27308ab9a6225d66cec9b947aa1
-1LWmE7Dy299uuwFo8wcOPC	6PfSUFtkMVoDkx4MQkzOi3	Doritos & Fritos	2022	https://i.scdn.co/image/ab67616d0000b2734d3269002e79016a5be1316d
 49cBF5iGpJ7nx6EAR8BLga	7HGNYPmbDrMkylWqeFCOIQ	Transa	1972	https://i.scdn.co/image/ab67616d0000b2738261c1838b583c714053ce76
-1SYy6QlPiObmtHW2PqpZWu	3qZ2n5keOAat1SoF6bHwmb	Sambabook Zeca Pagodinho, Vol. 2	2014	https://i.scdn.co/image/ab67616d0000b273c30f8f7c317efa606ad366fd
-4HCs1WxdaCTb8S1TlgUG9C	7HGNYPmbDrMkylWqeFCOIQ	Prenda Minha	1998	https://i.scdn.co/image/ab67616d0000b2732374e6c8bada807a45cc4b00
 3716y3qiVChUSJv24nvCUB	09U6hmCerKcIJrixubiBjm	Poesia Acústica 11: Nada Mudou	2021	https://i.scdn.co/image/ab67616d0000b273ab2c2679ced9d3fe0ca43871
 1EggMJbrddGeSyNjDzDRMI	7HGNYPmbDrMkylWqeFCOIQ	Qualquer Coisa	1975	https://i.scdn.co/image/ab67616d0000b2739a2fc7dc286a9827e98881e3
 3eXCgCBM4BS6H83xmxKdL6	7oEkUINVIj1Nr3Wnj8tzqr	Um banda um	1982	https://i.scdn.co/image/ab67616d0000b273369d09bf4a3e24e2fb38e598
@@ -946,15 +1329,12 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 5tPEQtkCVKj17B9RlxDIKC	7oEkUINVIj1Nr3Wnj8tzqr	As canções de eu, tu, eles	2000	https://i.scdn.co/image/ab67616d0000b273452e0fb204aa84bb56a28e94
 5NnAoeNFYhB4ypfoEX8e6H	1b8kpp4DUwt1hWaxTiWQhD	Gal Estratosférica	2016	https://i.scdn.co/image/ab67616d0000b2731287784d133815e5d4e8ad0a
 5Tk4wmf1IgEPPq36yD4G7Z	1b8kpp4DUwt1hWaxTiWQhD	Baby (Ao Vivo)	2020	https://i.scdn.co/image/ab67616d0000b27391b78c9a782e4f42ad2e211b
-6FdbVYfwhJjaUOzYB7J9Uj	1AldSIJ8ANuZVbjKIhpKKq	Canto na Areia, Vol. 03	2007	https://i.scdn.co/image/ab67616d0000b273bdaab8b09e0dbc8536bb619c
 1Vjf7xPNvBhqKnAR4rAXR2	1b8kpp4DUwt1hWaxTiWQhD	Gal Tropical	1979	https://i.scdn.co/image/ab67616d0000b273de4828d89731083b45eb1521
 4jY3KTb8z9OZiIM92pTuNe	1b8kpp4DUwt1hWaxTiWQhD	Cantar	1974	https://i.scdn.co/image/ab67616d0000b2732126655adcbebe1795d59869
-1wG4O32OX2POpj77Cstqk7	2FW6Zt8gyIF7Fb7O3TGxnE	Sambabook Dona Ivone Lara, Vol. 2	2015	https://i.scdn.co/image/ab67616d0000b27327d5fa9c3b826ccc22bfe945
+1SYy6QlPiObmtHW2PqpZWu	3qZ2n5keOAat1SoF6bHwmb	Sambabook Zeca Pagodinho, Vol. 2	2014	https://i.scdn.co/image/ab67616d0000b273c30f8f7c317efa606ad366fd
 3qoUU8sm4eBT5POFHQSl5L	7oEkUINVIj1Nr3Wnj8tzqr	Luar	1981	https://i.scdn.co/image/ab67616d0000b2730b74999dae4b5d4ea81b21a9
-3TCEm1O6JANZ1H55BPZ48L	1AldSIJ8ANuZVbjKIhpKKq	Audácia	2014	https://i.scdn.co/image/ab67616d0000b273bcb4b5ab1bacca1904d541a0
 5gK2l2LgWY0BA4p9uy27z6	0Mz5XE0kb1GBnbLQm2VbcO	Black On Both Sides	1999	https://i.scdn.co/image/ab67616d0000b27389b56f56323925d57b38944d
 7gkngZkZ51RJBzWUkU8uZ4	0av074qUwLn5eyzwqoq3xh	The Gettin' Off Stage, Step 2	2016	https://i.scdn.co/image/ab67616d0000b27319c85251434dc2c0ed464d89
-1VGVJdmvOSRK2w9RKXk18A	2PmIyxmEFsNfQJjEifPDZC	Cyberpunk 2077: Radio, Vol. 2 (Original Soundtrack)	2020	https://i.scdn.co/image/ab67616d0000b273a91a5b301baac1f46e6f30eb
 64JvR5shy7j04mTiX0wfNp	7HGNYPmbDrMkylWqeFCOIQ	Cinema Transcendental	1979	https://i.scdn.co/image/ab67616d0000b2735c353a216f250a45f794870d
 5FrjDW96mCYw9ECc74c637	3Rq3YOF9YG9YfCWD4D56RZ	Metaphorical Music	2003	https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7
 1uGIwfw9F1lR7TDDukbNyQ	23cC3RI0hgD5sWmXKPAJuG	Skyline	2019	https://i.scdn.co/image/ab67616d0000b273504b51565feda5d86c586f1c
@@ -967,7 +1347,13 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 2jOgajtpXNsinBpwg2dUjH	1gIa65d5ICT2xVWiUJ3u27	Estudando o samba	1976	https://i.scdn.co/image/ab67616d0000b273e8f7f74cd3c73189250db6cf
 4g9eq1iulwITLm6N0xttpW	1gIa65d5ICT2xVWiUJ3u27	Dois Momentos - Vol.1	1972	https://i.scdn.co/image/ab67616d0000b27382781108b905a976facce950
 2cgr7ZBd3X3gs99433bgES	7HGNYPmbDrMkylWqeFCOIQ	Muito (Dentro Da Estrela Azulada)	1978	https://i.scdn.co/image/ab67616d0000b273433133eade52024fbef808a4
-3HHNR44YbP7XogMVwzbodx	246dkjvS1zLTtiykXe5h60	Twelve Carat Toothache	2022	https://i.scdn.co/image/ab67616d0000b27334362676667a4322838ccc97
+3m8y5mcFFLi0UnieyTMlY6	4k7KKAyXbpBKe0iziD7c2P	Soul Movement Vol. 1	2008	https://i.scdn.co/image/ab67616d0000b2730e7400e4d19b74a28a04608d
+1Yta5y5Kz8xRyE9FE0GbFf	3H24Sx4OTtMrkpQlcpGLtu	Master-View	2004	https://i.scdn.co/image/ab67616d0000b273b165e01b90417f18fd7cecba
+1wG4O32OX2POpj77Cstqk7	2FW6Zt8gyIF7Fb7O3TGxnE	Sambabook Dona Ivone Lara, Vol. 2	2015	https://i.scdn.co/image/ab67616d0000b27327d5fa9c3b826ccc22bfe945
+5EatIo50si8CoN3ARke59W	1gIa65d5ICT2xVWiUJ3u27	Brazil Classics 4: The Best of Tom Zé	2007	https://i.scdn.co/image/ab67616d0000b2731f0672b08d4305d0aec00377
+6qmm8CLnB3Q26l1ZQhFoqn	2wr7BzcHy6CsYZJd0HiB4f	C'est beau ça	2022	https://i.scdn.co/image/ab67616d0000b2734c497d540744d08577b71640
+3zy8FiB9URB4b2yNOwMM36	6PfSUFtkMVoDkx4MQkzOi3	mememe	2021	https://i.scdn.co/image/ab67616d0000b27308ab9a6225d66cec9b947aa1
+1LWmE7Dy299uuwFo8wcOPC	6PfSUFtkMVoDkx4MQkzOi3	Doritos & Fritos	2022	https://i.scdn.co/image/ab67616d0000b2734d3269002e79016a5be1316d
 4g1ZRSobMefqF6nelkgibi	246dkjvS1zLTtiykXe5h60	Hollywood's Bleeding	2019	https://i.scdn.co/image/ab67616d0000b2739478c87599550dd73bfa7e02
 6trNtQUgC8cgbWcqoMYkOR	246dkjvS1zLTtiykXe5h60	beerbongs & bentleys	2018	https://i.scdn.co/image/ab67616d0000b273b1c4b76e23414c9f20242268
 5s0rmjP8XOPhP6HhqOhuyC	246dkjvS1zLTtiykXe5h60	Stoney (Deluxe)	2016	https://i.scdn.co/image/ab67616d0000b27355404f712deb84d0650a4b41
@@ -1008,7 +1394,6 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 5gQZvWM1o8NkQndueJtZcP	0C8ZW7ezQVs4URX5aX7Kqx	Wolves	2017	https://i.scdn.co/image/ab67616d0000b273307910d4242c0d6b1fedf955
 6n9DKpOxwifT5hOXtgLZSL	4MCBfE4596Uoi2O4DtmEMz	Legends Never Die	2020	https://i.scdn.co/image/ab67616d0000b2733e0698e4ae5ffb82a005aeeb
 1BmxOYHjQv1dKZRr13YRZM	64KEffDW9EtZ1y2vBYgq8T	FRIENDS	2018	https://i.scdn.co/image/ab67616d0000b273569f64493ca55cd96fdee412
-1eleCBhP2R8TXEDquvybwC	64KEffDW9EtZ1y2vBYgq8T	Be Kind (with Halsey)	2020	https://i.scdn.co/image/ab67616d0000b273fdf2e993e10e67396b3bf759
 621cXqrTSSJi1WqDMSLmbL	3YQKmKGau1PzlVlkL1iodx	Trench	2018	https://i.scdn.co/image/ab67616d0000b273768828c6867cd0472fc84e4d
 0Q5XBpCYFgUWiG9DUWyAmJ	3YQKmKGau1PzlVlkL1iodx	Scaled And Icy	2021	https://i.scdn.co/image/ab67616d0000b27320b467550945fd123e00f0a5
 2r2r78NE05YjyHyVbVgqFn	3YQKmKGau1PzlVlkL1iodx	Vessel	2013	https://i.scdn.co/image/ab67616d0000b273d263500f1f97e978daa5ceb1
@@ -1017,11 +1402,7 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 3cyyJALrHc8LawnQNFYRWL	15UsOTVnJzReFVN1VCnxy4	Look At Me!	2017	https://i.scdn.co/image/ab67616d0000b27371af28545729f60b3eca66f7
 1YA0gAfV91LkDq1DODSCbc	5K4W6rqBFWDnAN6FQUkS6x	True Love	2022	https://i.scdn.co/image/ab67616d0000b273f52f6a4706fea3bde44467c3
 52JymrguPgkmmwLaWIusst	2kCcBybjl3SAtIcwdWpUe3	Come Over When You're Sober, Pt. 2	2018	https://i.scdn.co/image/ab67616d0000b27355e36b0dc5b0ef008fc85319
-2Q5DPv9uliinOBSdNooIe3	5cj0lLjcoR7YOSnhnX0Po5	Vegas (From the Original Motion Picture Soundtrack ELVIS)	2022	https://i.scdn.co/image/ab67616d0000b27329e2914af6e83df7e963d365
-1nAQbHeOWTfQzbOoFrvndW	5cj0lLjcoR7YOSnhnX0Po5	Planet Her	2021	https://i.scdn.co/image/ab67616d0000b2734df3245f26298a1579ecc321
-1MmVkhiwTH0BkNOU3nw5d3	5cj0lLjcoR7YOSnhnX0Po5	Hot Pink	2019	https://i.scdn.co/image/ab67616d0000b27382b243023b937fd579a35533
 2sBB17RXTamvj7Ncps15AK	6qqNVTkY8uBg9cP3Jd7DAH	lovely (with Khalid)	2018	https://i.scdn.co/image/ab67616d0000b2738a3f0a3ca7929dea23cd274c
-0JGOiO34nwfUdDrD612dOp	6qqNVTkY8uBg9cP3Jd7DAH	Happier Than Ever	2021	https://i.scdn.co/image/ab67616d0000b2732a038d3bf875d23e4aeaa84e
 1YPWxMpQEC8kcOuefgXbhj	6qqNVTkY8uBg9cP3Jd7DAH	Guitar Songs	2022	https://i.scdn.co/image/ab67616d0000b2737a4781629469bb83356cd318
 4i3rAwPw7Ln2YrKDusaWyT	6qqNVTkY8uBg9cP3Jd7DAH	everything i wanted	2019	https://i.scdn.co/image/ab67616d0000b273f2248cf6dad1d6c062587249
 4iyJ8i3eKbez8JXDbsHIdZ	6qqNVTkY8uBg9cP3Jd7DAH	Bored	2017	https://i.scdn.co/image/ab67616d0000b273e0f2af91be409aad81bba98c
@@ -1063,22 +1444,6 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 1HG9bFZMfC6MLSEbOiI8ME	7boQqq2hUcz9kHcQOecG4j	I Hate You With A Passion	1995	https://i.scdn.co/image/ab67616d0000b2739af9a9be7f288188be0970ff
 4Uvk0aRsCz0kt8IQoTTCko	4mPPxTpWqDR5rmOrTOh4nk	Bullet Symphony Horns And Halos #3	2006	https://i.scdn.co/image/ab67616d0000b2734dae6d9e7c7c81256daee245
 15mPPPMuN4jpwU0NqKE2DT	7boQqq2hUcz9kHcQOecG4j	Scottie 15	2013	https://i.scdn.co/image/ab67616d0000b2737ea9619e695949fb075ff129
-3T4tUhGYeRNVUGevb0wThu	6eUKZXaKkcviH0Ku9w2n3V	÷ (Deluxe)	2017	https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96
-32iAEBstCjauDhyKpGjTuq	6eUKZXaKkcviH0Ku9w2n3V	=	2021	https://i.scdn.co/image/ab67616d0000b273ef24c3fdbf856340d55cfeb2
-4urxMitPAkjyey14LeuWSX	4nDoRrQiYLoBzwC5BhVJzF	Familia	2022	https://i.scdn.co/image/ab67616d0000b273370ed6a9ced20874385fb147
-6NoBzYmh5gUusGPCfg0pct	6eUKZXaKkcviH0Ku9w2n3V	x (Wembley Edition)	2013	https://i.scdn.co/image/ab67616d0000b273d08209944468440145f01524
-2W5VVBPNkGAduaArE4sX29	6eUKZXaKkcviH0Ku9w2n3V	Celestial	2022	https://i.scdn.co/image/ab67616d0000b273c18194a4022ec44507f7b248
-6kgDkAupBVRSqbJPUaTJwQ	3wcj11K77LjEY1PkEazffa	Love, Damini	2022	https://i.scdn.co/image/ab67616d0000b27312ebde47882280b814275600
-3w8hDKDqyNFKwTuB2G15Sk	5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô, Vol. 2	2016	https://i.scdn.co/image/ab67616d0000b27306ca500ac2d0153dc7912275
-0iyPnXukC40URPczeXVvha	5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô	2016	https://i.scdn.co/image/ab67616d0000b273680fd1051232441bdbab1c29
-5V5iUFc3nj3Y92QeHzWGfH	5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô, Vol. 4	2016	https://i.scdn.co/image/ab67616d0000b273e084028bfac64eb04fae610a
-2cX8LwExMxThOI19CdW8cX	5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô, Vol. 3	2016	https://i.scdn.co/image/ab67616d0000b27310ac8405c0f2e5bc497314c5
-6TQ8nqw43uUOWu7Yqp58ko	6aaMZ3fcfLv4tEbmY7bjRM	The House Is Burning	2021	https://i.scdn.co/image/ab67616d0000b273ac895ae149e004dcbb6367be
-6jjX8mGrsWtrpYpFhGMrg1	6aaMZ3fcfLv4tEbmY7bjRM	The Sun's Tirade	2016	https://i.scdn.co/image/ab67616d0000b273fbdec8696ff05ae19265dfa0
-6JF49ixyHmOgS0Rsda2k42	6aaMZ3fcfLv4tEbmY7bjRM	Cilvia Demo	2014	https://i.scdn.co/image/ab67616d0000b273986cd6b330f7405b17a604f4
-1sjsLTzS0WxitdFmqvPpUW	4yYYCSCDUTypErQMZv5iSg	Dawg House	2022	https://i.scdn.co/image/ab67616d0000b27333e1ca0d626e438db2248427
-6kAQmWSprYKeBpSEVC4dxa	7hi7sNBb4AWmzHRjFCs94V	Angoleiro Sim Sinhô (Capoeira)	2009	https://i.scdn.co/image/ab67616d0000b2733af0895d597387883db18339
-1pCA38N6MkLlthXtAOvZTU	04gDigrS5kc9YWfZHwBETP	JORDI (Deluxe)	2021	https://i.scdn.co/image/ab67616d0000b27386a8ab515de4b7aef28cd631
 7n8NJkGKAl2np1bXiRn0CY	5BvJzeQpmsdsFp4HGUYUEx	Vampire Weekend	2008	https://i.scdn.co/image/ab67616d0000b273eabfe5d94aad05cb6485444b
 1A3nVEWRJ8yvlPzawHI1pQ	5BvJzeQpmsdsFp4HGUYUEx	Father of the Bride	2019	https://i.scdn.co/image/ab67616d0000b273a2b1d3e73c66663c01351bcf
 1GXMNFfoHF4sN7lG8gZq1j	5BvJzeQpmsdsFp4HGUYUEx	Modern Vampires of the City	2013	https://i.scdn.co/image/ab67616d0000b273654afcab578b93f29ca55a29
@@ -1092,6 +1457,12 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 5wi0oKiF99ZVACf6oTTsp2	4MCBfE4596Uoi2O4DtmEMz	Let Me Know (I Wonder Why Freestyle)	2019	https://i.scdn.co/image/ab67616d0000b273401ea2c7ac7ef87bd32c990f
 4fN1wqKk72NNFja1oi9WEV	2EhUXeszBQRApbBmTOXlKU	Capoeira Bahia	2012	https://i.scdn.co/image/ab67616d0000b273c2701fdb7560657357a3ceb5
 1XYOxycEbEE2Ce9eDwREpS	7G6BVdBZ9lTjGEH37zbxmA	Berimbau Chorou	2015	https://i.scdn.co/image/ab67616d0000b2739fb88609fea9798b7c976638
+3T4tUhGYeRNVUGevb0wThu	6eUKZXaKkcviH0Ku9w2n3V	÷ (Deluxe)	2017	https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96
+32iAEBstCjauDhyKpGjTuq	6eUKZXaKkcviH0Ku9w2n3V	=	2021	https://i.scdn.co/image/ab67616d0000b273ef24c3fdbf856340d55cfeb2
+4urxMitPAkjyey14LeuWSX	4nDoRrQiYLoBzwC5BhVJzF	Familia	2022	https://i.scdn.co/image/ab67616d0000b273370ed6a9ced20874385fb147
+6NoBzYmh5gUusGPCfg0pct	6eUKZXaKkcviH0Ku9w2n3V	x (Wembley Edition)	2013	https://i.scdn.co/image/ab67616d0000b273d08209944468440145f01524
+2W5VVBPNkGAduaArE4sX29	6eUKZXaKkcviH0Ku9w2n3V	Celestial	2022	https://i.scdn.co/image/ab67616d0000b273c18194a4022ec44507f7b248
+6kgDkAupBVRSqbJPUaTJwQ	3wcj11K77LjEY1PkEazffa	Love, Damini	2022	https://i.scdn.co/image/ab67616d0000b27312ebde47882280b814275600
 0h2knr6qpiAq0tV5ri5JMF	1vCWHaC5f2uS3yhpwWbIA6	The Days / Nights	2014	https://i.scdn.co/image/ab67616d0000b2730ae4f4d42e4a09f3a29f64ad
 2H6i2CrWgXE1HookLu8Au0	1vCWHaC5f2uS3yhpwWbIA6	True	2013	https://i.scdn.co/image/ab67616d0000b273e14f11f796cef9f9a82691a7
 7dqftJ3kas6D0VAdmt3k3V	1vCWHaC5f2uS3yhpwWbIA6	Stories	2015	https://i.scdn.co/image/ab67616d0000b2735393c5d3cac806092a9bc468
@@ -1122,10 +1493,16 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 2Tyx5dLhHYkx6zeAdVaTzN	4LLpKhyESsyAXpc4laK94U	GO:OD AM	2015	https://i.scdn.co/image/ab67616d0000b273ee0f38410382a255e4fb15f4
 6f6tko6NWoH00cyFOl4VYQ	4LLpKhyESsyAXpc4laK94U	The Divine Feminine	2016	https://i.scdn.co/image/ab67616d0000b2732e92f776279eaf45d14a33fd
 5sY6UIQ32GqwMLAfSNEaXb	4LLpKhyESsyAXpc4laK94U	Circles	2020	https://i.scdn.co/image/ab67616d0000b27326b7dd89810cc1a40ada642c
+3w8hDKDqyNFKwTuB2G15Sk	5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô, Vol. 2	2016	https://i.scdn.co/image/ab67616d0000b27306ca500ac2d0153dc7912275
+0iyPnXukC40URPczeXVvha	5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô	2016	https://i.scdn.co/image/ab67616d0000b273680fd1051232441bdbab1c29
+5V5iUFc3nj3Y92QeHzWGfH	5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô, Vol. 4	2016	https://i.scdn.co/image/ab67616d0000b273e084028bfac64eb04fae610a
+2cX8LwExMxThOI19CdW8cX	5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô, Vol. 3	2016	https://i.scdn.co/image/ab67616d0000b27310ac8405c0f2e5bc497314c5
 3fAptQHHbsV4bHHNjcGDG0	4kEcRrHPFKoSlsHIhuCN2f	Cantigas De Capu - En Las Calles De Barcelona	2017	https://i.scdn.co/image/ab67616d0000b2733495e5a7177f0454406081a4
+6FdbVYfwhJjaUOzYB7J9Uj	1AldSIJ8ANuZVbjKIhpKKq	Canto na Areia, Vol. 03	2007	https://i.scdn.co/image/ab67616d0000b273bdaab8b09e0dbc8536bb619c
 2MQvu0dayEtaR5Y2uxX056	1AldSIJ8ANuZVbjKIhpKKq	The Best of Capoeira	2014	https://i.scdn.co/image/ab67616d0000b27326c24c43597ff16c6052ff39
 3kUdjvoJpl53A2BLu56OvA	1AldSIJ8ANuZVbjKIhpKKq	Os 15 Maiores Sucessos na Capoeira	2008	https://i.scdn.co/image/ab67616d0000b2735705adb069a54c9df630b195
 1nLj3uvuO1twD5Vzp1tQyh	0I11U609NiFEdpvNix7oNl	Capoeira Besouro a Força do Cantar	2007	https://i.scdn.co/image/ab67616d0000b273c7025713d46d445a2024e9e8
+4HCs1WxdaCTb8S1TlgUG9C	7HGNYPmbDrMkylWqeFCOIQ	Prenda Minha	1998	https://i.scdn.co/image/ab67616d0000b2732374e6c8bada807a45cc4b00
 4UOAwKUc79FtTSK6NmRFB3	7HGNYPmbDrMkylWqeFCOIQ	Uns	1983	https://i.scdn.co/image/ab67616d0000b273212298c62a17891ea62d0b49
 5ZVLLME05cmciSZz4IGcZu	1b8kpp4DUwt1hWaxTiWQhD	Gal Costa	1969	https://i.scdn.co/image/ab67616d0000b27395ce0914cbddd405600e1e12
 3PlAbFQa9MEymxTgQC51wv	7HGNYPmbDrMkylWqeFCOIQ	Ofertório (Ao Vivo)	2018	https://i.scdn.co/image/ab67616d0000b273042f939bfd3b88b2adc88ae0
@@ -1142,18 +1519,12 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 5tOzXq44rU4yCCVY94f6m7	4M5nCE77Qaxayuhp3fVn4V	Around the Well	2009	https://i.scdn.co/image/ab67616d0000b273d1bda10582c382a04e3e6140
 0jMBAo2pk2cEE0aJ3WseMl	4M5nCE77Qaxayuhp3fVn4V	Sing Into My Mouth	2015	https://i.scdn.co/image/ab67616d0000b273bbcb4589a7819ae8a28785ac
 1iGIqDBXm5HpTqHCvdc4QP	4M5nCE77Qaxayuhp3fVn4V	The Twilight Saga: Breaking Dawn - Part 1 (Original Motion Picture Soundtrack)	2011	https://i.scdn.co/image/ab67616d0000b273f01ba25235fb24f73605b9dd
-5EatIo50si8CoN3ARke59W	1gIa65d5ICT2xVWiUJ3u27	Brazil Classics 4: The Best of Tom Zé	2007	https://i.scdn.co/image/ab67616d0000b2731f0672b08d4305d0aec00377
-0hEDr5IFbF4mZBHffTZl61	1gIa65d5ICT2xVWiUJ3u27	Jimmy, Renda-Se/ Irene - EP	1971	https://i.scdn.co/image/ab67616d0000b273e9862569b80195899f1a6ffa
-40jH4AC1hwNv8DpLqqLeK9	1gIa65d5ICT2xVWiUJ3u27	Com Defeito de Fabricação	2007	https://i.scdn.co/image/ab67616d0000b27383f15566ea067c85963be67b
-3bHozwj5kK03Wk7vXyzqup	1gIa65d5ICT2xVWiUJ3u27	Tom Zé	1970	https://i.scdn.co/image/ab67616d0000b2736ccf169d40fe1e4fe90bbe64
-728y0VvMcIuamGmKhDpa6X	4Lm0pUvmisUHMdoky5ch2I	7th Symphony	2010	https://i.scdn.co/image/ab67616d0000b273e82e8da82c13e70c10023e30
-1rmhml18o2KDLUpYMXq6VQ	4Lm0pUvmisUHMdoky5ch2I	Worlds Collide	2007	https://i.scdn.co/image/ab67616d0000b27329e90501a1ea82739e39da5f
-1rcVwAd9FXK9ONouJVeRSF	4Lm0pUvmisUHMdoky5ch2I	Worlds Collide	2007	https://i.scdn.co/image/ab67616d0000b27303f36eb693eff336f52468c0
-3SZrExQkv0QGbNV9MJUna0	4Lm0pUvmisUHMdoky5ch2I	I Don't Care	2008	https://i.scdn.co/image/ab67616d0000b273f188666b7fd8ed99cd1ca6ad
-3W8ep9kCGVEf5TLFtRRB2T	4Lm0pUvmisUHMdoky5ch2I	Talk To Me (feat. Lzzy Hale)	2020	https://i.scdn.co/image/ab67616d0000b273e4006fb07fcd9e2d32130026
-6leqa6QQESn76w64IdN9yQ	4Lm0pUvmisUHMdoky5ch2I	Inquisition Symphony	1998	https://i.scdn.co/image/ab67616d0000b273aafd1a955eda9a0f8bbf50a1
-4drZZN0HTkJzcdlPmmQyqG	2xiIXseIJcq3nG7C8fHeBj	EXPLOSIONS	2022	https://i.scdn.co/image/ab67616d0000b27391c8a7df5913c07233a99551
-3slBXddUn27FSk2rOB1Uy1	3o2dn2O0FCVsWDFSh8qxgG	Angels Calling	2020	https://i.scdn.co/image/ab67616d0000b273a91e09ed0aff46d505bc3f65
+6TQ8nqw43uUOWu7Yqp58ko	6aaMZ3fcfLv4tEbmY7bjRM	The House Is Burning	2021	https://i.scdn.co/image/ab67616d0000b273ac895ae149e004dcbb6367be
+6jjX8mGrsWtrpYpFhGMrg1	6aaMZ3fcfLv4tEbmY7bjRM	The Sun's Tirade	2016	https://i.scdn.co/image/ab67616d0000b273fbdec8696ff05ae19265dfa0
+6JF49ixyHmOgS0Rsda2k42	6aaMZ3fcfLv4tEbmY7bjRM	Cilvia Demo	2014	https://i.scdn.co/image/ab67616d0000b273986cd6b330f7405b17a604f4
+1sjsLTzS0WxitdFmqvPpUW	4yYYCSCDUTypErQMZv5iSg	Dawg House	2022	https://i.scdn.co/image/ab67616d0000b27333e1ca0d626e438db2248427
+6kAQmWSprYKeBpSEVC4dxa	7hi7sNBb4AWmzHRjFCs94V	Angoleiro Sim Sinhô (Capoeira)	2009	https://i.scdn.co/image/ab67616d0000b2733af0895d597387883db18339
+1pCA38N6MkLlthXtAOvZTU	04gDigrS5kc9YWfZHwBETP	JORDI (Deluxe)	2021	https://i.scdn.co/image/ab67616d0000b27386a8ab515de4b7aef28cd631
 2pjfMmH52fryXVQuWTWOgP	04gDigrS5kc9YWfZHwBETP	Overexposed (Deluxe)	2012	https://i.scdn.co/image/ab67616d0000b273ce7d499847da02a9cbd1c084
 2Auw0pTT6EcQdvHNimhLQI	04gDigrS5kc9YWfZHwBETP	V	2014	https://i.scdn.co/image/ab67616d0000b273442b53773d50e1b5369bb16c
 5zClcGCSWj926AMjvBNSLc	04gDigrS5kc9YWfZHwBETP	Songs About Jane: 10th Anniversary Edition	2002	https://i.scdn.co/image/ab67616d0000b27392f2d790c6a97b195f66d51e
@@ -1177,9 +1548,9 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 2m9mAypAFaG33u60S6fYWJ	1cIz2h3ERs72r60yw78Deu	You'll Be There	2020	https://i.scdn.co/image/ab67616d0000b273bbab437da42e9e7537413116
 073ct5hRKoMoyYgTtZ6omK	1cIz2h3ERs72r60yw78Deu	Movies	2021	https://i.scdn.co/image/ab67616d0000b2739313b2d538381fa8765eec11
 5pNSuaEliVDmgJEWZoopSh	1cIz2h3ERs72r60yw78Deu	Night Bass Freshmen Vol 3	2019	https://i.scdn.co/image/ab67616d0000b273da81ee11997dd2280455ed0a
+5XoxmvsEqRrsHMooW6DLyx	1cIz2h3ERs72r60yw78Deu	Comply	2022	https://i.scdn.co/image/ab67616d0000b273dc83988a4a802e8f1321e356
 5r1COi4fv9t1woJqdnfz3A	1cIz2h3ERs72r60yw78Deu	Like Me	2020	https://i.scdn.co/image/ab67616d0000b273a7ac4b9f5e098838c2747101
 7vNlIGuuwVCwO4YhDojVdx	1cIz2h3ERs72r60yw78Deu	Rise & Fall (VIPs)	2022	https://i.scdn.co/image/ab67616d0000b273add73f803fc65f6e302f5c2b
-5XoxmvsEqRrsHMooW6DLyx	1cIz2h3ERs72r60yw78Deu	Comply	2022	https://i.scdn.co/image/ab67616d0000b273dc83988a4a802e8f1321e356
 63P6lbTxTP2OpbC7SOrIfK	20gsENnposVs2I4rQ5kvrf	Follow Me	2021	https://i.scdn.co/image/ab67616d0000b273768c262077eb6de3cce11775
 2iylTVQEMYGQ9CUgn9MAAT	1IueXOQyABrMOprrzwQJWN	You for Me	2021	https://i.scdn.co/image/ab67616d0000b273f27f159d52482679d2bf2985
 6hKHpD9mnIjiJWmAunnQT8	5CCwRZC6euC8Odo6y9X8jr	Poison	2015	https://i.scdn.co/image/ab67616d0000b273fabd9e4a96acce8a3734c737
@@ -1208,11 +1579,11 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 3ryK3lfTB9KcFC876ykgAy	4dM6NDYSfLcspt8GLoT5aE	Options	2016	https://i.scdn.co/image/ab67616d0000b273cc236304797ed48ada1418bb
 2VmLk5bAd5QjLtX7cHm594	4dM6NDYSfLcspt8GLoT5aE	The Sunny Album (Deluxe Edition)	2014	https://i.scdn.co/image/ab67616d0000b27317720116d4dc812119afa124
 3xdTckJjSyCfWePM4DrTOc	4dM6NDYSfLcspt8GLoT5aE	Running Miles	2017	https://i.scdn.co/image/ab67616d0000b27319170911c1505110bb1a600c
-6cbYPzA3cmYlQD0JqsOjEQ	4dM6NDYSfLcspt8GLoT5aE	Drifter	2017	https://i.scdn.co/image/ab67616d0000b273ef35c38cc9a9c5a5ca3281ac
 3a6or8qwEaFtPZFhEWVOTQ	4dM6NDYSfLcspt8GLoT5aE	Wrong Time	2020	https://i.scdn.co/image/ab67616d0000b273bdc61cff45a69c03a589c953
+6cbYPzA3cmYlQD0JqsOjEQ	4dM6NDYSfLcspt8GLoT5aE	Drifter	2017	https://i.scdn.co/image/ab67616d0000b273ef35c38cc9a9c5a5ca3281ac
 4t8bZNqNroLlMNj8p908VL	1KEUVZo7CMTSJoM8doulOT	Shapeshifter	2016	https://i.scdn.co/image/ab67616d0000b27349ed78ae2966d6f9c5693568
-32vTTEq3dQDej4V6vdNQUd	1KEUVZo7CMTSJoM8doulOT	the loss of everything	2022	https://i.scdn.co/image/ab67616d0000b2735fd5666e74458a274037cf82
 6f25XUNJkOsTg5XrX32q0w	1KEUVZo7CMTSJoM8doulOT	Consciousness	2009	https://i.scdn.co/image/ab67616d0000b2734b20a04b0bfbd773e8355573
+32vTTEq3dQDej4V6vdNQUd	1KEUVZo7CMTSJoM8doulOT	the loss of everything	2022	https://i.scdn.co/image/ab67616d0000b2735fd5666e74458a274037cf82
 0Weyfoz5UL4BaLmqjrwY2r	1KEUVZo7CMTSJoM8doulOT	a storm is coming	2022	https://i.scdn.co/image/ab67616d0000b2734f734194945e965458046ce3
 7ff2gTB2vu17vAN59nutfR	1KEUVZo7CMTSJoM8doulOT	Manifesto	2022	https://i.scdn.co/image/ab67616d0000b273223f25b43510999283156d94
 35bHrnMSA8aZ0P5nemqhIp	1KEUVZo7CMTSJoM8doulOT	The Punisher: The Album	2004	https://i.scdn.co/image/ab67616d0000b27345361efb0f85789c2b3a311c
@@ -1235,6 +1606,9 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 3FQ9S9YvMGYzNMvXve9ulB	6qgc4bSHhzZxnJ01WDEAHt	Volume 4	2010	https://i.scdn.co/image/ab67616d0000b27321f57ce973fcc773e2ea9ce9
 6p83U6vuMZYV1kkhUbyMIG	6qgc4bSHhzZxnJ01WDEAHt	As 21 Melhores	2010	https://i.scdn.co/image/ab67616d0000b27357f512881e78692829c29116
 0kh4iDfosdAu9wYYCWuADE	6qgc4bSHhzZxnJ01WDEAHt	Sou Do Tempo Do Pai De Pai De Papai	2010	https://i.scdn.co/image/ab67616d0000b27393b6e935ea35e6efa0b9f0f8
+0hEDr5IFbF4mZBHffTZl61	1gIa65d5ICT2xVWiUJ3u27	Jimmy, Renda-Se/ Irene - EP	1971	https://i.scdn.co/image/ab67616d0000b273e9862569b80195899f1a6ffa
+40jH4AC1hwNv8DpLqqLeK9	1gIa65d5ICT2xVWiUJ3u27	Com Defeito de Fabricação	2007	https://i.scdn.co/image/ab67616d0000b27383f15566ea067c85963be67b
+3bHozwj5kK03Wk7vXyzqup	1gIa65d5ICT2xVWiUJ3u27	Tom Zé	1970	https://i.scdn.co/image/ab67616d0000b2736ccf169d40fe1e4fe90bbe64
 208EfBvaP5XUYayo4jb2kA	5ZfHVIBVoMg0VjgUBU0alH	Capoeira Angola 2: Brincando na Roda	2003	https://i.scdn.co/image/ab67616d0000b273ff634f6b599e496a6b21ee8d
 00R7lDfWhAQcv72jlCni1P	5ZfHVIBVoMg0VjgUBU0alH	Capoeira Angola from Salvador, Brazil	1996	https://i.scdn.co/image/ab67616d0000b273e815479e87e3e05b98e27ef4
 3birV9Fqgob9yiPaz2cQ8u	5nJ5xDXFO4czh2gJ9f4wto	Capoeira Água de Menino	2008	https://i.scdn.co/image/ab67616d0000b273624fa913636494daabdef5ec
@@ -1242,6 +1616,13 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 5y3IHg8hVlbfbFgIUWtCeL	5sEDTHJJyDEWVFx99hGSIb	The Sims 2 (Original Soundtrack)	2005	https://i.scdn.co/image/ab67616d0000b273e360fbb82e572bb9c59e1b46
 4Dq65Lwt50IB0eAKuT10nC	5sEDTHJJyDEWVFx99hGSIb	Ratchet & Clank: Rift Apart (Original Soundtrack)	2021	https://i.scdn.co/image/ab67616d0000b273da89c91341ed1a93e37c49d2
 4BtGSQwvM9K67Gx9VanBFy	1K9pNfOfxZFfbEgoOmjV13	Capoeira Angola	2003	https://i.scdn.co/image/ab67616d0000b273aaa202ad9518e90f1f2e0ae5
+728y0VvMcIuamGmKhDpa6X	4Lm0pUvmisUHMdoky5ch2I	7th Symphony	2010	https://i.scdn.co/image/ab67616d0000b273e82e8da82c13e70c10023e30
+1rmhml18o2KDLUpYMXq6VQ	4Lm0pUvmisUHMdoky5ch2I	Worlds Collide	2007	https://i.scdn.co/image/ab67616d0000b27329e90501a1ea82739e39da5f
+1rcVwAd9FXK9ONouJVeRSF	4Lm0pUvmisUHMdoky5ch2I	Worlds Collide	2007	https://i.scdn.co/image/ab67616d0000b27303f36eb693eff336f52468c0
+3SZrExQkv0QGbNV9MJUna0	4Lm0pUvmisUHMdoky5ch2I	I Don't Care	2008	https://i.scdn.co/image/ab67616d0000b273f188666b7fd8ed99cd1ca6ad
+3W8ep9kCGVEf5TLFtRRB2T	4Lm0pUvmisUHMdoky5ch2I	Talk To Me (feat. Lzzy Hale)	2020	https://i.scdn.co/image/ab67616d0000b273e4006fb07fcd9e2d32130026
+6leqa6QQESn76w64IdN9yQ	4Lm0pUvmisUHMdoky5ch2I	Inquisition Symphony	1998	https://i.scdn.co/image/ab67616d0000b273aafd1a955eda9a0f8bbf50a1
+3slBXddUn27FSk2rOB1Uy1	3o2dn2O0FCVsWDFSh8qxgG	Angels Calling	2020	https://i.scdn.co/image/ab67616d0000b273a91e09ed0aff46d505bc3f65
 2PFiZ23ZyPTcgwmXk4X6o0	1MXZ0hsGic96dWRDKwAwdr	Tommy Lee (feat. Post Malone)	2020	https://i.scdn.co/image/ab67616d0000b273e9f7839f5017f87ca7f5e4f0
 0imwCieoxougGmptrN1WAx	1MXZ0hsGic96dWRDKwAwdr	High Right Now (feat. Wiz Khalifa) [Remix]	2020	https://i.scdn.co/image/ab67616d0000b2732dea10a6e67a8c1ab8b8566e
 0ntJqUFZt7XQmRycj6typz	1MXZ0hsGic96dWRDKwAwdr	Stuntin' On You (feat. DaBaby)	2020	https://i.scdn.co/image/ab67616d0000b2738e58e86741db1334fcfc015a
@@ -1259,334 +1640,453 @@ COPY public.albums (album_id, artist_id, name, release_year, img_url) FROM stdin
 --
 
 COPY public.artists (artist_id, name, popularity, followers, img_url) FROM stdin;
-0qu422H5MOoQxGjd4IzHbS	Yves Tumor	56	258303	https://i.scdn.co/image/ab6761610000e5eb1812767b709d74a801c0e487
-65dGLGjkw3UbddUg2GKQoZ	BADBADNOTGOOD	62	635492	https://i.scdn.co/image/ab6761610000e5eb61d28b161209f1ee239fdafa
-4lujUKeO6nQAJXpq37Epn7	Son Little	53	136712	https://i.scdn.co/image/ab6761610000e5eb7321188756fe1f5d4b554797
-6ltzsmQQbmdoHHbLZ4ZN25	Lord Huron	71	1141059	https://i.scdn.co/image/ab6761610000e5eb1d4e4e7e3c5d8fa494fc5f10
-0YrtvWJMgSdVrk3SfNjTbx	Death Cab for Cutie	63	1413039	https://i.scdn.co/image/ab6761610000e5eb378adae733fc578108e3f534
-0bzfPKdbXL5ezYW2z3UGQj	Michael Kiwanuka	63	1245742	https://i.scdn.co/image/ab6761610000e5eb413f9f82bd7d821ae0195d67
-3M4ThdJR28z9eSMcQHAZ5G	The Fratellis	60	769821	https://i.scdn.co/image/ab6761610000e5ebd693efe23dcda7b9595e77ec
-30DhU7BDmF4PH0JVhu8ZRg	Sabrina Claudio	62	1447179	https://i.scdn.co/image/ab6761610000e5eb4ed63962edc0f1817bc349fb
-360IAlyVv4PCEVjgyMZrxK	Miguel	76	4268400	https://i.scdn.co/image/ab6761610000e5eb02eeb5305fa7bdd9ddca42fc
-34jw2BbxjoYalTp8cJFCPv	Heart	65	2107585	https://i.scdn.co/image/1c145626e516a6817c43e7eab2b1cc3a5a9562a8
-5Q81rlcTFh3k6DQJXPdsot	Mura Masa	63	626041	https://i.scdn.co/image/ab6761610000e5eb506f6e096e31255e20668074
-2YZyLoL8N0Wb9xBt1NhZWg	Kendrick Lamar	87	21941962	https://i.scdn.co/image/ab6761610000e5eb437b9e2a82505b3d93ff1022
-4hz8tIajF2INpgM0qzPJz2	Rainbow Kitten Surprise	67	810804	https://i.scdn.co/image/ab6761610000e5eb1b8f08f741213f04e4c3a25a
-1Xyo4u8uXC1ZmMpatF05PJ	The Weeknd	93	52365712	https://i.scdn.co/image/ab6761610000e5ebb5f9e28219c169fd4b9e8379
-7CyeXFnOrfC1N6z4naIpgo	The Ronettes	61	221338	https://i.scdn.co/image/ab6761610000e5ebc47897b69089f59e31817f26
-55VydwMyCuGcavwPuhutPL	The Used	61	1039738	https://i.scdn.co/image/ab6761610000e5eb779c0b2354fc5392c1378290
-08ct2eZF5lUPdJpHwNKWof	Hootie & The Blowfish	58	966277	https://i.scdn.co/image/ab6761610000e5eb783a64d2e0fbfdaed9114594
-37w38cCSGgKLdayTRjna4W	Mazzy Star	64	801446	https://i.scdn.co/image/d14e353d562d68036916c64a13912772cf7df91c
-4bthk9UfsYUYdcFyqxmSUU	Tears For Fears	72	2590976	https://i.scdn.co/image/ab6761610000e5eb42ed2cb48c231f545a5a3dad
-4pejUc4iciQfgdX6OKulQn	Queens of the Stone Age	68	3089032	https://i.scdn.co/image/ab6761610000e5ebc194721f2ca5433bc78b0e74
-7qKoy46vPnmIxKCN6ewBG4	Butch Walker	38	43782	https://i.scdn.co/image/ab6761610000e5eb0dc5c48012477ce1d87953c4
-1eClJfHLoDI4rZe5HxzBFv	INXS	68	2208935	https://i.scdn.co/image/ab6761610000e5eb9bfd44c9bd2aae22edfd99bf
-2iul6etLF5hjjpxo43rzz7	Lera Lynn	42	82980	https://i.scdn.co/image/ab6761610000e5ebde10fb8cd40da4e0af316b77
-73sIBHcqh3Z3NyqHKZ7FOL	Childish Gambino	77	9981540	https://i.scdn.co/image/ab6761610000e5eb3ef779aa0d271adb2b6a3ded
-4V8LLVI7PbaPR0K2TGSxFF	Tyler, The Creator	83	9869578	https://i.scdn.co/image/ab6761610000e5eb8278b782cbb5a3963db88ada
-3oDbviiivRWhXwIE8hxkVV	The Beach Boys	70	3868621	https://i.scdn.co/image/ab6761610000e5eb92602f233ce2295748f44603
-5wFXmYsg3KFJ8BDsQudJ4f	Manchester Orchestra	61	473545	https://i.scdn.co/image/ab6761610000e5eb3b853e76066d55089ba9581f
-2ooIqOf4X2uz4mMptXCtie	Neutral Milk Hotel	55	605969	https://i.scdn.co/image/731f5f71de27c36300d2cf71a7f9cd7f389d0bf7
-1KP6TWI40m7p3QBTU6u2xo	BØRNS	66	1102856	https://i.scdn.co/image/ab6761610000e5eb6308e79c621076395807b455
-1MIe1z4RdqLqHSJsb7EBMm	The Greeting Committee	51	107509	https://i.scdn.co/image/ab6761610000e5eb7f25f8a78585d6b5cda70a3f
-4l1cKWYW591xnwEGxpUg3J	Miike Snow	54	615290	https://i.scdn.co/image/b3944378d08ba28b16c494cc7f63703175169251
-1fZpYWNWdL5Z3wrDtISFUH	Shakey Graves	58	462987	https://i.scdn.co/image/ab6761610000e5ebe4368448c8f76d21de6a5c1d
-0AkmSuTOzM2pNCIOSP8ziv	Amigo the Devil	49	109730	https://i.scdn.co/image/ab6761610000e5eb757280ee844ac5714b919648
-3dv4Q4q3LWOnbLJnC6GgTY	Yellow Days	52	443672	https://i.scdn.co/image/ab6761610000e5eb3a007701f172556b9e917b1e
-60df5JBRRPcnSpsIMxxwQm	Otis Redding	67	2003436	https://i.scdn.co/image/4ad89c805aff0fb76b01b6b62b39e21fcd8943c3
-3JaAGmSTpJK35DqWrDUzBz	Sweet	57	387282	https://i.scdn.co/image/ab6761610000e5eb29a247c0aac9cbe94bc47865
-3RGLhK1IP9jnYFH4BRFJBS	The Clash	68	2415840	https://i.scdn.co/image/ab470b275daa38351810a1eb91d107ebdb821302
-0oSGxfWSnnOXhD2fKuz2Gy	David Bowie	76	8684944	https://i.scdn.co/image/ab6761610000e5ebb78f77c5583ae99472dd4a49
-7lzordPuZEXxwt9aoVZYmG	Billy Idol	67	1530235	https://i.scdn.co/image/ab6761610000e5ebd42c6334786bfdea92beeb5d
-33EUXrFKGjpUSGacqEHhU4	Iggy Pop	62	1383529	https://i.scdn.co/image/ab6761610000e5eb21e6d14c3d8aab9887380d00
-2CVBumuL5KyztqCyo7CETY	Elton Motello	20	2488	https://i.scdn.co/image/c6cd62c680a2993e07f4cd430140be441af6572e
-5aBEGOeWQCJfptic9xyaAb	Tones On Tail	35	58990	https://i.scdn.co/image/ab67616d0000b273768d2a36068dd1adcaa1f31b
-2ZfogSsOWP4mVfEqfpLXCt	The Church	49	194565	https://i.scdn.co/image/ab6761610000e5ebf87738dae4fe74422080fa5c
-3gdbcIdNypBsYNu3iiCjtN	The B-52's	59	885990	https://i.scdn.co/image/ab6761610000e5eb85c1d77e63082caf426f6d59
-0rpMdBzQXf7aYRnu5fDBJy	Violent Femmes	56	602189	https://i.scdn.co/image/ab6761610000e5ebf7100a1b5ae490f13b6b8078
-3yY2gUcIsjMr8hjo51PoJ8	The Smiths	74	3641679	https://i.scdn.co/image/481b980af463122013e4578c08fb8c5cbfaed1e9
-0Zy4ncr8h1jd7Nzr9946fD	Killing Joke	48	269225	https://i.scdn.co/image/ab6761610000e5ebb27c2f14d0deaac56f64c1f4
-6loBF9iQdE11WSX29fNKqY	Howard Jones	49	361340	https://i.scdn.co/image/ab6761610000e5eb93e7c004e39b91f88d1088af
-7guDJrEfX3qb6FEbdPA5qi	Stevie Wonder	74	5860243	https://i.scdn.co/image/c59faacbed7aa770266bad048660810eca204108
-0YHgnSkV3S5mvSSCTRWDi5	Poor Mans Poison	62	156795	https://i.scdn.co/image/ab6761610000e5eb7e8b8316444011b2555929f0
-57bUPid8xztkieZfS7OlEV	The Supremes	61	1497399	https://i.scdn.co/image/5c5dc3f7b4569a7727a63a44513c7a602b72da44
-0X380XXQSNBYuleKzav5UO	Nine Inch Nails	65	2167813	https://i.scdn.co/image/ab6761610000e5eb047095c90419cf2a97266f77
-5eIbEEQnDM8yuDVB0bimSP	RL Grime	59	394771	https://i.scdn.co/image/ab6761610000e5eb8839d67ee5f8963a1ba5458f
-3pkmfqaBNsMqnXus05PNfP	Handsome Boy Modeling School	44	127675	https://i.scdn.co/image/ab6761610000e5ebeb049e8fe237761c3ca58fcf
-20wkVLutqVOYrc0kxFs7rA	Daniel Caesar	76	3569532	https://i.scdn.co/image/ab6761610000e5ebbd09edfd2babfc9fd2ba748e
-1mFX1QlezK1lNPKQJkhwWb	New Edition	56	1394795	https://i.scdn.co/image/44e1b32aa085bd943fabd36678804d3fd3b8fb67
-0VbDAlm2KUlKI5UhXRBKWp	Henry Green	50	59632	https://i.scdn.co/image/ab6761610000e5eb6dabc1aa79f0541b26cd1835
-7KGqvFukcZRbQ7YFsYrgPa	Donnie & Joe Emerson	42	24717	https://i.scdn.co/image/ab6761610000e5eb1d8289c5a98c178330f4fc32
-6PEMFpe3PTOksdV4ZXUpbE	NxWorries	57	224430	https://i.scdn.co/image/ab6761610000e5eb89fa062521347470d69ba4c2
+0qu422H5MOoQxGjd4IzHbS	Yves Tumor	56	258465	https://i.scdn.co/image/ab6761610000e5eb1812767b709d74a801c0e487
+65dGLGjkw3UbddUg2GKQoZ	BADBADNOTGOOD	62	635669	https://i.scdn.co/image/ab6761610000e5eb61d28b161209f1ee239fdafa
+4lujUKeO6nQAJXpq37Epn7	Son Little	53	136769	https://i.scdn.co/image/ab6761610000e5eb7321188756fe1f5d4b554797
+6ltzsmQQbmdoHHbLZ4ZN25	Lord Huron	71	1141458	https://i.scdn.co/image/ab6761610000e5eb1d4e4e7e3c5d8fa494fc5f10
+0YrtvWJMgSdVrk3SfNjTbx	Death Cab for Cutie	63	1413250	https://i.scdn.co/image/ab6761610000e5eb378adae733fc578108e3f534
+0bzfPKdbXL5ezYW2z3UGQj	Michael Kiwanuka	63	1246029	https://i.scdn.co/image/ab6761610000e5eb413f9f82bd7d821ae0195d67
+3M4ThdJR28z9eSMcQHAZ5G	The Fratellis	60	770047	https://i.scdn.co/image/ab6761610000e5ebd693efe23dcda7b9595e77ec
+30DhU7BDmF4PH0JVhu8ZRg	Sabrina Claudio	62	1447644	https://i.scdn.co/image/ab6761610000e5eb4ed63962edc0f1817bc349fb
+360IAlyVv4PCEVjgyMZrxK	Miguel	77	4269766	https://i.scdn.co/image/ab6761610000e5eb02eeb5305fa7bdd9ddca42fc
+34jw2BbxjoYalTp8cJFCPv	Heart	65	2108318	https://i.scdn.co/image/1c145626e516a6817c43e7eab2b1cc3a5a9562a8
+5Q81rlcTFh3k6DQJXPdsot	Mura Masa	63	626107	https://i.scdn.co/image/ab6761610000e5eb506f6e096e31255e20668074
+2YZyLoL8N0Wb9xBt1NhZWg	Kendrick Lamar	87	21951636	https://i.scdn.co/image/ab6761610000e5eb437b9e2a82505b3d93ff1022
+4hz8tIajF2INpgM0qzPJz2	Rainbow Kitten Surprise	67	811338	https://i.scdn.co/image/ab6761610000e5eb1b8f08f741213f04e4c3a25a
+1Xyo4u8uXC1ZmMpatF05PJ	The Weeknd	93	52415704	https://i.scdn.co/image/ab6761610000e5ebb5f9e28219c169fd4b9e8379
+7CyeXFnOrfC1N6z4naIpgo	The Ronettes	62	221437	https://i.scdn.co/image/ab6761610000e5ebc47897b69089f59e31817f26
+55VydwMyCuGcavwPuhutPL	The Used	61	1040034	https://i.scdn.co/image/ab6761610000e5eb779c0b2354fc5392c1378290
+08ct2eZF5lUPdJpHwNKWof	Hootie & The Blowfish	58	966509	https://i.scdn.co/image/ab6761610000e5eb783a64d2e0fbfdaed9114594
+37w38cCSGgKLdayTRjna4W	Mazzy Star	64	802101	https://i.scdn.co/image/d14e353d562d68036916c64a13912772cf7df91c
+4bthk9UfsYUYdcFyqxmSUU	Tears For Fears	72	2592013	https://i.scdn.co/image/ab6761610000e5eb42ed2cb48c231f545a5a3dad
+4pejUc4iciQfgdX6OKulQn	Queens of the Stone Age	68	3089649	https://i.scdn.co/image/ab6761610000e5ebc194721f2ca5433bc78b0e74
+7qKoy46vPnmIxKCN6ewBG4	Butch Walker	38	43786	https://i.scdn.co/image/ab6761610000e5eb0dc5c48012477ce1d87953c4
+5wFXmYsg3KFJ8BDsQudJ4f	Manchester Orchestra	61	473736	https://i.scdn.co/image/ab6761610000e5eb3b853e76066d55089ba9581f
+2ooIqOf4X2uz4mMptXCtie	Neutral Milk Hotel	55	606083	https://i.scdn.co/image/731f5f71de27c36300d2cf71a7f9cd7f389d0bf7
+1KP6TWI40m7p3QBTU6u2xo	BØRNS	66	1102980	https://i.scdn.co/image/ab6761610000e5eb6308e79c621076395807b455
+1MIe1z4RdqLqHSJsb7EBMm	The Greeting Committee	51	107591	https://i.scdn.co/image/ab6761610000e5eb7f25f8a78585d6b5cda70a3f
+4l1cKWYW591xnwEGxpUg3J	Miike Snow	54	615352	https://i.scdn.co/image/b3944378d08ba28b16c494cc7f63703175169251
+1fZpYWNWdL5Z3wrDtISFUH	Shakey Graves	58	463085	https://i.scdn.co/image/ab6761610000e5ebe4368448c8f76d21de6a5c1d
+0AkmSuTOzM2pNCIOSP8ziv	Amigo the Devil	49	109817	https://i.scdn.co/image/ab6761610000e5eb757280ee844ac5714b919648
+3dv4Q4q3LWOnbLJnC6GgTY	Yellow Days	52	443732	https://i.scdn.co/image/ab6761610000e5eb3a007701f172556b9e917b1e
+60df5JBRRPcnSpsIMxxwQm	Otis Redding	67	2003752	https://i.scdn.co/image/4ad89c805aff0fb76b01b6b62b39e21fcd8943c3
+3JaAGmSTpJK35DqWrDUzBz	Sweet	57	387408	https://i.scdn.co/image/ab6761610000e5eb29a247c0aac9cbe94bc47865
+3RGLhK1IP9jnYFH4BRFJBS	The Clash	68	2416382	https://i.scdn.co/image/ab470b275daa38351810a1eb91d107ebdb821302
+0oSGxfWSnnOXhD2fKuz2Gy	David Bowie	76	8688148	https://i.scdn.co/image/ab6761610000e5ebb78f77c5583ae99472dd4a49
+7lzordPuZEXxwt9aoVZYmG	Billy Idol	67	1530699	https://i.scdn.co/image/ab6761610000e5ebd42c6334786bfdea92beeb5d
+33EUXrFKGjpUSGacqEHhU4	Iggy Pop	62	1383960	https://i.scdn.co/image/ab6761610000e5eb21e6d14c3d8aab9887380d00
+2CVBumuL5KyztqCyo7CETY	Elton Motello	20	2489	https://i.scdn.co/image/c6cd62c680a2993e07f4cd430140be441af6572e
+5aBEGOeWQCJfptic9xyaAb	Tones On Tail	35	59017	https://i.scdn.co/image/ab67616d0000b273768d2a36068dd1adcaa1f31b
+2ZfogSsOWP4mVfEqfpLXCt	The Church	49	194631	https://i.scdn.co/image/ab6761610000e5ebf87738dae4fe74422080fa5c
+3gdbcIdNypBsYNu3iiCjtN	The B-52's	59	886307	https://i.scdn.co/image/ab6761610000e5eb85c1d77e63082caf426f6d59
+0rpMdBzQXf7aYRnu5fDBJy	Violent Femmes	56	602365	https://i.scdn.co/image/ab6761610000e5ebf7100a1b5ae490f13b6b8078
+3yY2gUcIsjMr8hjo51PoJ8	The Smiths	74	3643966	https://i.scdn.co/image/481b980af463122013e4578c08fb8c5cbfaed1e9
+0Zy4ncr8h1jd7Nzr9946fD	Killing Joke	48	269319	https://i.scdn.co/image/ab6761610000e5ebb27c2f14d0deaac56f64c1f4
 2to6ZW4W0XOZZsztSErr0b	The Bad Seeds	28	1191	https://i.scdn.co/image/ab67616d0000b273815d428841386dcb20fb6840
-3fhOTtm0LBJ3Ojn4hIljLo	Roxy Music	60	842379	https://i.scdn.co/image/ab6761610000e5eb35572c81290a3e3d4a0906e3
-4BFMTELQyWJU1SwqcXMBm3	The Stooges	51	535658	https://i.scdn.co/image/1d9f0cf8e6d8d51f28369eccd78dca2882fb0d83
-4JfFdF9Row7UXtdsKtT6tc	Darondo	50	98321	https://i.scdn.co/image/d50f417de87096c31822c2349cb3534821ac7bec
-0EdvGhlC1FkGItLOWQzG4J	Sublime	68	2363794	https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4
-00FQb4jTyendYWaN8pK0wa	Lana Del Rey	88	18650934	https://i.scdn.co/image/ab6761610000e5ebc5903678d3db18e271e42be0
-462T0buQ5ScBUQCRpodDRf	Charles Bradley	56	435448	https://i.scdn.co/image/ab6761610000e5eb5b855b0ad3f90d4addabf7f2
-3jK9MiCrA42lLAdMGUZpwa	Anderson .Paak	77	2251576	https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496
-3qnGvpP8Yth1AqSBMqON5x	Leon Bridges	70	1462704	https://i.scdn.co/image/ab6761610000e5ebc1493f8c442935b396753e21
-13ubrt8QOOCPljQ2FL1Kca	A$AP Rocky	80	11490944	https://i.scdn.co/image/ab6761610000e5ebee452efcf24aa4124fb28d94
-6QRlkjrHz5A62mqeNZz7t3	La Luz	41	68630	https://i.scdn.co/image/ab6761610000e5eb3622bf879af58458f4172ba9
-5CuU6SRJjbbZL926nSGGxX	Open Mike Eagle	44	111402	https://i.scdn.co/image/ab6761610000e5eb07e639e91b9008358ff864ec
-6pmxr66tMAePxzOLfjGNcX	Beirut	56	938162	https://i.scdn.co/image/ab6761610000e5eb2d8bf7cc9fdf477efeede65f
-3XHO7cRUPCLOr6jwp8vsx5	alt-J	69	3073641	https://i.scdn.co/image/ab6761610000e5eb3fb5214e667e278a20878a6b
-6eU0jV2eEZ8XTM7EmlguK6	Black Pumas	58	749536	https://i.scdn.co/image/ab6761610000e5eb026d3ed0a2800958c1d59f4f
-2h93pZq0e7k5yf4dywlkpM	Frank Ocean	82	10195377	https://i.scdn.co/image/ab6761610000e5ebfbc3faec4a370d8393bee7f1
-1zXCFUgH6FWS0iCiCKsH55	Kai Straw	48	37134	https://i.scdn.co/image/ab6761610000e5eb14e7649374fe27bf1c5a72c0
-3z6Gk257P9jNcZbBXJNX5i	Regina Spektor	60	1303785	https://i.scdn.co/image/ab6761610000e5eba36a9f95d59ab791d5e897e9
-74oJ4qxwOZvX6oSsu1DGnw	Cream	61	2034110	https://i.scdn.co/image/aab6a0a0e9ca2ab17460b0451e59ba507cc5802a
-0XSqX2PB3C5dTMv7SZaxSm	Wolf Parade	39	151000	https://i.scdn.co/image/ab6761610000e5ebe0ee9d6c0075af4fabb763bb
-08GQAI4eElDnROBrJRGE0X	Fleetwood Mac	78	8933477	https://i.scdn.co/image/ab6761610000e5eb249d55f2d68a44637905c57e
-6l3HvQ5sa6mXTsMTB19rO5	J. Cole	84	18313858	https://i.scdn.co/image/ab6761610000e5ebadd503b411a712e277895c8a
-6RZUqkomCmb8zCRqc9eznB	Placebo	66	1677857	https://i.scdn.co/image/ab6761610000e5ebc8b42133fea50275b77f45e2
-0fA0VVWsXO9YnASrzqfmYu	Kid Cudi	81	6131098	https://i.scdn.co/image/ab6761610000e5eb876faa285687786c3d314ae0
-6ZK2nrW8aCTg8Bid7I7N10	Chelsea Wolfe	49	247126	https://i.scdn.co/image/ab6761610000e5ebb4de2ca8852a45b57575bde8
-6TVVIyd0fsRDGg6WzHKyTP	Durand Jones & The Indications	57	258568	https://i.scdn.co/image/ab6761610000e5ebe8611a96977e7c7a04a1fbdf
-6tkrcmVfWoHC4WOhE7IDyq	Lost Dog Street Band	45	94690	https://i.scdn.co/image/ab6761610000e5eb115afe5becc81bbc6dd33d69
-600GgDUq9kzGJgNIrVsWfz	Habibi	32	32584	https://i.scdn.co/image/ab6761610000e5eba5eb7686c107776ebd315b45
-2jgPkn6LuUazBoBk6vvjh5	The Zombies	58	824996	https://i.scdn.co/image/ab6761610000e5eb4bbeb54a562d3de858825979
-6v8FB84lnmJs434UJf2Mrm	Neil Young	60	2644751	https://i.scdn.co/image/ab6772690000c46c49b91a07c864561ba7c78ba7
-3QTDHixorJelOLxoxcjqGx	SiR	63	747359	https://i.scdn.co/image/ab6761610000e5eb972a4e990fb36451db2f40f2
-3ycxRkcZ67ALN3GQJ57Vig	Masego	67	1062175	https://i.scdn.co/image/ab6761610000e5eb161fef4ab6a8ff32c699d6fa
-77SW9BnxLY8rJ0RciFqkHh	The Neighbourhood	83	10639146	https://i.scdn.co/image/ab6761610000e5ebdf0b5ac84376a0a4b2166816
-5NYEE4kgrEZPlM3DxUsTyc	Twin Temple	42	79293	https://i.scdn.co/image/ab6761610000e5eb4cdf29c756e7fe8eb08851a2
-75dQReiBOHN37fQgWQrIAJ	Local Natives	57	615468	https://i.scdn.co/image/ab6761610000e5ebf32fbcfa726d3c7e9a8b0c74
-2pAajGWerK3ghwToNWFENS	Puscifer	55	561794	https://i.scdn.co/image/ab6761610000e5ebcba11fb640f2298fe3bd72de
-22bE4uQ6baNwSHPVcDxLCe	The Rolling Stones	76	12302398	https://i.scdn.co/image/ab6761610000e5ebd3cb15a8570cce5a63af63d8
-5a2EaR3hamoenG9rDuVn8j	Prince	69	6405182	https://i.scdn.co/image/ab6761610000e5ebeaca358712b3fe4ed9814640
-6Ghvu1VvMGScGpOUJBAHNH	Deftones	75	3160501	https://i.scdn.co/image/ab6761610000e5eb4b2da0b72cab26ac518f1f0d
-4n0gvapwYbRpzU5Ov68B6P	The King Khan & BBQ Show	41	74383	https://i.scdn.co/image/c52c95c28cbf57a5b9b775789799bacadb915292
-4uSftVc3FPWe6RJuMZNEe9	Andrew Bird	57	533618	https://i.scdn.co/image/ab6761610000e5eb4bb6b07ebb49a29e623961f4
-6AWdGez5g1jxpfl9XD4wI3	Amir Obe	48	130830	https://i.scdn.co/image/ab6761610000e5ebf2bbfca5666eb8c35f438a1f
-7HeVXdOdMhLslVputGTZFQ	Timber Timbre	45	187124	https://i.scdn.co/image/ab6761610000e5eb5fc147cc9258d4f029930596
-0V7uVrIYr4FwFvUN9S4kYr	Nick Waterhouse	48	89609	https://i.scdn.co/image/ab6761610000e5ebe0108d02daadb928bfbbd68e
-1M3BVQ36cqPQix8lQNCh4K	Shovels & Rope	\N	\N	
-6qqNVTkY8uBg9cP3Jd7DAH	Billie Eilish	\N	\N	
-6hnWRPzGGKiapVX1UCdEAC	Sam Cooke	65	1412033	https://i.scdn.co/image/ab6761610000e5eb41aaa3a05d2ddba59454273e
-2FRXiAz5Uz78LLLSwEUhLt	Miracle Musical	55	237562	https://i.scdn.co/image/ab6761610000e5eb904bf7e11545f9cb5feaf1b2
-7ITd48RbLVpUfheE7B86o2	The Decemberists	53	569307	https://i.scdn.co/image/ab6761610000e5ebad12e7af41c3a1903d1273b8
-1yAwtBaoHLEDWAnWR87hBT	Modest Mouse	62	1323492	https://i.scdn.co/image/ab6761610000e5eb3ff03c042ca55bcc7e7f490e
-6LufpoVlIYKQCu9Gjpk8B7	Sharon Jones & The Dap-Kings	60	253430	https://i.scdn.co/image/cd0f5585d478bbb91cff3e0b723ed91c6d2046d7
-2kGBy2WHvF0VdZyqiVCkDT	Father John Misty	59	709187	https://i.scdn.co/image/ab6761610000e5ebdadc30179c554ac7912f8477
-68kEuyFKyqrdQQLLsmiatm	Vince Staples	67	1661611	https://i.scdn.co/image/ab6761610000e5eb53054f8bc7e0153daefe12cc
-1hzfo8twXdOegF3xireCYs	Milky Chance	71	1701790	https://i.scdn.co/image/ab6761610000e5eb272b8122de18063dd387a155
-251UrhgNbMr15NLzQ2KyKq	Rayland Baxter	54	145980	https://i.scdn.co/image/ab6761610000e5eb3e4fddfb76e55084bdd1479c
-4DFhHyjvGYa9wxdHUjtDkc	A Perfect Circle	60	1608796	https://i.scdn.co/image/ab6761610000e5eb41472573351dfea479a4ffba
-5IcR3N7QB1j6KBL8eImZ8m	ScHoolboy Q	71	4303303	https://i.scdn.co/image/ab6761610000e5ebe697a7ddf7af3a306428fa73
-3D4qYDvoPn5cQxtBm4oseo	mewithoutYou	43	130330	https://i.scdn.co/image/ab6761610000e5ebe03d502190e35ac58c18d339
-3tJ9PkBOrG7hFkHeNM2tbw	Olodum	45	180378	https://i.scdn.co/image/c3ef77c1c27ec33d3356ca7665b09aaf2bfe1c23
-2ApaG60P4r0yhBoDCGD8YG	Elliott Smith	63	839555	https://i.scdn.co/image/ab6761610000e5eb079739b801ab3f105866b76f
-6GEykX11lQqp92UVOQQCC7	DJ Premier	59	225421	https://i.scdn.co/image/ab6761610000e5eb7bbda26434643249f6228ea1
-1anAI9P9iSzc9qzLv6AtHZ	Sure Sure	55	108175	https://i.scdn.co/image/ab6761610000e5eb3a2c4b388f7ababb018e4afa
-6zvul52xwTWzilBZl6BUbT	Pixies	70	2338006	https://i.scdn.co/image/ab6761610000e5ebd0456128dd330d18e18b4715
-2bToe6WyGvADJftreuXh2K	Lee Fields & The Expressions	49	139950	https://i.scdn.co/image/ab6761610000e5eb2ab0f0d7e19354bbe50c3546
-432R46LaYsJZV2Gmc4jUV5	Joy Division	62	1985702	https://i.scdn.co/image/5eeddd733170399db794d2c430a8d2cde7ae1425
-1PryMSya1JnSAlcwYawCxp	Menahan Street Band	59	134141	https://i.scdn.co/image/ab6761610000e5eb46dc0fd03399b8a9dfed982d
-1nGqKVGfPPiVgxMdx8hYOI	Ezra Bell	44	19185	https://i.scdn.co/image/ab6761610000e5eb597927b89a95412d987c9286
-7FKTg75ADVMZgY3P9ZMRtH	flipturn	54	80423	https://i.scdn.co/image/ab6761610000e5ebfc6b3360ae52cbc1768296d6
-7bu3H8JO7d0UbMoVzbo70s	The Cure	74	4049307	https://i.scdn.co/image/7ca743e822b80133971ccf5c70fcbd77a4f4f508
-0MVp3LuNho9Hk6Q1owsWwt	Right Away, Great Captain!	33	41229	https://i.scdn.co/image/ab6761610000e5ebb9b73c2a648759a40a7bdec8
-1SQRv42e4PjEYfPhS0Tk9E	The Kinks	64	2253422	https://i.scdn.co/image/ab6761610000e5eb8f8013de1cd216cfdd7a4848
-0oL26Dn9y761yfJgNb3vfu	Michigander	50	30564	https://i.scdn.co/image/ab6761610000e5eb5f78a32b18ce30b84b370e39
-0v6gOfGBclTSGu6agfXb23	The Rural Alberta Advantage	41	67753	https://i.scdn.co/image/ab6761610000e5ebf2acadf50bfd1bb62669a10b
-0yNLKJebCb8Aueb54LYya3	New Order	65	1799143	https://i.scdn.co/image/ab6761610000e5eba080a8e96758f416301578f9
-4fXkvh05wFhuH77MfD4m9o	St. Paul & The Broken Bones	54	371679	https://i.scdn.co/image/ab6761610000e5ebd312cb24aecff2b4549b72ca
-2x9SpqnPi8rlE9pjHBwmSC	Talking Heads	68	1989137	https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b
-4LG4Bs1Gadht7TCrMytQUO	The Shins	60	1129131	https://i.scdn.co/image/ab6761610000e5eb6c87e9e995eedad42e73dcc4
-1Tp7C6LzxZe9Mix6rn4zbI	Wilderado	54	78037	https://i.scdn.co/image/ab6761610000e5eba7eb714346f5bd4e73a671b7
-7foyQbi7GKriLiv1GPVEwt	Susto	49	35380	https://i.scdn.co/image/ab6761610000e5eb08465c702d6aa44e045c9300
-6m4tJuf67jwVSvMP34hrck	Saun & Starr	42	8762	https://i.scdn.co/image/c0b1f5eb4a0890883235e7791561bc398af8f1a7
-1nJvji2KIlWSseXRSlNYsC	The Velvet Underground	62	1612955	https://i.scdn.co/image/d69c2cf10323bf08443c7d122f3a1824a760ab57
-32Ko3nL0210QAt14S3Rs4Y	Sjowgren	54	64333	https://i.scdn.co/image/ab6761610000e5eb32d5f17f02a8fb2d170c0e79
-4Z8W4fKeB5YxbusRsdQVPb	Radiohead	78	7534907	https://i.scdn.co/image/ab6761610000e5eba03696716c9ee605006047fd
-4zsrUnozu6zRlVELQezaBn	Naomi Shelton	29	1379	https://i.scdn.co/image/350edc3da212585098d60384bde750f274912183
-00tVTdpEhQQw1bqdu8RCx2	Blue Öyster Cult	62	1322495	https://i.scdn.co/image/ab6761610000e5eba50ccc99f741a7899654bc16
-0vqkz1b2qBkoYrGMj2CUWq	Bobby Womack	57	631841	https://i.scdn.co/image/ab6761610000e5eb2db6593db2598005d56a46e1
-2AV6XDIs32ofIJhkkDevjm	Curtis Mayfield	58	974451	https://i.scdn.co/image/ab6761610000e5ebeea0f2f51d7969bbb4000f92
-2FXC3k01G6Gw61bmprjgqS	Hozier	76	5278314	https://i.scdn.co/image/ab6761610000e5eb9ba4d95b74bacff4d5747f61
-2g3PKH7Z1Ofn5oGR6oDjLy	The Sonics	42	116015	https://i.scdn.co/image/268e0f329a377e4b8a9a639ba00e1d30cf555604
-3hteYQFiMFbJY7wS0xDymP	Gesaffelstein	\N	\N	
-06HL4z0CvFAxyc27GXpf02	Taylor Swift	\N	\N	
-5fMUXHkw8R8eOP2RNVYEZX	Diplo	\N	\N	
-23fqKkggKUBHNkbKtXEls4	Kygo	\N	\N	
-2RdwBSPQiwcmiDo9kixcl8	Pharrell Williams	\N	\N	
-4kI8Ie27vjvonwaB2ePh8T	Portugal. The Man	\N	\N	
-2dBj3prW7gP9bCCOIQeDUf	Danger Mouse	\N	\N	
-0e9H8oaYYRCKFXOVv848nt	Bad Books	\N	\N	
-0du5cEVh5yTK9QJze8zA0C	Bruno Mars	\N	\N	
-5p7f24Rk5HkUZsaS3BLG5F	Hailee Steinfeld	\N	\N	
-55fhWPvDiMpLnE4ZzNXZyW	Noah Cyrus	\N	\N	
-2mVVjNmdjXZZDvhgQWiakk	Khruangbin	\N	\N	
-50co4Is1HCEo8bhOyUWKpn	Young Thug	\N	\N	
-5SXuuuRpukkTvsLuUknva1	Baby Keem	\N	\N	
-1uNFoZAHBGtllmzznpCI3s	Justin Bieber	\N	\N	
-5FxD8fkQZ6KcsSYupDVoSO	Omar Apollo	\N	\N	
-17Zu03OgBVxgLxWmRUyNOJ	Knxwledge	\N	\N	
-0epOFNiUfyON9EYx7Tpr6V	The Strokes	\N	\N	
-2PaZWGu5T5nHjY2xxAkFsT	THE SCOTTS	\N	\N	
-0erhjm5MwzWpFRFuorXLT2	King Dude	\N	\N	
-74ASZWbe4lXaubB36ztrGX	Bob Dylan	\N	\N	
-5M0lbkGluOPXLeFjApw8r8	DRAM	\N	\N	
-7nqSDaZKccpnUqjzedyZF4	The Bronx	\N	\N	
-3rWZHrfrsPBxVy692yAIxF	WILLOW	\N	\N	
-5Vuvs6Py2JRU7WiFDVsI7J	Lucky Daye	\N	\N	
-7E2ioKxoxI2J94tUkIx6As	Alex Isley	\N	\N	
-0cGUm45nv7Z6M6qdXYQGTX	Kehlani	\N	\N	
-6CWTBjOJK75cTE8Xv8u1kj	Feist	\N	\N	
-4AKwRarlmsUlLjIwt38NLw	Ofenbach	\N	\N	
-7dzq55YG3wjViqexDwiycQ	Ivete Sangalo	\N	\N	
-3qvcCP2J0fWi0m0uQDUf6r	Luan Santana	\N	\N	
-20qISvAhX20dpIbOOzGK3q	Nas	\N	\N	
-4RnBFZRiMLRyZy0AzzTg2C	Run The Jewels	\N	\N	
-4xRYI6VqpkE3UwrDrAZL8L	Logic	\N	\N	
-3s7WzrEs4FkNObqj4WyfQm	Black Soprano Family	\N	\N	
-165ZgPlLkK7bf5bDoFc6Sb	Limp Bizkit	\N	\N	
-4nvFFLtv7ZqoTr83387uK4	Dynamicduo	\N	\N	
-0xRXCcSX89eobfrshSVdyu	MEDUZA	\N	\N	
-6WY7D3jk8zTrHtmkqqo5GI	Maren Morris	\N	\N	
-6PfSUFtkMVoDkx4MQkzOi3	100 gecs	56	465455	https://i.scdn.co/image/ab6761610000e5ebd77a9c855001f3a9b5815bc0
-5vSQUyT33qxr1xAX2Tkf3A	Clams Casino	56	218374	https://i.scdn.co/image/ab6761610000e5ebeb01ceedf9eb7f7cf92b634a
-0eDvMgVFoNV3TpwtrVCoTj	Pop Smoke	82	11424346	https://i.scdn.co/image/ab6761610000e5eb597f9edd2cd1a892d4412b09
-6guC9FqvlVboSKTI77NG2k	Dance Gavin Dance	64	613591	https://i.scdn.co/image/ab6761610000e5eb7ab31728854684433fe3dc64
-2NjfBq1NflQcKSeiDooVjY	Tones And I	70	2983642	https://i.scdn.co/image/ab6761610000e5ebec4cca4babaad69382fb52e6
-757aE44tKEUQEqRuT6GnEB	Roddy Ricch	79	8560388	https://i.scdn.co/image/ab6761610000e5eb9c30c6b69a55d48decd71600
-6XyY86QOPPrYVGvF9ch6wz	Linkin Park	82	22040014	https://i.scdn.co/image/ab6761610000e5eb34e5aa6afc1ba147bfbb0677
-422qjlzkDtxmaeeOLhnE6A	(K)NoW_NAME	48	44850	https://i.scdn.co/image/ab6761610000e5eb28e83e2139653508735b14d5
-2cFrymmkijnjDg9SS92EPM	blackbear	78	4799990	https://i.scdn.co/image/ab6761610000e5eb4f7d049994ac00ed885bfbf2
-1rCIEwPp5OnXW0ornlSsRl	Metric	59	711327	https://i.scdn.co/image/ab6761610000e5ebe0812e8d85a4cc98cbc3bf2c
-6MPCFvOQv5cIGfw3jODMF0	Internet Money	70	671257	https://i.scdn.co/image/ab6761610000e5eb30cc15d302e22803fcb5ad34
-4sQNUQjOYj9rV2sdfJ8laS	Angerfist	57	403022	https://i.scdn.co/image/ab6761610000e5ebc5f1b5bf40435c2d378a07ba
-3YQKmKGau1PzlVlkL1iodx	Twenty One Pilots	79	22769340	https://i.scdn.co/image/ab6761610000e5eb196972172c37d934d9ca8093
-6eUKZXaKkcviH0Ku9w2n3V	Ed Sheeran	89	104887380	https://i.scdn.co/image/ab6761610000e5eb12a2ef08d00dd7451a6dbed6
-7GN9PivdemQRKjDt4z5Zv8	The Internet	60	1190337	https://i.scdn.co/image/ab6761610000e5ebc32c5dcda378eb561f81b1f9
-34Y0ldeyUv7jBvukWOGASO	Bobby Shmurda	59	1373419	https://i.scdn.co/image/ab6761610000e5ebee12e6771607433caee705a3
-4LLpKhyESsyAXpc4laK94U	Mac Miller	82	8176173	https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a
-7gjAu1qr5C2grXeQFFOGeh	Passion Pit	57	1223075	https://i.scdn.co/image/ab6761610000e5ebeccf9bbcdcf7b750f6a6c687
-3PfyosblIBaNJNH88MUkgM	Nate Eiesland	22	786	
-7oPftvlwr6VrsViSDV7fJY	Green Day	78	13523381	https://i.scdn.co/image/ab6761610000e5eb047eac333eff0be4abe32cbf
-738wLrAtLtCtFOLvQBXOXp	Major Lazer	73	6314911	https://i.scdn.co/image/ab6761610000e5eb133f44ab343b35c715a4ac97
-6fxyWrfmjcbj5d12gXeiNV	Denzel Curry	71	1978465	https://i.scdn.co/image/ab6761610000e5ebb00f2e31d509ddc6fa0eb24b
-6kDMoHTcBICPILP2aclPWZ	Mew	39	130659	https://i.scdn.co/image/ab6761610000e5eb94e9e7cff50fde27c86dc0b2
-21dooacK2WGBB5amYvKyfM	Smokepurpp	60	2431773	https://i.scdn.co/image/ab6761610000e5eb7caf23154583969c7482e0ec
-7Im2r58zlLJIDfamqDjEE6	Mestre Bimba	17	3876	https://i.scdn.co/image/ab67616d0000b27391f893ddac30579061aa0b2c
-1r59KUMNZRw0M8FDnrHq0o	FETISH	46	31199	https://i.scdn.co/image/ab6761610000e5eb9d370cc1a5fc30642093f07d
-0dlDsD7y6ccmDm8tuWCU6F	Freddie Dredd	75	1114446	https://i.scdn.co/image/ab6761610000e5eb9d100e5a9cf34beab8e75750
-7A8S43ryYdbWpJKeHRZRcq	JACKBOYS	64	501217	https://i.scdn.co/image/ab6761610000e5eb440b705481183f0ddaa521d7
-0iEtIxbK0KxaSlF7G42ZOp	Metro Boomin	79	3100178	https://i.scdn.co/image/ab6761610000e5ebdf9a1555f53a20087b8c5a5c
-0Y5tJX1MQlPlqiwlOH1tJY	Travis Scott	87	21328079	https://i.scdn.co/image/ab6761610000e5ebe707b87e3f65997f6c09bfff
-0H39MdGGX6dbnnQPt6NQkZ	SAINt JHN	69	898020	https://i.scdn.co/image/ab6761610000e5eb2a1356370e5fce1b25df0ac9
+3fhOTtm0LBJ3Ojn4hIljLo	Roxy Music	60	842685	https://i.scdn.co/image/ab6761610000e5eb35572c81290a3e3d4a0906e3
+4BFMTELQyWJU1SwqcXMBm3	The Stooges	51	535805	https://i.scdn.co/image/1d9f0cf8e6d8d51f28369eccd78dca2882fb0d83
+4JfFdF9Row7UXtdsKtT6tc	Darondo	50	98341	https://i.scdn.co/image/d50f417de87096c31822c2349cb3534821ac7bec
+1eClJfHLoDI4rZe5HxzBFv	INXS	68	2209697	https://i.scdn.co/image/ab6761610000e5eb9bfd44c9bd2aae22edfd99bf
+2iul6etLF5hjjpxo43rzz7	Lera Lynn	42	83005	https://i.scdn.co/image/ab6761610000e5ebde10fb8cd40da4e0af316b77
+73sIBHcqh3Z3NyqHKZ7FOL	Childish Gambino	77	9984941	https://i.scdn.co/image/ab6761610000e5eb3ef779aa0d271adb2b6a3ded
+4V8LLVI7PbaPR0K2TGSxFF	Tyler, The Creator	83	9874817	https://i.scdn.co/image/ab6761610000e5eb8278b782cbb5a3963db88ada
+3oDbviiivRWhXwIE8hxkVV	The Beach Boys	70	3869682	https://i.scdn.co/image/ab6761610000e5eb92602f233ce2295748f44603
+6loBF9iQdE11WSX29fNKqY	Howard Jones	49	361466	https://i.scdn.co/image/ab6761610000e5eb93e7c004e39b91f88d1088af
+7guDJrEfX3qb6FEbdPA5qi	Stevie Wonder	74	5861475	https://i.scdn.co/image/c59faacbed7aa770266bad048660810eca204108
+0YHgnSkV3S5mvSSCTRWDi5	Poor Mans Poison	61	157073	https://i.scdn.co/image/ab6761610000e5eb7e8b8316444011b2555929f0
+57bUPid8xztkieZfS7OlEV	The Supremes	61	1497759	https://i.scdn.co/image/5c5dc3f7b4569a7727a63a44513c7a602b72da44
+0X380XXQSNBYuleKzav5UO	Nine Inch Nails	65	2168483	https://i.scdn.co/image/ab6761610000e5eb047095c90419cf2a97266f77
+5eIbEEQnDM8yuDVB0bimSP	RL Grime	59	394810	https://i.scdn.co/image/ab6761610000e5eb8839d67ee5f8963a1ba5458f
+3pkmfqaBNsMqnXus05PNfP	Handsome Boy Modeling School	44	127712	https://i.scdn.co/image/ab6761610000e5ebeb049e8fe237761c3ca58fcf
+20wkVLutqVOYrc0kxFs7rA	Daniel Caesar	76	3571392	https://i.scdn.co/image/ab6761610000e5ebbd09edfd2babfc9fd2ba748e
+1mFX1QlezK1lNPKQJkhwWb	New Edition	56	1395248	https://i.scdn.co/image/44e1b32aa085bd943fabd36678804d3fd3b8fb67
+0VbDAlm2KUlKI5UhXRBKWp	Henry Green	50	59646	https://i.scdn.co/image/ab6761610000e5eb6dabc1aa79f0541b26cd1835
+7KGqvFukcZRbQ7YFsYrgPa	Donnie & Joe Emerson	42	24726	https://i.scdn.co/image/ab6761610000e5eb1d8289c5a98c178330f4fc32
+6PEMFpe3PTOksdV4ZXUpbE	NxWorries	57	224531	https://i.scdn.co/image/ab6761610000e5eb89fa062521347470d69ba4c2
+0EdvGhlC1FkGItLOWQzG4J	Sublime	68	2364384	https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4
+00FQb4jTyendYWaN8pK0wa	Lana Del Rey	88	18665462	https://i.scdn.co/image/ab6761610000e5ebc5903678d3db18e271e42be0
+462T0buQ5ScBUQCRpodDRf	Charles Bradley	56	435551	https://i.scdn.co/image/ab6761610000e5eb5b855b0ad3f90d4addabf7f2
+3jK9MiCrA42lLAdMGUZpwa	Anderson .Paak	77	2251990	https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496
+3qnGvpP8Yth1AqSBMqON5x	Leon Bridges	70	1463038	https://i.scdn.co/image/ab6761610000e5ebc1493f8c442935b396753e21
+13ubrt8QOOCPljQ2FL1Kca	A$AP Rocky	80	11494080	https://i.scdn.co/image/ab6761610000e5ebee452efcf24aa4124fb28d94
+6QRlkjrHz5A62mqeNZz7t3	La Luz	41	68657	https://i.scdn.co/image/ab6761610000e5eb3622bf879af58458f4172ba9
+5CuU6SRJjbbZL926nSGGxX	Open Mike Eagle	44	111433	https://i.scdn.co/image/ab6761610000e5eb07e639e91b9008358ff864ec
+6pmxr66tMAePxzOLfjGNcX	Beirut	56	938267	https://i.scdn.co/image/ab6761610000e5eb2d8bf7cc9fdf477efeede65f
+3XHO7cRUPCLOr6jwp8vsx5	alt-J	69	3074115	https://i.scdn.co/image/ab6761610000e5eb3fb5214e667e278a20878a6b
+6eU0jV2eEZ8XTM7EmlguK6	Black Pumas	58	749828	https://i.scdn.co/image/ab6761610000e5eb026d3ed0a2800958c1d59f4f
+2h93pZq0e7k5yf4dywlkpM	Frank Ocean	82	10199260	https://i.scdn.co/image/ab6761610000e5ebfbc3faec4a370d8393bee7f1
+1zXCFUgH6FWS0iCiCKsH55	Kai Straw	48	37161	https://i.scdn.co/image/ab6761610000e5eb14e7649374fe27bf1c5a72c0
+3z6Gk257P9jNcZbBXJNX5i	Regina Spektor	60	1303988	https://i.scdn.co/image/ab6761610000e5eba36a9f95d59ab791d5e897e9
+74oJ4qxwOZvX6oSsu1DGnw	Cream	61	2034730	https://i.scdn.co/image/aab6a0a0e9ca2ab17460b0451e59ba507cc5802a
+0XSqX2PB3C5dTMv7SZaxSm	Wolf Parade	39	151022	https://i.scdn.co/image/ab6761610000e5ebe0ee9d6c0075af4fabb763bb
+08GQAI4eElDnROBrJRGE0X	Fleetwood Mac	78	8937007	https://i.scdn.co/image/ab6761610000e5eb249d55f2d68a44637905c57e
+6l3HvQ5sa6mXTsMTB19rO5	J. Cole	84	18321464	https://i.scdn.co/image/ab6761610000e5ebadd503b411a712e277895c8a
+6RZUqkomCmb8zCRqc9eznB	Placebo	66	1678341	https://i.scdn.co/image/ab6761610000e5ebc8b42133fea50275b77f45e2
+0fA0VVWsXO9YnASrzqfmYu	Kid Cudi	81	6132766	https://i.scdn.co/image/ab6761610000e5eb876faa285687786c3d314ae0
+6ZK2nrW8aCTg8Bid7I7N10	Chelsea Wolfe	49	247189	https://i.scdn.co/image/ab6761610000e5ebb4de2ca8852a45b57575bde8
+6TVVIyd0fsRDGg6WzHKyTP	Durand Jones & The Indications	57	258725	https://i.scdn.co/image/ab6761610000e5ebe8611a96977e7c7a04a1fbdf
+6tkrcmVfWoHC4WOhE7IDyq	Lost Dog Street Band	45	94736	https://i.scdn.co/image/ab6761610000e5eb115afe5becc81bbc6dd33d69
+600GgDUq9kzGJgNIrVsWfz	Habibi	32	32600	https://i.scdn.co/image/ab6761610000e5eba5eb7686c107776ebd315b45
+2jgPkn6LuUazBoBk6vvjh5	The Zombies	58	825241	https://i.scdn.co/image/ab6761610000e5eb4bbeb54a562d3de858825979
+6v8FB84lnmJs434UJf2Mrm	Neil Young	60	2645287	https://i.scdn.co/image/ab6772690000c46c49b91a07c864561ba7c78ba7
+3QTDHixorJelOLxoxcjqGx	SiR	63	747723	https://i.scdn.co/image/ab6761610000e5eb972a4e990fb36451db2f40f2
+3ycxRkcZ67ALN3GQJ57Vig	Masego	67	1062733	https://i.scdn.co/image/ab6761610000e5eb161fef4ab6a8ff32c699d6fa
+77SW9BnxLY8rJ0RciFqkHh	The Neighbourhood	83	10648300	https://i.scdn.co/image/ab6761610000e5ebdf0b5ac84376a0a4b2166816
+5NYEE4kgrEZPlM3DxUsTyc	Twin Temple	42	79356	https://i.scdn.co/image/ab6761610000e5eb4cdf29c756e7fe8eb08851a2
+75dQReiBOHN37fQgWQrIAJ	Local Natives	57	615558	https://i.scdn.co/image/ab6761610000e5ebf32fbcfa726d3c7e9a8b0c74
+2pAajGWerK3ghwToNWFENS	Puscifer	55	561984	https://i.scdn.co/image/ab6761610000e5ebcba11fb640f2298fe3bd72de
+22bE4uQ6baNwSHPVcDxLCe	The Rolling Stones	76	12305411	https://i.scdn.co/image/ab6761610000e5ebd3cb15a8570cce5a63af63d8
+5a2EaR3hamoenG9rDuVn8j	Prince	69	6406927	https://i.scdn.co/image/ab6761610000e5ebeaca358712b3fe4ed9814640
+6Ghvu1VvMGScGpOUJBAHNH	Deftones	75	3163535	https://i.scdn.co/image/ab6761610000e5eb4b2da0b72cab26ac518f1f0d
+4n0gvapwYbRpzU5Ov68B6P	The King Khan & BBQ Show	41	74421	https://i.scdn.co/image/c52c95c28cbf57a5b9b775789799bacadb915292
+4uSftVc3FPWe6RJuMZNEe9	Andrew Bird	57	533746	https://i.scdn.co/image/ab6761610000e5eb4bb6b07ebb49a29e623961f4
+6AWdGez5g1jxpfl9XD4wI3	Amir Obe	48	130862	https://i.scdn.co/image/ab6761610000e5ebf2bbfca5666eb8c35f438a1f
+7HeVXdOdMhLslVputGTZFQ	Timber Timbre	45	187165	https://i.scdn.co/image/ab6761610000e5eb5fc147cc9258d4f029930596
+5M0lbkGluOPXLeFjApw8r8	DRAM	0	0	
+0V7uVrIYr4FwFvUN9S4kYr	Nick Waterhouse	48	89627	https://i.scdn.co/image/ab6761610000e5ebe0108d02daadb928bfbbd68e
+6hnWRPzGGKiapVX1UCdEAC	Sam Cooke	65	1412331	https://i.scdn.co/image/ab6761610000e5eb41aaa3a05d2ddba59454273e
+2FRXiAz5Uz78LLLSwEUhLt	Miracle Musical	55	237710	https://i.scdn.co/image/ab6761610000e5eb904bf7e11545f9cb5feaf1b2
+7ITd48RbLVpUfheE7B86o2	The Decemberists	53	569398	https://i.scdn.co/image/ab6761610000e5ebad12e7af41c3a1903d1273b8
+1yAwtBaoHLEDWAnWR87hBT	Modest Mouse	62	1323744	https://i.scdn.co/image/ab6761610000e5eb3ff03c042ca55bcc7e7f490e
+6LufpoVlIYKQCu9Gjpk8B7	Sharon Jones & The Dap-Kings	60	253499	https://i.scdn.co/image/cd0f5585d478bbb91cff3e0b723ed91c6d2046d7
+2kGBy2WHvF0VdZyqiVCkDT	Father John Misty	59	709379	https://i.scdn.co/image/ab6761610000e5ebdadc30179c554ac7912f8477
+68kEuyFKyqrdQQLLsmiatm	Vince Staples	67	1662000	https://i.scdn.co/image/ab6761610000e5eb53054f8bc7e0153daefe12cc
+1hzfo8twXdOegF3xireCYs	Milky Chance	71	1702212	https://i.scdn.co/image/ab6761610000e5eb272b8122de18063dd387a155
+251UrhgNbMr15NLzQ2KyKq	Rayland Baxter	54	146041	https://i.scdn.co/image/ab6761610000e5eb3e4fddfb76e55084bdd1479c
+4DFhHyjvGYa9wxdHUjtDkc	A Perfect Circle	61	1609224	https://i.scdn.co/image/ab6761610000e5eb41472573351dfea479a4ffba
+5IcR3N7QB1j6KBL8eImZ8m	ScHoolboy Q	71	4304174	https://i.scdn.co/image/ab6761610000e5ebe697a7ddf7af3a306428fa73
+3D4qYDvoPn5cQxtBm4oseo	mewithoutYou	43	130348	https://i.scdn.co/image/ab6761610000e5ebe03d502190e35ac58c18d339
+3tJ9PkBOrG7hFkHeNM2tbw	Olodum	45	180437	https://i.scdn.co/image/c3ef77c1c27ec33d3356ca7665b09aaf2bfe1c23
+2ApaG60P4r0yhBoDCGD8YG	Elliott Smith	63	839946	https://i.scdn.co/image/ab6761610000e5eb079739b801ab3f105866b76f
+6GEykX11lQqp92UVOQQCC7	DJ Premier	59	225521	https://i.scdn.co/image/ab6761610000e5eb7bbda26434643249f6228ea1
+1anAI9P9iSzc9qzLv6AtHZ	Sure Sure	55	108227	https://i.scdn.co/image/ab6761610000e5eb3a2c4b388f7ababb018e4afa
+2auiVi8sUZo17dLy1HwrTU	Solange	60	1848629	https://i.scdn.co/image/ab6761610000e5eb631cf0aa859e5a20e836f14f
+6zvul52xwTWzilBZl6BUbT	Pixies	70	2339061	https://i.scdn.co/image/ab6761610000e5ebd0456128dd330d18e18b4715
+432R46LaYsJZV2Gmc4jUV5	Joy Division	62	1986333	https://i.scdn.co/image/5eeddd733170399db794d2c430a8d2cde7ae1425
+1nGqKVGfPPiVgxMdx8hYOI	Ezra Bell	44	19212	https://i.scdn.co/image/ab6761610000e5eb597927b89a95412d987c9286
+7bu3H8JO7d0UbMoVzbo70s	The Cure	74	4051376	https://i.scdn.co/image/7ca743e822b80133971ccf5c70fcbd77a4f4f508
+2bToe6WyGvADJftreuXh2K	Lee Fields & The Expressions	49	139977	https://i.scdn.co/image/ab6761610000e5eb2ab0f0d7e19354bbe50c3546
+0MVp3LuNho9Hk6Q1owsWwt	Right Away, Great Captain!	33	41233	https://i.scdn.co/image/ab6761610000e5ebb9b73c2a648759a40a7bdec8
+1SQRv42e4PjEYfPhS0Tk9E	The Kinks	64	2254084	https://i.scdn.co/image/ab6761610000e5eb8f8013de1cd216cfdd7a4848
+1PryMSya1JnSAlcwYawCxp	Menahan Street Band	59	134243	https://i.scdn.co/image/ab6761610000e5eb46dc0fd03399b8a9dfed982d
+7FKTg75ADVMZgY3P9ZMRtH	flipturn	54	80591	https://i.scdn.co/image/ab6761610000e5ebfc6b3360ae52cbc1768296d6
+0oL26Dn9y761yfJgNb3vfu	Michigander	50	30621	https://i.scdn.co/image/ab6761610000e5eb5f78a32b18ce30b84b370e39
+0v6gOfGBclTSGu6agfXb23	The Rural Alberta Advantage	41	67764	https://i.scdn.co/image/ab6761610000e5ebf2acadf50bfd1bb62669a10b
+0yNLKJebCb8Aueb54LYya3	New Order	65	1799713	https://i.scdn.co/image/ab6761610000e5eba080a8e96758f416301578f9
+2x9SpqnPi8rlE9pjHBwmSC	Talking Heads	68	1989887	https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b
+4LG4Bs1Gadht7TCrMytQUO	The Shins	60	1129256	https://i.scdn.co/image/ab6761610000e5eb6c87e9e995eedad42e73dcc4
+1Tp7C6LzxZe9Mix6rn4zbI	Wilderado	54	78077	https://i.scdn.co/image/ab6761610000e5eba7eb714346f5bd4e73a671b7
+7foyQbi7GKriLiv1GPVEwt	Susto	49	35406	https://i.scdn.co/image/ab6761610000e5eb08465c702d6aa44e045c9300
+1nJvji2KIlWSseXRSlNYsC	The Velvet Underground	62	1613421	https://i.scdn.co/image/d69c2cf10323bf08443c7d122f3a1824a760ab57
+4Z8W4fKeB5YxbusRsdQVPb	Radiohead	78	7537861	https://i.scdn.co/image/ab6761610000e5eba03696716c9ee605006047fd
+4fXkvh05wFhuH77MfD4m9o	St. Paul & The Broken Bones	54	371746	https://i.scdn.co/image/ab6761610000e5ebd312cb24aecff2b4549b72ca
+00tVTdpEhQQw1bqdu8RCx2	Blue Öyster Cult	62	1322941	https://i.scdn.co/image/ab6761610000e5eba50ccc99f741a7899654bc16
+0vqkz1b2qBkoYrGMj2CUWq	Bobby Womack	57	631974	https://i.scdn.co/image/ab6761610000e5eb2db6593db2598005d56a46e1
+2FXC3k01G6Gw61bmprjgqS	Hozier	76	5279282	https://i.scdn.co/image/ab6761610000e5eb9ba4d95b74bacff4d5747f61
+2g3PKH7Z1Ofn5oGR6oDjLy	The Sonics	42	116059	https://i.scdn.co/image/268e0f329a377e4b8a9a639ba00e1d30cf555604
+2oqwwcM17wrP9hBD25zKSR	Lewis Del Mar	48	177938	https://i.scdn.co/image/ab6761610000e5ebb171e75745d404f23b5734c1
+32Ko3nL0210QAt14S3Rs4Y	Sjowgren	54	64388	https://i.scdn.co/image/ab6761610000e5eb32d5f17f02a8fb2d170c0e79
+4lYtGx5NZQJHsMyhHc5iz3	The Cramps	52	289338	https://i.scdn.co/image/fc6b731da9ccf21380f2c32a37a825b8b6e41fc8
+4oV5EVJ0XFWsJKoOvdRPvl	Guided By Voices	50	144694	https://i.scdn.co/image/ab6761610000e5eb0b43f8f07778f0c5d7daadca
+3hteYQFiMFbJY7wS0xDymP	Gesaffelstein	0	0	
+06HL4z0CvFAxyc27GXpf02	Taylor Swift	0	0	
+5fMUXHkw8R8eOP2RNVYEZX	Diplo	0	0	
+23fqKkggKUBHNkbKtXEls4	Kygo	0	0	
+2RdwBSPQiwcmiDo9kixcl8	Pharrell Williams	0	0	
+4kI8Ie27vjvonwaB2ePh8T	Portugal. The Man	0	0	
+2dBj3prW7gP9bCCOIQeDUf	Danger Mouse	0	0	
+0e9H8oaYYRCKFXOVv848nt	Bad Books	0	0	
+0du5cEVh5yTK9QJze8zA0C	Bruno Mars	0	0	
+5p7f24Rk5HkUZsaS3BLG5F	Hailee Steinfeld	0	0	
+55fhWPvDiMpLnE4ZzNXZyW	Noah Cyrus	0	0	
+2mVVjNmdjXZZDvhgQWiakk	Khruangbin	0	0	
+50co4Is1HCEo8bhOyUWKpn	Young Thug	0	0	
+5SXuuuRpukkTvsLuUknva1	Baby Keem	0	0	
+1uNFoZAHBGtllmzznpCI3s	Justin Bieber	0	0	
+5FxD8fkQZ6KcsSYupDVoSO	Omar Apollo	0	0	
+17Zu03OgBVxgLxWmRUyNOJ	Knxwledge	0	0	
+0epOFNiUfyON9EYx7Tpr6V	The Strokes	0	0	
+2PaZWGu5T5nHjY2xxAkFsT	THE SCOTTS	0	0	
+0erhjm5MwzWpFRFuorXLT2	King Dude	0	0	
+74ASZWbe4lXaubB36ztrGX	Bob Dylan	0	0	
+7nqSDaZKccpnUqjzedyZF4	The Bronx	0	0	
+3rWZHrfrsPBxVy692yAIxF	WILLOW	0	0	
+5Vuvs6Py2JRU7WiFDVsI7J	Lucky Daye	0	0	
+7E2ioKxoxI2J94tUkIx6As	Alex Isley	0	0	
+0cGUm45nv7Z6M6qdXYQGTX	Kehlani	0	0	
+6CWTBjOJK75cTE8Xv8u1kj	Feist	0	0	
+4AKwRarlmsUlLjIwt38NLw	Ofenbach	0	0	
+1M3BVQ36cqPQix8lQNCh4K	Shovels & Rope	0	0	
+6qqNVTkY8uBg9cP3Jd7DAH	Billie Eilish	0	0	
+7dzq55YG3wjViqexDwiycQ	Ivete Sangalo	0	0	
+3qvcCP2J0fWi0m0uQDUf6r	Luan Santana	0	0	
+0BHm7qbh3ENxvXzkQAG7MP	Mari Fernandez	0	0	
+20qISvAhX20dpIbOOzGK3q	Nas	0	0	
+4RnBFZRiMLRyZy0AzzTg2C	Run The Jewels	0	0	
+4xRYI6VqpkE3UwrDrAZL8L	Logic	0	0	
+165ZgPlLkK7bf5bDoFc6Sb	Limp Bizkit	0	0	
+3s7WzrEs4FkNObqj4WyfQm	Black Soprano Family	0	0	
+4nvFFLtv7ZqoTr83387uK4	Dynamicduo	0	0	
+0xRXCcSX89eobfrshSVdyu	MEDUZA	0	0	
+6WY7D3jk8zTrHtmkqqo5GI	Maren Morris	0	0	
+14ep6TM2JzapH5nk7vaora	Akira The Don	45	43311	https://i.scdn.co/image/ab6761610000e5eb0b9f364227b5043d9ea3af1b
+6tbLPxj1uQ6vsRQZI2YFCT	In This Moment	60	1168008	https://i.scdn.co/image/ab6761610000e5eb5bb6a34ccf58c0e8d1bd77fe
+2yEwvVSSSUkcLeSTNyHKh8	TOOL	68	2878257	https://i.scdn.co/image/ab6761610000e5eb13f5472b709101616c87cba3
+5HYNPEO2NNBONQkp3Mvwvc	Scott Bradlee's Postmodern Jukebox	58	931801	https://i.scdn.co/image/ab6761610000e5ebb6a4db349883e25e959e45ea
+7AQzXO3NPNQsI7oNu5rC3r	Marcy Playground	55	365723	https://i.scdn.co/image/ab6761610000e5ebc12f77e7db22099b40c86f74
+1LB8qB5BPb3MHQrfkvifXU	Cheap Trick	60	1250933	https://i.scdn.co/image/ab6772690000c46c5ad27b7aba43e761f7e3ec46
+0RqtSIYZmd4fiBKVFqyIqD	Thirty Seconds To Mars	65	3244428	https://i.scdn.co/image/ab6761610000e5eb9cd2312e93fba5ce64ce55e1
+5KDIH2gF0VpelTqyQS7udb	Staind	62	2180766	https://i.scdn.co/image/ab6761610000e5eba43eff361de1d811e2d17adb
+77aDWNQLrjzW7i6YBRhCbQ	Vernon Jane	22	6072	https://i.scdn.co/image/ab6761610000e5eb489acb3635a6f0365102dd52
+2MqhkhX4npxDZ62ObR5ELO	Hoobastank	64	2202282	https://i.scdn.co/image/ab6761610000e5ebfd24e4299227b496c8bc9765
+1KCSPY1glIKqW2TotWuXOR	P!nk	78	14012308	https://i.scdn.co/image/ab6761610000e5eb7bbad89a61061304ec842588
+67ea9eGLXYMsO2eYQRui3w	The Who	67	4762114	https://i.scdn.co/image/9cd709cabb4a614b4f1dd9ec256a5f30e21f0150
+3TOqt5oJwL9BE2NG9MEwDa	Disturbed	72	5625562	https://i.scdn.co/image/ab6761610000e5eb012addc95f5b2e7283f45446
+3G5WkIXbDxdNoGWHZbXDjI	Sarah Hester Ross	40	22004	https://i.scdn.co/image/ab6761610000e5eb6cd6d1acf6d900146134cd31
+74eX4C98E4FCrAMl39qRsJ	Theory of a Deadman	62	1858422	https://i.scdn.co/image/ab6761610000e5eb7280f9217928e343c64a99f1
+6CwfuxIqcltXDGjfZsMd9A	MARINA	72	4110547	https://i.scdn.co/image/ab6761610000e5eb951d80a1db6ae486a5ce5f36
+6zFYqv1mOsgBRQbae3JJ9e	Billy Joel	75	4703221	https://i.scdn.co/image/ab6761610000e5eb712c7643e8aa18a4aca6c811
+4QM5QCHicznALtX885CnZC	Slayyyter	53	299754	https://i.scdn.co/image/ab6761610000e5ebd01fb7eccf3f995adbf7d40d
+5nGIFgo0shDenQYSE0Sn7c	Evanescence	70	3585228	https://i.scdn.co/image/ab6761610000e5eb7ecf213c7dd78e0049379c5b
+5qa31A9HySw3T7MKWI9bGg	FLETCHER	69	704252	https://i.scdn.co/image/ab6761610000e5ebfaf7e9528de5dc23441abaf7
+1AwO9pWEBSBoWdEZu28XDC	Eartha Kitt	55	151588	https://i.scdn.co/image/ab6761610000e5ebfa589cdca77cfcd16bb576c1
+4yvcSjfu4PC0CYQyLy4wSq	Glass Animals	77	3458632	https://i.scdn.co/image/ab6761610000e5eb66b27eccb69756f8eceabc23
+1moxjboGR7GNWYIMWsRjgG	Florence + The Machine	74	6077678	https://i.scdn.co/image/ab6761610000e5ebe3c37f869b830d1cf1ec829a
+1caBfBEapzw8z2Qz9q0OaQ	Asking Alexandria	64	1891868	https://i.scdn.co/image/ab6761610000e5ebaf99c0e6478c463beb1208e7
+0vYkHhJ48Bs3jWcvZXvOrP	Patti Smith	56	930456	https://i.scdn.co/image/20e52d0b168541016f901d9ec6d4f2a0e41f193b
+1ET1wIkDmuCBC80XcTr3Sg	The Pierces	43	105266	https://i.scdn.co/image/f5067e775a4c0afa5897800ac305d3db5315d328
+7gcUMQcBkw833YqXciq0WB	Fae	29	4232	https://i.scdn.co/image/ab6761610000e5eb105cf19ec1edcb6fad3e9032
+7x3f7c0fBanNlQwpx1255g	Françoise Hardy	55	340907	https://i.scdn.co/image/034718c8a5381259d9989066d80d207b0a9ef047
+4iHNK0tOyZPYnBU7nGAgpQ	Mariah Carey	78	8291960	https://i.scdn.co/image/ab6761610000e5eb9a1fa03af692c41b21cd75bb
+75xNYf2GU5wtQqBrd74SlY	Zheani	45	114640	https://i.scdn.co/image/ab6761610000e5eb8fb648d595d388df19111ef9
+49aaHxvAJ0tCh0F15OnwIl	Loreen	50	796553	https://i.scdn.co/image/ab6761610000e5eb627b608096e886a88c0c6bdd
+4SdIXLzfabqU61iK7SnKAU	G Flip	50	161593	https://i.scdn.co/image/ab6761610000e5eb487d63528c3ebd065e47ec16
+0DAZn759crST1j1p3Y2qTn	Sharon Knight	8	2570	https://i.scdn.co/image/ab6761610000e5eb1b43c3d5a5ac5ead3b983834
+053q0ukIDRgzwTr4vNSwab	Grimes	68	1803448	https://i.scdn.co/image/ab6761610000e5eb34771f759ca81a422f5f2b57
+6ueGR6SWhUJfvEhqkvMsVs	Janelle Monáe	64	1262469	https://i.scdn.co/image/ab6761610000e5eb3ea2c03525939b482f8d3bfd
+49qiE8dj4JuNdpYGRPdKbF	Stone Sour	62	2589946	https://i.scdn.co/image/ab6761610000e5ebf4c48660e778eeea3d9f1c5b
+3qm84nBOXUEQ2vnTfUTTFC	Guns N' Roses	79	26457587	https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c
+0e9C27umtAZF9E2jqyRfeP	Darkfield	13	1402	https://i.scdn.co/image/ab6761610000e5ebf2b7e93d1cc2b86f11407b27
+6ogn9necmbUdCppmNnGOdi	Alanis Morissette	65	2366795	https://i.scdn.co/image/ab6772690000c46c44408083dac26a782655baf3
+6om12Ev5ppgoMy3OYSoech	Halestorm	62	1277435	https://i.scdn.co/image/ab6761610000e5eb35d58aafc40646040e1f5f16
+2feDdbD5araYcm6JhFHHw7	Labrinth	78	2565925	https://i.scdn.co/image/ab6761610000e5eb72a7311386470c1fbf81734d
+3RNrq3jvMZxD9ZyoOZbQOD	Korn	73	5787228	https://i.scdn.co/image/ab6761610000e5eb29af2ffb6f4ddd6324f878bc
+4gKo3LXoxHriLS6CBKThAU	MALINDA	49	157890	https://i.scdn.co/image/ab6761610000e5ebbff6b96a458de87258fd7e5f
+2pqd3HsfsvcBGtHvPOg6eg	Highly Suspect	60	537689	https://i.scdn.co/image/ab6761610000e5eb17159c1fcba82d2b68010a8b
+0k17h0D3J5VfsdmQ1iZtE9	Pink Floyd	77	17790063	https://i.scdn.co/image/e69f71e2be4b67b82af90fb8e9d805715e0684fa
+7jZMxhsB8djyIbYmoiJSTs	Kiana Ledé	63	1380798	https://i.scdn.co/image/ab6761610000e5eb5c9e6b7026e782dac48d1264
+3ZJxEmjYZd5VOqZ8o3aXiL	ABRA	57	259223	https://i.scdn.co/image/ab6761610000e5eb06d14e7caddb0ba6bfa66aeb
+11T0XSkxSB5KUPTe8P8BOl	Sylvie Kreusch	39	16995	https://i.scdn.co/image/ab6761610000e5eb99e99187876d836777786935
+202HZzqKvPsMHcbwnDZx7u	Dorian Electra	47	238839	https://i.scdn.co/image/ab6761610000e5eb60857c01dc846983c3aa7d18
+4Gzfk9Lxm67nBs7E9BZjzG	Gin Wigmore	48	167142	https://i.scdn.co/image/ab6761610000e5eb21618e65117872912a012253
+0Xkd9GsWwOYETVF0kPXZIG	Amanda Lear	35	43949	https://i.scdn.co/image/ab6761610000e5eb2e43d71e995ec8690bd98157
+2cAXhrWAztXGwk6r15ibW2	Charlotte Sands	56	69170	https://i.scdn.co/image/ab6761610000e5eba2e94df6f82cd6432b8e5a1f
+100sLnojEpcadRx4edEBA6	Zella Day	57	416258	https://i.scdn.co/image/ab6761610000e5ebf07625ed8cff82132521c156
+3VjZEaHXvNbCmV5jc0VfZR	Grace Mitchell	39	76288	https://i.scdn.co/image/ab6761610000e5eb8198b6a303223994b2105f2b
+4tpUmLEVLCGFr93o8hFFIB	Blondie	68	1177818	https://i.scdn.co/image/ab6761610000e5eb67dc4da82c968767d994f3c3
+6E8uXyNsUKeGOgRqAOcgBa	Georgia Gibbs	37	9948	https://i.scdn.co/image/ab6761610000e5ebf68c46b9812e3e1b4150062b
+6blEmsLU25ewy8hHtgZaSL	Jazmin Bean	52	415392	https://i.scdn.co/image/ab6761610000e5eb68bec8cbd50e6c1a48c43503
+5YGY8feqx7naU7z4HrwZM6	Miley Cyrus	80	19011625	https://i.scdn.co/image/ab6761610000e5eb02651b19050d8bf64b18d40a
+7aWpPjjgItUnXljFxYYKZI	DeathbyRomy	50	56979	https://i.scdn.co/image/ab6761610000e5eb5bab18845638657393d1759c
+3PyJHH2wyfQK3WZrk9rpmP	Ashnikko	68	1802919	https://i.scdn.co/image/ab6761610000e5eb8f4d36b43fa094d32a167f1e
+3LjhVl7GzYsza1biQjTpaN	Hayley Kiyoko	60	1606144	https://i.scdn.co/image/ab6761610000e5eb9518c52fa035e0cfb3d29724
+5Lz5CnywFeg4Rs4l76OtG2	KiNG MALA	54	159960	https://i.scdn.co/image/ab6761610000e5eb3d7b9f55f506268e1f8a7df1
+5cj0lLjcoR7YOSnhnX0Po5	Doja Cat	86	22869556	https://i.scdn.co/image/ab6761610000e5eb727a2ac15afe659be999beba
+66CXWjxzNUsdJxJ2JdwvnR	Ariana Grande	87	84778104	https://i.scdn.co/image/ab6761610000e5ebcdce7620dc940db079bf4952
+3nFkdlSjzX9mRTtwJOzDYB	JAY-Z	0	0	
+6WO91WQMsVTfS1oET3Tfs3	jsnprod	0	0	
+3N7feSJ5L5LiXyBvcFVUPm	CPRCRN	0	0	
+4Q1IDfpCe7ZRhPDfqeb5dd	The Unrighteous Brothers	0	0	
+3klZnJvYGIbWritVwQD434	Duncan Laurence	0	0	
+1lmU3giNF3CSbkVSQmLpHQ	Surf Mesa	0	0	
+1QRj3hoop9Mv5VvHQkwPEp	Olivia O'Brien	0	0	
+4xdB09l6ULFYOmbpUIS994	COPAN	0	0	
+3hv9jJF3adDNsBSIQDqcjp	Mark Ronson	0	0	
+2tIP7SsRs7vjIcLrU85W8J	The Kid LAROI	0	0	
+2FovgCfOwN9iqbkCBlKFdT	Ellise	0	0	
+0okpgBQamDqOZazBeH0J3I	Unknown Brain	0	0	
+4u5smJBskI6Adzv08PuiUP	Kiiara	0	0	
+1FgsVeOhRYuSw2ghkIXV0A	DREAMERS	0	0	
+5Va9LuEmaZxnbk1gMnjMD7	Arrested Development	49	240722	https://i.scdn.co/image/ab6761610000e5eb09f1ef3b76da5758e3bd7ad2
+3iJJD5v7oIFUevW4N5w5cj	Arthur Russell	44	110549	https://i.scdn.co/image/ab6761610000e5eb3cfb09a7764e1ad77e323c18
+6XyY86QOPPrYVGvF9ch6wz	Linkin Park	82	22045834	https://i.scdn.co/image/ab6761610000e5eb34e5aa6afc1ba147bfbb0677
+2lVklP2whG8hFeQnfenH2k	Delayed Schedules	3	247	https://i.scdn.co/image/ab6761610000e5eb7013b6d9b376682c1a9d65e2
+2CCcoAwiAwpIs1hcsqkk3b	Alan Watts	45	172398	https://i.scdn.co/image/ab6761610000e5eb2dcc10ddbe6909486b2edd7d
+46auOkH1pk28rWrSoUNhLo	Orville Peck	56	281979	https://i.scdn.co/image/ab6761610000e5eb7b1eab5bbcfd5b2dd57c1753
+65NrBzD3Jnf1iqbDjuUYjD	Jacoo	35	22934	https://i.scdn.co/image/ab6761610000e5eb5376113195c2e23a0152c0de
+2VYQTNDsvvKN9wmU5W7xpj	Marilyn Manson	68	3736254	https://i.scdn.co/image/ab6761610000e5eb9e2dae585750a8d6055f4e35
+0JDkhL4rjiPNEp92jAgJnS	Roy Orbison	63	1651212	https://i.scdn.co/image/ab6761610000e5eb63c7956d7de45418d7fe6b25
+5Qlt3zQ63Z99mNhuun0JAT	Edwyn Collins	46	41477	https://i.scdn.co/image/ab6761610000e5ebfdbd9299d7899c86cb1e0a3a
+26VFTg2z8YR0cCuwLzESi2	Halsey	82	18756981	https://i.scdn.co/image/ab6761610000e5ebd707e1c5177614c4ec95a06c
+4VpWzXVUAR2YyQuWQpNGAf	Bohren & Der Club Of Gore	39	92353	https://i.scdn.co/image/ab6761610000e5eb657f1afcffd85e74dbf36b14
+3HVdAiMNjYrQIKlOGxoGh5	Rob Zombie	65	2325088	https://i.scdn.co/image/ab6761610000e5eb40a6cfc37fa94d54d28aca22
+5DDSCugRjUhxIdW4tkFWXI	The Red Pill	32	14135	https://i.scdn.co/image/ab67616d0000b273010774edae4183c325841aec
+4KlYg0F5KG9QNDFKaeTNAy	VNV Nation	46	163768	https://i.scdn.co/image/ab6761610000e5eb345be110699a051c0c41815e
+4NgfOZCL9Ml67xzM0xzIvC	Janis Joplin	61	2943532	https://i.scdn.co/image/ab6761610000e5ebbf0ee2c099003f6886e4da0c
+0ATg66209dS5nFsvobJlRt	Speech	30	6517	https://i.scdn.co/image/ab6761610000e5eb7d07426c9e899f920c27c62e
+2xiIXseIJcq3nG7C8fHeBj	Three Days Grace	73	5279712	https://i.scdn.co/image/ab6761610000e5eb3626be769b238e2a35010613
+6liAMWkVf5LH7YR9yfFy1Y	Portishead	60	1657735	https://i.scdn.co/image/05d3721739aee511a898081ab140daa7890a0120
+1NVCNKYdNcuh92vE4rSxpo	Freya	10	1679	https://i.scdn.co/image/5135a5a782615a9dab389d179d14fd8f5bfe4deb
+6B5c4sch27tWHAGdarpPaW	Seether	67	2981502	https://i.scdn.co/image/ab6761610000e5eb5db5a44768e9eb6fb4f415f9
+05fG473iIaoy82BF1aGhL8	Slipknot	78	8830881	https://i.scdn.co/image/ab6761610000e5ebec01c52d6030a1574070e308
+1TjaxisqOtZkkNRqGYGBNY	T. Thorn Coyle	0	0	
+0ZJoU0Z8MIukDaRiFwMZcp	Secret Gardens	0	0	
+5WUlDfRSoLAfcVSX1WnrxN	Sia	0	0	
+20q3NJtmeKSi3BTnmUFK16	The Wellermen	0	0	
+69GGBxA162lTqCwzJG5jLp	The Chainsmokers	0	0	
+3Nrfpe0tUJi4K4DXYWgMUX	BTS	0	0	
+02kJSzxNuaWGqwubyUba0Z	G-Eazy	0	0	
+5CiGnKThu5ctn9pBxv7DGa	benny blanco	0	0	
+7CajNmpbOovFoOoasH2HaY	Calvin Harris	0	0	
+64KEffDW9EtZ1y2vBYgq8T	Marshmello	0	0	
+3OHbToMuJihWhRcqzKjpBd	Apoptygma Berzerk	0	0	
+4J69yWrKwWJgjv3DKTZcGo	Big Brother & The Holding Company	0	0	
+6VuMaDnrHyPL1p4EHjYLi7	Charlie Puth	0	0	
+2qxJFvFYMEDqd7ui6kSAcq	Zedd	0	0	
+4kYSro6naA4h99UJvo89HB	Cardi B	0	0	
+3KNIG74xSTc3dj0TRy7pGX	Yung Bleu	0	0	
+3dctbbXhrRgigX1icexnws	Adam Hicks	0	0	
+4VhL8KLjVso4vLfOLVViTb	Bridgit Mendler	0	0	
+245PKF3hKjtxJKIG153kF0	Kailee Morgue	0	0	
+246dkjvS1zLTtiykXe5h60	Post Malone	0	0	
+21dooacK2WGBB5amYvKyfM	Smokepurpp	60	2431810	https://i.scdn.co/image/ab6761610000e5eb7caf23154583969c7482e0ec
+7Im2r58zlLJIDfamqDjEE6	Mestre Bimba	17	3877	https://i.scdn.co/image/ab67616d0000b27391f893ddac30579061aa0b2c
+1r59KUMNZRw0M8FDnrHq0o	FETISH	46	31225	https://i.scdn.co/image/ab6761610000e5eb9d370cc1a5fc30642093f07d
+0dlDsD7y6ccmDm8tuWCU6F	Freddie Dredd	75	1120096	https://i.scdn.co/image/ab6761610000e5eb9d100e5a9cf34beab8e75750
+7A8S43ryYdbWpJKeHRZRcq	JACKBOYS	64	501372	https://i.scdn.co/image/ab6761610000e5eb440b705481183f0ddaa521d7
+0iEtIxbK0KxaSlF7G42ZOp	Metro Boomin	79	3101343	https://i.scdn.co/image/ab6761610000e5ebdf9a1555f53a20087b8c5a5c
+0Y5tJX1MQlPlqiwlOH1tJY	Travis Scott	87	21333703	https://i.scdn.co/image/ab6761610000e5ebe707b87e3f65997f6c09bfff
+0H39MdGGX6dbnnQPt6NQkZ	SAINt JHN	69	898286	https://i.scdn.co/image/ab6761610000e5eb2a1356370e5fce1b25df0ac9
 6Q1ggxOPVDbMyqlhv0tmT4	Bode Veio	11	446	https://i.scdn.co/image/ab67616d0000b273ad6c26da48be5afc9b5456f8
-5m9PQtVJ9ZZVWgb3t2nTMN	ur pretty	40	18068	https://i.scdn.co/image/ab6761610000e5eb00145d4bcf1756ae14202b06
-7HGNYPmbDrMkylWqeFCOIQ	Caetano Veloso	65	1952246	https://i.scdn.co/image/ab6761610000e5ebe98de50f36cf1aa4bf047757
-3qZ2n5keOAat1SoF6bHwmb	Zeca Pagodinho	62	1428906	https://i.scdn.co/image/ab6761610000e5eb6ec92095c26af9ea20cd4451
-09U6hmCerKcIJrixubiBjm	Pineapple StormTv	73	6305227	https://i.scdn.co/image/ab6761610000e5ebe915b03e0d384550b452d024
-7oEkUINVIj1Nr3Wnj8tzqr	Gilberto Gil	62	1058726	https://i.scdn.co/image/ab6761610000e5eb03b2a5ceda2ab12bfaa3b5ed
-5rX2c1zow6hCph8PnnU3kF	Astrud Gilberto	59	196890	https://i.scdn.co/image/ab67616d0000b2730a2d5daaa98e0395fdf36c78
-1b8kpp4DUwt1hWaxTiWQhD	Gal Costa	66	621943	https://i.scdn.co/image/ab6761610000e5eb706bb8bbf9d721d8141ba358
-2FW6Zt8gyIF7Fb7O3TGxnE	Sambabook	47	241	https://i.scdn.co/image/ab6761610000e5eb84b8527aaf1c1ce4099d2fe7
-0Mz5XE0kb1GBnbLQm2VbcO	Mos Def	63	1283046	https://i.scdn.co/image/d39cd5769332fb51014cc1cc9934c8890fcd49f7
-0av074qUwLn5eyzwqoq3xh	People Under The Stairs	49	181213	https://i.scdn.co/image/bf9be990f581592fad856fd135926686c516b869
-2PmIyxmEFsNfQJjEifPDZC	RAT BOY	59	99295	https://i.scdn.co/image/ab6761610000e5eb162c91491669e10b34cc925e
-4RKYu5o9e1MSd5eq3SYr9I	Prison Mike	32	3431	https://i.scdn.co/image/ab67616d0000b273420d6ccc3a554ce8ed962555
-5dHt1vcEm9qb8fCyLcB3HL	A$AP Ferg	70	3394509	https://i.scdn.co/image/ab6761610000e5ebf1122f644f19ba22750d2bd8
-18hl4QMrybIXbkGi2BzXcf	Dj Capoeira	25	687	https://i.scdn.co/image/ab67616d0000b273a489f894b3329d6181b906a5
-0ONHkAv9pCAFxb0zJwDNTy	Pusha T	71	2596630	https://i.scdn.co/image/ab6761610000e5ebc5b88a3924d8318f25f20594
-7kA4sEagpoNK91I7wr9tYr	Bleu Clair	48	31691	https://i.scdn.co/image/ab6761610000e5eb8abb3f2003236e24ea1ab426
-1SImpQO0GbjRgvlwCcCtFo	The Red Jumpsuit Apparatus	61	1212910	https://i.scdn.co/image/ab6761610000e5eb534cac4f88d6ab5870c1bbbf
-1URnnhqYAYcrqrcwql10ft	21 Savage	92	12001725	https://i.scdn.co/image/ab6761610000e5ebe01decbaa565f3feaaade6a9
-4DdkRBBYG6Yk9Ka8tdJ9BW	Offset	77	2501185	https://i.scdn.co/image/ab6761610000e5ebcb4be1652aaf558da2984098
-1AldSIJ8ANuZVbjKIhpKKq	Carolina Soares	25	5971	https://i.scdn.co/image/ab6761610000e5ebe74dd345f7659efa70b1ed4c
+5m9PQtVJ9ZZVWgb3t2nTMN	ur pretty	40	18095	https://i.scdn.co/image/ab6761610000e5eb00145d4bcf1756ae14202b06
+4RKYu5o9e1MSd5eq3SYr9I	Prison Mike	32	3432	https://i.scdn.co/image/ab67616d0000b273420d6ccc3a554ce8ed962555
+6PfSUFtkMVoDkx4MQkzOi3	100 gecs	56	465566	https://i.scdn.co/image/ab6761610000e5ebd77a9c855001f3a9b5815bc0
+5vSQUyT33qxr1xAX2Tkf3A	Clams Casino	56	218429	https://i.scdn.co/image/ab6761610000e5ebeb01ceedf9eb7f7cf92b634a
+0eDvMgVFoNV3TpwtrVCoTj	Pop Smoke	82	11430239	https://i.scdn.co/image/ab6761610000e5eb597f9edd2cd1a892d4412b09
+6guC9FqvlVboSKTI77NG2k	Dance Gavin Dance	64	613730	https://i.scdn.co/image/ab6761610000e5eb7ab31728854684433fe3dc64
+2NjfBq1NflQcKSeiDooVjY	Tones And I	70	2983772	https://i.scdn.co/image/ab6761610000e5ebec4cca4babaad69382fb52e6
+757aE44tKEUQEqRuT6GnEB	Roddy Ricch	79	8563937	https://i.scdn.co/image/ab6761610000e5eb9c30c6b69a55d48decd71600
+422qjlzkDtxmaeeOLhnE6A	(K)NoW_NAME	48	44903	https://i.scdn.co/image/ab6761610000e5eb28e83e2139653508735b14d5
+2cFrymmkijnjDg9SS92EPM	blackbear	78	4800453	https://i.scdn.co/image/ab6761610000e5eb4f7d049994ac00ed885bfbf2
+1rCIEwPp5OnXW0ornlSsRl	Metric	59	711473	https://i.scdn.co/image/ab6761610000e5ebe0812e8d85a4cc98cbc3bf2c
+6MPCFvOQv5cIGfw3jODMF0	Internet Money	70	671489	https://i.scdn.co/image/ab6761610000e5eb30cc15d302e22803fcb5ad34
+4sQNUQjOYj9rV2sdfJ8laS	Angerfist	57	403201	https://i.scdn.co/image/ab6761610000e5ebc5f1b5bf40435c2d378a07ba
+3YQKmKGau1PzlVlkL1iodx	Twenty One Pilots	79	22773585	https://i.scdn.co/image/ab6761610000e5eb196972172c37d934d9ca8093
+6eUKZXaKkcviH0Ku9w2n3V	Ed Sheeran	89	104928797	https://i.scdn.co/image/ab6761610000e5eb12a2ef08d00dd7451a6dbed6
+7GN9PivdemQRKjDt4z5Zv8	The Internet	60	1190729	https://i.scdn.co/image/ab6761610000e5ebc32c5dcda378eb561f81b1f9
+34Y0ldeyUv7jBvukWOGASO	Bobby Shmurda	59	1373689	https://i.scdn.co/image/ab6761610000e5ebee12e6771607433caee705a3
+4LLpKhyESsyAXpc4laK94U	Mac Miller	82	8179883	https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a
+7gjAu1qr5C2grXeQFFOGeh	Passion Pit	57	1223180	https://i.scdn.co/image/ab6761610000e5ebeccf9bbcdcf7b750f6a6c687
+3PfyosblIBaNJNH88MUkgM	Nate Eiesland	22	787	
+7oPftvlwr6VrsViSDV7fJY	Green Day	78	13526040	https://i.scdn.co/image/ab6761610000e5eb047eac333eff0be4abe32cbf
+738wLrAtLtCtFOLvQBXOXp	Major Lazer	73	6315098	https://i.scdn.co/image/ab6761610000e5eb133f44ab343b35c715a4ac97
+6fxyWrfmjcbj5d12gXeiNV	Denzel Curry	71	1979159	https://i.scdn.co/image/ab6761610000e5ebb00f2e31d509ddc6fa0eb24b
+6kDMoHTcBICPILP2aclPWZ	Mew	39	130682	https://i.scdn.co/image/ab6761610000e5eb94e9e7cff50fde27c86dc0b2
+5dHt1vcEm9qb8fCyLcB3HL	A$AP Ferg	70	3395349	https://i.scdn.co/image/ab6761610000e5ebf1122f644f19ba22750d2bd8
+18hl4QMrybIXbkGi2BzXcf	Dj Capoeira	26	694	https://i.scdn.co/image/ab67616d0000b273a489f894b3329d6181b906a5
+0ONHkAv9pCAFxb0zJwDNTy	Pusha T	71	2597479	https://i.scdn.co/image/ab6761610000e5ebc5b88a3924d8318f25f20594
+7kA4sEagpoNK91I7wr9tYr	Bleu Clair	48	31721	https://i.scdn.co/image/ab6761610000e5eb8abb3f2003236e24ea1ab426
+1SImpQO0GbjRgvlwCcCtFo	The Red Jumpsuit Apparatus	61	1213241	https://i.scdn.co/image/ab6761610000e5eb534cac4f88d6ab5870c1bbbf
+1URnnhqYAYcrqrcwql10ft	21 Savage	92	12009006	https://i.scdn.co/image/ab6761610000e5ebe01decbaa565f3feaaade6a9
+4DdkRBBYG6Yk9Ka8tdJ9BW	Offset	77	2502593	https://i.scdn.co/image/ab6761610000e5ebcb4be1652aaf558da2984098
+1AldSIJ8ANuZVbjKIhpKKq	Carolina Soares	25	5974	https://i.scdn.co/image/ab6761610000e5ebe74dd345f7659efa70b1ed4c
 2EhUXeszBQRApbBmTOXlKU	Mestre Acordeon	13	4758	https://i.scdn.co/image/ab67616d0000b27314355c7d3bcf22d0f48d12da
 4CrK2BAeyd3DIt2M2ELPJ4	Raizes da Capoeira II	6	278	
-5CCwRZC6euC8Odo6y9X8jr	Rita Ora	71	7708253	https://i.scdn.co/image/ab6761610000e5eb484ddaa955c4c03a46ef8d8d
-246dkjvS1zLTtiykXe5h60	Post Malone	87	38721994	https://i.scdn.co/image/ab6761610000e5ebb894ef9fa437b0389c5567cc
-25uiPmTg16RbhZWAqwLBy5	Charli XCX	75	2704766	https://i.scdn.co/image/ab6761610000e5eb576cb43281160e345f728b71
-4r63FhuTkUYltbVAg5TQnk	DaBaby	81	10236809	https://i.scdn.co/image/ab6761610000e5eb5ace68c56849548db7f102be
-26T3LtbuGT1Fu9m0eRq5X3	Cage The Elephant	72	3037749	https://i.scdn.co/image/ab6761610000e5eb7d994f7e137c10249de19455
-24XtlMhEMNdi822vi0MhY1	Taking Back Sunday	61	762601	https://i.scdn.co/image/ab6761610000e5ebaf5a3cb16e57a2a815a6207d
-64KEffDW9EtZ1y2vBYgq8T	Marshmello	82	34512041	https://i.scdn.co/image/ab6761610000e5eb41e4a3b8c1d45a9e49b6de21
-15UsOTVnJzReFVN1VCnxy4	XXXTENTACION	86	38888759	https://i.scdn.co/image/ab6761610000e5ebf0c20db5ef6c6fbe5135d2e4
-5cj0lLjcoR7YOSnhnX0Po5	Doja Cat	86	22854775	https://i.scdn.co/image/ab6761610000e5eb727a2ac15afe659be999beba
-5yV1qdnmxyIYiSFB02wpDj	The Postal Service	50	519026	https://i.scdn.co/image/034778d5916fdfaacf926d7ec0e7440f717cd064
-41rVuRHYAiH7ltBTHVR9We	Slushii	54	638096	https://i.scdn.co/image/ab6761610000e5eb96ff6643a51f35410a1d7fcf
-0EeQBlQJFiAfJeVN2vT9s0	Nipsey Hussle	65	2940058	https://i.scdn.co/image/ab6761610000e5ebe9edae8fe232af1d2995c991
-0jNDKefhfSbLR9sFvcPLHo	San Holo	56	669070	https://i.scdn.co/image/ab6761610000e5eb9ba8dc387019ab72831ff2b3
-7boQqq2hUcz9kHcQOecG4j	Andre Nickatina	49	194574	https://i.scdn.co/image/62613d0f3cb36995b553137326d87980795cad52
-5BvJzeQpmsdsFp4HGUYUEx	Vampire Weekend	64	1821405	https://i.scdn.co/image/ab6761610000e5eb44829ac83c4538a8cf7e9f40
-4MCBfE4596Uoi2O4DtmEMz	Juice WRLD	88	26374871	https://i.scdn.co/image/ab6761610000e5eb1908e1a8b79abf71d5598944
-1vCWHaC5f2uS3yhpwWbIA6	Avicii	79	22231244	https://i.scdn.co/image/ab6761610000e5eb09bf4814c6585e1f69dfeef7
-3TVXtAsR1Inumwj472S9r4	Drake	97	68700055	https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9
-0SwO7SWeDHJijQ3XNS7xEE	MGMT	73	2635606	https://i.scdn.co/image/ab6761610000e5eb089bb3257ef5b3fab2a3c90d
-3AA28KZvwAUcZuOKwyblJQ	Gorillaz	79	9500273	https://i.scdn.co/image/ab6761610000e5ebc19b16a0104300245c65c164
-5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô	20	5170	https://i.scdn.co/image/ab67616d0000b27306ca500ac2d0153dc7912275
-3Rq3YOF9YG9YfCWD4D56RZ	Nujabes	60	773636	https://i.scdn.co/image/ab6761610000e5eb2dd5a47714902a1db1810456
-23cC3RI0hgD5sWmXKPAJuG	Matt Quentin	45	21230	https://i.scdn.co/image/ab6761610000e5eb10c2a5ed8ed7ad2ea8a7af65
-1xHQO9GJIW9OXHxGBISYc5	Marian Hill	53	457866	https://i.scdn.co/image/ab6761610000e5eb65f01a288ca1ad0194c1e051
-09hVIj6vWgoCDtT03h8ZCa	A Tribe Called Quest	65	1773090	https://i.scdn.co/image/ab6761610000e5eb774d73ae6796b6f437d89db9
-1MBqzcu6aiY7GzP5BfG56T	La Caution	40	19563	https://i.scdn.co/image/ab67616d0000b273d3ddd4361d835095a06a70bf
-1WxunfiOh9Ws0uu2JoDmjL	Quarteto Jobim-Morelenbaum	41	11440	https://i.scdn.co/image/ab67616d0000b273529e24bf8ffe6504aaa0d02c
-5JYtpnUKxAzXfHEYpOeeit	Jorge Ben Jor	61	783756	https://i.scdn.co/image/a9c6a324c5f4a0f25bc711a7c4434c89c05ceba2
-1gIa65d5ICT2xVWiUJ3u27	Tom Zé	45	249875	https://i.scdn.co/image/03d250f957eb557725bf2c1c7e5e0ccc7b8192eb
-0I11U609NiFEdpvNix7oNl	Mestre Batata - Capoeira Besouro	2	336	
-6xQwC94a61f3bZwyl4UJXD	Mestre Suassuna e Dirceu	21	4680	https://i.scdn.co/image/ab67616d0000b2738c65587da02793fa2b609569
-4M5nCE77Qaxayuhp3fVn4V	Iron & Wine	61	1032687	https://i.scdn.co/image/ab6761610000e5eb6a521312add75461d989f671
-6aaMZ3fcfLv4tEbmY7bjRM	Isaiah Rashad	66	1206035	https://i.scdn.co/image/ab6761610000e5eb1ff1685224034e6c12538722
-7hi7sNBb4AWmzHRjFCs94V	Mestre Plinio	26	1483	https://i.scdn.co/image/ab67616d0000b2733af0895d597387883db18339
-04gDigrS5kc9YWfZHwBETP	Maroon 5	84	38540003	https://i.scdn.co/image/ab6761610000e5eb288ac05481cedc5bddb5b11b
-6BIltkF2V7p0PHLtUyc7re	Rafael de Lemba	24	1828	https://i.scdn.co/image/ab67616d0000b2739782bf68194be596d0455dc1
-2p1fiYHYiXz9qi0JJyxBzN	Skepta	71	1064071	https://i.scdn.co/image/ab6761610000e5eb38bcbc9ddae4d1db009387d7
+5CCwRZC6euC8Odo6y9X8jr	Rita Ora	71	7710099	https://i.scdn.co/image/ab6761610000e5eb484ddaa955c4c03a46ef8d8d
+7HGNYPmbDrMkylWqeFCOIQ	Caetano Veloso	65	1952860	https://i.scdn.co/image/ab6761610000e5ebe98de50f36cf1aa4bf047757
+09U6hmCerKcIJrixubiBjm	Pineapple StormTv	73	6311906	https://i.scdn.co/image/ab6761610000e5ebe915b03e0d384550b452d024
+7oEkUINVIj1Nr3Wnj8tzqr	Gilberto Gil	62	1059110	https://i.scdn.co/image/ab6761610000e5eb03b2a5ceda2ab12bfaa3b5ed
+5rX2c1zow6hCph8PnnU3kF	Astrud Gilberto	59	196948	https://i.scdn.co/image/ab67616d0000b2730a2d5daaa98e0395fdf36c78
+1b8kpp4DUwt1hWaxTiWQhD	Gal Costa	66	622692	https://i.scdn.co/image/ab6761610000e5eb706bb8bbf9d721d8141ba358
+3qZ2n5keOAat1SoF6bHwmb	Zeca Pagodinho	61	1429571	https://i.scdn.co/image/ab6761610000e5eb6ec92095c26af9ea20cd4451
+0Mz5XE0kb1GBnbLQm2VbcO	Mos Def	63	1283437	https://i.scdn.co/image/d39cd5769332fb51014cc1cc9934c8890fcd49f7
+0av074qUwLn5eyzwqoq3xh	People Under The Stairs	49	181252	https://i.scdn.co/image/bf9be990f581592fad856fd135926686c516b869
+2PmIyxmEFsNfQJjEifPDZC	RAT BOY	59	99324	https://i.scdn.co/image/ab6761610000e5eb162c91491669e10b34cc925e
+3Rq3YOF9YG9YfCWD4D56RZ	Nujabes	60	774090	https://i.scdn.co/image/ab6761610000e5eb2dd5a47714902a1db1810456
+23cC3RI0hgD5sWmXKPAJuG	Matt Quentin	45	21239	https://i.scdn.co/image/ab6761610000e5eb10c2a5ed8ed7ad2ea8a7af65
+1xHQO9GJIW9OXHxGBISYc5	Marian Hill	53	457881	https://i.scdn.co/image/ab6761610000e5eb65f01a288ca1ad0194c1e051
+09hVIj6vWgoCDtT03h8ZCa	A Tribe Called Quest	65	1773625	https://i.scdn.co/image/ab6761610000e5eb774d73ae6796b6f437d89db9
+1MBqzcu6aiY7GzP5BfG56T	La Caution	40	19570	https://i.scdn.co/image/ab67616d0000b273d3ddd4361d835095a06a70bf
+1WxunfiOh9Ws0uu2JoDmjL	Quarteto Jobim-Morelenbaum	41	11446	https://i.scdn.co/image/ab67616d0000b273529e24bf8ffe6504aaa0d02c
+5JYtpnUKxAzXfHEYpOeeit	Jorge Ben Jor	61	784099	https://i.scdn.co/image/a9c6a324c5f4a0f25bc711a7c4434c89c05ceba2
+1gIa65d5ICT2xVWiUJ3u27	Tom Zé	45	249982	https://i.scdn.co/image/03d250f957eb557725bf2c1c7e5e0ccc7b8192eb
+4k7KKAyXbpBKe0iziD7c2P	Beatchild	31	4890	https://i.scdn.co/image/ab6761610000e5ebc1fa6f98bd2968a59806d77a
+3H24Sx4OTtMrkpQlcpGLtu	Hexstatic	28	15121	https://i.scdn.co/image/ab67616d0000b273b165e01b90417f18fd7cecba
+2FW6Zt8gyIF7Fb7O3TGxnE	Sambabook	47	241	https://i.scdn.co/image/ab6761610000e5eb84b8527aaf1c1ce4099d2fe7
+2wr7BzcHy6CsYZJd0HiB4f	KOSMA	0	65	https://i.scdn.co/image/ab67616d0000b2734c497d540744d08577b71640
+25uiPmTg16RbhZWAqwLBy5	Charli XCX	75	2705488	https://i.scdn.co/image/ab6761610000e5eb576cb43281160e345f728b71
+4r63FhuTkUYltbVAg5TQnk	DaBaby	81	10239425	https://i.scdn.co/image/ab6761610000e5eb5ace68c56849548db7f102be
+26T3LtbuGT1Fu9m0eRq5X3	Cage The Elephant	72	3038697	https://i.scdn.co/image/ab6761610000e5eb7d994f7e137c10249de19455
+24XtlMhEMNdi822vi0MhY1	Taking Back Sunday	61	762747	https://i.scdn.co/image/ab6761610000e5ebaf5a3cb16e57a2a815a6207d
+15UsOTVnJzReFVN1VCnxy4	XXXTENTACION	86	38903544	https://i.scdn.co/image/ab6761610000e5ebf0c20db5ef6c6fbe5135d2e4
+5yV1qdnmxyIYiSFB02wpDj	The Postal Service	50	519093	https://i.scdn.co/image/034778d5916fdfaacf926d7ec0e7440f717cd064
+41rVuRHYAiH7ltBTHVR9We	Slushii	54	638143	https://i.scdn.co/image/ab6761610000e5eb96ff6643a51f35410a1d7fcf
+0EeQBlQJFiAfJeVN2vT9s0	Nipsey Hussle	65	2941255	https://i.scdn.co/image/ab6761610000e5ebe9edae8fe232af1d2995c991
+0jNDKefhfSbLR9sFvcPLHo	San Holo	56	669125	https://i.scdn.co/image/ab6761610000e5eb9ba8dc387019ab72831ff2b3
+7boQqq2hUcz9kHcQOecG4j	Andre Nickatina	49	194619	https://i.scdn.co/image/62613d0f3cb36995b553137326d87980795cad52
+5BvJzeQpmsdsFp4HGUYUEx	Vampire Weekend	64	1821565	https://i.scdn.co/image/ab6761610000e5eb44829ac83c4538a8cf7e9f40
+4MCBfE4596Uoi2O4DtmEMz	Juice WRLD	88	26386749	https://i.scdn.co/image/ab6761610000e5eb1908e1a8b79abf71d5598944
+1vCWHaC5f2uS3yhpwWbIA6	Avicii	79	22234387	https://i.scdn.co/image/ab6761610000e5eb09bf4814c6585e1f69dfeef7
+3TVXtAsR1Inumwj472S9r4	Drake	97	68731033	https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9
+0SwO7SWeDHJijQ3XNS7xEE	MGMT	73	2636368	https://i.scdn.co/image/ab6761610000e5eb089bb3257ef5b3fab2a3c90d
+3AA28KZvwAUcZuOKwyblJQ	Gorillaz	79	9504420	https://i.scdn.co/image/ab6761610000e5ebc19b16a0104300245c65c164
+5r4anprO9Hg9CBlmdkwFdE	Capoeira Nagô	20	5175	https://i.scdn.co/image/ab67616d0000b27306ca500ac2d0153dc7912275
+0I11U609NiFEdpvNix7oNl	Mestre Batata - Capoeira Besouro	2	337	
+6xQwC94a61f3bZwyl4UJXD	Mestre Suassuna e Dirceu	21	4679	https://i.scdn.co/image/ab67616d0000b2738c65587da02793fa2b609569
+4M5nCE77Qaxayuhp3fVn4V	Iron & Wine	61	1032801	https://i.scdn.co/image/ab6761610000e5eb6a521312add75461d989f671
+6aaMZ3fcfLv4tEbmY7bjRM	Isaiah Rashad	66	1206376	https://i.scdn.co/image/ab6761610000e5eb1ff1685224034e6c12538722
+7hi7sNBb4AWmzHRjFCs94V	Mestre Plinio	26	1487	https://i.scdn.co/image/ab67616d0000b2733af0895d597387883db18339
+04gDigrS5kc9YWfZHwBETP	Maroon 5	84	38551676	https://i.scdn.co/image/ab6761610000e5eb288ac05481cedc5bddb5b11b
+6BIltkF2V7p0PHLtUyc7re	Rafael de Lemba	24	1832	https://i.scdn.co/image/ab67616d0000b2739782bf68194be596d0455dc1
+2p1fiYHYiXz9qi0JJyxBzN	Skepta	71	1064352	https://i.scdn.co/image/ab6761610000e5eb38bcbc9ddae4d1db009387d7
 7qJAk8CiXUgDPPUF3REKr2	Raizes da Capoeira	4	245	
-5SKEXbgzIdRl3gQJ23CnUP	Capoeira Experience	19	5377	https://i.scdn.co/image/ab67616d0000b2735d7c48f01fb27cf927810a7f
-1cIz2h3ERs72r60yw78Deu	Drinks On Me	46	7215	https://i.scdn.co/image/ab6761610000e5ebd2fc6f1ed95ae028996a6a77
-4ERtgeBbWRkFzIz6LaFCeY	Dashboard Confessional	55	556064	https://i.scdn.co/image/ab6761610000e5eb6c52301d3d723bcf907cfeaa
-4dM6NDYSfLcspt8GLoT5aE	Hippie Sabotage	67	821371	https://i.scdn.co/image/ab6761610000e5eb5cc73bce8ae9e21bb1423b23
-1KEUVZo7CMTSJoM8doulOT	Smile Empty Soul	46	296460	https://i.scdn.co/image/ab6761610000e5ebd11b9645340699a734cc9f2e
+5SKEXbgzIdRl3gQJ23CnUP	Capoeira Experience	20	5381	https://i.scdn.co/image/ab67616d0000b2735d7c48f01fb27cf927810a7f
+1cIz2h3ERs72r60yw78Deu	Drinks On Me	46	7226	https://i.scdn.co/image/ab6761610000e5ebd2fc6f1ed95ae028996a6a77
+4ERtgeBbWRkFzIz6LaFCeY	Dashboard Confessional	55	556185	https://i.scdn.co/image/ab6761610000e5eb6c52301d3d723bcf907cfeaa
+4dM6NDYSfLcspt8GLoT5aE	Hippie Sabotage	67	821572	https://i.scdn.co/image/ab6761610000e5eb5cc73bce8ae9e21bb1423b23
+1KEUVZo7CMTSJoM8doulOT	Smile Empty Soul	46	296533	https://i.scdn.co/image/ab6761610000e5ebd11b9645340699a734cc9f2e
 67p5GMYQZOgaAfx1YyttQk	Denis Porto	2	452	
-6dGRShw3EqULdxZl9EEJYv	Grupo Muzenza de Capoeira	29	4793	https://i.scdn.co/image/ab67616d0000b2739b5d25ea34d2a4237ce92eb1
-6qgc4bSHhzZxnJ01WDEAHt	Mestre Suassuna	26	5624	https://i.scdn.co/image/ab67616d0000b27357f512881e78692829c29116
+6dGRShw3EqULdxZl9EEJYv	Grupo Muzenza de Capoeira	29	4804	https://i.scdn.co/image/ab67616d0000b2739b5d25ea34d2a4237ce92eb1
+6qgc4bSHhzZxnJ01WDEAHt	Mestre Suassuna	26	5625	https://i.scdn.co/image/ab67616d0000b27357f512881e78692829c29116
 5ZfHVIBVoMg0VjgUBU0alH	Grupo de Capoeira Angola Pelourinho	27	5331	https://i.scdn.co/image/ab67616d0000b273e815479e87e3e05b98e27ef4
-5nJ5xDXFO4czh2gJ9f4wto	Mestre Kenura	19	1514	https://i.scdn.co/image/ab67616d0000b273624fa913636494daabdef5ec
-5sEDTHJJyDEWVFx99hGSIb	Mark Mothersbaugh	43	27517	https://i.scdn.co/image/ab6761610000e5ebd707bc90aea4229d20d91682
-1K9pNfOfxZFfbEgoOmjV13	Grupo Nzinga	20	2287	https://i.scdn.co/image/ab67616d0000b273aaa202ad9518e90f1f2e0ae5
-4Lm0pUvmisUHMdoky5ch2I	Apocalyptica	58	876431	https://i.scdn.co/image/ab6761610000e5eb7526751c3a833aac58be50aa
-1MXZ0hsGic96dWRDKwAwdr	Tyla Yaweh	61	476699	https://i.scdn.co/image/ab6761610000e5eb05565ec0dfa28e5372a48c2d
-2o5jDhtHVPhrJdv3cEQ99Z	Tiësto	\N	\N	
-6DgP9otnZw5z6daOntINxp	Joel Corry	\N	\N	
-6M2wZ9GZgrQXHCFfjv46we	Dua Lipa	\N	\N	
-6i392l38cR3uBPF0DbNs7S	Quality Control	\N	\N	
-4o0pNHbyj36LPvukNqEug0	The Maine	\N	\N	
-77AiFEVeAVj2ORpC85QVJs	Steve Aoki	\N	\N	
-0C8ZW7ezQVs4URX5aX7Kqx	Selena Gomez	\N	\N	
-5K4W6rqBFWDnAN6FQUkS6x	Kanye West	\N	\N	
-2kCcBybjl3SAtIcwdWpUe3	Lil Peep	\N	\N	
-66CXWjxzNUsdJxJ2JdwvnR	Ariana Grande	\N	\N	
-3XV0lFzNs8BCTwhJTcMiBr	Blue Ivy	\N	\N	
-0u18Cq5stIQLUoIaULzDmA	DROELOE	\N	\N	
-4mPPxTpWqDR5rmOrTOh4nk	Equipto	\N	\N	
-7G6BVdBZ9lTjGEH37zbxmA	Mestre Recruta	\N	\N	
-4nDoRrQiYLoBzwC5BhVJzF	Camila Cabello	\N	\N	
-3wcj11K77LjEY1PkEazffa	Burna Boy	\N	\N	
-1RyvyyTE3xzB2ZywiAwp0i	Future	\N	\N	
-4kEcRrHPFKoSlsHIhuCN2f	Mestre Capu	\N	\N	
-1EI0NtLHoh9KBziYCeN1vM	Rhiannon Giddens	\N	\N	
-4yYYCSCDUTypErQMZv5iSg	Ray Vaughn	\N	\N	
-5h6l7v8Ecxw1BKVBLrjFfE	Mestre Pernalonga	\N	\N	
-5zfEatKLDdRkgbw6sdLBAQ	Octavian	\N	\N	
-39XT9gMoNmMCOlvTTR273m	K-Trap	\N	\N	
-3tVQdUvClmAT7URs9V3rsp	Wizkid	\N	\N	
-3NbqBIc16CNAe5nYSmHR3p	JAE5	\N	\N	
-20gsENnposVs2I4rQ5kvrf	Sam Feldt	\N	\N	
-1IueXOQyABrMOprrzwQJWN	Sigala	\N	\N	
-5pUo3fmmHT8bhCyHE52hA6	Liam Payne	\N	\N	
-7FngGIEGgN3Iwauw1MvO4P	nothing,nowhere.	\N	\N	
-70TsVY28EcEUYSGG5Yw7mp	Sam Tinnesz	\N	\N	
-4NHQUGzhtTLFvgF5SZesLK	Tove Lo	\N	\N	
-2d9LRvQJnAXRijqIJDDs2K	Emicida	\N	\N	
-2xiIXseIJcq3nG7C8fHeBj	Three Days Grace	\N	\N	
-3o2dn2O0FCVsWDFSh8qxgG	Sabaton	\N	\N	
-7mX72Bq2iXNr8fZdu23fQL	Boslen	\N	\N	
+5nJ5xDXFO4czh2gJ9f4wto	Mestre Kenura	19	1516	https://i.scdn.co/image/ab67616d0000b273624fa913636494daabdef5ec
+5sEDTHJJyDEWVFx99hGSIb	Mark Mothersbaugh	43	27524	https://i.scdn.co/image/ab6761610000e5ebd707bc90aea4229d20d91682
+1K9pNfOfxZFfbEgoOmjV13	Grupo Nzinga	20	2289	https://i.scdn.co/image/ab67616d0000b273aaa202ad9518e90f1f2e0ae5
+4Lm0pUvmisUHMdoky5ch2I	Apocalyptica	58	876628	https://i.scdn.co/image/ab6761610000e5eb7526751c3a833aac58be50aa
+1MXZ0hsGic96dWRDKwAwdr	Tyla Yaweh	61	476910	https://i.scdn.co/image/ab6761610000e5eb05565ec0dfa28e5372a48c2d
+2o5jDhtHVPhrJdv3cEQ99Z	Tiësto	0	0	
+6DgP9otnZw5z6daOntINxp	Joel Corry	0	0	
+6M2wZ9GZgrQXHCFfjv46we	Dua Lipa	0	0	
+6i392l38cR3uBPF0DbNs7S	Quality Control	0	0	
+4o0pNHbyj36LPvukNqEug0	The Maine	0	0	
+77AiFEVeAVj2ORpC85QVJs	Steve Aoki	0	0	
+0C8ZW7ezQVs4URX5aX7Kqx	Selena Gomez	0	0	
+5K4W6rqBFWDnAN6FQUkS6x	Kanye West	0	0	
+2kCcBybjl3SAtIcwdWpUe3	Lil Peep	0	0	
+3XV0lFzNs8BCTwhJTcMiBr	Blue Ivy	0	0	
+0u18Cq5stIQLUoIaULzDmA	DROELOE	0	0	
+4mPPxTpWqDR5rmOrTOh4nk	Equipto	0	0	
+7G6BVdBZ9lTjGEH37zbxmA	Mestre Recruta	0	0	
+4nDoRrQiYLoBzwC5BhVJzF	Camila Cabello	0	0	
+3wcj11K77LjEY1PkEazffa	Burna Boy	0	0	
+1RyvyyTE3xzB2ZywiAwp0i	Future	0	0	
+4kEcRrHPFKoSlsHIhuCN2f	Mestre Capu	0	0	
+1EI0NtLHoh9KBziYCeN1vM	Rhiannon Giddens	0	0	
+4yYYCSCDUTypErQMZv5iSg	Ray Vaughn	0	0	
+5h6l7v8Ecxw1BKVBLrjFfE	Mestre Pernalonga	0	0	
+5zfEatKLDdRkgbw6sdLBAQ	Octavian	0	0	
+39XT9gMoNmMCOlvTTR273m	K-Trap	0	0	
+3tVQdUvClmAT7URs9V3rsp	Wizkid	0	0	
+3NbqBIc16CNAe5nYSmHR3p	JAE5	0	0	
+20gsENnposVs2I4rQ5kvrf	Sam Feldt	0	0	
+1IueXOQyABrMOprrzwQJWN	Sigala	0	0	
+5pUo3fmmHT8bhCyHE52hA6	Liam Payne	0	0	
+7FngGIEGgN3Iwauw1MvO4P	nothing,nowhere.	0	0	
+70TsVY28EcEUYSGG5Yw7mp	Sam Tinnesz	0	0	
+4NHQUGzhtTLFvgF5SZesLK	Tove Lo	0	0	
+2d9LRvQJnAXRijqIJDDs2K	Emicida	0	0	
+3o2dn2O0FCVsWDFSh8qxgG	Sabaton	0	0	
+7mX72Bq2iXNr8fZdu23fQL	Boslen	0	0	
 \.
 
 
@@ -1647,612 +2147,612 @@ COPY public.artists_genres (id, artist_id, genre) FROM stdin;
 50	1Xyo4u8uXC1ZmMpatF05PJ	canadian contemporary r&b
 51	1Xyo4u8uXC1ZmMpatF05PJ	canadian pop
 52	1Xyo4u8uXC1ZmMpatF05PJ	pop
-53	7CyeXFnOrfC1N6z4naIpgo	brill building pop
-54	7CyeXFnOrfC1N6z4naIpgo	classic girl group
-55	7CyeXFnOrfC1N6z4naIpgo	soul
-56	55VydwMyCuGcavwPuhutPL	post-hardcore
-57	55VydwMyCuGcavwPuhutPL	screamo
-58	08ct2eZF5lUPdJpHwNKWof	mellow gold
-59	08ct2eZF5lUPdJpHwNKWof	neo mellow
-60	08ct2eZF5lUPdJpHwNKWof	pop rock
-61	08ct2eZF5lUPdJpHwNKWof	rock
-62	08ct2eZF5lUPdJpHwNKWof	singer-songwriter
-63	37w38cCSGgKLdayTRjna4W	alternative rock
-64	37w38cCSGgKLdayTRjna4W	art pop
-65	37w38cCSGgKLdayTRjna4W	dream pop
-66	37w38cCSGgKLdayTRjna4W	melancholia
-67	37w38cCSGgKLdayTRjna4W	rock
-68	37w38cCSGgKLdayTRjna4W	shoegaze
-69	37w38cCSGgKLdayTRjna4W	slowcore
-70	4bthk9UfsYUYdcFyqxmSUU	new romantic
-71	4bthk9UfsYUYdcFyqxmSUU	new wave
-72	4bthk9UfsYUYdcFyqxmSUU	new wave pop
-73	4bthk9UfsYUYdcFyqxmSUU	permanent wave
-74	4bthk9UfsYUYdcFyqxmSUU	sophisti-pop
-75	4bthk9UfsYUYdcFyqxmSUU	synthpop
-76	4pejUc4iciQfgdX6OKulQn	alternative metal
-77	4pejUc4iciQfgdX6OKulQn	alternative rock
-78	4pejUc4iciQfgdX6OKulQn	blues rock
-79	4pejUc4iciQfgdX6OKulQn	modern rock
-80	4pejUc4iciQfgdX6OKulQn	nu metal
-81	4pejUc4iciQfgdX6OKulQn	palm desert scene
-82	4pejUc4iciQfgdX6OKulQn	rock
-83	4pejUc4iciQfgdX6OKulQn	stoner metal
-84	4pejUc4iciQfgdX6OKulQn	stoner rock
-85	1eClJfHLoDI4rZe5HxzBFv	australian rock
-86	1eClJfHLoDI4rZe5HxzBFv	classic rock
-87	1eClJfHLoDI4rZe5HxzBFv	dance rock
-88	1eClJfHLoDI4rZe5HxzBFv	funk rock
-89	1eClJfHLoDI4rZe5HxzBFv	mellow gold
-90	1eClJfHLoDI4rZe5HxzBFv	new romantic
-91	1eClJfHLoDI4rZe5HxzBFv	new wave
-92	1eClJfHLoDI4rZe5HxzBFv	new wave pop
-93	1eClJfHLoDI4rZe5HxzBFv	pop rock
-94	1eClJfHLoDI4rZe5HxzBFv	rock
-95	1eClJfHLoDI4rZe5HxzBFv	soft rock
-96	2iul6etLF5hjjpxo43rzz7	alternative country
-97	2iul6etLF5hjjpxo43rzz7	new americana
-98	73sIBHcqh3Z3NyqHKZ7FOL	atl hip hop
-99	73sIBHcqh3Z3NyqHKZ7FOL	hip hop
-100	73sIBHcqh3Z3NyqHKZ7FOL	pop
-101	73sIBHcqh3Z3NyqHKZ7FOL	rap
-102	4V8LLVI7PbaPR0K2TGSxFF	hip hop
-103	4V8LLVI7PbaPR0K2TGSxFF	rap
-104	3oDbviiivRWhXwIE8hxkVV	baroque pop
-105	3oDbviiivRWhXwIE8hxkVV	brill building pop
-106	3oDbviiivRWhXwIE8hxkVV	classic rock
-107	3oDbviiivRWhXwIE8hxkVV	psychedelic rock
-108	3oDbviiivRWhXwIE8hxkVV	rock
-109	3oDbviiivRWhXwIE8hxkVV	sunshine pop
-110	6loBF9iQdE11WSX29fNKqY	mellow gold
-111	6loBF9iQdE11WSX29fNKqY	new romantic
-112	6loBF9iQdE11WSX29fNKqY	new wave
-113	6loBF9iQdE11WSX29fNKqY	new wave pop
-114	6loBF9iQdE11WSX29fNKqY	soft rock
-115	6loBF9iQdE11WSX29fNKqY	synthpop
-116	7guDJrEfX3qb6FEbdPA5qi	funk
-117	7guDJrEfX3qb6FEbdPA5qi	indie r&b
-118	7guDJrEfX3qb6FEbdPA5qi	motown
-119	7guDJrEfX3qb6FEbdPA5qi	quiet storm
-120	7guDJrEfX3qb6FEbdPA5qi	soul
-121	0YHgnSkV3S5mvSSCTRWDi5	deathgrass
-122	57bUPid8xztkieZfS7OlEV	brill building pop
-123	57bUPid8xztkieZfS7OlEV	classic girl group
-124	57bUPid8xztkieZfS7OlEV	disco
-125	57bUPid8xztkieZfS7OlEV	funk
-126	57bUPid8xztkieZfS7OlEV	motown
-127	57bUPid8xztkieZfS7OlEV	quiet storm
-128	57bUPid8xztkieZfS7OlEV	soul
-129	0X380XXQSNBYuleKzav5UO	alternative metal
-130	0X380XXQSNBYuleKzav5UO	alternative rock
-131	0X380XXQSNBYuleKzav5UO	cyberpunk
-132	0X380XXQSNBYuleKzav5UO	electronic rock
-133	0X380XXQSNBYuleKzav5UO	industrial
-134	0X380XXQSNBYuleKzav5UO	industrial metal
-135	0X380XXQSNBYuleKzav5UO	industrial rock
-136	0X380XXQSNBYuleKzav5UO	nu metal
-137	0X380XXQSNBYuleKzav5UO	rock
-138	5eIbEEQnDM8yuDVB0bimSP	bass trap
-139	5eIbEEQnDM8yuDVB0bimSP	edm
-140	5eIbEEQnDM8yuDVB0bimSP	electro house
-141	5eIbEEQnDM8yuDVB0bimSP	electronic trap
-142	5eIbEEQnDM8yuDVB0bimSP	electropop
-143	5eIbEEQnDM8yuDVB0bimSP	pop dance
-144	5eIbEEQnDM8yuDVB0bimSP	vapor twitch
-145	3pkmfqaBNsMqnXus05PNfP	alternative hip hop
-146	3pkmfqaBNsMqnXus05PNfP	hip hop
-147	3pkmfqaBNsMqnXus05PNfP	turntablism
-148	20wkVLutqVOYrc0kxFs7rA	canadian contemporary r&b
-149	20wkVLutqVOYrc0kxFs7rA	pop
-150	20wkVLutqVOYrc0kxFs7rA	r&b
-151	1mFX1QlezK1lNPKQJkhwWb	boy band
-152	1mFX1QlezK1lNPKQJkhwWb	contemporary r&b
-153	1mFX1QlezK1lNPKQJkhwWb	new jack swing
-154	1mFX1QlezK1lNPKQJkhwWb	quiet storm
-155	1mFX1QlezK1lNPKQJkhwWb	r&b
-156	1mFX1QlezK1lNPKQJkhwWb	urban contemporary
-157	0VbDAlm2KUlKI5UhXRBKWp	indie soul
-158	0VbDAlm2KUlKI5UhXRBKWp	vapor soul
-159	7KGqvFukcZRbQ7YFsYrgPa	soft rock
-160	6PEMFpe3PTOksdV4ZXUpbE	hip hop
-161	6PEMFpe3PTOksdV4ZXUpbE	indie soul
-162	6PEMFpe3PTOksdV4ZXUpbE	neo soul
-163	6PEMFpe3PTOksdV4ZXUpbE	underground hip hop
-164	5wFXmYsg3KFJ8BDsQudJ4f	indie rock
-165	2ooIqOf4X2uz4mMptXCtie	alternative rock
-166	2ooIqOf4X2uz4mMptXCtie	anti-folk
-167	2ooIqOf4X2uz4mMptXCtie	chamber pop
-168	2ooIqOf4X2uz4mMptXCtie	elephant 6
-169	2ooIqOf4X2uz4mMptXCtie	indie pop
-170	2ooIqOf4X2uz4mMptXCtie	indie rock
-171	2ooIqOf4X2uz4mMptXCtie	lo-fi
-172	1KP6TWI40m7p3QBTU6u2xo	modern rock
-173	1KP6TWI40m7p3QBTU6u2xo	pop
-174	1MIe1z4RdqLqHSJsb7EBMm	indie pop
-175	1MIe1z4RdqLqHSJsb7EBMm	indie rock
-176	1MIe1z4RdqLqHSJsb7EBMm	kc indie
-177	1MIe1z4RdqLqHSJsb7EBMm	modern rock
-178	4l1cKWYW591xnwEGxpUg3J	alternative dance
-179	4l1cKWYW591xnwEGxpUg3J	electropop
-180	4l1cKWYW591xnwEGxpUg3J	indie rock
-181	4l1cKWYW591xnwEGxpUg3J	indietronica
-182	4l1cKWYW591xnwEGxpUg3J	modern rock
-183	4l1cKWYW591xnwEGxpUg3J	new rave
-184	4l1cKWYW591xnwEGxpUg3J	swedish electropop
-185	4l1cKWYW591xnwEGxpUg3J	swedish indie pop
-186	4l1cKWYW591xnwEGxpUg3J	swedish synthpop
-187	1fZpYWNWdL5Z3wrDtISFUH	austin americana
-188	1fZpYWNWdL5Z3wrDtISFUH	austindie
-189	1fZpYWNWdL5Z3wrDtISFUH	indie folk
-190	1fZpYWNWdL5Z3wrDtISFUH	new americana
-191	1fZpYWNWdL5Z3wrDtISFUH	stomp and holler
-192	0AkmSuTOzM2pNCIOSP8ziv	country rap
-193	3dv4Q4q3LWOnbLJnC6GgTY	bedroom pop
-194	60df5JBRRPcnSpsIMxxwQm	classic soul
-195	60df5JBRRPcnSpsIMxxwQm	memphis soul
-196	60df5JBRRPcnSpsIMxxwQm	soul
-197	60df5JBRRPcnSpsIMxxwQm	soul blues
-198	60df5JBRRPcnSpsIMxxwQm	southern soul
-199	3JaAGmSTpJK35DqWrDUzBz	album rock
-200	3JaAGmSTpJK35DqWrDUzBz	classic rock
-201	3JaAGmSTpJK35DqWrDUzBz	classic uk pop
-202	3JaAGmSTpJK35DqWrDUzBz	glam rock
-203	3JaAGmSTpJK35DqWrDUzBz	hard rock
-204	3JaAGmSTpJK35DqWrDUzBz	rock
-205	3RGLhK1IP9jnYFH4BRFJBS	classic rock
-206	3RGLhK1IP9jnYFH4BRFJBS	permanent wave
-207	3RGLhK1IP9jnYFH4BRFJBS	punk
-208	3RGLhK1IP9jnYFH4BRFJBS	rock
-209	0oSGxfWSnnOXhD2fKuz2Gy	art rock
-210	0oSGxfWSnnOXhD2fKuz2Gy	classic rock
-211	0oSGxfWSnnOXhD2fKuz2Gy	glam rock
-212	0oSGxfWSnnOXhD2fKuz2Gy	permanent wave
-213	0oSGxfWSnnOXhD2fKuz2Gy	rock
-214	7lzordPuZEXxwt9aoVZYmG	album rock
-215	7lzordPuZEXxwt9aoVZYmG	classic rock
-216	7lzordPuZEXxwt9aoVZYmG	dance rock
-217	7lzordPuZEXxwt9aoVZYmG	hard rock
-218	7lzordPuZEXxwt9aoVZYmG	mellow gold
-219	7lzordPuZEXxwt9aoVZYmG	new romantic
-220	7lzordPuZEXxwt9aoVZYmG	new wave
-221	7lzordPuZEXxwt9aoVZYmG	new wave pop
-222	7lzordPuZEXxwt9aoVZYmG	rock
-223	7lzordPuZEXxwt9aoVZYmG	soft rock
-224	33EUXrFKGjpUSGacqEHhU4	classic rock
-225	33EUXrFKGjpUSGacqEHhU4	glam rock
-226	33EUXrFKGjpUSGacqEHhU4	new wave
-227	33EUXrFKGjpUSGacqEHhU4	permanent wave
-228	33EUXrFKGjpUSGacqEHhU4	post-punk
-229	33EUXrFKGjpUSGacqEHhU4	protopunk
-230	33EUXrFKGjpUSGacqEHhU4	punk
-231	33EUXrFKGjpUSGacqEHhU4	rock
-232	5aBEGOeWQCJfptic9xyaAb	dark wave
-233	5aBEGOeWQCJfptic9xyaAb	gothic rock
-234	5aBEGOeWQCJfptic9xyaAb	industrial
-235	5aBEGOeWQCJfptic9xyaAb	industrial rock
-236	5aBEGOeWQCJfptic9xyaAb	new romantic
-237	5aBEGOeWQCJfptic9xyaAb	new wave
-238	5aBEGOeWQCJfptic9xyaAb	post-punk
-239	5aBEGOeWQCJfptic9xyaAb	synthpop
-240	5aBEGOeWQCJfptic9xyaAb	uk post-punk
-241	2ZfogSsOWP4mVfEqfpLXCt	alternative rock
-242	2ZfogSsOWP4mVfEqfpLXCt	australian rock
-243	2ZfogSsOWP4mVfEqfpLXCt	dream pop
-244	2ZfogSsOWP4mVfEqfpLXCt	new romantic
-245	2ZfogSsOWP4mVfEqfpLXCt	new wave
-246	2ZfogSsOWP4mVfEqfpLXCt	pop rock
-247	2ZfogSsOWP4mVfEqfpLXCt	post-punk
-248	3gdbcIdNypBsYNu3iiCjtN	art rock
-249	3gdbcIdNypBsYNu3iiCjtN	dance rock
-250	3gdbcIdNypBsYNu3iiCjtN	new romantic
-251	3gdbcIdNypBsYNu3iiCjtN	new wave
-252	3gdbcIdNypBsYNu3iiCjtN	new wave pop
-253	3gdbcIdNypBsYNu3iiCjtN	permanent wave
-254	3gdbcIdNypBsYNu3iiCjtN	post-punk
-255	3gdbcIdNypBsYNu3iiCjtN	rock
-256	3gdbcIdNypBsYNu3iiCjtN	zolo
-257	0rpMdBzQXf7aYRnu5fDBJy	acoustic punk
-258	0rpMdBzQXf7aYRnu5fDBJy	alternative rock
-259	0rpMdBzQXf7aYRnu5fDBJy	pop rock
-260	0rpMdBzQXf7aYRnu5fDBJy	punk
-261	0rpMdBzQXf7aYRnu5fDBJy	rock
-262	3yY2gUcIsjMr8hjo51PoJ8	madchester
-263	3yY2gUcIsjMr8hjo51PoJ8	new wave
-264	3yY2gUcIsjMr8hjo51PoJ8	permanent wave
-265	3yY2gUcIsjMr8hjo51PoJ8	rock
-266	3yY2gUcIsjMr8hjo51PoJ8	uk post-punk
-267	0Zy4ncr8h1jd7Nzr9946fD	gothic rock
-268	0Zy4ncr8h1jd7Nzr9946fD	industrial
-269	0Zy4ncr8h1jd7Nzr9946fD	industrial rock
-270	0Zy4ncr8h1jd7Nzr9946fD	new romantic
-271	0Zy4ncr8h1jd7Nzr9946fD	new wave
-272	0Zy4ncr8h1jd7Nzr9946fD	post-punk
-273	0Zy4ncr8h1jd7Nzr9946fD	uk post-punk
-274	3fhOTtm0LBJ3Ojn4hIljLo	art rock
-275	3fhOTtm0LBJ3Ojn4hIljLo	classic rock
-276	3fhOTtm0LBJ3Ojn4hIljLo	glam rock
-277	3fhOTtm0LBJ3Ojn4hIljLo	melancholia
-278	3fhOTtm0LBJ3Ojn4hIljLo	mellow gold
-279	3fhOTtm0LBJ3Ojn4hIljLo	new romantic
-280	3fhOTtm0LBJ3Ojn4hIljLo	new wave
-281	3fhOTtm0LBJ3Ojn4hIljLo	new wave pop
-282	3fhOTtm0LBJ3Ojn4hIljLo	rock
-283	3fhOTtm0LBJ3Ojn4hIljLo	soft rock
-284	3fhOTtm0LBJ3Ojn4hIljLo	sophisti-pop
-285	4BFMTELQyWJU1SwqcXMBm3	alternative rock
-286	4BFMTELQyWJU1SwqcXMBm3	classic rock
-287	4BFMTELQyWJU1SwqcXMBm3	detroit rock
-288	4BFMTELQyWJU1SwqcXMBm3	garage rock
-289	4BFMTELQyWJU1SwqcXMBm3	new wave
-290	4BFMTELQyWJU1SwqcXMBm3	permanent wave
-291	4BFMTELQyWJU1SwqcXMBm3	post-punk
-292	4BFMTELQyWJU1SwqcXMBm3	protopunk
-293	4BFMTELQyWJU1SwqcXMBm3	punk
-294	4BFMTELQyWJU1SwqcXMBm3	punk blues
-295	4BFMTELQyWJU1SwqcXMBm3	rock
-296	4JfFdF9Row7UXtdsKtT6tc	funk
-297	4JfFdF9Row7UXtdsKtT6tc	soul
-298	0EdvGhlC1FkGItLOWQzG4J	alternative rock
-299	0EdvGhlC1FkGItLOWQzG4J	reggae fusion
-300	0EdvGhlC1FkGItLOWQzG4J	ska mexicano
-301	0EdvGhlC1FkGItLOWQzG4J	ska punk
-302	00FQb4jTyendYWaN8pK0wa	art pop
-303	00FQb4jTyendYWaN8pK0wa	pop
-304	462T0buQ5ScBUQCRpodDRf	funk
-305	462T0buQ5ScBUQCRpodDRf	soul
-306	3jK9MiCrA42lLAdMGUZpwa	escape room
-307	3qnGvpP8Yth1AqSBMqON5x	modern blues
-308	13ubrt8QOOCPljQ2FL1Kca	east coast hip hop
-309	13ubrt8QOOCPljQ2FL1Kca	hip hop
-310	13ubrt8QOOCPljQ2FL1Kca	rap
-311	6QRlkjrHz5A62mqeNZz7t3	indie surf
-312	6QRlkjrHz5A62mqeNZz7t3	neo-psychedelic
-313	5CuU6SRJjbbZL926nSGGxX	abstract hip hop
-314	5CuU6SRJjbbZL926nSGGxX	alternative hip hop
-315	5CuU6SRJjbbZL926nSGGxX	escape room
-316	6pmxr66tMAePxzOLfjGNcX	albuquerque indie
-317	6pmxr66tMAePxzOLfjGNcX	baroque pop
-318	6pmxr66tMAePxzOLfjGNcX	chamber pop
-319	6pmxr66tMAePxzOLfjGNcX	indie rock
-320	6pmxr66tMAePxzOLfjGNcX	stomp and holler
-321	3XHO7cRUPCLOr6jwp8vsx5	indie rock
-322	3XHO7cRUPCLOr6jwp8vsx5	modern rock
-323	6eU0jV2eEZ8XTM7EmlguK6	retro soul
-324	2h93pZq0e7k5yf4dywlkpM	hip hop
-325	2h93pZq0e7k5yf4dywlkpM	lgbtq+ hip hop
-326	2h93pZq0e7k5yf4dywlkpM	neo soul
-327	2h93pZq0e7k5yf4dywlkpM	pop
-328	3z6Gk257P9jNcZbBXJNX5i	indie pop
-329	3z6Gk257P9jNcZbBXJNX5i	lilith
-330	3z6Gk257P9jNcZbBXJNX5i	piano rock
-331	74oJ4qxwOZvX6oSsu1DGnw	album rock
-332	74oJ4qxwOZvX6oSsu1DGnw	art rock
-333	74oJ4qxwOZvX6oSsu1DGnw	blues rock
-334	74oJ4qxwOZvX6oSsu1DGnw	classic rock
-335	74oJ4qxwOZvX6oSsu1DGnw	folk rock
-336	74oJ4qxwOZvX6oSsu1DGnw	hard rock
-337	74oJ4qxwOZvX6oSsu1DGnw	psychedelic rock
-338	74oJ4qxwOZvX6oSsu1DGnw	rock
-339	74oJ4qxwOZvX6oSsu1DGnw	roots rock
-340	74oJ4qxwOZvX6oSsu1DGnw	supergroup
-341	0XSqX2PB3C5dTMv7SZaxSm	alternative rock
-342	0XSqX2PB3C5dTMv7SZaxSm	canadian indie
-343	0XSqX2PB3C5dTMv7SZaxSm	indie rock
-344	0XSqX2PB3C5dTMv7SZaxSm	modern rock
-345	0XSqX2PB3C5dTMv7SZaxSm	quebec indie
-346	0XSqX2PB3C5dTMv7SZaxSm	stomp and holler
-347	08GQAI4eElDnROBrJRGE0X	album rock
-348	08GQAI4eElDnROBrJRGE0X	classic rock
-349	08GQAI4eElDnROBrJRGE0X	rock
-350	08GQAI4eElDnROBrJRGE0X	soft rock
-351	08GQAI4eElDnROBrJRGE0X	yacht rock
-352	6l3HvQ5sa6mXTsMTB19rO5	conscious hip hop
-353	6l3HvQ5sa6mXTsMTB19rO5	hip hop
-354	6l3HvQ5sa6mXTsMTB19rO5	north carolina hip hop
-355	6l3HvQ5sa6mXTsMTB19rO5	rap
-356	6RZUqkomCmb8zCRqc9eznB	alternative rock
-357	6RZUqkomCmb8zCRqc9eznB	britpop
-358	6RZUqkomCmb8zCRqc9eznB	permanent wave
-359	6RZUqkomCmb8zCRqc9eznB	pop rock
-360	6RZUqkomCmb8zCRqc9eznB	rock
-361	0fA0VVWsXO9YnASrzqfmYu	hip hop
-362	0fA0VVWsXO9YnASrzqfmYu	ohio hip hop
-363	0fA0VVWsXO9YnASrzqfmYu	rap
-364	6ZK2nrW8aCTg8Bid7I7N10	dark pop
-365	6ZK2nrW8aCTg8Bid7I7N10	doomgaze
-366	6ZK2nrW8aCTg8Bid7I7N10	gaian doom
-367	6ZK2nrW8aCTg8Bid7I7N10	sacramento indie
-368	6TVVIyd0fsRDGg6WzHKyTP	funk
-369	6TVVIyd0fsRDGg6WzHKyTP	soul
-370	6tkrcmVfWoHC4WOhE7IDyq	new americana
-371	6tkrcmVfWoHC4WOhE7IDyq	roots americana
-372	600GgDUq9kzGJgNIrVsWfz	indie surf
-373	2jgPkn6LuUazBoBk6vvjh5	baroque pop
-374	2jgPkn6LuUazBoBk6vvjh5	british invasion
-375	2jgPkn6LuUazBoBk6vvjh5	bubblegum pop
-376	2jgPkn6LuUazBoBk6vvjh5	classic rock
-377	2jgPkn6LuUazBoBk6vvjh5	folk rock
-378	2jgPkn6LuUazBoBk6vvjh5	psychedelic rock
-379	2jgPkn6LuUazBoBk6vvjh5	rock
-380	6v8FB84lnmJs434UJf2Mrm	canadian singer-songwriter
-381	6v8FB84lnmJs434UJf2Mrm	classic canadian rock
-382	6v8FB84lnmJs434UJf2Mrm	classic rock
-383	6v8FB84lnmJs434UJf2Mrm	mellow gold
-384	6v8FB84lnmJs434UJf2Mrm	permanent wave
-385	6v8FB84lnmJs434UJf2Mrm	rock
-386	6v8FB84lnmJs434UJf2Mrm	roots rock
-387	6v8FB84lnmJs434UJf2Mrm	singer-songwriter
-388	3QTDHixorJelOLxoxcjqGx	alternative r&b
-389	3QTDHixorJelOLxoxcjqGx	hip hop
-390	3QTDHixorJelOLxoxcjqGx	indie soul
-391	3QTDHixorJelOLxoxcjqGx	la pop
-392	3QTDHixorJelOLxoxcjqGx	neo soul
-393	3QTDHixorJelOLxoxcjqGx	r&b
-394	3QTDHixorJelOLxoxcjqGx	rap
-395	77SW9BnxLY8rJ0RciFqkHh	modern alternative rock
-396	77SW9BnxLY8rJ0RciFqkHh	modern rock
-397	77SW9BnxLY8rJ0RciFqkHh	pop
-398	77SW9BnxLY8rJ0RciFqkHh	shimmer pop
-399	5NYEE4kgrEZPlM3DxUsTyc	la indie
-400	75dQReiBOHN37fQgWQrIAJ	indie pop
-401	75dQReiBOHN37fQgWQrIAJ	indie rock
-402	75dQReiBOHN37fQgWQrIAJ	la indie
-403	75dQReiBOHN37fQgWQrIAJ	modern rock
-404	75dQReiBOHN37fQgWQrIAJ	stomp and holler
-405	2pAajGWerK3ghwToNWFENS	alternative metal
-406	2pAajGWerK3ghwToNWFENS	alternative rock
-407	2pAajGWerK3ghwToNWFENS	industrial metal
-408	2pAajGWerK3ghwToNWFENS	industrial rock
-409	2pAajGWerK3ghwToNWFENS	nu metal
-410	22bE4uQ6baNwSHPVcDxLCe	british invasion
-411	22bE4uQ6baNwSHPVcDxLCe	classic rock
-412	22bE4uQ6baNwSHPVcDxLCe	rock
-413	5a2EaR3hamoenG9rDuVn8j	funk
-414	5a2EaR3hamoenG9rDuVn8j	funk rock
-415	5a2EaR3hamoenG9rDuVn8j	minneapolis sound
-416	5a2EaR3hamoenG9rDuVn8j	synth funk
-417	6Ghvu1VvMGScGpOUJBAHNH	alternative metal
-418	6Ghvu1VvMGScGpOUJBAHNH	nu metal
-419	6Ghvu1VvMGScGpOUJBAHNH	rap metal
-420	6Ghvu1VvMGScGpOUJBAHNH	rock
-421	6Ghvu1VvMGScGpOUJBAHNH	sacramento indie
-422	4n0gvapwYbRpzU5Ov68B6P	garage pop
-423	4n0gvapwYbRpzU5Ov68B6P	garage rock
-424	4n0gvapwYbRpzU5Ov68B6P	indie garage rock
-425	4n0gvapwYbRpzU5Ov68B6P	punk blues
-426	4uSftVc3FPWe6RJuMZNEe9	baroque pop
-427	4uSftVc3FPWe6RJuMZNEe9	chamber pop
-428	4uSftVc3FPWe6RJuMZNEe9	chicago indie
-429	4uSftVc3FPWe6RJuMZNEe9	indie folk
-430	4uSftVc3FPWe6RJuMZNEe9	indie pop
-431	4uSftVc3FPWe6RJuMZNEe9	indie rock
-432	4uSftVc3FPWe6RJuMZNEe9	melancholia
-433	4uSftVc3FPWe6RJuMZNEe9	stomp and holler
-434	6AWdGez5g1jxpfl9XD4wI3	trap soul
-435	6AWdGez5g1jxpfl9XD4wI3	underground hip hop
-436	7HeVXdOdMhLslVputGTZFQ	new weird america
-437	7HeVXdOdMhLslVputGTZFQ	toronto indie
-438	0V7uVrIYr4FwFvUN9S4kYr	chicago indie
-439	0V7uVrIYr4FwFvUN9S4kYr	funk
-440	6hnWRPzGGKiapVX1UCdEAC	adult standards
-441	6hnWRPzGGKiapVX1UCdEAC	brill building pop
-442	6hnWRPzGGKiapVX1UCdEAC	classic soul
-443	6hnWRPzGGKiapVX1UCdEAC	rock-and-roll
-444	6hnWRPzGGKiapVX1UCdEAC	soul
-445	2FRXiAz5Uz78LLLSwEUhLt	indie pop
-446	7ITd48RbLVpUfheE7B86o2	alternative rock
-447	7ITd48RbLVpUfheE7B86o2	anti-folk
-448	7ITd48RbLVpUfheE7B86o2	baroque pop
-449	7ITd48RbLVpUfheE7B86o2	canadian indie
-450	7ITd48RbLVpUfheE7B86o2	chamber pop
-451	7ITd48RbLVpUfheE7B86o2	indie folk
-452	7ITd48RbLVpUfheE7B86o2	indie pop
-453	7ITd48RbLVpUfheE7B86o2	indie rock
-454	7ITd48RbLVpUfheE7B86o2	modern folk rock
-455	7ITd48RbLVpUfheE7B86o2	modern rock
-456	7ITd48RbLVpUfheE7B86o2	pop rock
-457	7ITd48RbLVpUfheE7B86o2	stomp and holler
-458	1yAwtBaoHLEDWAnWR87hBT	alternative rock
-459	1yAwtBaoHLEDWAnWR87hBT	double drumming
-460	1yAwtBaoHLEDWAnWR87hBT	indie rock
-461	1yAwtBaoHLEDWAnWR87hBT	modern rock
-462	1yAwtBaoHLEDWAnWR87hBT	rock
-463	1yAwtBaoHLEDWAnWR87hBT	washington indie
-464	6LufpoVlIYKQCu9Gjpk8B7	black americana
-465	6LufpoVlIYKQCu9Gjpk8B7	classic soul
-466	6LufpoVlIYKQCu9Gjpk8B7	funk
-467	6LufpoVlIYKQCu9Gjpk8B7	neo soul
-468	6LufpoVlIYKQCu9Gjpk8B7	retro soul
-469	6LufpoVlIYKQCu9Gjpk8B7	soul
-470	6LufpoVlIYKQCu9Gjpk8B7	southern soul
-471	2kGBy2WHvF0VdZyqiVCkDT	chamber pop
-472	2kGBy2WHvF0VdZyqiVCkDT	indie pop
-473	2kGBy2WHvF0VdZyqiVCkDT	indie rock
-474	68kEuyFKyqrdQQLLsmiatm	conscious hip hop
-475	68kEuyFKyqrdQQLLsmiatm	hip hop
-476	68kEuyFKyqrdQQLLsmiatm	rap
-477	68kEuyFKyqrdQQLLsmiatm	underground hip hop
-478	1hzfo8twXdOegF3xireCYs	german pop
-479	251UrhgNbMr15NLzQ2KyKq	deep new americana
-480	251UrhgNbMr15NLzQ2KyKq	indie folk
-481	251UrhgNbMr15NLzQ2KyKq	new americana
-482	251UrhgNbMr15NLzQ2KyKq	stomp and holler
-483	4DFhHyjvGYa9wxdHUjtDkc	alternative metal
-484	4DFhHyjvGYa9wxdHUjtDkc	alternative rock
-485	4DFhHyjvGYa9wxdHUjtDkc	nu metal
-486	4DFhHyjvGYa9wxdHUjtDkc	rap rock
-487	4DFhHyjvGYa9wxdHUjtDkc	rock
-488	4DFhHyjvGYa9wxdHUjtDkc	supergroup
-489	5IcR3N7QB1j6KBL8eImZ8m	gangster rap
-490	5IcR3N7QB1j6KBL8eImZ8m	hip hop
-491	5IcR3N7QB1j6KBL8eImZ8m	pop rap
-492	5IcR3N7QB1j6KBL8eImZ8m	rap
-493	5IcR3N7QB1j6KBL8eImZ8m	southern hip hop
-494	5IcR3N7QB1j6KBL8eImZ8m	trap
-495	5IcR3N7QB1j6KBL8eImZ8m	underground hip hop
-496	3D4qYDvoPn5cQxtBm4oseo	dreamo
-497	3D4qYDvoPn5cQxtBm4oseo	emo
-498	3D4qYDvoPn5cQxtBm4oseo	indie rock
-499	3D4qYDvoPn5cQxtBm4oseo	philly indie
-500	3D4qYDvoPn5cQxtBm4oseo	screamo
-501	3tJ9PkBOrG7hFkHeNM2tbw	axe
-502	3tJ9PkBOrG7hFkHeNM2tbw	brazilian percussion
-503	3tJ9PkBOrG7hFkHeNM2tbw	mpb
-504	3tJ9PkBOrG7hFkHeNM2tbw	pagode
-505	3tJ9PkBOrG7hFkHeNM2tbw	samba
-506	3tJ9PkBOrG7hFkHeNM2tbw	samba reggae
-507	2ApaG60P4r0yhBoDCGD8YG	alternative rock
-508	2ApaG60P4r0yhBoDCGD8YG	indie rock
-509	2ApaG60P4r0yhBoDCGD8YG	melancholia
-510	2ApaG60P4r0yhBoDCGD8YG	pop rock
-511	2ApaG60P4r0yhBoDCGD8YG	rock
-512	2ApaG60P4r0yhBoDCGD8YG	singer-songwriter
-513	6GEykX11lQqp92UVOQQCC7	alternative hip hop
-514	6GEykX11lQqp92UVOQQCC7	boom bap
-515	6GEykX11lQqp92UVOQQCC7	east coast hip hop
-516	6GEykX11lQqp92UVOQQCC7	hardcore hip hop
-517	6GEykX11lQqp92UVOQQCC7	hip hop
-518	6GEykX11lQqp92UVOQQCC7	jazz boom bap
-519	6GEykX11lQqp92UVOQQCC7	turntablism
-520	6GEykX11lQqp92UVOQQCC7	underground hip hop
-521	1anAI9P9iSzc9qzLv6AtHZ	indie pop
-522	1anAI9P9iSzc9qzLv6AtHZ	indie poptimism
-523	1anAI9P9iSzc9qzLv6AtHZ	indie rock
-524	1anAI9P9iSzc9qzLv6AtHZ	la indie
-525	1anAI9P9iSzc9qzLv6AtHZ	modern rock
-526	6zvul52xwTWzilBZl6BUbT	alternative rock
-527	6zvul52xwTWzilBZl6BUbT	boston rock
-528	6zvul52xwTWzilBZl6BUbT	modern rock
-529	6zvul52xwTWzilBZl6BUbT	permanent wave
-530	6zvul52xwTWzilBZl6BUbT	rock
-531	2bToe6WyGvADJftreuXh2K	funk
-532	2bToe6WyGvADJftreuXh2K	indie soul
-533	2bToe6WyGvADJftreuXh2K	soul
-534	432R46LaYsJZV2Gmc4jUV5	alternative rock
-535	432R46LaYsJZV2Gmc4jUV5	art rock
-536	432R46LaYsJZV2Gmc4jUV5	madchester
-537	432R46LaYsJZV2Gmc4jUV5	new wave
-538	432R46LaYsJZV2Gmc4jUV5	post-punk
-539	432R46LaYsJZV2Gmc4jUV5	rock
-540	432R46LaYsJZV2Gmc4jUV5	uk post-punk
-541	1PryMSya1JnSAlcwYawCxp	afrobeat
-542	1PryMSya1JnSAlcwYawCxp	brass band
-543	1PryMSya1JnSAlcwYawCxp	funk
-544	1PryMSya1JnSAlcwYawCxp	instrumental funk
-545	1PryMSya1JnSAlcwYawCxp	soul
-546	1nGqKVGfPPiVgxMdx8hYOI	deep new americana
-547	1nGqKVGfPPiVgxMdx8hYOI	portland indie
-548	1nGqKVGfPPiVgxMdx8hYOI	stomp and holler
-549	7FKTg75ADVMZgY3P9ZMRtH	indie pop
-550	7FKTg75ADVMZgY3P9ZMRtH	jacksonville indie
-551	7FKTg75ADVMZgY3P9ZMRtH	modern rock
-552	7bu3H8JO7d0UbMoVzbo70s	new wave
-553	7bu3H8JO7d0UbMoVzbo70s	permanent wave
-554	7bu3H8JO7d0UbMoVzbo70s	rock
-555	7bu3H8JO7d0UbMoVzbo70s	uk post-punk
-556	1SQRv42e4PjEYfPhS0Tk9E	album rock
-557	1SQRv42e4PjEYfPhS0Tk9E	art rock
-558	1SQRv42e4PjEYfPhS0Tk9E	british invasion
-559	1SQRv42e4PjEYfPhS0Tk9E	classic rock
-560	1SQRv42e4PjEYfPhS0Tk9E	folk rock
-561	1SQRv42e4PjEYfPhS0Tk9E	glam rock
-562	1SQRv42e4PjEYfPhS0Tk9E	mellow gold
-563	1SQRv42e4PjEYfPhS0Tk9E	protopunk
-564	1SQRv42e4PjEYfPhS0Tk9E	psychedelic rock
-565	1SQRv42e4PjEYfPhS0Tk9E	rock
-566	1SQRv42e4PjEYfPhS0Tk9E	singer-songwriter
-567	0oL26Dn9y761yfJgNb3vfu	indie folk
-568	0oL26Dn9y761yfJgNb3vfu	indie pop
-569	0oL26Dn9y761yfJgNb3vfu	indie rock
-570	0oL26Dn9y761yfJgNb3vfu	michigan indie
-571	0oL26Dn9y761yfJgNb3vfu	modern rock
-572	0oL26Dn9y761yfJgNb3vfu	stomp and holler
-573	0v6gOfGBclTSGu6agfXb23	canadian indie
-574	0v6gOfGBclTSGu6agfXb23	indie rock
-575	0v6gOfGBclTSGu6agfXb23	stomp and holler
-576	0v6gOfGBclTSGu6agfXb23	toronto indie
-577	0yNLKJebCb8Aueb54LYya3	alternative rock
-578	0yNLKJebCb8Aueb54LYya3	art rock
-579	0yNLKJebCb8Aueb54LYya3	dance rock
-580	0yNLKJebCb8Aueb54LYya3	madchester
-581	0yNLKJebCb8Aueb54LYya3	new romantic
-582	0yNLKJebCb8Aueb54LYya3	new wave
-583	0yNLKJebCb8Aueb54LYya3	new wave pop
-584	0yNLKJebCb8Aueb54LYya3	permanent wave
-585	0yNLKJebCb8Aueb54LYya3	pop rock
-586	0yNLKJebCb8Aueb54LYya3	post-punk
-587	0yNLKJebCb8Aueb54LYya3	rock
-588	0yNLKJebCb8Aueb54LYya3	synthpop
-589	0yNLKJebCb8Aueb54LYya3	uk post-punk
-590	4fXkvh05wFhuH77MfD4m9o	funk
-591	4fXkvh05wFhuH77MfD4m9o	retro soul
-592	4fXkvh05wFhuH77MfD4m9o	rock
-593	4fXkvh05wFhuH77MfD4m9o	roots rock
-594	2x9SpqnPi8rlE9pjHBwmSC	art punk
-595	2x9SpqnPi8rlE9pjHBwmSC	art rock
-596	2x9SpqnPi8rlE9pjHBwmSC	dance rock
-597	2x9SpqnPi8rlE9pjHBwmSC	funk rock
-598	2x9SpqnPi8rlE9pjHBwmSC	new wave
-599	2x9SpqnPi8rlE9pjHBwmSC	permanent wave
-600	2x9SpqnPi8rlE9pjHBwmSC	post-punk
-601	2x9SpqnPi8rlE9pjHBwmSC	rock
-602	2x9SpqnPi8rlE9pjHBwmSC	zolo
-603	4LG4Bs1Gadht7TCrMytQUO	albuquerque indie
-604	4LG4Bs1Gadht7TCrMytQUO	alternative rock
-605	4LG4Bs1Gadht7TCrMytQUO	indie pop
-606	4LG4Bs1Gadht7TCrMytQUO	indie rock
-607	4LG4Bs1Gadht7TCrMytQUO	modern rock
-608	4LG4Bs1Gadht7TCrMytQUO	portland indie
-609	4LG4Bs1Gadht7TCrMytQUO	stomp and holler
-610	1Tp7C6LzxZe9Mix6rn4zbI	deep new americana
-611	1Tp7C6LzxZe9Mix6rn4zbI	indie folk
-612	1Tp7C6LzxZe9Mix6rn4zbI	indie rock
-613	1Tp7C6LzxZe9Mix6rn4zbI	modern rock
-614	1Tp7C6LzxZe9Mix6rn4zbI	stomp and holler
-615	7foyQbi7GKriLiv1GPVEwt	deep new americana
-616	7foyQbi7GKriLiv1GPVEwt	indie folk
-617	7foyQbi7GKriLiv1GPVEwt	new americana
-618	7foyQbi7GKriLiv1GPVEwt	south carolina indie
-619	7foyQbi7GKriLiv1GPVEwt	stomp and holler
-620	6m4tJuf67jwVSvMP34hrck	funk
-621	6m4tJuf67jwVSvMP34hrck	neo soul
-622	1nJvji2KIlWSseXRSlNYsC	alternative rock
-623	1nJvji2KIlWSseXRSlNYsC	art rock
-624	1nJvji2KIlWSseXRSlNYsC	classic rock
-625	1nJvji2KIlWSseXRSlNYsC	folk rock
-626	1nJvji2KIlWSseXRSlNYsC	melancholia
-627	1nJvji2KIlWSseXRSlNYsC	permanent wave
-628	1nJvji2KIlWSseXRSlNYsC	protopunk
-629	1nJvji2KIlWSseXRSlNYsC	psychedelic rock
-630	1nJvji2KIlWSseXRSlNYsC	rock
-631	32Ko3nL0210QAt14S3Rs4Y	indie folk
-632	32Ko3nL0210QAt14S3Rs4Y	indie pop
-633	32Ko3nL0210QAt14S3Rs4Y	indie poptimism
-634	32Ko3nL0210QAt14S3Rs4Y	indie rock
-635	32Ko3nL0210QAt14S3Rs4Y	modern rock
-636	32Ko3nL0210QAt14S3Rs4Y	stomp and holler
+53	7CyeXFnOrfC1N6z4naIpgo	adult standards
+54	7CyeXFnOrfC1N6z4naIpgo	brill building pop
+55	7CyeXFnOrfC1N6z4naIpgo	classic girl group
+56	7CyeXFnOrfC1N6z4naIpgo	soul
+57	55VydwMyCuGcavwPuhutPL	post-hardcore
+58	55VydwMyCuGcavwPuhutPL	screamo
+59	08ct2eZF5lUPdJpHwNKWof	mellow gold
+60	08ct2eZF5lUPdJpHwNKWof	neo mellow
+61	08ct2eZF5lUPdJpHwNKWof	pop rock
+62	08ct2eZF5lUPdJpHwNKWof	rock
+63	08ct2eZF5lUPdJpHwNKWof	singer-songwriter
+64	37w38cCSGgKLdayTRjna4W	alternative rock
+65	37w38cCSGgKLdayTRjna4W	art pop
+66	37w38cCSGgKLdayTRjna4W	dream pop
+67	37w38cCSGgKLdayTRjna4W	melancholia
+68	37w38cCSGgKLdayTRjna4W	rock
+69	37w38cCSGgKLdayTRjna4W	shoegaze
+70	37w38cCSGgKLdayTRjna4W	slowcore
+71	4bthk9UfsYUYdcFyqxmSUU	new romantic
+72	4bthk9UfsYUYdcFyqxmSUU	new wave
+73	4bthk9UfsYUYdcFyqxmSUU	new wave pop
+74	4bthk9UfsYUYdcFyqxmSUU	permanent wave
+75	4bthk9UfsYUYdcFyqxmSUU	sophisti-pop
+76	4bthk9UfsYUYdcFyqxmSUU	synthpop
+77	4pejUc4iciQfgdX6OKulQn	alternative metal
+78	4pejUc4iciQfgdX6OKulQn	alternative rock
+79	4pejUc4iciQfgdX6OKulQn	blues rock
+80	4pejUc4iciQfgdX6OKulQn	modern rock
+81	4pejUc4iciQfgdX6OKulQn	nu metal
+82	4pejUc4iciQfgdX6OKulQn	palm desert scene
+83	4pejUc4iciQfgdX6OKulQn	rock
+84	4pejUc4iciQfgdX6OKulQn	stoner metal
+85	4pejUc4iciQfgdX6OKulQn	stoner rock
+86	1eClJfHLoDI4rZe5HxzBFv	australian rock
+87	1eClJfHLoDI4rZe5HxzBFv	classic rock
+88	1eClJfHLoDI4rZe5HxzBFv	dance rock
+89	1eClJfHLoDI4rZe5HxzBFv	funk rock
+90	1eClJfHLoDI4rZe5HxzBFv	mellow gold
+91	1eClJfHLoDI4rZe5HxzBFv	new romantic
+92	1eClJfHLoDI4rZe5HxzBFv	new wave
+93	1eClJfHLoDI4rZe5HxzBFv	new wave pop
+94	1eClJfHLoDI4rZe5HxzBFv	pop rock
+95	1eClJfHLoDI4rZe5HxzBFv	rock
+96	1eClJfHLoDI4rZe5HxzBFv	soft rock
+97	2iul6etLF5hjjpxo43rzz7	alternative country
+98	2iul6etLF5hjjpxo43rzz7	new americana
+99	73sIBHcqh3Z3NyqHKZ7FOL	atl hip hop
+100	73sIBHcqh3Z3NyqHKZ7FOL	hip hop
+101	73sIBHcqh3Z3NyqHKZ7FOL	pop
+102	73sIBHcqh3Z3NyqHKZ7FOL	rap
+103	4V8LLVI7PbaPR0K2TGSxFF	hip hop
+104	4V8LLVI7PbaPR0K2TGSxFF	rap
+105	3oDbviiivRWhXwIE8hxkVV	baroque pop
+106	3oDbviiivRWhXwIE8hxkVV	brill building pop
+107	3oDbviiivRWhXwIE8hxkVV	classic rock
+108	3oDbviiivRWhXwIE8hxkVV	psychedelic rock
+109	3oDbviiivRWhXwIE8hxkVV	rock
+110	3oDbviiivRWhXwIE8hxkVV	sunshine pop
+111	6loBF9iQdE11WSX29fNKqY	mellow gold
+112	6loBF9iQdE11WSX29fNKqY	new romantic
+113	6loBF9iQdE11WSX29fNKqY	new wave
+114	6loBF9iQdE11WSX29fNKqY	new wave pop
+115	6loBF9iQdE11WSX29fNKqY	soft rock
+116	6loBF9iQdE11WSX29fNKqY	synthpop
+117	7guDJrEfX3qb6FEbdPA5qi	funk
+118	7guDJrEfX3qb6FEbdPA5qi	indie r&b
+119	7guDJrEfX3qb6FEbdPA5qi	motown
+120	7guDJrEfX3qb6FEbdPA5qi	quiet storm
+121	7guDJrEfX3qb6FEbdPA5qi	soul
+122	0YHgnSkV3S5mvSSCTRWDi5	deathgrass
+123	57bUPid8xztkieZfS7OlEV	brill building pop
+124	57bUPid8xztkieZfS7OlEV	classic girl group
+125	57bUPid8xztkieZfS7OlEV	disco
+126	57bUPid8xztkieZfS7OlEV	funk
+127	57bUPid8xztkieZfS7OlEV	motown
+128	57bUPid8xztkieZfS7OlEV	quiet storm
+129	57bUPid8xztkieZfS7OlEV	soul
+130	0X380XXQSNBYuleKzav5UO	alternative metal
+131	0X380XXQSNBYuleKzav5UO	alternative rock
+132	0X380XXQSNBYuleKzav5UO	cyberpunk
+133	0X380XXQSNBYuleKzav5UO	electronic rock
+134	0X380XXQSNBYuleKzav5UO	industrial
+135	0X380XXQSNBYuleKzav5UO	industrial metal
+136	0X380XXQSNBYuleKzav5UO	industrial rock
+137	0X380XXQSNBYuleKzav5UO	nu metal
+138	0X380XXQSNBYuleKzav5UO	rock
+139	5eIbEEQnDM8yuDVB0bimSP	bass trap
+140	5eIbEEQnDM8yuDVB0bimSP	edm
+141	5eIbEEQnDM8yuDVB0bimSP	electro house
+142	5eIbEEQnDM8yuDVB0bimSP	electronic trap
+143	5eIbEEQnDM8yuDVB0bimSP	electropop
+144	5eIbEEQnDM8yuDVB0bimSP	pop dance
+145	5eIbEEQnDM8yuDVB0bimSP	vapor twitch
+146	3pkmfqaBNsMqnXus05PNfP	alternative hip hop
+147	3pkmfqaBNsMqnXus05PNfP	hip hop
+148	3pkmfqaBNsMqnXus05PNfP	turntablism
+149	20wkVLutqVOYrc0kxFs7rA	canadian contemporary r&b
+150	20wkVLutqVOYrc0kxFs7rA	pop
+151	20wkVLutqVOYrc0kxFs7rA	r&b
+152	1mFX1QlezK1lNPKQJkhwWb	boy band
+153	1mFX1QlezK1lNPKQJkhwWb	contemporary r&b
+154	1mFX1QlezK1lNPKQJkhwWb	new jack swing
+155	1mFX1QlezK1lNPKQJkhwWb	quiet storm
+156	1mFX1QlezK1lNPKQJkhwWb	r&b
+157	1mFX1QlezK1lNPKQJkhwWb	urban contemporary
+158	0VbDAlm2KUlKI5UhXRBKWp	indie soul
+159	0VbDAlm2KUlKI5UhXRBKWp	vapor soul
+160	7KGqvFukcZRbQ7YFsYrgPa	soft rock
+161	6PEMFpe3PTOksdV4ZXUpbE	hip hop
+162	6PEMFpe3PTOksdV4ZXUpbE	indie soul
+163	6PEMFpe3PTOksdV4ZXUpbE	neo soul
+164	6PEMFpe3PTOksdV4ZXUpbE	underground hip hop
+165	5wFXmYsg3KFJ8BDsQudJ4f	indie rock
+166	2ooIqOf4X2uz4mMptXCtie	alternative rock
+167	2ooIqOf4X2uz4mMptXCtie	anti-folk
+168	2ooIqOf4X2uz4mMptXCtie	chamber pop
+169	2ooIqOf4X2uz4mMptXCtie	elephant 6
+170	2ooIqOf4X2uz4mMptXCtie	indie pop
+171	2ooIqOf4X2uz4mMptXCtie	indie rock
+172	2ooIqOf4X2uz4mMptXCtie	lo-fi
+173	1KP6TWI40m7p3QBTU6u2xo	modern rock
+174	1KP6TWI40m7p3QBTU6u2xo	pop
+175	1MIe1z4RdqLqHSJsb7EBMm	indie pop
+176	1MIe1z4RdqLqHSJsb7EBMm	indie rock
+177	1MIe1z4RdqLqHSJsb7EBMm	kc indie
+178	1MIe1z4RdqLqHSJsb7EBMm	modern rock
+179	4l1cKWYW591xnwEGxpUg3J	alternative dance
+180	4l1cKWYW591xnwEGxpUg3J	electropop
+181	4l1cKWYW591xnwEGxpUg3J	indie rock
+182	4l1cKWYW591xnwEGxpUg3J	indietronica
+183	4l1cKWYW591xnwEGxpUg3J	modern rock
+184	4l1cKWYW591xnwEGxpUg3J	new rave
+185	4l1cKWYW591xnwEGxpUg3J	swedish electropop
+186	4l1cKWYW591xnwEGxpUg3J	swedish indie pop
+187	4l1cKWYW591xnwEGxpUg3J	swedish synthpop
+188	1fZpYWNWdL5Z3wrDtISFUH	austin americana
+189	1fZpYWNWdL5Z3wrDtISFUH	austindie
+190	1fZpYWNWdL5Z3wrDtISFUH	indie folk
+191	1fZpYWNWdL5Z3wrDtISFUH	new americana
+192	1fZpYWNWdL5Z3wrDtISFUH	stomp and holler
+193	0AkmSuTOzM2pNCIOSP8ziv	country rap
+194	3dv4Q4q3LWOnbLJnC6GgTY	bedroom pop
+195	60df5JBRRPcnSpsIMxxwQm	classic soul
+196	60df5JBRRPcnSpsIMxxwQm	memphis soul
+197	60df5JBRRPcnSpsIMxxwQm	soul
+198	60df5JBRRPcnSpsIMxxwQm	soul blues
+199	60df5JBRRPcnSpsIMxxwQm	southern soul
+200	3JaAGmSTpJK35DqWrDUzBz	album rock
+201	3JaAGmSTpJK35DqWrDUzBz	blues rock
+202	3JaAGmSTpJK35DqWrDUzBz	classic rock
+203	3JaAGmSTpJK35DqWrDUzBz	classic uk pop
+204	3JaAGmSTpJK35DqWrDUzBz	glam rock
+205	3JaAGmSTpJK35DqWrDUzBz	hard rock
+206	3JaAGmSTpJK35DqWrDUzBz	rock
+207	3RGLhK1IP9jnYFH4BRFJBS	classic rock
+208	3RGLhK1IP9jnYFH4BRFJBS	permanent wave
+209	3RGLhK1IP9jnYFH4BRFJBS	punk
+210	3RGLhK1IP9jnYFH4BRFJBS	rock
+211	0oSGxfWSnnOXhD2fKuz2Gy	art rock
+212	0oSGxfWSnnOXhD2fKuz2Gy	classic rock
+213	0oSGxfWSnnOXhD2fKuz2Gy	glam rock
+214	0oSGxfWSnnOXhD2fKuz2Gy	permanent wave
+215	0oSGxfWSnnOXhD2fKuz2Gy	rock
+216	7lzordPuZEXxwt9aoVZYmG	album rock
+217	7lzordPuZEXxwt9aoVZYmG	classic rock
+218	7lzordPuZEXxwt9aoVZYmG	dance rock
+219	7lzordPuZEXxwt9aoVZYmG	hard rock
+220	7lzordPuZEXxwt9aoVZYmG	mellow gold
+221	7lzordPuZEXxwt9aoVZYmG	new romantic
+222	7lzordPuZEXxwt9aoVZYmG	new wave
+223	7lzordPuZEXxwt9aoVZYmG	new wave pop
+224	7lzordPuZEXxwt9aoVZYmG	rock
+225	7lzordPuZEXxwt9aoVZYmG	soft rock
+226	33EUXrFKGjpUSGacqEHhU4	classic rock
+227	33EUXrFKGjpUSGacqEHhU4	glam rock
+228	33EUXrFKGjpUSGacqEHhU4	new wave
+229	33EUXrFKGjpUSGacqEHhU4	permanent wave
+230	33EUXrFKGjpUSGacqEHhU4	post-punk
+231	33EUXrFKGjpUSGacqEHhU4	protopunk
+232	33EUXrFKGjpUSGacqEHhU4	punk
+233	33EUXrFKGjpUSGacqEHhU4	rock
+234	5aBEGOeWQCJfptic9xyaAb	dark wave
+235	5aBEGOeWQCJfptic9xyaAb	gothic rock
+236	5aBEGOeWQCJfptic9xyaAb	industrial
+237	5aBEGOeWQCJfptic9xyaAb	industrial rock
+238	5aBEGOeWQCJfptic9xyaAb	new romantic
+239	5aBEGOeWQCJfptic9xyaAb	new wave
+240	5aBEGOeWQCJfptic9xyaAb	post-punk
+241	5aBEGOeWQCJfptic9xyaAb	synthpop
+242	5aBEGOeWQCJfptic9xyaAb	uk post-punk
+243	2ZfogSsOWP4mVfEqfpLXCt	alternative rock
+244	2ZfogSsOWP4mVfEqfpLXCt	australian rock
+245	2ZfogSsOWP4mVfEqfpLXCt	dream pop
+246	2ZfogSsOWP4mVfEqfpLXCt	new romantic
+247	2ZfogSsOWP4mVfEqfpLXCt	new wave
+248	2ZfogSsOWP4mVfEqfpLXCt	pop rock
+249	2ZfogSsOWP4mVfEqfpLXCt	post-punk
+250	3gdbcIdNypBsYNu3iiCjtN	art rock
+251	3gdbcIdNypBsYNu3iiCjtN	dance rock
+252	3gdbcIdNypBsYNu3iiCjtN	new romantic
+253	3gdbcIdNypBsYNu3iiCjtN	new wave
+254	3gdbcIdNypBsYNu3iiCjtN	new wave pop
+255	3gdbcIdNypBsYNu3iiCjtN	permanent wave
+256	3gdbcIdNypBsYNu3iiCjtN	post-punk
+257	3gdbcIdNypBsYNu3iiCjtN	rock
+258	3gdbcIdNypBsYNu3iiCjtN	zolo
+259	0rpMdBzQXf7aYRnu5fDBJy	acoustic punk
+260	0rpMdBzQXf7aYRnu5fDBJy	alternative rock
+261	0rpMdBzQXf7aYRnu5fDBJy	pop rock
+262	0rpMdBzQXf7aYRnu5fDBJy	punk
+263	0rpMdBzQXf7aYRnu5fDBJy	rock
+264	3yY2gUcIsjMr8hjo51PoJ8	madchester
+265	3yY2gUcIsjMr8hjo51PoJ8	new wave
+266	3yY2gUcIsjMr8hjo51PoJ8	permanent wave
+267	3yY2gUcIsjMr8hjo51PoJ8	rock
+268	3yY2gUcIsjMr8hjo51PoJ8	uk post-punk
+269	0Zy4ncr8h1jd7Nzr9946fD	gothic rock
+270	0Zy4ncr8h1jd7Nzr9946fD	industrial
+271	0Zy4ncr8h1jd7Nzr9946fD	industrial rock
+272	0Zy4ncr8h1jd7Nzr9946fD	new romantic
+273	0Zy4ncr8h1jd7Nzr9946fD	new wave
+274	0Zy4ncr8h1jd7Nzr9946fD	post-punk
+275	0Zy4ncr8h1jd7Nzr9946fD	uk post-punk
+276	3fhOTtm0LBJ3Ojn4hIljLo	art rock
+277	3fhOTtm0LBJ3Ojn4hIljLo	classic rock
+278	3fhOTtm0LBJ3Ojn4hIljLo	glam rock
+279	3fhOTtm0LBJ3Ojn4hIljLo	melancholia
+280	3fhOTtm0LBJ3Ojn4hIljLo	mellow gold
+281	3fhOTtm0LBJ3Ojn4hIljLo	new romantic
+282	3fhOTtm0LBJ3Ojn4hIljLo	new wave
+283	3fhOTtm0LBJ3Ojn4hIljLo	new wave pop
+284	3fhOTtm0LBJ3Ojn4hIljLo	rock
+285	3fhOTtm0LBJ3Ojn4hIljLo	soft rock
+286	3fhOTtm0LBJ3Ojn4hIljLo	sophisti-pop
+287	4BFMTELQyWJU1SwqcXMBm3	alternative rock
+288	4BFMTELQyWJU1SwqcXMBm3	classic rock
+289	4BFMTELQyWJU1SwqcXMBm3	detroit rock
+290	4BFMTELQyWJU1SwqcXMBm3	garage rock
+291	4BFMTELQyWJU1SwqcXMBm3	new wave
+292	4BFMTELQyWJU1SwqcXMBm3	permanent wave
+293	4BFMTELQyWJU1SwqcXMBm3	post-punk
+294	4BFMTELQyWJU1SwqcXMBm3	protopunk
+295	4BFMTELQyWJU1SwqcXMBm3	punk
+296	4BFMTELQyWJU1SwqcXMBm3	punk blues
+297	4BFMTELQyWJU1SwqcXMBm3	rock
+298	4JfFdF9Row7UXtdsKtT6tc	funk
+299	4JfFdF9Row7UXtdsKtT6tc	soul
+300	0EdvGhlC1FkGItLOWQzG4J	alternative rock
+301	0EdvGhlC1FkGItLOWQzG4J	reggae fusion
+302	0EdvGhlC1FkGItLOWQzG4J	ska mexicano
+303	0EdvGhlC1FkGItLOWQzG4J	ska punk
+304	00FQb4jTyendYWaN8pK0wa	art pop
+305	00FQb4jTyendYWaN8pK0wa	pop
+306	462T0buQ5ScBUQCRpodDRf	funk
+307	462T0buQ5ScBUQCRpodDRf	soul
+308	3jK9MiCrA42lLAdMGUZpwa	escape room
+309	3qnGvpP8Yth1AqSBMqON5x	modern blues
+310	13ubrt8QOOCPljQ2FL1Kca	east coast hip hop
+311	13ubrt8QOOCPljQ2FL1Kca	hip hop
+312	13ubrt8QOOCPljQ2FL1Kca	rap
+313	6QRlkjrHz5A62mqeNZz7t3	indie garage rock
+314	6QRlkjrHz5A62mqeNZz7t3	indie surf
+315	6QRlkjrHz5A62mqeNZz7t3	neo-psychedelic
+316	5CuU6SRJjbbZL926nSGGxX	abstract hip hop
+317	5CuU6SRJjbbZL926nSGGxX	alternative hip hop
+318	5CuU6SRJjbbZL926nSGGxX	escape room
+319	6pmxr66tMAePxzOLfjGNcX	albuquerque indie
+320	6pmxr66tMAePxzOLfjGNcX	baroque pop
+321	6pmxr66tMAePxzOLfjGNcX	chamber pop
+322	6pmxr66tMAePxzOLfjGNcX	indie pop
+323	6pmxr66tMAePxzOLfjGNcX	indie rock
+324	6pmxr66tMAePxzOLfjGNcX	stomp and holler
+325	3XHO7cRUPCLOr6jwp8vsx5	indie rock
+326	3XHO7cRUPCLOr6jwp8vsx5	modern rock
+327	6eU0jV2eEZ8XTM7EmlguK6	retro soul
+328	2h93pZq0e7k5yf4dywlkpM	hip hop
+329	2h93pZq0e7k5yf4dywlkpM	lgbtq+ hip hop
+330	2h93pZq0e7k5yf4dywlkpM	neo soul
+331	2h93pZq0e7k5yf4dywlkpM	pop
+332	3z6Gk257P9jNcZbBXJNX5i	indie pop
+333	3z6Gk257P9jNcZbBXJNX5i	lilith
+334	3z6Gk257P9jNcZbBXJNX5i	piano rock
+335	74oJ4qxwOZvX6oSsu1DGnw	album rock
+336	74oJ4qxwOZvX6oSsu1DGnw	art rock
+337	74oJ4qxwOZvX6oSsu1DGnw	blues rock
+338	74oJ4qxwOZvX6oSsu1DGnw	classic rock
+339	74oJ4qxwOZvX6oSsu1DGnw	folk rock
+340	74oJ4qxwOZvX6oSsu1DGnw	hard rock
+341	74oJ4qxwOZvX6oSsu1DGnw	psychedelic rock
+342	74oJ4qxwOZvX6oSsu1DGnw	rock
+343	74oJ4qxwOZvX6oSsu1DGnw	roots rock
+344	74oJ4qxwOZvX6oSsu1DGnw	supergroup
+345	0XSqX2PB3C5dTMv7SZaxSm	alternative rock
+346	0XSqX2PB3C5dTMv7SZaxSm	canadian indie
+347	0XSqX2PB3C5dTMv7SZaxSm	indie rock
+348	0XSqX2PB3C5dTMv7SZaxSm	modern rock
+349	0XSqX2PB3C5dTMv7SZaxSm	quebec indie
+350	0XSqX2PB3C5dTMv7SZaxSm	stomp and holler
+351	08GQAI4eElDnROBrJRGE0X	album rock
+352	08GQAI4eElDnROBrJRGE0X	classic rock
+353	08GQAI4eElDnROBrJRGE0X	rock
+354	08GQAI4eElDnROBrJRGE0X	soft rock
+355	08GQAI4eElDnROBrJRGE0X	yacht rock
+356	6l3HvQ5sa6mXTsMTB19rO5	conscious hip hop
+357	6l3HvQ5sa6mXTsMTB19rO5	hip hop
+358	6l3HvQ5sa6mXTsMTB19rO5	north carolina hip hop
+359	6l3HvQ5sa6mXTsMTB19rO5	rap
+360	6RZUqkomCmb8zCRqc9eznB	alternative rock
+361	6RZUqkomCmb8zCRqc9eznB	britpop
+362	6RZUqkomCmb8zCRqc9eznB	permanent wave
+363	6RZUqkomCmb8zCRqc9eznB	pop rock
+364	6RZUqkomCmb8zCRqc9eznB	rock
+365	0fA0VVWsXO9YnASrzqfmYu	hip hop
+366	0fA0VVWsXO9YnASrzqfmYu	ohio hip hop
+367	0fA0VVWsXO9YnASrzqfmYu	rap
+368	6ZK2nrW8aCTg8Bid7I7N10	dark pop
+369	6ZK2nrW8aCTg8Bid7I7N10	doomgaze
+370	6ZK2nrW8aCTg8Bid7I7N10	gaian doom
+371	6ZK2nrW8aCTg8Bid7I7N10	sacramento indie
+372	6TVVIyd0fsRDGg6WzHKyTP	funk
+373	6TVVIyd0fsRDGg6WzHKyTP	soul
+374	6tkrcmVfWoHC4WOhE7IDyq	new americana
+375	6tkrcmVfWoHC4WOhE7IDyq	roots americana
+376	600GgDUq9kzGJgNIrVsWfz	indie surf
+377	2jgPkn6LuUazBoBk6vvjh5	baroque pop
+378	2jgPkn6LuUazBoBk6vvjh5	british invasion
+379	2jgPkn6LuUazBoBk6vvjh5	bubblegum pop
+380	2jgPkn6LuUazBoBk6vvjh5	classic rock
+381	2jgPkn6LuUazBoBk6vvjh5	folk rock
+382	2jgPkn6LuUazBoBk6vvjh5	psychedelic rock
+383	2jgPkn6LuUazBoBk6vvjh5	rock
+384	6v8FB84lnmJs434UJf2Mrm	canadian singer-songwriter
+385	6v8FB84lnmJs434UJf2Mrm	classic canadian rock
+386	6v8FB84lnmJs434UJf2Mrm	classic rock
+387	6v8FB84lnmJs434UJf2Mrm	mellow gold
+388	6v8FB84lnmJs434UJf2Mrm	permanent wave
+389	6v8FB84lnmJs434UJf2Mrm	rock
+390	6v8FB84lnmJs434UJf2Mrm	roots rock
+391	6v8FB84lnmJs434UJf2Mrm	singer-songwriter
+392	3QTDHixorJelOLxoxcjqGx	alternative r&b
+393	3QTDHixorJelOLxoxcjqGx	hip hop
+394	3QTDHixorJelOLxoxcjqGx	indie soul
+395	3QTDHixorJelOLxoxcjqGx	la pop
+396	3QTDHixorJelOLxoxcjqGx	neo soul
+397	3QTDHixorJelOLxoxcjqGx	r&b
+398	3QTDHixorJelOLxoxcjqGx	rap
+399	77SW9BnxLY8rJ0RciFqkHh	modern alternative rock
+400	77SW9BnxLY8rJ0RciFqkHh	modern rock
+401	77SW9BnxLY8rJ0RciFqkHh	pop
+402	77SW9BnxLY8rJ0RciFqkHh	shimmer pop
+403	5NYEE4kgrEZPlM3DxUsTyc	la indie
+404	75dQReiBOHN37fQgWQrIAJ	indie pop
+405	75dQReiBOHN37fQgWQrIAJ	indie rock
+406	75dQReiBOHN37fQgWQrIAJ	la indie
+407	75dQReiBOHN37fQgWQrIAJ	modern rock
+408	75dQReiBOHN37fQgWQrIAJ	stomp and holler
+409	2pAajGWerK3ghwToNWFENS	alternative metal
+410	2pAajGWerK3ghwToNWFENS	alternative rock
+411	2pAajGWerK3ghwToNWFENS	industrial metal
+412	2pAajGWerK3ghwToNWFENS	industrial rock
+413	2pAajGWerK3ghwToNWFENS	nu metal
+414	22bE4uQ6baNwSHPVcDxLCe	british invasion
+415	22bE4uQ6baNwSHPVcDxLCe	classic rock
+416	22bE4uQ6baNwSHPVcDxLCe	rock
+417	5a2EaR3hamoenG9rDuVn8j	funk
+418	5a2EaR3hamoenG9rDuVn8j	funk rock
+419	5a2EaR3hamoenG9rDuVn8j	minneapolis sound
+420	5a2EaR3hamoenG9rDuVn8j	synth funk
+421	6Ghvu1VvMGScGpOUJBAHNH	alternative metal
+422	6Ghvu1VvMGScGpOUJBAHNH	nu metal
+423	6Ghvu1VvMGScGpOUJBAHNH	rap metal
+424	6Ghvu1VvMGScGpOUJBAHNH	rock
+425	6Ghvu1VvMGScGpOUJBAHNH	sacramento indie
+426	4n0gvapwYbRpzU5Ov68B6P	garage pop
+427	4n0gvapwYbRpzU5Ov68B6P	garage rock
+428	4n0gvapwYbRpzU5Ov68B6P	indie garage rock
+429	4n0gvapwYbRpzU5Ov68B6P	punk blues
+430	4uSftVc3FPWe6RJuMZNEe9	baroque pop
+431	4uSftVc3FPWe6RJuMZNEe9	chamber pop
+432	4uSftVc3FPWe6RJuMZNEe9	chicago indie
+433	4uSftVc3FPWe6RJuMZNEe9	indie folk
+434	4uSftVc3FPWe6RJuMZNEe9	indie pop
+435	4uSftVc3FPWe6RJuMZNEe9	indie rock
+436	4uSftVc3FPWe6RJuMZNEe9	melancholia
+437	4uSftVc3FPWe6RJuMZNEe9	stomp and holler
+438	6AWdGez5g1jxpfl9XD4wI3	trap soul
+439	6AWdGez5g1jxpfl9XD4wI3	underground hip hop
+440	7HeVXdOdMhLslVputGTZFQ	new weird america
+441	7HeVXdOdMhLslVputGTZFQ	toronto indie
+442	0V7uVrIYr4FwFvUN9S4kYr	chicago indie
+443	0V7uVrIYr4FwFvUN9S4kYr	funk
+444	6hnWRPzGGKiapVX1UCdEAC	adult standards
+445	6hnWRPzGGKiapVX1UCdEAC	brill building pop
+446	6hnWRPzGGKiapVX1UCdEAC	classic soul
+447	6hnWRPzGGKiapVX1UCdEAC	rock-and-roll
+448	6hnWRPzGGKiapVX1UCdEAC	soul
+449	2FRXiAz5Uz78LLLSwEUhLt	indie pop
+450	7ITd48RbLVpUfheE7B86o2	alternative rock
+451	7ITd48RbLVpUfheE7B86o2	anti-folk
+452	7ITd48RbLVpUfheE7B86o2	baroque pop
+453	7ITd48RbLVpUfheE7B86o2	canadian indie
+454	7ITd48RbLVpUfheE7B86o2	chamber pop
+455	7ITd48RbLVpUfheE7B86o2	indie folk
+456	7ITd48RbLVpUfheE7B86o2	indie pop
+457	7ITd48RbLVpUfheE7B86o2	indie rock
+458	7ITd48RbLVpUfheE7B86o2	modern folk rock
+459	7ITd48RbLVpUfheE7B86o2	modern rock
+460	7ITd48RbLVpUfheE7B86o2	pop rock
+461	7ITd48RbLVpUfheE7B86o2	stomp and holler
+462	1yAwtBaoHLEDWAnWR87hBT	alternative rock
+463	1yAwtBaoHLEDWAnWR87hBT	double drumming
+464	1yAwtBaoHLEDWAnWR87hBT	indie rock
+465	1yAwtBaoHLEDWAnWR87hBT	modern rock
+466	1yAwtBaoHLEDWAnWR87hBT	rock
+467	1yAwtBaoHLEDWAnWR87hBT	washington indie
+468	6LufpoVlIYKQCu9Gjpk8B7	black americana
+469	6LufpoVlIYKQCu9Gjpk8B7	classic soul
+470	6LufpoVlIYKQCu9Gjpk8B7	funk
+471	6LufpoVlIYKQCu9Gjpk8B7	neo soul
+472	6LufpoVlIYKQCu9Gjpk8B7	retro soul
+473	6LufpoVlIYKQCu9Gjpk8B7	soul
+474	6LufpoVlIYKQCu9Gjpk8B7	southern soul
+475	2kGBy2WHvF0VdZyqiVCkDT	chamber pop
+476	2kGBy2WHvF0VdZyqiVCkDT	indie rock
+477	68kEuyFKyqrdQQLLsmiatm	conscious hip hop
+478	68kEuyFKyqrdQQLLsmiatm	hip hop
+479	68kEuyFKyqrdQQLLsmiatm	rap
+480	68kEuyFKyqrdQQLLsmiatm	underground hip hop
+481	1hzfo8twXdOegF3xireCYs	german pop
+482	251UrhgNbMr15NLzQ2KyKq	deep new americana
+483	251UrhgNbMr15NLzQ2KyKq	indie folk
+484	251UrhgNbMr15NLzQ2KyKq	new americana
+485	251UrhgNbMr15NLzQ2KyKq	stomp and holler
+486	4DFhHyjvGYa9wxdHUjtDkc	alternative metal
+487	4DFhHyjvGYa9wxdHUjtDkc	alternative rock
+488	4DFhHyjvGYa9wxdHUjtDkc	nu metal
+489	4DFhHyjvGYa9wxdHUjtDkc	rap rock
+490	4DFhHyjvGYa9wxdHUjtDkc	rock
+491	4DFhHyjvGYa9wxdHUjtDkc	supergroup
+492	5IcR3N7QB1j6KBL8eImZ8m	gangster rap
+493	5IcR3N7QB1j6KBL8eImZ8m	hip hop
+494	5IcR3N7QB1j6KBL8eImZ8m	pop rap
+495	5IcR3N7QB1j6KBL8eImZ8m	rap
+496	5IcR3N7QB1j6KBL8eImZ8m	southern hip hop
+497	5IcR3N7QB1j6KBL8eImZ8m	trap
+498	5IcR3N7QB1j6KBL8eImZ8m	underground hip hop
+499	3D4qYDvoPn5cQxtBm4oseo	dreamo
+500	3D4qYDvoPn5cQxtBm4oseo	emo
+501	3D4qYDvoPn5cQxtBm4oseo	indie rock
+502	3D4qYDvoPn5cQxtBm4oseo	philly indie
+503	3D4qYDvoPn5cQxtBm4oseo	progressive post-hardcore
+504	3D4qYDvoPn5cQxtBm4oseo	screamo
+505	3tJ9PkBOrG7hFkHeNM2tbw	axe
+506	3tJ9PkBOrG7hFkHeNM2tbw	brazilian percussion
+507	3tJ9PkBOrG7hFkHeNM2tbw	mpb
+508	3tJ9PkBOrG7hFkHeNM2tbw	pagode
+509	3tJ9PkBOrG7hFkHeNM2tbw	samba
+510	3tJ9PkBOrG7hFkHeNM2tbw	samba reggae
+511	2ApaG60P4r0yhBoDCGD8YG	alternative rock
+512	2ApaG60P4r0yhBoDCGD8YG	indie rock
+513	2ApaG60P4r0yhBoDCGD8YG	melancholia
+514	2ApaG60P4r0yhBoDCGD8YG	pop rock
+515	2ApaG60P4r0yhBoDCGD8YG	rock
+516	2ApaG60P4r0yhBoDCGD8YG	singer-songwriter
+517	6GEykX11lQqp92UVOQQCC7	alternative hip hop
+518	6GEykX11lQqp92UVOQQCC7	boom bap
+519	6GEykX11lQqp92UVOQQCC7	east coast hip hop
+520	6GEykX11lQqp92UVOQQCC7	hardcore hip hop
+521	6GEykX11lQqp92UVOQQCC7	hip hop
+522	6GEykX11lQqp92UVOQQCC7	jazz boom bap
+523	6GEykX11lQqp92UVOQQCC7	turntablism
+524	6GEykX11lQqp92UVOQQCC7	underground hip hop
+525	1anAI9P9iSzc9qzLv6AtHZ	indie pop
+526	1anAI9P9iSzc9qzLv6AtHZ	indie poptimism
+527	1anAI9P9iSzc9qzLv6AtHZ	indie rock
+528	1anAI9P9iSzc9qzLv6AtHZ	la indie
+529	1anAI9P9iSzc9qzLv6AtHZ	modern rock
+530	2auiVi8sUZo17dLy1HwrTU	afrofuturism
+531	2auiVi8sUZo17dLy1HwrTU	alternative r&b
+532	2auiVi8sUZo17dLy1HwrTU	dance pop
+533	2auiVi8sUZo17dLy1HwrTU	escape room
+534	2auiVi8sUZo17dLy1HwrTU	hip pop
+535	2auiVi8sUZo17dLy1HwrTU	indie soul
+536	2auiVi8sUZo17dLy1HwrTU	neo soul
+537	2auiVi8sUZo17dLy1HwrTU	pop
+538	2auiVi8sUZo17dLy1HwrTU	r&b
+539	2auiVi8sUZo17dLy1HwrTU	urban contemporary
+540	6zvul52xwTWzilBZl6BUbT	alternative rock
+541	6zvul52xwTWzilBZl6BUbT	boston rock
+542	6zvul52xwTWzilBZl6BUbT	modern rock
+543	6zvul52xwTWzilBZl6BUbT	permanent wave
+544	6zvul52xwTWzilBZl6BUbT	rock
+545	432R46LaYsJZV2Gmc4jUV5	alternative rock
+546	432R46LaYsJZV2Gmc4jUV5	art rock
+547	432R46LaYsJZV2Gmc4jUV5	madchester
+548	432R46LaYsJZV2Gmc4jUV5	new wave
+549	432R46LaYsJZV2Gmc4jUV5	post-punk
+550	432R46LaYsJZV2Gmc4jUV5	rock
+551	432R46LaYsJZV2Gmc4jUV5	uk post-punk
+552	1nGqKVGfPPiVgxMdx8hYOI	deep new americana
+553	1nGqKVGfPPiVgxMdx8hYOI	portland indie
+554	1nGqKVGfPPiVgxMdx8hYOI	stomp and holler
+555	7bu3H8JO7d0UbMoVzbo70s	new wave
+556	7bu3H8JO7d0UbMoVzbo70s	permanent wave
+557	7bu3H8JO7d0UbMoVzbo70s	rock
+558	7bu3H8JO7d0UbMoVzbo70s	uk post-punk
+559	2bToe6WyGvADJftreuXh2K	funk
+560	2bToe6WyGvADJftreuXh2K	indie soul
+561	2bToe6WyGvADJftreuXh2K	soul
+562	1SQRv42e4PjEYfPhS0Tk9E	album rock
+563	1SQRv42e4PjEYfPhS0Tk9E	british invasion
+564	1SQRv42e4PjEYfPhS0Tk9E	classic rock
+565	1SQRv42e4PjEYfPhS0Tk9E	folk rock
+566	1SQRv42e4PjEYfPhS0Tk9E	glam rock
+567	1SQRv42e4PjEYfPhS0Tk9E	mellow gold
+568	1SQRv42e4PjEYfPhS0Tk9E	protopunk
+569	1SQRv42e4PjEYfPhS0Tk9E	psychedelic rock
+570	1SQRv42e4PjEYfPhS0Tk9E	rock
+571	1SQRv42e4PjEYfPhS0Tk9E	singer-songwriter
+572	1PryMSya1JnSAlcwYawCxp	afrobeat
+573	1PryMSya1JnSAlcwYawCxp	brass band
+574	1PryMSya1JnSAlcwYawCxp	funk
+575	1PryMSya1JnSAlcwYawCxp	instrumental funk
+576	1PryMSya1JnSAlcwYawCxp	soul
+577	7FKTg75ADVMZgY3P9ZMRtH	indie pop
+578	7FKTg75ADVMZgY3P9ZMRtH	jacksonville indie
+579	7FKTg75ADVMZgY3P9ZMRtH	modern rock
+580	0oL26Dn9y761yfJgNb3vfu	indie folk
+581	0oL26Dn9y761yfJgNb3vfu	indie rock
+582	0oL26Dn9y761yfJgNb3vfu	michigan indie
+583	0oL26Dn9y761yfJgNb3vfu	modern rock
+584	0oL26Dn9y761yfJgNb3vfu	stomp and holler
+585	0v6gOfGBclTSGu6agfXb23	canadian indie
+586	0v6gOfGBclTSGu6agfXb23	indie rock
+587	0v6gOfGBclTSGu6agfXb23	stomp and holler
+588	0v6gOfGBclTSGu6agfXb23	toronto indie
+589	0yNLKJebCb8Aueb54LYya3	alternative rock
+590	0yNLKJebCb8Aueb54LYya3	art rock
+591	0yNLKJebCb8Aueb54LYya3	dance rock
+592	0yNLKJebCb8Aueb54LYya3	madchester
+593	0yNLKJebCb8Aueb54LYya3	new romantic
+594	0yNLKJebCb8Aueb54LYya3	new wave
+595	0yNLKJebCb8Aueb54LYya3	new wave pop
+596	0yNLKJebCb8Aueb54LYya3	permanent wave
+597	0yNLKJebCb8Aueb54LYya3	pop rock
+598	0yNLKJebCb8Aueb54LYya3	post-punk
+599	0yNLKJebCb8Aueb54LYya3	rock
+600	0yNLKJebCb8Aueb54LYya3	synthpop
+601	0yNLKJebCb8Aueb54LYya3	uk post-punk
+602	2x9SpqnPi8rlE9pjHBwmSC	art punk
+603	2x9SpqnPi8rlE9pjHBwmSC	art rock
+604	2x9SpqnPi8rlE9pjHBwmSC	dance rock
+605	2x9SpqnPi8rlE9pjHBwmSC	funk rock
+606	2x9SpqnPi8rlE9pjHBwmSC	new wave
+607	2x9SpqnPi8rlE9pjHBwmSC	permanent wave
+608	2x9SpqnPi8rlE9pjHBwmSC	post-punk
+609	2x9SpqnPi8rlE9pjHBwmSC	rock
+610	2x9SpqnPi8rlE9pjHBwmSC	zolo
+611	4LG4Bs1Gadht7TCrMytQUO	albuquerque indie
+612	4LG4Bs1Gadht7TCrMytQUO	alternative rock
+613	4LG4Bs1Gadht7TCrMytQUO	indie pop
+614	4LG4Bs1Gadht7TCrMytQUO	indie rock
+615	4LG4Bs1Gadht7TCrMytQUO	modern rock
+616	4LG4Bs1Gadht7TCrMytQUO	portland indie
+617	4LG4Bs1Gadht7TCrMytQUO	stomp and holler
+618	1Tp7C6LzxZe9Mix6rn4zbI	deep new americana
+619	1Tp7C6LzxZe9Mix6rn4zbI	indie folk
+620	1Tp7C6LzxZe9Mix6rn4zbI	indie rock
+621	1Tp7C6LzxZe9Mix6rn4zbI	modern rock
+622	1Tp7C6LzxZe9Mix6rn4zbI	stomp and holler
+623	7foyQbi7GKriLiv1GPVEwt	deep new americana
+624	7foyQbi7GKriLiv1GPVEwt	indie folk
+625	7foyQbi7GKriLiv1GPVEwt	new americana
+626	7foyQbi7GKriLiv1GPVEwt	south carolina indie
+627	7foyQbi7GKriLiv1GPVEwt	stomp and holler
+628	1nJvji2KIlWSseXRSlNYsC	alternative rock
+629	1nJvji2KIlWSseXRSlNYsC	art rock
+630	1nJvji2KIlWSseXRSlNYsC	classic rock
+631	1nJvji2KIlWSseXRSlNYsC	folk rock
+632	1nJvji2KIlWSseXRSlNYsC	melancholia
+633	1nJvji2KIlWSseXRSlNYsC	permanent wave
+634	1nJvji2KIlWSseXRSlNYsC	protopunk
+635	1nJvji2KIlWSseXRSlNYsC	psychedelic rock
+636	1nJvji2KIlWSseXRSlNYsC	rock
 637	4Z8W4fKeB5YxbusRsdQVPb	alternative rock
 638	4Z8W4fKeB5YxbusRsdQVPb	art rock
 639	4Z8W4fKeB5YxbusRsdQVPb	melancholia
 640	4Z8W4fKeB5YxbusRsdQVPb	oxford indie
 641	4Z8W4fKeB5YxbusRsdQVPb	permanent wave
 642	4Z8W4fKeB5YxbusRsdQVPb	rock
-643	00tVTdpEhQQw1bqdu8RCx2	album rock
-644	00tVTdpEhQQw1bqdu8RCx2	blues rock
-645	00tVTdpEhQQw1bqdu8RCx2	classic rock
-646	00tVTdpEhQQw1bqdu8RCx2	hard rock
-647	00tVTdpEhQQw1bqdu8RCx2	metal
-648	00tVTdpEhQQw1bqdu8RCx2	rock
-649	00tVTdpEhQQw1bqdu8RCx2	soft rock
-650	0vqkz1b2qBkoYrGMj2CUWq	classic soul
-651	0vqkz1b2qBkoYrGMj2CUWq	funk
-652	0vqkz1b2qBkoYrGMj2CUWq	quiet storm
-653	0vqkz1b2qBkoYrGMj2CUWq	soul
-654	0vqkz1b2qBkoYrGMj2CUWq	southern soul
-655	2AV6XDIs32ofIJhkkDevjm	chicago soul
-656	2AV6XDIs32ofIJhkkDevjm	classic soul
-657	2AV6XDIs32ofIJhkkDevjm	funk
-658	2AV6XDIs32ofIJhkkDevjm	soul
+643	4fXkvh05wFhuH77MfD4m9o	funk
+644	4fXkvh05wFhuH77MfD4m9o	retro soul
+645	4fXkvh05wFhuH77MfD4m9o	rock
+646	4fXkvh05wFhuH77MfD4m9o	roots rock
+647	00tVTdpEhQQw1bqdu8RCx2	album rock
+648	00tVTdpEhQQw1bqdu8RCx2	blues rock
+649	00tVTdpEhQQw1bqdu8RCx2	classic rock
+650	00tVTdpEhQQw1bqdu8RCx2	hard rock
+651	00tVTdpEhQQw1bqdu8RCx2	metal
+652	00tVTdpEhQQw1bqdu8RCx2	rock
+653	00tVTdpEhQQw1bqdu8RCx2	soft rock
+654	0vqkz1b2qBkoYrGMj2CUWq	classic soul
+655	0vqkz1b2qBkoYrGMj2CUWq	funk
+656	0vqkz1b2qBkoYrGMj2CUWq	quiet storm
+657	0vqkz1b2qBkoYrGMj2CUWq	soul
+658	0vqkz1b2qBkoYrGMj2CUWq	southern soul
 659	2FXC3k01G6Gw61bmprjgqS	irish singer-songwriter
 660	2FXC3k01G6Gw61bmprjgqS	pop
 661	2g3PKH7Z1Ofn5oGR6oDjLy	classic garage rock
@@ -2262,360 +2762,716 @@ COPY public.artists_genres (id, artist_id, genre) FROM stdin;
 665	2g3PKH7Z1Ofn5oGR6oDjLy	psychedelic rock
 666	2g3PKH7Z1Ofn5oGR6oDjLy	punk
 667	2g3PKH7Z1Ofn5oGR6oDjLy	punk blues
-668	6PfSUFtkMVoDkx4MQkzOi3	escape room
-669	6PfSUFtkMVoDkx4MQkzOi3	hyperpop
-670	6PfSUFtkMVoDkx4MQkzOi3	proto-hyperpop
-671	5vSQUyT33qxr1xAX2Tkf3A	experimental hip hop
-672	5vSQUyT33qxr1xAX2Tkf3A	psychedelic hip hop
-673	0eDvMgVFoNV3TpwtrVCoTj	brooklyn drill
-674	6guC9FqvlVboSKTI77NG2k	metalcore
-675	6guC9FqvlVboSKTI77NG2k	pixie
-676	6guC9FqvlVboSKTI77NG2k	sacramento indie
-677	6guC9FqvlVboSKTI77NG2k	screamo
-678	6guC9FqvlVboSKTI77NG2k	swancore
-679	2NjfBq1NflQcKSeiDooVjY	australian pop
-680	2NjfBq1NflQcKSeiDooVjY	pop
-681	757aE44tKEUQEqRuT6GnEB	melodic rap
-682	757aE44tKEUQEqRuT6GnEB	rap
-683	757aE44tKEUQEqRuT6GnEB	trap
-684	6XyY86QOPPrYVGvF9ch6wz	alternative metal
-685	6XyY86QOPPrYVGvF9ch6wz	nu metal
-686	6XyY86QOPPrYVGvF9ch6wz	post-grunge
-687	6XyY86QOPPrYVGvF9ch6wz	rap metal
-688	422qjlzkDtxmaeeOLhnE6A	anime score
-689	2cFrymmkijnjDg9SS92EPM	pop
-690	2cFrymmkijnjDg9SS92EPM	pop rap
-691	1rCIEwPp5OnXW0ornlSsRl	alternative dance
-692	1rCIEwPp5OnXW0ornlSsRl	canadian indie
-693	1rCIEwPp5OnXW0ornlSsRl	canadian rock
-694	1rCIEwPp5OnXW0ornlSsRl	electropop
-695	1rCIEwPp5OnXW0ornlSsRl	indie rock
-696	1rCIEwPp5OnXW0ornlSsRl	metropopolis
-697	1rCIEwPp5OnXW0ornlSsRl	modern rock
-698	1rCIEwPp5OnXW0ornlSsRl	neo-synthpop
-699	6MPCFvOQv5cIGfw3jODMF0	pop rap
-700	6MPCFvOQv5cIGfw3jODMF0	rap
-701	6MPCFvOQv5cIGfw3jODMF0	trap
-702	6MPCFvOQv5cIGfw3jODMF0	viral rap
-703	4sQNUQjOYj9rV2sdfJ8laS	gabba
-704	4sQNUQjOYj9rV2sdfJ8laS	hardcore techno
-705	4sQNUQjOYj9rV2sdfJ8laS	tekk
-706	4sQNUQjOYj9rV2sdfJ8laS	uptempo hardcore
-707	3YQKmKGau1PzlVlkL1iodx	modern rock
-708	3YQKmKGau1PzlVlkL1iodx	rock
-709	6eUKZXaKkcviH0Ku9w2n3V	pop
-710	6eUKZXaKkcviH0Ku9w2n3V	uk pop
-711	7GN9PivdemQRKjDt4z5Zv8	alternative r&b
-712	7GN9PivdemQRKjDt4z5Zv8	indie soul
-713	7GN9PivdemQRKjDt4z5Zv8	lgbtq+ hip hop
-714	7GN9PivdemQRKjDt4z5Zv8	neo soul
-715	7GN9PivdemQRKjDt4z5Zv8	r&b
-716	34Y0ldeyUv7jBvukWOGASO	nyc rap
-717	34Y0ldeyUv7jBvukWOGASO	pop rap
-718	34Y0ldeyUv7jBvukWOGASO	rap
-719	34Y0ldeyUv7jBvukWOGASO	southern hip hop
-720	34Y0ldeyUv7jBvukWOGASO	trap
-721	4LLpKhyESsyAXpc4laK94U	hip hop
-722	4LLpKhyESsyAXpc4laK94U	pittsburgh rap
-723	4LLpKhyESsyAXpc4laK94U	rap
-724	7gjAu1qr5C2grXeQFFOGeh	alternative dance
-725	7gjAu1qr5C2grXeQFFOGeh	indie rock
-726	7gjAu1qr5C2grXeQFFOGeh	indietronica
-727	7gjAu1qr5C2grXeQFFOGeh	modern rock
-728	7gjAu1qr5C2grXeQFFOGeh	stomp and holler
-729	7oPftvlwr6VrsViSDV7fJY	permanent wave
-730	7oPftvlwr6VrsViSDV7fJY	punk
-731	738wLrAtLtCtFOLvQBXOXp	dance pop
-732	738wLrAtLtCtFOLvQBXOXp	edm
-733	738wLrAtLtCtFOLvQBXOXp	electro house
-734	738wLrAtLtCtFOLvQBXOXp	moombahton
-735	738wLrAtLtCtFOLvQBXOXp	pop
-736	738wLrAtLtCtFOLvQBXOXp	pop dance
-737	738wLrAtLtCtFOLvQBXOXp	pop rap
-738	738wLrAtLtCtFOLvQBXOXp	tropical house
-739	6fxyWrfmjcbj5d12gXeiNV	dark trap
-740	6fxyWrfmjcbj5d12gXeiNV	drill
-741	6fxyWrfmjcbj5d12gXeiNV	hip hop
-742	6fxyWrfmjcbj5d12gXeiNV	miami hip hop
-743	6fxyWrfmjcbj5d12gXeiNV	rap
-744	6fxyWrfmjcbj5d12gXeiNV	underground hip hop
-745	6kDMoHTcBICPILP2aclPWZ	danish alternative rock
-746	6kDMoHTcBICPILP2aclPWZ	danish rock
-747	6kDMoHTcBICPILP2aclPWZ	dream pop
-748	6kDMoHTcBICPILP2aclPWZ	melancholia
-749	21dooacK2WGBB5amYvKyfM	dark trap
-750	21dooacK2WGBB5amYvKyfM	melodic rap
-751	21dooacK2WGBB5amYvKyfM	miami hip hop
-752	21dooacK2WGBB5amYvKyfM	rap
-753	21dooacK2WGBB5amYvKyfM	southern hip hop
-754	21dooacK2WGBB5amYvKyfM	trap
-755	21dooacK2WGBB5amYvKyfM	underground hip hop
-756	21dooacK2WGBB5amYvKyfM	vapor trap
-757	21dooacK2WGBB5amYvKyfM	viral rap
-758	7Im2r58zlLJIDfamqDjEE6	capoeira
-759	0dlDsD7y6ccmDm8tuWCU6F	aesthetic rap
-760	0dlDsD7y6ccmDm8tuWCU6F	phonk
-761	7A8S43ryYdbWpJKeHRZRcq	rap
-762	7A8S43ryYdbWpJKeHRZRcq	trap
-763	0iEtIxbK0KxaSlF7G42ZOp	hip hop
-764	0iEtIxbK0KxaSlF7G42ZOp	rap
-765	0iEtIxbK0KxaSlF7G42ZOp	trap
-766	0Y5tJX1MQlPlqiwlOH1tJY	rap
-767	0Y5tJX1MQlPlqiwlOH1tJY	slap house
-768	0H39MdGGX6dbnnQPt6NQkZ	melodic rap
-769	0H39MdGGX6dbnnQPt6NQkZ	pop rap
-770	0H39MdGGX6dbnnQPt6NQkZ	rap
-771	0H39MdGGX6dbnnQPt6NQkZ	slap house
-772	6Q1ggxOPVDbMyqlhv0tmT4	capoeira
-773	5dHt1vcEm9qb8fCyLcB3HL	gangster rap
-774	5dHt1vcEm9qb8fCyLcB3HL	hip hop
-775	5dHt1vcEm9qb8fCyLcB3HL	pop rap
-776	5dHt1vcEm9qb8fCyLcB3HL	rap
-777	5dHt1vcEm9qb8fCyLcB3HL	southern hip hop
-778	5dHt1vcEm9qb8fCyLcB3HL	trap
-779	5dHt1vcEm9qb8fCyLcB3HL	underground hip hop
-780	18hl4QMrybIXbkGi2BzXcf	capoeira
-781	0ONHkAv9pCAFxb0zJwDNTy	alternative hip hop
-782	0ONHkAv9pCAFxb0zJwDNTy	hip hop
-783	0ONHkAv9pCAFxb0zJwDNTy	pop rap
-784	0ONHkAv9pCAFxb0zJwDNTy	rap
-785	0ONHkAv9pCAFxb0zJwDNTy	southern hip hop
-786	0ONHkAv9pCAFxb0zJwDNTy	trap
-787	0ONHkAv9pCAFxb0zJwDNTy	underground hip hop
-788	0ONHkAv9pCAFxb0zJwDNTy	virginia hip hop
-789	7kA4sEagpoNK91I7wr9tYr	bass house
-790	7kA4sEagpoNK91I7wr9tYr	indonesian edm
-791	1SImpQO0GbjRgvlwCcCtFo	pop punk
-792	1SImpQO0GbjRgvlwCcCtFo	pop rock
-793	1SImpQO0GbjRgvlwCcCtFo	screamo
-794	1URnnhqYAYcrqrcwql10ft	atl hip hop
-795	1URnnhqYAYcrqrcwql10ft	rap
-796	4DdkRBBYG6Yk9Ka8tdJ9BW	atl hip hop
-797	4DdkRBBYG6Yk9Ka8tdJ9BW	hip hop
-798	4DdkRBBYG6Yk9Ka8tdJ9BW	pop rap
-799	4DdkRBBYG6Yk9Ka8tdJ9BW	rap
-800	4DdkRBBYG6Yk9Ka8tdJ9BW	southern hip hop
-801	4DdkRBBYG6Yk9Ka8tdJ9BW	trap
-802	1AldSIJ8ANuZVbjKIhpKKq	capoeira
-803	2EhUXeszBQRApbBmTOXlKU	capoeira
-804	4CrK2BAeyd3DIt2M2ELPJ4	capoeira
-805	5CCwRZC6euC8Odo6y9X8jr	dance pop
-806	5CCwRZC6euC8Odo6y9X8jr	edm
-807	5CCwRZC6euC8Odo6y9X8jr	electropop
-808	5CCwRZC6euC8Odo6y9X8jr	pop
-809	5CCwRZC6euC8Odo6y9X8jr	pop rap
-810	5CCwRZC6euC8Odo6y9X8jr	post-teen pop
-811	5CCwRZC6euC8Odo6y9X8jr	tropical house
-812	5CCwRZC6euC8Odo6y9X8jr	uk pop
-813	7HGNYPmbDrMkylWqeFCOIQ	bossa nova
-814	7HGNYPmbDrMkylWqeFCOIQ	mpb
-815	7HGNYPmbDrMkylWqeFCOIQ	samba de roda
-816	7HGNYPmbDrMkylWqeFCOIQ	tropicalia
-817	3qZ2n5keOAat1SoF6bHwmb	pagode
-818	3qZ2n5keOAat1SoF6bHwmb	partido alto
-819	3qZ2n5keOAat1SoF6bHwmb	samba
-820	3qZ2n5keOAat1SoF6bHwmb	samba de roda
-821	09U6hmCerKcIJrixubiBjm	rap baiano
-822	09U6hmCerKcIJrixubiBjm	trap baiano
-823	09U6hmCerKcIJrixubiBjm	trap brasileiro
-824	7oEkUINVIj1Nr3Wnj8tzqr	bossa nova
-825	7oEkUINVIj1Nr3Wnj8tzqr	mpb
-826	7oEkUINVIj1Nr3Wnj8tzqr	samba
-827	7oEkUINVIj1Nr3Wnj8tzqr	tropicalia
-828	7oEkUINVIj1Nr3Wnj8tzqr	violao
-829	5rX2c1zow6hCph8PnnU3kF	adult standards
-830	5rX2c1zow6hCph8PnnU3kF	bossa nova
-831	5rX2c1zow6hCph8PnnU3kF	brazilian jazz
-832	5rX2c1zow6hCph8PnnU3kF	lounge
-833	5rX2c1zow6hCph8PnnU3kF	samba-jazz
-834	5rX2c1zow6hCph8PnnU3kF	vocal jazz
-835	1b8kpp4DUwt1hWaxTiWQhD	bossa nova
-836	1b8kpp4DUwt1hWaxTiWQhD	mpb
-837	1b8kpp4DUwt1hWaxTiWQhD	samba
-838	1b8kpp4DUwt1hWaxTiWQhD	tropicalia
-839	0Mz5XE0kb1GBnbLQm2VbcO	alternative hip hop
-840	0Mz5XE0kb1GBnbLQm2VbcO	conscious hip hop
-841	0Mz5XE0kb1GBnbLQm2VbcO	east coast hip hop
-842	0Mz5XE0kb1GBnbLQm2VbcO	gangster rap
-843	0Mz5XE0kb1GBnbLQm2VbcO	hardcore hip hop
-844	0Mz5XE0kb1GBnbLQm2VbcO	hip hop
-845	0Mz5XE0kb1GBnbLQm2VbcO	rap
-846	0Mz5XE0kb1GBnbLQm2VbcO	southern hip hop
-847	0av074qUwLn5eyzwqoq3xh	alternative hip hop
-848	0av074qUwLn5eyzwqoq3xh	hip hop
-849	0av074qUwLn5eyzwqoq3xh	jazz rap
-850	2PmIyxmEFsNfQJjEifPDZC	english indie rock
-851	3Rq3YOF9YG9YfCWD4D56RZ	chillhop
-852	3Rq3YOF9YG9YfCWD4D56RZ	downtempo
-853	3Rq3YOF9YG9YfCWD4D56RZ	japanese chillhop
-854	3Rq3YOF9YG9YfCWD4D56RZ	japanese old school hip hop
-855	3Rq3YOF9YG9YfCWD4D56RZ	jazz rap
-856	23cC3RI0hgD5sWmXKPAJuG	chillhop
-857	23cC3RI0hgD5sWmXKPAJuG	indie soul
-858	1xHQO9GJIW9OXHxGBISYc5	electropop
-859	09hVIj6vWgoCDtT03h8ZCa	alternative hip hop
-860	09hVIj6vWgoCDtT03h8ZCa	conscious hip hop
-861	09hVIj6vWgoCDtT03h8ZCa	east coast hip hop
-862	09hVIj6vWgoCDtT03h8ZCa	gangster rap
-863	09hVIj6vWgoCDtT03h8ZCa	golden age hip hop
-864	09hVIj6vWgoCDtT03h8ZCa	hardcore hip hop
-865	09hVIj6vWgoCDtT03h8ZCa	hip hop
-866	09hVIj6vWgoCDtT03h8ZCa	jazz rap
-867	09hVIj6vWgoCDtT03h8ZCa	queens hip hop
-868	09hVIj6vWgoCDtT03h8ZCa	rap
-869	1MBqzcu6aiY7GzP5BfG56T	french hip hop
-870	1MBqzcu6aiY7GzP5BfG56T	old school rap francais
-871	1WxunfiOh9Ws0uu2JoDmjL	bossa nova
-872	1WxunfiOh9Ws0uu2JoDmjL	samba-jazz
-873	5JYtpnUKxAzXfHEYpOeeit	bossa nova
-874	5JYtpnUKxAzXfHEYpOeeit	manguebeat
-875	5JYtpnUKxAzXfHEYpOeeit	mpb
-876	5JYtpnUKxAzXfHEYpOeeit	pagode
-877	5JYtpnUKxAzXfHEYpOeeit	samba
-878	5JYtpnUKxAzXfHEYpOeeit	samba-rock
-879	5JYtpnUKxAzXfHEYpOeeit	tropicalia
-880	1gIa65d5ICT2xVWiUJ3u27	bossa nova
-881	1gIa65d5ICT2xVWiUJ3u27	brazilian indie
-882	1gIa65d5ICT2xVWiUJ3u27	mpb
-883	1gIa65d5ICT2xVWiUJ3u27	nova mpb
-884	1gIa65d5ICT2xVWiUJ3u27	rock baiano
-885	1gIa65d5ICT2xVWiUJ3u27	samba
-886	1gIa65d5ICT2xVWiUJ3u27	tropicalia
-974	0I11U609NiFEdpvNix7oNl	capoeira
-975	6xQwC94a61f3bZwyl4UJXD	capoeira
-976	4M5nCE77Qaxayuhp3fVn4V	chamber pop
-977	4M5nCE77Qaxayuhp3fVn4V	indie folk
-978	4M5nCE77Qaxayuhp3fVn4V	stomp and holler
-979	6aaMZ3fcfLv4tEbmY7bjRM	hip hop
-980	6aaMZ3fcfLv4tEbmY7bjRM	rap
-981	6aaMZ3fcfLv4tEbmY7bjRM	tennessee hip hop
-982	6aaMZ3fcfLv4tEbmY7bjRM	underground hip hop
-983	7hi7sNBb4AWmzHRjFCs94V	capoeira
-984	04gDigrS5kc9YWfZHwBETP	pop
-985	6BIltkF2V7p0PHLtUyc7re	capoeira
-986	2p1fiYHYiXz9qi0JJyxBzN	birmingham grime
-987	2p1fiYHYiXz9qi0JJyxBzN	grime
-988	2p1fiYHYiXz9qi0JJyxBzN	instrumental grime
-989	2p1fiYHYiXz9qi0JJyxBzN	rap
-990	5SKEXbgzIdRl3gQJ23CnUP	capoeira
-991	1cIz2h3ERs72r60yw78Deu	bass house
-992	4ERtgeBbWRkFzIz6LaFCeY	emo
-993	4ERtgeBbWRkFzIz6LaFCeY	neo mellow
-994	4ERtgeBbWRkFzIz6LaFCeY	pop punk
-995	4ERtgeBbWRkFzIz6LaFCeY	pop rock
-996	4dM6NDYSfLcspt8GLoT5aE	edm
-997	4dM6NDYSfLcspt8GLoT5aE	electronic trap
-998	1KEUVZo7CMTSJoM8doulOT	alternative metal
-999	1KEUVZo7CMTSJoM8doulOT	nu metal
-1000	1KEUVZo7CMTSJoM8doulOT	post-grunge
-1001	1KEUVZo7CMTSJoM8doulOT	rap rock
-1002	67p5GMYQZOgaAfx1YyttQk	capoeira
-1003	6dGRShw3EqULdxZl9EEJYv	capoeira
-1004	6qgc4bSHhzZxnJ01WDEAHt	capoeira
-1005	5ZfHVIBVoMg0VjgUBU0alH	capoeira
-1006	5nJ5xDXFO4czh2gJ9f4wto	capoeira
-1007	5nJ5xDXFO4czh2gJ9f4wto	samba de roda
-1008	5sEDTHJJyDEWVFx99hGSIb	soundtrack
-1009	1K9pNfOfxZFfbEgoOmjV13	capoeira
-1010	1K9pNfOfxZFfbEgoOmjV13	samba de roda
-1011	4Lm0pUvmisUHMdoky5ch2I	alternative metal
-1012	4Lm0pUvmisUHMdoky5ch2I	bow pop
-1013	4Lm0pUvmisUHMdoky5ch2I	cello
-1014	4Lm0pUvmisUHMdoky5ch2I	finnish metal
-1015	4Lm0pUvmisUHMdoky5ch2I	nu metal
-1016	1MXZ0hsGic96dWRDKwAwdr	cali rap
-1017	1MXZ0hsGic96dWRDKwAwdr	melodic rap
-1018	1MXZ0hsGic96dWRDKwAwdr	pop
-1019	1MXZ0hsGic96dWRDKwAwdr	pop rap
-1020	1MXZ0hsGic96dWRDKwAwdr	rap
-1021	1MXZ0hsGic96dWRDKwAwdr	trap
-887	246dkjvS1zLTtiykXe5h60	dfw rap
-888	246dkjvS1zLTtiykXe5h60	melodic rap
-889	246dkjvS1zLTtiykXe5h60	rap
-890	25uiPmTg16RbhZWAqwLBy5	art pop
-891	25uiPmTg16RbhZWAqwLBy5	candy pop
-892	25uiPmTg16RbhZWAqwLBy5	dance pop
-893	25uiPmTg16RbhZWAqwLBy5	electropop
-894	25uiPmTg16RbhZWAqwLBy5	metropopolis
-895	25uiPmTg16RbhZWAqwLBy5	pop
-896	25uiPmTg16RbhZWAqwLBy5	post-teen pop
-897	25uiPmTg16RbhZWAqwLBy5	uk pop
-898	4r63FhuTkUYltbVAg5TQnk	north carolina hip hop
-899	4r63FhuTkUYltbVAg5TQnk	rap
-900	4r63FhuTkUYltbVAg5TQnk	trap
-901	26T3LtbuGT1Fu9m0eRq5X3	modern rock
-902	26T3LtbuGT1Fu9m0eRq5X3	punk blues
-903	26T3LtbuGT1Fu9m0eRq5X3	rock
-904	4kI8Ie27vjvonwaB2ePh8T	modern rock
-905	4kI8Ie27vjvonwaB2ePh8T	rock
-906	24XtlMhEMNdi822vi0MhY1	emo
-907	24XtlMhEMNdi822vi0MhY1	pop punk
-908	64KEffDW9EtZ1y2vBYgq8T	brostep
-909	64KEffDW9EtZ1y2vBYgq8T	dance pop
-910	64KEffDW9EtZ1y2vBYgq8T	edm
-911	64KEffDW9EtZ1y2vBYgq8T	pop
-912	64KEffDW9EtZ1y2vBYgq8T	pop dance
-913	64KEffDW9EtZ1y2vBYgq8T	progressive electro house
-914	15UsOTVnJzReFVN1VCnxy4	emo rap
-915	15UsOTVnJzReFVN1VCnxy4	miami hip hop
-916	5cj0lLjcoR7YOSnhnX0Po5	dance pop
-917	5cj0lLjcoR7YOSnhnX0Po5	pop
-918	6qqNVTkY8uBg9cP3Jd7DAH	art pop
-919	6qqNVTkY8uBg9cP3Jd7DAH	electropop
-920	6qqNVTkY8uBg9cP3Jd7DAH	pop
-921	5yV1qdnmxyIYiSFB02wpDj	indie pop
-922	5yV1qdnmxyIYiSFB02wpDj	indie rock
-923	5yV1qdnmxyIYiSFB02wpDj	indietronica
-924	5yV1qdnmxyIYiSFB02wpDj	seattle indie
-925	41rVuRHYAiH7ltBTHVR9We	brostep
-926	41rVuRHYAiH7ltBTHVR9We	edm
-927	41rVuRHYAiH7ltBTHVR9We	electro house
-928	41rVuRHYAiH7ltBTHVR9We	electronic trap
-929	41rVuRHYAiH7ltBTHVR9We	future bass
-930	41rVuRHYAiH7ltBTHVR9We	pop dance
-931	41rVuRHYAiH7ltBTHVR9We	pop edm
-932	0EeQBlQJFiAfJeVN2vT9s0	conscious hip hop
-933	0EeQBlQJFiAfJeVN2vT9s0	gangster rap
-934	0EeQBlQJFiAfJeVN2vT9s0	hip hop
-935	0EeQBlQJFiAfJeVN2vT9s0	pop rap
-936	0EeQBlQJFiAfJeVN2vT9s0	rap
-937	0EeQBlQJFiAfJeVN2vT9s0	southern hip hop
-938	0EeQBlQJFiAfJeVN2vT9s0	trap
-939	0jNDKefhfSbLR9sFvcPLHo	edm
-940	0jNDKefhfSbLR9sFvcPLHo	electro house
-941	0jNDKefhfSbLR9sFvcPLHo	electronic trap
-942	0jNDKefhfSbLR9sFvcPLHo	electropop
-943	0jNDKefhfSbLR9sFvcPLHo	future bass
-944	0jNDKefhfSbLR9sFvcPLHo	pop dance
-945	0jNDKefhfSbLR9sFvcPLHo	pop edm
-946	0jNDKefhfSbLR9sFvcPLHo	vapor twitch
-947	7boQqq2hUcz9kHcQOecG4j	gangster rap
-948	7boQqq2hUcz9kHcQOecG4j	hyphy
-949	7boQqq2hUcz9kHcQOecG4j	west coast rap
-950	7boQqq2hUcz9kHcQOecG4j	west coast trap
-951	5BvJzeQpmsdsFp4HGUYUEx	baroque pop
-952	5BvJzeQpmsdsFp4HGUYUEx	indie rock
-953	5BvJzeQpmsdsFp4HGUYUEx	modern rock
-954	5BvJzeQpmsdsFp4HGUYUEx	rock
-955	4MCBfE4596Uoi2O4DtmEMz	chicago rap
-956	4MCBfE4596Uoi2O4DtmEMz	melodic rap
-957	1vCWHaC5f2uS3yhpwWbIA6	dance pop
-958	1vCWHaC5f2uS3yhpwWbIA6	edm
-959	1vCWHaC5f2uS3yhpwWbIA6	pop
-960	1vCWHaC5f2uS3yhpwWbIA6	pop dance
-961	1vCWHaC5f2uS3yhpwWbIA6	pop rap
-962	3TVXtAsR1Inumwj472S9r4	canadian hip hop
-963	3TVXtAsR1Inumwj472S9r4	canadian pop
-964	3TVXtAsR1Inumwj472S9r4	hip hop
-965	3TVXtAsR1Inumwj472S9r4	rap
-966	3TVXtAsR1Inumwj472S9r4	toronto rap
-967	0SwO7SWeDHJijQ3XNS7xEE	alternative dance
-968	0SwO7SWeDHJijQ3XNS7xEE	indietronica
-969	0SwO7SWeDHJijQ3XNS7xEE	modern rock
-970	0SwO7SWeDHJijQ3XNS7xEE	rock
-971	3AA28KZvwAUcZuOKwyblJQ	alternative hip hop
-972	5r4anprO9Hg9CBlmdkwFdE	capoeira
-973	5r4anprO9Hg9CBlmdkwFdE	samba reggae
+668	2oqwwcM17wrP9hBD25zKSR	indie poptimism
+669	2oqwwcM17wrP9hBD25zKSR	modern alternative rock
+670	2oqwwcM17wrP9hBD25zKSR	modern rock
+671	2oqwwcM17wrP9hBD25zKSR	nyc pop
+672	2oqwwcM17wrP9hBD25zKSR	vapor soul
+673	32Ko3nL0210QAt14S3Rs4Y	indie folk
+674	32Ko3nL0210QAt14S3Rs4Y	indie pop
+675	32Ko3nL0210QAt14S3Rs4Y	indie poptimism
+676	32Ko3nL0210QAt14S3Rs4Y	indie rock
+677	32Ko3nL0210QAt14S3Rs4Y	modern rock
+678	32Ko3nL0210QAt14S3Rs4Y	stomp and holler
+679	4lYtGx5NZQJHsMyhHc5iz3	alternative rock
+680	4lYtGx5NZQJHsMyhHc5iz3	gothabilly
+681	4lYtGx5NZQJHsMyhHc5iz3	new wave
+682	4lYtGx5NZQJHsMyhHc5iz3	post-punk
+683	4lYtGx5NZQJHsMyhHc5iz3	psychobilly
+684	4lYtGx5NZQJHsMyhHc5iz3	punk
+685	4lYtGx5NZQJHsMyhHc5iz3	punk blues
+686	4oV5EVJ0XFWsJKoOvdRPvl	alternative pop
+687	4oV5EVJ0XFWsJKoOvdRPvl	alternative rock
+688	4oV5EVJ0XFWsJKoOvdRPvl	anti-folk
+689	4oV5EVJ0XFWsJKoOvdRPvl	art rock
+690	4oV5EVJ0XFWsJKoOvdRPvl	dream pop
+691	4oV5EVJ0XFWsJKoOvdRPvl	gbvfi
+692	4oV5EVJ0XFWsJKoOvdRPvl	indie rock
+693	4oV5EVJ0XFWsJKoOvdRPvl	lo-fi
+694	4oV5EVJ0XFWsJKoOvdRPvl	modern power pop
+695	4oV5EVJ0XFWsJKoOvdRPvl	noise pop
+696	4oV5EVJ0XFWsJKoOvdRPvl	ohio indie
+697	4oV5EVJ0XFWsJKoOvdRPvl	post-hardcore
+698	4oV5EVJ0XFWsJKoOvdRPvl	power pop
+699	4oV5EVJ0XFWsJKoOvdRPvl	singer-songwriter
+700	14ep6TM2JzapH5nk7vaora	welsh hip hop
+701	6tbLPxj1uQ6vsRQZI2YFCT	alternative metal
+702	6tbLPxj1uQ6vsRQZI2YFCT	nu metal
+703	2yEwvVSSSUkcLeSTNyHKh8	alternative metal
+704	2yEwvVSSSUkcLeSTNyHKh8	alternative rock
+705	2yEwvVSSSUkcLeSTNyHKh8	art rock
+706	2yEwvVSSSUkcLeSTNyHKh8	nu metal
+707	2yEwvVSSSUkcLeSTNyHKh8	progressive metal
+708	2yEwvVSSSUkcLeSTNyHKh8	progressive rock
+709	2yEwvVSSSUkcLeSTNyHKh8	rock
+710	5HYNPEO2NNBONQkp3Mvwvc	jazz cover
+711	5HYNPEO2NNBONQkp3Mvwvc	swing
+712	7AQzXO3NPNQsI7oNu5rC3r	alternative rock
+713	7AQzXO3NPNQsI7oNu5rC3r	pop rock
+714	7AQzXO3NPNQsI7oNu5rC3r	rock
+715	1LB8qB5BPb3MHQrfkvifXU	album rock
+716	1LB8qB5BPb3MHQrfkvifXU	art rock
+717	1LB8qB5BPb3MHQrfkvifXU	beatlesque
+718	1LB8qB5BPb3MHQrfkvifXU	classic rock
+719	1LB8qB5BPb3MHQrfkvifXU	glam metal
+720	1LB8qB5BPb3MHQrfkvifXU	glam rock
+721	1LB8qB5BPb3MHQrfkvifXU	hard rock
+722	1LB8qB5BPb3MHQrfkvifXU	heartland rock
+723	1LB8qB5BPb3MHQrfkvifXU	mellow gold
+724	1LB8qB5BPb3MHQrfkvifXU	new wave pop
+725	1LB8qB5BPb3MHQrfkvifXU	pop rock
+726	1LB8qB5BPb3MHQrfkvifXU	power pop
+727	1LB8qB5BPb3MHQrfkvifXU	rock
+728	1LB8qB5BPb3MHQrfkvifXU	soft rock
+729	0RqtSIYZmd4fiBKVFqyIqD	modern rock
+730	0RqtSIYZmd4fiBKVFqyIqD	post-grunge
+731	0RqtSIYZmd4fiBKVFqyIqD	rock
+732	5KDIH2gF0VpelTqyQS7udb	alternative metal
+733	5KDIH2gF0VpelTqyQS7udb	nu metal
+734	5KDIH2gF0VpelTqyQS7udb	pop rock
+735	5KDIH2gF0VpelTqyQS7udb	post-grunge
+736	5KDIH2gF0VpelTqyQS7udb	rap rock
+737	5KDIH2gF0VpelTqyQS7udb	rock
+738	77aDWNQLrjzW7i6YBRhCbQ	irish indie rock
+739	2MqhkhX4npxDZ62ObR5ELO	alternative metal
+740	2MqhkhX4npxDZ62ObR5ELO	funk metal
+741	2MqhkhX4npxDZ62ObR5ELO	nu metal
+742	2MqhkhX4npxDZ62ObR5ELO	pop rock
+743	2MqhkhX4npxDZ62ObR5ELO	post-grunge
+744	2MqhkhX4npxDZ62ObR5ELO	rap rock
+745	1KCSPY1glIKqW2TotWuXOR	dance pop
+746	1KCSPY1glIKqW2TotWuXOR	pop
+747	67ea9eGLXYMsO2eYQRui3w	album rock
+748	67ea9eGLXYMsO2eYQRui3w	art rock
+749	67ea9eGLXYMsO2eYQRui3w	blues rock
+750	67ea9eGLXYMsO2eYQRui3w	british invasion
+751	67ea9eGLXYMsO2eYQRui3w	classic rock
+752	67ea9eGLXYMsO2eYQRui3w	hard rock
+753	67ea9eGLXYMsO2eYQRui3w	mellow gold
+754	67ea9eGLXYMsO2eYQRui3w	psychedelic rock
+755	67ea9eGLXYMsO2eYQRui3w	rock
+756	3TOqt5oJwL9BE2NG9MEwDa	alternative metal
+757	3TOqt5oJwL9BE2NG9MEwDa	nu metal
+758	3TOqt5oJwL9BE2NG9MEwDa	rap metal
+759	74eX4C98E4FCrAMl39qRsJ	alternative metal
+760	74eX4C98E4FCrAMl39qRsJ	canadian metal
+761	74eX4C98E4FCrAMl39qRsJ	canadian rock
+762	74eX4C98E4FCrAMl39qRsJ	nu metal
+763	74eX4C98E4FCrAMl39qRsJ	post-grunge
+764	74eX4C98E4FCrAMl39qRsJ	rap rock
+765	6CwfuxIqcltXDGjfZsMd9A	dance pop
+766	6CwfuxIqcltXDGjfZsMd9A	electropop
+767	6CwfuxIqcltXDGjfZsMd9A	metropopolis
+768	6CwfuxIqcltXDGjfZsMd9A	pop
+769	6CwfuxIqcltXDGjfZsMd9A	uk alternative pop
+770	6zFYqv1mOsgBRQbae3JJ9e	classic rock
+771	6zFYqv1mOsgBRQbae3JJ9e	mellow gold
+772	6zFYqv1mOsgBRQbae3JJ9e	piano rock
+773	6zFYqv1mOsgBRQbae3JJ9e	rock
+774	6zFYqv1mOsgBRQbae3JJ9e	singer-songwriter
+775	6zFYqv1mOsgBRQbae3JJ9e	soft rock
+776	4QM5QCHicznALtX885CnZC	art pop
+777	4QM5QCHicznALtX885CnZC	dance pop
+778	4QM5QCHicznALtX885CnZC	electropop
+779	4QM5QCHicznALtX885CnZC	escape room
+780	4QM5QCHicznALtX885CnZC	hyperpop
+781	4QM5QCHicznALtX885CnZC	pink noise
+782	4QM5QCHicznALtX885CnZC	pop
+783	4QM5QCHicznALtX885CnZC	proto-hyperpop
+784	4QM5QCHicznALtX885CnZC	viral rap
+785	5nGIFgo0shDenQYSE0Sn7c	alternative metal
+786	5qa31A9HySw3T7MKWI9bGg	alt z
+787	5qa31A9HySw3T7MKWI9bGg	dance pop
+788	5qa31A9HySw3T7MKWI9bGg	electropop
+789	5qa31A9HySw3T7MKWI9bGg	pop
+790	5qa31A9HySw3T7MKWI9bGg	post-teen pop
+791	1AwO9pWEBSBoWdEZu28XDC	adult standards
+792	1AwO9pWEBSBoWdEZu28XDC	lounge
+793	1AwO9pWEBSBoWdEZu28XDC	torch song
+794	1AwO9pWEBSBoWdEZu28XDC	vocal jazz
+795	4yvcSjfu4PC0CYQyLy4wSq	gauze pop
+796	4yvcSjfu4PC0CYQyLy4wSq	indietronica
+797	4yvcSjfu4PC0CYQyLy4wSq	shiver pop
+798	1moxjboGR7GNWYIMWsRjgG	baroque pop
+799	1moxjboGR7GNWYIMWsRjgG	pop
+800	1moxjboGR7GNWYIMWsRjgG	uk alternative pop
+801	1caBfBEapzw8z2Qz9q0OaQ	alternative metal
+802	1caBfBEapzw8z2Qz9q0OaQ	metalcore
+803	1caBfBEapzw8z2Qz9q0OaQ	screamo
+804	1caBfBEapzw8z2Qz9q0OaQ	trancecore
+805	1caBfBEapzw8z2Qz9q0OaQ	uk metalcore
+806	0vYkHhJ48Bs3jWcvZXvOrP	art punk
+807	0vYkHhJ48Bs3jWcvZXvOrP	art rock
+808	0vYkHhJ48Bs3jWcvZXvOrP	permanent wave
+809	0vYkHhJ48Bs3jWcvZXvOrP	protopunk
+810	0vYkHhJ48Bs3jWcvZXvOrP	rock
+811	0vYkHhJ48Bs3jWcvZXvOrP	singer-songwriter
+812	1ET1wIkDmuCBC80XcTr3Sg	candy pop
+813	7gcUMQcBkw833YqXciq0WB	alt z
+814	7gcUMQcBkw833YqXciq0WB	dark pop
+815	7x3f7c0fBanNlQwpx1255g	chanson
+816	7x3f7c0fBanNlQwpx1255g	ye ye
+817	4iHNK0tOyZPYnBU7nGAgpQ	dance pop
+818	4iHNK0tOyZPYnBU7nGAgpQ	pop
+819	4iHNK0tOyZPYnBU7nGAgpQ	urban contemporary
+820	75xNYf2GU5wtQqBrd74SlY	brisbane indie
+821	75xNYf2GU5wtQqBrd74SlY	dark trap
+822	75xNYf2GU5wtQqBrd74SlY	viral rap
+823	49aaHxvAJ0tCh0F15OnwIl	electropop
+824	49aaHxvAJ0tCh0F15OnwIl	europop
+825	49aaHxvAJ0tCh0F15OnwIl	eurovision
+826	49aaHxvAJ0tCh0F15OnwIl	swedish pop
+827	4SdIXLzfabqU61iK7SnKAU	australian alternative pop
+828	4SdIXLzfabqU61iK7SnKAU	australian pop
+829	7jZMxhsB8djyIbYmoiJSTs	dance pop
+830	7jZMxhsB8djyIbYmoiJSTs	pop
+831	7jZMxhsB8djyIbYmoiJSTs	pop r&b
+832	7jZMxhsB8djyIbYmoiJSTs	post-teen pop
+833	7jZMxhsB8djyIbYmoiJSTs	r&b
+834	7jZMxhsB8djyIbYmoiJSTs	rap
+835	7jZMxhsB8djyIbYmoiJSTs	urban contemporary
+836	3ZJxEmjYZd5VOqZ8o3aXiL	alternative r&b
+837	3ZJxEmjYZd5VOqZ8o3aXiL	electropop
+838	3ZJxEmjYZd5VOqZ8o3aXiL	escape room
+839	11T0XSkxSB5KUPTe8P8BOl	belgian indie
+840	11T0XSkxSB5KUPTe8P8BOl	belgian pop
+841	202HZzqKvPsMHcbwnDZx7u	escape room
+842	202HZzqKvPsMHcbwnDZx7u	hyperpop
+843	202HZzqKvPsMHcbwnDZx7u	pink noise
+844	202HZzqKvPsMHcbwnDZx7u	proto-hyperpop
+845	4Gzfk9Lxm67nBs7E9BZjzG	auckland indie
+846	4Gzfk9Lxm67nBs7E9BZjzG	kiwi rock
+847	0Xkd9GsWwOYETVF0kPXZIG	disco
+848	0Xkd9GsWwOYETVF0kPXZIG	hi-nrg
+849	2cAXhrWAztXGwk6r15ibW2	alt z
+850	2cAXhrWAztXGwk6r15ibW2	pop punk
+851	100sLnojEpcadRx4edEBA6	alt z
+852	100sLnojEpcadRx4edEBA6	electropop
+853	100sLnojEpcadRx4edEBA6	gauze pop
+854	100sLnojEpcadRx4edEBA6	indie poptimism
+855	100sLnojEpcadRx4edEBA6	pop
+856	3VjZEaHXvNbCmV5jc0VfZR	indie electropop
+857	3VjZEaHXvNbCmV5jc0VfZR	indie poptimism
+858	4tpUmLEVLCGFr93o8hFFIB	candy pop
+859	4tpUmLEVLCGFr93o8hFFIB	new wave
+860	4tpUmLEVLCGFr93o8hFFIB	new wave pop
+861	4tpUmLEVLCGFr93o8hFFIB	permanent wave
+862	4tpUmLEVLCGFr93o8hFFIB	power pop
+863	4tpUmLEVLCGFr93o8hFFIB	rock
+864	6E8uXyNsUKeGOgRqAOcgBa	deep adult standards
+865	6blEmsLU25ewy8hHtgZaSL	indie pop
+866	6blEmsLU25ewy8hHtgZaSL	viral rap
+996	5YGY8feqx7naU7z4HrwZM6	dance pop
+997	5YGY8feqx7naU7z4HrwZM6	pop
+998	5YGY8feqx7naU7z4HrwZM6	post-teen pop
+999	7aWpPjjgItUnXljFxYYKZI	alt z
+1000	7aWpPjjgItUnXljFxYYKZI	dark pop
+1001	7aWpPjjgItUnXljFxYYKZI	modern indie pop
+1002	0cGUm45nv7Z6M6qdXYQGTX	dance pop
+1003	0cGUm45nv7Z6M6qdXYQGTX	pop
+1004	0cGUm45nv7Z6M6qdXYQGTX	post-teen pop
+1005	0cGUm45nv7Z6M6qdXYQGTX	r&b
+1006	0cGUm45nv7Z6M6qdXYQGTX	rap
+1007	3PyJHH2wyfQK3WZrk9rpmP	dance pop
+1008	3PyJHH2wyfQK3WZrk9rpmP	electropop
+1009	3PyJHH2wyfQK3WZrk9rpmP	escape room
+1010	3PyJHH2wyfQK3WZrk9rpmP	pop
+1011	3LjhVl7GzYsza1biQjTpaN	alt z
+1012	3LjhVl7GzYsza1biQjTpaN	dance pop
+1013	3LjhVl7GzYsza1biQjTpaN	electropop
+1014	3LjhVl7GzYsza1biQjTpaN	indie pop
+1015	3LjhVl7GzYsza1biQjTpaN	indie poptimism
+1016	3LjhVl7GzYsza1biQjTpaN	pop
+1017	3LjhVl7GzYsza1biQjTpaN	post-teen pop
+1018	5Lz5CnywFeg4Rs4l76OtG2	alt z
+1019	5Lz5CnywFeg4Rs4l76OtG2	viral rap
+1020	5cj0lLjcoR7YOSnhnX0Po5	dance pop
+1021	5cj0lLjcoR7YOSnhnX0Po5	pop
+1022	66CXWjxzNUsdJxJ2JdwvnR	dance pop
+1023	66CXWjxzNUsdJxJ2JdwvnR	pop
+867	0DAZn759crST1j1p3Y2qTn	geek folk
+868	0DAZn759crST1j1p3Y2qTn	neo-pagan
+869	053q0ukIDRgzwTr4vNSwab	art pop
+870	053q0ukIDRgzwTr4vNSwab	canadian electropop
+871	053q0ukIDRgzwTr4vNSwab	dance pop
+872	053q0ukIDRgzwTr4vNSwab	grave wave
+873	053q0ukIDRgzwTr4vNSwab	indietronica
+874	053q0ukIDRgzwTr4vNSwab	metropopolis
+875	053q0ukIDRgzwTr4vNSwab	pop
+876	6ueGR6SWhUJfvEhqkvMsVs	afrofuturism
+877	6ueGR6SWhUJfvEhqkvMsVs	alternative r&b
+878	6ueGR6SWhUJfvEhqkvMsVs	atl hip hop
+879	6ueGR6SWhUJfvEhqkvMsVs	electropop
+880	6ueGR6SWhUJfvEhqkvMsVs	escape room
+881	6ueGR6SWhUJfvEhqkvMsVs	neo soul
+882	6ueGR6SWhUJfvEhqkvMsVs	pop
+883	6ueGR6SWhUJfvEhqkvMsVs	r&b
+884	49qiE8dj4JuNdpYGRPdKbF	alternative metal
+885	49qiE8dj4JuNdpYGRPdKbF	nu metal
+886	49qiE8dj4JuNdpYGRPdKbF	post-grunge
+887	49qiE8dj4JuNdpYGRPdKbF	rap rock
+888	49qiE8dj4JuNdpYGRPdKbF	rock
+889	3qm84nBOXUEQ2vnTfUTTFC	glam metal
+890	3qm84nBOXUEQ2vnTfUTTFC	hard rock
+891	3qm84nBOXUEQ2vnTfUTTFC	rock
+892	0e9C27umtAZF9E2jqyRfeP	cinematic post-rock
+893	6ogn9necmbUdCppmNnGOdi	canadian pop
+894	6ogn9necmbUdCppmNnGOdi	canadian singer-songwriter
+895	6ogn9necmbUdCppmNnGOdi	pop rock
+896	6ogn9necmbUdCppmNnGOdi	singer-songwriter
+897	6om12Ev5ppgoMy3OYSoech	alternative metal
+898	6om12Ev5ppgoMy3OYSoech	nu metal
+899	6om12Ev5ppgoMy3OYSoech	post-grunge
+900	2feDdbD5araYcm6JhFHHw7	indie poptimism
+901	2feDdbD5araYcm6JhFHHw7	pop
+902	3RNrq3jvMZxD9ZyoOZbQOD	alternative metal
+903	3RNrq3jvMZxD9ZyoOZbQOD	funk metal
+904	3RNrq3jvMZxD9ZyoOZbQOD	nu metal
+905	3RNrq3jvMZxD9ZyoOZbQOD	rap metal
+906	3RNrq3jvMZxD9ZyoOZbQOD	rock
+907	2pqd3HsfsvcBGtHvPOg6eg	modern alternative rock
+908	2pqd3HsfsvcBGtHvPOg6eg	modern rock
+909	2pqd3HsfsvcBGtHvPOg6eg	post-grunge
+910	2pqd3HsfsvcBGtHvPOg6eg	rock
+911	0k17h0D3J5VfsdmQ1iZtE9	album rock
+912	0k17h0D3J5VfsdmQ1iZtE9	art rock
+913	0k17h0D3J5VfsdmQ1iZtE9	classic rock
+914	0k17h0D3J5VfsdmQ1iZtE9	progressive rock
+915	0k17h0D3J5VfsdmQ1iZtE9	psychedelic rock
+916	0k17h0D3J5VfsdmQ1iZtE9	rock
+917	0k17h0D3J5VfsdmQ1iZtE9	symphonic rock
+918	5Va9LuEmaZxnbk1gMnjMD7	alternative hip hop
+919	5Va9LuEmaZxnbk1gMnjMD7	atl hip hop
+920	5Va9LuEmaZxnbk1gMnjMD7	conscious hip hop
+921	5Va9LuEmaZxnbk1gMnjMD7	hip hop
+922	5Va9LuEmaZxnbk1gMnjMD7	old school atlanta hip hop
+923	5Va9LuEmaZxnbk1gMnjMD7	rap
+924	3iJJD5v7oIFUevW4N5w5cj	art pop
+925	3iJJD5v7oIFUevW4N5w5cj	art rock
+926	3iJJD5v7oIFUevW4N5w5cj	cello
+927	3iJJD5v7oIFUevW4N5w5cj	dream pop
+928	3iJJD5v7oIFUevW4N5w5cj	experimental
+929	3iJJD5v7oIFUevW4N5w5cj	indie folk
+930	3iJJD5v7oIFUevW4N5w5cj	minimalism
+931	3iJJD5v7oIFUevW4N5w5cj	modern cello
+932	3iJJD5v7oIFUevW4N5w5cj	singer-songwriter
+933	6XyY86QOPPrYVGvF9ch6wz	alternative metal
+934	6XyY86QOPPrYVGvF9ch6wz	nu metal
+935	6XyY86QOPPrYVGvF9ch6wz	post-grunge
+936	6XyY86QOPPrYVGvF9ch6wz	rap metal
+937	2CCcoAwiAwpIs1hcsqkk3b	free folk
+938	46auOkH1pk28rWrSoUNhLo	alternative country
+939	46auOkH1pk28rWrSoUNhLo	queer country
+940	65NrBzD3Jnf1iqbDjuUYjD	chillstep
+941	2VYQTNDsvvKN9wmU5W7xpj	alternative metal
+942	2VYQTNDsvvKN9wmU5W7xpj	industrial
+943	2VYQTNDsvvKN9wmU5W7xpj	industrial metal
+944	2VYQTNDsvvKN9wmU5W7xpj	industrial rock
+945	2VYQTNDsvvKN9wmU5W7xpj	nu metal
+946	0JDkhL4rjiPNEp92jAgJnS	adult standards
+947	0JDkhL4rjiPNEp92jAgJnS	brill building pop
+948	0JDkhL4rjiPNEp92jAgJnS	bubblegum pop
+949	0JDkhL4rjiPNEp92jAgJnS	mellow gold
+950	0JDkhL4rjiPNEp92jAgJnS	rock-and-roll
+951	0JDkhL4rjiPNEp92jAgJnS	rockabilly
+952	5Qlt3zQ63Z99mNhuun0JAT	britpop
+953	5Qlt3zQ63Z99mNhuun0JAT	scottish new wave
+954	5Qlt3zQ63Z99mNhuun0JAT	solo wave
+955	26VFTg2z8YR0cCuwLzESi2	dance pop
+956	26VFTg2z8YR0cCuwLzESi2	electropop
+957	26VFTg2z8YR0cCuwLzESi2	etherpop
+958	26VFTg2z8YR0cCuwLzESi2	indie poptimism
+959	26VFTg2z8YR0cCuwLzESi2	pop
+960	4VpWzXVUAR2YyQuWQpNGAf	dark jazz
+961	4VpWzXVUAR2YyQuWQpNGAf	drone
+962	3HVdAiMNjYrQIKlOGxoGh5	alternative metal
+963	3HVdAiMNjYrQIKlOGxoGh5	hard rock
+964	3HVdAiMNjYrQIKlOGxoGh5	industrial rock
+965	3HVdAiMNjYrQIKlOGxoGh5	nu metal
+966	3HVdAiMNjYrQIKlOGxoGh5	rap rock
+967	3HVdAiMNjYrQIKlOGxoGh5	rock
+968	4KlYg0F5KG9QNDFKaeTNAy	dark wave
+969	4KlYg0F5KG9QNDFKaeTNAy	ebm
+970	4KlYg0F5KG9QNDFKaeTNAy	electro-industrial
+971	4KlYg0F5KG9QNDFKaeTNAy	futurepop
+972	4KlYg0F5KG9QNDFKaeTNAy	industrial metal
+973	4NgfOZCL9Ml67xzM0xzIvC	blues rock
+974	4NgfOZCL9Ml67xzM0xzIvC	classic rock
+975	4NgfOZCL9Ml67xzM0xzIvC	psychedelic rock
+976	4NgfOZCL9Ml67xzM0xzIvC	rock
+977	0ATg66209dS5nFsvobJlRt	conscious hip hop
+978	2xiIXseIJcq3nG7C8fHeBj	alternative metal
+979	2xiIXseIJcq3nG7C8fHeBj	canadian metal
+980	2xiIXseIJcq3nG7C8fHeBj	canadian rock
+981	2xiIXseIJcq3nG7C8fHeBj	nu metal
+982	2xiIXseIJcq3nG7C8fHeBj	post-grunge
+983	6liAMWkVf5LH7YR9yfFy1Y	dark pop
+984	6liAMWkVf5LH7YR9yfFy1Y	electronica
+985	6liAMWkVf5LH7YR9yfFy1Y	laboratorio
+986	6liAMWkVf5LH7YR9yfFy1Y	trip hop
+987	1NVCNKYdNcuh92vE4rSxpo	vegan straight edge
+988	6B5c4sch27tWHAGdarpPaW	alternative metal
+989	6B5c4sch27tWHAGdarpPaW	modern rock
+990	6B5c4sch27tWHAGdarpPaW	nu metal
+991	6B5c4sch27tWHAGdarpPaW	post-grunge
+992	6B5c4sch27tWHAGdarpPaW	south african rock
+993	05fG473iIaoy82BF1aGhL8	alternative metal
+994	05fG473iIaoy82BF1aGhL8	nu metal
+995	05fG473iIaoy82BF1aGhL8	rap metal
+1024	6PfSUFtkMVoDkx4MQkzOi3	escape room
+1025	6PfSUFtkMVoDkx4MQkzOi3	hyperpop
+1026	6PfSUFtkMVoDkx4MQkzOi3	proto-hyperpop
+1027	6PfSUFtkMVoDkx4MQkzOi3	scenecore
+1028	5vSQUyT33qxr1xAX2Tkf3A	experimental hip hop
+1029	5vSQUyT33qxr1xAX2Tkf3A	psychedelic hip hop
+1030	0eDvMgVFoNV3TpwtrVCoTj	brooklyn drill
+1031	6guC9FqvlVboSKTI77NG2k	metalcore
+1032	6guC9FqvlVboSKTI77NG2k	pixie
+1033	6guC9FqvlVboSKTI77NG2k	sacramento indie
+1034	6guC9FqvlVboSKTI77NG2k	screamo
+1035	6guC9FqvlVboSKTI77NG2k	swancore
+1036	2NjfBq1NflQcKSeiDooVjY	australian pop
+1037	2NjfBq1NflQcKSeiDooVjY	pop
+1038	757aE44tKEUQEqRuT6GnEB	melodic rap
+1039	757aE44tKEUQEqRuT6GnEB	rap
+1040	757aE44tKEUQEqRuT6GnEB	trap
+1041	422qjlzkDtxmaeeOLhnE6A	anime score
+1042	2cFrymmkijnjDg9SS92EPM	pop
+1043	2cFrymmkijnjDg9SS92EPM	pop rap
+1044	1rCIEwPp5OnXW0ornlSsRl	alternative dance
+1045	1rCIEwPp5OnXW0ornlSsRl	canadian indie
+1046	1rCIEwPp5OnXW0ornlSsRl	canadian rock
+1047	1rCIEwPp5OnXW0ornlSsRl	electropop
+1048	1rCIEwPp5OnXW0ornlSsRl	indie rock
+1049	1rCIEwPp5OnXW0ornlSsRl	metropopolis
+1050	1rCIEwPp5OnXW0ornlSsRl	modern rock
+1051	1rCIEwPp5OnXW0ornlSsRl	neo-synthpop
+1052	6MPCFvOQv5cIGfw3jODMF0	pop rap
+1053	6MPCFvOQv5cIGfw3jODMF0	rap
+1054	6MPCFvOQv5cIGfw3jODMF0	trap
+1055	6MPCFvOQv5cIGfw3jODMF0	viral rap
+1056	4sQNUQjOYj9rV2sdfJ8laS	gabba
+1057	4sQNUQjOYj9rV2sdfJ8laS	hardcore techno
+1058	4sQNUQjOYj9rV2sdfJ8laS	tekk
+1059	4sQNUQjOYj9rV2sdfJ8laS	uptempo hardcore
+1060	3YQKmKGau1PzlVlkL1iodx	modern rock
+1061	3YQKmKGau1PzlVlkL1iodx	rock
+1062	6eUKZXaKkcviH0Ku9w2n3V	pop
+1063	6eUKZXaKkcviH0Ku9w2n3V	uk pop
+1064	7GN9PivdemQRKjDt4z5Zv8	alternative r&b
+1065	7GN9PivdemQRKjDt4z5Zv8	indie soul
+1066	7GN9PivdemQRKjDt4z5Zv8	lgbtq+ hip hop
+1067	7GN9PivdemQRKjDt4z5Zv8	neo soul
+1068	7GN9PivdemQRKjDt4z5Zv8	r&b
+1069	7GN9PivdemQRKjDt4z5Zv8	rap
+1070	34Y0ldeyUv7jBvukWOGASO	nyc rap
+1071	34Y0ldeyUv7jBvukWOGASO	pop rap
+1072	34Y0ldeyUv7jBvukWOGASO	rap
+1073	34Y0ldeyUv7jBvukWOGASO	southern hip hop
+1074	34Y0ldeyUv7jBvukWOGASO	trap
+1075	4LLpKhyESsyAXpc4laK94U	hip hop
+1076	4LLpKhyESsyAXpc4laK94U	pittsburgh rap
+1077	4LLpKhyESsyAXpc4laK94U	rap
+1078	7gjAu1qr5C2grXeQFFOGeh	alternative dance
+1079	7gjAu1qr5C2grXeQFFOGeh	indie rock
+1080	7gjAu1qr5C2grXeQFFOGeh	indietronica
+1081	7gjAu1qr5C2grXeQFFOGeh	modern rock
+1082	7gjAu1qr5C2grXeQFFOGeh	stomp and holler
+1083	7oPftvlwr6VrsViSDV7fJY	permanent wave
+1084	7oPftvlwr6VrsViSDV7fJY	punk
+1085	738wLrAtLtCtFOLvQBXOXp	dance pop
+1086	738wLrAtLtCtFOLvQBXOXp	edm
+1087	738wLrAtLtCtFOLvQBXOXp	electro house
+1088	738wLrAtLtCtFOLvQBXOXp	moombahton
+1089	738wLrAtLtCtFOLvQBXOXp	pop
+1090	738wLrAtLtCtFOLvQBXOXp	pop dance
+1091	738wLrAtLtCtFOLvQBXOXp	pop rap
+1092	738wLrAtLtCtFOLvQBXOXp	tropical house
+1093	6fxyWrfmjcbj5d12gXeiNV	dark trap
+1094	6fxyWrfmjcbj5d12gXeiNV	drill
+1095	6fxyWrfmjcbj5d12gXeiNV	hip hop
+1096	6fxyWrfmjcbj5d12gXeiNV	miami hip hop
+1097	6fxyWrfmjcbj5d12gXeiNV	rap
+1098	6fxyWrfmjcbj5d12gXeiNV	underground hip hop
+1099	6kDMoHTcBICPILP2aclPWZ	danish alternative rock
+1100	6kDMoHTcBICPILP2aclPWZ	danish rock
+1101	6kDMoHTcBICPILP2aclPWZ	dream pop
+1102	6kDMoHTcBICPILP2aclPWZ	melancholia
+1103	21dooacK2WGBB5amYvKyfM	dark trap
+1104	21dooacK2WGBB5amYvKyfM	melodic rap
+1105	21dooacK2WGBB5amYvKyfM	miami hip hop
+1106	21dooacK2WGBB5amYvKyfM	rap
+1107	21dooacK2WGBB5amYvKyfM	southern hip hop
+1108	21dooacK2WGBB5amYvKyfM	trap
+1109	21dooacK2WGBB5amYvKyfM	underground hip hop
+1110	21dooacK2WGBB5amYvKyfM	vapor trap
+1111	21dooacK2WGBB5amYvKyfM	viral rap
+1112	7Im2r58zlLJIDfamqDjEE6	capoeira
+1113	0dlDsD7y6ccmDm8tuWCU6F	aesthetic rap
+1114	0dlDsD7y6ccmDm8tuWCU6F	phonk
+1115	7A8S43ryYdbWpJKeHRZRcq	rap
+1116	7A8S43ryYdbWpJKeHRZRcq	trap
+1117	0iEtIxbK0KxaSlF7G42ZOp	hip hop
+1118	0iEtIxbK0KxaSlF7G42ZOp	rap
+1119	0iEtIxbK0KxaSlF7G42ZOp	trap
+1120	0Y5tJX1MQlPlqiwlOH1tJY	rap
+1121	0Y5tJX1MQlPlqiwlOH1tJY	slap house
+1122	0H39MdGGX6dbnnQPt6NQkZ	melodic rap
+1123	0H39MdGGX6dbnnQPt6NQkZ	pop rap
+1124	0H39MdGGX6dbnnQPt6NQkZ	rap
+1125	0H39MdGGX6dbnnQPt6NQkZ	slap house
+1126	6Q1ggxOPVDbMyqlhv0tmT4	capoeira
+1127	5dHt1vcEm9qb8fCyLcB3HL	gangster rap
+1128	5dHt1vcEm9qb8fCyLcB3HL	hip hop
+1129	5dHt1vcEm9qb8fCyLcB3HL	pop rap
+1130	5dHt1vcEm9qb8fCyLcB3HL	rap
+1131	5dHt1vcEm9qb8fCyLcB3HL	southern hip hop
+1132	5dHt1vcEm9qb8fCyLcB3HL	trap
+1133	5dHt1vcEm9qb8fCyLcB3HL	underground hip hop
+1134	0ONHkAv9pCAFxb0zJwDNTy	alternative hip hop
+1135	0ONHkAv9pCAFxb0zJwDNTy	hip hop
+1136	0ONHkAv9pCAFxb0zJwDNTy	pop rap
+1137	0ONHkAv9pCAFxb0zJwDNTy	rap
+1138	0ONHkAv9pCAFxb0zJwDNTy	southern hip hop
+1139	0ONHkAv9pCAFxb0zJwDNTy	trap
+1140	0ONHkAv9pCAFxb0zJwDNTy	underground hip hop
+1141	0ONHkAv9pCAFxb0zJwDNTy	virginia hip hop
+1142	7kA4sEagpoNK91I7wr9tYr	bass house
+1143	7kA4sEagpoNK91I7wr9tYr	indonesian edm
+1144	1SImpQO0GbjRgvlwCcCtFo	pop punk
+1145	1SImpQO0GbjRgvlwCcCtFo	pop rock
+1146	1SImpQO0GbjRgvlwCcCtFo	screamo
+1147	1URnnhqYAYcrqrcwql10ft	atl hip hop
+1148	1URnnhqYAYcrqrcwql10ft	rap
+1149	4DdkRBBYG6Yk9Ka8tdJ9BW	atl hip hop
+1150	4DdkRBBYG6Yk9Ka8tdJ9BW	hip hop
+1151	4DdkRBBYG6Yk9Ka8tdJ9BW	pop rap
+1152	4DdkRBBYG6Yk9Ka8tdJ9BW	rap
+1153	4DdkRBBYG6Yk9Ka8tdJ9BW	southern hip hop
+1154	4DdkRBBYG6Yk9Ka8tdJ9BW	trap
+1155	1AldSIJ8ANuZVbjKIhpKKq	capoeira
+1156	2EhUXeszBQRApbBmTOXlKU	capoeira
+1157	4CrK2BAeyd3DIt2M2ELPJ4	capoeira
+1158	5CCwRZC6euC8Odo6y9X8jr	dance pop
+1159	5CCwRZC6euC8Odo6y9X8jr	edm
+1160	5CCwRZC6euC8Odo6y9X8jr	electropop
+1161	5CCwRZC6euC8Odo6y9X8jr	pop
+1162	5CCwRZC6euC8Odo6y9X8jr	pop rap
+1163	5CCwRZC6euC8Odo6y9X8jr	post-teen pop
+1164	5CCwRZC6euC8Odo6y9X8jr	tropical house
+1165	5CCwRZC6euC8Odo6y9X8jr	uk pop
+1166	7HGNYPmbDrMkylWqeFCOIQ	bossa nova
+1167	7HGNYPmbDrMkylWqeFCOIQ	mpb
+1168	7HGNYPmbDrMkylWqeFCOIQ	samba de roda
+1169	7HGNYPmbDrMkylWqeFCOIQ	tropicalia
+1170	09U6hmCerKcIJrixubiBjm	rap baiano
+1171	09U6hmCerKcIJrixubiBjm	trap baiano
+1172	09U6hmCerKcIJrixubiBjm	trap brasileiro
+1173	7oEkUINVIj1Nr3Wnj8tzqr	bossa nova
+1174	7oEkUINVIj1Nr3Wnj8tzqr	mpb
+1175	7oEkUINVIj1Nr3Wnj8tzqr	samba
+1176	7oEkUINVIj1Nr3Wnj8tzqr	tropicalia
+1177	7oEkUINVIj1Nr3Wnj8tzqr	violao
+1178	5rX2c1zow6hCph8PnnU3kF	adult standards
+1179	5rX2c1zow6hCph8PnnU3kF	bossa nova
+1180	5rX2c1zow6hCph8PnnU3kF	brazilian jazz
+1181	5rX2c1zow6hCph8PnnU3kF	lounge
+1182	5rX2c1zow6hCph8PnnU3kF	samba-jazz
+1183	5rX2c1zow6hCph8PnnU3kF	vocal jazz
+1184	1b8kpp4DUwt1hWaxTiWQhD	bossa nova
+1185	1b8kpp4DUwt1hWaxTiWQhD	mpb
+1186	1b8kpp4DUwt1hWaxTiWQhD	samba
+1187	1b8kpp4DUwt1hWaxTiWQhD	tropicalia
+1188	3qZ2n5keOAat1SoF6bHwmb	pagode
+1189	3qZ2n5keOAat1SoF6bHwmb	partido alto
+1190	3qZ2n5keOAat1SoF6bHwmb	samba
+1191	3qZ2n5keOAat1SoF6bHwmb	samba de roda
+1192	0Mz5XE0kb1GBnbLQm2VbcO	alternative hip hop
+1193	0Mz5XE0kb1GBnbLQm2VbcO	conscious hip hop
+1194	0Mz5XE0kb1GBnbLQm2VbcO	east coast hip hop
+1195	0Mz5XE0kb1GBnbLQm2VbcO	gangster rap
+1196	0Mz5XE0kb1GBnbLQm2VbcO	hardcore hip hop
+1197	0Mz5XE0kb1GBnbLQm2VbcO	hip hop
+1198	0Mz5XE0kb1GBnbLQm2VbcO	rap
+1199	0Mz5XE0kb1GBnbLQm2VbcO	southern hip hop
+1200	0av074qUwLn5eyzwqoq3xh	alternative hip hop
+1201	0av074qUwLn5eyzwqoq3xh	hip hop
+1202	0av074qUwLn5eyzwqoq3xh	jazz rap
+1203	2PmIyxmEFsNfQJjEifPDZC	english indie rock
+1204	3Rq3YOF9YG9YfCWD4D56RZ	chillhop
+1205	3Rq3YOF9YG9YfCWD4D56RZ	downtempo
+1206	3Rq3YOF9YG9YfCWD4D56RZ	japanese chillhop
+1207	3Rq3YOF9YG9YfCWD4D56RZ	japanese old school hip hop
+1208	3Rq3YOF9YG9YfCWD4D56RZ	jazz rap
+1209	23cC3RI0hgD5sWmXKPAJuG	chillhop
+1210	23cC3RI0hgD5sWmXKPAJuG	indie soul
+1211	1xHQO9GJIW9OXHxGBISYc5	electropop
+1212	09hVIj6vWgoCDtT03h8ZCa	alternative hip hop
+1213	09hVIj6vWgoCDtT03h8ZCa	conscious hip hop
+1214	09hVIj6vWgoCDtT03h8ZCa	east coast hip hop
+1215	09hVIj6vWgoCDtT03h8ZCa	gangster rap
+1216	09hVIj6vWgoCDtT03h8ZCa	golden age hip hop
+1217	09hVIj6vWgoCDtT03h8ZCa	hardcore hip hop
+1218	09hVIj6vWgoCDtT03h8ZCa	hip hop
+1219	09hVIj6vWgoCDtT03h8ZCa	jazz rap
+1220	09hVIj6vWgoCDtT03h8ZCa	queens hip hop
+1221	09hVIj6vWgoCDtT03h8ZCa	rap
+1222	1MBqzcu6aiY7GzP5BfG56T	french hip hop
+1223	1MBqzcu6aiY7GzP5BfG56T	old school rap francais
+1224	1WxunfiOh9Ws0uu2JoDmjL	bossa nova
+1225	1WxunfiOh9Ws0uu2JoDmjL	samba-jazz
+1226	5JYtpnUKxAzXfHEYpOeeit	bossa nova
+1227	5JYtpnUKxAzXfHEYpOeeit	manguebeat
+1228	5JYtpnUKxAzXfHEYpOeeit	mpb
+1229	5JYtpnUKxAzXfHEYpOeeit	pagode
+1230	5JYtpnUKxAzXfHEYpOeeit	samba
+1231	5JYtpnUKxAzXfHEYpOeeit	samba-rock
+1232	5JYtpnUKxAzXfHEYpOeeit	tropicalia
+1233	1gIa65d5ICT2xVWiUJ3u27	bossa nova
+1234	1gIa65d5ICT2xVWiUJ3u27	brazilian indie
+1235	1gIa65d5ICT2xVWiUJ3u27	mpb
+1236	1gIa65d5ICT2xVWiUJ3u27	nova mpb
+1237	1gIa65d5ICT2xVWiUJ3u27	rock baiano
+1238	1gIa65d5ICT2xVWiUJ3u27	samba
+1239	1gIa65d5ICT2xVWiUJ3u27	tropicalia
+1240	4k7KKAyXbpBKe0iziD7c2P	neo r&b
+1241	3H24Sx4OTtMrkpQlcpGLtu	big beat
+1242	3H24Sx4OTtMrkpQlcpGLtu	ninja
+1243	3H24Sx4OTtMrkpQlcpGLtu	nu jazz
+1244	3H24Sx4OTtMrkpQlcpGLtu	trip hop
+1245	3H24Sx4OTtMrkpQlcpGLtu	turntablism
+1246	246dkjvS1zLTtiykXe5h60	dfw rap
+1247	246dkjvS1zLTtiykXe5h60	melodic rap
+1248	246dkjvS1zLTtiykXe5h60	rap
+1249	25uiPmTg16RbhZWAqwLBy5	art pop
+1250	25uiPmTg16RbhZWAqwLBy5	candy pop
+1251	25uiPmTg16RbhZWAqwLBy5	dance pop
+1252	25uiPmTg16RbhZWAqwLBy5	electropop
+1253	25uiPmTg16RbhZWAqwLBy5	metropopolis
+1254	25uiPmTg16RbhZWAqwLBy5	pop
+1255	25uiPmTg16RbhZWAqwLBy5	post-teen pop
+1256	25uiPmTg16RbhZWAqwLBy5	uk pop
+1257	4r63FhuTkUYltbVAg5TQnk	north carolina hip hop
+1258	4r63FhuTkUYltbVAg5TQnk	rap
+1259	4r63FhuTkUYltbVAg5TQnk	trap
+1260	26T3LtbuGT1Fu9m0eRq5X3	modern rock
+1261	26T3LtbuGT1Fu9m0eRq5X3	punk blues
+1262	26T3LtbuGT1Fu9m0eRq5X3	rock
+1263	4kI8Ie27vjvonwaB2ePh8T	modern rock
+1264	4kI8Ie27vjvonwaB2ePh8T	rock
+1265	24XtlMhEMNdi822vi0MhY1	emo
+1266	24XtlMhEMNdi822vi0MhY1	pop punk
+1267	64KEffDW9EtZ1y2vBYgq8T	brostep
+1268	64KEffDW9EtZ1y2vBYgq8T	dance pop
+1269	64KEffDW9EtZ1y2vBYgq8T	edm
+1270	64KEffDW9EtZ1y2vBYgq8T	pop
+1271	64KEffDW9EtZ1y2vBYgq8T	pop dance
+1272	64KEffDW9EtZ1y2vBYgq8T	progressive electro house
+1273	15UsOTVnJzReFVN1VCnxy4	emo rap
+1274	15UsOTVnJzReFVN1VCnxy4	miami hip hop
+1275	6qqNVTkY8uBg9cP3Jd7DAH	art pop
+1276	6qqNVTkY8uBg9cP3Jd7DAH	electropop
+1277	6qqNVTkY8uBg9cP3Jd7DAH	pop
+1278	5yV1qdnmxyIYiSFB02wpDj	indie pop
+1279	5yV1qdnmxyIYiSFB02wpDj	indie rock
+1280	5yV1qdnmxyIYiSFB02wpDj	indietronica
+1281	5yV1qdnmxyIYiSFB02wpDj	seattle indie
+1282	41rVuRHYAiH7ltBTHVR9We	brostep
+1283	41rVuRHYAiH7ltBTHVR9We	edm
+1284	41rVuRHYAiH7ltBTHVR9We	electro house
+1285	41rVuRHYAiH7ltBTHVR9We	electronic trap
+1286	41rVuRHYAiH7ltBTHVR9We	future bass
+1287	41rVuRHYAiH7ltBTHVR9We	pop dance
+1288	41rVuRHYAiH7ltBTHVR9We	pop edm
+1289	0EeQBlQJFiAfJeVN2vT9s0	conscious hip hop
+1290	0EeQBlQJFiAfJeVN2vT9s0	gangster rap
+1291	0EeQBlQJFiAfJeVN2vT9s0	hip hop
+1292	0EeQBlQJFiAfJeVN2vT9s0	pop rap
+1293	0EeQBlQJFiAfJeVN2vT9s0	rap
+1294	0EeQBlQJFiAfJeVN2vT9s0	southern hip hop
+1295	0EeQBlQJFiAfJeVN2vT9s0	trap
+1296	0jNDKefhfSbLR9sFvcPLHo	edm
+1297	0jNDKefhfSbLR9sFvcPLHo	electro house
+1298	0jNDKefhfSbLR9sFvcPLHo	electronic trap
+1299	0jNDKefhfSbLR9sFvcPLHo	electropop
+1300	0jNDKefhfSbLR9sFvcPLHo	future bass
+1301	0jNDKefhfSbLR9sFvcPLHo	pop dance
+1302	0jNDKefhfSbLR9sFvcPLHo	pop edm
+1303	0jNDKefhfSbLR9sFvcPLHo	vapor twitch
+1304	7boQqq2hUcz9kHcQOecG4j	gangster rap
+1305	7boQqq2hUcz9kHcQOecG4j	hyphy
+1306	7boQqq2hUcz9kHcQOecG4j	west coast rap
+1307	7boQqq2hUcz9kHcQOecG4j	west coast trap
+1308	5BvJzeQpmsdsFp4HGUYUEx	baroque pop
+1309	5BvJzeQpmsdsFp4HGUYUEx	indie rock
+1310	5BvJzeQpmsdsFp4HGUYUEx	modern rock
+1311	5BvJzeQpmsdsFp4HGUYUEx	rock
+1312	4MCBfE4596Uoi2O4DtmEMz	chicago rap
+1313	4MCBfE4596Uoi2O4DtmEMz	melodic rap
+1314	1vCWHaC5f2uS3yhpwWbIA6	dance pop
+1315	1vCWHaC5f2uS3yhpwWbIA6	edm
+1316	1vCWHaC5f2uS3yhpwWbIA6	pop
+1317	1vCWHaC5f2uS3yhpwWbIA6	pop dance
+1318	1vCWHaC5f2uS3yhpwWbIA6	pop rap
+1319	3TVXtAsR1Inumwj472S9r4	canadian hip hop
+1320	3TVXtAsR1Inumwj472S9r4	canadian pop
+1321	3TVXtAsR1Inumwj472S9r4	hip hop
+1322	3TVXtAsR1Inumwj472S9r4	rap
+1323	3TVXtAsR1Inumwj472S9r4	toronto rap
+1324	0SwO7SWeDHJijQ3XNS7xEE	alternative dance
+1325	0SwO7SWeDHJijQ3XNS7xEE	indietronica
+1326	0SwO7SWeDHJijQ3XNS7xEE	modern rock
+1327	0SwO7SWeDHJijQ3XNS7xEE	rock
+1328	3AA28KZvwAUcZuOKwyblJQ	alternative hip hop
+1329	5r4anprO9Hg9CBlmdkwFdE	capoeira
+1330	5r4anprO9Hg9CBlmdkwFdE	samba reggae
+1331	0I11U609NiFEdpvNix7oNl	capoeira
+1332	6xQwC94a61f3bZwyl4UJXD	capoeira
+1333	4M5nCE77Qaxayuhp3fVn4V	chamber pop
+1334	4M5nCE77Qaxayuhp3fVn4V	indie folk
+1335	4M5nCE77Qaxayuhp3fVn4V	stomp and holler
+1336	6aaMZ3fcfLv4tEbmY7bjRM	hip hop
+1337	6aaMZ3fcfLv4tEbmY7bjRM	rap
+1338	6aaMZ3fcfLv4tEbmY7bjRM	tennessee hip hop
+1339	6aaMZ3fcfLv4tEbmY7bjRM	underground hip hop
+1340	7hi7sNBb4AWmzHRjFCs94V	capoeira
+1341	04gDigrS5kc9YWfZHwBETP	pop
+1342	6BIltkF2V7p0PHLtUyc7re	capoeira
+1343	2p1fiYHYiXz9qi0JJyxBzN	birmingham grime
+1344	2p1fiYHYiXz9qi0JJyxBzN	grime
+1345	2p1fiYHYiXz9qi0JJyxBzN	instrumental grime
+1346	2p1fiYHYiXz9qi0JJyxBzN	rap
+1347	5SKEXbgzIdRl3gQJ23CnUP	capoeira
+1348	1cIz2h3ERs72r60yw78Deu	bass house
+1349	4ERtgeBbWRkFzIz6LaFCeY	emo
+1350	4ERtgeBbWRkFzIz6LaFCeY	neo mellow
+1351	4ERtgeBbWRkFzIz6LaFCeY	pop punk
+1352	4ERtgeBbWRkFzIz6LaFCeY	pop rock
+1353	4dM6NDYSfLcspt8GLoT5aE	edm
+1354	4dM6NDYSfLcspt8GLoT5aE	electronic trap
+1355	1KEUVZo7CMTSJoM8doulOT	alternative metal
+1356	1KEUVZo7CMTSJoM8doulOT	nu metal
+1357	1KEUVZo7CMTSJoM8doulOT	post-grunge
+1358	1KEUVZo7CMTSJoM8doulOT	rap rock
+1359	67p5GMYQZOgaAfx1YyttQk	capoeira
+1360	6dGRShw3EqULdxZl9EEJYv	capoeira
+1361	6qgc4bSHhzZxnJ01WDEAHt	capoeira
+1362	5ZfHVIBVoMg0VjgUBU0alH	capoeira
+1363	5nJ5xDXFO4czh2gJ9f4wto	capoeira
+1364	5nJ5xDXFO4czh2gJ9f4wto	samba de roda
+1365	1K9pNfOfxZFfbEgoOmjV13	capoeira
+1366	1K9pNfOfxZFfbEgoOmjV13	samba de roda
+1367	4Lm0pUvmisUHMdoky5ch2I	alternative metal
+1368	4Lm0pUvmisUHMdoky5ch2I	bow pop
+1369	4Lm0pUvmisUHMdoky5ch2I	cello
+1370	4Lm0pUvmisUHMdoky5ch2I	finnish metal
+1371	4Lm0pUvmisUHMdoky5ch2I	nu metal
+1372	1MXZ0hsGic96dWRDKwAwdr	cali rap
+1373	1MXZ0hsGic96dWRDKwAwdr	melodic rap
+1374	1MXZ0hsGic96dWRDKwAwdr	pop
+1375	1MXZ0hsGic96dWRDKwAwdr	pop rap
+1376	1MXZ0hsGic96dWRDKwAwdr	rap
+1377	1MXZ0hsGic96dWRDKwAwdr	trap
 \.
 
 
@@ -2715,41 +3571,42 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 5WoaF1B5XIEnWfmb5NZikf	0.674	0.506	6	-10.532	1	0.0434	0.173	0	0.0866	0.183	145.965	4	259333
 7sf0tmuGZlHXUWpi9dQqcw	0.67	0.735	0	-6.712	1	0.0645	0.108	0.00042	0.251	0.498	112.52	4	315933
 3Pu3IChaAoa5EjgUBv5F6x	0.644	0.799	4	-10.856	0	0.0598	0.0821	0.00154	0.055	0.889	108.381	4	246573
-5p0bEz7DNsULez2X9yrNGa	0.79	0.737	8	-7.92	1	0.0284	0.0236	0.0149	0.114	0.693	119.001	4	168187
-1dxXQuExRVu77xF1r5YtRF	0.518	0.757	6	-8.584	0	0.0555	0.000777	0.00931	0.115	0.189	129.901	4	130107
-0wejso6CHHEEqvTD3f3gBz	0.544	0.369	10	-9.617	1	0.0319	0.527	0.000189	0.101	0.105	144.073	4	246080
-23od4rorIdhvYeLL7YqP9n	0.641	0.507	9	-11.326	1	0.027	0.167	0.424	0.095	0.312	114.99	3	315427
-2I3ZdIFXnRn1PSAdMC4w71	0.553	0.526	2	-11.51	1	0.0257	0.368	9.81e-05	0.288	0.582	83.99	4	218947
 5eKfpH2dQ7FltCqb7LWEGJ	0.464	0.334	6	-12.916	1	0.0313	0.307	0.247	0.11	0.326	165.278	4	328933
-7Cva2EgJougx6O6M5xgWAq	0.62	0.773	2	-8.324	1	0.0382	0.0741	0.000606	0.158	0.934	157.991	4	226320
-7KR5uycb8gfQYRl1MTL8aB	0.47	0.696	2	-8.996	0	0.0347	0.00128	0.000168	0.098	0.263	156.916	4	264960
-7xjbn0bhs7zx7E1s0lCqT3	0.619	0.578	7	-8.829	1	0.0738	0.0185	3.11e-05	0.139	0.556	144.986	5	245427
 56KqaFSGTb7ifpt16t5Y1N	0.797	0.872	9	-6.727	0	0.0575	0.291	0	0.284	0.866	129.885	4	222427
+5p0bEz7DNsULez2X9yrNGa	0.79	0.737	8	-7.92	1	0.0284	0.0236	0.0149	0.114	0.693	119.001	4	168187
 3YZa4IzxK2UtEKTvdTgsi8	0.455	0.883	2	-9.159	1	0.0384	0.368	0	0.277	0.782	142.638	4	208413
 4TIJ7zSBNejpoIPaWpWRKc	0.53	0.864	4	-4.948	0	0.061	0.000753	0.000459	0.354	0.484	166.312	4	288533
 21YxK0klhpfLW8budkJaMF	0.383	0.97	9	-5.638	1	0.0435	0.0276	0	0.0942	0.62	101.603	4	313926
 29iwiYD3KVWBKxe31nGjEL	0.56	0.941	10	-6.173	1	0.0849	0.255	0.0019	0.153	0.822	165.058	4	190693
 5El6bpLd8nYPsvWgZLdHio	0.562	0.809	0	-6.791	1	0.0385	0.0276	0.23	0.11	0.451	174.527	4	268773
 72dIN8F7D5ydB3auSqNi84	0.449	0.357	1	-8.48	1	0.0266	0.0605	0.483	0.105	0.178	66.979	4	419093
+1dxXQuExRVu77xF1r5YtRF	0.518	0.757	6	-8.584	0	0.0555	0.000777	0.00931	0.115	0.189	129.901	4	130107
 29Znt9AbEH9FSsw86zPAYT	0.433	0.67	7	-13.126	0	0.0396	0.0206	0.0096	0.208	0.497	156.99	4	295973
 3EytfC22ikoXM921cJbejn	0.394	0.689	9	-6.648	1	0.0385	0.00119	0.0131	0.176	0.457	180.111	3	273067
 4vKLfj7YuS2yRKAJ9Nn0Id	0.571	0.96	7	-5.498	1	0.0354	0.0137	0.00817	0.0591	0.802	162.297	4	240800
 6eDwkS4IHADqk06ssrqfUX	0.719	0.444	7	-11.785	1	0.0952	0.2	0	0.0982	0.907	97.136	4	144360
 0WQiDwKJclirSYG9v5tayI	0.523	0.769	4	-5.855	1	0.0269	0.04	0	0.136	0.876	136.162	4	244587
 0vF9RAGwgYtfO1Aajwb7et	0.505	0.879	1	-6.078	1	0.0354	0.00011	0.49	0.579	0.338	112.021	3	275973
+0wejso6CHHEEqvTD3f3gBz	0.544	0.369	10	-9.617	1	0.0319	0.527	0.000189	0.101	0.105	144.073	4	246080
 10fiZCExnOMqElSX952WZI	0.42	0.582	8	-7.53	1	0.0383	0.00112	0.117	0.0866	0.248	127.272	4	293920
 14z3RzUHeZQgtpOlSYvmZD	0.471	0.758	7	-8.308	0	0.0401	0.0317	0.514	0.199	0.558	125.791	4	408827
-1AR58rtcLziNnRHTCmCywd	0.537	0.784	9	-7.78	1	0.0425	0.00694	6.99e-05	0.298	0.395	78.053	4	211680
 1e5XqFTNIrlgpXGjwPSykv	0.723	0.376	4	-13.622	1	0.0466	0.073	0.303	0.181	0.446	115.67	4	285545
+23od4rorIdhvYeLL7YqP9n	0.641	0.507	9	-11.326	1	0.027	0.167	0.424	0.095	0.312	114.99	3	315427
+2I3ZdIFXnRn1PSAdMC4w71	0.553	0.526	2	-11.51	1	0.0257	0.368	9.81e-05	0.288	0.582	83.99	4	218947
 3s5N94NsDYcOqgi7cSakv6	0.431	0.806	1	-6.852	0	0.0384	0.00318	0.45	0.124	0.171	127.854	4	266760
 3wtMkvedoWMQ3XTKv7tqcZ	0.838	0.757	2	-5.399	1	0.0927	0.059	0.0119	0.0271	0.602	124.65	4	251333
-4J6JARDGkdc1fqLEflP94Z	0.303	0.344	6	-11.919	0	0.0327	0.817	0.0512	0.118	0.164	154.572	3	278200
 4ZTl5GUAmO49b2cf6jovqx	0.538	0.67	6	-8.548	1	0.0374	0.00391	0.0691	0.116	0.33	120.053	5	312413
 4oB0d8H93GtllDkoHNuLIN	0.361	0.454	0	-8.494	1	0.0305	0.0931	0.00146	0.0737	0.298	124.899	4	234933
 5avF5IwDg2v1QCxPvX9Fru	0.368	0.0212	5	-20.06	1	0.046	0.918	0.000509	0.111	0.197	144.828	3	252947
 672N8DGGTOLCOgWe0koX5g	0.527	0.871	4	-8.708	1	0.0354	0.0229	0.155	0.419	0.107	120.722	4	188560
+7Cva2EgJougx6O6M5xgWAq	0.62	0.773	2	-8.324	1	0.0382	0.0741	0.000606	0.158	0.934	157.991	4	226320
+7KR5uycb8gfQYRl1MTL8aB	0.47	0.696	2	-8.996	0	0.0347	0.00128	0.000168	0.098	0.263	156.916	4	264960
+7xjbn0bhs7zx7E1s0lCqT3	0.619	0.578	7	-8.829	1	0.0738	0.0185	3.11e-05	0.139	0.556	144.986	5	245427
 6Dq2LzijkY9WNPwBGDah4L	0.463	0.382	5	-11.682	1	0.0278	0.897	0.263	0.108	0.638	74.573	4	209160
 3Cx9j78Z0NE6jYwBWvvV3P	0.925	0.229	4	-9.68	1	0.445	0.579	0.00578	0.116	0.168	104.273	4	140227
+1AR58rtcLziNnRHTCmCywd	0.537	0.784	9	-7.78	1	0.0425	0.00694	6.99e-05	0.298	0.395	78.053	4	211680
+4J6JARDGkdc1fqLEflP94Z	0.303	0.344	6	-11.919	0	0.0327	0.817	0.0512	0.118	0.164	154.572	3	278200
+4sD9nPRNqWww4mADeEfJhi	0.344	0.776	11	-6.638	0	0.0309	0.119	0.12	0.112	0.316	87.325	4	332813
 0VjIjW4GlUZAMYd2vXMi3b	0.514	0.73	1	-5.934	1	0.0598	0.00146	9.54e-05	0.0897	0.334	171.005	4	200040
 1cKHdTo9u0ZymJdPGSh6nq	0.323	0.737	10	-4.008	1	0.0338	0.142	0.000162	0.163	0.155	113.26	4	241067
 7MXVkk9YMctZqd1Srtv4MB	0.679	0.587	7	-7.015	1	0.276	0.141	6.35e-06	0.137	0.486	186.003	4	230453
@@ -2813,8 +3670,8 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 5SvYRapjngsO2dYfBC9ZXV	0.262	0.708	2	-7.07	1	0.0398	0.000806	0.00875	0.115	0.199	171.132	3	325888
 5S67wnJOMjuySVEu4ssCof	0.719	0.718	11	-5.482	1	0.0426	0.331	4.39e-05	0.107	0.91	113.965	4	223840
 1fOc4Kf82a6J1C9gS5sE0d	0.373	0.469	0	-7.282	1	0.0415	0.00591	0.00887	0.0656	0.22	150.74	3	360829
-0PbOwOT7vjiO0NiI8D31XH	0.749	0.659	4	-7.617	0	0.0278	0.139	0.000447	0.0716	0.93	91.199	4	183440
 7a5xvCgoD8qFEQmO8Jjvtf	0.715	0.6	5	-7.728	0	0.0264	0.0714	0.00165	0.0876	0.77	86.989	4	202492
+0PbOwOT7vjiO0NiI8D31XH	0.749	0.659	4	-7.617	0	0.0278	0.139	0.000447	0.0716	0.93	91.199	4	183440
 0LHm5xYhzH6ZfmTVJ6LWpR	0.72	0.759	0	-7.774	1	0.0804	0.0371	0.0228	0.101	0.61	101.317	4	172559
 4ml0940tmn92PzmkSb2lwU	0.769	0.71	9	-5.223	0	0.0745	0.0884	0.0561	0.0678	0.64	88.788	4	191553
 6ZWDOwh9OO57DaO0ROHIHO	0.716	0.545	8	-8.444	0	0.0515	0.0675	0.17	0.0671	0.552	96.47	4	181362
@@ -2826,9 +3683,9 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 5yc59J3MR3tVDPTOgwgRI5	0.621	0.853	2	-5.735	0	0.0253	0.0767	3.26e-06	0.0893	0.714	128.142	4	229413
 6LNwTodkmxsc2dKRJWQr6y	0.64	0.321	3	-12.581	1	0.0292	0.809	0.00126	0.107	0.356	135.799	4	215920
 0PTYTZvNNtlvdOwWRYrbfC	0.423	0.761	6	-6.593	1	0.0278	0.00559	0.000535	0.215	0.781	175.349	4	132507
-0DoACS30GwIY6qaFjCMMUz	0.44	0.446	9	-9.928	1	0.031	0.39	0.569	0.179	0.201	127.372	4	475093
 0hgEsoAu23ap8V5GFX9Y3i	0.752	0.544	9	-10.373	1	0.0314	0.343	0.0811	0.109	0.723	115.803	4	219267
 1crbFuCkGL4kXnAGd63RXq	0.579	0.662	9	-6.885	1	0.0245	0.000625	3.89e-06	0.117	0.574	102.951	4	203733
+0DoACS30GwIY6qaFjCMMUz	0.44	0.446	9	-9.928	1	0.031	0.39	0.569	0.179	0.201	127.372	4	475093
 6p8ZhmQS4fia0j93S2M3Fj	0.483	0.436	8	-8.734	1	0.0389	0.663	0.000586	0.103	0.241	171.842	4	264160
 0QZ5yyl6B6utIWkxeBDxQN	0.545	0.366	2	-9.51	1	0.0378	0.969	0.267	0.641	0.1	86.997	3	208212
 4yyg2J2uXOjCtCyT64984C	0.555	0.584	4	-8.667	1	0.0301	0.274	0.0228	0.254	0.41	120.965	4	284147
@@ -2954,8 +3811,8 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 7eqoqGkKwgOaWNNHx90uEZ	0.457	0.551	5	-9.36	0	0.167	0.427	1.15e-06	0.113	0.428	89.87	4	307151
 4S4Mfvv03M1cHgIOJcbUCL	0.861	0.647	7	-7.425	1	0.0675	0.594	0.661	0.114	0.67	158.037	4	133680
 2LMkwUfqC6S6s6qDVlEuzV	0.501	0.0958	0	-15.605	1	0.0433	0.77	0	0.298	0.204	108.741	4	248808
-6Nle9hKrkL1wQpwNfEkxjh	0.776	0.503	0	-5.732	0	0.237	0.874	0	0.112	0.473	110.134	4	210285
 7DfFc7a6Rwfi3YQMRbDMau	0.721	0.339	0	-11.195	1	0.0532	0.409	0.00153	0.0973	0.2	129.83	4	200747
+6Nle9hKrkL1wQpwNfEkxjh	0.776	0.503	0	-5.732	0	0.237	0.874	0	0.112	0.473	110.134	4	210285
 5GUYJTQap5F3RDQiCOJhrS	0.581	0.21	8	-10.426	1	0.0321	0.768	0	0.369	0.452	80.099	4	249668
 3vvnpqqg7Jbi2c2aOn6GHt	0.663	0.592	5	-7.533	0	0.127	0.0402	9.38e-05	0.352	0.786	159.999	4	207000
 7zJHwxabKK5TqW7xrKEC73	0.9	0.597	4	-7.23	1	0.0769	0.707	1.46e-05	0.132	0.588	87.973	4	165000
@@ -3035,7 +3892,7 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 7pmahAnqScI4MjbQiZZqei	0.461	0.91	1	-7.198	1	0.0359	8.58e-05	0.0471	0.0863	0.615	155.697	4	214907
 0W6QtgkxPNJ7simo1UcBIr	0.397	0.942	1	-2.53	1	0.0869	0.000227	0.24	0.14	0.356	158.993	4	232307
 54s0TZeheZOxoVFxxmB3wA	0.408	0.891	0	-7.094	1	0.0505	3.51e-05	0.000517	0.11	0.196	167.996	4	248543
-7jxR5vYnUhwE6niPPyzR4V	0.588	0.691	7	-5.83	1	0.0466	0.000328	9.74e-06	0.819	0.521	118.98	4	187751
+6Yg3J1OkP45uNcboiUg2Rw	0.371	0.636	5	-6.303	1	0.0301	7.59e-05	0.00757	0.349	0.193	155.466	4	224560
 39Yp9wwQiSRIDOvrVg7mbk	0.716	0.537	0	-7.648	0	0.0514	0.233	0	0.157	0.28	129.979	4	165978
 2ncLdwTd8qzkxiJjlbiOgC	0.675	0.734	7	-8.659	1	0.0265	0.38	0.895	0.141	0.533	101.998	4	294213
 5PX4uS1LqlWEPL69phPVQQ	0.722	0.687	0	-5.189	1	0.0556	0.00949	0.00413	0.0462	0.619	128.013	4	373627
@@ -3252,8 +4109,8 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 2XvpMAHHUVuKodlo7BKqpv	0.654	0.155	5	-15.098	1	0.0372	0.962	0.000904	0.115	0.247	75.742	4	219268
 3kpRgTtMnArQ5Gay0JxElf	0.55	0.373	9	-8.772	1	0.0314	0.391	0.0551	0.0935	0.33	121.941	3	293213
 0AwLsPPWgYkib7HCrayqwy	0.44	0.416	11	-7.222	1	0.0322	0.19	0.723	0.11	0.412	101.93	3	256920
-14lFMWrwM30Q8FiijmxWVz	0.649	0.261	9	-10.247	0	0.0298	0.494	0.0573	0.149	0.386	75.679	4	187227
 7BT2BsgZZffGmiENrzxCzy	0.738	0.334	9	-14.653	1	0.0505	0.825	0.189	0.0845	0.489	78.026	4	364333
+14lFMWrwM30Q8FiijmxWVz	0.649	0.261	9	-10.247	0	0.0298	0.494	0.0573	0.149	0.386	75.679	4	187227
 5Y8IMaCAPl996kjC4uo9Tx	0.384	0.441	9	-10.411	1	0.029	0.254	0.276	0.0725	0.22	81.493	4	274773
 2rsswxxShjBqoEj7dbr4Sb	0.749	0.46	4	-7.641	0	0.0372	0.117	0.00237	0.106	0.43	91.99	3	261187
 3rly0zvX18j9J00wh5bs5S	0.634	0.308	7	-15.771	1	0.0371	0.0605	0.822	0.108	0.131	111.973	3	266751
@@ -3414,8 +4271,8 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 6tByydPskASjm9jTPkNQq0	0.885	0.492	1	-6.015	1	0.367	0.00172	7.79e-05	0.081	0.203	156.958	4	107147
 6BKAKoo7J2vwJGZJs5dhGD	0.825	0.644	1	-6.001	1	0.175	0.0311	0	0.086	0.79	132.019	4	161480
 0IH3D0P8OrQFs6ajcqbm0R	0.414	0.544	5	-9.455	1	0.102	0.636	1.71e-05	0.0813	0.0569	171.867	4	150613
-4NN6N5TxBO5k9uqu0W4gfQ	0.906	0.545	11	-4.977	0	0.344	0.181	0	0.091	0.543	139.932	4	186827
 2yJ9GVCLMmzBBfQAnfzlwr	0.927	0.535	6	-7.59	0	0.0911	0.0855	0	0.136	0.336	112.96	4	313573
+4NN6N5TxBO5k9uqu0W4gfQ	0.906	0.545	11	-4.977	0	0.344	0.181	0	0.091	0.543	139.932	4	186827
 2kfpH2OAAdpk5J3JaraAIh	0.65	0.859	1	-4.54	0	0.0957	0.021	0	0.0986	0.169	127.828	4	197800
 0BMzC3hYff1zj2MsllexiU	0.453	0.956	4	-4.973	1	0.0666	0.0014	0.877	0.0997	0.269	81.529	4	206440
 2v4kQsvlTPEYOIyJkytzGH	0.425	0.79	9	-6.675	1	0.0471	0.0157	0.000255	0.0625	0.297	120.998	4	326067
@@ -3429,14 +4286,14 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 24gpcyxzfyE8DI89FXFHLh	0.378	0.704	9	-7.692	0	0.0971	0.0323	0.000628	0.134	0.189	151.337	4	167560
 6Vi3zrYtd2n53YUiYLTnNC	0.619	0.631	5	-12.295	1	0.0529	0.644	0	0.759	0.949	153.246	4	156240
 0Xt2ZJpiBRYnExG0k2Zk9b	0.677	0.792	3	-8.115	1	0.0527	0.119	0.0126	0.374	0.83	106.988	4	332387
-7c60MUlDMw6ZI1Ft4LxLBY	0.672	0.525	4	-13.177	0	0.0485	0.381	2.21e-06	0.115	0.9	90.319	4	227160
 1wHNSciCOxqs4dft2EWrIC	0.715	0.715	11	-6.344	1	0.162	0.37	1.03e-05	0.318	0.844	135.146	4	170388
+7c60MUlDMw6ZI1Ft4LxLBY	0.672	0.525	4	-13.177	0	0.0485	0.381	2.21e-06	0.115	0.9	90.319	4	227160
 3vdevXZtf1T08rQubQcwY4	0.674	0.612	11	-8.034	0	0.0918	0.482	6.63e-06	0.0663	0.943	82.908	4	247947
 1uJKTRjp5WxzrWwfElOZDp	0.639	0.577	6	-9.969	1	0.103	0.412	6.38e-05	0.076	0.832	124.688	4	235160
 2gVRDshVuLTKslwTequSO1	0.497	0.948	7	-6.712	1	0.115	0.0763	1.24e-05	0.879	0.743	87.595	4	286680
+1XAGsBhvZ4iPJMx8XzD1Tk	0.398	0.881	7	-4.108	1	0.0611	0.0458	0.342	0.0731	0.807	177.21	4	95925
 632pAox1NgFyiubpHzps90	0.584	0.538	4	-10.021	1	0.215	0.686	0	0.0969	0.925	122.043	5	256667
 42zb6MpkTpMhuV3C3OeFXK	0.802	0.849	8	-6.753	1	0.092	0.246	0	0.135	0.936	104.816	4	234560
-35SwFntBxtKFFOFKurhesr	0.556	0.796	8	-9.787	0	0.0672	0.772	0	0.0603	0.884	90.49	4	228507
 3mtIUX9LrCpIUiAAv9SD4a	0.519	0.0774	7	-23.593	0	0.0629	0.937	0.886	0.107	0.353	135.245	3	141200
 5AMrnF761nziCWUfjBgRUI	0.633	0.49	10	-7.668	1	0.0255	0.395	6.92e-05	0.0886	0.66	132.178	3	280107
 2uwN3PDudlRkAKE3wA0OqJ	0.53	0.0993	4	-23.548	0	0.0549	0.86	0.2	0.153	0.588	118.139	4	176827
@@ -3451,8 +4308,8 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 5taqLrLouA4vCjM7ZQpEtW	0.686	0.824	11	-5.413	1	0.34	0.157	0	0.242	0.405	170.079	4	183827
 1NfIOF8pH2auEaGq4roP2I	0.694	0.874	7	-2.96	1	0.333	0.38	0	0.122	0.591	89.959	4	282581
 3rSiXFJlhhhy36761mj9js	0.572	0.85	3	-4.475	1	0.197	0.0893	0	0.191	0.797	96.335	4	137995
-5UcJZVvqgX9dnjq161bGQ4	0.63	0.77	7	-6.655	1	0.386	0.215	0	0.205	0.829	91.713	4	201129
 5Wt2UAS92w2ZyDqX2dOEBg	0.903	0.785	8	-6.285	0	0.309	0.0192	3.83e-06	0.177	0.965	94.211	4	259107
+5UcJZVvqgX9dnjq161bGQ4	0.63	0.77	7	-6.655	1	0.386	0.215	0	0.205	0.829	91.713	4	201129
 0lRhj7HyP2KObeyFPUOPRA	0.349	0.892	6	-3.011	1	0.351	0.112	0	0.212	0.849	172.639	4	183688
 34rwJDeFgvZXd9KtiBkQKI	0.557	0.845	10	-4.373	0	0.344	0.496	0	0.115	0.867	93.374	4	159155
 04jxZHjzLOknmIJSgjefyZ	0.486	0.928	8	-4.13	0	0.363	0.467	0	0.116	0.57	90.036	4	207673
@@ -3468,15 +4325,25 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 1kqBAV3R35lVIRvhYmSI6s	0.679	0.384	9	-15.216	1	0.0416	0.421	1.14e-06	0.135	0.752	101.981	4	302000
 2vU1H8XKsK6bUff94gTorE	0.651	0.872	9	-5.855	1	0.103	0.269	0.000127	0.138	0.8	90.84	4	158640
 6PuoZT4kgw5DrUEdnQ6e01	0.886	0.371	5	-10.542	1	0.0465	0.349	0.00138	0.0985	0.928	115.026	4	219261
-7rNnqDOzc3Qoom2VhIyuxx	0.802	0.325	10	-9.327	1	0.0467	0.165	0.163	0.156	0.649	110.996	4	246200
 0aPX1AXz8Tp51Nak6B04ij	0.775	0.721	11	-5.446	1	0.0288	0.369	0.00513	0.0517	0.974	90.986	4	167813
+7rNnqDOzc3Qoom2VhIyuxx	0.802	0.325	10	-9.327	1	0.0467	0.165	0.163	0.156	0.649	110.996	4	246200
 0tN5MAdqjjhYS4HE2JnfzJ	0.786	0.384	5	-8.655	1	0.0654	0.072	0.00114	0.0484	0.771	137.943	4	211147
 3YSefJ4OGYCIHNVowuSx7O	0.699	0.487	5	-7.747	1	0.0389	0.16	0.000191	0.0859	0.625	115.769	4	171714
 7c0AtG5G1kbVUrBYxREGXv	0.731	0.447	6	-11.585	1	0.0466	0.234	0.218	0.182	0.34	106.006	4	235738
 1wDBglPaH5ehDDNiNWCHp0	0.76	0.755	7	-5.714	1	0.05	0.256	0.00765	0.0817	0.55	104.655	4	231573
-0CNJyQiyzYxbsuMGTQlria	0.759	0.668	11	-5.235	1	0.0365	0.294	0.000824	0.0804	0.716	117.884	4	250000
 7dW6aiHZG0A8xApW0Xg40G	0.589	0.598	5	-7.103	0	0.0613	0.479	0.000237	0.117	0.726	130.059	4	167067
+0CNJyQiyzYxbsuMGTQlria	0.759	0.668	11	-5.235	1	0.0365	0.294	0.000824	0.0804	0.716	117.884	4	250000
 0m9TcZ6H1tdRQ2zpdZybaZ	0.801	0.414	11	-8.805	1	0.0559	0.245	0.00315	0.105	0.536	104.013	4	180577
+48EjSdYh8wz2gBxxqzrsLe	0.719	0.615	6	-5.972	1	0.045	0.408	0.000147	0.235	0.465	96.988	4	250973
+6IAgarq2wDeYzpsY2Kx0Hw	0.827	0.553	1	-5.296	1	0.032	0.0227	1.52e-05	0.176	0.0631	110.015	4	236120
+7yvdp8dqmxExSJwT2fn6Xq	0.863	0.625	8	-6.323	1	0.313	0.101	4.13e-06	0.166	0.456	83.98	4	111227
+6GCIYIWUBSLontW6divqsw	0.823	0.558	9	-7.119	1	0.0278	0.397	2.03e-05	0.0821	0.674	155.974	4	175707
+22DHmfJa31hKpc2Lg0gVBV	0.827	0.477	0	-5.025	1	0.254	0.101	4.15e-05	0.0908	0.599	119.807	4	235493
+0deHsjyrgcKGMZzIuvawq3	0.661	0.368	5	-7.342	0	0.0727	0.827	0.249	0.111	0.211	112.891	4	148253
+688iitLNSV6Iik1QESqvth	0.507	0.418	1	-8.659	0	0.167	0.651	7.36e-06	0.126	0.24	84.902	4	101813
+2TyCAfhwu5tRqFW8VnGMIL	0.823	0.411	0	-7.061	1	0.0557	0.409	0.00135	0.649	0.397	90.997	4	257547
+4o8Rk1YzdkTxsSEXd3YhAK	0.8	0.526	10	-6.403	0	0.0326	0.326	0.0416	0.153	0.454	120	4	185960
+5hR0wTnydz6lmErOV4c0sp	0.736	0.798	0	-6.174	1	0.127	0.0579	0.0681	0.161	0.464	113.996	4	260400
 7wCmS9TTVUcIhRalDYFgPy	0.519	0.441	4	-14.178	1	0.0353	0.0204	0.000453	0.076	0.25	81.334	4	234973
 4IvZLDtwBHmBmwgDIUbuwa	0.669	0.795	2	-10.865	1	0.0285	0.00772	0.0781	0.401	0.882	124.594	4	201187
 0p5eZCY0R7uNCZS1YDtIYI	0.59	0.372	7	-12.37	1	0.0318	0.00105	0.00929	0.316	0.306	99.887	4	210907
@@ -3496,16 +4363,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 7FYkZkF9fog6WS818wJnhl	0.52	0.906	9	-6.534	1	0.0601	0.0196	7.99e-05	0.0925	0.868	151.608	4	128267
 6IMlcKjsIM3l3yXWykTa3y	0.721	0.488	4	-10.294	0	0.067	0.0289	0.038	0.18	0.884	152.287	4	363373
 2ax1vei61BzRGsEn6ckEdL	0.802	0.596	7	-11.663	1	0.06	0.0465	1.17e-05	0.0695	0.702	90.275	4	330507
-25z7NYgTEt6MiA5qExNSH2	0.768	0.682	0	-8.316	0	0.0892	0.49	0.0249	0.132	0.657	78.877	4	265003
-1emxi7e5EWFsJmwSKTuUDH	0.487	0.497	4	-5.776	0	0.064	0.124	0.167	0.109	0.195	160.317	4	246573
-6iNHWlOLt4NuDi9iSvtznO	0.48	0.751	1	-5.702	0	0.0383	0.188	1.69e-05	0.163	0.789	177.371	4	257387
-2axJJQBO4KbFsx0Twvb8mn	0.579	0.837	6	-5.193	0	0.107	0.172	0.0312	0.13	0.768	83.566	4	235213
-5ZmpzweHaXXOa1lndt3vDj	0.352	0.502	4	-8.477	0	0.0277	0.0187	0.883	0.185	0.365	177.921	3	251427
-2vroaTJq214LCxTtRGzrFf	0.81	0.76	7	-4.368	1	0.0411	0.00281	0.002	0.101	0.945	133.251	4	160701
-6eFsavqVXRlyeSnlX75pc4	0.765	0.497	1	-6.829	0	0.0483	0.766	0.151	0.111	0.509	86.173	4	212939
-6Tn9J7LOj5CuytqzORpkrz	0.596	0.652	1	-4.703	1	0.0483	0.305	0.000866	0.071	0.898	162.675	4	229720
-2mGWmvIIvs7jKEXxyh7Wfb	0.612	0.792	7	-7.382	0	0.0278	0.021	0.951	0.0987	0.546	115.111	4	214063
-6gZkoHTufo7bTuMHFyppWv	0.716	0.805	1	-8.838	0	0.0527	0.0464	0.701	0.127	0.372	98.219	4	240307
 34iOH7LY3vme5rQxsVILZ4	0.527	0.923	2	-7.458	1	0.0379	0.000541	0.765	0.127	0.899	146.924	4	208453
 5fbQCQt91LsVgXusFS0CCD	0.32	0.798	10	-7.078	0	0.124	0.00033	0.692	0.176	0.74	84.696	4	209040
 4ZuC5MfGjRQs3pZtPxqMYP	0.433	0.756	9	-7.855	1	0.0565	0.000997	0.761	0.124	0.117	145.443	4	233720
@@ -3516,16 +4373,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 3iMq9V0Ece9ubjWAYVcMwj	0.478	0.783	9	-7.346	1	0.0419	0.000126	0.582	0.225	0.746	156.337	4	137653
 7k42ztYdHyKWrKrENxwjkV	0.609	0.399	6	-10.79	1	0.03	0.242	0.406	0.109	0.469	119.937	4	252093
 4lmYkAt0bgbNW2BhMXLWpa	0.565	0.773	2	-9.214	1	0.0745	0.283	0.121	0.0888	0.842	167.735	4	169594
-2Y3x5VcEAxLNmVHxQOE0jB	0.778	0.399	1	-8.984	1	0.0858	0.0751	0.835	0.103	0.321	137.305	4	67720
-5nqd51nD2UACz5JQ83v878	0.382	0.507	2	-8.179	1	0.0323	0.787	0.0124	0.235	0.494	135.787	4	143120
-1bZH8L8V2m454tdcSPEIl7	0.628	0.585	3	-8.036	0	0.0421	0.147	0.927	0.0465	0.618	100.95	4	162267
-1xDeDsNoBNyBidVQKPnWXE	0.587	0.732	5	-8.097	1	0.0317	0.055	0.924	0.247	0.747	96.848	4	202240
-18OzYEBhFuusiRbvkhf6Zl	0.615	0.76	10	-8.393	0	0.0317	0.0186	0.053	0.0825	0.902	90.847	4	183213
-4evkhyjgx4eLgyvujGWSTc	0.611	0.785	2	-7.174	1	0.0301	0.0866	0.83	0.129	0.656	103.688	4	228920
-5aqR0sE4AVaycHGVVjoZmx	0.393	0.892	2	-4.685	0	0.0514	0.00187	0.89	0.0926	0.704	190.157	4	157613
-4EGhtRnsa6DoGImFOzVzLd	0.692	0.661	10	-7.157	1	0.0606	0.0544	0.657	0.113	0.698	117.472	4	233000
-74gBEukHVsGBlEdYWiwLWK	0.493	0.573	5	-8.564	1	0.0287	0.116	0.722	0.139	0.702	158.262	4	177013
-4rNOFDkStRndjL08iV8f4D	0.59	0.733	9	-7.784	0	0.051	0.0163	0.951	0.0693	0.846	168.1	4	211573
 2Gzg7PlsNS1XunWQFJBVt9	0.739	0.18	0	-11.439	1	0.0715	0.494	0	0.159	0.229	93.136	4	72747
 0vmxiz1Zx3OP8C5CjfhIXK	0.314	0.43	10	-9.825	1	0.0296	0.466	3.59e-06	0.0997	0.152	176.944	3	180651
 4nIVHPwEXljxt1D8hxEXgO	0.61	0.671	9	-4.688	0	0.0406	0.493	0	0.0928	0.542	120.424	4	150133
@@ -3536,16 +4383,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 1Qc9iyuYBNMvlooaz4GRfN	0.334	0.338	7	-10.796	1	0.0382	0.518	0	0.115	0.222	96.921	4	168125
 6ixvtEJ8wDs6Rg41ttIVqa	0.749	0.42	0	-8.219	1	0.031	0.248	3.11e-06	0.126	0.754	84.07	4	110373
 3P2q1CHk8hVmu1IXjr8Us4	0.476	0.665	2	-6.895	1	0.0333	0.422	0.000754	0.0849	0.809	112.403	4	234027
-0elCmyfISzkP5tAYTVuYjS	0.45	0.602	6	-4.301	1	0.0273	0.0892	0.00625	0.107	0.16	172.161	4	261734
-2BedHMJWiW5CuiTd2wza1u	0.722	0.418	9	-8.274	1	0.0319	0.00461	0.76	0.127	0.134	123.028	4	227213
-2JXiyD1zucGdFmnTeYb5Ry	0.52	0.265	6	-12.78	1	0.0316	0.223	0.152	0.113	0.0855	79.819	4	302000
-2BIfG6wL1t5wk1KixoK2BV	0.709	0.655	4	-9.638	1	0.0342	0.543	0.00283	0.0931	0.609	111.97	4	319821
-21lfQ6cXJF15ubyPLB6qHz	0.633	0.761	11	-7.097	1	0.034	0.0502	0.00114	0.638	0.801	96.061	4	248438
-7r5elbHLaVama2WsDQpDp6	0.316	0.38	9	-8.547	1	0.0304	0.793	0.063	0.0765	0.123	80.673	4	274377
-0cUGSqx7MfnjiVwDzpYdYo	0.482	0.654	5	-9.453	1	0.0518	0.121	0.494	0.0829	0.194	165.145	4	209667
-2rpbbxk3EtstH1flOZcvVd	0.503	0.792	8	-6.061	0	0.0358	0.000345	0.000738	0.0721	0.508	167.975	4	269367
-3FRJFImdfX5NSY3QH3jI4u	0.658	0.83	3	-5.522	1	0.0307	0.26	1.33e-05	0.108	0.336	127.04	4	247559
-2gxYpg3ruB8p9DFWvnTHNX	0.64	0.802	7	-5.383	1	0.0481	0.0344	0.00373	0.255	0.546	92.928	4	213878
 4dneV7C1yDt9UtyxrQY375	0.465	0.841	11	-5.767	0	0.0633	0.00486	0	0.109	0.689	168.743	4	157533
 263aNAQCeFSWipk896byo6	0.526	0.762	0	-12.437	0	0.0342	0.000972	0.000116	0.338	0.505	136.203	4	214400
 76GlO5H5RT6g7y0gev86Nk	0.43	0.971	9	-3.845	1	0.0524	0.0271	2.16e-05	0.185	0.764	151.219	4	212000
@@ -3556,6 +4393,16 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 3O4TPMOgChXOerSdB5WENH	0.633	0.62	0	-11.271	1	0.0648	0.34	0.605	0.0977	0.421	81.117	4	354933
 5rzr3lYGJiw3OXEg8imWgH	0.748	0.569	9	-12.975	0	0.0752	0.459	1.21e-06	0.364	0.967	91.833	4	220093
 1tuwC1Ob5vnYZhvg3zyzJg	0.484	0.776	9	-6.48	1	0.0312	0.00371	0.109	0.131	0.495	171.935	4	448467
+25z7NYgTEt6MiA5qExNSH2	0.768	0.682	0	-8.316	0	0.0892	0.49	0.0249	0.132	0.657	78.877	4	265003
+1emxi7e5EWFsJmwSKTuUDH	0.487	0.497	4	-5.776	0	0.064	0.124	0.167	0.109	0.195	160.317	4	246573
+6iNHWlOLt4NuDi9iSvtznO	0.48	0.751	1	-5.702	0	0.0383	0.188	1.69e-05	0.163	0.789	177.371	4	257387
+2axJJQBO4KbFsx0Twvb8mn	0.579	0.837	6	-5.193	0	0.107	0.172	0.0312	0.13	0.768	83.566	4	235213
+5ZmpzweHaXXOa1lndt3vDj	0.352	0.502	4	-8.477	0	0.0277	0.0187	0.883	0.185	0.365	177.921	3	251427
+2vroaTJq214LCxTtRGzrFf	0.81	0.76	7	-4.368	1	0.0411	0.00281	0.002	0.101	0.945	133.251	4	160701
+6eFsavqVXRlyeSnlX75pc4	0.765	0.497	1	-6.829	0	0.0483	0.766	0.151	0.111	0.509	86.173	4	212939
+6Tn9J7LOj5CuytqzORpkrz	0.596	0.652	1	-4.703	1	0.0483	0.305	0.000866	0.071	0.898	162.675	4	229720
+2mGWmvIIvs7jKEXxyh7Wfb	0.612	0.792	7	-7.382	0	0.0278	0.021	0.951	0.0987	0.546	115.111	4	214063
+6gZkoHTufo7bTuMHFyppWv	0.716	0.805	1	-8.838	0	0.0527	0.0464	0.701	0.127	0.372	98.219	4	240307
 5s1Qv9rWyU2f941kH0lqnS	0.43	0.544	4	-5.171	1	0.0369	0.509	0.0352	0.307	0.744	157.885	3	109584
 0KAlzEswdQxSP9oRJ7uuJG	0.714	0.194	10	-16.611	0	0.0502	0.889	0	0.0806	0.374	123.847	4	114892
 4pfQLkCEKxD9Z40ijuNG9N	0.66	0.105	7	-20.306	1	0.0414	0.954	0	0.112	0.194	113.798	4	199506
@@ -3576,6 +4423,36 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 6UTxpt4Fn0cRBZlki1dRFq	0.485	0.782	9	-12.526	1	0.0875	0.153	0.0381	0.798	0.482	80.726	4	287340
 0aGkeYwsDGqtsjzOQnmVAB	0.612	0.42	7	-15.645	1	0.0443	0.855	0.0166	0.1	0.874	150.125	4	211578
 0cTwMCvozZBj8jCq6o27nk	0.491	0.751	7	-11.549	1	0.0686	0.23	1.22e-05	0.0666	0.916	152.43	4	236735
+79MMMdYL00iwKVHBSAUkLY	0.523	0.941	4	-4.444	0	0.0377	0.0878	0.148	0.106	0.145	120.67	4	192324
+00sydAz6PeOxYzwG1dRIPi	0.235	0.977	6	0.878	1	0.107	0.00353	0.00604	0.172	0.241	152.952	4	208133
+2ukIOcbkpWR5pjDtCRHCcX	0.445	0.927	9	-6.097	1	0.147	5.05e-05	0.000155	0.252	0.571	120.934	4	138624
+3NpnrlBcEwRIgBs8tUrhyb	0.591	0.746	2	-7.066	1	0.0265	0.000107	0.527	0.195	0.857	131.377	4	223760
+74CcP6fDBFdH8Xjo2F6Nb4	0.455	0.588	3	-12.238	0	0.0489	0.00461	0.549	0.131	0.348	131.857	4	209093
+4bscUDqkO6soLEFXMr22ji	0.485	0.829	2	-5.251	1	0.0524	0.000176	0.0229	0.178	0.726	106.98	4	247840
+6hAOC89VqirgFxREaQoGDQ	0.586	0.772	9	-4.732	1	0.0292	0.00557	0.0346	0.137	0.727	122.531	4	318213
+21xrImrAULwa0VT8n4BJoA	0.407	0.665	5	-8.077	1	0.0365	0.00801	0.196	0.115	0.581	141.79	4	420133
+4giZRI3pgupzawIJXLx7T9	0.362	0.896	2	-6.812	1	0.0338	3e-06	0.79	0.355	0.713	136.083	4	213027
+406huHGjSj2bz0cnoeGI8j	0.259	0.933	9	-8.076	1	0.085	1.46e-05	0.00656	0.0599	0.352	161.106	4	197773
+2Y3x5VcEAxLNmVHxQOE0jB	0.778	0.399	1	-8.984	1	0.0858	0.0751	0.835	0.103	0.321	137.305	4	67720
+5nqd51nD2UACz5JQ83v878	0.382	0.507	2	-8.179	1	0.0323	0.787	0.0124	0.235	0.494	135.787	4	143120
+1bZH8L8V2m454tdcSPEIl7	0.628	0.585	3	-8.036	0	0.0421	0.147	0.927	0.0465	0.618	100.95	4	162267
+1xDeDsNoBNyBidVQKPnWXE	0.587	0.732	5	-8.097	1	0.0317	0.055	0.924	0.247	0.747	96.848	4	202240
+18OzYEBhFuusiRbvkhf6Zl	0.615	0.76	10	-8.393	0	0.0317	0.0186	0.053	0.0825	0.902	90.847	4	183213
+4evkhyjgx4eLgyvujGWSTc	0.611	0.785	2	-7.174	1	0.0301	0.0866	0.83	0.129	0.656	103.688	4	228920
+5aqR0sE4AVaycHGVVjoZmx	0.393	0.892	2	-4.685	0	0.0514	0.00187	0.89	0.0926	0.704	190.157	4	157613
+4EGhtRnsa6DoGImFOzVzLd	0.692	0.661	10	-7.157	1	0.0606	0.0544	0.657	0.113	0.698	117.472	4	233000
+74gBEukHVsGBlEdYWiwLWK	0.493	0.573	5	-8.564	1	0.0287	0.116	0.722	0.139	0.702	158.262	4	177013
+4rNOFDkStRndjL08iV8f4D	0.59	0.733	9	-7.784	0	0.051	0.0163	0.951	0.0693	0.846	168.1	4	211573
+0elCmyfISzkP5tAYTVuYjS	0.45	0.602	6	-4.301	1	0.0273	0.0892	0.00625	0.107	0.16	172.161	4	261734
+2BedHMJWiW5CuiTd2wza1u	0.722	0.418	9	-8.274	1	0.0319	0.00461	0.76	0.127	0.134	123.028	4	227213
+2JXiyD1zucGdFmnTeYb5Ry	0.52	0.265	6	-12.78	1	0.0316	0.223	0.152	0.113	0.0855	79.819	4	302000
+2BIfG6wL1t5wk1KixoK2BV	0.709	0.655	4	-9.638	1	0.0342	0.543	0.00283	0.0931	0.609	111.97	4	319821
+21lfQ6cXJF15ubyPLB6qHz	0.633	0.761	11	-7.097	1	0.034	0.0502	0.00114	0.638	0.801	96.061	4	248438
+7r5elbHLaVama2WsDQpDp6	0.316	0.38	9	-8.547	1	0.0304	0.793	0.063	0.0765	0.123	80.673	4	274377
+0cUGSqx7MfnjiVwDzpYdYo	0.482	0.654	5	-9.453	1	0.0518	0.121	0.494	0.0829	0.194	165.145	4	209667
+2rpbbxk3EtstH1flOZcvVd	0.503	0.792	8	-6.061	0	0.0358	0.000345	0.000738	0.0721	0.508	167.975	4	269367
+3FRJFImdfX5NSY3QH3jI4u	0.658	0.83	3	-5.522	1	0.0307	0.26	1.33e-05	0.108	0.336	127.04	4	247559
+2gxYpg3ruB8p9DFWvnTHNX	0.64	0.802	7	-5.383	1	0.0481	0.0344	0.00373	0.255	0.546	92.928	4	213878
 6Zz846CtUmQGP5z4F7sccA	0.343	0.732	0	-5.189	1	0.044	0.00533	0.00302	0.0685	0.392	180.162	4	180772
 6zvpLxTrTKDzdeQ9OLshpQ	0.472	0.906	10	-3.12	1	0.0567	0.0565	3.59e-05	0.0901	0.177	128.941	4	176462
 29WtjZlOl5MbzC3lhllMNv	0.505	0.645	2	-5.374	1	0.0264	0.0517	0.0451	0.0727	0.176	78.028	4	211875
@@ -3585,16 +4462,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 2C93EaiXnfll8oL9TWqQTA	0.375	0.914	8	-3.241	1	0.0589	0.000558	4.55e-05	0.101	0.254	138.934	4	294072
 2DPTXclMay45uBj9bKEq9B	0.595	0.25	2	-10.885	1	0.0322	0.836	0	0.0897	0.15	114.928	4	202758
 2qNdBOuOlZaML9ZEktD6mi	0.524	0.313	2	-8.673	1	0.0288	0.839	1.95e-06	0.0788	0.26	122.633	4	215996
-79MMMdYL00iwKVHBSAUkLY	0.523	0.941	4	-4.444	0	0.0377	0.0878	0.148	0.106	0.145	120.67	4	192324
-00sydAz6PeOxYzwG1dRIPi	0.235	0.977	6	0.878	1	0.107	0.00353	0.00604	0.172	0.241	152.952	4	208133
-2ukIOcbkpWR5pjDtCRHCcX	0.445	0.927	9	-6.097	1	0.147	5.05e-05	0.000155	0.252	0.571	120.934	4	138624
-3NpnrlBcEwRIgBs8tUrhyb	0.591	0.746	2	-7.066	1	0.0265	0.000107	0.527	0.195	0.857	131.377	4	223760
-74CcP6fDBFdH8Xjo2F6Nb4	0.455	0.588	3	-12.238	0	0.0489	0.00461	0.549	0.131	0.348	131.857	4	209093
-4bscUDqkO6soLEFXMr22ji	0.485	0.829	2	-5.251	1	0.0524	0.000176	0.0229	0.178	0.726	106.98	4	247840
-6hAOC89VqirgFxREaQoGDQ	0.586	0.772	9	-4.732	1	0.0292	0.00557	0.0346	0.137	0.727	122.531	4	318213
-21xrImrAULwa0VT8n4BJoA	0.407	0.665	5	-8.077	1	0.0365	0.00801	0.196	0.115	0.581	141.79	4	420133
-406huHGjSj2bz0cnoeGI8j	0.259	0.933	9	-8.076	1	0.085	1.46e-05	0.00656	0.0599	0.352	161.106	4	197773
-4giZRI3pgupzawIJXLx7T9	0.362	0.896	2	-6.812	1	0.0338	3e-06	0.79	0.355	0.713	136.083	4	213027
 6qNuZL98ZSFOzIuG5zJrAj	0.779	0.365	2	-11.394	0	0.0361	0.885	0.00175	0.0992	0.445	105.891	4	180867
 4nVfmii8T3OKMm8zRBPCiO	0.637	0.838	8	-8.985	1	0.205	0.0375	0	0.0704	0.747	168.067	4	155373
 0qA28TWVwPoIf8GuFO7O1V	0.617	0.351	11	-10.67	0	0.0365	0.338	0.00355	0.11	0.319	130.045	4	205347
@@ -3615,16 +4482,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 4fpxnJGDWFxjGvLJOqPPt8	0.589	0.784	0	-13.037	1	0.0312	0.175	0.0767	0.132	0.941	116.981	4	355067
 7j5Q3zhjvpQvMeoPSZwdsa	0.6	0.881	0	-9.478	1	0.0337	0.29	0.851	0.222	0.936	124.977	4	419240
 0F0imGVd7KnvQPkBmVtPo9	0.537	0.862	7	-7.648	1	0.028	0.0489	0.505	0.1	0.879	134.831	4	281773
-5Z0MrFDEIDB075We9w9276	0.573	0.786	7	-4.354	1	0.0352	0.0634	0.212	0.117	0.612	110.289	4	171267
-2eM4Ew20VXdjBhm6a6Cs9l	0.61	0.752	10	-5.062	0	0.0389	0.294	0.0755	0.116	0.832	89.995	4	196867
-4lhhYqzREcts4uOOqWHjRJ	0.712	0.8	9	-5.068	0	0.0377	0.0747	0.185	0.0938	0.685	107.047	4	283880
-1NwyJs8dFvkV5cvvehav7s	0.546	0.681	7	-5.931	0	0.113	0.216	0.00661	0.0588	0.689	178.522	4	197360
-26icLILupXJtsQq5EtZdwn	0.269	0.164	3	-12.865	1	0.0389	0.879	0.00066	0.122	0.254	69.071	3	133320
-59s5vTB8LNV4tyZPp9HM3f	0.732	0.703	1	-6.159	0	0.0584	0.215	0.34	0.202	0.725	113.926	4	290422
-3ItddtEzeCE37ScY8o3Tbg	0.573	0.901	0	-4.924	0	0.0434	0.405	0.111	0.307	0.794	98.454	4	202627
-2rNVmfuyXAfmvZfg8O9D92	0.34	0.491	7	-7	1	0.0322	0.428	0.0397	0.226	0.248	176.309	3	254333
-2z6qRBkf6jjWUuzLA9CXO0	0.322	0.719	8	-4.641	1	0.0591	0.156	0.00695	0.668	0.328	148.308	3	316511
-26Vcf2qFrnaa0pFJkGFh61	0.418	0.344	7	-8.42	1	0.0391	0.103	0.198	0.214	0.231	111.709	4	355627
 1i6N76fftMZhijOzFQ5ZtL	0.721	0.521	2	-8.123	1	0.0613	0.0708	0.00545	0.127	0.942	123.118	4	261413
 6aBUnkXuCEQQHAlTokv9or	0.942	0.641	7	-10.15	1	0.0333	0.331	0.179	0.028	0.966	114.443	4	296147
 38Ngied9rBORlAbLYNCl4k	0.644	0.919	2	-6.289	1	0.0561	0.181	0.134	0.622	0.871	117.459	4	259907
@@ -3646,8 +4503,8 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 6WBNQSfB047hAZ7tusGhqB	0.462	0.754	7	-3.361	1	0.0459	0.00843	0	0.118	0.475	110.397	3	168533
 4RMoPuik89bh3vHz2IUaku	0.56	0.865	0	-5.222	1	0.0356	0.000872	2.25e-05	0.106	0.472	121.988	4	221692
 7MbVZOLSUloG4J3nH3Tnos	0.661	0.699	11	-5.548	1	0.0286	0.00977	0.000427	0.106	0.717	126.001	4	241194
-3C3KF3yVvF7iIsGxkmr6VB	0.621	0.61	10	-9.088	1	0.0358	0.141	0.0462	0.11	0.85	80.008	4	210895
 3o5K1YmFz9i9KluRGJusd1	0.559	0.454	9	-8.377	0	0.0377	0.376	4.88e-06	0.258	0.284	134.941	4	204000
+3C3KF3yVvF7iIsGxkmr6VB	0.621	0.61	10	-9.088	1	0.0358	0.141	0.0462	0.11	0.85	80.008	4	210895
 3cHo4JYNEprRGPtunpABIK	0.767	0.376	11	-8.038	1	0.0294	0.564	1.56e-06	0.108	0.44	125.04	4	241302
 6hokBBgD7caSiEXJxPmryn	0.493	0.831	4	-4.298	1	0.0372	0.00116	0.0045	0.179	0.768	179.967	4	226027
 65LAG4XH7Oq0mZhFdPYqO4	0.457	0.58	9	-4.971	1	0.0286	0.00606	2.68e-05	0.0847	0.336	76.048	4	220253
@@ -3664,16 +4521,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 4FMeyMuT6Rk1B34v0AzV9q	0.439	0.527	0	-8.997	1	0.0294	0.299	0.038	0.118	0.546	177.965	4	170234
 5n6BdIWBSpkfjZ29JP7WzK	0.597	0.472	0	-8.728	1	0.0247	0.24	0.000664	0.202	0.356	102.885	4	266053
 4mOmMccRWthpaUtjPhiQm8	0.422	0.455	9	-8.49	1	0.0287	0.0355	1.76e-06	0.109	0.201	94.888	4	212503
-7lIiKyRg4KumhJ4xf5VTFt	0.705	0.401	8	-7.473	1	0.0257	0.607	0	0.305	0.61	97.689	3	163280
-6NgoSSG4H4LyMQGbHulkcm	0.745	0.911	5	-5.247	0	0.0475	0.323	1.41e-06	0.619	0.9	95.675	4	211413
-2X1D6fTtA76LsJh5JxB9c8	0.733	0.719	1	-6.399	0	0.0336	0.12	4.57e-05	0.0758	0.961	90.554	4	198667
-0S9zKOWiIwsR9Vla8NVYJd	0.775	0.623	5	-5.755	0	0.0279	0.274	2.73e-06	0.116	0.893	95.519	4	242907
-5Wl6Nt74mR9RYy7R7GOWNa	0.595	0.83	4	-7.92	0	0.0529	0.357	7.87e-06	0.0822	0.884	145.053	4	172907
-2KaRGgJ1qMsFOOWvUL7aD2	0.597	0.668	10	-6.893	1	0.0389	0.21	0.000131	0.0614	0.874	91.881	4	225347
-723j4ubztPUgRKvQfflQNy	0.59	0.699	5	-8.148	1	0.0916	0.257	1.11e-06	0.102	0.716	167.359	4	194160
-2VHbTftHVMguJfRpi5lsSt	0.566	0.676	1	-6.133	0	0.078	0.438	0	0.0786	0.922	74.101	4	223720
-6XYVdHPqfmmoOPWZk46EAP	0.846	0.545	3	-7.482	1	0.0525	0.266	0.000215	0.0624	0.961	116.68	4	269667
-4VSubATiLD4126APjXmQcD	0.321	0.392	11	-6.644	1	0.0323	0.467	0	0.0869	0.28	176.919	3	216440
 11607FzqoipskTsXrwEHnJ	0.506	0.442	5	-13.268	0	0.0276	0.0869	0.00239	0.0846	0.532	105.826	4	175893
 11VwZwNF29HrqwalYUMitb	0.637	0.107	5	-18.759	1	0.0349	0.911	0.00146	0.103	0.296	82.879	4	339533
 3PG7BAJG9WkmNOJOlc4uAo	0.55	0.145	0	-15.753	1	0.0332	0.913	0	0.118	0.138	103.918	4	159000
@@ -3684,16 +4531,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 1o6DclZHw0HomxXEQR1ijX	0.494	0.735	5	-8.347	1	0.0345	0.00401	3.14e-06	0.544	0.742	132.526	4	283000
 3fElupNRLRJ0tbUDahPrAb	0.679	0.645	7	-9.765	1	0.0442	0.032	0.868	0.152	0.826	125.844	4	279520
 29engDqjmMr3VLqMm0c0WE	0.225	0.618	8	-9.922	0	0.0331	0.00137	0.616	0.079	0.567	144.724	4	312253
-4gsR34XSIE2fUY4odwZqym	0.612	0.725	7	-5.602	1	0.0416	0.305	0.0784	0.0548	0.333	146.008	4	225667
-0H6hMpN8zxZT3ToOelM5Cl	0.531	0.267	6	-12.877	0	0.0276	0.84	0.903	0.0889	0.45	80.129	3	62080
-56PgQIFxAvXcEtXNYrsB0w	0.673	0.739	1	-7.529	1	0.0266	0.0115	0.0162	0.371	0.961	111.968	4	195045
-41oqThgUF4yiNz77TazXtl	0.543	0.549	0	-6.497	1	0.0306	0.149	0.082	0.114	0.404	80.079	4	205893
-03rZ4jEeqvKjrqdRHPZmpp	0.645	0.295	10	-12.59	1	0.0272	0.62	0.419	0.195	0.343	75.902	4	90227
-4ulOJhLqbDeBFEbYVX6yjG	0.561	0.798	10	-4.619	0	0.0389	0.0219	0.217	0.109	0.422	93.028	4	131619
-2oBzsiZT8qmlovYS1FMf06	0.623	0.458	11	-7.727	1	0.0262	0.737	2.69e-05	0.7	0.426	97.92	4	195924
-1EmUW3D8vAfp2miQJTMupc	0.63	0.433	10	-5.874	1	0.0291	0.559	0.00702	0.0873	0.56	104.042	4	179933
-3dJSC3yIV69Afxvme5qf5d	0.397	0.188	8	-12.851	0	0.0364	0.862	0.000615	0.126	0.35	184.057	3	237405
-4UDBvtxDnUjzVu0HopFsZ8	0.705	0.674	7	-5.589	1	0.0306	0.000349	0.706	0.22	0.265	115.972	4	254520
 70LcF31zb1H0PyJoS1Sx1r	0.515	0.43	7	-9.935	1	0.0372	0.0097	0.000133	0.129	0.104	91.844	4	238640
 10nyNJ6zNy2YVYLrcwLccB	0.255	0.393	5	-10.654	1	0.0278	0.0577	0.00361	0.113	0.118	76.426	4	229120
 63OQupATfueTdZMWTxW03A	0.36	0.501	7	-9.129	1	0.0258	0.0638	9.32e-05	0.172	0.324	74.807	4	264067
@@ -3704,16 +4541,16 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 1dyTcli07c77mtQK3ahUZR	0.291	0.767	7	-6.913	0	0.0862	0.000401	0.012	0.0763	0.359	175.702	4	234800
 0YJ9FWWHn9EfnN0lHwbzvV	0.462	0.832	11	-6.085	0	0.0479	0.108	0.00416	0.0741	0.807	165.653	4	248893
 6LgJvl0Xdtc73RJ1mmpotq	0.251	0.848	5	-6.501	1	0.0579	0.0377	0.00591	0.0545	0.207	163.709	4	387213
-1ceeCjdsXB1PRoUQ5EKvZj	0.59	0.433	0	-6.626	1	0.0296	0.653	0.000166	0.286	0.453	77.012	3	176093
-34Yd2MzccdIpLaGEWdL4I4	0.752	0.674	10	-4.889	0	0.0348	0.727	0	0.0915	0.902	101.65	4	225827
-7MR20mD5bWffs5yNmtmvnK	0.691	0.787	11	-5.501	0	0.0705	0.504	0	0.172	0.805	76.159	4	171733
-6x6xL8nI9uj94pd4cUyiHB	0.799	0.833	10	-7.472	0	0.0442	0.163	0.000458	0.281	0.923	110.735	4	181973
-3igY2JZg3xnyuZIEaZAE2Q	0.745	0.655	9	-5.275	0	0.0421	0.196	0	0.33	0.883	118.628	4	179120
-1sOaZDQR1VSJZqxkD55ZtP	0.552	0.509	0	-6.93	1	0.0401	0.512	0.000122	0.0817	0.235	124.673	3	172440
-2XdlLaMNZKmh8bqA4yK7pO	0.793	0.728	0	-5.619	1	0.0328	0.592	0	0.111	0.85	102.658	4	262760
-0Kj3JOdo5iWJcOic035iNs	0.61	0.667	0	-6.408	1	0.0449	0.587	0	0.119	0.807	82.533	4	185173
-7grHWewXZi12Qn941ePu4A	0.768	0.8	7	-5.204	1	0.0578	0.563	0	0.0538	0.96	117.547	4	170493
-339AymorMFeh9GvJahQvnq	0.741	0.842	8	-4.706	1	0.0375	0.771	0.00331	0.616	0.921	106.053	4	242000
+5Z0MrFDEIDB075We9w9276	0.573	0.786	7	-4.354	1	0.0352	0.0634	0.212	0.117	0.612	110.289	4	171267
+2eM4Ew20VXdjBhm6a6Cs9l	0.61	0.752	10	-5.062	0	0.0389	0.294	0.0755	0.116	0.832	89.995	4	196867
+4lhhYqzREcts4uOOqWHjRJ	0.712	0.8	9	-5.068	0	0.0377	0.0747	0.185	0.0938	0.685	107.047	4	283880
+1NwyJs8dFvkV5cvvehav7s	0.546	0.681	7	-5.931	0	0.113	0.216	0.00661	0.0588	0.689	178.522	4	197360
+26icLILupXJtsQq5EtZdwn	0.269	0.164	3	-12.865	1	0.0389	0.879	0.00066	0.122	0.254	69.071	3	133320
+59s5vTB8LNV4tyZPp9HM3f	0.732	0.703	1	-6.159	0	0.0584	0.215	0.34	0.202	0.725	113.926	4	290422
+3ItddtEzeCE37ScY8o3Tbg	0.573	0.901	0	-4.924	0	0.0434	0.405	0.111	0.307	0.794	98.454	4	202627
+2rNVmfuyXAfmvZfg8O9D92	0.34	0.491	7	-7	1	0.0322	0.428	0.0397	0.226	0.248	176.309	3	254333
+26Vcf2qFrnaa0pFJkGFh61	0.418	0.344	7	-8.42	1	0.0391	0.103	0.198	0.214	0.231	111.709	4	355627
+2z6qRBkf6jjWUuzLA9CXO0	0.322	0.719	8	-4.641	1	0.0591	0.156	0.00695	0.668	0.328	148.308	3	316511
 5QTxFnGygVM4jFQiBovmRo	0.333	0.927	9	-8.55	0	0.0733	0.0029	0.000208	0.297	0.385	141.466	4	308120
 3fkPMWQ6cBNBLuFcPyMS8s	0.532	0.728	9	-9.079	0	0.0352	0.106	0.0108	0.0849	0.69	134.303	4	271000
 6N0AnkdDFZUetw8KAGHV7e	0.373	0.869	4	-7.719	1	0.0554	0.164	7.76e-06	0.605	0.696	184.024	4	221400
@@ -3723,7 +4560,7 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 1bPUK3zBMK73QXmCLzqffn	0.453	0.776	0	-9.937	1	0.0432	0.162	3.81e-05	0.349	0.568	85.992	4	289587
 2g02rt0UFudctbAnmJsm22	0.298	0.581	4	-8.133	0	0.0289	0.381	0.0224	0.172	0.26	89.285	4	383973
 7gzbnBiHnGBpruEIWTSh1X	0.515	0.64	9	-9.621	0	0.0317	0.00191	5.49e-05	0.135	0.675	134.409	4	268273
-3OXc6xDxasnl4uj2jl1q4Y	0.565	0.603	4	-9.533	1	0.0287	0.0612	0.00144	0.0666	0.489	126.984	4	251440
+6zdMlZyo0XyRNclXyQvVAl	0.538	0.851	8	-7.793	1	0.0643	0.0108	1.82e-05	0.325	0.66	117.359	4	271680
 6G7MHIvSDR3ehXPkuDFAlM	0.47	0.385	6	-13.159	0	0.0296	0.767	0.0653	0.179	0.694	112.377	4	200973
 2zyTP97uGsIc1C4KNNEkyn	0.476	0.585	11	-14.211	0	0.0478	0.107	1.43e-05	0.149	0.523	110.275	4	230507
 2qhR4aymUGDfacDT6pzWf7	0.589	0.523	3	-11.12	1	0.0404	0.397	0.0217	0.0967	0.585	114.252	4	128360
@@ -3734,16 +4571,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 3TPjX6hEANO8qGrxYtabkh	0.28	0.337	3	-8.385	0	0.0406	0.647	0.00314	0.134	0.251	89.126	4	232917
 01wi82GHedsBUjSKf2hJQ0	0.685	0.654	1	-9.351	1	0.1	0.0287	0.0127	0.466	0.603	99.953	4	258907
 48TcYDiPXXsOmoqwnl522G	0.59	0.733	9	-6.324	1	0.045	0.3	5.57e-06	0.197	0.852	101.186	4	186107
-0MHXrqn909p0LRTPsNsGEi	0.538	0.969	11	-5.626	0	0.0906	0.417	0.00154	0.119	0.928	138.652	4	165790
-01gDLZsi0j5fWC28FLPNO8	0.584	0.975	11	-6.534	0	0.0651	0.141	0.501	0.101	0.876	138.341	4	535333
-7zrPswSV1yxrill5OyCuaU	0.851	0.669	10	-9.562	1	0.0379	0.239	0.0852	0.108	0.911	126.624	4	300693
-4XsH9zBWPOCdXoH9ZDdS8r	0.784	0.708	2	-9.141	1	0.11	0.457	7.5e-05	0.0913	0.748	120.11	4	233600
-1Mq4vRRox3bcruJA75M4D9	0.367	0.431	5	-11.191	1	0.0576	0.758	8.89e-06	0.113	0.57	76.454	4	223867
-0zBNc7XcWXNHxeszwFsKiL	0.772	0.368	3	-11.183	0	0.0496	0.632	0.00714	0.121	0.564	143.834	4	318200
-2ouFIPC3O1HNBcVTw1d9AN	0.523	0.803	1	-6.321	0	0.0791	0.107	0.000409	0.154	0.921	91.469	4	329467
-7gmB6hVMsv0XbjfiTgpATI	0.683	0.526	8	-9.656	1	0.0437	0.138	0.00481	0.105	0.679	120.585	4	314227
-5wdlG60d0WHoo8P3QzrlbG	0.686	0.755	1	-8.304	0	0.0488	0.149	0.063	0.111	0.686	119.895	4	470507
-4xWggCcJgtUWw1yxJAXZR9	0.402	0.797	8	-8.095	1	0.0661	0.214	0	0.335	0.725	98.937	4	308293
 1CS7Sd1u5tWkstBhpssyjP	0.566	0.664	4	-5.303	0	0.0464	0.634	0	0.116	0.437	128.945	4	241693
 46nvQpUDsxpS08UTFOeKTA	0.539	0.715	11	-6.639	0	0.0595	0.0265	0	0.609	0.489	123.854	4	165524
 57V4uc2b2diZ4RPHXWecb9	0.539	0.179	7	-14.33	1	0.0309	0.921	0.393	0.106	0.145	140.01	3	198027
@@ -3757,13 +4584,717 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 2uXkW8uJcOIhlbUatEPLPs	0.506	0.948	10	-5.626	1	0.105	0.727	0	0.0904	0.934	130.195	4	160400
 6ae38qMdEC86XRa2LaOguu	0.622	0.918	7	-6.342	0	0.0773	0.297	1.84e-06	0.176	0.821	141.63	4	132627
 6u7UrwiZERRglVNSpgmxNf	0.331	0.957	7	-6.101	0	0.0504	0.419	0	0.102	0.548	143.299	4	133093
-18k49mXvNPtKlcT6Ky39pe	0.49	0.651	7	-12.212	1	0.0293	0.227	0.000981	0.13	0.718	81.493	4	158680
 77DvhwGhnmfrXWwiJzeIMC	0.567	0.643	0	-11.354	1	0.0367	0.671	0	0.588	0.717	140.543	4	140867
+18k49mXvNPtKlcT6Ky39pe	0.49	0.651	7	-12.212	1	0.0293	0.227	0.000981	0.13	0.718	81.493	4	158680
 5IY9xXJ6E1o6IiCc8ykDro	0.528	0.827	7	-5.969	1	0.0295	0.136	0	0.305	0.935	82.13	4	160827
 5chnuVLLyZgfVAHgWPwvTv	0.435	0.964	5	-3.057	1	0.0401	0.0115	0	0.318	0.542	106.505	4	159391
 6qBYciZgi7JqSoNf8g7NpY	0.461	0.95	5	-5.199	1	0.0641	0.394	0	0.328	0.837	148.302	4	120707
 3bbZNvBuGRVElpRLENwa3J	0.519	0.893	0	-5.34	1	0.0483	0.214	2.85e-06	0.282	0.71	137.733	4	137867
 1pPGQdGD3gXLZm2Y1DgiHo	0.538	0.89	9	-5.256	1	0.0455	0.644	0	0.208	0.861	121.032	4	165467
+3TTVgqpcMhzeymFY0OJ4Ia	0.62	0.515	4	-8.174	0	0.172	0.505	6.5e-05	0.103	0.375	73.997	4	238400
+4kK14radw0XfwxJDPt9tnP	0.726	0.861	6	-5.167	1	0.0695	0.277	4.12e-06	0.0534	0.711	91.966	4	243413
+7GQFqo7uDoOkTXrVBpARME	0.53	0.868	7	-4.999	1	0.0378	0.0424	1.5e-05	0.504	0.573	162.016	4	174240
+4WBXTnzVmz3Thn76w3rYUR	0.613	0.531	2	-9.172	1	0.0338	0.144	3.74e-06	0.801	0.338	152.023	4	285467
+5DOadSIDaKFwUPcbcbDv5J	0.721	0.585	9	-6.508	0	0.0678	0.296	2.28e-05	0.092	0.475	140.107	4	249573
+2Aj1tRbhbsBWVOMVgcO9pR	0.522	0.536	5	-6.73	0	0.145	0.351	0	0.311	0.294	75.054	4	253293
+4g5MorMCNI2aOwEBSov4RT	0.705	0.72	8	-8.229	1	0.144	0.489	0.0466	0.13	0.353	122.001	4	261120
+1PBp3M4Dh1TO0D6kgL8GqA	0.598	0.841	5	-6.652	0	0.0563	0.107	8.22e-05	0.154	0.367	116.077	4	138173
+28nC2aXXUqvQCT3XeJs5Yd	0.428	0.82	5	-5.504	0	0.0803	0.32	0	0.379	0.269	143.366	4	217600
+6IexNWMbsvI5x0T0CQX3yT	0.667	0.647	5	-7.787	1	0.0487	0.245	0.000297	0.0633	0.3	143.995	4	273693
+4gsR34XSIE2fUY4odwZqym	0.612	0.725	7	-5.602	1	0.0416	0.305	0.0784	0.0548	0.333	146.008	4	225667
+0H6hMpN8zxZT3ToOelM5Cl	0.531	0.267	6	-12.877	0	0.0276	0.84	0.903	0.0889	0.45	80.129	3	62080
+56PgQIFxAvXcEtXNYrsB0w	0.673	0.739	1	-7.529	1	0.0266	0.0115	0.0162	0.371	0.961	111.968	4	195045
+41oqThgUF4yiNz77TazXtl	0.543	0.549	0	-6.497	1	0.0306	0.149	0.082	0.114	0.404	80.079	4	205893
+03rZ4jEeqvKjrqdRHPZmpp	0.645	0.295	10	-12.59	1	0.0272	0.62	0.419	0.195	0.343	75.902	4	90227
+4ulOJhLqbDeBFEbYVX6yjG	0.561	0.798	10	-4.619	0	0.0389	0.0219	0.217	0.109	0.422	93.028	4	131619
+2oBzsiZT8qmlovYS1FMf06	0.623	0.458	11	-7.727	1	0.0262	0.737	2.69e-05	0.7	0.426	97.92	4	195924
+1EmUW3D8vAfp2miQJTMupc	0.63	0.433	10	-5.874	1	0.0291	0.559	0.00702	0.0873	0.56	104.042	4	179933
+3dJSC3yIV69Afxvme5qf5d	0.397	0.188	8	-12.851	0	0.0364	0.862	0.000615	0.126	0.35	184.057	3	237405
+4UDBvtxDnUjzVu0HopFsZ8	0.705	0.674	7	-5.589	1	0.0306	0.000349	0.706	0.22	0.265	115.972	4	254520
+0ElRzK07sc9eszyk1ea9Ab	0.531	0.849	9	-10.754	1	0.111	0.0389	0.00763	0.186	0.305	119.516	4	136427
+3sEQf5AuiphddGXRIWBcO9	0.412	0.601	2	-10.493	1	0.0536	0.000866	0.0466	0.321	0.49	114.537	4	183867
+1gElMA7YL2UEE9njNW9eiR	0.577	0.916	4	-7.305	1	0.101	0.445	0	0.156	0.545	94.731	4	163133
+3EEd6ldsPat620GVYMEhOP	0.582	0.767	4	-11.38	0	0.0297	0.288	0.0789	0.0606	0.736	141.683	4	186038
+6dyku3NZZukkS8yhzWG9TU	0.538	0.745	9	-12.194	1	0.044	0.0289	0.807	0.112	0.731	102.43	4	160507
+4JS9ziFhSRnm4ERHvdmlQg	0.595	0.842	11	-10.084	0	0.0312	8.79e-05	0.784	0.354	0.645	130.597	4	144867
+37XHUxnLE7yw4zhY7ce3pt	0.528	0.755	11	-9.392	1	0.0341	0.228	0.429	0.23	0.911	123.148	4	129360
+7yh5TWp0LMOjFp5qrH8ygL	0.682	0.235	2	-15.931	1	0.0353	0.695	0.133	0.141	0.432	111.708	4	257200
+1JiofWs0tas99RTFpFio2W	0.582	0.86	9	-10.048	1	0.038	0.00142	0.775	0.0925	0.45	133.878	4	188733
+6qYq6JxCTwtd3jAonVrdkF	0.56	0.966	11	-9.498	0	0.0634	0.0425	0.0967	0.168	0.389	138.874	4	217027
+7E99aG3oPQslXHHdnKFAmB	0.368	0.966	10	-6.984	1	0.073	0.248	0.663	0.529	0.323	122.243	4	93307
+7Fwnn8npShUzE9HtVp9Y1H	0.602	0.557	9	-11.373	1	0.0402	0.61	0.000508	0.6	0.869	112.341	4	102693
+57TUYBa41jfW56U2U9652l	0.508	0.312	7	-13.333	1	0.0355	0.786	0.0259	0.0684	0.179	160.236	3	72467
+3L1Fumo5u8mGvX10PK3vwG	0.389	0.896	7	-6.179	1	0.0344	0.0997	0.22	0.0707	0.733	95.316	4	97227
+4W5xR9p6Qa5kqUuDIcdvKD	0.55	0.851	10	-6.757	1	0.0325	0.947	0.82	0.226	0.926	135.823	4	120333
+1oeHOoPRMhyd9CrhjrUZJm	0.544	0.635	6	-8.262	0	0.0304	0.271	0.000103	0.144	0.537	94.519	4	89067
+3nX5TiovePqS6yG8pYdwR2	0.444	0.655	8	-5.662	1	0.0331	0.221	0.0782	0.179	0.0969	101.077	3	173027
+1pomBAKCKt5Lvk8FdckYfV	0.261	0.881	11	-5.669	1	0.056	0.368	0	0.222	0.335	141.925	4	126800
+4SrE9bJwNC2ldX8rAXsrKE	0.485	0.278	4	-13.113	0	0.0419	0.859	0.0195	0.114	0.316	105.326	4	105333
+0oN2fJx5t5BzkKQQiojHrr	0.529	0.513	9	-13.45	1	0.0336	0.978	0.0214	0.108	0.513	115.959	4	144400
+0a9uf4gKoAXwCuAjxt90Sz	0.567	0.919	0	-4.608	1	0.0321	0.000685	0.0873	0.464	0.369	130.016	4	341586
+6yxPd3usemvhanh73TzwXi	0.568	0.897	7	-4.834	0	0.0425	0.00157	0.0472	0.129	0.365	139.983	4	381493
+6VCC4JE3vE8c2szV0SWld9	0.487	0.945	10	-4.361	0	0.0336	4.81e-05	0.532	0.45	0.165	139.984	4	281143
+4lEOGsYnc9wdxkJGkHuXAm	0.492	0.931	1	-3.714	1	0.0386	4.76e-05	0.000494	0.287	0.276	139.993	4	351429
+4pj2L6WbBAlevdxx6jgm32	0.497	0.99	6	-3.436	1	0.13	0.000778	0	0.129	0.101	131.99	4	249050
+6UgmF3c0nWYeqVs7prJo9C	0.614	0.925	5	-4.023	0	0.0357	0.00388	0.103	0.187	0.484	109.939	4	344727
+2JiNqhSpFgkxgHNFRYjpDC	0.579	0.796	4	-4.735	0	0.0333	0.0179	0.000448	0.0894	0.309	89.99	4	328961
+5wBaNy59nK8hJnx8AB2zRe	0.428	0.959	6	-3.727	1	0.256	0.0319	0	0.0888	0.262	144.396	4	249133
+44QQarpAdUDdAidS5ddJIL	0.219	0.93	6	-10.452	1	0.0888	0.143	0.662	0.699	0.0391	71.521	3	141480
+0nLOl4fSiBZKGFla5pLUtf	0.335	0.849	0	-6.927	1	0.321	0.00193	0.254	0.0928	0.256	181.716	3	399267
+1HNRXicnRXw34nouoSQi3c	0.442	0.895	4	-4.388	1	0.101	0.0173	9.9e-06	0.715	0.489	143.829	4	238013
+3WZiHsjugLgasZW7wGemNN	0.469	0.951	10	-4.222	1	0.111	0.0119	0	0.0976	0.283	149.976	4	254811
+6AzrwTzu1Vhl2t13h3fNVh	0.504	0.952	9	-3.449	0	0.0638	0.00191	0	0.699	0.237	104.007	4	251773
+01NVKlabAce8Nw70qxgY3d	0.629	0.942	10	-4.837	0	0.102	0.0295	1.87e-06	0.1	0.474	119.958	4	353875
+6AioOohg4bQZFA4jIYQQ2r	0.375	0.682	0	-6.898	0	0.0364	0.00152	0.598	0.0897	0.396	159.23	4	363067
+269xqcgGTN9PlivhUkOLhX	0.54	0.674	2	-6.351	1	0.0802	0.0553	0.0608	0.112	0.309	89.933	4	238719
+3zUwwYcmob803s2Bkck8GY	0.54	0.967	1	-4.174	0	0.162	0.00796	0	0.683	0.293	136.896	4	247373
+3jg7Dbq8xxUGLNeUe8TUYv	0.246	0.888	7	-4.249	1	0.295	0.00155	0	0.47	0.41	194.958	3	256533
+54sEj5GIx2EW78nRDyC58R	0.435	0.743	9	-5.804	0	0.0792	0.107	5.76e-06	0.115	0.28	141.877	4	292507
+2Kerz9H9IejzeIpjhDJoYG	0.527	0.366	10	-10.943	1	0.0277	0.487	0.0023	0.11	0.234	98.994	4	272743
+3AOcpwgy3V2Fwg7B8PZfKl	0.292	0.359	5	-9.043	1	0.0328	0.697	1.85e-05	0.108	0.228	177.334	3	283259
+1PfkFgRDLuSggFQAd8uvXp	0.245	0.241	8	-19.77	1	0.0322	0.0629	0.077	0.488	0.352	77.736	1	87314
+0mt02gJ425Xjm7c3jYkOBn	0.504	0.655	0	-8.644	0	0.0542	0.604	0.00193	0.364	0.262	99.982	4	264066
+6wl8vrSR56Tm7GSXjAVP91	0.364	0.502	1	-9.748	0	0.0348	0.0094	0.201	0.103	0.196	94.762	4	297347
+45OFlmffEQJWlHu8Yf6Q1R	0.507	0.949	2	-4.555	1	0.17	0.00017	0	0.166	0.423	133.963	4	217627
+0kgXAjZ2y0kGjKUekY0H8t	0.403	0.851	4	-4.813	0	0.131	0.0234	3.92e-05	0.358	0.12	162.029	4	249503
+0W8oh1Zst7Y1GczYEDOIuS	0.445	0.882	4	-4.979	1	0.109	0.0258	0.000808	0.0824	0.573	144.28	4	247960
+2g4x7SwGAU05mTQqLKroFg	0.531	0.897	7	-4.834	0	0.0439	0.00163	0.0445	0.129	0.361	139.916	4	381493
+12f3kgz9J1vU0Sd3qISMuJ	0.238	0.854	2	-4.565	1	0.0682	0.0436	6.82e-06	0.334	0.138	178.076	4	289026
+3J84AjpIGKYHL1NDKmM2pB	0.539	0.938	2	-4.331	1	0.0403	0.00089	3.44e-05	0.22	0.614	152.98	4	249640
+4LKieNzKrd4nk25Mq8dkfu	0.485	0.943	10	-4.363	0	0.0334	4.98e-05	0.566	0.45	0.164	139.973	4	281143
+5mkGfmJGFZpwK9nA5amOhv	0.67	0.558	2	-9.159	1	0.0251	0.238	0	0.106	0.63	80.511	4	173493
+1lATXTBJDHwawvT1UfxWu3	0.469	0.79	7	-6.889	1	0.0391	0.000148	0.372	0.282	0.466	107.45	4	381947
+4S0oduY2t0ajpZQ6T9kAq1	0.322	0.854	11	-5.729	0	0.0786	0.0671	0.000416	0.342	0.078	119.856	4	244750
+5WW76v0NDWK5Wy5tfai5G8	0.268	0.889	10	-4.626	0	0.18	0.00262	0.00066	0.0996	0.498	167.886	4	240996
+76AYOdnKWcSLviCsKDXyS1	0.448	0.982	9	-3.971	0	0.287	0.000165	2.32e-06	0.0539	0.0978	131.895	4	299820
+79D6ftjlstX0zTqag7jw4z	0.256	0.74	1	-3.918	0	0.0404	0.0197	0.00139	0.103	0.165	120.111	4	300613
+1Ym6aMuT5bliaZMC67AmPp	0.449	0.534	8	-9.493	0	0.0494	0.048	0.0011	0.384	0.342	94.261	3	180902
+3aARLhAch8wF1wDMzkL7nJ	0.392	0.356	8	-12.296	1	0.0325	0.371	0.174	0.284	0.125	105.68	4	243600
+5QqyRUZeBE04yJxsD1OC0I	0.76	0.574	1	-8.57	1	0.126	0.0155	2.02e-05	0.199	0.137	134.981	4	260672
+5V2Tg65HSuF0hB22SlNRoa	0.554	0.886	5	-4.529	1	0.114	0.0106	0	0.365	0.326	90.03	4	309173
+6eygbzyL6hY8jFQTARDuo9	0.658	0.46	6	-8.646	0	0.0444	0.456	0.00111	0.0963	0.223	114.801	4	164710
+0qSVzDIOLWqIoOHjUUjv8c	0.17	0.957	4	-5.873	1	0.337	0.000685	0	0.09	0.177	198.122	3	279087
+0QB98b4YFxtW4NQ9narHQM	0.552	0.987	11	-3.642	1	0.148	0.00122	0.000279	0.669	0.272	89.986	4	310267
+3ZKRAzNAsiJrBGUM2BX9av	0.333	0.389	7	-9.132	1	0.0364	0.539	0.0772	0.163	0.25	144.204	4	295569
+3ltS4rlFrCYkdQqGzVjXBi	0.36	0.957	11	-4.657	0	0.24	0.00387	3.08e-06	0.0983	0.116	157.058	4	185201
+7x2jq2kAhxDH3M6FcgJKbs	0.194	0.154	0	-18.954	1	0.0413	0.935	0.918	0.0801	0.0383	147.872	4	44616
+5gbxjsBPzpjZuPvIptYvPi	0.481	0.964	2	-4.114	0	0.384	0.000824	0	0.124	0.0808	144.055	4	270253
+7lSdUlVf8k6kxklKkskb1m	0.352	0.41	11	-8.796	0	0.0388	0.556	0.0113	0.114	0.0952	118.721	4	355184
+03sEzk1VyrUZSgyhoQR0LZ	0.415	0.53	9	-9.338	0	0.0314	0.00209	0.75	0.11	0.0586	114.174	1	713192
+1JkZg3eMQTmTn93E8Yd3UL	0.806	0.462	2	-12.778	1	0.0298	0.78	0.0134	0.15	0.736	92.726	4	191227
+0lP4HYLmvowOKdsQ7CVkuq	0.179	0.912	4	-3.881	0	0.0791	0.0014	0.000294	0.582	0.289	182.99	3	231533
+50Re2bLgXqG9qN7v2QHNTm	0.515	0.594	1	-4.708	1	0.0262	0.00844	0.00658	0.0752	0.218	146.564	4	293133
+1u8lE1YTkgQrXnMpPpVUC6	0.41	0.644	6	-5.964	0	0.104	0.0489	0.000607	0.169	0.614	140.274	4	289495
+2YwlwV98tjcKF664eEAAyV	0.524	0.252	9	-11.421	0	0.0419	0.907	2.92e-06	0.159	0.383	122.5	3	261500
+58AwxWLaRHn2lTqqH9dLkU	0.467	0.644	4	-5.677	1	0.0285	0.0128	0	0.136	0.0654	82.915	4	232707
+7yWEPokjQeePPTZD9RqxP4	0.608	0.415	9	-8.183	1	0.178	0.648	0	0.291	0.521	117.914	4	241500
+32j279x3imcBWBu9OaHX2n	0.61	0.649	5	-6.063	1	0.036	0.0442	0	0.114	0.529	137.006	4	246067
+0aTiUssEOy0Mt69bsavj6K	0.33	0.611	10	-9.571	1	0.0495	0.00219	0.769	0.107	0.241	172.606	1	817832
+0cKk8BKEi7zXbdrYdyqBP5	0.394	0.622	4	-8.258	0	0.0336	0.213	4.45e-05	0.0892	0.342	126.844	4	221427
+0eZBeB2xFIS65jQHerispi	0.322	0.28	6	-9.367	0	0.0281	0.468	1.1e-06	0.102	0.175	85.794	4	248467
+2ae6mkuD2gJnJQADl488et	0.603	0.422	7	-15.598	1	0.0631	0.281	0.776	0.0745	0.0685	95.17	1	441253
+2iy4qPWFbtzGSDT8xzKIMb	0.724	0.422	0	-13.759	0	0.0581	0.452	0	0.101	0.845	129.911	4	108513
+3MGJF1CDFGfjXESL2Heva0	0.565	0.646	7	-4.749	1	0.0335	0.0412	0	0.362	0.481	91.973	4	213413
+4hTg9q0AnxtH4yZKeRcMin	0.285	0.297	9	-9.259	0	0.0339	0.743	0	0.138	0.156	103.653	3	283529
+51G4UdHXjcNrdLueS1ohzU	0.583	0.823	0	-4.542	1	0.0592	0.0531	0	0.127	0.501	140.013	4	195253
+5xrHvVmSF3ui0EKI8FArv3	0.495	0.753	9	-4.737	0	0.102	0.631	3.23e-06	0.16	0.744	121.056	4	250000
+70C4NyhjD5OZUMzvWZ3njJ	0.331	0.55	0	-6.483	1	0.0272	0.605	3.96e-06	0.192	0.429	177.734	3	339000
+5Pj9iXYfe607U62YwSF5rC	0.713	0.757	1	-5.248	1	0.0728	0.00238	0	0.233	0.316	134.993	4	151867
+0eHxqgbpr2ptXQtw8Ab3ve	0.39	0.208	0	-11.402	1	0.035	0.913	0.000348	0.124	0.0546	114.838	4	331360
+4l52LL7FmhrUXF1F9zV62c	0.523	0.513	5	-6.105	0	0.0435	0.697	0	0.434	0.624	136.695	4	227500
+170yBuCB3FvhMG2DMSQ4IG	0.789	0.501	5	-5.433	0	0.0746	0.209	0	0.191	0.694	108.989	4	168933
+2tAzcTFry1OhmNERFjUR93	0.604	0.883	11	-3.821	0	0.047	0.0254	0	0.0813	0.544	90.001	4	245533
+0PhhFpOOM0dOJhMsjHtypt	0.837	0.507	9	-7.539	0	0.0704	0.738	0	0.0842	0.588	95.039	4	156035
+0V7c0zElQpTNGUwyC18YMM	0.441	0.644	0	-5.986	1	0.132	0.61	0.000485	0.308	0.727	104.622	4	216875
+1YQY7ODoHmrfDwzgshRBKq	0.625	0.498	5	-7.395	1	0.0669	0.607	0	0.321	0.531	76.196	4	174072
+2Dqg2mRbfIVKhBZleNrgmH	0.358	0.628	7	-9.685	1	0.0556	0.00586	0.471	0.111	0.262	108.441	4	831440
+55mJleti2WfWEFNFcBduhc	0.567	0.714	9	-8.512	0	0.0302	0.0012	0.417	0.186	0.191	107.441	3	403533
+6DyywdbmTzlmXBzG9ym7Rt	0.385	0.673	2	-8.182	1	0.0329	0.000183	0.149	0.0721	0.187	149.271	4	306853
+0pwObEOHolQZSldJ2q1wpy	0.286	0.728	0	-6.608	1	0.0616	0.000174	0.836	0.133	0.467	171.441	4	312120
+65ShmiE5aLBdcIGr7tHX35	0.506	0.877	0	-5.73	1	0.032	5.16e-05	0.776	0.0712	0.302	114.589	5	426680
+7tvuLLroI0n6uYBWuFig5d	0.387	0.677	0	-8.399	1	0.084	0.00108	0.871	0.101	0.371	172.812	3	562707
+1vxu8vMNshg5J8z3oA7QJZ	0.314	0.929	9	-6.238	1	0.105	2.03e-05	0.516	0.139	0.285	100.935	4	363680
+2gbPu2QNqhnnqtfK3yyeZ0	0.475	0.831	9	-7.419	0	0.0505	0.000145	0.854	0.346	0.521	110.42	3	448613
+02MWAaffLxlfxAUY7c5dvx	0.761	0.525	11	-6.9	1	0.0944	0.44	6.7e-06	0.0921	0.531	80.87	4	238805
+1K2RnVhm3eauKnA8PAcPu1	0.633	0.55	9	-9.965	1	0.0924	0.649	0.000363	0.147	0.333	147.099	4	262248
+0rRjGruFonCGOt0S5zAJNQ	0.689	0.338	11	-7.634	0	0.0629	0.349	5.7e-05	0.0649	0.568	128.012	4	320654
+1gk3FhAV07q9Jg77UxnVjX	0.487	0.369	11	-13.424	0	0.0406	0.736	3.75e-05	0.0925	0.106	183.114	4	289307
+37adYGaYaAWTGhBaOzX4Fh	0.623	0.661	9	-7	1	0.1	0.0212	0.000229	0.267	0.63	151.97	4	229718
+7vZqwaSk4sVcDyZbMcxS8N	0.655	0.716	8	-5.077	0	0.0897	0.476	0	0.479	0.521	80.813	4	175302
+1LPGwuFgIzbJoShfDdw7MY	0.648	0.718	9	-7.765	0	0.0298	0.129	0.00156	0.112	0.785	96.017	4	230693
+2xXPVOKw75Ouju8Qu4SdIA	0.703	0.624	7	-6.228	1	0.0364	0.0156	5.53e-05	0.299	0.808	131.966	4	195191
+32zkKx35Et6A515oZKxDkD	0.699	0.67	1	-6.219	1	0.0347	0.0147	0.22	0.356	0.556	111.988	4	281407
+1MPKBplSO3HmUD9PEaG02N	0.375	0.201	9	-13.672	1	0.0328	0.526	0.0112	0.0916	0.151	178.32	4	143493
+0CuqmRkvCNeIZCBfzXUNIX	0.405	0.519	9	-5.431	0	0.0269	0.658	0	0.0874	0.289	139.916	4	283987
+4tsjke1KKqZHgOf5hTylsL	0.627	0.186	9	-13.526	0	0.213	0.356	0	0.112	0.251	157.501	4	133027
+4bDFVMZFCxW1zPdbyubFMp	0.403	0.487	9	-6.279	1	0.0445	0.465	0	0.15	0.164	138.196	4	286726
+3ZaLLFzx7xySykeE3ZgWJr	0.502	0.129	4	-9.925	1	0.105	0.884	0	0.135	0.455	133.607	4	100053
+6EMueQ4shWqGxVS00s6YOa	0.593	0.096	3	-11.013	0	0.079	0.692	0	0.089	0.397	109.302	5	139527
+4Z3kBh3iH5URNyYiVfMCJw	0.719	0.45	4	-9.957	1	0.0354	0.726	0.000828	0.142	0.779	94.543	4	231067
+4oYD7pXVmNekDzOqPeUZTb	0.499	0.36	11	-6.631	0	0.0275	0.714	0.000153	0.103	0.199	120.038	3	263707
+3H87NChVLoIjhaJ0u0YEuY	0.345	0.342	5	-8.655	1	0.0273	0.709	4.47e-05	0.376	0.195	135.44	3	382200
+6Tj2rlXCpJRHM3bxDz2Fjw	0.27	0.115	2	-12.504	1	0.0385	0.906	2.66e-06	0.0946	0.153	131.604	4	365720
+3cjvqsvvU80g7WJPMVh8iq	0.611	0.677	10	-6.745	0	0.034	0.0764	0.0698	0.241	0.233	166.04	4	255320
+3LGsgpx4TfxhXbr07OFKqs	0.697	0.529	2	-8.838	1	0.0338	0.115	0.896	0.0895	0.486	155.974	4	251267
+0YQEWdfq3ajtNtK106Dr0k	0.632	0.691	9	-5.226	0	0.0603	0.00604	0.00149	0.19	0.0768	116.028	4	159315
+3WXhshrs1fzwF3rQE399Gq	0.578	0.947	11	-2.431	0	0.0359	0.00744	0.0816	0.105	0.456	134.033	4	246007
+4keclC0eBhQm8lFtYmX01K	0.482	0.905	7	-4.371	0	0.0418	0.00971	0.29	0.288	0.116	93.017	4	270983
+1jR9XTpUeT6a82Yz4GNCCo	0.679	0.801	5	-4.611	0	0.275	0.0236	0	0.0573	0.825	173.938	4	126664
+1hT3eaGzrcFriQtgGdvsZv	0.602	0.786	9	-6.284	0	0.0279	0.0613	0.51	0.318	0.671	147.929	4	230270
+3KeOFns3LGJuh1lapMm9eA	0.533	0.9	5	-4.973	0	0.0495	0.00143	0.101	0.129	0.0795	99.983	4	220617
+1aL6wkVeoR41DqDpVN7Gl2	0.54	0.925	9	-4.79	0	0.0363	3.22e-05	0.00102	0.172	0.13	130.943	4	245542
+62jc4VA6WPoANaL9Duu8db	0.481	0.965	8	-2.993	1	0.0875	0.000903	0.000733	0.476	0.66	155.934	4	264524
+5gW5dSy3vXJxgzma4rQuzH	0.859	0.413	1	-7.399	1	0.182	0.132	0	0.334	0.697	115.035	4	194230
+3H8BLMeJCoXQsozaXi2xzy	0.518	0.355	8	-8.558	1	0.0663	0.839	0	0.254	0.388	78.516	4	211813
+5C5gvDZsl6d8bh89URfKHr	0.698	0.664	7	-7.828	1	0.0778	0.121	0.00131	0.331	0.623	96.001	4	253831
+0UdBCetwMDQO7JIhi7Waik	0.359	0.527	9	-6.371	0	0.125	0.397	0	0.162	0.239	87.28	3	217547
+1lqTpQzSgGZZ850bimyxMP	0.292	0.953	7	-2.262	1	0.121	9.26e-05	1.19e-05	0.115	0.261	179.672	4	214725
+272Z4tzaSMMcgrZ0R494S2	0.422	0.814	9	-7.365	1	0.195	0.118	5.3e-06	0.115	0.411	147.065	4	354320
+4KWntZBFeQOdoYNgPwcEGe	0.623	0.658	1	-5.057	0	0.0405	0.0176	0.000539	0.238	0.341	129.977	4	184147
+7qzNc93sUMR3vHt5WADmOa	0.534	0.95	9	-2.712	0	0.161	0.012	1.91e-06	0.413	0.527	140.071	4	207587
+06WohfoFEUa5faNy8f9S5N	0.465	0.96	6	-3.888	1	0.0792	0.00023	0	0.129	0.43	132.014	4	255773
+08M4WOUOlAHeZEmj9gEyKt	0.516	0.939	2	-3.682	0	0.0917	0.0178	0.0109	0.101	0.358	140.071	4	297216
+0CUbuoOBaYAGSYmjjSlNON	0.761	0.685	9	-4.892	0	0.339	0.0602	0	0.11	0.548	107.125	4	183925
+0Yg1hSAUgd2AAneReFOVzS	0.741	0.365	9	-9.594	1	0.0329	0.812	0.00957	0.144	0.888	107.847	3	187747
+0cELvuwJW1acISUHYB6suj	0.74	0.752	9	-7.008	0	0.0359	0.0409	0.00125	0.0233	0.939	114.851	4	248093
+0eHIMJCzU1QV0R6OHeLOuR	0.551	0.915	2	-2.496	1	0.0846	0.00844	0	0.326	0.416	67.978	4	260160
+0q6WphTLKGQksoPMiNB1LJ	0.542	0.862	2	-6.373	1	0.0583	0.00377	0.000915	0.0877	0.294	151.957	4	181073
+0tvw5vooI7iT74m2x1T7HU	0.627	0.833	11	-7.948	0	0.0641	0.23	0.101	0.149	0.193	126.13	4	176196
+1ZpcR68PKaoz8DpQDRqFEE	0.51	0.609	8	-4.6	0	0.0941	0.0228	0	0.442	0.323	122.984	4	174740
+1eNThMHqjtDhoyGXytVBvh	0.387	0.992	6	-1.733	1	0.348	0.0101	0.000421	0.173	0.127	165.974	4	226400
+1gsYCXkisSnnjBb3qwYZoc	0.565	0.531	2	-6.09	1	0.197	0.497	1.94e-06	0.102	0.237	129.424	4	182858
+1gxdWpeOUBpvB908fiZs4D	0.303	0.249	0	-11.715	1	0.111	0.97	1.95e-05	0.117	0.131	66.932	4	200661
+1kYR2wTYZUsZ2Gcx7yPYSZ	0.533	0.938	5	-3.28	1	0.2	0.0024	0	0.778	0.357	129.93	4	247467
+1w1hr8DdUGqGF4qyhCvGhP	0.627	0.243	3	-7.075	1	0.0353	0.759	0	0.08	0.549	94.176	4	199149
+26nwOFTFf5JLDBFOK1MMe1	0.906	0.343	6	-6.999	1	0.0496	0.11	0.197	0.0873	0.87	130.973	4	62215
+2IHcAcZ4D6QRGZgmWGgGhc	0.609	0.61	10	-7.906	0	0.0302	0.397	0.000442	0.127	0.331	88.507	4	267653
+2MaWDFu5l9SKXNDd6qCIx6	0.759	0.626	5	-6.289	0	0.217	0.212	1.13e-05	0.0922	0.651	115.007	4	181773
+2i9yWmgHVqWW1vmXtxUaN9	0.684	0.617	2	-6.266	0	0.0886	0.0181	1.53e-06	0.0839	0.628	89.435	4	87673
+2m17BTWlZq0wtS9cpJsCfM	0.506	0.7	0	-5.716	1	0.0487	0.00998	0.000124	0.37	0.561	126.235	4	205307
+2p1Cjaderx0MeKrAoHwchx	0.553	0.782	5	-8.125	1	0.0305	0.0483	0.217	0.401	0.599	133.306	4	233053
+2ptbBxMTCbFBefVMXwrdSC	0.806	0.437	5	-9.599	1	0.191	0.0279	0	0.457	0.803	114.918	4	143500
+2zsWRxMcUdGjj8TnWkVKw0	0.637	0.724	6	-5.151	0	0.0403	0.119	0	0.299	0.414	80.982	4	176787
+39oHEZp6LFEmXLy8tKHcYf	0.433	0.653	10	-6.796	0	0.0583	0.064	0	0.112	0.274	127.901	4	196200
+3DiRdaZtPrVdb4U2RIuRWm	0.447	0.863	6	-6.303	0	0.0585	0.00365	0.0138	0.0448	0.835	162.311	4	208467
+3HBZdyG6QHhrEdwLQYXjfU	0.349	0.876	11	-3.737	0	0.0508	0.0576	0.845	0.189	0.198	130.011	4	226495
+3NYq7c5AIUiubPz9UZl82h	0.385	0.547	0	-9.005	1	0.0525	0.0331	0	0.636	0.354	73.107	4	168680
+3e90JC8EKLsSDUHmPpxkfp	0.597	0.495	8	-8.674	1	0.201	0.215	0.000163	0.104	0.171	76.991	4	253800
+3eIDFlBvKsssIpKeTSKEO6	0.411	0.95	7	-3.051	1	0.114	0.0303	0	0.0423	0.423	179.997	4	240960
+3ejS3PKnKnLiI1CIKM5E4K	0.245	0.564	7	-5.829	1	0.0405	0.0621	0.288	0.112	0.0942	149.734	4	307318
+4191RXFPa7Ge9XkA4cWlna	0.526	0.334	10	-8.491	0	0.251	0.702	0.00782	0.0586	0.522	74.966	4	212496
+46SZJUs1Qnutjk3QlNcnKY	0.522	0.346	11	-11.458	0	0.0435	0.933	0	0.474	0.726	106.715	4	146627
+4Cbrtoamv6acNiHNAUKnj0	0.467	0.753	9	-5.319	0	0.0454	0.17	0	0.245	0.44	89.02	4	212960
+4K6QbaU4KdvYJAOncr2Iu0	0.356	0.97	9	-2.855	0	0.0935	0.0635	0	0.121	0.142	149.937	4	268040
+0f6WFVjzsDgZtCHPezwDei	0.614	0.925	5	-4.023	0	0.0357	0.00388	0.103	0.187	0.484	109.939	4	344727
+3kivhGSiCwW36JtxMu6kFO	0.487	0.945	10	-4.361	0	0.0336	4.81e-05	0.532	0.45	0.165	139.984	4	281143
+1sHrOGDcZAEwO8cYzXp2px	0.568	0.897	7	-4.834	0	0.0425	0.00157	0.0472	0.129	0.365	139.983	4	381493
+45PRMPtQ163u47G79aqFbG	0.587	0.763	11	-8.306	0	0.038	0.00221	0.185	0.343	0.471	85.036	4	180703
+1CacwqIwf9D4SP4MuhtG1Y	0.692	0.703	11	-7.7	0	0.237	0.27	0.000161	0.317	0.566	145.988	4	227432
+0JrFwInlGGD43TRnAoBKpm	0.702	0.638	4	-8.163	1	0.274	0.259	1.93e-05	0.13	0.226	123.964	4	367133
+1zFw3nzmUyKbXgr75qtI9t	0.783	0.767	11	-4.898	0	0.152	0.0297	8.27e-05	0.199	0.568	115.41	4	194609
+1TvXWUL65B59au2zm4PltT	0.439	0.91	0	-3.83	1	0.174	0.00478	0.000578	0.666	0.635	79.771	4	240000
+1cqbd9BGaw3M9bIrFpX9P9	0.468	0.66	0	-5.568	1	0.0739	0.261	0.000974	0.125	0.474	65.487	4	308571
+3dr8PzwS05ajM6dMr94jnl	0.816	0.703	1	-8.417	1	0.118	0.268	0.318	0.152	0.878	123.051	4	152194
+75BGF4LC7AOLFfxn6ukZDH	0.533	0.935	0	-3.704	1	0.128	0.0139	0	0.168	0.481	140.092	4	262493
+14zjlPXKkx3uCKOQB95PwU	0.653	0.32	0	-9.511	1	0.0428	0.903	0.000105	0.112	0.435	151.559	4	137698
+4Kh2MJAy65AfHFdGqBg1Jw	0.66	0.406	1	-13.341	0	0.0435	0.436	0.000243	0.197	0.447	137.635	4	418493
+1ToKOSrvlMVSPvFyvU9FvX	0.592	0.199	0	-21.016	1	0.0403	0.615	0.000348	0.112	0.459	143.969	3	198000
+74LbkcDTjFV1WtMmTAtORI	0.82	0.164	6	-20.282	0	0.0413	0.814	0.00103	0.284	0.544	102.983	4	283000
+2EznBGrlmx9wBeYgyDojsA	0.482	0.453	0	-8.864	1	0.059	0.0323	0.00243	0.149	0.17	134.799	4	200338
+1ljzHUgt2SU2ADkhfa9eBC	0.641	0.673	5	-10.72	0	0.0918	0.0302	0.000868	0.219	0.644	167.978	4	262587
+5OpiyfqaQLdtwHd3SfembH	0.672	0.291	8	-7.843	1	0.0897	0.0375	3.89e-06	0.0925	0.417	100.961	4	240426
+3IJCSQoLF4YzPAKaxq2JLb	0.74	0.546	7	-5.674	0	0.0498	0.0159	8.41e-05	0.209	0.375	130.028	4	217679
+5dzV75f9qVXVvdXLTqIG4L	0.667	0.465	8	-8.096	1	0.0339	0.0426	0.00649	0.465	0.34	123.883	4	280080
+3HW030T8eqPs8wpsgZqCGM	0.843	0.433	0	-8.139	1	0.0676	0.0114	8.19e-06	0.123	0.161	106.028	4	310480
+1Z2MfAx1nJ09NzGjodnvRW	0.73	0.681	8	-7.582	0	0.0405	0.0441	0.000245	0.27	0.446	106.017	4	302492
+0Mi9oDxTwC7u9X6nxSQGN6	0.38	0.694	7	-4.711	1	0.0943	0.331	0	0.0804	0.252	200.414	4	204586
+56RfNBJGUgL1ZFCB1KEJrQ	0.833	0.624	11	-6.306	1	0.325	0.49	0	0.117	0.26	101.96	4	190288
+5NeIONQWJ25uPylJBJiO4c	0.545	0.753	3	-4.618	0	0.036	0.0417	0	0.389	0.434	105.754	4	282947
+14EORgkbXqIx5K4Haucmnb	0.552	0.988	1	-2.555	0	0.0787	0.000108	0.309	0.846	0.619	139.941	4	229840
+3V1H6liHwCDcWeqdPJabOM	0.561	0.337	8	-9.272	1	0.0284	0.644	8.79e-05	0.67	0.273	109.373	4	267253
+0AfIsqZ4gTUg9CwwW2jLeK	0.272	0.281	1	-7.634	1	0.0287	0.388	2.29e-05	0.158	0.141	89.914	4	240400
+5jsDxDkJ1PqyYUWhDMr86B	0.481	0.945	1	-5.468	1	0.0813	0.00264	0	0.135	0.427	157.059	4	256533
+7oL13WHjhUFhVq9POP7qfC	0.559	0.868	11	-4.738	0	0.0475	1.2e-05	0.00394	0.0418	0.684	140.021	4	264373
+1q9ru9Wx2Q9Ez8irkGcyFa	0.312	0.934	3	-3.793	0	0.0683	0.000606	6.76e-05	0.115	0.471	201.991	4	251840
+0pVL6gE6ebXHExO9IzrJDQ	0.286	0.547	4	-7.923	1	0.0318	0.0627	3.16e-06	0.112	0.453	174.717	3	325627
+70tDfuK1tlZQfyi0m8BZo0	0.512	0.919	4	-4.581	1	0.0894	4.03e-05	0.000629	0.0899	0.602	163.035	4	258067
+3WeEYZivpdmeyXupUpQxgV	0.597	0.862	1	-5.873	0	0.0336	0.0115	9.44e-05	0.137	0.635	120.015	4	266926
+7snQQk1zcKl8gZ92AnueZW	0.446	0.952	6	-5.321	1	0.0523	0.0901	0.0857	0.112	0.624	125.303	4	356067
+3YRCqOhFifThpSRFJ1VWFM	0.294	0.641	11	-9.316	1	0.0291	0.0163	0.22	0.112	0.226	79.759	4	536067
+0G21yYKMZoHa30cYVi1iA8	0.453	0.987	8	-4.485	1	0.0889	0.0195	0.283	0.268	0.316	123.544	4	273480
+4JiEyzf0Md7KEFFGWDDdCr	0.496	0.739	6	-7.193	1	0.0415	0.0211	0.00444	0.106	0.378	132.41	4	336000
+6eN1f9KNmiWEhpE2RhQqB5	0.268	0.98	11	-5.958	1	0.103	0.0192	0.00709	0.182	0.395	100.315	4	405600
+2N2yrmodOnVF10mKvItC9P	0.456	0.59	11	-8.638	1	0.0327	0.00182	0.00379	0.104	0.243	124.635	4	283733
+0rFWuqFgHAfuzE8uSB9TWR	0.262	0.777	11	-8.671	1	0.0632	0.0109	0.113	0.12	0.264	152.5	4	182733
+0dlTGl67UFWcKupzkxZYOn	0.35	0.985	10	-5.676	0	0.122	0.00876	0.551	0.36	0.323	151.007	4	343640
+1OEoNpiyqBghuEUaT6Je6U	0.457	0.297	6	-12.511	1	0.0306	0.686	0.000107	0.109	0.333	120.021	4	354880
+6i4Qi1mJxXjqNIL9HfJhRs	0.336	0.787	10	-8.803	0	0.0732	0.0793	0.0648	0.32	0.383	140.003	4	462093
+3wJOpq5ZwBMUFroNZ0N6uI	0.503	0.24	9	-17.027	0	0.0285	0.877	0.937	0.109	0.157	140.007	4	168123
+73yenCZM9Fh0h58OaEOkjk	0.401	0.459	1	-16.381	0	0.0296	0.721	0.959	0.105	0.0493	180.044	4	224000
+291bcePoQ2Z9MvKIewgE2C	0.475	0.819	4	-7.62	0	0.0436	0.00083	0.916	0.08	0.118	100.1	4	402000
+3dbN14Hu8jsXzlBWMevLsm	0.546	0.615	0	-9.947	1	0.032	0.00177	0.892	0.0934	0.216	120.002	4	296245
+2sMZO6HCWWOLSLMRpU6bDq	0.348	0.325	4	-10.345	0	0.0275	0.649	0.899	0.0595	0.041	100.005	4	341386
+3ONRXOWBKbeJFW7lxntkeK	0.519	0.644	10	-9.862	1	0.0343	0.204	0.938	0.227	0.212	108.001	4	357263
+2hYCW6cQ0xN2gurDXQZWhb	0.55	0.722	9	-7.17	0	0.0316	2.97e-05	0.774	0.11	0.452	109.985	4	339364
+0lQS5PpevgXgCUHnBI2Klc	0.435	0.564	9	-10.67	0	0.0321	0.0059	0.95	0.158	0.0831	180.014	4	253440
+6wB5PsH2WWs9dR4VcOvGMl	0.178	0.176	11	-17.452	0	0.0293	0.97	0.837	0.0895	0.0509	104.969	4	211680
+4nA5V1hzpeNhM1gmvz11qr	0.446	0.649	2	-8.833	0	0.0402	0.0414	0.863	0.129	0.232	119.961	4	300720
+1d6KS9GH06JAd19uiBy9IE	0.408	0.582	11	-8.305	1	0.0508	0.218	0	0.159	0.365	114.926	5	230000
+3jS7bB0oXVOwGFZn3aE5NV	0.665	0.834	4	-7.737	1	0.0576	0.21	0	0.452	0.411	105.292	4	249493
+2lE7oRoKssULAtbWViL385	0.657	0.655	0	-8.3	1	0.0248	0.135	0.00303	0.102	0.668	92.259	4	222013
+3CVDronuSnhguSUguPoseM	0.672	0.616	0	-5.764	1	0.0258	0.379	2.73e-05	0.0887	0.566	92.094	4	258773
+735rjks7kQgWCjTQlIHMuH	0.482	0.808	0	-7.176	1	0.065	0.0562	0	0.202	0.438	79.599	4	267293
+4l7YIni9bAiGwWMqK5wvgV	0.401	0.706	8	-7.554	1	0.0404	0.00415	0	0.0916	0.458	168.669	4	239640
+2LVxvGhl2U5p2ql2ujc6vZ	0.513	0.82	7	-5.428	1	0.0299	0.00192	2.83e-06	0.504	0.52	99.952	4	269400
+7c1iI6dwdCpHGYT8DGEfab	0.38	0.538	2	-5.493	1	0.0313	0.0223	0.00487	0.094	0.193	127.416	4	276200
+2yx1kAK1Fe2zTOsaDKSNBk	0.308	0.781	0	-7.052	1	0.0746	0.0639	1.16e-05	0.978	0.283	166.931	4	261973
+6rRIRMEhVclbTleCJQsrPm	0.562	0.896	10	-7.974	0	0.203	0.0117	0	0.322	0.362	93.378	4	284093
+1mKXFLRA179hdOWQBwUk9e	0.778	0.547	2	-7.273	1	0.0489	0.346	0.000302	0.132	0.441	95.002	4	242733
+1jF7IL57ayN4Ity3jQqGu0	0.674	0.628	2	-7.079	1	0.03	0.00144	0	0.0944	0.552	103.998	4	247907
+1gv4xPanImH17bKZ9rOveR	0.7	0.709	7	-5.006	1	0.0838	0.0048	0	0.029	0.624	122.019	4	202960
+0JiY190vktuhSGN6aqJdrt	0.534	0.87	11	-3.078	0	0.0425	0.000334	0	0.241	0.462	126.019	4	215160
+6sZo5nJIsFWXefRCCexpx0	0.668	0.802	5	-4.005	0	0.0917	0.0273	0	0.163	0.769	113.796	4	225789
+0Qh38w01QRXK6KHIv0e3hb	0.491	0.588	1	-6.177	1	0.0506	0.0281	2.01e-06	0.0906	0.193	113.608	4	269600
+0UKUfxIkDAMZz7hMdiVX3m	0.473	0.592	5	-6.859	1	0.138	0.0528	0	0.131	0.292	159.7	4	138573
+2hns6Dv29Yrg68AVTJiAyA	0.688	0.734	9	-4.569	1	0.0274	0.00462	0	0.0756	0.46	140.004	4	208493
+5Oz15cyQP3TMDDXKWm4tYH	0.672	0.799	8	-3.664	1	0.0973	0.0244	3.18e-05	0.0945	0.287	144.011	4	232385
+1QNqrsNQ1JVLEwncov3lEY	0.457	0.823	9	-4.76	1	0.311	0.00144	0	0.108	0.578	192.205	4	230733
+3wMJQ5qeN02ljNn3lRMVka	0.548	0.364	5	-9.465	1	0.0547	0.86	0	0.385	0.506	116.556	4	215866
+2Lv9mFjcIFPn8zyWF89EAe	0.485	0.513	5	-5.91	0	0.0614	0.708	0	0.508	0.385	90.374	4	246062
+1MAIJFzQFIQ2Hkm3X5YtCW	0.424	0.355	4	-6.883	0	0.0358	0.802	0	0.27	0.37	124.657	4	239500
+6Qk1YmTx5VyaAEDK2UuBrj	0.481	0.267	0	-8.588	1	0.0322	0.759	0	0.156	0.397	106.143	4	198000
+3LoIBdxoJR1P61Gxytw1Mg	0.532	0.535	5	-4.908	0	0.0476	0.822	0	0.341	0.644	109.45	4	212187
+5yB4E4t77x2k0VJTvRazQq	0.621	0.565	2	-7.288	0	0.0561	0.418	6.01e-06	0.186	0.931	108.262	4	222326
+1jZRJKE7GZdiZzVgMS9mv2	0.571	0.463	9	-8.076	1	0.115	0.779	1.21e-06	0.179	0.606	121.567	4	218500
+4rHrFEePW9WTMYby9bdsUr	0.461	0.618	0	-5.608	1	0.0466	0.797	0.000497	0.0499	0.508	146.968	4	204000
+0E32W7S52AaR4ht7i7DwDq	0.39	0.646	9	-6.078	1	0.0506	0.653	0	0.076	0.727	158.119	4	255000
+0n3sHHfdOq6Awix3JPe3xl	0.545	0.927	1	-4.736	1	0.0706	0.0128	2.33e-06	0.367	0.682	124.061	4	248400
+3gmEzilP9BzF45wIMvA16l	0.469	0.969	0	-2.219	1	0.0589	0.009	1.11e-05	0.346	0.476	164.042	4	183507
+0JKY13K1Io2aqXJb96UyzX	0.456	0.891	11	-4.062	0	0.125	0.00682	4.97e-06	0.0727	0.647	170.019	4	183707
+5l3gAGbkXFfPWxh4a3J8mp	0.542	0.963	2	-1.994	0	0.141	0.00127	0.00134	0.253	0.374	124.992	4	191333
+7dIObUjmQfXbs56UsaBIHT	0.342	0.991	2	-2.836	1	0.125	2.44e-05	0.049	0.404	0.242	176.359	4	206960
+0a5UnIvDUBzqwUduJsouRy	0.514	0.866	0	-3.657	1	0.0449	0.0524	0	0.17	0.45	159.973	4	177547
+5MapUlM1un2Kh4aZ3IyWcL	0.384	0.955	9	-2.884	0	0.266	0.0535	0.000997	0.0958	0.199	171.888	4	217173
+3238Ck8nZUFvTqh4fKv8cY	0.486	0.891	11	-3.804	0	0.0469	0.00601	0	0.702	0.226	138.014	4	259551
+78mjaBatbfvwx5KJwI036H	0.558	0.929	2	-3.618	1	0.0638	0.00094	0.000248	0.389	0.502	137.868	4	202307
+09XBDPqHnevLn54rpRMjkZ	0.43	0.981	5	-2.929	1	0.0744	0.00014	5.45e-06	0.287	0.585	157.01	4	207445
+6EtKlIQmGPB9SX8UjDJG5s	0.574	0.664	11	-6.068	1	0.0409	0.0448	0.0553	0.146	0.226	144.654	4	91870
+1ZdhOMWyFR8Iv9eylMGYg2	0.494	0.428	0	-7.239	0	0.205	0.236	0.0698	0.0816	0.44	87.724	4	157497
+6N22FZs2ZhPBYi3b9XPajV	0.316	0.63	5	-5.963	1	0.117	0.471	0.262	0.205	0.313	89.643	1	153294
+4G92yYrUs0cvY7G41YRI0z	0.439	0.153	1	-8.95	1	0.0479	0.874	0	0.107	0.104	116.76	3	287693
+4xigPf2sigSPmuFH3qCelB	0.603	0.615	11	-4.931	0	0.165	0.0799	6.72e-05	0.117	0.561	158.657	4	213707
+76YSWx6L6FNsuaP6GWBb8P	0.46	0.66	3	-6.642	1	0.0652	0.0108	0.000139	0.34	0.18	141.722	4	191710
+6potEImiklXkwD9qFzpu15	0.563	0.459	4	-7.781	0	0.0292	0.92	0.724	0.11	0.197	79.983	4	202536
+2t16D9V5FmmRAJjsSpwvZf	0.417	0.551	8	-6.456	0	0.174	0.73	0.00166	0.0907	0.444	87.614	4	174568
+4lJNen4SMTIJMahALc3DcB	0.69	0.714	7	-5.948	1	0.0338	0.0077	7.23e-05	0.191	0.489	112.009	4	187027
+30XBkzzcubUJLANeXM4D0C	0.375	0.133	0	-10.624	0	0.0352	0.651	0	0.0695	0.192	131.721	4	187944
+6W21LNLz9Sw7sUSNWMSHRu	0.353	0.898	2	-5.877	1	0.052	2.23e-05	0.105	0.39	0.525	103.293	4	255733
+3o7TMr6RmIusYH7Kkg7ujR	0.687	0.677	2	-4.172	1	0.0508	0.000643	0.000137	0.0564	0.545	75.052	4	199773
+2F6FfZ4w8z3eJpSxPotVO5	0.468	0.769	4	-7.036	1	0.041	0.00014	0.00124	0.271	0.17	104.102	4	270920
+6nJPHXRpKYv2yqtalEjKy5	0.501	0.905	11	-5.721	0	0.0518	1.88e-05	0.765	0.383	0.584	123.277	4	225307
+05NpeTQWnzXS1d8ZqL4YFZ	0.581	0.983	5	-3.291	0	0.0636	0.00043	0.00654	0.0806	0.417	110.038	4	188933
+3ESohZocQvwRDzedmk4fYi	0.244	0.928	4	-4.804	0	0.152	0.000856	0.108	0.915	0.38	95.235	4	252400
+1pHPpLVH2XEN0xYRoQs4wq	0.577	0.94	6	-4.439	0	0.0361	2.42e-05	0.0715	0.347	0.818	116.045	4	172667
+5NHTtXGCdO7ul16xr0q93w	0.564	0.947	2	-4.998	1	0.0448	7.81e-06	0.828	0.373	0.351	100.002	4	270960
+2WSWm0zlL3CJRACHS5KXbB	0.756	0.811	0	-3.685	1	0.0836	0.0107	0	0.538	0.715	118.034	4	197907
+0xgsyoVvRFSYvV5cdtYhX1	0.334	0.898	11	-6.821	0	0.196	0.00406	0.0202	0.162	0.226	110.364	4	153600
+6lanCCozUAMy9YWSXki2KT	0.226	0.199	8	-12.764	0	0.0429	0.797	9.68e-06	0.0858	0.039	80.526	4	63372
+4lY38A2Od1FpAA5ApsWJ9H	0.592	0.78	11	-5.415	1	0.0316	0.173	0	0.062	0.615	109.957	4	156735
+2RO1DH40uEKycPoAe4EeC8	0.651	0.749	0	-6.603	1	0.0372	0.159	0	0.337	0.743	101.981	4	155531
+35Wbv9gZlM4BH9ru0b53dD	0.124	0.246	0	-13.674	1	0.0356	0.717	0	0.369	0.206	78.991	5	274320
+7r1gjjGfBW6tZVESc9GV5s	0.738	0.611	6	-7.737	1	0.201	0.137	1.31e-05	0.0231	0.647	92.014	4	175027
+5eosB56UtLkH1eckOG4OwM	0.686	0.598	3	-7.813	1	0.0398	0.809	4.53e-06	0.195	0.866	100.054	4	175903
+6ACGnw7Av12JwzX5d1tz6I	0.543	0.52	10	-10.028	0	0.0517	0.155	0	0.447	0.656	123.248	4	152128
+2cEUsHbwpk3D3R8l8myagO	0.462	0.301	3	-11.287	0	0.0321	0.589	0.105	0.078	0.183	121.912	4	184483
+0K3obK7pmH04aahBrWrlnD	0.723	0.62	2	-8.632	1	0.142	0.608	4.27e-06	0.146	0.72	77.524	4	137114
+5wPkADSHUuNOwVQ21QOlZs	0.469	0.198	2	-13.169	1	0.0326	0.675	4.55e-06	0.113	0.242	80.478	4	220200
+7yoBjKO6cCnK3zV8gr1k4e	0.417	0.706	6	-4.652	0	0.0945	0.00933	0.000572	0.474	0.512	127.884	4	242560
+1euszbbvkUzQzIhZUWFmXG	0.515	0.698	2	-5.572	0	0.0279	5.71e-05	8.64e-05	0.0827	0.194	139.96	4	258773
+4nMUPQeTor23d8RxiiJO9W	0.202	0.742	0	-5.29	1	0.124	0.00169	0.000483	0.128	0.155	194.876	3	196136
+7jHJ2MzIKO1kIMxGamKRKn	0.534	0.621	2	-5.205	1	0.0449	0.00124	1.39e-05	0.0596	0.186	91.845	4	278656
+5y1jgbDNgTfxoWXv3FhH2Q	0.474	0.351	7	-7.533	1	0.0292	0.0122	7.35e-06	0.112	0.104	139.827	3	241533
+66Avcq6c51vcMGXLzHH5d7	0.547	0.792	9	-5.645	0	0.035	0.000383	0.000259	0.106	0.395	97.998	4	234093
+252T5dAokvMiNzXZchojoH	0.249	0.68	9	-5.444	1	0.0594	0.00105	0.0128	0.116	0.143	189.879	3	239813
+0aaOrTcwzvbTni3zUarEaT	0.297	0.506	2	-6.609	1	0.033	0.000372	0.000225	0.104	0.11	140.716	4	351387
+0Ha3SbwjPO11gZ0zPjZQ2o	0.273	0.814	6	-5.338	0	0.12	0.00362	1.64e-05	0.0684	0.239	164.901	4	252131
+5yIHw5bnDscFViNtQRPlNn	0.37	0.924	7	-2.283	1	0.0846	0.0077	0	0.183	0.282	159.723	4	273899
+6mFkJmJqdDVQ1REhVfGgd1	0.481	0.262	7	-15.73	1	0.0414	0.735	0.0114	0.832	0.375	122.861	4	334744
+4gMgiXfqyzZLMhsksGmbQV	0.693	0.394	0	-15.882	1	0.0428	0.0782	0.000694	0.247	0.721	104.114	4	238747
+5HNCy40Ni5BZJFw1TKzRsC	0.472	0.366	11	-12.595	0	0.0286	0.15	0.312	0.0837	0.171	127.163	4	382297
+0vFOzaXqZHahrZp6enQwQb	0.468	0.536	11	-10.422	0	0.144	0.024	0.00199	0.269	0.785	126.256	1	382834
+2ctvdKmETyOzPb2GiJJT53	0.431	0.373	11	-15.142	0	0.0346	0.389	0.728	0.143	0.253	128.153	4	169535
+3TO7bbrUKrOSPGRTB5MeCz	0.359	0.48	9	-11.79	1	0.0841	0.521	0.0043	0.178	0.355	120.285	4	413947
+7F02x6EKYIQV3VcTaTm7oN	0.587	0.302	0	-14.976	1	0.0293	0.223	0.00216	0.128	0.19	112.46	4	278441
+05uGBKRCuePsf43Hfm0JwX	0.324	0.265	2	-13.398	1	0.0302	0.0732	0.341	0.366	0.208	133.568	4	226667
+6pnwfWyaWjQiHCKTiZLItr	0.264	0.294	7	-11.941	0	0.028	0.772	0.686	0.107	0.0402	137.937	3	811077
+2TjdnqlpwOjhijHCwHCP2d	0.274	0.217	5	-13.814	1	0.0345	0.767	0.896	0.0832	0.181	116.334	4	283872
+5thts3213xwSroRd11fv5A	0.844	0.609	10	-10.675	1	0.217	0.0074	0	0.563	0.725	91.116	4	296333
+5DOYik1z3Of1wAFfY3dYbC	0.884	0.37	8	-11.353	1	0.112	0.0188	0.00423	0.026	0.883	109.997	4	247507
+1aaoIHFT9UqhlaEwLAhh00	0.822	0.661	1	-10.234	0	0.164	0.0241	3.95e-06	0.315	0.67	99.883	4	272707
+6JvodgYcsthsORxPsEYUoe	0.839	0.508	1	-12.359	1	0.219	0.0126	3.06e-05	0.0928	0.874	80.014	4	206893
+1BPGVK07VnVlMx5KiGSxf4	0.9	0.635	10	-12.389	0	0.222	0.0265	2.9e-05	0.072	0.634	106.739	4	191200
+0eArho4oNYdoDA5Ujrnp5b	0.699	0.675	11	-8.997	0	0.0423	0.0422	0.00026	0.188	0.685	95.399	4	297000
+6Oz9XfeBlYgbwX8BN4uvQn	0.806	0.788	0	-12.398	1	0.0626	0.115	0.00273	0.132	0.571	124.077	4	205733
+60qV6RaRjg9ggvWQwq7WIG	0.902	0.493	4	-12.565	0	0.272	0.00714	6.89e-06	0.0553	0.44	96.913	4	252440
+44X6LzQxlk16s0lK4QIdxi	0.77	0.301	10	-15.161	0	0.173	0.0655	0.000487	0.207	0.403	83.96	4	338067
+216MVnfuGsNJM7F27R7z8I	0.7	0.669	1	-6.312	1	0.242	0.0395	4.02e-06	0.127	0.597	177.916	4	218147
+2UZtI2HUyLRzqBjodvcUmY	0.639	0.71	1	-7.445	1	0.0275	0.0133	0	0.118	0.378	119.989	4	233173
+5m7on0zpnmeAXy72ANrmfU	0.504	0.957	0	-2.657	1	0.0529	0.00298	0	0.187	0.676	135.013	4	205627
+2qJkesdHu9sMMVFgkRkqhQ	0.443	0.844	11	-5.414	0	0.0425	0.00251	0	0.085	0.452	76.001	4	202213
+6kp8F9FpHXzjga2MeRDSG8	0.58	0.877	1	-4.193	0	0.0395	0.00122	0	0.322	0.614	129.968	4	219360
+5zcLnqZbAjDGXX7HNcT1rE	0.508	0.828	1	-4.065	1	0.033	0.0162	0	0.266	0.449	125.868	4	190547
+5xyACR2lzIyzFepF4qlAas	0.415	0.781	1	-6.947	1	0.0357	0.00401	0	0.126	0.261	142.966	4	215400
+3DK5OFBHIEF18MG40nzDgI	0.268	0.846	9	-5.358	1	0.142	0.00412	0	0.147	0.338	148.106	4	227822
+2mYMAJGoauv6LYCpzIOGBi	0.551	0.904	1	-3.107	1	0.0452	0.00102	5.63e-05	0.138	0.756	128.976	4	205627
+2ejt6exJRE2bXPfp37Xi8w	0.419	0.785	10	-4.483	0	0.0313	0.0289	0	0.0799	0.332	152.053	4	210560
+2oDqmfa2g8W893LlwJG1qu	0.547	0.714	10	-8.628	0	0.044	0.000242	0.636	0.122	0.541	89.996	4	373000
+5ugzDiilhy6ILKmKfhEzd7	0.587	0.99	0	-4.496	1	0.0783	0.0172	0.000668	0.104	0.486	127.992	4	211680
+3ckd4YA4LcD3j50rfIVwUe	0.666	0.798	9	-11.26	1	0.0477	0.00848	0.00186	0.585	0.442	115.382	4	299680
+1lo9k4PrxFd5Np4cAxXoKo	0.49	0.158	9	-18.148	1	0.04	0.773	0.0227	0.121	0.0826	79.833	4	375933
+0XfNjyJcb7d2ZAscVM4K7J	0.516	0.989	7	-7.206	1	0.0754	0.000407	0.355	0.697	0.149	135.053	4	226733
+0m1DJ5Jkv3kdnGrcZsJFmC	0.7	0.807	9	-5.711	0	0.029	0.000576	0.00488	0.0996	0.963	112.15	4	263093
+14tKBoKXxGakkoEmYuFfor	0.627	0.883	5	-8.988	0	0.0947	0.0207	0.00346	0.323	0.252	149.024	4	315440
+0ypg59NyOVCpWVzd0SUsT5	0.607	0.941	0	-6.163	1	0.0486	0.0217	0.071	0.119	0.414	144.04	4	294893
+3o1nX61oecxnqXieA2ma0U	0.61	0.605	6	-12.484	1	0.0419	0.000925	0.157	0.344	0.458	87.953	4	278867
+1hMshRVQQQcIhXoqD2b4IC	0.637	0.743	8	-8.209	0	0.0516	0.00875	0.928	0.079	0.0382	110.042	4	237245
+6C5H6rqeolq4qQF08ua1VH	0.779	0.258	9	-18.129	0	0.0483	0.738	0.897	0.0994	0.582	121.896	3	310858
+0LRJnSa98xJNvhxsjjacxN	0.679	0.434	1	-14.601	0	0.047	0.854	0.887	0.11	0.0447	115.097	4	134092
+3vuoyVIc0wA8Eh1xMwscGX	0.594	0.64	6	-10.885	1	0.0398	0.521	0.88	0.383	0.562	139.996	4	171321
+26cS02qbGxXO0ZQzIep7dv	0.623	0.538	0	-10.298	1	0.0316	0.00251	0.906	0.0709	0.0383	119.96	4	216034
+3jhloQVw4pXiqxdN9Q1WTR	0.534	0.363	1	-11.798	0	0.0431	0.166	0.72	0.336	0.0341	129.965	4	243724
+046aTn8UtXxEmB7XGVGtuD	0.368	0.0902	5	-23.716	1	0.0345	0.992	0.923	0.0941	0.437	110.095	4	225799
+3WtpTP6yHNpWURmwZYoNUd	0.656	0.821	7	-9.146	1	0.116	0.00176	0.759	0.21	0.0859	140.046	4	221357
+1E9FhVXk68WCNbDK8JB4qL	0.752	0.656	1	-12.313	1	0.0488	0.406	0.802	0.436	0.489	130.015	4	154615
+1JnlKzzj0xwPvHqPJrXzHd	0.653	0.265	6	-17.536	1	0.0499	0.191	0.00331	0.355	0.129	121.021	4	64693
+48zUFsio0IV0KQxnpqAaEm	0.691	0.157	10	-21.504	0	0.157	0.00726	0.666	0.17	0.201	101.466	4	130640
+3zuPdhijmasKIcqPxkFu3v	0.811	0.623	11	-10.859	0	0.038	0.0193	0.865	0.175	0.94	138.37	4	208787
+5BLSShy9K485PTTJ4xe7Bv	0.615	0.697	4	-8.642	0	0.0331	0.625	0.000639	0.123	0.821	137.621	4	186658
+3bU8rIEuatTa7XjHl4Sw8f	0.655	0.245	7	-13.817	1	0.0392	0.747	0.0248	0.124	0.39	123.77	3	153933
+7c3Oydv7ZFCKn8Gk8C7x91	0.812	0.49	7	-8.646	1	0.0574	0.365	0.0337	0.105	0.925	105.038	4	169733
+60a0Rd6pjrkxjPbaKzXjfq	0.556	0.864	3	-5.87	0	0.0584	0.00958	0	0.209	0.4	105.143	4	216880
+2nLtzopw4rPReszdYBJU6h	0.496	0.863	9	-4.153	1	0.0381	0.0046	0	0.639	0.243	110.018	4	185587
+18lR4BzEs7e3qzc0KVkTpU	0.623	0.93	5	-5.285	1	0.0324	0.0141	1.64e-06	0.138	0.287	120.119	4	205613
+5sNESr6pQfIhL3krM8CtZn	0.687	0.793	2	-4.254	1	0.166	0.0603	0	0.582	0.751	107.045	4	205733
+3K4HG9evC7dg3N0R9cYqk4	0.492	0.969	9	-4.419	1	0.0491	0.0014	1.32e-06	0.0787	0.538	95.136	4	157333
+4Yf5bqU3NK4kNOypcrLYwU	0.554	0.978	4	-3.554	1	0.131	0.111	0	0.0731	0.594	135.095	4	162600
+0UFDKFqW2oGspYeYqo9wjA	0.529	0.967	1	-3.647	0	0.0508	0.114	0	0.61	0.596	140.127	4	166373
+57BrRMwf9LrcmuOsyGilwr	0.58	0.702	4	-5.565	1	0.0337	0.0466	3.2e-06	0.536	0.299	105.076	4	208960
+1Vej0qeQ3ioKwpI6FUbRv1	0.524	0.939	9	-3.994	1	0.113	0.00022	0	0.623	0.661	150.184	4	184867
+7oVEtyuv9NBmnytsCIsY5I	0.585	0.972	9	-4.45	0	0.0534	0.0143	0	0.0707	0.585	110.006	4	230253
+7tpsHNpOI1tUN3vUcsYYmk	0.415	0.655	2	-10.16	0	0.0523	0.378	0.9	0.0993	0.116	93.984	4	284093
+0walmMYqjJq0P1qfu9qUAb	0.359	0.712	7	-7.618	0	0.033	0.00936	0.859	0.113	0.293	133.243	5	451022
+60YpYjryABOUTf7YWZC0F2	0.542	0.694	2	-7.392	0	0.0295	0.153	0.905	0.111	0.59	152.117	4	222669
+6eSLOYotrIvpo1oQAw950v	0.579	0.623	2	-9.538	0	0.0329	0.0153	0.87	0.105	0.139	127.847	4	356452
+5mY0dD8X4SBFYUbMK4DH4p	0.676	0.581	2	-9.518	0	0.0264	0.0112	0.944	0.0955	0.441	116.016	4	267669
+4K5BshNO80X0F6tAObV9Pe	0.65	0.866	9	-7.197	0	0.0351	0.00118	0.894	0.14	0.214	129.992	4	324958
+1FGChZvLy7tY4CzBHM7Cxb	0.605	0.638	9	-9.941	0	0.0325	0.331	0.92	0.0951	0.392	146.155	4	266105
+40KyfCBfKxKhahaPcda4hD	0.655	0.656	0	-6.921	1	0.029	0.00216	0.797	0.11	0.49	120.237	4	391270
+4SnrNDqGPO24ezrQgdVMux	0.455	0.496	1	-10.164	0	0.04	0.139	0.869	0.0958	0.201	190.057	4	256062
+0v6Eeixn1cvckXRQ8Ffl1S	0.404	0.459	0	-11.45	1	0.0279	0.087	0.927	0.0778	0.105	128.835	3	531720
+4sed0oB8YCo1WECMW6E4c8	0.504	0.291	1	-14.533	1	0.201	0.931	0.542	0.137	0.0437	119.777	4	331413
+7FDjCWThVVjvfTif6Phs70	0.433	0.435	11	-11.654	1	0.101	0.977	0.47	0.407	0.651	90.19	1	89100
+2DbzxHuEBPNNPNJ297kPj2	0.335	0.2	0	-17.366	1	0.0538	0.928	0.00574	0.0759	0.0369	90.329	4	972000
+192rk52HEJiyTm7SUucDBA	0.639	0.669	11	-7.532	1	0.0553	0.00961	0.912	0.162	0.609	82.004	4	294867
+7kZSOD1ueLGlwZvUwZ714Q	0.555	0.0403	1	-27.956	1	0.0572	0.925	1.32e-05	0.116	0.131	72.14	4	401241
+10AvPUYmVapS2Amp2TVsE2	0.609	0.255	0	-19.111	0	0.546	0.957	2.93e-06	0.437	0.421	62.468	3	86068
+02Uhg1YnrReaIWz5GAXckr	0.0699	0.13	3	-22.695	0	0.0443	0.51	0.934	0.184	0.0307	77.187	4	331400
+3Wr0QQhrmbtAIcko4Ahwmk	0.342	0.0476	8	-26.556	0	0.0605	0.987	0.0457	0.09	0.142	131.774	3	441365
+19jwzsJsKSL0w76rcxcNIi	0.238	0.275	4	-18.946	1	0.0555	0.974	0.921	0.0974	0.0532	158.565	3	108000
+08unC8N1V1dEcqiyi06g6W	0.491	0.549	2	-11.608	1	0.0546	0.811	0.361	0.0606	0.48	99.683	4	239001
+67swXHVknS142T5tIcNFkl	0.558	0.852	2	-4.388	1	0.041	0.222	0.000707	0.111	0.357	117.962	4	210840
+5WhdOYLmpNgENGhtzyvEXc	0.367	0.447	9	-8.017	1	0.0309	0.858	0.0734	0.107	0.696	185.728	4	250213
+5D9fWPC6JwA8SgksEpO0jC	0.437	0.869	7	-6.049	1	0.0671	0.0781	0.447	0.172	0.324	156.229	4	195160
+62hBYWGwzo2fb4THTsNnKA	0.492	0.436	3	-7.095	1	0.0289	0.767	9.02e-05	0.108	0.222	96.944	4	199653
+66ZgPEKKoNuu5x0LeI53Wc	0.593	0.423	0	-11.19	1	0.0355	0.819	0.304	0.115	0.544	98.096	3	185760
+2rhkDqUHN8qheTE1vZf7T9	0.213	0.497	10	-7.424	1	0.037	0.459	5.86e-06	0.0927	0.153	190.86	3	235618
+3usFKA7XXOtaIqDdH6mUx9	0.415	0.735	1	-4.948	1	0.033	0.0152	0.0031	0.503	0.392	104.912	4	258667
+29VSdjZG2XZCHzKwgjvsER	0.382	0.572	0	-8.052	1	0.0455	0.354	0.00721	0.0995	0.191	109.904	4	289587
+5iG3DidIjI5wUqNowgmXQb	0.427	0.693	7	-3.938	1	0.034	0.154	0	0.186	0.393	133.953	4	232773
+4Ld4kbKo1eOzToQ0P8JA0V	0.446	0.395	0	-9.328	1	0.0365	0.815	0.00216	0.128	0.267	71.944	3	187453
+1UmFLqmTmgHoSyvss6Q7gw	0.587	0.873	2	-4.395	1	0.0693	0.11	0.00339	0.236	0.52	169.971	4	133227
+2HKr9NflxjksCzxhMhxJMt	0.702	0.814	8	-5.361	0	0.218	0.164	0.0003	0.0958	0.306	142.005	4	137973
+5Z0AM9HW78XIyZqF2BPasr	0.724	0.594	6	-7.126	0	0.102	0.393	0.00116	0.0889	0.413	136.002	4	194750
+3ng7epefERNazaZkkbwLdq	0.648	0.724	0	-5.189	1	0.0263	0.0198	0	0.15	0.382	125.014	4	162954
+2vVLSYsOUNCfN66jTyJsMY	0.513	0.741	9	-4.066	0	0.0442	0.172	0	0.0894	0.295	78.022	4	162760
+4bqkbekuSZFQmKcWpnGn5n	0.57	0.253	7	-8.915	1	0.0464	0.783	0	0.0972	0.395	89.011	4	92187
+2pDWMxjBf4xkIY4nRjVpZC	0.802	0.816	9	-2.78	1	0.147	0.119	0	0.0819	0.67	89.982	4	143795
+2TpZAFpamrkPQcCdQcNjRT	0.541	0.673	8	-5.09	1	0.0767	0.0537	0.00118	0.437	0.343	154.997	4	151773
+1KA2L49RNYQzMe3LJJs7Tj	0.536	0.624	5	-7.211	0	0.068	0.269	0	0.153	0.492	94.989	4	187253
+3UXOMZlpMPjUIJtgOHgx4u	0.597	0.338	11	-14.229	0	0.0292	0.312	0.822	0.292	0.144	130.005	4	214179
+2aIB1CdRRG7YLBu9hNw9nR	0.621	0.834	10	-10.068	0	0.0557	0.000779	0.456	0.0611	0.937	143.973	4	218827
+3D0bXrSv7O73vOaGOG8J9c	0.222	0.664	0	-5.242	0	0.0379	0.0039	0.65	0.239	0.101	186.044	4	293293
+6pfdW2NouUI3ZnugM7r0G0	0.47	0.984	1	-3.783	0	0.0939	0.000133	0.000224	0.212	0.0368	130.055	4	175760
+0cOyhnhy13lc5G5nr4EF0q	0.637	0.95	8	-4.4	1	0.109	0.00104	7.35e-06	0.288	0.511	142.018	4	200067
+07YoPdPfhQ62iNztZvOlDY	0.3	0.956	10	-5.016	1	0.185	5.32e-05	0.0161	0.532	0.271	134.083	4	181507
+4ukiv6Rp5N4tQZSBT9JRLo	0.509	0.91	11	-6.531	0	0.038	8.78e-06	0.102	0.404	0.358	101.174	3	189760
+1KQxH1Z1BiSo3MMukVpRfl	0.562	0.671	4	-7.801	0	0.0379	8.73e-06	0.000491	0.792	0.376	134.962	4	226733
+3C84jaEdYxiq8LC4jwYqj6	0.566	0.869	2	-6.084	1	0.1	0.000916	0.00346	0.114	0.647	178.113	4	259667
+2KUL1Ix9grxAWvIAft9EWL	0.482	0.949	5	-6.359	0	0.192	0.114	8.85e-05	0.0942	0.327	168.181	4	202333
+1x8sna2LV8WQ38NEtN5X46	0.431	0.823	4	-5.219	1	0.0638	4.6e-05	3.45e-05	0.0447	0.271	150.072	4	215427
+48i055G1OT5KxGGftwFxWy	0.619	0.603	9	-9.481	1	0.0342	0.712	0	0.0721	0.958	127.433	4	178933
+6r20M5DWYdIoCDmDViBxuz	0.649	0.618	9	-10.728	1	0.0265	0.596	1.46e-06	0.192	0.667	114.688	4	210267
+0PkBTqRtN25z3oKasWoKlj	0.57	0.529	5	-10.769	1	0.028	0.377	0.00509	0.203	0.934	123.273	4	145533
+6eLL7QTdMWdhhG4i3jHDR9	0.35	0.293	2	-9.502	1	0.0258	0.758	8.21e-06	0.104	0.162	96.685	4	166467
+6U7QjXYOaLJ741cIWPBTyN	0.478	0.624	5	-11.16	1	0.0393	0.655	0.00197	0.114	0.579	138.708	4	226893
+44pN9jfSqY3d3lrKuv3QeN	0.495	0.435	0	-9.99	1	0.0286	0.67	0.00038	0.13	0.71	108.189	4	169160
+5yqVF4y7dq6AgnNCHnHZEA	0.651	0.596	2	-12.561	1	0.0271	0.67	1.27e-05	0.376	0.695	105.679	4	235907
+7FMXSSzIRW8aJwUPfzXsa2	0.431	0.485	0	-11.844	1	0.0279	0.0326	0.27	0.157	0.699	177.329	4	254960
+6a0arm7sfmKWF30xWqAL9D	0.53	0.26	5	-12.218	1	0.0357	0.673	1.2e-05	0.116	0.805	117.861	4	149427
+40w5KzJx6pS9J4hIEQDgIa	0.375	0.395	0	-11.951	1	0.0277	0.738	0.00588	0.507	0.202	63.724	4	211493
+0MteK167vtyb6hoJNC3Uz3	0.619	0.781	5	-7.456	0	0.0393	0.0245	0.000293	0.402	0.533	126.266	4	236583
+3Y4050XIjyuqZtkKxCnPBm	0.795	0.689	5	-11.004	1	0.044	0.164	0.151	0.194	0.812	110.217	4	228692
+3euTpWQJ8sMbMTOAYSZmda	0.374	0.561	8	-8.998	0	0.0365	0.0184	0.0669	0.3	0.446	128.941	4	394673
+38Y9mxHEyY5y3hsPWLBG5i	0.513	0.231	7	-15.371	1	0.0306	0.793	0.00433	0.194	0.263	140.281	4	239142
+4QmDfXcT6hVazgkqUaAL5n	0.563	0.858	0	-9.6	1	0.0502	0.0458	1.37e-06	0.196	0.771	101.414	4	325804
+1p999fDXoXvAFh6l5V02yH	0.632	0.693	9	-5.304	1	0.0271	0.315	0.0298	0.0648	0.843	102.842	4	254281
+45nKTsVo009PerGUEt40G2	0.544	0.665	0	-8.511	1	0.0416	0.302	0.00473	0.737	0.663	115.162	4	339876
+1khBPVFAfH7f4wioSFTjnQ	0.424	0.727	2	-7.56	1	0.0322	8.59e-06	0.822	0.103	0.493	145.134	4	117280
+0CQY1UUJfRg0WP2OaJZQMx	0.402	0.328	0	-14.348	1	0.0437	0.559	0.000488	0.129	0.314	147.207	4	217243
+7C4QZWR2LTkCVQqMy3osHA	0.587	0.263	9	-13.176	0	0.0287	0.929	0.00267	0.314	0.263	109.801	4	168143
+7BKLCZ1jbUBVqRi2FVlTVw	0.748	0.524	8	-5.599	1	0.0338	0.414	0	0.111	0.661	95.01	4	244960
+4a9tbd947vo9K8Vti9JwcI	0.645	0.862	11	-4.761	0	0.0845	0.0933	0	0.193	0.803	119.947	4	229773
+6FZDfxM3a3UCqtzo5pxSLZ	0.752	0.488	6	-7.05	1	0.0705	0.297	9.11e-06	0.0936	0.533	136.041	4	201661
+5k38wzpLb15YgncyWdTZE4	0.589	0.731	2	-6.343	1	0.0868	0.0534	0	0.308	0.191	87.908	4	268867
+7FGq80cy8juXBCD2nrqdWU	0.632	0.686	6	-7.665	0	0.243	0.549	0	0.2	0.329	89.949	4	170770
+5ln5yQdUywVbf8HhFsOcd6	0.626	0.423	1	-6.035	1	0.0513	0.128	0	0.18	0.571	95.162	4	101790
+6clzeGvi1CFioMOolbAOlX	0.81	0.733	9	-6.338	1	0.0444	0.276	6.73e-06	0.288	0.9	125.975	4	229283
+3Z8FwOEN59mRMxDCtb8N0A	0.63	0.633	4	-7.088	1	0.0457	0.00776	0	0.0541	0.452	93.995	4	172762
+6kxaaIeowajN7w21PfMLbu	0.576	0.627	3	-4.649	0	0.0449	0.0385	0	0.181	0.311	164.998	4	176059
+7y9iMe8SOB6z3NoHE2OfXl	0.675	0.751	0	-3.539	1	0.0296	0.0604	0	0.0893	0.612	118.384	4	181279
+3aBIGzDlzBpYj9dPPBn9yj	0.285	0.0978	9	-20.705	0	0.0361	0.789	0.919	0.101	0.0359	177.218	3	304387
+3KJeOdlwj5W0c9XIrjqzY0	0.395	0.123	10	-16.099	0	0.0329	0.958	0.952	0.124	0.156	73.959	4	387667
+6RHJvMCoUgQ5CSBFUEL9RI	0.27	0.152	8	-20.934	0	0.0417	0.845	0.977	0.108	0.037	92.436	1	458693
+6shFSMxTjCAK20k5N3LeRA	0.154	0.00385	7	-31.34	1	0.0441	0.921	0.895	0.107	0.061	61.944	4	1353960
+51NvtuWxkDXHqtfWhQRjnH	0.272	0.0757	1	-18.605	1	0.0319	0.856	0.918	0.148	0.0398	139.693	4	351120
+55y1H8Fiti2Pe04OYe0jk7	0.184	0.0917	0	-17.91	0	0.0407	0.832	0.94	0.112	0.0331	127.207	3	329133
+67F9o4pmEbG1HSA5A4Gysq	0.274	0.0427	0	-24.071	0	0.0321	0.868	0.947	0.114	0.0364	132.367	4	438053
+1JiGeV5k67ZK6gKoMraF0w	0.15	0.026	1	-23.098	0	0.0365	0.816	0.899	0.104	0.0536	77.382	1	421893
+6DCucKDvfe2Hqc3PWMB9rF	0.293	0.0115	1	-23.955	1	0.0559	0.935	0.891	0.108	0.0358	102.891	3	403573
+6fcVNgHUB641hjlaVcvvPw	0.107	0.0838	8	-17.931	1	0.0359	0.914	0.908	0.0916	0.0339	86.817	3	347320
+6Nm8h73ycDG2saCnZV8poF	0.591	0.963	0	-6.489	0	0.0531	8.74e-05	0.000107	0.0781	0.609	125.03	4	222827
+10V8XpuyMoEcSMfM79WDET	0.518	0.948	6	-5.58	0	0.0683	0.00504	0.104	0.228	0.55	103.025	4	201400
+4eNnMvUrSu2TRpySjVC0Pv	0.518	0.975	8	-4.425	1	0.0575	0.000136	0.827	0.42	0.32	154.059	4	220267
+6KnNDix4Owr4vNmsPhLmxD	0.566	0.889	8	-5.22	1	0.0426	4.3e-05	0.00907	0.292	0.141	127.045	4	233667
+2qrxKk3y85UpaNcI07LPn9	0.523	0.968	1	-4.053	1	0.07	9.18e-06	0.0089	0.0657	0.397	140.01	4	175267
+4P4V9JQhiQEP9hr4U33lEY	0.617	0.85	0	-4.543	1	0.0325	6.39e-05	2.93e-05	0.481	0.589	125.03	4	189133
+1JeGX4cixemJfBJl6XGQES	0.48	0.993	0	-6.402	0	0.0862	0.000339	4.96e-05	0.3	0.589	154.991	4	138107
+5gZ8nTiDCrI6IIk447z04i	0.551	0.976	10	-2.796	1	0.0647	0.00257	0.000191	0.328	0.826	139.995	4	167813
+605hJIiMrdsUjr4Vx4BFD6	0.549	0.81	11	-4.001	0	0.0328	0.000298	2.89e-06	0.156	0.41	133.985	4	224307
+3KAS4vmuvRGP2BUQcxmu5i	0.73	0.907	2	-4.478	1	0.0727	0.000111	0.00816	0.266	0.573	116.016	4	163067
+6qazZiNmTh7yTMX02R4CwZ	0.404	0.491	2	-10.281	1	0.307	0.948	9.38e-05	0.0846	0.297	89.622	3	201744
+0432czMUYajdVkmmWSi3hB	0.59	0.289	9	-16.584	0	0.729	0.98	0.000314	0.0968	0.358	90.563	3	148976
+1NFsyvnTyMcBtanSQPstrc	0.695	0.305	8	-14.401	1	0.932	0.961	0	0.109	0.413	102.643	3	530051
+3KPH29mSOI6Or7tOTQTVSP	0.65	0.628	7	-12.706	0	0.858	0.882	0	0.0674	0.193	111.191	4	336980
+2Diydx5WIMCmII00gmvAtH	0.561	0.258	10	-15.353	1	0.624	0.983	0	0.0952	0.567	76.978	4	507977
+4S02BuT8jS3HubZTaJLcYE	0.604	0.332	4	-14.78	0	0.941	0.874	0	0.0982	0.362	174.916	3	210991
+5QTIGUgV4eFrg0o3k8lGTp	0.522	0.285	0	-15.946	1	0.556	0.991	0.325	0.13	0.222	116.895	5	131788
+6RUim1yEwhP3SknvYanRhs	0.493	0.185	9	-22.379	0	0.598	0.967	0	0.0426	0.662	69.663	3	377025
+2pTVg07DRd3yqiaFyjH7SI	0.593	0.25	4	-16.759	0	0.83	0.724	0	0.191	0.459	81.023	3	402991
+1UWty8VC9Hf8vLq8PEmEiw	0.501	0.316	9	-22.437	0	0.879	0.941	1.35e-06	0.0573	0.5	88.54	1	499513
+2h90T02jHEfnEAtnq4Mz7n	0.452	0.42	7	-10.474	1	0.0415	0.0748	0.00336	0.119	0.0858	180.151	4	286720
+4vIR1HidKfnReLifz0wm7G	0.454	0.655	6	-8.725	1	0.0284	0.00677	0.00147	0.106	0.0902	100.04	3	365600
+3fdaRiQSPRnF21CqcTxPRg	0.612	0.817	6	-7.646	0	0.0288	0.000363	0.000429	0.132	0.79	106.997	4	311333
+0f8UJI1osudTTdB7CRh7bF	0.674	0.82	10	-7.002	1	0.062	0.000765	0.0102	0.126	0.221	140.059	4	350093
+4tiCYl0t67b2O1rodmaeIK	0.527	0.873	2	-6.372	0	0.0376	0.0328	0.0226	0.118	0.128	139.987	4	444467
+1xly67V56WIImoKV45itZp	0.455	0.818	7	-5.73	1	0.035	0.00489	0.418	0.228	0.117	145.009	4	473707
+6a9aFMampfnI6ZKvnyAGzm	0.603	0.777	8	-7.699	1	0.0303	0.108	0.36	0.135	0.376	122.179	4	461893
+1hx7w7Csn4m3H9jPw60Ptp	0.704	0.921	11	-3.773	0	0.0409	0.0154	2.45e-05	0.0602	0.454	129.993	4	280773
+2FHOCcgQa5gMar0iwnFqoW	0.357	0.762	4	-11.04	0	0.0582	0.182	0.615	0.0998	0.0485	132.923	4	430000
+1eB3hFkoBZHMWrCvJk6MoW	0.517	0.794	6	-5.915	0	0.0312	7.46e-05	4.15e-05	0.149	0.706	126.999	4	292493
+1IqFh00G2kvvMm8pRMpehA	0.43	0.463	2	-10.96	1	0.0442	0.303	5.84e-05	0.152	0.66	93.405	4	271333
+1xKQbqQtQWrtQS47fUJBtl	0.443	0.727	4	-7.951	1	0.145	0.263	0.000141	0.169	0.566	160.82	4	253333
+3L60Vu9qmY6fg2QroRIxgi	0.474	0.418	0	-9.654	1	0.0299	0.514	0.000343	0.0535	0.504	83.308	3	238600
+0xGSeBsG4V8Scc5YqpZQ66	0.4	0.35	8	-11.401	1	0.0345	0.227	0.0397	0.103	0.328	83.389	4	219133
+3eYCJXTViFwl5mdtcTsF4G	0.295	0.296	5	-13.94	1	0.0291	0.0936	0.000213	0.128	0.384	180.756	3	238400
+1MntHPLU1T7a9W4tojbg8g	0.704	0.106	0	-15.169	0	0.542	0.939	0	0.0674	0.521	86.763	4	107867
+2bD9x9kN4wYyVoyckeqlLk	0.708	0.497	0	-10.337	1	0.0527	0.189	0.0116	0.0723	0.919	132.997	4	223827
+7eYYxblNEZKKeTT0HBQbXO	0.338	0.62	7	-8.22	1	0.0455	0.737	0.267	0.624	0.5	176.922	3	261893
+4HljoGSCvaFsesUZWpb2mK	0.592	0.363	4	-11.289	1	0.0431	0.526	0.000696	0.319	0.618	101.077	3	152733
+6tv6EVWMV7AIWi8PhZ0uvO	0.399	0.366	5	-10.814	1	0.035	0.458	0.00431	0.117	0.143	130.246	3	228693
+6PVcOcXn6VVmujmw0qCrTb	0.586	0.733	11	-8.452	0	0.181	0.0257	1.26e-05	0.926	0.638	94.989	4	321594
+1r16DdcRQ6Vqej5co5LRNQ	0.703	0.656	1	-10.482	1	0.282	0.0945	4.13e-05	0.429	0.778	93.078	4	260250
+0jZqEub4QD8tItPI4ncERw	0.66	0.692	9	-7.223	1	0.171	0.669	0	0.446	0.597	94.987	4	292989
+43ievcG8mUfVBVn5OJkTrC	0.712	0.68	1	-8.132	1	0.0966	0.135	0	0.629	0.527	99.074	4	243373
+6ROPtZUEiF1NR0bHFqo2A4	0.632	0.559	1	-7.96	1	0.0703	0.0214	1.49e-06	0.654	0.672	99.934	4	267420
+62duJtLxxN3mu95PcV32Uz	0.639	0.606	11	-9.782	0	0.259	0.246	0.00645	0.13	0.694	96.763	4	230491
+6dPmfsFe2qnRt0LicZL4Cf	0.884	0.46	9	-9.944	1	0.109	0.545	3.04e-05	0.281	0.901	96.046	4	191093
+1tp3KD8fbxSdTWUxL27NJU	0.702	0.691	1	-8.384	1	0.149	0.00552	0.000715	0.319	0.839	80.65	4	290187
+4l9Sq7np8e2g57LFUou2hz	0.665	0.477	9	-6.757	1	0.0869	0.0149	0.0128	0.0613	0.872	203.856	4	225000
+61mWefnWQOLf90gepjOCb3	0.354	0.982	4	-3.026	0	0.168	0.000237	0.000294	0.204	0.194	143.772	4	252613
+6wqJeItl3Vc3az4ZicSQAB	0.291	0.974	6	-2.997	0	0.171	0.0177	5.44e-06	0.886	0.348	134.724	4	278600
+3RAFcUBrCNaboRXoP3S5t1	0.568	0.981	2	-3.889	1	0.0887	0.00269	0.00275	0.0243	0.307	135.146	4	284120
+3GiJq4AQK7324mfIQbpiTf	0.407	0.98	7	-1.58	1	0.107	0.00174	0.000112	0.119	0.537	131.066	4	254467
+5mpUKTdskZea0gStWzeHUZ	0.427	0.946	7	-2.188	1	0.0469	0.000118	0.0253	0.0604	0.237	101.305	4	260773
+15DLl1r2zi07Ssq5RT1yT0	0.382	0.996	7	-4.119	1	0.104	0.00208	0	0.417	0.327	93.345	4	147840
+5hheGdf1cb4rK0FNiedCfK	0.398	0.939	9	-2.865	0	0.0648	0.00591	0.000881	0.357	0.235	92.027	4	342821
+6rsoBvxrlxdmqJyGPPciyq	0.516	0.991	11	-2.587	0	0.126	0.000467	4.66e-05	0.327	0.402	95.017	4	203587
+2vPZ4Lklyu75zBR3SgbFNI	0.544	0.69	6	-5.723	0	0.0425	0.012	0.0095	0.0615	0.219	123.962	4	276147
+5ih5d9WJSI7Hxz0KIPJPY2	0.562	0.934	2	-4.264	1	0.111	0.000833	0.0159	0.298	0.302	137.005	4	283787
+0M955bMOoilikPXwKLYpoi	0.498	0.83	6	-5.157	0	0.0421	0.00461	0	0.139	0.453	89.342	4	231480
+56sk7jBpZV0CD31G9hEU3b	0.553	0.853	8	-3.668	1	0.0339	0.000684	0	0.126	0.506	122.023	4	231400
+1Q2fYlSdwuutWj3QplhY9q	0.185	0.948	8	-3.892	1	0.147	0.0104	0	0.105	0.316	196.578	3	207587
+6OMO6WdRhSfjMPAiPT94wH	0.376	0.95	9	-4.067	1	0.0641	0.00021	0	0.0377	0.438	178.018	4	179160
+3HE50TVRquwXe9yv2HFoNL	0.433	0.778	2	-4.68	0	0.0371	0.00838	0	0.163	0.217	149.864	4	209333
+1QTQ3VNzabl4yF5GJE6hhK	0.505	0.909	2	-4.316	1	0.0622	0.000179	0	0.0922	0.457	160.051	4	206640
+2UDumaw7osnyjH7RZ2DLpB	0.402	0.97	2	-4.538	0	0.0668	1.29e-05	2.62e-06	0.189	0.476	75.106	4	200147
+5PZ2cqh9Yem2g6cTSOLllz	0.416	0.741	7	-4.001	1	0.0335	0.00804	0	0.273	0.286	160.515	4	202973
+4urxRqBRiaH0i20OKBsgxc	0.578	0.897	0	-3.906	1	0.0357	0.000666	0	0.0924	0.737	115.491	4	193107
+7piw04hPQZ1OHZ9Fq9JOXR	0.306	0.873	0	-3.668	0	0.0567	0.00105	0	0.52	0.452	198.387	4	186373
+3Ty7OTBNSigGEpeW2PqcsC	0.51	0.434	1	-10.004	1	0.0361	0.177	0.516	0.0603	0.207	119.695	4	308627
+2sW8fmnISifQTRgnRrQTYW	0.607	0.294	5	-11.836	1	0.0764	0.778	0.162	0.106	0.192	76.083	4	303973
+6vTtCOimcPs5H1Jr9d0Aep	0.698	0.633	8	-6.68	0	0.0406	0.0508	0.272	0.264	0.55	94.085	4	252267
+7h14W1uQK7sjpVI1oVTobt	0.639	0.37	6	-10.883	1	0.0723	0.504	0.587	0.117	0.707	80.152	4	293200
+5KX2DSPC6aCA0pdDidTmBC	0.471	0.484	9	-9.414	0	0.0317	0.925	0.499	0.0987	0.236	74.982	4	270947
+7lR743VxfubUw5m9dpnR9x	0.326	0.447	6	-6.11	1	0.0356	0.056	1.8e-05	0.0812	0.22	78.052	4	235800
+2O6X9nPVVQSefg3xOQAo5u	0.657	0.498	11	-11.529	1	0.262	0.405	0.000479	0.107	0.46	164.25	4	305240
+785Qya5mtMUwBQtuypVqrx	0.601	0.656	8	-2.692	0	0.0403	0.11	0.0148	0.103	0.342	60.161	4	240640
+6pW8YspamPCxUwgvYttTSc	0.659	0.617	6	-6.157	1	0.038	0.0355	0.16	0.185	0.25	84.078	4	237600
+1cpnpMvnvmdy3hzYgd5oo9	0.668	0.52	9	-11.098	1	0.0444	0.698	0.0165	0.13	0.556	153.963	4	257160
+40rvBMQizxkIqnjPdEWY1v	0.695	0.876	3	-4.262	0	0.0553	0.000996	6.89e-06	0.106	0.941	89.954	4	279213
+6RJdYpFQwLyNfDc5FbjkgV	0.402	0.969	8	-2.825	1	0.181	9.14e-05	0.0325	0.225	0.262	173.847	4	245227
+42ZVk59gT4tMlrZmd8Ijxf	0.429	0.966	8	-4.605	1	0.0733	0.000209	0.124	0.371	0.525	179.956	4	278027
+6KrxqNJFgdSrJTnfDnPT82	0.529	0.988	1	-1.914	1	0.0768	7.15e-06	0.0278	0.336	0.336	121	4	238110
+5cxp9kjCFyJwzv3lzeX7ku	0.463	0.962	7	-6.43	1	0.0704	0.000233	0.109	0.0906	0.66	94.003	4	231573
+3jjU4Pky1ja5J1onU6ei4T	0.238	0.967	4	-2.602	0	0.136	0.000213	1.18e-06	0.26	0.58	170.128	4	252003
+4WUSVvoafrgVgsF9D2urJ0	0.5	0.982	1	-3.496	1	0.0727	4.72e-05	4.28e-05	0.0447	0.507	103.033	4	268482
+4ClGNWLK9vZMBtO0CpnyOE	0.553	0.991	8	-3.703	1	0.0925	4.44e-05	0.0729	0.179	0.324	114.919	4	287067
+5hkgrWxkobGtg30I7DsfVu	0.54	0.977	1	-3.409	1	0.0876	2.55e-05	0.0588	0.0533	0.211	106.907	4	212040
+19Yd77Zfwqdr0b23IvXo3i	0.299	0.953	4	-4.844	0	0.0657	3.34e-05	0.462	0.238	0.0667	102.566	3	222960
+05HWzT4k4ldy0Kt6C92XAr	0.36	0.963	0	-4.508	1	0.0545	3.7e-05	2.07e-05	0.34	0.659	176.856	4	113692
+66p6psMwbsIMBSfNhxFgOw	0.264	0.99	5	-4.224	0	0.107	0.000279	0.000501	0.211	0.463	173.306	4	188960
+44O9OtI9V0UUS0qdgrKFRp	0.519	0.877	4	-6.763	0	0.0359	0.464	0.904	0.126	0.391	135.092	4	104046
+6Z17dUSaHoeLC4I6YAqqrI	0.366	0.995	5	-3.645	1	0.126	0.000455	8.72e-06	0.404	0.249	103.313	4	167867
+4nCRjAvUaeHJqOXLSRgXxO	0.296	0.863	2	-8.767	0	0.0665	0.00188	0.983	0.17	0.364	174.885	4	118047
+2YlUoIeaR9pWgW6k0MV8DH	0.516	0.964	1	-5.247	0	0.0419	0.00027	0.974	0.371	0.238	109.997	3	159922
+1WvaVzsqesbf7smbobbeQm	0.427	0.568	5	-5.779	1	0.0437	0.000456	0.000463	0.076	0.243	90.82	4	387053
+4hjNO4k9ou2yTLwfMspKku	0.722	0.608	11	-7.793	0	0.0579	0.533	0.0201	0.288	0.46	96.038	4	148450
+08ytuV1eoFBCEQLjtl9Ypu	0.387	0.965	5	-5.747	1	0.0772	8.03e-06	0.743	0.463	0.223	100.024	4	80840
+4eAwB5pnKFTmsgc3zWoYO0	0.611	0.95	8	-3.509	1	0.0518	0.00141	1.59e-06	0.0543	0.607	132.078	4	193893
+507bYMYfbm6sUS9iEAaeSd	0.448	0.61	3	-2.695	0	0.0342	0.0102	0.000491	0.135	0.214	123.762	4	258333
+5ynxx6zC4dgzsMHLYQ04Dc	0.55	0.952	8	-4.664	1	0.0924	0.000193	0.000666	0.0614	0.391	127.804	4	207213
+4eTIe5eqds88bA9ua6p5p6	0.442	0.855	6	-2.985	0	0.0288	0.00049	0.0137	0.273	0.363	175.543	4	243640
+46eHxWRKmtYhUHPDRgclt6	0.469	0.943	2	-4.196	1	0.102	6.07e-05	0.00547	0.0717	0.358	134.031	4	296973
+2abHKI9Oox4NBEhOh3HMbq	0.63	0.86	0	-6.117	1	0.0327	0.00115	1.19e-06	0.231	0.911	95.978	4	229720
+3bq8WiQrEXMwPAibYs7tpu	0.541	0.916	7	-5.964	0	0.0612	0.00326	2.04e-06	0.0967	0.627	156.015	4	197800
+0Q9f1NBvKCC37V4oJVEgCh	0.417	0.871	1	-3.54	1	0.039	0.000483	3.43e-05	0.0867	0.188	142.003	4	209267
+5ih5herXfvp5coBVFhmoAW	0.473	0.942	1	-2.698	1	0.0785	3.4e-05	0.0375	0.0627	0.75	173.527	4	168560
+4dZ4iHhsqQAQ4em4abLB6C	0.533	0.83	1	-3.092	1	0.0324	0.011	2.98e-06	0.0801	0.249	120.028	4	203893
+0dVnj3XPVTHfCvxpbIDOcx	0.377	0.268	9	-14.955	0	0.0397	0.79	9.02e-06	0.295	0.387	179.302	3	178168
+78yxwSxZesvUUvsiGwsMbt	0.554	0.762	2	-6.052	1	0.037	0.00455	0	0.364	0.683	139.004	4	166008
+6NanviND3vgE6RozBkccbB	0.755	0.521	0	-6.496	1	0.0569	0.204	0	0.312	0.459	81	4	174054
+24Zimun9G8B2GrplhS5PQU	0.676	0.557	10	-9.686	0	0.0866	0.000414	0	0.267	0.311	201.948	4	141165
+2sv6BoVG3QNU2tL8Ik9v3c	0.48	0.393	7	-12.02	1	0.0263	0.504	1.13e-05	0.261	0.312	98.883	3	275984
+0jLXKir65CDBlIGmWgG29f	0.692	0.34	0	-13.467	1	0.406	0.705	0	0.797	0.651	95.587	4	77792
+0CHEDTGWAYQGgBDr3pfgzX	0.644	0.634	6	-11.697	0	0.144	0.059	0	0.606	0.848	125.739	4	209136
+49AP2D9Qu8JnT0qrricdGQ	0.361	0.167	7	-9.684	1	0.0354	0.966	2.27e-05	0.111	0.0572	131.461	1	157516
+5Q0Nhxo0l2bP3pNjpGJwV1	0.652	0.698	10	-4.667	0	0.042	0.00112	0.000115	0.0886	0.47	96.021	4	202067
+1daDRI9ahBonbWD8YcxOIB	0.672	0.642	5	-4.035	1	0.0313	0.0981	0	0.1	0.494	121.981	4	196453
+2Oycxb8QbPkpHTo8ZrmG0B	0.781	0.67	3	-3.912	0	0.0452	0.0103	0	0.0761	0.595	127.99	4	169333
+2vwlzO0Qp8kfEtzTsCXfyE	0.53	0.422	5	-6.262	1	0.0342	0.407	0	0.107	0.349	119.964	4	221360
+2y4lAQpi5VTNLu2ldeTdUH	0.613	0.622	1	-5.794	0	0.0334	0.00882	0	0.37	0.484	80.003	4	231240
+02dRkCEc8Q5ch4TTcnLxOn	0.601	0.794	7	-5.844	0	0.0671	0.00987	1.36e-06	0.418	0.244	114.066	4	217099
+4i2qxFEVVUi8yOYoxB8TCX	0.699	0.805	4	-5.535	0	0.0345	0.00161	0.00177	0.249	0.232	109.976	4	223280
+1UZOjK1BwmwWU14Erba9CZ	0.573	0.781	8	-6.406	1	0.0555	0.0767	2.64e-05	0.0813	0.343	139.934	4	231907
+0V8FYVlBFuXXTIvRnMbZyS	0.327	0.588	4	-6.611	1	0.0336	0.0834	0	0.104	0.329	161.074	4	236067
+1EHUQesfVKwbthtNcpBi9g	0.655	0.469	0	-6.257	1	0.0292	0.173	0	0.0956	0.467	92.56	4	161385
+7nLEVh4vIhKOKNAFqQ1koF	0.761	0.554	0	-4.583	1	0.0432	0.226	0.00023	0.181	0.381	145.013	4	188505
+7lSRoGGERYMfi5mDotavru	0.574	0.413	2	-7.22	0	0.142	0.673	0	0.199	0.193	79.444	4	161250
+61DonSX1OM40L2oOtbc1KU	0.596	0.897	7	-3.867	0	0.133	0.0313	2.1e-05	0.342	0.335	104.045	4	179415
+3HFmXJ0xLyIBnoLlj7sruo	0.619	0.862	6	-4.952	1	0.118	0.00163	9.19e-06	0.24	0.331	86.912	4	177500
+5cFyEZnK6o05ejxtJ78esm	0.681	0.463	5	-8.745	1	0.0331	0.132	2.2e-05	0.281	0.223	115.001	4	203158
+2PEQw1pDw6irt5OwRDQUQv	0.488	0.793	6	-2.352	0	0.114	0.03	2.74e-06	0.103	0.486	184.872	4	145946
+706Zy5GHmBVpAejZPplY4O	0.666	0.66	1	-4.929	1	0.0626	0.0419	6.11e-05	0.369	0.458	90.003	4	216333
+7bw4hAqx7oUwvIFKOn0Acq	0.43	0.626	9	-6.219	0	0.0491	0.0158	0	0.38	0.613	99.702	4	126479
+57Y0WJbL9CwfhzkGUtGaqb	0.691	0.749	6	-4.2	0	0.0237	0.00401	3.53e-06	0.196	0.901	93.018	4	177759
+4Qt6fOWtoMdjQYtV5jztL2	0.621	0.712	4	-7.013	0	0.0645	0.0836	0.000483	0.264	0.49	146.015	4	177327
+22FniXvTKV9IC6IhxCpYve	0.453	0.796	9	-5.113	0	0.0605	0.0901	0	0.0319	0.11	104.784	4	151400
+6a9gDPGHaLfiM2XYrKXOVy	0.524	0.622	10	-8.241	0	0.0508	0.0147	0.062	0.11	0.369	119.925	4	211410
+0xLCawHAfE3tqlPWRvhT49	0.425	0.785	7	-4.816	1	0.0372	0.0486	0	0.377	0.319	143.903	4	179720
+4xcTKltCfTCqYNtJfShnX8	0.661	0.602	8	-6.047	1	0.0606	0.0611	0.000365	0.0789	0.418	132.028	4	200488
+0lUSIaEhUApWIbru6IX21z	0.304	0.933	2	-3.499	1	0.0623	0.000456	0.5	0.223	0.115	151.156	4	213280
+1bYg42gARlsX4iKQPDYs7l	0.711	0.652	9	-8.063	1	0.0675	0.0016	0.0122	0.354	0.391	105.016	4	236670
+7x48rVuxpQAsaoQ56XX8bx	0.586	0.731	0	-5.976	0	0.0359	0.00274	0.0125	0.0522	0.441	110.034	4	203814
+5FHmzUJo5djke3CM1UcJ5e	0.218	0.895	7	-5.881	1	0.131	0.077	0.197	0.145	0.313	72.568	4	181511
+4Orqpvelg2CWkdMszDEtQb	0.581	0.62	1	-6.558	1	0.0829	0.0756	4.68e-06	0.107	0.115	71.92	4	165000
+6ZRuF2n1CQxyxxAAWsKJOy	0.61	0.725	8	-5.131	1	0.15	0.367	0	0.154	0.291	146.163	4	201788
+5cw9s2zGrbny2M2p3WRmGm	0.465	0.446	10	-8.336	0	0.0433	0.102	0	0.321	0.131	121.801	4	177773
+5nexAvWNhwg51EavnDgViy	0.653	0.453	7	-5.395	0	0.0351	0.307	0.00101	0.113	0.0405	111.737	4	168183
+0uDdI4fAXCuNhQbmxENdsO	0.574	0.791	1	-3.752	1	0.11	0.419	0	0.0982	0.612	119.537	4	167810
+1lsBTdE6MGsKeZCD6llNu7	0.856	0.632	6	-3.692	0	0.074	0.193	0	0.0688	0.697	112.009	4	180493
+5aUSEPNd3m5xliFK4pn5mU	0.693	0.564	1	-3.857	0	0.0378	0.399	0	0.0409	0.574	185.913	3	210901
+5QTdOvIF2ehBMZpSIIGzIo	0.606	0.24	3	-7.102	1	0.0369	0.772	0	0.0819	0.526	96.792	4	199210
+5DfWF0jqMgZDCiu9zJENTA	0.767	0.543	1	-7.881	0	0.103	0.049	0	0.115	0.485	106.029	4	177140
+3BjwSq6phb60SOdTZw5pZY	0.481	0.362	3	-10.766	0	0.209	0.237	0	0.114	0.639	83.605	4	212879
+4WCAb7rGU70hyx3m9joKCx	0.563	0.756	0	-3.852	0	0.0579	0.196	0	0.245	0.234	100.012	4	182227
+11ZulcYY4lowvcQm4oe3VJ	0.964	0.398	11	-8.981	0	0.0795	0.00151	3.95e-05	0.101	0.563	105.012	4	178405
+2g1KggY9PKvsoEAOaiz4xx	0.834	0.663	8	-6.143	1	0.133	0.235	0	0.372	0.774	121.876	4	146523
+6qNB2ChCVPepl5ZjVJJTUW	0.772	0.637	2	-6.881	1	0.114	0.00459	0	0.0778	0.54	149.906	4	167317
+0s8RXkQW9lwGEV6WlG8KDq	0.773	0.627	11	-4.891	1	0.0452	0.0698	0	0.234	0.523	131.021	4	167157
+1S85LGnDPKKOkfuFaK6vFu	0.712	0.689	1	-5.286	0	0.128	0.141	0	0.657	0.49	82.98	4	191149
+3htJKHlAjUoRmNLheJ8uTV	0.777	0.787	9	-4.71	1	0.0732	0.138	0	0.0685	0.698	138.043	4	140011
+2hwUHHqLSEue41V952MtD2	0.76	0.592	1	-6.379	1	0.177	0.0246	0	0.125	0.678	136.045	4	170647
+46aopTu45teng25ROkoeXk	0.592	0.654	8	-6.91	0	0.146	0.0337	0	0.135	0.816	128.013	4	159141
+37KAHk68qniQvtacrldNmM	0.843	0.546	2	-6.376	1	0.0678	0.0535	0	0.203	0.718	126.098	4	162759
+13gqe2AjtaPexcBoqA10IX	0.695	0.386	8	-5.114	0	0.0337	0.554	0	0.0906	0.214	127.947	4	184885
+4qEoqyPbLYnLOii6mKlIjI	0.562	0.768	1	-5.006	0	0.0488	0.00361	0	0.0742	0.218	139.968	4	198107
+3dNjUFt6EFU4Gq6Q5vfJqf	0.611	0.701	6	-5.235	1	0.0248	0.0109	9.83e-06	0.0994	0.604	142.027	4	229656
+1o9kTjiWJ5lTgKonUK6jAU	0.812	0.585	2	-4.644	1	0.0615	0.202	0.00216	0.245	0.611	118.037	4	152511
+5nFyaoBWwwMJ9fv33tZ2MB	0.633	0.793	10	-4.126	1	0.055	0.0537	0	0.16	0.414	103.97	4	219520
+3EQMcKkWEB0LKLyRuspibc	0.845	0.641	1	-4.548	0	0.0444	0.0346	0.00209	0.176	0.528	108.985	4	179613
+4bb2UdCvi9LynD4rWvE06T	0.531	0.827	7	-3.7	1	0.081	0.0957	1.84e-06	0.074	0.801	183.977	4	176600
+5795tkQ1pTLZ2D3jctqhdQ	0.458	0.41	2	-6.321	1	0.0254	0.501	0	0.262	0.374	155.844	3	160307
+3KsjKXNeNMQ56baZH0RFq0	0.761	0.636	11	-6.785	1	0.0632	0.0964	0	0.0767	0.598	136.137	4	157686
+7eAWmk6IDva2iA0q2Wx9Lv	0.638	0.875	1	-4.123	1	0.0344	0.0357	0	0.0667	0.698	111.999	4	207280
+5btaVjrLBxTvXNmCv5DrW2	0.788	0.703	1	-5.986	0	0.127	0.0753	6.13e-05	0.333	0.442	104.049	4	183280
+2knr7ikPt4l7bk92qS4ZXW	0.518	0.679	11	-5.406	0	0.0355	0.079	4.85e-05	0.0588	0.106	132.146	4	214133
+7tY2meg4csUMUjPXgFBRKk	0.562	0.783	11	-4.727	0	0.0428	0.135	1.44e-05	0.282	0.391	132.06	4	181787
+7yDgeEC1EKU5klYxQPLCMb	0.473	0.687	7	-5.543	1	0.0736	0.159	0	0.321	0.261	149.885	4	209200
+0sg9jTiFokw2U15qGK7wPK	0.56	0.693	6	-6.353	0	0.0354	0.0916	0.000101	0.358	0.312	127.05	4	223800
+2NOuNZWj7pxGR0QDnqovep	0.496	0.849	1	-2.72	0	0.0996	0.0665	0	0.143	0.292	151.85	4	184003
+4GWnDzLsP31cul3K88pKVn	0.554	0.799	2	-6.339	1	0.0492	0.00323	0.03	0.349	0.353	127.952	4	204693
+0YilCCHb5MxqvJML7LrEO2	0.39	0.524	4	-6.505	0	0.0482	0.282	0	0.0968	0.126	117.483	4	188178
+6vL2WIThSBFJ6aQJX28EpX	0.267	0.798	5	-4.515	0	0.0378	0.02	8.44e-05	0.119	0.112	85.891	4	263054
+0tUh8HzIVpZPFW7HzE5Vhk	0.474	0.777	9	-3.44	0	0.0409	0.0497	0	0.677	0.146	94.955	4	181813
+6PZYMXl5HM2giJVi3wA77b	0.487	0.588	4	-6.926	1	0.0328	0.0351	0.34	0.144	0.0692	127.834	4	221320
+18uOcUO5mNEYHHigeXPgQM	0.69	0.734	1	-6.377	1	0.0316	0.0933	0.00531	0.137	0.459	124.033	4	159013
+4tlU5pwlM8ZnVofZqLxleM	0.713	0.611	11	-8.486	0	0.0454	0.00747	0.652	0.171	0.435	124.09	4	108922
+2EZHO9OoxZoaBs669GtWZv	0.725	0.641	0	-4.411	1	0.0639	0.192	8.69e-06	0.338	0.591	130.973	4	179542
+30qNNWs5kUgcviZxOrQRTo	0.558	0.859	6	-2.988	1	0.0387	0.00731	0.000907	0.182	0.398	118.037	4	241632
+0G7ociNk1wIbXcU6uXtWPi	0.514	0.43	8	-12.024	1	0.0694	0.00056	0.00275	0.156	0.244	143.949	4	215729
+56P7blUafQK9P8LKda9Y6P	0.804	0.762	11	-3.56	1	0.0731	0.0207	0.0267	0.0955	0.753	126.031	4	232877
+5TfTuipU7TlZh8bki6ZNsW	0.618	0.688	9	-6.307	0	0.0545	0.0383	5.15e-06	0.0467	0.506	122.928	4	201613
+6mfsAvXQ3pTT5tEnKKbxZp	0.704	0.841	11	-4.913	0	0.0969	0.000138	0.0947	0.06	0.514	108	4	177707
+5VQJSlO979CuYLiu8zyHtT	0.66	0.703	1	-9.791	1	0.0375	0.00132	0.000327	0.0833	0.229	123.939	4	190991
+102xUWbf0uuklX8qThPeHK	0.692	0.408	0	-9.091	0	0.0544	0.163	0.000576	0.101	0.226	131.959	4	163462
+4nBsvvjN134KFVcvFMLWwK	0.796	0.426	9	-7.994	1	0.0324	0.031	0.00446	0.171	0.572	100.006	4	183570
+4BaYa88YtE0WBDVKfTeUTP	0.721	0.514	5	-9.629	0	0.163	0.329	0.000601	0.155	0.693	126.061	4	145789
+4PHZkpHmsig3EihQneGOMt	0.591	0.335	7	-12.386	0	0.13	0.551	6.51e-06	0.126	0.341	84.997	4	177788
+678AImyMoHAtpJxV45PDN9	0.668	0.429	0	-8.976	0	0.0587	0.111	1.09e-06	0.102	0.222	131.898	4	163462
+4PeGUBERD8qDn6oP3XmEuQ	0.711	0.427	6	-7.558	0	0.0419	0.137	0.00366	0.29	0.332	131.985	4	166939
+58vqgltwYoOCSPIyqNiBaU	0.531	0.693	6	-5.203	0	0.0374	0.00931	2.98e-06	0.119	0.555	157.96	4	164453
+20M00steJbkD9bCIUCuHPI	0.847	0.447	1	-7.579	1	0.0474	0.0886	0.000676	0.101	0.562	99.975	4	186276
+0HZ0rQmcDWwXoC9779PCIu	0.557	0.355	5	-9.128	0	0.0699	0.276	0.0172	0.337	0.688	199.38	4	159738
+5nxvSvwnZ0NpWzHXPFRvst	0.7	0.469	11	-8.531	1	0.105	0.0127	7.9e-06	0.247	0.204	73.535	4	179659
+0O6u0VJ46W86TxN9wgyqDj	0.733	0.67	5	-6.009	1	0.0751	0.121	0	0.121	0.472	100.964	4	192841
+0hquQWY3xvYqN4qtiquniF	0.801	0.601	8	-7.574	0	0.255	0.0777	3.23e-05	0.145	0.74	159.969	4	182907
+6Uj1ctrBOjOas8xZXGqKk4	0.824	0.764	5	-4.175	0	0.0854	0.0888	0.00294	0.117	0.881	107.998	4	172627
+3Vi5XqYrmQgOYBajMWSvCi	0.664	0.609	1	-6.509	1	0.0707	0.304	0	0.0926	0.194	130.041	4	210560
+0k4d5YPDr1r7FX77VdqWez	0.828	0.621	8	-6.414	1	0.0565	0.0164	0.00233	0.0845	0.436	128.986	4	186173
+60ynsPSSKe6O3sfwRnIBRf	0.749	0.463	11	-8.433	1	0.0842	0.21	0.0382	0.338	0.189	90.035	4	226987
+3DarAbFujv6eYNliUTyqtz	0.764	0.705	8	-3.463	1	0.0284	0.259	8.92e-05	0.12	0.781	110.97	4	208667
+0W6I02J9xcqK8MtSeosEXb	0.912	0.655	8	-6.029	0	0.162	0.315	3.39e-05	0.0894	0.793	91.942	4	138293
+5lAnYvAIkSDNXqfo7DyFUm	0.855	0.488	3	-4.601	1	0.208	0.506	0	0.347	0.619	124.097	4	174253
+3Dv1eDb0MEgF93GpLXlucZ	0.787	0.673	11	-4.583	0	0.159	0.264	3.35e-06	0.0904	0.779	110.962	4	237893
+6ocbgoVGwYJhOv1GgI9NsF	0.778	0.317	1	-10.732	0	0.334	0.592	0	0.0881	0.327	140.048	4	178627
+35mvY5S1H3J2QZyna3TFe0	0.737	0.802	0	-4.771	1	0.0878	0.468	0	0.0931	0.682	144.015	4	172325
+1oFAF1hdPOickyHgbuRjyX	0.65	0.825	0	-4.645	1	0.0325	0.0215	2.44e-05	0.0936	0.593	118.091	4	191014
+4HBZA5flZLE435QTztThqH	0.597	0.45	8	-6.658	1	0.0418	0.223	0	0.382	0.537	178.765	3	228482
+7xoUc6faLbCqZO6fQEYprd	0.628	0.593	8	-5.036	1	0.0323	0.093	1.65e-06	0.096	0.104	125.026	4	197267
+3e9HZxeyfWwjeyPAMmWSSQ	0.717	0.653	1	-5.634	1	0.0658	0.229	0	0.101	0.412	106.966	4	207320
+0lizgQ7Qw35od7CYaoMBZb	0.525	0.621	7	-7.364	1	0.116	0.0489	0	0.294	0.591	191.9	4	204093
+6Im9k8u9iIzKMrmV7BWtlF	0.83	0.585	0	-6.476	1	0.094	0.237	0	0.248	0.485	109.978	4	173711
+0Ryd8975WihbObpp5cPW1t	0.4	0.795	10	-3.731	0	0.461	0.119	0	0.159	0.702	190.097	4	186107
+5OCJzvD7sykQEKHH7qAC3C	0.602	0.658	1	-5.934	1	0.0558	0.0233	6e-05	0.237	0.268	145.031	4	197547
 7CUkeiG7QtB7tPU9f8SANS	0.659	0.473	1	-7.306	0	0.125	0.274	0	0.28	0.788	84.505	4	126616
 734xplxSpoW22U5OeeZcr8	0.763	0.63	9	-8.258	0	0.142	0.0622	1.02e-05	0.285	0.17	124.973	4	188027
 65ENznU4hwrR04whyJboxr	0.803	0.66	1	-3.257	1	0.276	0.241	0	0.384	0.736	104.955	4	167760
@@ -3798,42 +5329,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 7vaFuClNKe02pjKYbXEJ46	0.639	0.737	9	-6.683	1	0.324	0.148	0.00111	0.12	0.182	154.984	4	174675
 6L89mwZXSOwYl76YXfX13s	0.442	0.943	3	-3.205	1	0.0602	0.00293	8.71e-06	0.091	0.781	85.064	4	181533
 1G6CIweqjfKzFyEfTH4V3u	0.452	0.646	2	-6.911	1	0.0379	0.00471	0.00646	0.0851	0.258	146.857	4	277467
-0G88ZH0qqBCBbtrHnEDqrn	0.619	0.43	9	-11.118	1	0.0576	0.663	0.000197	0.119	0.718	128.322	4	584107
-7lzfMZak2HjNPXXSxksjPB	0.723	0.694	0	-6.694	1	0.0802	0.313	0	0.052	0.739	106.359	4	168948
-02a8cGumnKuEPgoCzmalJp	0.481	0.284	11	-14.762	0	0.186	0.634	0.000168	0.91	0.528	83.979	3	190533
-1Hn0iEB1FPfJzJPK49qVtH	0.47	0.248	2	-13.407	1	0.039	0.739	0.00598	0.466	0.2	140.229	4	375173
-6giaOyDFbE4J8iclhCdW7E	0.725	0.622	7	-5.573	0	0.0438	0.579	0	0.144	0.356	119.985	4	600000
-044fQ35cLbMVwta0KyN5dM	0.474	0.0577	2	-17.945	1	0.0758	0.907	7.16e-05	0.137	0.182	77.689	3	174133
-2BvDFQOl4JieEGK2cgKOey	0.774	0.647	1	-6.682	0	0.0514	0.47	0.000569	0.46	0.965	95.098	4	200960
-3QKJELWORZZ7rUZDWeMWSA	0.653	0.319	4	-17.813	0	0.0364	0.439	0	0.0906	0.845	147.858	4	138013
-3zcBNmJH6ToRCI0WNEIuES	0.653	0.647	4	-7.028	1	0.0437	0.201	0	0.0753	0.936	156.28	4	256693
-50c0knPGjaJAuE4hRg28Qq	0.761	0.59	10	-10.274	1	0.0449	0.454	0.00933	0.0926	0.895	158.053	4	267267
-5JuWx9sV8TbtIMhiiPVbnz	0.661	0.191	2	-15.779	1	0.0503	0.588	0	0.24	0.586	111.353	4	194800
-5YctcwZCRMxlIHDpTuqKOE	0.495	0.306	9	-11.173	0	0.0303	0.777	0	0.887	0.356	108.416	4	187179
-6Sm4XdGI7GhHG7sjVcVrI2	0.671	0.798	4	-6.914	1	0.181	0.583	0	0.241	0.502	95.6	4	210960
-6sKopGG4r21ObTE8V6pD6x	0.6	0.12	7	-12.805	1	0.0502	0.87	0	0.088	0.439	60.761	3	214693
-78I8jaChZbPu72bIGGPMKk	0.472	0.0322	9	-22.076	0	0.0378	0.979	0.00288	0.111	0.138	90.205	4	215440
-5Ikos3uiBfPYAf7EZfz8t3	0.596	0.451	5	-9.468	1	0.0404	0.64	3.52e-06	0.158	0.486	148.045	4	228133
-2wL88cvKXUOfHuYVd62hji	0.734	0.787	1	-7.358	0	0.0461	0.489	0.0461	0.329	0.757	108.329	4	266173
-43HM6P2yX7ls3q92qrkhL4	0.763	0.574	10	-9.283	1	0.0315	0.447	3.56e-06	0.086	0.48	110.111	4	239533
-1O5pf5R8xvppS2pD03HVy5	0.825	0.679	11	-7.408	0	0.05	0.0164	0.838	0.0468	0.613	91.674	4	209067
-20I1Mickm2w7qGxk7uzOKr	0.844	0.707	11	-8.422	0	0.158	0.165	0	0.664	0.717	99.011	4	236768
-465hVdgg75kPgRdpJfEFFT	0.641	0.531	2	-7.243	1	0.157	0.0492	0	0.118	0.194	135.564	4	225413
-4mn5HdatHKN7iFGDes9G8i	0.751	0.74	9	-6.016	1	0.045	0.152	5.75e-05	0.0873	0.788	138.066	4	116161
-7cEfPAbju7glmdAgT4e1AU	0.8	0.234	0	-12.292	0	0.138	0.537	9.67e-06	0.339	0.757	115.936	4	139933
-0JL9TZip7mL7iwC5EOkALS	0.499	0.874	0	-4.586	1	0.097	0.611	0.000639	0.0703	0.861	97.317	4	199160
-0Nkp56EKreoWMYxpXJqUNZ	0.782	0.365	7	-14.049	0	0.0726	0.532	0.89	0.0837	0.684	91.894	4	168913
-0ZQfn5nh2TnVE6Q0AT8eXr	0.681	0.358	0	-14.701	0	0.138	0.677	0.00411	0.124	0.0682	113.402	5	197773
-0eEXcw3JLVXcRxYrVYMy68	0.866	0.534	11	-9.201	1	0.229	0.184	0.266	0.0929	0.841	98.243	4	226133
-126HWk9JuCt4PHZJAAsgOv	0.717	0.965	8	-3.506	0	0.0457	0.000116	0.525	0.0939	0.741	98.976	4	255718
-1IkE3IsuP4HNU073wsE6T5	0.781	0.477	11	-9.463	0	0.0818	0.776	0.0346	0.0954	0.375	150.147	4	156502
-1MPmF4py7FxbeqFGpKn09C	0.589	0.65	6	-9.463	0	0.0599	0.612	0.00413	0.927	0.206	116.941	4	272923
-1XjFyPzU5z3zbYJQETYGiZ	0.615	0.319	4	-9.178	0	0.0376	0.639	0	0.142	0.828	90.998	4	86760
-1brWhQEoBoT9tMnNfcRsjr	0.667	0.206	9	-14.884	0	0.325	0.349	0.00039	0.134	0.408	148.45	3	198933
-29Lq5UKpHBGxQTDxsPKwFz	0.656	0.375	5	-10.531	1	0.0631	0.699	3.62e-06	0.155	0.83	137.981	4	224867
-2VBN5kSs1fyiE5fnOYeKsG	0.703	0.278	0	-11.32	1	0.0662	0.543	0	0.146	0.623	114.322	4	199667
-2YXpMdEMEoy48OPr6VTzpI	0.841	0.574	7	-8.021	1	0.124	0.658	0	0.141	0.895	151.425	4	170600
-2dCBXxXNur85q9gGIpsAdr	0.653	0.395	9	-8.785	0	0.218	0.954	6.72e-06	0.325	0.628	154.501	4	130760
 0z5oHDjD9vMsck14zoAQOc	0.811	0.69	10	-7.844	0	0.272	0.0366	0	0.106	0.646	139.97	4	140369
 0KV4Ax6L10oSTWqC8607K4	0.701	0.681	11	-8.244	1	0.407	0.831	5.02e-06	0.0663	0.4	97.983	4	136150
 6myUpr3GDR80Dg3zqNTmmG	0.646	0.758	4	-7.75	0	0.0708	0.556	0.00316	0.335	0.0642	172.995	4	199787
@@ -3873,13 +5368,48 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 4FeBA1bxkUae1aDsplsmrv	0.441	0.882	0	-3.686	1	0.327	0.305	2.22e-06	0.293	0.733	170.19	4	166356
 5SWnsxjhdcEDc7LJjq9UHk	0.819	0.626	10	-4.574	0	0.202	0.00748	0.101	0.167	0.415	143.01	4	195906
 643PW82aBMUa1FiWi5VQY7	0.897	0.743	10	-5.446	0	0.222	0.304	4.44e-05	0.137	0.905	134.979	4	187105
+1Hn0iEB1FPfJzJPK49qVtH	0.47	0.248	2	-13.407	1	0.039	0.739	0.00598	0.466	0.2	140.229	4	375173
+6giaOyDFbE4J8iclhCdW7E	0.725	0.622	7	-5.573	0	0.0438	0.579	0	0.144	0.356	119.985	4	600000
+044fQ35cLbMVwta0KyN5dM	0.474	0.0577	2	-17.945	1	0.0758	0.907	7.16e-05	0.137	0.182	77.689	3	174133
+2BvDFQOl4JieEGK2cgKOey	0.774	0.647	1	-6.682	0	0.0514	0.47	0.000569	0.46	0.965	95.098	4	200960
+3QKJELWORZZ7rUZDWeMWSA	0.653	0.319	4	-17.813	0	0.0364	0.439	0	0.0906	0.845	147.858	4	138013
+3zcBNmJH6ToRCI0WNEIuES	0.653	0.647	4	-7.028	1	0.0437	0.201	0	0.0753	0.936	156.28	4	256693
+50c0knPGjaJAuE4hRg28Qq	0.761	0.59	10	-10.274	1	0.0449	0.454	0.00933	0.0926	0.895	158.053	4	267267
+5JuWx9sV8TbtIMhiiPVbnz	0.661	0.191	2	-15.779	1	0.0503	0.588	0	0.24	0.586	111.353	4	194800
+5YctcwZCRMxlIHDpTuqKOE	0.495	0.306	9	-11.173	0	0.0303	0.777	0	0.887	0.356	108.416	4	187179
+6sKopGG4r21ObTE8V6pD6x	0.6	0.12	7	-12.805	1	0.0502	0.87	0	0.088	0.439	60.761	3	214693
+78I8jaChZbPu72bIGGPMKk	0.472	0.0322	9	-22.076	0	0.0378	0.979	0.00288	0.111	0.138	90.205	4	215440
+7lzfMZak2HjNPXXSxksjPB	0.723	0.694	0	-6.694	1	0.0802	0.313	0	0.052	0.739	106.359	4	168948
+2wL88cvKXUOfHuYVd62hji	0.734	0.787	1	-7.358	0	0.0461	0.489	0.0461	0.329	0.757	108.329	4	266173
+1O5pf5R8xvppS2pD03HVy5	0.825	0.679	11	-7.408	0	0.05	0.0164	0.838	0.0468	0.613	91.674	4	209067
+20I1Mickm2w7qGxk7uzOKr	0.844	0.707	11	-8.422	0	0.158	0.165	0	0.664	0.717	99.011	4	236768
+465hVdgg75kPgRdpJfEFFT	0.641	0.531	2	-7.243	1	0.157	0.0492	0	0.118	0.194	135.564	4	225413
+4mn5HdatHKN7iFGDes9G8i	0.751	0.74	9	-6.016	1	0.045	0.152	5.75e-05	0.0873	0.788	138.066	4	116161
+7cEfPAbju7glmdAgT4e1AU	0.8	0.234	0	-12.292	0	0.138	0.537	9.67e-06	0.339	0.757	115.936	4	139933
+0JL9TZip7mL7iwC5EOkALS	0.499	0.874	0	-4.586	1	0.097	0.611	0.000639	0.0703	0.861	97.317	4	199160
+0Nkp56EKreoWMYxpXJqUNZ	0.782	0.365	7	-14.049	0	0.0726	0.532	0.89	0.0837	0.684	91.894	4	168913
+0ZQfn5nh2TnVE6Q0AT8eXr	0.681	0.358	0	-14.701	0	0.138	0.677	0.00411	0.124	0.0682	113.402	5	197773
+0eEXcw3JLVXcRxYrVYMy68	0.866	0.534	11	-9.201	1	0.229	0.184	0.266	0.0929	0.841	98.243	4	226133
+126HWk9JuCt4PHZJAAsgOv	0.717	0.965	8	-3.506	0	0.0457	0.000116	0.525	0.0939	0.741	98.976	4	255718
+1IkE3IsuP4HNU073wsE6T5	0.781	0.477	11	-9.463	0	0.0818	0.776	0.0346	0.0954	0.375	150.147	4	156502
+1MPmF4py7FxbeqFGpKn09C	0.589	0.65	6	-9.463	0	0.0599	0.612	0.00413	0.927	0.206	116.941	4	272923
+1XjFyPzU5z3zbYJQETYGiZ	0.615	0.319	4	-9.178	0	0.0376	0.639	0	0.142	0.828	90.998	4	86760
+1brWhQEoBoT9tMnNfcRsjr	0.667	0.206	9	-14.884	0	0.325	0.349	0.00039	0.134	0.408	148.45	3	198933
+29Lq5UKpHBGxQTDxsPKwFz	0.656	0.375	5	-10.531	1	0.0631	0.699	3.62e-06	0.155	0.83	137.981	4	224867
+2VBN5kSs1fyiE5fnOYeKsG	0.703	0.278	0	-11.32	1	0.0662	0.543	0	0.146	0.623	114.322	4	199667
+2YXpMdEMEoy48OPr6VTzpI	0.841	0.574	7	-8.021	1	0.124	0.658	0	0.141	0.895	151.425	4	170600
+2dCBXxXNur85q9gGIpsAdr	0.653	0.395	9	-8.785	0	0.218	0.954	6.72e-06	0.325	0.628	154.501	4	130760
+2uLFFR7p4rjOUCGVWccPIn	0.845	0.599	8	-8.214	1	0.101	0.0195	9.89e-05	0.106	0.587	119.98	4	226213
+3naWm5zvv424Pr89hSIYGC	0.766	0.904	0	-6.763	1	0.0506	0.0492	0.764	0.0829	0.786	104.965	4	260240
+5Ikos3uiBfPYAf7EZfz8t3	0.596	0.451	5	-9.468	1	0.0404	0.64	3.52e-06	0.158	0.486	148.045	4	228133
+5tt394udRU89Pn2s3qPGaQ	0.81	0.3	9	-17.58	1	0.506	0.361	0.301	0.13	0.85	122.727	4	142640
+6K7JiWTYZrBJ7hHsyUHfBM	0.61	0.287	9	-12.5	1	0.325	0.714	5.79e-06	0.128	0.571	170.223	4	153840
 23Dapn8107GgxvXDIsPwWm	0.526	0.902	3	-4.876	1	0.314	0.0529	0	0.531	0.797	168.188	4	121682
 2Tdkz4mLxN8szqcMeNWcI8	0.459	0.746	5	-2.881	0	0.113	0.0114	0	0.2	0.627	151.535	4	166004
 3VHiIVQe8Sc6gtSsTp3pDz	0.612	0.349	8	-6.984	1	0.26	0.0779	0	0.202	0.79	107.929	4	143663
 2WzWwYoxWIqyjzIaazsqYV	0.645	0.979	4	-3.441	0	0.119	0.0206	1.27e-06	0.0789	0.919	171.9	4	196896
 2T93MtJuKMzcGRTR8fdizV	0.849	0.473	8	-7.548	1	0.2	0.115	0	0.0488	0.616	107.001	4	214529
 5Mm2CJzNRiICC5MWRWQnBo	0.473	0.936	1	-2.441	0	0.408	0.0335	1.35e-05	0.607	0.545	173.53	4	175699
-0O6u0VJ46W86TxN9wgyqDj	0.733	0.67	5	-6.009	1	0.0751	0.121	0	0.121	0.472	100.964	4	192841
 21jGcNKet2qwijlDFuPiPb	0.695	0.762	0	-3.497	1	0.0395	0.192	0.00244	0.0863	0.553	120.042	4	215280
 0e7ipj03S05BNilyu5bRzt	0.585	0.52	5	-6.136	0	0.0712	0.124	7.01e-05	0.131	0.129	159.801	4	218147
 0RiRZpuVRbi7oqRdSMwhQY	0.755	0.522	2	-4.368	1	0.0575	0.533	0	0.0685	0.925	89.96	4	157560
@@ -3933,8 +5463,8 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 6OyKBwLzq4h15XmxeWf5n4	0.398	0.89	1	-2.248	0	0.0473	0.0252	0	0.0472	0.572	95.095	4	212938
 0IPKskRI33eRXjUhNUr9b5	0.484	0.828	11	-5.197	1	0.0543	0.0288	0	0.313	0.577	195.999	4	207281
 6um5ccNzX7k3SRsVnLupvI	0.491	0.904	9	-4.729	1	0.0765	0.00929	0	0.106	0.607	156.031	4	247760
-0cY6CAgB5wShSOTT3lQl2t	0.363	0.756	11	-4.687	0	0.0494	0.00775	0	0.0794	0.68	155.644	4	181337
 5om8idoAx58nxbReNe7HwL	0.669	0.849	1	-2.564	0	0.0581	0.00912	0	0.279	0.399	95.01	4	202105
+0cY6CAgB5wShSOTT3lQl2t	0.363	0.756	11	-4.687	0	0.0494	0.00775	0	0.0794	0.68	155.644	4	181337
 5heRy6IDNiQXDJf1tZ6SUc	0.436	0.946	8	-4.755	0	0.103	0.00121	0	0.215	0.603	93.544	4	191133
 3m1OyPw3fzMPAwDMcYcM6Z	0.536	0.855	7	-5.269	1	0.144	0.00139	0	0.0815	0.522	157.942	3	251373
 1JFPraHovseDzutd6BOIry	0.503	0.708	0	-4.148	1	0.0735	0.00134	0	0.081	0.533	90.356	4	205125
@@ -3947,7 +5477,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 0tBbt8CrmxbjRP0pueQkyU	0.724	0.804	11	-4.614	0	0.0448	0.124	0	0.204	0.306	124.987	4	197993
 2Y0wPrPQBrGhoLn14xRYCG	0.625	0.814	0	-5.181	1	0.0657	0.0172	0	0.158	0.535	144.991	4	205485
 08bNPGLD8AhKpnnERrAc6G	0.626	0.88	9	-2.384	0	0.0504	0.205	0	0.128	0.534	95.079	4	202621
-3Z8FwOEN59mRMxDCtb8N0A	0.63	0.633	4	-7.088	1	0.0457	0.00776	0	0.0541	0.452	93.995	4	172762
 0ada5XsQGLPUVbmTCkAP49	0.701	0.65	6	-6.313	1	0.104	0.291	0	0.112	0.647	90.003	4	160212
 3CRDbSIZ4r5MsZ0YwxuEkn	0.734	0.637	4	-5.677	0	0.141	0.0462	2.29e-05	0.0602	0.648	169.977	4	202333
 23OXdR7YuUBVWh5hSnYJau	0.609	0.674	10	-7.388	0	0.0548	0.0735	0.06	0.345	0.315	90.009	4	324467
@@ -3967,15 +5496,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 7floNISpH8VF4z4459Qo18	0.763	0.726	1	-6.405	1	0.282	0.259	0	0.0976	0.349	139.059	4	126346
 06JvOZ39sK8D8SqiqfaxDU	0.712	0.861	5	-5.487	0	0.25	0.0182	6.09e-06	0.511	0.388	84.042	4	148571
 4jvjzW7Hm0yK4LvvE0Paz9	0.669	0.574	4	-6.442	0	0.0286	0.0175	0.00294	0.146	0.273	120.013	4	196400
-0hquQWY3xvYqN4qtiquniF	0.801	0.601	8	-7.574	0	0.255	0.0777	3.23e-05	0.145	0.74	159.969	4	182907
-6Uj1ctrBOjOas8xZXGqKk4	0.824	0.764	5	-4.175	0	0.0854	0.0888	0.00294	0.117	0.881	107.998	4	172627
-3Vi5XqYrmQgOYBajMWSvCi	0.664	0.609	1	-6.509	1	0.0707	0.304	0	0.0926	0.194	130.041	4	210560
-0k4d5YPDr1r7FX77VdqWez	0.828	0.621	8	-6.414	1	0.0565	0.0164	0.00233	0.0845	0.436	128.986	4	186173
-60ynsPSSKe6O3sfwRnIBRf	0.749	0.463	11	-8.433	1	0.0842	0.21	0.0382	0.338	0.189	90.035	4	226987
-3DarAbFujv6eYNliUTyqtz	0.764	0.705	8	-3.463	1	0.0284	0.259	8.92e-05	0.12	0.781	110.97	4	208667
-0W6I02J9xcqK8MtSeosEXb	0.912	0.655	8	-6.029	0	0.162	0.315	3.39e-05	0.0894	0.793	91.942	4	138293
-5lAnYvAIkSDNXqfo7DyFUm	0.855	0.488	3	-4.601	1	0.208	0.506	0	0.347	0.619	124.097	4	174253
-3Dv1eDb0MEgF93GpLXlucZ	0.787	0.673	11	-4.583	0	0.159	0.264	3.35e-06	0.0904	0.779	110.962	4	237893
 0u2P5u6lvoDfwTYjAADbn4	0.351	0.296	4	-10.109	0	0.0333	0.934	0	0.095	0.12	115.284	4	200186
 4RVwu0g32PAqgUiJoXsdF8	0.332	0.225	0	-8.697	1	0.0348	0.767	0.00349	0.128	0.297	81.055	3	298899
 3GYlZ7tbxLOxe6ewMNVTkw	0.412	0.236	4	-15.159	0	0.0379	0.83	0.00653	0.147	0.119	140.214	4	281381
@@ -4053,7 +5573,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 1ZbvEfR0gXKeuDSEtwdrwH	0.748	0.546	3	-8.898	1	0.0368	0.579	0.695	0.0919	0.822	79.762	4	96400
 4arFkQK84KZjA7UPpunJ2y	0.646	0.677	7	-6.519	1	0.304	0.359	0	0.314	0.787	100.814	4	223013
 5KdWhOz7etD59lB2ehc6xo	0.843	0.753	11	-5.573	0	0.369	0.019	0	0.484	0.298	90.06	4	325560
-0tgVpDi06FyKpA1z0VMD4v	0.599	0.448	8	-6.312	1	0.0232	0.163	0	0.106	0.168	95.05	3	263400
 3AydAydLzyyZutA0375XIz	0.551	0.819	2	-4.489	1	0.0525	0.0103	0.0437	0.153	0.846	174.917	4	137760
 1eNrlXlW7Cj1QB1YUcZmpb	0.639	0.704	7	-5.818	1	0.0659	0.22	0.0872	0.0849	0.645	162.983	4	176467
 4dRqYKhLVujxiBXcq50YzG	0.62	0.712	9	-6.434	1	0.1	0.228	3.39e-06	0.0561	0.83	170.234	4	268600
@@ -4086,7 +5605,17 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 6BOpez82pPBooERz4yvdYP	0.683	0.774	0	-7.041	1	0.044	0.652	0	0.325	0.85	93.664	4	241743
 5jRiMVtNu3XF45niBV1QY4	0.817	0.721	3	-6.009	0	0.0403	0.808	0	0.0531	0.919	115.544	4	230946
 1KdHNhK8yloNM4Cr5bndbg	0.77	0.901	3	-7.008	0	0.129	0.709	3.52e-06	0.305	0.768	124.491	4	269003
-0sIcnlaJrW34ypnaU9TnYV	0.718	0.362	9	-8.729	1	0.216	0.822	0	0.258	0.505	119.769	4	242091
+092uPpAF9zVl7WbpVdSJFL	0.675	0.646	2	-11.371	1	0.254	0.252	0.742	0.0738	0.703	109.577	4	367200
+0tgVpDi06FyKpA1z0VMD4v	0.599	0.448	8	-6.312	1	0.0232	0.163	0	0.106	0.168	95.05	3	263400
+3rmo8F54jFF8OgYsqTxm5d	0.807	0.893	11	-3.745	0	0.0347	0.0451	2.79e-05	0.366	0.537	126.011	4	230747
+50nfwKoDiSYg8zOCREWAm5	0.788	0.859	2	-2.724	1	0.0856	0.281	0	0.0424	0.822	141.02	4	207853
+7qiZfU4dY1lWllzX7mPBI3	0.825	0.652	1	-3.183	0	0.0802	0.581	0	0.0931	0.931	95.977	4	233713
+2DB4DdfCFMw1iaR6JaR03a	0.756	0.697	8	-6.377	1	0.0401	0.182	0	0.333	0.956	94.996	4	206071
+6fxVffaTuwjgEk5h9QyRjy	0.614	0.379	4	-10.48	1	0.0476	0.607	0.000464	0.0986	0.201	107.989	4	258987
+4zrKN5Sv8JS5mqnbVcsul7	0.574	0.852	2	-1.248	1	0.0397	0.0529	0	0.161	0.501	123.038	4	209027
+1Slwb6dOYkBlWal1PGtnNg	0.781	0.445	2	-6.061	1	0.0295	0.474	0	0.184	0.591	78.998	4	281560
+0HaRLPnr887lcQM2YQzkff	0.87	0.479	9	-7.779	1	0.165	0.161	0.000157	0.209	0.717	104.059	4	159124
+2RttW7RAu5nOAfq6YFvApB	0.522	0.385	0	-7.355	1	0.0288	0.536	0	0.135	0.236	89.792	4	207520
 0ct6r3EGTcMLPtrXHDvVjc	0.527	0.835	6	-5.298	1	0.0433	0.0166	0	0.249	0.654	125.983	4	176658
 0nrRP2bk19rLc0orkWPQk2	0.532	0.783	2	-5.697	1	0.0523	0.0038	0.0012	0.161	0.643	124.08	4	247427
 2P4OICZRVAQcYAV2JReRfj	0.579	0.736	6	-3.863	0	0.0527	0.31	0	0.198	0.613	127.999	4	230613
@@ -4109,15 +5638,40 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 0wshkEEcJUQU33RSRBb5dv	0.849	0.433	5	-8.434	0	0.316	0.0407	0	0.388	0.395	142.11	4	152962
 2Y0iGXY6m6immVb2ktbseM	0.705	0.712	6	-6.156	1	0.0385	0.0102	0.000855	0.1	0.62	97.512	4	299960
 1jJci4qxiYcOHhQR247rEU	0.451	0.931	9	-3.871	1	0.0719	0.00076	0.0049	0.361	0.172	122.961	4	302840
-3rmo8F54jFF8OgYsqTxm5d	0.807	0.893	11	-3.745	0	0.0347	0.0451	2.79e-05	0.366	0.537	126.011	4	230747
-50nfwKoDiSYg8zOCREWAm5	0.788	0.859	2	-2.724	1	0.0856	0.281	0	0.0424	0.822	141.02	4	207853
-7qiZfU4dY1lWllzX7mPBI3	0.825	0.652	1	-3.183	0	0.0802	0.581	0	0.0931	0.931	95.977	4	233713
-2DB4DdfCFMw1iaR6JaR03a	0.756	0.697	8	-6.377	1	0.0401	0.182	0	0.333	0.956	94.996	4	206071
-6fxVffaTuwjgEk5h9QyRjy	0.614	0.379	4	-10.48	1	0.0476	0.607	0.000464	0.0986	0.201	107.989	4	258987
-4zrKN5Sv8JS5mqnbVcsul7	0.574	0.852	2	-1.248	1	0.0397	0.0529	0	0.161	0.501	123.038	4	209027
-1Slwb6dOYkBlWal1PGtnNg	0.781	0.445	2	-6.061	1	0.0295	0.474	0	0.184	0.591	78.998	4	281560
-0HaRLPnr887lcQM2YQzkff	0.87	0.479	9	-7.779	1	0.165	0.161	0.000157	0.209	0.717	104.059	4	159124
-2RttW7RAu5nOAfq6YFvApB	0.522	0.385	0	-7.355	1	0.0288	0.536	0	0.135	0.236	89.792	4	207520
+3FtYbEfBqAlGO46NUDQSAt	0.763	0.803	1	-3.713	1	0.0351	0.0709	0.285	0.348	0.561	103.04	3	229640
+4iG2gAwKXsOcijVaVXzRPW	0.438	0.94	2	-3.249	1	0.0452	8.74e-05	0.0777	0.3	0.421	100.99	3	261000
+3td69vL9Py7Ai9wfXYnvji	0.645	0.938	11	-4.557	0	0.0391	0.0946	0.0226	0.159	0.495	140.886	4	263880
+0t4z0WaQomQqPONghWn8c2	0.628	0.841	9	-4.583	1	0.0268	0.0285	0.00332	0.254	0.706	111.985	4	289853
+6kblAEj0T0312fv5QWsXzo	0.761	0.637	7	-8.169	1	0.0268	0.439	0.0082	0.102	0.656	125.115	4	235387
+19K3lUMJmOdeuOBTrbLm19	0.549	0.859	5	-3.993	1	0.0361	0.0964	2.36e-05	0.322	0.69	77.013	4	250773
+3XOKU8CKSiQsuQHD5vhzo5	0.633	0.919	5	-6.208	0	0.0343	0.00596	0.273	0.43	0.805	147.97	4	278387
+0wYPM5pexJu96AClrozpIh	0.591	0.863	4	-8.226	1	0.0321	0.0248	0.466	0.114	0.434	139.978	4	265880
+40iJIUlhi6renaREYGeIDS	0.666	0.465	1	-8.545	1	0.26	0.0503	0	0.215	0.292	167.937	4	291175
+2xLMifQCjDGFmkHkpNLD9h	0.834	0.73	8	-3.714	1	0.222	0.00513	0	0.124	0.446	155.008	4	312820
+5uEYRdEIh9Bo4fpjDd4Na9	0.841	0.593	1	-7.846	1	0.0379	0.418	0	0.124	0.808	124.917	4	162803
+51EC3I1nQXpec4gDk0mQyP	0.402	0.526	9	-6.741	0	0.0904	0.113	8.33e-06	0.105	0.312	81.404	4	339067
+11kDth1aKUEUMq9r1pqyds	0.712	0.481	4	-5.415	0	0.0487	0.173	0	0.241	0.062	140	4	196138
+6gi6y1xwmVszDWkUqab1qw	0.802	0.591	8	-4.895	1	0.225	0.0104	0	0.196	0.309	139.864	4	157712
+0d28khcov6AiegSCpG5TuT	0.818	0.705	6	-6.679	1	0.177	0.00836	0.00233	0.613	0.772	138.559	4	222640
+64dLd6rVqDLtkXFYrEUHIU	0.695	0.923	1	-3.93	0	0.0522	0.0425	0.0469	0.116	0.551	108.014	3	215150
+1foMv2HQwfQ2vntFf9HFeG	0.676	0.703	8	-5.815	0	0.0302	0.0869	0.000687	0.0463	0.852	92.761	4	200173
+0q6LuUqGLUiCPP1cbdwFs3	0.689	0.739	2	-5.81	1	0.026	1.51e-05	0.509	0.064	0.578	120.423	4	233867
+7yMiX7n9SBvadzox8T5jzT	0.663	0.694	10	-8.627	0	0.171	0.0253	0	0.0698	0.525	167.953	4	340920
+4Hff1IjRbLGeLgFgxvHflk	0.76	0.891	11	-5.852	0	0.0372	0.0229	0.0869	0.298	0.966	120.264	4	245000
+3lIxtCaROdRDuTnNBDm3n2	0.726	0.815	11	-5.886	1	0.0313	0.00799	0.081	0.112	0.462	140.158	4	209560
+2W3ZpQg9i6lE6kmHbcdu9N	0.741	0.913	2	-3.34	0	0.0465	0.00343	0.103	0.325	0.643	120.012	4	213750
+0dFwiyWPwC2yML3ZH7B56V	0.533	0.855	0	-4.747	1	0.0388	0.00186	0.375	0.0567	0.464	75.011	4	220106
+2bfGNzdiRa1jXZRdfssSzR	0.625	0.877	10	-7.176	0	0.162	0.0315	0.0811	0.672	0.865	192.296	4	230426
+51pshtuYkgUQnt5huMPbKL	0.794	0.766	9	-3.894	0	0.0377	0.0135	0	0.0785	0.55	127.007	4	195873
+0N9C80kcgL0xXGduKnYKWi	0.735	0.812	2	-4.417	1	0.151	0.528	0	0.186	0.584	109.835	4	162876
+5bJ1DrEM4hNCafcDd1oxHx	0.52	0.538	1	-8.109	1	0.206	0.367	0.00187	0.119	0.177	141.894	4	345133
+6GnhWMhgJb7uyiiPEiEkDA	0.843	0.435	8	-8.442	1	0.178	0.47	0	0.147	0.19	120.058	4	208080
+1OubIZ0ARYCUq5kceYUQiO	0.465	0.225	4	-12.637	0	0.0455	0.948	0.00155	0.18	0.207	57.75	4	256427
+4gT3mNJA8lnlkYFqGZ8IA2	0.516	0.546	5	-9.105	1	0.249	0.814	4.5e-06	0.0995	0.515	78.267	4	271733
+2hwOoMtWPtTSSn6WHV7Vp5	0.742	0.553	8	-8.98	1	0.419	0.389	0	0.0694	0.508	84.931	4	209440
+1DWZUa5Mzf2BwzpHtgbHPY	0.794	0.32	1	-12.92	0	0.173	0.853	0.134	0.112	0.241	174.088	4	342040
+01z2fBGB8Hl3Jd3zXe4IXR	0.272	0.238	2	-12.148	0	0.0349	0.89	0.00925	0.275	0.119	83.507	4	161840
+5iUQMwxUPdJBFeGkePtM66	0.836	0.67	5	-6.907	0	0.23	0.00826	0.000355	0.0837	0.556	107.018	4	305350
 3ymSzAIqvWTxKYD0BBODbH	0.636	0.616	11	-6.32	1	0.0509	0.779	0	0.155	0.809	82.644	4	177467
 6nAYtpcRsku5JoBUhXk5EA	0.594	0.673	3	-5.417	0	0.0985	0.866	0	0.111	0.686	77.966	4	217333
 2hsjrCNUjG5vPLN2IcigtS	0.552	0.567	9	-6.963	0	0.137	0.728	0	0.13	0.763	78.175	4	172813
@@ -4128,6 +5682,69 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 1WgOf7lU1lGH7wHsam8rCH	0.632	0.644	1	-5.263	0	0.101	0.291	0	0.0728	0.848	83.734	4	163467
 36yAonKXZwKGJ6YVtkITRT	0.593	0.68	1	-4.585	1	0.057	0.559	0	0.365	0.839	82.337	4	153027
 4NCwg4UvOsir3Vvozx0QFM	0.558	0.637	1	-4.866	1	0.098	0.647	0	0.575	0.815	82.581	4	209867
+7kdyc52WSOnaYetBSS4mE5	0.886	0.539	1	-9.838	1	0.403	0.269	7.11e-05	0.0884	0.471	134.93	4	231800
+5edZrk1cC6VFtlryFT0QDx	0.812	0.39	8	-11.593	1	0.0399	0.417	0	0.0619	0.966	87.954	4	327173
+61qCCgptAHVqP8DLzDdDWS	0.778	0.54	0	-8.494	0	0.224	0.28	0.000722	0.098	0.45	134.855	4	217027
+3OefJy3MhpFwc3I8dj1A5n	0.923	0.472	8	-9.496	1	0.224	0.217	0	0.0826	0.413	134.992	4	303067
+0MJcKr4SRFFPAj7h8T8Y2u	0.91	0.52	8	-10.151	1	0.275	0.348	0	0.0794	0.382	134.973	4	211707
+1gxuZDZ3iD4umJebIEAQ5c	0.825	0.507	8	-11.269	1	0.181	0.348	0	0.0734	0.861	87.995	4	243307
+4qtZIirGU2wcP2faEv0jry	0.898	0.43	1	-12.233	1	0.222	0.378	0	0.074	0.887	88.023	4	256040
+2JMJMtzG0shNuHmaJ1uk6q	0.753	0.438	0	-9.631	0	0.142	0.562	0	0.111	0.821	87.988	4	432133
+4Amw1lKBUbmaanUTGzv77U	0.578	0.551	10	-6.196	1	0.0313	0.853	0	0.0833	0.946	80.186	4	119240
+4RXnp2ZTi0CyetuM6xTcjg	0.635	0.682	1	-4.977	0	0.0576	0.805	0	0.119	0.785	92.171	4	194973
+4q8CVsKQcAeNZ3RguQjmTU	0.704	0.662	5	-6.836	1	0.092	0.589	0	0.152	0.682	113.069	4	192960
+1EIWddhCtay8sMJeu58lvm	0.578	0.471	6	-6.451	1	0.0361	0.846	0	0.099	0.392	86.509	4	259680
+7z8F1kHqUvh8jA4hztNeU8	0.583	0.428	6	-6.618	1	0.196	0.824	0	0.0903	0.376	132.294	4	594933
+7eiI2R22MxDNVLN7S9VqVH	0.889	0.377	11	-7.961	1	0.0389	0.799	0	0.116	0.579	104.973	4	113067
+2xmOKduEJr0OwXim7ngrGG	0.666	0.644	11	-6.321	1	0.0461	0.565	0	0.123	0.926	82.646	4	274800
+4cy68Rp4tdkCVoo8lj30F5	0.635	0.445	11	-5.252	0	0.0472	0.571	0	0.195	0.734	145.445	4	128840
+6Sm4XdGI7GhHG7sjVcVrI2	0.671	0.798	4	-6.914	1	0.181	0.583	0	0.241	0.502	95.6	4	210960
+6wiM5H4NW3WIOBoXhQ4dj9	0.779	0.398	5	-9.771	1	0.12	0.848	0	0.476	0.679	123.293	4	233840
+77QQcQ7wIeaKL6Qs7Xxd08	0.443	0.715	3	-6.767	0	0.275	0.647	0	0.416	0.895	96.876	4	265480
+3ATP7JXuBSLUXkZqzRYFoC	0.807	0.668	6	-6.73	1	0.238	0.531	0	0.594	0.962	95.608	4	131267
+3OevO7P8qXFaxB5R6GIfn0	0.596	0.461	10	-8.757	0	0.0561	0.796	0	0.626	0.585	127.106	4	650333
+1CimagjBZShN4Tju88HJZ0	0.664	0.683	6	-6.905	1	0.111	0.558	0	0.477	0.913	135.841	3	98907
+5iUP22DajCVfhuesgQT8Cz	0.825	0.459	0	-8.483	0	0.082	0.834	0	0.61	0.693	120.598	4	178907
+2y1Zu0XQcOmX90TCj1q40v	0.648	0.595	6	-6.618	1	0.288	0.502	0	0.245	0.969	201.236	4	74400
+15uf8cMOumUbwio2InLSRD	0.75	0.606	5	-7.016	0	0.297	0.639	0	0.551	0.968	95.173	4	99400
+2bSnBMXCNPP7WyGoCzDGc8	0.783	0.628	10	-7.449	1	0.339	0.661	0	0.273	0.971	96.725	4	100840
+0OpfYRVsgQ9LHX8oLtkMLO	0.827	0.486	11	-7.257	1	0.226	0.489	0	0.113	0.847	98.698	4	103133
+02a8cGumnKuEPgoCzmalJp	0.481	0.284	11	-14.762	0	0.186	0.634	0.000168	0.91	0.528	83.979	3	190533
+0hQbovQO5Cui5Imze8Q3oo	0.568	0.458	9	-9.566	1	0.0278	0.815	0.000177	0.109	0.449	95.111	4	292307
+1wuB9MID26ep43OlkOtBXd	0.542	0.443	9	-13.246	1	0.0416	0.339	0.000199	0.382	0.932	87.254	4	214933
+0C13P4IghHNFPjt4zIJ8vX	0.356	0.272	2	-13.263	1	0.0368	0.508	2.02e-05	0.263	0.509	113.345	4	212933
+3ejU8JMenktibKkNz9dPBL	0.651	0.151	0	-17.553	1	0.0422	0.959	0.00759	0.722	0.379	117.721	4	176563
+6kCjKljGsnyzXaKKH9Cbgu	0.626	0.0914	0	-20.211	0	0.0856	0.826	0.000131	0.113	0.471	121.171	4	180453
+5X7YQ1Wp36sNprUKZSPLFK	0.816	0.723	5	-8.42	0	0.0656	0.223	8.13e-05	0.0591	0.926	93.953	4	210133
+0L1yQFYhyqNAWcBgIUV67g	0.734	0.831	2	-6.697	1	0.322	0.803	0	0.067	0.568	104.166	4	142602
+0SFPOFERSw2S0LHZKn1922	0.856	0.732	8	-7.695	1	0.255	0.803	0.000267	0.182	0.642	105.767	4	109793
+2i9zvqrXQG26kEu2NTS7O5	0.765	0.861	11	-7.735	0	0.15	0.82	0.0411	0.0521	0.721	167.26	4	150596
+2pNPgdqUPD1o8hINF6wGqu	0.854	0.74	0	-8.952	1	0.272	0.966	0.803	0.0935	0.646	82.381	4	113241
+2A3yr7MEP0nuNUDILrcUzb	0.786	0.558	4	-8.913	1	0.331	0.958	0.000195	0.191	0.871	103.558	4	536398
+2wwvaVeLrZoMXyoZka0Lhg	0.747	0.575	11	-9.378	1	0.33	0.829	2.57e-05	0.0603	0.231	101.311	4	139598
+4ikNVocxDbLrZaEZsF3OlG	0.909	0.822	2	-8.391	1	0.17	0.898	0.0162	0.136	0.427	99.684	4	177842
+37o6Qp0N3sM45KuWrmggJU	0.73	0.582	2	-10.249	1	0.342	0.99	0.0466	0.278	0.848	107.002	4	449933
+1NhN6IoHQgig0OBC2PhhK0	0.426	0.887	2	-15.236	1	0.304	0.732	0.305	0.764	0.824	152.795	4	83547
+16G3MldzNlwg0Z5f3QqgqD	0.69	0.464	11	-13.771	1	0.0991	0.723	0.15	0.0407	0.668	78.013	4	228093
+1Zv4IM34qfZDUAXphMsgKy	0.719	0.44	6	-12.763	1	0.0416	0.836	0.00171	0.062	0.851	87.278	4	216933
+4MGnJCU8aFXT6LzQ7WHOzE	0.697	0.499	11	-13.156	1	0.0601	0.821	0	0.469	0.941	99.193	4	213640
+4P2SJB4mGJ0DpusrKbrGBV	0.733	0.476	11	-15.107	1	0.0815	0.855	0	0.174	0.564	106.337	4	201693
+0iSPxBpIugjKUCtaA09lJ9	0.753	0.722	4	-14.555	1	0.0562	0.782	2.1e-06	0.245	0.771	106.735	4	96333
+4KWBI1Wahst6TL5nCtdYco	0.885	0.506	11	-15.92	0	0.0475	0.645	5.71e-06	0.136	0.945	96.856	4	197733
+7jqm2nYr4bgr5k3mPdO3Of	0.759	0.439	1	-16.689	0	0.063	0.801	0.268	0.0931	0.837	144.397	4	183107
+77nHLoT85IkKuq8f0HOerE	0.714	0.443	6	-15.749	1	0.115	0.766	0	0.191	0.957	108.391	4	119573
+2vI5ny3qb8S3sXdlxMl5P0	0.826	0.52	9	-15.622	1	0.0739	0.742	0.0576	0.0856	0.964	108.83	4	158427
+28UlfpwBBPTpvu9nsgHp2g	0.73	0.431	1	-13.536	1	0.076	0.872	0	0.0781	0.745	76.816	4	202333
+1fEGtTZjrjJW8eUeewnNJR	0.369	0.403	3	-7.996	1	0.0259	0.827	0.0541	0.106	0.177	154.899	3	241917
+5JEM7lT9uSyhUsKFXwGfSm	0.627	0.247	1	-13.303	1	0.0321	0.811	0.0587	0.112	0.639	125.305	4	170217
+1MxHIIzcTeFnaNsDGY3pfj	0.512	0.501	5	-9.971	1	0.0325	0.609	6.25e-05	0.0973	0.726	79.989	4	231755
+6HbxpoChDH9ThadFOSAnma	0.662	0.322	1	-15.115	1	0.0304	0.855	0.0019	0.144	0.425	115.771	4	195200
+6UIxGIqWlO5wsddY44AV1R	0.386	0.205	4	-16.699	1	0.0366	0.653	0.0448	0.106	0.623	172.373	4	152613
+0QYgtwYCftkAqunXmvkZtr	0.384	0.366	7	-10.65	1	0.0329	0.371	9.17e-05	0.101	0.199	138.134	4	261370
+6dDxgfvM8pJm7AzmLZB1nN	0.611	0.275	6	-10.644	1	0.028	0.808	0.911	0.403	0.552	94.116	4	251280
+7dP4k5nDDwI1qMDoz5m0f6	0.634	0.419	0	-10.386	1	0.028	0.499	0.00438	0.124	0.562	118.838	4	212487
+2xa9PoO42d7VjT0KqG5d3I	0.47	0.237	2	-15.593	1	0.0348	0.837	0.464	0.115	0.358	81.268	4	207773
+6iw32k0OUKHildYsQTRnVB	0.245	0.242	4	-12.963	1	0.0318	0.965	0.00833	0.271	0.138	135.714	3	267120
 0xta6Gah3inmeHbj0e3F9a	0.894	0.615	3	-6.269	1	0.0826	0.0308	0.00921	0.309	0.661	120	4	193209
 6BiCjPFN5rM9JPy5eP5mCs	0.971	0.677	2	-6.895	1	0.092	0.0476	2.22e-05	0.112	0.58	120.027	4	158051
 2RPbEp0DyBVlkRvvYKopO7	0.706	0.688	1	-6.357	1	0.269	0.151	0	0.466	0.313	125.966	4	330783
@@ -4164,116 +5781,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 6bn9gXjHKqHUdCpzOC9GUZ	0.507	0.499	9	-7.395	1	0.143	0.681	0	0.359	0.772	84.019	4	438996
 0Tcv6S71vFaRktNG9TX8kr	0.601	0.461	9	-7.766	0	0.236	0.763	0	0.268	0.831	109.695	4	411515
 6VfZMviYxr1fXHshHSpUCC	0.48	0.402	11	-9.772	1	0.101	0.802	0	0.329	0.637	81.362	4	483457
-3FtYbEfBqAlGO46NUDQSAt	0.763	0.803	1	-3.713	1	0.0351	0.0709	0.285	0.348	0.561	103.04	3	229640
-4iG2gAwKXsOcijVaVXzRPW	0.438	0.94	2	-3.249	1	0.0452	8.74e-05	0.0777	0.3	0.421	100.99	3	261000
-3td69vL9Py7Ai9wfXYnvji	0.645	0.938	11	-4.557	0	0.0391	0.0946	0.0226	0.159	0.495	140.886	4	263880
-0t4z0WaQomQqPONghWn8c2	0.628	0.841	9	-4.583	1	0.0268	0.0285	0.00332	0.254	0.706	111.985	4	289853
-6kblAEj0T0312fv5QWsXzo	0.761	0.637	7	-8.169	1	0.0268	0.439	0.0082	0.102	0.656	125.115	4	235387
-19K3lUMJmOdeuOBTrbLm19	0.549	0.859	5	-3.993	1	0.0361	0.0964	2.36e-05	0.322	0.69	77.013	4	250773
-3XOKU8CKSiQsuQHD5vhzo5	0.633	0.919	5	-6.208	0	0.0343	0.00596	0.273	0.43	0.805	147.97	4	278387
-0wYPM5pexJu96AClrozpIh	0.591	0.863	4	-8.226	1	0.0321	0.0248	0.466	0.114	0.434	139.978	4	265880
-40iJIUlhi6renaREYGeIDS	0.666	0.465	1	-8.545	1	0.26	0.0503	0	0.215	0.292	167.937	4	291175
-2xLMifQCjDGFmkHkpNLD9h	0.834	0.73	8	-3.714	1	0.222	0.00513	0	0.124	0.446	155.008	4	312820
-5uEYRdEIh9Bo4fpjDd4Na9	0.841	0.593	1	-7.846	1	0.0379	0.418	0	0.124	0.808	124.917	4	162803
-51EC3I1nQXpec4gDk0mQyP	0.402	0.526	9	-6.741	0	0.0904	0.113	8.33e-06	0.105	0.312	81.404	4	339067
-11kDth1aKUEUMq9r1pqyds	0.712	0.481	4	-5.415	0	0.0487	0.173	0	0.241	0.062	140	4	196138
-6gi6y1xwmVszDWkUqab1qw	0.802	0.591	8	-4.895	1	0.225	0.0104	0	0.196	0.309	139.864	4	157712
-0d28khcov6AiegSCpG5TuT	0.818	0.705	6	-6.679	1	0.177	0.00836	0.00233	0.613	0.772	138.559	4	222640
-64dLd6rVqDLtkXFYrEUHIU	0.695	0.923	1	-3.93	0	0.0522	0.0425	0.0469	0.116	0.551	108.014	3	215150
-1foMv2HQwfQ2vntFf9HFeG	0.676	0.703	8	-5.815	0	0.0302	0.0869	0.000687	0.0463	0.852	92.761	4	200173
-0q6LuUqGLUiCPP1cbdwFs3	0.689	0.739	2	-5.81	1	0.026	1.51e-05	0.509	0.064	0.578	120.423	4	233867
-7yMiX7n9SBvadzox8T5jzT	0.663	0.694	10	-8.627	0	0.171	0.0253	0	0.0698	0.525	167.953	4	340920
-4Hff1IjRbLGeLgFgxvHflk	0.76	0.891	11	-5.852	0	0.0372	0.0229	0.0869	0.298	0.966	120.264	4	245000
-3lIxtCaROdRDuTnNBDm3n2	0.726	0.815	11	-5.886	1	0.0313	0.00799	0.081	0.112	0.462	140.158	4	209560
-2W3ZpQg9i6lE6kmHbcdu9N	0.741	0.913	2	-3.34	0	0.0465	0.00343	0.103	0.325	0.643	120.012	4	213750
-0dFwiyWPwC2yML3ZH7B56V	0.533	0.855	0	-4.747	1	0.0388	0.00186	0.375	0.0567	0.464	75.011	4	220106
-2bfGNzdiRa1jXZRdfssSzR	0.625	0.877	10	-7.176	0	0.162	0.0315	0.0811	0.672	0.865	192.296	4	230426
-51pshtuYkgUQnt5huMPbKL	0.794	0.766	9	-3.894	0	0.0377	0.0135	0	0.0785	0.55	127.007	4	195873
-0N9C80kcgL0xXGduKnYKWi	0.735	0.812	2	-4.417	1	0.151	0.528	0	0.186	0.584	109.835	4	162876
-5bJ1DrEM4hNCafcDd1oxHx	0.52	0.538	1	-8.109	1	0.206	0.367	0.00187	0.119	0.177	141.894	4	345133
-6GnhWMhgJb7uyiiPEiEkDA	0.843	0.435	8	-8.442	1	0.178	0.47	0	0.147	0.19	120.058	4	208080
-1OubIZ0ARYCUq5kceYUQiO	0.465	0.225	4	-12.637	0	0.0455	0.948	0.00155	0.18	0.207	57.75	4	256427
-4gT3mNJA8lnlkYFqGZ8IA2	0.516	0.546	5	-9.105	1	0.249	0.814	4.5e-06	0.0995	0.515	78.267	4	271733
-2hwOoMtWPtTSSn6WHV7Vp5	0.742	0.553	8	-8.98	1	0.419	0.389	0	0.0694	0.508	84.931	4	209440
-1DWZUa5Mzf2BwzpHtgbHPY	0.794	0.32	1	-12.92	0	0.173	0.853	0.134	0.112	0.241	174.088	4	342040
-01z2fBGB8Hl3Jd3zXe4IXR	0.272	0.238	2	-12.148	0	0.0349	0.89	0.00925	0.275	0.119	83.507	4	161840
-5iUQMwxUPdJBFeGkePtM66	0.836	0.67	5	-6.907	0	0.23	0.00826	0.000355	0.0837	0.556	107.018	4	305350
-7kdyc52WSOnaYetBSS4mE5	0.886	0.539	1	-9.838	1	0.403	0.269	7.11e-05	0.0884	0.471	134.93	4	231800
-5edZrk1cC6VFtlryFT0QDx	0.812	0.39	8	-11.593	1	0.0399	0.417	0	0.0619	0.966	87.954	4	327173
-61qCCgptAHVqP8DLzDdDWS	0.778	0.54	0	-8.494	0	0.224	0.28	0.000722	0.098	0.45	134.855	4	217027
-3OefJy3MhpFwc3I8dj1A5n	0.923	0.472	8	-9.496	1	0.224	0.217	0	0.0826	0.413	134.992	4	303067
-0MJcKr4SRFFPAj7h8T8Y2u	0.91	0.52	8	-10.151	1	0.275	0.348	0	0.0794	0.382	134.973	4	211707
-1gxuZDZ3iD4umJebIEAQ5c	0.825	0.507	8	-11.269	1	0.181	0.348	0	0.0734	0.861	87.995	4	243307
-4qtZIirGU2wcP2faEv0jry	0.898	0.43	1	-12.233	1	0.222	0.378	0	0.074	0.887	88.023	4	256040
-2JMJMtzG0shNuHmaJ1uk6q	0.753	0.438	0	-9.631	0	0.142	0.562	0	0.111	0.821	87.988	4	432133
-4Amw1lKBUbmaanUTGzv77U	0.578	0.551	10	-6.196	1	0.0313	0.853	0	0.0833	0.946	80.186	4	119240
-4RXnp2ZTi0CyetuM6xTcjg	0.635	0.682	1	-4.977	0	0.0576	0.805	0	0.119	0.785	92.171	4	194973
-4q8CVsKQcAeNZ3RguQjmTU	0.704	0.662	5	-6.836	1	0.092	0.589	0	0.152	0.682	113.069	4	192960
-1EIWddhCtay8sMJeu58lvm	0.578	0.471	6	-6.451	1	0.0361	0.846	0	0.099	0.392	86.509	4	259680
-7z8F1kHqUvh8jA4hztNeU8	0.583	0.428	6	-6.618	1	0.196	0.824	0	0.0903	0.376	132.294	4	594933
-7eiI2R22MxDNVLN7S9VqVH	0.889	0.377	11	-7.961	1	0.0389	0.799	0	0.116	0.579	104.973	4	113067
-2xmOKduEJr0OwXim7ngrGG	0.666	0.644	11	-6.321	1	0.0461	0.565	0	0.123	0.926	82.646	4	274800
-4cy68Rp4tdkCVoo8lj30F5	0.635	0.445	11	-5.252	0	0.0472	0.571	0	0.195	0.734	145.445	4	128840
-6wiM5H4NW3WIOBoXhQ4dj9	0.779	0.398	5	-9.771	1	0.12	0.848	0	0.476	0.679	123.293	4	233840
-77QQcQ7wIeaKL6Qs7Xxd08	0.443	0.715	3	-6.767	0	0.275	0.647	0	0.416	0.895	96.876	4	265480
-3ATP7JXuBSLUXkZqzRYFoC	0.807	0.668	6	-6.73	1	0.238	0.531	0	0.594	0.962	95.608	4	131267
-3OevO7P8qXFaxB5R6GIfn0	0.596	0.461	10	-8.757	0	0.0561	0.796	0	0.626	0.585	127.106	4	650333
-1CimagjBZShN4Tju88HJZ0	0.664	0.683	6	-6.905	1	0.111	0.558	0	0.477	0.913	135.841	3	98907
-5iUP22DajCVfhuesgQT8Cz	0.825	0.459	0	-8.483	0	0.082	0.834	0	0.61	0.693	120.598	4	178907
-15uf8cMOumUbwio2InLSRD	0.75	0.606	5	-7.016	0	0.297	0.639	0	0.551	0.968	95.173	4	99400
-2y1Zu0XQcOmX90TCj1q40v	0.648	0.595	6	-6.618	1	0.288	0.502	0	0.245	0.969	201.236	4	74400
-2bSnBMXCNPP7WyGoCzDGc8	0.783	0.628	10	-7.449	1	0.339	0.661	0	0.273	0.971	96.725	4	100840
-0OpfYRVsgQ9LHX8oLtkMLO	0.827	0.486	11	-7.257	1	0.226	0.489	0	0.113	0.847	98.698	4	103133
-0hQbovQO5Cui5Imze8Q3oo	0.568	0.458	9	-9.566	1	0.0278	0.815	0.000177	0.109	0.449	95.111	4	292307
-1wuB9MID26ep43OlkOtBXd	0.542	0.443	9	-13.246	1	0.0416	0.339	0.000199	0.382	0.932	87.254	4	214933
-0C13P4IghHNFPjt4zIJ8vX	0.356	0.272	2	-13.263	1	0.0368	0.508	2.02e-05	0.263	0.509	113.345	4	212933
-3ejU8JMenktibKkNz9dPBL	0.651	0.151	0	-17.553	1	0.0422	0.959	0.00759	0.722	0.379	117.721	4	176563
-6kCjKljGsnyzXaKKH9Cbgu	0.626	0.0914	0	-20.211	0	0.0856	0.826	0.000131	0.113	0.471	121.171	4	180453
-5X7YQ1Wp36sNprUKZSPLFK	0.816	0.723	5	-8.42	0	0.0656	0.223	8.13e-05	0.0591	0.926	93.953	4	210133
-0L1yQFYhyqNAWcBgIUV67g	0.734	0.831	2	-6.697	1	0.322	0.803	0	0.067	0.568	104.166	4	142602
-0SFPOFERSw2S0LHZKn1922	0.856	0.732	8	-7.695	1	0.255	0.803	0.000267	0.182	0.642	105.767	4	109793
-2i9zvqrXQG26kEu2NTS7O5	0.765	0.861	11	-7.735	0	0.15	0.82	0.0411	0.0521	0.721	167.26	4	150596
-2pNPgdqUPD1o8hINF6wGqu	0.854	0.74	0	-8.952	1	0.272	0.966	0.803	0.0935	0.646	82.381	4	113241
-2A3yr7MEP0nuNUDILrcUzb	0.786	0.558	4	-8.913	1	0.331	0.958	0.000195	0.191	0.871	103.558	4	536398
-2wwvaVeLrZoMXyoZka0Lhg	0.747	0.575	11	-9.378	1	0.33	0.829	2.57e-05	0.0603	0.231	101.311	4	139598
-4ikNVocxDbLrZaEZsF3OlG	0.909	0.822	2	-8.391	1	0.17	0.898	0.0162	0.136	0.427	99.684	4	177842
-37o6Qp0N3sM45KuWrmggJU	0.73	0.582	2	-10.249	1	0.342	0.99	0.0466	0.278	0.848	107.002	4	449933
-1NhN6IoHQgig0OBC2PhhK0	0.426	0.887	2	-15.236	1	0.304	0.732	0.305	0.764	0.824	152.795	4	83547
-16G3MldzNlwg0Z5f3QqgqD	0.69	0.464	11	-13.771	1	0.0991	0.723	0.15	0.0407	0.668	78.013	4	228093
-1Zv4IM34qfZDUAXphMsgKy	0.719	0.44	6	-12.763	1	0.0416	0.836	0.00171	0.062	0.851	87.278	4	216933
-4MGnJCU8aFXT6LzQ7WHOzE	0.697	0.499	11	-13.156	1	0.0601	0.821	0	0.469	0.941	99.193	4	213640
-4P2SJB4mGJ0DpusrKbrGBV	0.733	0.476	11	-15.107	1	0.0815	0.855	0	0.174	0.564	106.337	4	201693
-0iSPxBpIugjKUCtaA09lJ9	0.753	0.722	4	-14.555	1	0.0562	0.782	2.1e-06	0.245	0.771	106.735	4	96333
-4KWBI1Wahst6TL5nCtdYco	0.885	0.506	11	-15.92	0	0.0475	0.645	5.71e-06	0.136	0.945	96.856	4	197733
-7jqm2nYr4bgr5k3mPdO3Of	0.759	0.439	1	-16.689	0	0.063	0.801	0.268	0.0931	0.837	144.397	4	183107
-77nHLoT85IkKuq8f0HOerE	0.714	0.443	6	-15.749	1	0.115	0.766	0	0.191	0.957	108.391	4	119573
-2vI5ny3qb8S3sXdlxMl5P0	0.826	0.52	9	-15.622	1	0.0739	0.742	0.0576	0.0856	0.964	108.83	4	158427
-28UlfpwBBPTpvu9nsgHp2g	0.73	0.431	1	-13.536	1	0.076	0.872	0	0.0781	0.745	76.816	4	202333
-1fEGtTZjrjJW8eUeewnNJR	0.369	0.403	3	-7.996	1	0.0259	0.827	0.0541	0.106	0.177	154.899	3	241917
-5JEM7lT9uSyhUsKFXwGfSm	0.627	0.247	1	-13.303	1	0.0321	0.811	0.0587	0.112	0.639	125.305	4	170217
-1MxHIIzcTeFnaNsDGY3pfj	0.512	0.501	5	-9.971	1	0.0325	0.609	6.25e-05	0.0973	0.726	79.989	4	231755
-6HbxpoChDH9ThadFOSAnma	0.662	0.322	1	-15.115	1	0.0304	0.855	0.0019	0.144	0.425	115.771	4	195200
-6UIxGIqWlO5wsddY44AV1R	0.386	0.205	4	-16.699	1	0.0366	0.653	0.0448	0.106	0.623	172.373	4	152613
-0QYgtwYCftkAqunXmvkZtr	0.384	0.366	7	-10.65	1	0.0329	0.371	9.17e-05	0.101	0.199	138.134	4	261370
-6dDxgfvM8pJm7AzmLZB1nN	0.611	0.275	6	-10.644	1	0.028	0.808	0.911	0.403	0.552	94.116	4	251280
-7dP4k5nDDwI1qMDoz5m0f6	0.634	0.419	0	-10.386	1	0.028	0.499	0.00438	0.124	0.562	118.838	4	212487
-2xa9PoO42d7VjT0KqG5d3I	0.47	0.237	2	-15.593	1	0.0348	0.837	0.464	0.115	0.358	81.268	4	207773
-6iw32k0OUKHildYsQTRnVB	0.245	0.242	4	-12.963	1	0.0318	0.965	0.00833	0.271	0.138	135.714	3	267120
-5tt394udRU89Pn2s3qPGaQ	0.81	0.3	9	-17.58	1	0.506	0.361	0.301	0.13	0.85	122.727	4	142640
-4tTZq61IKisspn9NhoJtYn	0.559	0.706	2	-11.333	1	0.15	0.139	5.03e-06	0.0991	0.375	105.029	4	217640
-6A7bFw2HCDcINCCQc8YrMb	0.786	0.416	4	-11.577	1	0.353	0.754	8.66e-05	0.106	0.789	123.174	4	139600
-3wyElammb2nsBW3C9fAkIk	0.787	0.898	2	-9.948	1	0.0445	0.175	0.00556	0.336	0.825	104.954	4	325653
-5kl98MGNOGnEeFCu4yjq9e	0.641	0.652	5	-8.825	1	0.171	0.84	0	0.127	0.846	127.827	4	178840
-5fwEN7ftDTrqTpxOwadeIX	0.494	0.528	2	-11.866	1	0.0436	0.401	0	0.126	0.832	132.887	4	185080
-1mCNkrKh9NEgxJWUqHnEgo	0.354	0.829	9	-3.834	1	0.047	0.00183	0	0.119	0.195	163.958	4	216520
-1WxF4gMsFXnKCyh48CW2RI	0.274	0.792	2	-4.388	0	0.0413	0.00833	0	0.131	0.092	179.067	4	237347
-1JrtC2ubRFV2xB79J3UY1Z	0.509	0.856	11	-3.943	0	0.0331	0.00017	0.00302	0.12	0.535	84.542	4	213960
-3bAoghFUTVwGYXYnzRqhCf	0.33	0.734	2	-4.972	0	0.0416	0.000953	0	0.0874	0.256	178.986	4	221493
-00i9VF7sjSaTqblAuKFBDO	0.409	0.877	2	-5.865	0	0.0602	0.00329	0	0.222	0.403	177.928	4	208021
-6Tkzu1nvzb5tHVsjiu8IDF	0.493	0.905	8	-5.415	1	0.0332	0.000172	0.000879	0.102	0.321	90.014	4	208587
-3uErbNGaNIPJkRlMrLxR9Z	0.346	0.198	2	-12.208	0	0.0334	0.566	0.893	0.0958	0.163	138.103	3	285533
-2mPpPlCJKhjojKylWEs4ZC	0.481	0.746	9	-4.233	0	0.0377	0.000687	0	0.131	0.545	85.934	4	234493
-2a8ND713OfNIdlJD1p8jB3	0.433	0.595	7	-6.797	1	0.032	0.101	0	0.342	0.24	74.989	4	173747
 7FJ69qi4X4ZlzsW1ikQFpb	0.499	0.423	9	-10.77	1	0.316	0.774	0	0.148	0.767	83.959	4	318964
 6v4UVEpozyMwetw9NOvJee	0.485	0.574	5	-10.082	1	0.413	0.704	0	0.423	0.686	80.789	4	367659
 5iWX0JLUmdOdxl8IwWVoLB	0.484	0.421	10	-10.505	0	0.181	0.839	0	0.124	0.786	79.555	4	435947
@@ -4286,7 +5793,7 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 44GokgCa37BTZP2NU2zkoJ	0.656	0.746	7	-4.716	1	0.314	0.126	0	0.508	0.824	104.044	3	188939
 2Jy4EdqIZswDZvVDh5dx3A	0.561	0.722	4	-6.437	0	0.068	0.173	4.86e-05	0.175	0.173	103.099	4	234027
 3tTDOodJcr6vKF2DASlwMZ	0.827	0.854	0	-3.43	1	0.238	0.334	0	0.073	0.869	139.089	4	185968
-4DmgUMnnCw27Tu5Jvqhm1n	0.738	0.521	2	-8.909	1	0.495	0.0482	5.75e-06	0.108	0.379	192.003	4	211120
+0kmxWw7KjktV4V1ZpbOeru	0.75	0.601	2	-6.809	1	0.184	0.0403	0.0014	0.0764	0.547	136.92	4	175347
 6tTsNfuUnA8JbGY8GvupSt	0.697	0.57	4	-6.668	0	0.0502	0.819	0	0.256	0.861	90.067	4	171773
 45uq0gzKNTbLQz9vNJCnff	0.503	0.638	4	-5.896	1	0.115	0.838	0	0.109	0.783	88.891	4	251347
 4zMROpckk80sLKjw6tkawT	0.757	0.781	9	-4.535	1	0.116	0.761	0	0.225	0.543	125.25	4	169613
@@ -4295,8 +5802,8 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 1Dpy0E104inl2X65Ql3Y6V	0.49	0.482	4	-10.966	1	0.133	0.842	0	0.142	0.807	85.889	4	251401
 3ji7Cq0BDAyOZqeRJpDzie	0.85	0.358	0	-13.894	1	0.326	0.857	0.000125	0.109	0.372	82.916	4	122360
 5tW7ndPplZCfvI1MOHHUmu	0.643	0.578	11	-6.228	1	0.0357	0.809	0	0.343	0.829	87.27	4	86573
+0EzVzowY6rIB8VpiLLsRYK	0.564	0.758	0	-14.264	1	0.0886	0.522	0.949	0.094	0.969	118.143	4	209933
 2b8YEV18sPCRStHLIK3aUg	0.745	0.822	2	-7.955	1	0.346	0.79	0	0.189	0.582	103.881	4	142813
-7ssZ5w8Hl0WMK5uH1oJm3R	0.809	0.423	10	-14.907	1	0.147	0.823	0	0.0942	0.86	131.165	4	148293
 26qUQwpITcSERRQHKoAOVC	0.764	0.786	5	-7.435	0	0.045	0.0234	1.8e-05	0.0651	0.658	113.966	4	190511
 48cO0bR6orzUT4csoMLNNn	0.747	0.467	9	-7.766	1	0.0588	0.79	0	0.0784	0.434	123.084	4	182467
 3LldLxInVpaT0AgIDpn4vw	0.784	0.856	10	-5.073	1	0.174	0.573	0	0.0497	0.47	107.996	4	176040
@@ -4313,9 +5820,9 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 7lrPlOCR3zXpXR9ZNHAOkX	0.814	0.791	3	-6.184	0	0.334	0.181	3.3e-05	0.247	0.527	127.986	4	126000
 6SmvawO0Gp3P6B7b1A9dme	0.77	0.863	5	-5.138	0	0.283	0.242	8.54e-05	0.467	0.162	133.973	4	180896
 18K5KELzE7eOlNSJK331T5	0.859	0.723	11	-7.36	0	0.101	0.00263	0.811	0.0345	0.948	128.007	4	151000
+44Yt3A3eD9WuFpSAMNcN9M	0.784	0.696	1	-6.2	1	0.0602	0.0061	0.582	0.242	0.185	134	4	148657
 22gwoAmeEcuEXRykQYkCEg	0.71	0.49	8	-7.22	1	0.0741	0.583	0.6	0.218	0.112	128.028	4	142038
 3PdwZoy7TJcPGw7GI8GI4u	0.915	0.638	1	-4.709	0	0.116	0.0032	0.00134	0.656	0.36	130.95	4	183206
-44Yt3A3eD9WuFpSAMNcN9M	0.784	0.696	1	-6.2	1	0.0602	0.0061	0.582	0.242	0.185	134	4	148657
 6dB6hoCnZMh8HHnDwC6uzq	0.632	0.595	7	-8.605	1	0.142	0.81	0	0.0485	0.739	99.486	4	254867
 3UJi2gDm3F83DzoKpXQmK6	0.833	0.672	2	-6.871	1	0.102	0.776	0.351	0.0785	0.566	89.734	4	70267
 5nD10SsobH1vinpLywA2v0	0.631	0.708	11	-3.183	0	0.0478	0.83	3.26e-06	0.311	0.779	89.243	4	124027
@@ -4359,16 +5866,16 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 3kKbRNJmzSWdDgfKqJ9Eck	0.411	0.523	11	-11.786	1	0.241	0.782	9.08e-06	0.293	0.205	144.738	4	220727
 6ZT3coOj97F6CVvruPtnox	0.487	0.68	7	-8.497	0	0.0408	0.000599	0.0339	0.144	0.0752	94.46	3	324807
 4U9kJBr61UhO5srPib7zyz	0.718	0.443	2	-12.369	0	0.0458	0.911	4.71e-05	0.0972	0.442	109.041	4	255530
-3bjLA6ukBcGtvhe5tybxp7	0.774	0.295	6	-9	0	0.0741	0.893	0.00163	0.0637	0.197	141.003	4	177046
 0TxPln0uhql4ucFGk1XISM	0.595	0.645	1	-5.877	1	0.0744	0.708	0.00884	0.11	0.367	81.969	4	170387
+3bjLA6ukBcGtvhe5tybxp7	0.774	0.295	6	-9	0	0.0741	0.893	0.00163	0.0637	0.197	141.003	4	177046
 1DehtVbbTjUQjxGaXd5PnH	0.5	0.308	7	-14.472	0	0.0615	0.853	0.937	0.174	0.138	129.116	4	210308
 3EmNjy3zFszmAOCikiKxCd	0.542	0.838	6	-5.198	1	0.0392	0.00216	2.05e-06	0.0829	0.423	106.044	4	221827
-7GXxHj3tEDoJJbeoiAFL5H	0.455	0.928	6	-3.919	1	0.0524	0.000561	0	0.104	0.414	151.928	4	213169
 7ryIN2iKJiWvvIgEUAZieL	0.595	0.884	8	-3.075	0	0.0392	0.0382	0.000118	0.142	0.518	97.02	4	190773
+7GXxHj3tEDoJJbeoiAFL5H	0.455	0.928	6	-3.919	1	0.0524	0.000561	0	0.104	0.414	151.928	4	213169
 5mMbj4tHHK7rKA5xsjpxgy	0.503	0.406	4	-7.996	0	0.0274	0.0824	0	0.19	0.11	110.587	4	260465
 0hH4tifGuOUFfosHyWYksB	0.305	0.939	8	-3.476	1	0.0747	0.000312	0.00045	0.394	0.416	117.305	4	226717
-6BAsBBihclKUFYHFgfblVs	0.284	0.315	4	-11.167	1	0.0297	0.963	0.631	0.117	0.064	101.046	4	163201
 5OSxX2OPiEN4Y9xmxVbCuV	0.416	0.588	4	-5.772	1	0.028	0.00222	0.00596	0.0992	0.309	72.99	4	237653
+6BAsBBihclKUFYHFgfblVs	0.284	0.315	4	-11.167	1	0.0297	0.963	0.631	0.117	0.064	101.046	4	163201
 2WABC8g95w3gco43ssbnZS	0.481	0.962	6	-2.901	0	0.107	0.000873	7.8e-06	0.097	0.389	149.039	4	244934
 7BwOeJFK3isNQjk0OSydYW	0.481	0.495	10	-6.3	1	0.0281	0.608	0	0.0951	0.299	160.044	4	211973
 4Th8cKZu3Cv86XkVy0MvEC	0.45	0.733	5	-5.375	0	0.0292	0.0339	2e-06	0.143	0.394	146.936	4	201267
@@ -4377,8 +5884,8 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 3DWaW63wUHFFd3uPb3zxOG	0.74	0.875	7	-4.88	1	0.0773	0.431	0	0.0832	0.937	91.018	4	205747
 6wKFvNbzWbDYF3l8zhHG9Y	0.668	0.685	7	-8.19	0	0.0443	0.453	1.95e-05	0.135	0.61	100.043	4	230800
 4c0sQihy8sC6seVq58flWk	0.763	0.713	6	-5.86	0	0.106	0.0784	0.28	0.0832	0.969	160.058	4	169520
-4GN2wb0tsbw6bYy547NVLz	0.688	0.776	2	-6.116	1	0.0461	0.0976	0.863	0.0774	0.656	97.987	4	208867
 6OQbZkUt3lrAL5IxpnfWl2	0.821	0.856	1	-6.544	1	0.126	0.0013	0.618	0.0664	0.745	90.008	4	177533
+4GN2wb0tsbw6bYy547NVLz	0.688	0.776	2	-6.116	1	0.0461	0.0976	0.863	0.0774	0.656	97.987	4	208867
 76DHj55PsSlbUmBgtJFW19	0.845	0.866	1	-7.933	1	0.133	0.0648	0.325	0.0662	0.451	139.985	4	173253
 78Vr6h9qESHnTkN60Uiyak	0.71	0.876	11	-6.293	1	0.195	0.217	8.41e-06	0.121	0.804	89.958	4	235173
 1PNpMSjXiBDvcPGU72ZPPh	0.806	0.794	1	-9.084	1	0.0407	0.0242	0.000742	0.191	0.696	123.999	4	203480
@@ -4408,6 +5915,11 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 4Xs7u89f7XGy4Ayr7qMJ9g	0.747	0.581	9	-5.539	0	0.0571	0.799	0	0.136	0.529	130.019	4	226760
 23nUrTSlZxZcBepKnV1awN	0.653	0.602	0	-4.424	0	0.0369	0.88	0.29	0.104	0.582	112.36	4	71471
 36ZakwjewtzwQBkC3quEeI	0.699	0.6	10	-5.852	1	0.0525	0.762	0	0.31	0.774	133.106	4	306267
+4tTZq61IKisspn9NhoJtYn	0.559	0.706	2	-11.333	1	0.15	0.139	5.03e-06	0.0991	0.375	105.029	4	217640
+6A7bFw2HCDcINCCQc8YrMb	0.786	0.416	4	-11.577	1	0.353	0.754	8.66e-05	0.106	0.789	123.174	4	139600
+3wyElammb2nsBW3C9fAkIk	0.787	0.898	2	-9.948	1	0.0445	0.175	0.00556	0.336	0.825	104.954	4	325653
+5kl98MGNOGnEeFCu4yjq9e	0.641	0.652	5	-8.825	1	0.171	0.84	0	0.127	0.846	127.827	4	178840
+5fwEN7ftDTrqTpxOwadeIX	0.494	0.528	2	-11.866	1	0.0436	0.401	0	0.126	0.832	132.887	4	185080
 1OVkk2RSizr8K76vJ5I4fH	0.503	0.595	0	-5.595	1	0.0651	0.879	0	0.12	0.686	77.854	4	545667
 3eylvPuZoAkWdifEKCa1oQ	0.685	0.68	6	-5.129	1	0.156	0.86	0	0.107	0.633	69.7	4	220320
 1UYcrnSD8Rnoq2WF63bm1p	0.75	0.312	0	-17.164	1	0.525	0.704	0	0.0977	0.586	59.887	4	94827
@@ -4448,6 +5960,16 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 0gs7nB5nWGLx80u4Xmhdaq	0.58	0.677	0	-5.629	0	0.0723	0.844	0	0.146	0.863	128.531	4	232387
 67bdhgDvzzWeoXwe3Nd2dM	0.57	0.627	5	-2.119	0	0.0359	0.834	0	0.265	0.324	129.824	4	89467
 1ACxSxd20k2neg8hmUp01j	0.624	0.651	5	-3.734	1	0.0398	0.773	0	0.312	0.769	139.561	4	62427
+1mCNkrKh9NEgxJWUqHnEgo	0.354	0.829	9	-3.834	1	0.047	0.00183	0	0.119	0.195	163.958	4	216520
+1WxF4gMsFXnKCyh48CW2RI	0.274	0.792	2	-4.388	0	0.0413	0.00833	0	0.131	0.092	179.067	4	237347
+1JrtC2ubRFV2xB79J3UY1Z	0.509	0.856	11	-3.943	0	0.0331	0.00017	0.00302	0.12	0.535	84.542	4	213960
+3bAoghFUTVwGYXYnzRqhCf	0.33	0.734	2	-4.972	0	0.0416	0.000953	0	0.0874	0.256	178.986	4	221493
+00i9VF7sjSaTqblAuKFBDO	0.409	0.877	2	-5.865	0	0.0602	0.00329	0	0.222	0.403	177.928	4	208021
+3uErbNGaNIPJkRlMrLxR9Z	0.346	0.198	2	-12.208	0	0.0334	0.566	0.893	0.0958	0.163	138.103	3	285533
+6Tkzu1nvzb5tHVsjiu8IDF	0.493	0.905	8	-5.415	1	0.0332	0.000172	0.000879	0.102	0.321	90.014	4	208587
+2mPpPlCJKhjojKylWEs4ZC	0.481	0.746	9	-4.233	0	0.0377	0.000687	0	0.131	0.545	85.934	4	234493
+2a8ND713OfNIdlJD1p8jB3	0.433	0.595	7	-6.797	1	0.032	0.101	0	0.342	0.24	74.989	4	173747
+6W4pRJhZhyO3rz9vTITKRB	0.448	0.947	2	-6.658	1	0.0785	0.000119	0.0201	0.116	0.0835	124.045	4	353267
 5QZKcQDp0tCcvMdyqEciBV	0.457	0.621	10	-5.923	1	0.138	0.218	0	0.0944	0.634	85.359	3	224638
 5DPASDOoVakOcD8EIhb46T	0.737	0.548	4	-7.003	0	0.0498	0.0127	9.76e-06	0.176	0.156	160.058	4	175759
 341lTIxmhybbQsgydwJiFx	0.796	0.683	10	-5.165	0	0.277	0.0111	2.58e-06	0.126	0.737	173.852	3	141123
@@ -4458,7 +5980,6 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 5jDx8OLmJpnLKiDStY8US7	0.716	0.695	10	-6.854	0	0.0571	0.00244	0.457	0.147	0.428	148.881	4	130815
 4Rq2BMG5VWMhb2whSx8bf4	0.504	0.597	10	-6.237	1	0.1	0.206	0	0.0949	0.557	117.974	4	230489
 2OGfK0dPkEdALPwrmYXrVE	0.736	0.697	8	-5.393	1	0.0558	0.356	0	0.176	0.387	75.006	4	191777
-6W4pRJhZhyO3rz9vTITKRB	0.448	0.947	2	-6.658	1	0.0785	0.000119	0.0201	0.116	0.0835	124.045	4	353267
 \.
 
 
@@ -4467,6 +5988,9 @@ COPY public.features (track_id, danceability, energy, key, loudness, mode, speec
 --
 
 COPY public.friends (friend_id, f1_id, f2_id) FROM stdin;
+1	the_real_wjdhollow	12163992542
+3	12163992542	the_real_wjdhollow
+4	12163992542	robyndanylla
 \.
 
 
@@ -4517,6 +6041,7 @@ rap	rap	f
 west coast rap	west coast rap	f
 canadian contemporary r&b	canadian contemporary r&b	f
 canadian pop	canadian pop	f
+adult standards	adult standards	f
 brill building pop	brill building pop	f
 classic girl group	classic girl group	f
 post-hardcore	post-hardcore	f
@@ -4608,6 +6133,7 @@ ska mexicano	ska mexicano	f
 ska punk	ska punk	f
 modern blues	modern blues	f
 east coast hip hop	east coast hip hop	f
+indie garage rock	indie garage rock	f
 indie surf	indie surf	f
 neo-psychedelic	neo-psychedelic	f
 abstract hip hop	abstract hip hop	f
@@ -4642,12 +6168,10 @@ minneapolis sound	minneapolis sound	f
 synth funk	synth funk	f
 rap metal	rap metal	f
 garage pop	garage pop	f
-indie garage rock	indie garage rock	f
 chicago indie	chicago indie	f
 trap soul	trap soul	f
 new weird america	new weird america	f
 toronto indie	toronto indie	f
-adult standards	adult standards	f
 rock-and-roll	rock-and-roll	f
 modern folk rock	modern folk rock	f
 double drumming	double drumming	f
@@ -4662,6 +6186,7 @@ trap	trap	f
 dreamo	dreamo	f
 emo	emo	f
 philly indie	philly indie	f
+progressive post-hardcore	progressive post-hardcore	f
 axe	axe	f
 brazilian percussion	brazilian percussion	f
 mpb	mpb	f
@@ -4672,36 +6197,115 @@ boom bap	boom bap	f
 hardcore hip hop	hardcore hip hop	f
 jazz boom bap	jazz boom bap	f
 indie poptimism	indie poptimism	f
+afrofuturism	afrofuturism	f
+hip pop	hip pop	f
 boston rock	boston rock	f
+portland indie	portland indie	f
 afrobeat	afrobeat	f
 brass band	brass band	f
 instrumental funk	instrumental funk	f
-portland indie	portland indie	f
 jacksonville indie	jacksonville indie	f
 michigan indie	michigan indie	f
 art punk	art punk	f
 south carolina indie	south carolina indie	f
 oxford indie	oxford indie	f
 metal	metal	f
-chicago soul	chicago soul	f
 irish singer-songwriter	irish singer-songwriter	f
 classic garage rock	classic garage rock	f
 freakbeat	freakbeat	f
+nyc pop	nyc pop	f
+gothabilly	gothabilly	f
+psychobilly	psychobilly	f
+alternative pop	alternative pop	f
+gbvfi	gbvfi	f
+modern power pop	modern power pop	f
+noise pop	noise pop	f
+ohio indie	ohio indie	f
+power pop	power pop	f
+welsh hip hop	welsh hip hop	f
+progressive metal	progressive metal	f
+progressive rock	progressive rock	f
+jazz cover	jazz cover	f
+swing	swing	f
+beatlesque	beatlesque	f
+glam metal	glam metal	f
+post-grunge	post-grunge	f
+irish indie rock	irish indie rock	f
+funk metal	funk metal	f
+canadian metal	canadian metal	f
+canadian rock	canadian rock	f
+metropopolis	metropopolis	f
+uk alternative pop	uk alternative pop	f
+pink noise	pink noise	f
 proto-hyperpop	proto-hyperpop	f
+viral rap	viral rap	f
+alt z	alt z	f
+post-teen pop	post-teen pop	f
+lounge	lounge	f
+torch song	torch song	f
+vocal jazz	vocal jazz	f
+gauze pop	gauze pop	f
+shiver pop	shiver pop	f
+metalcore	metalcore	f
+trancecore	trancecore	f
+uk metalcore	uk metalcore	f
+candy pop	candy pop	f
+chanson	chanson	f
+ye ye	ye ye	f
+brisbane indie	brisbane indie	f
+dark trap	dark trap	f
+europop	europop	f
+eurovision	eurovision	f
+swedish pop	swedish pop	f
+australian alternative pop	australian alternative pop	f
+australian pop	australian pop	f
+pop r&b	pop r&b	f
+belgian indie	belgian indie	f
+belgian pop	belgian pop	f
+auckland indie	auckland indie	f
+kiwi rock	kiwi rock	f
+hi-nrg	hi-nrg	f
+pop punk	pop punk	f
+indie electropop	indie electropop	f
+deep adult standards	deep adult standards	f
+geek folk	geek folk	f
+neo-pagan	neo-pagan	f
+canadian electropop	canadian electropop	f
+grave wave	grave wave	f
+cinematic post-rock	cinematic post-rock	f
+symphonic rock	symphonic rock	f
+old school atlanta hip hop	old school atlanta hip hop	f
+cello	cello	f
+experimental	experimental	f
+minimalism	minimalism	f
+modern cello	modern cello	f
+free folk	free folk	f
+queer country	queer country	f
+chillstep	chillstep	f
+rockabilly	rockabilly	f
+scottish new wave	scottish new wave	f
+solo wave	solo wave	f
+etherpop	etherpop	f
+dark jazz	dark jazz	f
+drone	drone	f
+ebm	ebm	f
+electro-industrial	electro-industrial	f
+futurepop	futurepop	f
+electronica	electronica	f
+laboratorio	laboratorio	f
+trip hop	trip hop	f
+vegan straight edge	vegan straight edge	f
+south african rock	south african rock	f
+modern indie pop	modern indie pop	f
+scenecore	scenecore	f
 experimental hip hop	experimental hip hop	f
 psychedelic hip hop	psychedelic hip hop	f
 brooklyn drill	brooklyn drill	f
-metalcore	metalcore	f
 pixie	pixie	f
 swancore	swancore	f
-australian pop	australian pop	f
 melodic rap	melodic rap	f
-post-grunge	post-grunge	f
 anime score	anime score	f
-canadian rock	canadian rock	f
-metropopolis	metropopolis	f
 neo-synthpop	neo-synthpop	f
-viral rap	viral rap	f
 gabba	gabba	f
 hardcore techno	hardcore techno	f
 tekk	tekk	f
@@ -4711,7 +6315,6 @@ nyc rap	nyc rap	f
 pittsburgh rap	pittsburgh rap	f
 moombahton	moombahton	f
 tropical house	tropical house	f
-dark trap	dark trap	f
 drill	drill	f
 miami hip hop	miami hip hop	f
 danish alternative rock	danish alternative rock	f
@@ -4724,20 +6327,16 @@ slap house	slap house	f
 virginia hip hop	virginia hip hop	f
 bass house	bass house	f
 indonesian edm	indonesian edm	f
-pop punk	pop punk	f
-post-teen pop	post-teen pop	f
 bossa nova	bossa nova	f
 samba de roda	samba de roda	f
 tropicalia	tropicalia	f
-partido alto	partido alto	f
 rap baiano	rap baiano	f
 trap baiano	trap baiano	f
 trap brasileiro	trap brasileiro	f
 violao	violao	f
 brazilian jazz	brazilian jazz	f
-lounge	lounge	f
 samba-jazz	samba-jazz	f
-vocal jazz	vocal jazz	f
+partido alto	partido alto	f
 jazz rap	jazz rap	f
 english indie rock	english indie rock	f
 chillhop	chillhop	f
@@ -4753,8 +6352,11 @@ samba-rock	samba-rock	f
 brazilian indie	brazilian indie	f
 nova mpb	nova mpb	f
 rock baiano	rock baiano	f
+neo r&b	neo r&b	f
+big beat	big beat	f
+ninja	ninja	f
+nu jazz	nu jazz	f
 dfw rap	dfw rap	f
-candy pop	candy pop	f
 brostep	brostep	f
 progressive electro house	progressive electro house	f
 emo rap	emo rap	f
@@ -4770,9 +6372,7 @@ tennessee hip hop	tennessee hip hop	f
 birmingham grime	birmingham grime	f
 grime	grime	f
 instrumental grime	instrumental grime	f
-soundtrack	soundtrack	f
 bow pop	bow pop	f
-cello	cello	f
 finnish metal	finnish metal	f
 cali rap	cali rap	f
 \.
@@ -4783,561 +6383,711 @@ cali rap	cali rap	f
 --
 
 COPY public.items (id, user_id, date, item_type, timespan, rank, spotify_id) FROM stdin;
-1	12163992542	1668750205	track	long_term	1	1Kjw0LwdniCWran4PxJqPQ
-2	12163992542	1668750205	track	long_term	2	1I40L32fTSSkBkPeArX9Ul
-3	12163992542	1668750205	track	long_term	3	5fBjPtOxhgdpU6LNWLyVHv
-4	12163992542	1668750205	track	long_term	4	4FE9SgxcOoCNuGnaaU8TXz
-5	12163992542	1668750205	track	long_term	5	4FF4q2qyOsFhRavZ0bdVXT
-6	12163992542	1668750205	track	long_term	6	0qprlw0jfsW4H9cG0FFE0Z
-7	12163992542	1668750205	track	long_term	7	3jp7Ryj1sX3riA7NQaVlLd
-8	12163992542	1668750205	track	long_term	8	2I88NEWpKrAPZuapXNV5G6
-9	12163992542	1668750205	track	long_term	9	6YZQx90VEuzf0lRY9TYh7j
-10	12163992542	1668750205	track	long_term	10	54b8qPFqYqIndfdxiLApea
-11	12163992542	1668750205	track	long_term	11	3sTN90bIP2cJ1783ctHykO
-12	12163992542	1668750205	track	long_term	12	2P3SLxeQHPqh8qKB6gtJY2
-13	12163992542	1668750205	track	long_term	13	474uVhyGgK5MtY9gMcDgGl
-14	12163992542	1668750205	track	long_term	14	16ro1is6DmDKkarlJMBbzV
-15	12163992542	1668750205	track	long_term	15	4frLb7nWtsz2ymBE6k2GRP
-16	12163992542	1668750205	track	long_term	16	2G2YzndIA6jeWFPBXhUjh5
-17	12163992542	1668750205	track	long_term	17	5jZ1Z2GFTf2gwmFc3qiUxs
-18	12163992542	1668750205	track	long_term	18	5vyt44455ipNNVSYq8fYY7
-19	12163992542	1668750205	track	long_term	19	1OFKUn2VLafrHj7ybnap0Q
-20	12163992542	1668750205	track	long_term	20	21oJ1K99GBJrE2GVQGVjA0
-21	12163992542	1668750205	track	long_term	21	1LzNfuep1bnAUR9skqdHCK
-22	12163992542	1668750205	track	long_term	22	748yv6bb3l3CcKS45a6SZ8
-23	12163992542	1668750205	track	long_term	23	6NvRxjfYkkT2SpirAlmsjH
-24	12163992542	1668750205	track	long_term	24	0hJS3EHWC4uL9sJ52ErpoN
-25	12163992542	1668750205	track	long_term	25	1ZaNp6b4cY3zcrciagi7td
-26	12163992542	1668750205	track	long_term	26	1qQSRy9DjrGh3jtsSCU6B1
-27	12163992542	1668750205	track	long_term	27	3s8MBOMdUi5Vol77qq8KJJ
-28	12163992542	1668750205	track	long_term	28	4j3GWI86JvSaF0BLdmgcfF
-29	12163992542	1668750205	track	long_term	29	4f8Mh5wuWHOsfXtzjrJB3t
-30	12163992542	1668750205	track	long_term	30	6VojZJpMyuKClbwyilWlQj
-31	12163992542	1668750205	track	long_term	31	1TDdYSYLIXMJ4EiKO6ZCYk
-32	12163992542	1668750205	track	long_term	32	1RbOObDFn7GOseR1w529Zj
-33	12163992542	1668750205	track	long_term	33	0Hw6SCrtU9pFCjgAONpnGZ
-34	12163992542	1668750205	track	long_term	34	0S29RwGLJutn4qnFJQL13n
-35	12163992542	1668750205	track	long_term	35	5SCB7L1alKg7ZEeSw7Sq9f
-36	12163992542	1668750205	track	long_term	36	3aN2V18W3EiW7eg5tHALpF
-37	12163992542	1668750205	track	long_term	37	5hVghJ4KaYES3BFUATCYn0
-38	12163992542	1668750205	track	long_term	38	6fc51JZVE0Yijdi6RuoLFv
-39	12163992542	1668750205	track	long_term	39	3zJ5RDG0bLQAV2rntFgUtb
-40	12163992542	1668750205	track	long_term	40	6iGU74CwXuT4XVepjc9Emf
-41	12163992542	1668750205	track	long_term	41	7wdzLe2Gsx1RGqbvYZHASz
-42	12163992542	1668750205	track	long_term	42	3imS277wRbz1CFoDySgTff
-43	12163992542	1668750205	track	long_term	43	3mT1AONeTJDi1k8vH8pA2L
-44	12163992542	1668750205	track	long_term	44	7Cu2COdH93MnuireuKNiS3
-45	12163992542	1668750205	track	long_term	45	7JmPqImeW3kLoYVNBA9v11
-46	12163992542	1668750205	track	long_term	46	2aCKBrLn7rbhStk5k4FwnF
-47	12163992542	1668750205	track	long_term	47	0vJvCnuxXL2BCSRa1ZoeNl
-48	12163992542	1668750205	track	long_term	48	1zkkvSLk5Nh4uoyKWwuie9
-49	12163992542	1668750205	track	long_term	49	62wdQ5CInFr7cjISqrr46f
-50	12163992542	1668750205	track	long_term	50	3iVp14VoAsAZkIdgQoRRAb
-51	12163992542	1668750205	track	medium_term	1	16ro1is6DmDKkarlJMBbzV
-52	12163992542	1668750205	track	medium_term	2	0hJS3EHWC4uL9sJ52ErpoN
-53	12163992542	1668750205	track	medium_term	3	5vyt44455ipNNVSYq8fYY7
-54	12163992542	1668750205	track	medium_term	4	474uVhyGgK5MtY9gMcDgGl
-55	12163992542	1668750205	track	medium_term	5	1TDdYSYLIXMJ4EiKO6ZCYk
-56	12163992542	1668750205	track	medium_term	6	63k361zOGEhmvgzBdzzSGP
-57	12163992542	1668750205	track	medium_term	7	04M3DsiMNyn8s5XQJrW5sL
-58	12163992542	1668750205	track	medium_term	8	6fc51JZVE0Yijdi6RuoLFv
-59	12163992542	1668750205	track	medium_term	9	5rfT032kGmLvbxZzfHlu5D
-60	12163992542	1668750205	track	medium_term	10	5zzWx7oJ9zBmv76uFaFeYR
-61	12163992542	1668750205	track	medium_term	11	2pA4ip3VIEVcIa3qE02oAX
-62	12163992542	1668750205	track	medium_term	12	1k7aPYyAnNTjVbjw1YDNp1
-63	12163992542	1668750205	track	medium_term	13	41xaZ4WLlKD95U5PknoJrV
-64	12163992542	1668750205	track	medium_term	14	1zkkvSLk5Nh4uoyKWwuie9
-65	12163992542	1668750205	track	medium_term	15	33vFhGNZa44VJ0I21AOGYe
-66	12163992542	1668750205	track	medium_term	16	03v70ZBxmcPX3RWAZMzqaW
-67	12163992542	1668750205	track	medium_term	17	1RzgWAFlI6KOenjOxJYcH0
-68	12163992542	1668750205	track	medium_term	18	2OeL43EXwaC205Xr1da1qJ
-69	12163992542	1668750205	track	medium_term	19	5CU1bbfY1wUPm7fU255Dhf
-70	12163992542	1668750205	track	medium_term	20	0dqJjKKxuKD5Dt3QH2n4CG
-71	12163992542	1668750205	track	medium_term	21	5C90m8eM6GJR2SACiLAWHo
-72	12163992542	1668750205	track	medium_term	22	4Fc62OkXYtEOjMmaSyJoQY
-73	12163992542	1668750205	track	medium_term	23	244QS6446wyO1UfVTWlOlR
-74	12163992542	1668750205	track	medium_term	24	5L7IgwUPhir2FJftGNXJDW
-75	12163992542	1668750205	track	medium_term	25	35mL8keNDi2VLHrFXZCgJR
-76	12163992542	1668750205	track	medium_term	26	3aN2V18W3EiW7eg5tHALpF
-77	12163992542	1668750205	track	medium_term	27	50bmpfgcV29ouRVDfr5wOc
-78	12163992542	1668750205	track	medium_term	28	5IRdIQNIZzVqE4XyBylkvd
-79	12163992542	1668750205	track	medium_term	29	4FF4q2qyOsFhRavZ0bdVXT
-80	12163992542	1668750205	track	medium_term	30	5do7Ql6G8N03fY6G9Y08Ec
-81	12163992542	1668750205	track	medium_term	31	6YZQx90VEuzf0lRY9TYh7j
-82	12163992542	1668750205	track	medium_term	32	0ZAbupc7jAQpG9IxojQ3s3
-83	12163992542	1668750205	track	medium_term	33	6MDijuuArPJv1vbp7K1x3f
-84	12163992542	1668750205	track	medium_term	34	0b2vqB7QNT4z8nnaYqbuel
-85	12163992542	1668750205	track	medium_term	35	47KDDZgFiX1w6RFOuLXsSn
-86	12163992542	1668750205	track	medium_term	36	3LcjZGk0GBlPRe5XhYVGgM
-87	12163992542	1668750205	track	medium_term	37	37ZvpHeZKazqOnLfAGm9nb
-88	12163992542	1668750205	track	medium_term	38	0JXXNGljqupsJaZsgSbMZV
-89	12163992542	1668750205	track	medium_term	39	3banchOoe2giyRK0jaO1c7
-90	12163992542	1668750205	track	medium_term	40	7trx783SvnHhKkmgSSTIFJ
-91	12163992542	1668750205	track	medium_term	41	27AG99NmWMFLRoyZMMPNW2
-92	12163992542	1668750205	track	medium_term	42	7l5j3FapCyr6HxUgoAynM2
-93	12163992542	1668750205	track	medium_term	43	5VA4Ispp52EA1sOqzMz3Av
-94	12163992542	1668750205	track	medium_term	44	7qHoVZ6076OGx18G6W5vQ9
-95	12163992542	1668750205	track	medium_term	45	4hv7GT5g9qNnrxlocsOSYt
-96	12163992542	1668750205	track	medium_term	46	4PFiLGx8jAzcAJxwPLUeZ9
-97	12163992542	1668750205	track	medium_term	47	1ULovMYbbglXIn9TQzMsKz
-98	12163992542	1668750205	track	medium_term	48	4isk4UYRcmslphcTq61xUg
-99	12163992542	1668750205	track	medium_term	49	5WoaF1B5XIEnWfmb5NZikf
-100	12163992542	1668750205	track	medium_term	50	7sf0tmuGZlHXUWpi9dQqcw
-101	12163992542	1668750205	track	short_term	1	0b2vqB7QNT4z8nnaYqbuel
-102	12163992542	1668750205	track	short_term	2	3Pu3IChaAoa5EjgUBv5F6x
-103	12163992542	1668750205	track	short_term	3	63k361zOGEhmvgzBdzzSGP
-104	12163992542	1668750205	track	short_term	4	5p0bEz7DNsULez2X9yrNGa
-105	12163992542	1668750205	track	short_term	5	1dxXQuExRVu77xF1r5YtRF
-106	12163992542	1668750205	track	short_term	6	244QS6446wyO1UfVTWlOlR
-107	12163992542	1668750205	track	short_term	7	0wejso6CHHEEqvTD3f3gBz
-108	12163992542	1668750205	track	short_term	8	23od4rorIdhvYeLL7YqP9n
-109	12163992542	1668750205	track	short_term	9	2I3ZdIFXnRn1PSAdMC4w71
-110	12163992542	1668750205	track	short_term	10	5eKfpH2dQ7FltCqb7LWEGJ
-111	12163992542	1668750205	track	short_term	11	7Cva2EgJougx6O6M5xgWAq
-112	12163992542	1668750205	track	short_term	12	7KR5uycb8gfQYRl1MTL8aB
-113	12163992542	1668750205	track	short_term	13	7xjbn0bhs7zx7E1s0lCqT3
-114	12163992542	1668750205	track	short_term	14	474uVhyGgK5MtY9gMcDgGl
-115	12163992542	1668750205	track	short_term	15	56KqaFSGTb7ifpt16t5Y1N
-116	12163992542	1668750205	track	short_term	16	4Fc62OkXYtEOjMmaSyJoQY
-117	12163992542	1668750205	track	short_term	17	3YZa4IzxK2UtEKTvdTgsi8
-118	12163992542	1668750205	track	short_term	18	4TIJ7zSBNejpoIPaWpWRKc
-119	12163992542	1668750205	track	short_term	19	1TDdYSYLIXMJ4EiKO6ZCYk
-120	12163992542	1668750205	track	short_term	20	21YxK0klhpfLW8budkJaMF
-121	12163992542	1668750205	track	short_term	21	29iwiYD3KVWBKxe31nGjEL
-122	12163992542	1668750205	track	short_term	22	5El6bpLd8nYPsvWgZLdHio
-123	12163992542	1668750205	track	short_term	23	72dIN8F7D5ydB3auSqNi84
-124	12163992542	1668750205	track	short_term	24	29Znt9AbEH9FSsw86zPAYT
-125	12163992542	1668750205	track	short_term	25	3EytfC22ikoXM921cJbejn
-126	12163992542	1668750205	track	short_term	26	4vKLfj7YuS2yRKAJ9Nn0Id
-127	12163992542	1668750205	track	short_term	27	6eDwkS4IHADqk06ssrqfUX
-128	12163992542	1668750205	track	short_term	28	0WQiDwKJclirSYG9v5tayI
-129	12163992542	1668750205	track	short_term	29	0vF9RAGwgYtfO1Aajwb7et
-130	12163992542	1668750205	track	short_term	30	10fiZCExnOMqElSX952WZI
-131	12163992542	1668750205	track	short_term	31	14z3RzUHeZQgtpOlSYvmZD
-132	12163992542	1668750205	track	short_term	32	1AR58rtcLziNnRHTCmCywd
-133	12163992542	1668750205	track	short_term	33	1e5XqFTNIrlgpXGjwPSykv
-134	12163992542	1668750205	track	short_term	34	3s5N94NsDYcOqgi7cSakv6
-135	12163992542	1668750205	track	short_term	35	3wtMkvedoWMQ3XTKv7tqcZ
-136	12163992542	1668750205	track	short_term	36	4J6JARDGkdc1fqLEflP94Z
-137	12163992542	1668750205	track	short_term	37	4ZTl5GUAmO49b2cf6jovqx
-138	12163992542	1668750205	track	short_term	38	4oB0d8H93GtllDkoHNuLIN
-139	12163992542	1668750205	track	short_term	39	5avF5IwDg2v1QCxPvX9Fru
-140	12163992542	1668750205	track	short_term	40	672N8DGGTOLCOgWe0koX5g
-141	12163992542	1668750205	track	short_term	41	16ro1is6DmDKkarlJMBbzV
-142	12163992542	1668750205	track	short_term	42	6fc51JZVE0Yijdi6RuoLFv
-143	12163992542	1668750205	track	short_term	43	6Dq2LzijkY9WNPwBGDah4L
-144	12163992542	1668750205	track	short_term	44	0hJS3EHWC4uL9sJ52ErpoN
-145	12163992542	1668750205	track	short_term	45	1k7aPYyAnNTjVbjw1YDNp1
-146	12163992542	1668750205	track	short_term	46	33vFhGNZa44VJ0I21AOGYe
-147	12163992542	1668750205	track	short_term	47	1RzgWAFlI6KOenjOxJYcH0
-148	12163992542	1668750205	track	short_term	48	41xaZ4WLlKD95U5PknoJrV
-149	12163992542	1668750205	track	short_term	49	5vyt44455ipNNVSYq8fYY7
-150	12163992542	1668750205	track	short_term	50	3Cx9j78Z0NE6jYwBWvvV3P
-151	12163992542	1668750207	artist	long_term	1	1Xyo4u8uXC1ZmMpatF05PJ
-152	12163992542	1668750207	artist	long_term	2	00FQb4jTyendYWaN8pK0wa
-153	12163992542	1668750207	artist	long_term	3	360IAlyVv4PCEVjgyMZrxK
-154	12163992542	1668750207	artist	long_term	4	4hz8tIajF2INpgM0qzPJz2
-155	12163992542	1668750207	artist	long_term	5	4V8LLVI7PbaPR0K2TGSxFF
-156	12163992542	1668750207	artist	long_term	6	4lujUKeO6nQAJXpq37Epn7
-157	12163992542	1668750207	artist	long_term	7	0bzfPKdbXL5ezYW2z3UGQj
-158	12163992542	1668750207	artist	long_term	8	5wFXmYsg3KFJ8BDsQudJ4f
-159	12163992542	1668750207	artist	long_term	9	462T0buQ5ScBUQCRpodDRf
-160	12163992542	1668750207	artist	long_term	10	0YrtvWJMgSdVrk3SfNjTbx
-161	12163992542	1668750207	artist	long_term	11	6ltzsmQQbmdoHHbLZ4ZN25
-162	12163992542	1668750207	artist	long_term	12	3jK9MiCrA42lLAdMGUZpwa
-163	12163992542	1668750207	artist	long_term	13	3qnGvpP8Yth1AqSBMqON5x
-164	12163992542	1668750207	artist	long_term	14	60df5JBRRPcnSpsIMxxwQm
-165	12163992542	1668750207	artist	long_term	15	13ubrt8QOOCPljQ2FL1Kca
-166	12163992542	1668750207	artist	long_term	16	2YZyLoL8N0Wb9xBt1NhZWg
-167	12163992542	1668750207	artist	long_term	17	6QRlkjrHz5A62mqeNZz7t3
-168	12163992542	1668750207	artist	long_term	18	5CuU6SRJjbbZL926nSGGxX
-169	12163992542	1668750207	artist	long_term	19	6pmxr66tMAePxzOLfjGNcX
-170	12163992542	1668750207	artist	long_term	20	3XHO7cRUPCLOr6jwp8vsx5
-171	12163992542	1668750207	artist	long_term	21	20wkVLutqVOYrc0kxFs7rA
-172	12163992542	1668750207	artist	long_term	22	6eU0jV2eEZ8XTM7EmlguK6
-173	12163992542	1668750207	artist	long_term	23	2h93pZq0e7k5yf4dywlkpM
-174	12163992542	1668750207	artist	long_term	24	1zXCFUgH6FWS0iCiCKsH55
-175	12163992542	1668750207	artist	long_term	25	6PEMFpe3PTOksdV4ZXUpbE
-176	12163992542	1668750207	artist	long_term	26	3z6Gk257P9jNcZbBXJNX5i
-177	12163992542	1668750207	artist	long_term	27	74oJ4qxwOZvX6oSsu1DGnw
-178	12163992542	1668750207	artist	long_term	28	0XSqX2PB3C5dTMv7SZaxSm
-179	12163992542	1668750207	artist	long_term	29	08GQAI4eElDnROBrJRGE0X
-180	12163992542	1668750207	artist	long_term	30	6l3HvQ5sa6mXTsMTB19rO5
-181	12163992542	1668750207	artist	long_term	31	6RZUqkomCmb8zCRqc9eznB
-182	12163992542	1668750207	artist	long_term	32	0fA0VVWsXO9YnASrzqfmYu
-183	12163992542	1668750207	artist	long_term	33	6ZK2nrW8aCTg8Bid7I7N10
-184	12163992542	1668750207	artist	long_term	34	6TVVIyd0fsRDGg6WzHKyTP
-185	12163992542	1668750207	artist	long_term	35	6tkrcmVfWoHC4WOhE7IDyq
-186	12163992542	1668750207	artist	long_term	36	600GgDUq9kzGJgNIrVsWfz
-187	12163992542	1668750207	artist	long_term	37	2jgPkn6LuUazBoBk6vvjh5
-188	12163992542	1668750207	artist	long_term	38	6v8FB84lnmJs434UJf2Mrm
-189	12163992542	1668750207	artist	long_term	39	3QTDHixorJelOLxoxcjqGx
-190	12163992542	1668750207	artist	long_term	40	0qu422H5MOoQxGjd4IzHbS
-191	12163992542	1668750207	artist	long_term	41	3ycxRkcZ67ALN3GQJ57Vig
-192	12163992542	1668750207	artist	long_term	42	2ooIqOf4X2uz4mMptXCtie
-193	12163992542	1668750207	artist	long_term	43	77SW9BnxLY8rJ0RciFqkHh
-194	12163992542	1668750207	artist	long_term	44	5NYEE4kgrEZPlM3DxUsTyc
-195	12163992542	1668750207	artist	long_term	45	75dQReiBOHN37fQgWQrIAJ
-196	12163992542	1668750207	artist	long_term	46	2pAajGWerK3ghwToNWFENS
-197	12163992542	1668750207	artist	long_term	47	22bE4uQ6baNwSHPVcDxLCe
-198	12163992542	1668750207	artist	long_term	48	5a2EaR3hamoenG9rDuVn8j
-199	12163992542	1668750207	artist	long_term	49	6Ghvu1VvMGScGpOUJBAHNH
-200	12163992542	1668750207	artist	long_term	50	1KP6TWI40m7p3QBTU6u2xo
-201	12163992542	1668750207	artist	medium_term	1	4hz8tIajF2INpgM0qzPJz2
-202	12163992542	1668750207	artist	medium_term	2	5wFXmYsg3KFJ8BDsQudJ4f
-203	12163992542	1668750207	artist	medium_term	3	360IAlyVv4PCEVjgyMZrxK
-204	12163992542	1668750207	artist	medium_term	4	0YrtvWJMgSdVrk3SfNjTbx
-205	12163992542	1668750207	artist	medium_term	5	0fA0VVWsXO9YnASrzqfmYu
-206	12163992542	1668750207	artist	medium_term	6	2ooIqOf4X2uz4mMptXCtie
-207	12163992542	1668750207	artist	medium_term	7	4n0gvapwYbRpzU5Ov68B6P
-208	12163992542	1668750207	artist	medium_term	8	1KP6TWI40m7p3QBTU6u2xo
-209	12163992542	1668750207	artist	medium_term	9	3jK9MiCrA42lLAdMGUZpwa
-210	12163992542	1668750207	artist	medium_term	10	4lujUKeO6nQAJXpq37Epn7
-211	12163992542	1668750207	artist	medium_term	11	0XSqX2PB3C5dTMv7SZaxSm
-212	12163992542	1668750207	artist	medium_term	12	1zXCFUgH6FWS0iCiCKsH55
-213	12163992542	1668750207	artist	medium_term	13	3XHO7cRUPCLOr6jwp8vsx5
-214	12163992542	1668750207	artist	medium_term	14	462T0buQ5ScBUQCRpodDRf
-215	12163992542	1668750207	artist	medium_term	15	4uSftVc3FPWe6RJuMZNEe9
-216	12163992542	1668750207	artist	medium_term	16	6AWdGez5g1jxpfl9XD4wI3
-217	12163992542	1668750207	artist	medium_term	17	7HeVXdOdMhLslVputGTZFQ
-218	12163992542	1668750207	artist	medium_term	18	6ltzsmQQbmdoHHbLZ4ZN25
-219	12163992542	1668750207	artist	medium_term	19	0V7uVrIYr4FwFvUN9S4kYr
-220	12163992542	1668750207	artist	medium_term	20	6hnWRPzGGKiapVX1UCdEAC
-221	12163992542	1668750207	artist	medium_term	21	2FRXiAz5Uz78LLLSwEUhLt
-222	12163992542	1668750207	artist	medium_term	22	2pAajGWerK3ghwToNWFENS
-223	12163992542	1668750207	artist	medium_term	23	1Xyo4u8uXC1ZmMpatF05PJ
-224	12163992542	1668750207	artist	medium_term	24	1fZpYWNWdL5Z3wrDtISFUH
-225	12163992542	1668750207	artist	medium_term	25	6TVVIyd0fsRDGg6WzHKyTP
-226	12163992542	1668750207	artist	medium_term	26	7ITd48RbLVpUfheE7B86o2
-227	12163992542	1668750207	artist	medium_term	27	0EdvGhlC1FkGItLOWQzG4J
-228	12163992542	1668750207	artist	medium_term	28	1yAwtBaoHLEDWAnWR87hBT
-229	12163992542	1668750207	artist	medium_term	29	6LufpoVlIYKQCu9Gjpk8B7
-230	12163992542	1668750207	artist	medium_term	30	0oSGxfWSnnOXhD2fKuz2Gy
-231	12163992542	1668750207	artist	medium_term	31	00FQb4jTyendYWaN8pK0wa
-232	12163992542	1668750207	artist	medium_term	32	2kGBy2WHvF0VdZyqiVCkDT
-233	12163992542	1668750207	artist	medium_term	33	60df5JBRRPcnSpsIMxxwQm
-234	12163992542	1668750207	artist	medium_term	34	68kEuyFKyqrdQQLLsmiatm
-235	12163992542	1668750207	artist	medium_term	35	1hzfo8twXdOegF3xireCYs
-236	12163992542	1668750207	artist	medium_term	36	251UrhgNbMr15NLzQ2KyKq
-237	12163992542	1668750207	artist	medium_term	37	3yY2gUcIsjMr8hjo51PoJ8
-238	12163992542	1668750207	artist	medium_term	38	4DFhHyjvGYa9wxdHUjtDkc
-239	12163992542	1668750207	artist	medium_term	39	5IcR3N7QB1j6KBL8eImZ8m
-240	12163992542	1668750207	artist	medium_term	40	3D4qYDvoPn5cQxtBm4oseo
-241	12163992542	1668750207	artist	medium_term	41	3tJ9PkBOrG7hFkHeNM2tbw
-242	12163992542	1668750207	artist	medium_term	42	2ApaG60P4r0yhBoDCGD8YG
-243	12163992542	1668750207	artist	medium_term	43	0bzfPKdbXL5ezYW2z3UGQj
-244	12163992542	1668750207	artist	medium_term	44	6RZUqkomCmb8zCRqc9eznB
-245	12163992542	1668750207	artist	medium_term	45	6GEykX11lQqp92UVOQQCC7
-246	12163992542	1668750207	artist	medium_term	46	0rpMdBzQXf7aYRnu5fDBJy
-247	12163992542	1668750207	artist	medium_term	47	1anAI9P9iSzc9qzLv6AtHZ
-248	12163992542	1668750207	artist	medium_term	48	3qnGvpP8Yth1AqSBMqON5x
-249	12163992542	1668750207	artist	medium_term	49	75dQReiBOHN37fQgWQrIAJ
-250	12163992542	1668750207	artist	medium_term	50	6zvul52xwTWzilBZl6BUbT
-251	12163992542	1668750207	artist	short_term	1	0YrtvWJMgSdVrk3SfNjTbx
-252	12163992542	1668750207	artist	short_term	2	5wFXmYsg3KFJ8BDsQudJ4f
-253	12163992542	1668750207	artist	short_term	3	4hz8tIajF2INpgM0qzPJz2
-254	12163992542	1668750207	artist	short_term	4	4lujUKeO6nQAJXpq37Epn7
-255	12163992542	1668750207	artist	short_term	5	0oSGxfWSnnOXhD2fKuz2Gy
-256	12163992542	1668750207	artist	short_term	6	462T0buQ5ScBUQCRpodDRf
-257	12163992542	1668750207	artist	short_term	7	6TVVIyd0fsRDGg6WzHKyTP
-258	12163992542	1668750207	artist	short_term	8	0EdvGhlC1FkGItLOWQzG4J
-259	12163992542	1668750207	artist	short_term	9	6LufpoVlIYKQCu9Gjpk8B7
-260	12163992542	1668750207	artist	short_term	10	3yY2gUcIsjMr8hjo51PoJ8
-261	12163992542	1668750207	artist	short_term	11	6ltzsmQQbmdoHHbLZ4ZN25
-262	12163992542	1668750207	artist	short_term	12	0V7uVrIYr4FwFvUN9S4kYr
-263	12163992542	1668750207	artist	short_term	13	6zvul52xwTWzilBZl6BUbT
-264	12163992542	1668750207	artist	short_term	14	75dQReiBOHN37fQgWQrIAJ
-265	12163992542	1668750207	artist	short_term	15	2ooIqOf4X2uz4mMptXCtie
-266	12163992542	1668750207	artist	short_term	16	3RGLhK1IP9jnYFH4BRFJBS
-267	12163992542	1668750207	artist	short_term	17	2bToe6WyGvADJftreuXh2K
-268	12163992542	1668750207	artist	short_term	18	432R46LaYsJZV2Gmc4jUV5
-269	12163992542	1668750207	artist	short_term	19	1PryMSya1JnSAlcwYawCxp
-270	12163992542	1668750207	artist	short_term	20	0rpMdBzQXf7aYRnu5fDBJy
-271	12163992542	1668750207	artist	short_term	21	1nGqKVGfPPiVgxMdx8hYOI
-272	12163992542	1668750207	artist	short_term	22	1fZpYWNWdL5Z3wrDtISFUH
-273	12163992542	1668750207	artist	short_term	23	7FKTg75ADVMZgY3P9ZMRtH
-274	12163992542	1668750207	artist	short_term	24	7bu3H8JO7d0UbMoVzbo70s
-275	12163992542	1668750207	artist	short_term	25	0MVp3LuNho9Hk6Q1owsWwt
-276	12163992542	1668750207	artist	short_term	26	1SQRv42e4PjEYfPhS0Tk9E
-277	12163992542	1668750207	artist	short_term	27	0oL26Dn9y761yfJgNb3vfu
-278	12163992542	1668750207	artist	short_term	28	4BFMTELQyWJU1SwqcXMBm3
-279	12163992542	1668750207	artist	short_term	29	60df5JBRRPcnSpsIMxxwQm
-280	12163992542	1668750207	artist	short_term	30	0v6gOfGBclTSGu6agfXb23
-281	12163992542	1668750207	artist	short_term	31	0yNLKJebCb8Aueb54LYya3
-282	12163992542	1668750207	artist	short_term	32	4fXkvh05wFhuH77MfD4m9o
-283	12163992542	1668750207	artist	short_term	33	2x9SpqnPi8rlE9pjHBwmSC
-284	12163992542	1668750207	artist	short_term	34	4LG4Bs1Gadht7TCrMytQUO
-285	12163992542	1668750207	artist	short_term	35	0XSqX2PB3C5dTMv7SZaxSm
-286	12163992542	1668750207	artist	short_term	36	1Tp7C6LzxZe9Mix6rn4zbI
-287	12163992542	1668750207	artist	short_term	37	7foyQbi7GKriLiv1GPVEwt
-288	12163992542	1668750207	artist	short_term	38	1anAI9P9iSzc9qzLv6AtHZ
-289	12163992542	1668750207	artist	short_term	39	6m4tJuf67jwVSvMP34hrck
-290	12163992542	1668750207	artist	short_term	40	1nJvji2KIlWSseXRSlNYsC
-291	12163992542	1668750207	artist	short_term	41	32Ko3nL0210QAt14S3Rs4Y
-292	12163992542	1668750207	artist	short_term	42	4Z8W4fKeB5YxbusRsdQVPb
-293	12163992542	1668750207	artist	short_term	43	4zsrUnozu6zRlVELQezaBn
-294	12163992542	1668750207	artist	short_term	44	00tVTdpEhQQw1bqdu8RCx2
-295	12163992542	1668750207	artist	short_term	45	0vqkz1b2qBkoYrGMj2CUWq
-296	12163992542	1668750207	artist	short_term	46	22bE4uQ6baNwSHPVcDxLCe
-297	12163992542	1668750207	artist	short_term	47	2AV6XDIs32ofIJhkkDevjm
-298	12163992542	1668750207	artist	short_term	48	2FXC3k01G6Gw61bmprjgqS
-299	12163992542	1668750207	artist	short_term	49	2g3PKH7Z1Ofn5oGR6oDjLy
-300	12163992542	1668750207	artist	short_term	50	2h93pZq0e7k5yf4dywlkpM
-301	the_real_wjdhollow	1668750260	track	long_term	1	7CUkeiG7QtB7tPU9f8SANS
-302	the_real_wjdhollow	1668750260	track	long_term	2	0HsGh7cboYz6cVMIyFrQ8j
-303	the_real_wjdhollow	1668750260	track	long_term	3	50bmpfgcV29ouRVDfr5wOc
-304	the_real_wjdhollow	1668750260	track	long_term	4	0ZAbupc7jAQpG9IxojQ3s3
-305	the_real_wjdhollow	1668750260	track	long_term	5	474uVhyGgK5MtY9gMcDgGl
-306	the_real_wjdhollow	1668750260	track	long_term	6	4uQ7wYsuL0DryknoDc11Hk
-307	the_real_wjdhollow	1668750260	track	long_term	7	734xplxSpoW22U5OeeZcr8
-308	the_real_wjdhollow	1668750260	track	long_term	8	65ENznU4hwrR04whyJboxr
-309	the_real_wjdhollow	1668750260	track	long_term	9	0fIffclhgJC5h8AdMMVvkp
-310	the_real_wjdhollow	1668750260	track	long_term	10	7trx783SvnHhKkmgSSTIFJ
-311	the_real_wjdhollow	1668750260	track	long_term	11	4rc2WNOt2w8BHfQjBC8PO0
-312	the_real_wjdhollow	1668750260	track	long_term	12	7HNpXPaTcX5CoNBjTAEWBr
-313	the_real_wjdhollow	1668750260	track	long_term	13	2XU0oxnq2qxCpomAAuJY8K
-314	the_real_wjdhollow	1668750260	track	long_term	14	61bwFjzXGG1x2aZsANdLyl
-315	the_real_wjdhollow	1668750260	track	long_term	15	0nbXyq5TXYPCO7pr3N8S4I
-316	the_real_wjdhollow	1668750260	track	long_term	16	4jM6Tl8062cc9gTJgTZTpx
-317	the_real_wjdhollow	1668750260	track	long_term	17	6vECYJHxYmm3Ydt3fF01pE
-318	the_real_wjdhollow	1668750260	track	long_term	18	2SY8qCm2nwl2JK3BBOhBrl
-319	the_real_wjdhollow	1668750260	track	long_term	19	7aiClxsDWFRQ0Kzk5KI5ku
-320	the_real_wjdhollow	1668750260	track	long_term	20	7fBv7CLKzipRk6EC6TWHOB
-321	the_real_wjdhollow	1668750260	track	long_term	21	1z4xjDLLWJgG48Bn8OCxZv
-322	the_real_wjdhollow	1668750260	track	long_term	22	02kDW379Yfd5PzW5A6vuGt
-323	the_real_wjdhollow	1668750260	track	long_term	23	4fuPFCrsnZ85emMfL52CKp
-324	the_real_wjdhollow	1668750260	track	long_term	24	2Z8WuEywRWYTKe1NybPQEW
-325	the_real_wjdhollow	1668750260	track	long_term	25	5OFEJMirg4NPz7G1zgXDYu
-326	the_real_wjdhollow	1668750260	track	long_term	26	6PQ88X9TkUIAUIZJHW2upE
-327	the_real_wjdhollow	1668750260	track	long_term	27	2eel5Us5RHsvtBNPnFT5E1
-328	the_real_wjdhollow	1668750260	track	long_term	28	6i0V12jOa3mr6uu4WYhUBr
-329	the_real_wjdhollow	1668750260	track	long_term	29	3NWTRZ0A8xKlBP1qgNftql
-330	the_real_wjdhollow	1668750260	track	long_term	30	19gEmPjfqSZT0ulDRfjl0m
-331	the_real_wjdhollow	1668750260	track	long_term	31	78JKJfKsqgeBDBF58gv1SF
-332	the_real_wjdhollow	1668750260	track	long_term	32	367HmvU5MpsWZdAJ3QbGlZ
-333	the_real_wjdhollow	1668750260	track	long_term	33	0wzruvvN7f5wu39aFcjTMw
-334	the_real_wjdhollow	1668750260	track	long_term	34	3p9x4bK5bwmgXE6POMvOp0
-335	the_real_wjdhollow	1668750260	track	long_term	35	6bnF93Rx87YqUBLSgjiMU8
-336	the_real_wjdhollow	1668750260	track	long_term	36	4EFy48vEJNG3xQf5Er4scn
-337	the_real_wjdhollow	1668750260	track	long_term	37	37ZvpHeZKazqOnLfAGm9nb
-338	the_real_wjdhollow	1668750260	track	long_term	38	6ORqU0bHbVCRjXm9AjyHyZ
-339	the_real_wjdhollow	1668750260	track	long_term	39	2fwz9mBaELJCzXuEEEe35Y
-340	the_real_wjdhollow	1668750260	track	long_term	40	5wfllwdjglyQislkskYLBv
-341	the_real_wjdhollow	1668750260	track	long_term	41	0VjIjW4GlUZAMYd2vXMi3b
-342	the_real_wjdhollow	1668750260	track	long_term	42	22VdIZQfgXJea34mQxlt81
-343	the_real_wjdhollow	1668750260	track	long_term	43	5rfT032kGmLvbxZzfHlu5D
-344	the_real_wjdhollow	1668750260	track	long_term	44	5mpLcXEsk3jjzLFGuNKk5I
-345	the_real_wjdhollow	1668750260	track	long_term	45	16ro1is6DmDKkarlJMBbzV
-346	the_real_wjdhollow	1668750260	track	long_term	46	0yhGTljYYHyP7phuxoKWiJ
-347	the_real_wjdhollow	1668750260	track	long_term	47	2QbGvQssb0VLLS4x5NOmyJ
-348	the_real_wjdhollow	1668750260	track	long_term	48	7vaFuClNKe02pjKYbXEJ46
-349	the_real_wjdhollow	1668750260	track	long_term	49	6L89mwZXSOwYl76YXfX13s
-350	the_real_wjdhollow	1668750260	track	long_term	50	1G6CIweqjfKzFyEfTH4V3u
-351	the_real_wjdhollow	1668750260	track	medium_term	1	0z5oHDjD9vMsck14zoAQOc
-352	the_real_wjdhollow	1668750260	track	medium_term	2	0KV4Ax6L10oSTWqC8607K4
-353	the_real_wjdhollow	1668750260	track	medium_term	3	6myUpr3GDR80Dg3zqNTmmG
-354	the_real_wjdhollow	1668750260	track	medium_term	4	5CFJRZRq6sdKKtRwNPWbYv
-355	the_real_wjdhollow	1668750260	track	medium_term	5	1xzUQMiCoY5pdego0pHMeV
-356	the_real_wjdhollow	1668750260	track	medium_term	6	7CUkeiG7QtB7tPU9f8SANS
-357	the_real_wjdhollow	1668750260	track	medium_term	7	3ImnbJHoSy5uUhC0ydBVI9
-358	the_real_wjdhollow	1668750260	track	medium_term	8	39Yp9wwQiSRIDOvrVg7mbk
-359	the_real_wjdhollow	1668750260	track	medium_term	9	5V5BHmvpylV0nSc2Yu2Mu4
-360	the_real_wjdhollow	1668750260	track	medium_term	10	40mjsnRjCpycdUw3xhS20g
-361	the_real_wjdhollow	1668750260	track	medium_term	11	4nuAslShoN77tq12fzwjUq
-362	the_real_wjdhollow	1668750260	track	medium_term	12	6LyAwkJsHlW7RQ8S1cYAtM
-363	the_real_wjdhollow	1668750260	track	medium_term	13	4jM6Tl8062cc9gTJgTZTpx
-364	the_real_wjdhollow	1668750260	track	medium_term	14	30KctD1WsHKTIYczXjip5a
-365	the_real_wjdhollow	1668750260	track	medium_term	15	4IIuCotvqijraSdnVLaFnM
-366	the_real_wjdhollow	1668750260	track	medium_term	16	6gBFPUFcJLzWGx4lenP6h2
-367	the_real_wjdhollow	1668750260	track	medium_term	17	3mRlFZHUyvJbPTlkzg4LyJ
-368	the_real_wjdhollow	1668750260	track	medium_term	18	5B3b5qszWCl22HlzitMh7x
-369	the_real_wjdhollow	1668750260	track	medium_term	19	1tX1GK4bLfoS9oDIIbhYAv
-370	the_real_wjdhollow	1668750260	track	medium_term	20	4xSY7Pxe3bveG1WOIIcYdr
-371	the_real_wjdhollow	1668750260	track	medium_term	21	0fIffclhgJC5h8AdMMVvkp
-372	the_real_wjdhollow	1668750260	track	medium_term	22	0IH3D0P8OrQFs6ajcqbm0R
-373	the_real_wjdhollow	1668750260	track	medium_term	23	2cYqizR4lgvp4Qu6IQ3qGN
-374	the_real_wjdhollow	1668750260	track	medium_term	24	46M2hXnaQpueG7vSvgVtVH
-375	the_real_wjdhollow	1668750260	track	medium_term	25	6AomCkEOQUODCYzQwH4SWC
-376	the_real_wjdhollow	1668750260	track	medium_term	26	2p23H2gdnWEiGUEymqarpJ
-377	the_real_wjdhollow	1668750260	track	medium_term	27	24jP9hAAauSG4IH5zGji8a
-378	the_real_wjdhollow	1668750260	track	medium_term	28	3eekarcy7kvN4yt5ZFzltW
-379	the_real_wjdhollow	1668750260	track	medium_term	29	7ycWLEP1GsNjVvcjawXz3z
-380	the_real_wjdhollow	1668750260	track	medium_term	30	1ZM8toCOlnfBKJdvR8GqUq
-381	the_real_wjdhollow	1668750260	track	medium_term	31	14eDzYfNRuqs1kf7zfIFJW
-382	the_real_wjdhollow	1668750260	track	medium_term	32	1dQtt3K8GyPmH7ZD1LJ2ox
-383	the_real_wjdhollow	1668750260	track	medium_term	33	1fewSx2d5KIZ04wsooEBOz
-384	the_real_wjdhollow	1668750260	track	medium_term	34	2Guz1b911CbpG8L92cnglI
-385	the_real_wjdhollow	1668750260	track	medium_term	35	4gmmRb6bZJffOOiww1JGTO
-386	the_real_wjdhollow	1668750260	track	medium_term	36	7sO5G9EABYOXQKNPNiE9NR
-387	the_real_wjdhollow	1668750260	track	medium_term	37	5OFEJMirg4NPz7G1zgXDYu
-388	the_real_wjdhollow	1668750260	track	medium_term	38	2MLuFz9Y3Vg3PF0Yf93M5c
-389	the_real_wjdhollow	1668750260	track	medium_term	39	1x5ihkusmVWsQWtvSCtW9q
-390	the_real_wjdhollow	1668750260	track	medium_term	40	0XLQyCwYu8dhhzWAKSs3wr
-391	the_real_wjdhollow	1668750260	track	medium_term	41	1tzTiTLSRisnQiOnhgAdtF
-392	the_real_wjdhollow	1668750260	track	medium_term	42	1wAdcYWWPbcqiUcum9brWw
-393	the_real_wjdhollow	1668750260	track	medium_term	43	2dy2C0StZ3yiEeb0Aoolcn
-394	the_real_wjdhollow	1668750260	track	medium_term	44	3WKrSWltDbNcY5M3haaFxQ
-395	the_real_wjdhollow	1668750260	track	medium_term	45	4FF4q2qyOsFhRavZ0bdVXT
-396	the_real_wjdhollow	1668750260	track	medium_term	46	1vvBUZseJ7fwYPX1NedOLd
-397	the_real_wjdhollow	1668750260	track	medium_term	47	4FeBA1bxkUae1aDsplsmrv
-398	the_real_wjdhollow	1668750260	track	medium_term	48	5SWnsxjhdcEDc7LJjq9UHk
-399	the_real_wjdhollow	1668750260	track	medium_term	49	643PW82aBMUa1FiWi5VQY7
-400	the_real_wjdhollow	1668750260	track	medium_term	50	367HmvU5MpsWZdAJ3QbGlZ
-401	the_real_wjdhollow	1668750260	track	short_term	1	0G88ZH0qqBCBbtrHnEDqrn
-402	the_real_wjdhollow	1668750260	track	short_term	2	7lzfMZak2HjNPXXSxksjPB
-403	the_real_wjdhollow	1668750260	track	short_term	3	02a8cGumnKuEPgoCzmalJp
-404	the_real_wjdhollow	1668750260	track	short_term	4	1Hn0iEB1FPfJzJPK49qVtH
-405	the_real_wjdhollow	1668750260	track	short_term	5	6giaOyDFbE4J8iclhCdW7E
-406	the_real_wjdhollow	1668750260	track	short_term	6	0z5oHDjD9vMsck14zoAQOc
-407	the_real_wjdhollow	1668750260	track	short_term	7	044fQ35cLbMVwta0KyN5dM
-408	the_real_wjdhollow	1668750260	track	short_term	8	2BvDFQOl4JieEGK2cgKOey
-409	the_real_wjdhollow	1668750260	track	short_term	9	2cYqizR4lgvp4Qu6IQ3qGN
-410	the_real_wjdhollow	1668750260	track	short_term	10	3QKJELWORZZ7rUZDWeMWSA
-411	the_real_wjdhollow	1668750260	track	short_term	11	3zcBNmJH6ToRCI0WNEIuES
-412	the_real_wjdhollow	1668750260	track	short_term	12	4gmmRb6bZJffOOiww1JGTO
-413	the_real_wjdhollow	1668750260	track	short_term	13	4nuAslShoN77tq12fzwjUq
-414	the_real_wjdhollow	1668750260	track	short_term	14	50c0knPGjaJAuE4hRg28Qq
-415	the_real_wjdhollow	1668750260	track	short_term	15	5CFJRZRq6sdKKtRwNPWbYv
-416	the_real_wjdhollow	1668750260	track	short_term	16	5JuWx9sV8TbtIMhiiPVbnz
-417	the_real_wjdhollow	1668750260	track	short_term	17	5YctcwZCRMxlIHDpTuqKOE
-418	the_real_wjdhollow	1668750260	track	short_term	18	6Sm4XdGI7GhHG7sjVcVrI2
-419	the_real_wjdhollow	1668750260	track	short_term	19	6myUpr3GDR80Dg3zqNTmmG
-420	the_real_wjdhollow	1668750260	track	short_term	20	6sKopGG4r21ObTE8V6pD6x
-421	the_real_wjdhollow	1668750260	track	short_term	21	78I8jaChZbPu72bIGGPMKk
-422	the_real_wjdhollow	1668750260	track	short_term	22	7sO5G9EABYOXQKNPNiE9NR
-423	the_real_wjdhollow	1668750260	track	short_term	23	5Ikos3uiBfPYAf7EZfz8t3
-424	the_real_wjdhollow	1668750260	track	short_term	24	0IH3D0P8OrQFs6ajcqbm0R
-425	the_real_wjdhollow	1668750260	track	short_term	25	1fewSx2d5KIZ04wsooEBOz
-426	the_real_wjdhollow	1668750260	track	short_term	26	1xzUQMiCoY5pdego0pHMeV
-427	the_real_wjdhollow	1668750260	track	short_term	27	24jP9hAAauSG4IH5zGji8a
-428	the_real_wjdhollow	1668750260	track	short_term	28	2wL88cvKXUOfHuYVd62hji
-429	the_real_wjdhollow	1668750260	track	short_term	29	39Yp9wwQiSRIDOvrVg7mbk
-430	the_real_wjdhollow	1668750260	track	short_term	30	43HM6P2yX7ls3q92qrkhL4
-431	the_real_wjdhollow	1668750260	track	short_term	31	6LyAwkJsHlW7RQ8S1cYAtM
-432	the_real_wjdhollow	1668750260	track	short_term	32	1O5pf5R8xvppS2pD03HVy5
-433	the_real_wjdhollow	1668750260	track	short_term	33	20I1Mickm2w7qGxk7uzOKr
-434	the_real_wjdhollow	1668750260	track	short_term	34	465hVdgg75kPgRdpJfEFFT
-435	the_real_wjdhollow	1668750260	track	short_term	35	4mn5HdatHKN7iFGDes9G8i
-436	the_real_wjdhollow	1668750260	track	short_term	36	7cEfPAbju7glmdAgT4e1AU
-437	the_real_wjdhollow	1668750260	track	short_term	37	0JL9TZip7mL7iwC5EOkALS
-438	the_real_wjdhollow	1668750260	track	short_term	38	0Nkp56EKreoWMYxpXJqUNZ
-439	the_real_wjdhollow	1668750260	track	short_term	39	0QZ5yyl6B6utIWkxeBDxQN
-440	the_real_wjdhollow	1668750260	track	short_term	40	0ZQfn5nh2TnVE6Q0AT8eXr
-441	the_real_wjdhollow	1668750260	track	short_term	41	0eEXcw3JLVXcRxYrVYMy68
-442	the_real_wjdhollow	1668750260	track	short_term	42	126HWk9JuCt4PHZJAAsgOv
-443	the_real_wjdhollow	1668750260	track	short_term	43	1IkE3IsuP4HNU073wsE6T5
-444	the_real_wjdhollow	1668750260	track	short_term	44	1MPmF4py7FxbeqFGpKn09C
-445	the_real_wjdhollow	1668750260	track	short_term	45	1XjFyPzU5z3zbYJQETYGiZ
-446	the_real_wjdhollow	1668750260	track	short_term	46	1brWhQEoBoT9tMnNfcRsjr
-447	the_real_wjdhollow	1668750260	track	short_term	47	29Lq5UKpHBGxQTDxsPKwFz
-448	the_real_wjdhollow	1668750260	track	short_term	48	2VBN5kSs1fyiE5fnOYeKsG
-449	the_real_wjdhollow	1668750260	track	short_term	49	2YXpMdEMEoy48OPr6VTzpI
-450	the_real_wjdhollow	1668750260	track	short_term	50	2dCBXxXNur85q9gGIpsAdr
-501	the_real_wjdhollow	1668750261	artist	medium_term	1	0fA0VVWsXO9YnASrzqfmYu
-502	the_real_wjdhollow	1668750261	artist	medium_term	2	18hl4QMrybIXbkGi2BzXcf
-503	the_real_wjdhollow	1668750261	artist	medium_term	3	2EhUXeszBQRApbBmTOXlKU
-504	the_real_wjdhollow	1668750261	artist	medium_term	4	6PfSUFtkMVoDkx4MQkzOi3
-505	the_real_wjdhollow	1668750261	artist	medium_term	5	4hz8tIajF2INpgM0qzPJz2
-506	the_real_wjdhollow	1668750261	artist	medium_term	6	5r4anprO9Hg9CBlmdkwFdE
-507	the_real_wjdhollow	1668750261	artist	medium_term	7	6Q1ggxOPVDbMyqlhv0tmT4
-508	the_real_wjdhollow	1668750261	artist	medium_term	8	1AldSIJ8ANuZVbjKIhpKKq
-509	the_real_wjdhollow	1668750261	artist	medium_term	9	0I11U609NiFEdpvNix7oNl
-510	the_real_wjdhollow	1668750261	artist	medium_term	10	0Y5tJX1MQlPlqiwlOH1tJY
-511	the_real_wjdhollow	1668750261	artist	medium_term	11	0dlDsD7y6ccmDm8tuWCU6F
-512	the_real_wjdhollow	1668750261	artist	medium_term	12	1hzfo8twXdOegF3xireCYs
-513	the_real_wjdhollow	1668750261	artist	medium_term	13	5IcR3N7QB1j6KBL8eImZ8m
-514	the_real_wjdhollow	1668750261	artist	medium_term	14	7HGNYPmbDrMkylWqeFCOIQ
-515	the_real_wjdhollow	1668750261	artist	medium_term	15	7Im2r58zlLJIDfamqDjEE6
-516	the_real_wjdhollow	1668750261	artist	medium_term	16	6xQwC94a61f3bZwyl4UJXD
-517	the_real_wjdhollow	1668750261	artist	medium_term	17	4M5nCE77Qaxayuhp3fVn4V
-518	the_real_wjdhollow	1668750261	artist	medium_term	18	13ubrt8QOOCPljQ2FL1Kca
-519	the_real_wjdhollow	1668750261	artist	medium_term	19	6aaMZ3fcfLv4tEbmY7bjRM
-520	the_real_wjdhollow	1668750261	artist	medium_term	20	7hi7sNBb4AWmzHRjFCs94V
-521	the_real_wjdhollow	1668750261	artist	medium_term	21	04gDigrS5kc9YWfZHwBETP
-522	the_real_wjdhollow	1668750261	artist	medium_term	22	6BIltkF2V7p0PHLtUyc7re
-523	the_real_wjdhollow	1668750261	artist	medium_term	23	2p1fiYHYiXz9qi0JJyxBzN
-524	the_real_wjdhollow	1668750261	artist	medium_term	24	7qJAk8CiXUgDPPUF3REKr2
-525	the_real_wjdhollow	1668750261	artist	medium_term	25	5SKEXbgzIdRl3gQJ23CnUP
-526	the_real_wjdhollow	1668750261	artist	medium_term	26	1cIz2h3ERs72r60yw78Deu
-527	the_real_wjdhollow	1668750261	artist	medium_term	27	4CrK2BAeyd3DIt2M2ELPJ4
-528	the_real_wjdhollow	1668750261	artist	medium_term	28	5CCwRZC6euC8Odo6y9X8jr
-529	the_real_wjdhollow	1668750261	artist	medium_term	29	1b8kpp4DUwt1hWaxTiWQhD
-530	the_real_wjdhollow	1668750261	artist	medium_term	30	4ERtgeBbWRkFzIz6LaFCeY
-451	the_real_wjdhollow	1668750261	artist	long_term	1	4hz8tIajF2INpgM0qzPJz2
-452	the_real_wjdhollow	1668750261	artist	long_term	2	68kEuyFKyqrdQQLLsmiatm
-453	the_real_wjdhollow	1668750261	artist	long_term	3	0EdvGhlC1FkGItLOWQzG4J
-454	the_real_wjdhollow	1668750261	artist	long_term	4	1Xyo4u8uXC1ZmMpatF05PJ
-455	the_real_wjdhollow	1668750261	artist	long_term	5	0fA0VVWsXO9YnASrzqfmYu
-456	the_real_wjdhollow	1668750261	artist	long_term	6	6PfSUFtkMVoDkx4MQkzOi3
-457	the_real_wjdhollow	1668750261	artist	long_term	7	5wFXmYsg3KFJ8BDsQudJ4f
-458	the_real_wjdhollow	1668750261	artist	long_term	8	0YrtvWJMgSdVrk3SfNjTbx
-459	the_real_wjdhollow	1668750261	artist	long_term	9	5IcR3N7QB1j6KBL8eImZ8m
-460	the_real_wjdhollow	1668750261	artist	long_term	10	2ooIqOf4X2uz4mMptXCtie
-461	the_real_wjdhollow	1668750261	artist	long_term	11	246dkjvS1zLTtiykXe5h60
-462	the_real_wjdhollow	1668750261	artist	long_term	12	25uiPmTg16RbhZWAqwLBy5
-463	the_real_wjdhollow	1668750261	artist	long_term	13	1hzfo8twXdOegF3xireCYs
-464	the_real_wjdhollow	1668750261	artist	long_term	14	4r63FhuTkUYltbVAg5TQnk
-465	the_real_wjdhollow	1668750261	artist	long_term	15	26T3LtbuGT1Fu9m0eRq5X3
-466	the_real_wjdhollow	1668750261	artist	long_term	16	4kI8Ie27vjvonwaB2ePh8T
-467	the_real_wjdhollow	1668750261	artist	long_term	17	24XtlMhEMNdi822vi0MhY1
-468	the_real_wjdhollow	1668750261	artist	long_term	18	64KEffDW9EtZ1y2vBYgq8T
-469	the_real_wjdhollow	1668750261	artist	long_term	19	3YQKmKGau1PzlVlkL1iodx
-470	the_real_wjdhollow	1668750261	artist	long_term	20	1yAwtBaoHLEDWAnWR87hBT
-471	the_real_wjdhollow	1668750261	artist	long_term	21	360IAlyVv4PCEVjgyMZrxK
-472	the_real_wjdhollow	1668750261	artist	long_term	22	15UsOTVnJzReFVN1VCnxy4
-473	the_real_wjdhollow	1668750261	artist	long_term	23	5cj0lLjcoR7YOSnhnX0Po5
-474	the_real_wjdhollow	1668750261	artist	long_term	24	6qqNVTkY8uBg9cP3Jd7DAH
-475	the_real_wjdhollow	1668750261	artist	long_term	25	5yV1qdnmxyIYiSFB02wpDj
-476	the_real_wjdhollow	1668750261	artist	long_term	26	41rVuRHYAiH7ltBTHVR9We
-477	the_real_wjdhollow	1668750261	artist	long_term	27	13ubrt8QOOCPljQ2FL1Kca
-478	the_real_wjdhollow	1668750261	artist	long_term	28	2kGBy2WHvF0VdZyqiVCkDT
-479	the_real_wjdhollow	1668750261	artist	long_term	29	0H39MdGGX6dbnnQPt6NQkZ
-480	the_real_wjdhollow	1668750261	artist	long_term	30	0EeQBlQJFiAfJeVN2vT9s0
-481	the_real_wjdhollow	1668750261	artist	long_term	31	0jNDKefhfSbLR9sFvcPLHo
-482	the_real_wjdhollow	1668750261	artist	long_term	32	18hl4QMrybIXbkGi2BzXcf
-483	the_real_wjdhollow	1668750261	artist	long_term	33	7boQqq2hUcz9kHcQOecG4j
-484	the_real_wjdhollow	1668750261	artist	long_term	34	3XHO7cRUPCLOr6jwp8vsx5
-485	the_real_wjdhollow	1668750261	artist	long_term	35	5BvJzeQpmsdsFp4HGUYUEx
-486	the_real_wjdhollow	1668750261	artist	long_term	36	0dlDsD7y6ccmDm8tuWCU6F
-487	the_real_wjdhollow	1668750261	artist	long_term	37	4MCBfE4596Uoi2O4DtmEMz
-488	the_real_wjdhollow	1668750261	artist	long_term	38	2EhUXeszBQRApbBmTOXlKU
-489	the_real_wjdhollow	1668750261	artist	long_term	39	4V8LLVI7PbaPR0K2TGSxFF
-490	the_real_wjdhollow	1668750261	artist	long_term	40	6eUKZXaKkcviH0Ku9w2n3V
-491	the_real_wjdhollow	1668750261	artist	long_term	41	0XSqX2PB3C5dTMv7SZaxSm
-492	the_real_wjdhollow	1668750261	artist	long_term	42	1vCWHaC5f2uS3yhpwWbIA6
-493	the_real_wjdhollow	1668750261	artist	long_term	43	3TVXtAsR1Inumwj472S9r4
-494	the_real_wjdhollow	1668750261	artist	long_term	44	0SwO7SWeDHJijQ3XNS7xEE
-495	the_real_wjdhollow	1668750261	artist	long_term	45	0Y5tJX1MQlPlqiwlOH1tJY
-496	the_real_wjdhollow	1668750261	artist	long_term	46	3AA28KZvwAUcZuOKwyblJQ
-497	the_real_wjdhollow	1668750261	artist	long_term	47	4LLpKhyESsyAXpc4laK94U
-498	the_real_wjdhollow	1668750261	artist	long_term	48	6QRlkjrHz5A62mqeNZz7t3
-499	the_real_wjdhollow	1668750261	artist	long_term	49	5r4anprO9Hg9CBlmdkwFdE
-500	the_real_wjdhollow	1668750261	artist	long_term	50	4Z8W4fKeB5YxbusRsdQVPb
-551	the_real_wjdhollow	1668750261	artist	short_term	1	7HGNYPmbDrMkylWqeFCOIQ
-552	the_real_wjdhollow	1668750261	artist	short_term	2	0fA0VVWsXO9YnASrzqfmYu
-553	the_real_wjdhollow	1668750261	artist	short_term	3	1b8kpp4DUwt1hWaxTiWQhD
-554	the_real_wjdhollow	1668750261	artist	short_term	4	7oEkUINVIj1Nr3Wnj8tzqr
-555	the_real_wjdhollow	1668750261	artist	short_term	5	1gIa65d5ICT2xVWiUJ3u27
-531	the_real_wjdhollow	1668750261	artist	medium_term	31	1URnnhqYAYcrqrcwql10ft
-532	the_real_wjdhollow	1668750261	artist	medium_term	32	4dM6NDYSfLcspt8GLoT5aE
-533	the_real_wjdhollow	1668750261	artist	medium_term	33	1KEUVZo7CMTSJoM8doulOT
-534	the_real_wjdhollow	1668750261	artist	medium_term	34	67p5GMYQZOgaAfx1YyttQk
-535	the_real_wjdhollow	1668750261	artist	medium_term	35	6dGRShw3EqULdxZl9EEJYv
-536	the_real_wjdhollow	1668750261	artist	medium_term	36	7oEkUINVIj1Nr3Wnj8tzqr
-537	the_real_wjdhollow	1668750261	artist	medium_term	37	6ltzsmQQbmdoHHbLZ4ZN25
-538	the_real_wjdhollow	1668750261	artist	medium_term	38	68kEuyFKyqrdQQLLsmiatm
-539	the_real_wjdhollow	1668750261	artist	medium_term	39	6qgc4bSHhzZxnJ01WDEAHt
-540	the_real_wjdhollow	1668750261	artist	medium_term	40	0YrtvWJMgSdVrk3SfNjTbx
-541	the_real_wjdhollow	1668750261	artist	medium_term	41	1gIa65d5ICT2xVWiUJ3u27
-542	the_real_wjdhollow	1668750261	artist	medium_term	42	2YZyLoL8N0Wb9xBt1NhZWg
-543	the_real_wjdhollow	1668750261	artist	medium_term	43	5ZfHVIBVoMg0VjgUBU0alH
-544	the_real_wjdhollow	1668750261	artist	medium_term	44	5nJ5xDXFO4czh2gJ9f4wto
-545	the_real_wjdhollow	1668750261	artist	medium_term	45	5sEDTHJJyDEWVFx99hGSIb
-546	the_real_wjdhollow	1668750261	artist	medium_term	46	1K9pNfOfxZFfbEgoOmjV13
-547	the_real_wjdhollow	1668750261	artist	medium_term	47	4LLpKhyESsyAXpc4laK94U
-548	the_real_wjdhollow	1668750261	artist	medium_term	48	4Lm0pUvmisUHMdoky5ch2I
-549	the_real_wjdhollow	1668750261	artist	medium_term	49	6TVVIyd0fsRDGg6WzHKyTP
-550	the_real_wjdhollow	1668750261	artist	medium_term	50	1MXZ0hsGic96dWRDKwAwdr
+1	12163992542	1668816679	track	long_term	1	1Kjw0LwdniCWran4PxJqPQ
+2	12163992542	1668816679	track	long_term	2	1I40L32fTSSkBkPeArX9Ul
+3	12163992542	1668816679	track	long_term	3	5fBjPtOxhgdpU6LNWLyVHv
+4	12163992542	1668816679	track	long_term	4	4FE9SgxcOoCNuGnaaU8TXz
+5	12163992542	1668816679	track	long_term	5	4FF4q2qyOsFhRavZ0bdVXT
+6	12163992542	1668816679	track	long_term	6	0qprlw0jfsW4H9cG0FFE0Z
+7	12163992542	1668816679	track	long_term	7	3jp7Ryj1sX3riA7NQaVlLd
+8	12163992542	1668816679	track	long_term	8	2I88NEWpKrAPZuapXNV5G6
+9	12163992542	1668816679	track	long_term	9	6YZQx90VEuzf0lRY9TYh7j
+10	12163992542	1668816679	track	long_term	10	54b8qPFqYqIndfdxiLApea
+11	12163992542	1668816679	track	long_term	11	3sTN90bIP2cJ1783ctHykO
+12	12163992542	1668816679	track	long_term	12	2P3SLxeQHPqh8qKB6gtJY2
+13	12163992542	1668816679	track	long_term	13	474uVhyGgK5MtY9gMcDgGl
+14	12163992542	1668816679	track	long_term	14	16ro1is6DmDKkarlJMBbzV
+15	12163992542	1668816679	track	long_term	15	4frLb7nWtsz2ymBE6k2GRP
+16	12163992542	1668816679	track	long_term	16	2G2YzndIA6jeWFPBXhUjh5
+17	12163992542	1668816679	track	long_term	17	5jZ1Z2GFTf2gwmFc3qiUxs
+18	12163992542	1668816679	track	long_term	18	5vyt44455ipNNVSYq8fYY7
+19	12163992542	1668816679	track	long_term	19	1OFKUn2VLafrHj7ybnap0Q
+20	12163992542	1668816679	track	long_term	20	21oJ1K99GBJrE2GVQGVjA0
+21	12163992542	1668816679	track	long_term	21	1LzNfuep1bnAUR9skqdHCK
+22	12163992542	1668816679	track	long_term	22	748yv6bb3l3CcKS45a6SZ8
+23	12163992542	1668816679	track	long_term	23	6NvRxjfYkkT2SpirAlmsjH
+24	12163992542	1668816679	track	long_term	24	0hJS3EHWC4uL9sJ52ErpoN
+25	12163992542	1668816679	track	long_term	25	1ZaNp6b4cY3zcrciagi7td
+26	12163992542	1668816679	track	long_term	26	1qQSRy9DjrGh3jtsSCU6B1
+27	12163992542	1668816679	track	long_term	27	3s8MBOMdUi5Vol77qq8KJJ
+28	12163992542	1668816679	track	long_term	28	4j3GWI86JvSaF0BLdmgcfF
+29	12163992542	1668816679	track	long_term	29	4f8Mh5wuWHOsfXtzjrJB3t
+30	12163992542	1668816679	track	long_term	30	6VojZJpMyuKClbwyilWlQj
+31	12163992542	1668816679	track	long_term	31	1TDdYSYLIXMJ4EiKO6ZCYk
+32	12163992542	1668816679	track	long_term	32	1RbOObDFn7GOseR1w529Zj
+33	12163992542	1668816679	track	long_term	33	0Hw6SCrtU9pFCjgAONpnGZ
+34	12163992542	1668816679	track	long_term	34	0S29RwGLJutn4qnFJQL13n
+35	12163992542	1668816679	track	long_term	35	5SCB7L1alKg7ZEeSw7Sq9f
+36	12163992542	1668816679	track	long_term	36	3aN2V18W3EiW7eg5tHALpF
+37	12163992542	1668816679	track	long_term	37	5hVghJ4KaYES3BFUATCYn0
+38	12163992542	1668816679	track	long_term	38	6fc51JZVE0Yijdi6RuoLFv
+39	12163992542	1668816679	track	long_term	39	3zJ5RDG0bLQAV2rntFgUtb
+40	12163992542	1668816679	track	long_term	40	6iGU74CwXuT4XVepjc9Emf
+41	12163992542	1668816679	track	long_term	41	7wdzLe2Gsx1RGqbvYZHASz
+42	12163992542	1668816679	track	long_term	42	3imS277wRbz1CFoDySgTff
+43	12163992542	1668816679	track	long_term	43	3mT1AONeTJDi1k8vH8pA2L
+44	12163992542	1668816679	track	long_term	44	7Cu2COdH93MnuireuKNiS3
+45	12163992542	1668816679	track	long_term	45	7JmPqImeW3kLoYVNBA9v11
+46	12163992542	1668816679	track	long_term	46	2aCKBrLn7rbhStk5k4FwnF
+47	12163992542	1668816679	track	long_term	47	0vJvCnuxXL2BCSRa1ZoeNl
+48	12163992542	1668816679	track	long_term	48	1zkkvSLk5Nh4uoyKWwuie9
+49	12163992542	1668816679	track	long_term	49	62wdQ5CInFr7cjISqrr46f
+50	12163992542	1668816679	track	long_term	50	3iVp14VoAsAZkIdgQoRRAb
+51	12163992542	1668816679	track	medium_term	1	16ro1is6DmDKkarlJMBbzV
+52	12163992542	1668816679	track	medium_term	2	0hJS3EHWC4uL9sJ52ErpoN
+53	12163992542	1668816679	track	medium_term	3	5vyt44455ipNNVSYq8fYY7
+54	12163992542	1668816679	track	medium_term	4	474uVhyGgK5MtY9gMcDgGl
+55	12163992542	1668816679	track	medium_term	5	1TDdYSYLIXMJ4EiKO6ZCYk
+56	12163992542	1668816679	track	medium_term	6	63k361zOGEhmvgzBdzzSGP
+57	12163992542	1668816679	track	medium_term	7	04M3DsiMNyn8s5XQJrW5sL
+58	12163992542	1668816679	track	medium_term	8	6fc51JZVE0Yijdi6RuoLFv
+59	12163992542	1668816679	track	medium_term	9	5rfT032kGmLvbxZzfHlu5D
+60	12163992542	1668816679	track	medium_term	10	5zzWx7oJ9zBmv76uFaFeYR
+61	12163992542	1668816679	track	medium_term	11	2pA4ip3VIEVcIa3qE02oAX
+62	12163992542	1668816679	track	medium_term	12	1k7aPYyAnNTjVbjw1YDNp1
+63	12163992542	1668816679	track	medium_term	13	41xaZ4WLlKD95U5PknoJrV
+64	12163992542	1668816679	track	medium_term	14	1zkkvSLk5Nh4uoyKWwuie9
+65	12163992542	1668816679	track	medium_term	15	33vFhGNZa44VJ0I21AOGYe
+66	12163992542	1668816679	track	medium_term	16	03v70ZBxmcPX3RWAZMzqaW
+67	12163992542	1668816679	track	medium_term	17	1RzgWAFlI6KOenjOxJYcH0
+68	12163992542	1668816679	track	medium_term	18	2OeL43EXwaC205Xr1da1qJ
+69	12163992542	1668816679	track	medium_term	19	5CU1bbfY1wUPm7fU255Dhf
+70	12163992542	1668816679	track	medium_term	20	0dqJjKKxuKD5Dt3QH2n4CG
+71	12163992542	1668816679	track	medium_term	21	5C90m8eM6GJR2SACiLAWHo
+72	12163992542	1668816679	track	medium_term	22	4Fc62OkXYtEOjMmaSyJoQY
+73	12163992542	1668816679	track	medium_term	23	244QS6446wyO1UfVTWlOlR
+74	12163992542	1668816679	track	medium_term	24	5L7IgwUPhir2FJftGNXJDW
+75	12163992542	1668816679	track	medium_term	25	35mL8keNDi2VLHrFXZCgJR
+76	12163992542	1668816679	track	medium_term	26	3aN2V18W3EiW7eg5tHALpF
+77	12163992542	1668816679	track	medium_term	27	50bmpfgcV29ouRVDfr5wOc
+78	12163992542	1668816679	track	medium_term	28	5IRdIQNIZzVqE4XyBylkvd
+79	12163992542	1668816679	track	medium_term	29	4FF4q2qyOsFhRavZ0bdVXT
+80	12163992542	1668816679	track	medium_term	30	5do7Ql6G8N03fY6G9Y08Ec
+81	12163992542	1668816679	track	medium_term	31	6YZQx90VEuzf0lRY9TYh7j
+82	12163992542	1668816679	track	medium_term	32	0ZAbupc7jAQpG9IxojQ3s3
+83	12163992542	1668816679	track	medium_term	33	6MDijuuArPJv1vbp7K1x3f
+84	12163992542	1668816679	track	medium_term	34	0b2vqB7QNT4z8nnaYqbuel
+85	12163992542	1668816679	track	medium_term	35	47KDDZgFiX1w6RFOuLXsSn
+86	12163992542	1668816679	track	medium_term	36	3LcjZGk0GBlPRe5XhYVGgM
+87	12163992542	1668816679	track	medium_term	37	37ZvpHeZKazqOnLfAGm9nb
+88	12163992542	1668816679	track	medium_term	38	0JXXNGljqupsJaZsgSbMZV
+89	12163992542	1668816679	track	medium_term	39	3banchOoe2giyRK0jaO1c7
+90	12163992542	1668816679	track	medium_term	40	7trx783SvnHhKkmgSSTIFJ
+91	12163992542	1668816679	track	medium_term	41	27AG99NmWMFLRoyZMMPNW2
+92	12163992542	1668816679	track	medium_term	42	7l5j3FapCyr6HxUgoAynM2
+93	12163992542	1668816679	track	medium_term	43	5VA4Ispp52EA1sOqzMz3Av
+94	12163992542	1668816679	track	medium_term	44	7qHoVZ6076OGx18G6W5vQ9
+95	12163992542	1668816679	track	medium_term	45	4hv7GT5g9qNnrxlocsOSYt
+96	12163992542	1668816679	track	medium_term	46	4PFiLGx8jAzcAJxwPLUeZ9
+97	12163992542	1668816679	track	medium_term	47	1ULovMYbbglXIn9TQzMsKz
+98	12163992542	1668816679	track	medium_term	48	4isk4UYRcmslphcTq61xUg
+99	12163992542	1668816679	track	medium_term	49	5WoaF1B5XIEnWfmb5NZikf
+100	12163992542	1668816679	track	medium_term	50	7sf0tmuGZlHXUWpi9dQqcw
+101	12163992542	1668816679	track	short_term	1	3Pu3IChaAoa5EjgUBv5F6x
+102	12163992542	1668816679	track	short_term	2	0b2vqB7QNT4z8nnaYqbuel
+103	12163992542	1668816679	track	short_term	3	63k361zOGEhmvgzBdzzSGP
+104	12163992542	1668816679	track	short_term	4	244QS6446wyO1UfVTWlOlR
+105	12163992542	1668816679	track	short_term	5	5eKfpH2dQ7FltCqb7LWEGJ
+106	12163992542	1668816679	track	short_term	6	56KqaFSGTb7ifpt16t5Y1N
+107	12163992542	1668816679	track	short_term	7	4Fc62OkXYtEOjMmaSyJoQY
+108	12163992542	1668816679	track	short_term	8	5p0bEz7DNsULez2X9yrNGa
+109	12163992542	1668816679	track	short_term	9	3YZa4IzxK2UtEKTvdTgsi8
+110	12163992542	1668816679	track	short_term	10	4TIJ7zSBNejpoIPaWpWRKc
+111	12163992542	1668816679	track	short_term	11	21YxK0klhpfLW8budkJaMF
+112	12163992542	1668816679	track	short_term	12	29iwiYD3KVWBKxe31nGjEL
+113	12163992542	1668816679	track	short_term	13	5El6bpLd8nYPsvWgZLdHio
+114	12163992542	1668816679	track	short_term	14	72dIN8F7D5ydB3auSqNi84
+115	12163992542	1668816679	track	short_term	15	1dxXQuExRVu77xF1r5YtRF
+116	12163992542	1668816679	track	short_term	16	29Znt9AbEH9FSsw86zPAYT
+117	12163992542	1668816679	track	short_term	17	3EytfC22ikoXM921cJbejn
+118	12163992542	1668816679	track	short_term	18	4vKLfj7YuS2yRKAJ9Nn0Id
+119	12163992542	1668816679	track	short_term	19	6eDwkS4IHADqk06ssrqfUX
+120	12163992542	1668816679	track	short_term	20	0WQiDwKJclirSYG9v5tayI
+121	12163992542	1668816679	track	short_term	21	0vF9RAGwgYtfO1Aajwb7et
+122	12163992542	1668816679	track	short_term	22	0wejso6CHHEEqvTD3f3gBz
+123	12163992542	1668816679	track	short_term	23	10fiZCExnOMqElSX952WZI
+124	12163992542	1668816679	track	short_term	24	14z3RzUHeZQgtpOlSYvmZD
+125	12163992542	1668816679	track	short_term	25	1e5XqFTNIrlgpXGjwPSykv
+126	12163992542	1668816679	track	short_term	26	23od4rorIdhvYeLL7YqP9n
+127	12163992542	1668816679	track	short_term	27	2I3ZdIFXnRn1PSAdMC4w71
+128	12163992542	1668816679	track	short_term	28	3s5N94NsDYcOqgi7cSakv6
+129	12163992542	1668816679	track	short_term	29	3wtMkvedoWMQ3XTKv7tqcZ
+130	12163992542	1668816679	track	short_term	30	4ZTl5GUAmO49b2cf6jovqx
+131	12163992542	1668816679	track	short_term	31	4oB0d8H93GtllDkoHNuLIN
+132	12163992542	1668816679	track	short_term	32	5avF5IwDg2v1QCxPvX9Fru
+133	12163992542	1668816679	track	short_term	33	672N8DGGTOLCOgWe0koX5g
+134	12163992542	1668816679	track	short_term	34	7Cva2EgJougx6O6M5xgWAq
+135	12163992542	1668816679	track	short_term	35	7KR5uycb8gfQYRl1MTL8aB
+136	12163992542	1668816679	track	short_term	36	7xjbn0bhs7zx7E1s0lCqT3
+137	12163992542	1668816679	track	short_term	37	6Dq2LzijkY9WNPwBGDah4L
+138	12163992542	1668816679	track	short_term	38	474uVhyGgK5MtY9gMcDgGl
+139	12163992542	1668816679	track	short_term	39	1TDdYSYLIXMJ4EiKO6ZCYk
+140	12163992542	1668816679	track	short_term	40	3Cx9j78Z0NE6jYwBWvvV3P
+141	12163992542	1668816679	track	short_term	41	1AR58rtcLziNnRHTCmCywd
+142	12163992542	1668816679	track	short_term	42	4J6JARDGkdc1fqLEflP94Z
+143	12163992542	1668816679	track	short_term	43	16ro1is6DmDKkarlJMBbzV
+144	12163992542	1668816679	track	short_term	44	37ZvpHeZKazqOnLfAGm9nb
+145	12163992542	1668816679	track	short_term	45	6fc51JZVE0Yijdi6RuoLFv
+146	12163992542	1668816679	track	short_term	46	04M3DsiMNyn8s5XQJrW5sL
+147	12163992542	1668816679	track	short_term	47	4sD9nPRNqWww4mADeEfJhi
+148	12163992542	1668816679	track	short_term	48	50bmpfgcV29ouRVDfr5wOc
+149	12163992542	1668816679	track	short_term	49	0hJS3EHWC4uL9sJ52ErpoN
+150	12163992542	1668816679	track	short_term	50	1k7aPYyAnNTjVbjw1YDNp1
+151	12163992542	1668816682	artist	long_term	1	1Xyo4u8uXC1ZmMpatF05PJ
+152	12163992542	1668816682	artist	long_term	2	00FQb4jTyendYWaN8pK0wa
+153	12163992542	1668816682	artist	long_term	3	360IAlyVv4PCEVjgyMZrxK
+154	12163992542	1668816682	artist	long_term	4	4hz8tIajF2INpgM0qzPJz2
+155	12163992542	1668816682	artist	long_term	5	4V8LLVI7PbaPR0K2TGSxFF
+156	12163992542	1668816682	artist	long_term	6	4lujUKeO6nQAJXpq37Epn7
+157	12163992542	1668816682	artist	long_term	7	0bzfPKdbXL5ezYW2z3UGQj
+158	12163992542	1668816682	artist	long_term	8	5wFXmYsg3KFJ8BDsQudJ4f
+159	12163992542	1668816682	artist	long_term	9	462T0buQ5ScBUQCRpodDRf
+160	12163992542	1668816682	artist	long_term	10	0YrtvWJMgSdVrk3SfNjTbx
+161	12163992542	1668816682	artist	long_term	11	6ltzsmQQbmdoHHbLZ4ZN25
+162	12163992542	1668816682	artist	long_term	12	3jK9MiCrA42lLAdMGUZpwa
+163	12163992542	1668816682	artist	long_term	13	3qnGvpP8Yth1AqSBMqON5x
+164	12163992542	1668816682	artist	long_term	14	60df5JBRRPcnSpsIMxxwQm
+165	12163992542	1668816682	artist	long_term	15	13ubrt8QOOCPljQ2FL1Kca
+166	12163992542	1668816682	artist	long_term	16	2YZyLoL8N0Wb9xBt1NhZWg
+167	12163992542	1668816682	artist	long_term	17	6QRlkjrHz5A62mqeNZz7t3
+168	12163992542	1668816682	artist	long_term	18	5CuU6SRJjbbZL926nSGGxX
+169	12163992542	1668816682	artist	long_term	19	6pmxr66tMAePxzOLfjGNcX
+170	12163992542	1668816682	artist	long_term	20	3XHO7cRUPCLOr6jwp8vsx5
+171	12163992542	1668816682	artist	long_term	21	20wkVLutqVOYrc0kxFs7rA
+172	12163992542	1668816682	artist	long_term	22	6eU0jV2eEZ8XTM7EmlguK6
+173	12163992542	1668816682	artist	long_term	23	2h93pZq0e7k5yf4dywlkpM
+174	12163992542	1668816682	artist	long_term	24	1zXCFUgH6FWS0iCiCKsH55
+175	12163992542	1668816682	artist	long_term	25	6PEMFpe3PTOksdV4ZXUpbE
+176	12163992542	1668816682	artist	long_term	26	3z6Gk257P9jNcZbBXJNX5i
+177	12163992542	1668816682	artist	long_term	27	74oJ4qxwOZvX6oSsu1DGnw
+178	12163992542	1668816682	artist	long_term	28	0XSqX2PB3C5dTMv7SZaxSm
+179	12163992542	1668816682	artist	long_term	29	08GQAI4eElDnROBrJRGE0X
+180	12163992542	1668816682	artist	long_term	30	6l3HvQ5sa6mXTsMTB19rO5
+181	12163992542	1668816682	artist	long_term	31	6RZUqkomCmb8zCRqc9eznB
+182	12163992542	1668816682	artist	long_term	32	0fA0VVWsXO9YnASrzqfmYu
+183	12163992542	1668816682	artist	long_term	33	6ZK2nrW8aCTg8Bid7I7N10
+184	12163992542	1668816682	artist	long_term	34	6TVVIyd0fsRDGg6WzHKyTP
+185	12163992542	1668816682	artist	long_term	35	6tkrcmVfWoHC4WOhE7IDyq
+186	12163992542	1668816682	artist	long_term	36	600GgDUq9kzGJgNIrVsWfz
+187	12163992542	1668816682	artist	long_term	37	2jgPkn6LuUazBoBk6vvjh5
+188	12163992542	1668816682	artist	long_term	38	6v8FB84lnmJs434UJf2Mrm
+189	12163992542	1668816682	artist	long_term	39	3QTDHixorJelOLxoxcjqGx
+190	12163992542	1668816682	artist	long_term	40	0qu422H5MOoQxGjd4IzHbS
+191	12163992542	1668816682	artist	long_term	41	3ycxRkcZ67ALN3GQJ57Vig
+192	12163992542	1668816682	artist	long_term	42	2ooIqOf4X2uz4mMptXCtie
+193	12163992542	1668816682	artist	long_term	43	77SW9BnxLY8rJ0RciFqkHh
+194	12163992542	1668816682	artist	long_term	44	5NYEE4kgrEZPlM3DxUsTyc
+195	12163992542	1668816682	artist	long_term	45	75dQReiBOHN37fQgWQrIAJ
+196	12163992542	1668816682	artist	long_term	46	2pAajGWerK3ghwToNWFENS
+197	12163992542	1668816682	artist	long_term	47	22bE4uQ6baNwSHPVcDxLCe
+198	12163992542	1668816682	artist	long_term	48	5a2EaR3hamoenG9rDuVn8j
+199	12163992542	1668816682	artist	long_term	49	6Ghvu1VvMGScGpOUJBAHNH
+200	12163992542	1668816682	artist	long_term	50	1KP6TWI40m7p3QBTU6u2xo
+201	12163992542	1668816682	artist	medium_term	1	4hz8tIajF2INpgM0qzPJz2
+202	12163992542	1668816682	artist	medium_term	2	5wFXmYsg3KFJ8BDsQudJ4f
+203	12163992542	1668816682	artist	medium_term	3	360IAlyVv4PCEVjgyMZrxK
+204	12163992542	1668816682	artist	medium_term	4	0YrtvWJMgSdVrk3SfNjTbx
+205	12163992542	1668816682	artist	medium_term	5	0fA0VVWsXO9YnASrzqfmYu
+206	12163992542	1668816682	artist	medium_term	6	2ooIqOf4X2uz4mMptXCtie
+207	12163992542	1668816682	artist	medium_term	7	4n0gvapwYbRpzU5Ov68B6P
+208	12163992542	1668816682	artist	medium_term	8	1KP6TWI40m7p3QBTU6u2xo
+209	12163992542	1668816682	artist	medium_term	9	3jK9MiCrA42lLAdMGUZpwa
+210	12163992542	1668816682	artist	medium_term	10	4lujUKeO6nQAJXpq37Epn7
+211	12163992542	1668816682	artist	medium_term	11	0XSqX2PB3C5dTMv7SZaxSm
+212	12163992542	1668816682	artist	medium_term	12	1zXCFUgH6FWS0iCiCKsH55
+213	12163992542	1668816682	artist	medium_term	13	3XHO7cRUPCLOr6jwp8vsx5
+214	12163992542	1668816682	artist	medium_term	14	462T0buQ5ScBUQCRpodDRf
+215	12163992542	1668816682	artist	medium_term	15	4uSftVc3FPWe6RJuMZNEe9
+216	12163992542	1668816682	artist	medium_term	16	6AWdGez5g1jxpfl9XD4wI3
+217	12163992542	1668816682	artist	medium_term	17	7HeVXdOdMhLslVputGTZFQ
+218	12163992542	1668816682	artist	medium_term	18	6ltzsmQQbmdoHHbLZ4ZN25
+219	12163992542	1668816682	artist	medium_term	19	0V7uVrIYr4FwFvUN9S4kYr
+220	12163992542	1668816682	artist	medium_term	20	6hnWRPzGGKiapVX1UCdEAC
+221	12163992542	1668816682	artist	medium_term	21	2FRXiAz5Uz78LLLSwEUhLt
+222	12163992542	1668816682	artist	medium_term	22	2pAajGWerK3ghwToNWFENS
+223	12163992542	1668816682	artist	medium_term	23	1Xyo4u8uXC1ZmMpatF05PJ
+224	12163992542	1668816682	artist	medium_term	24	1fZpYWNWdL5Z3wrDtISFUH
+225	12163992542	1668816682	artist	medium_term	25	6TVVIyd0fsRDGg6WzHKyTP
+226	12163992542	1668816682	artist	medium_term	26	7ITd48RbLVpUfheE7B86o2
+227	12163992542	1668816682	artist	medium_term	27	0EdvGhlC1FkGItLOWQzG4J
+228	12163992542	1668816682	artist	medium_term	28	1yAwtBaoHLEDWAnWR87hBT
+229	12163992542	1668816682	artist	medium_term	29	6LufpoVlIYKQCu9Gjpk8B7
+230	12163992542	1668816682	artist	medium_term	30	0oSGxfWSnnOXhD2fKuz2Gy
+231	12163992542	1668816682	artist	medium_term	31	00FQb4jTyendYWaN8pK0wa
+232	12163992542	1668816682	artist	medium_term	32	2kGBy2WHvF0VdZyqiVCkDT
+233	12163992542	1668816682	artist	medium_term	33	60df5JBRRPcnSpsIMxxwQm
+234	12163992542	1668816682	artist	medium_term	34	68kEuyFKyqrdQQLLsmiatm
+235	12163992542	1668816682	artist	medium_term	35	1hzfo8twXdOegF3xireCYs
+236	12163992542	1668816682	artist	medium_term	36	251UrhgNbMr15NLzQ2KyKq
+237	12163992542	1668816682	artist	medium_term	37	3yY2gUcIsjMr8hjo51PoJ8
+238	12163992542	1668816682	artist	medium_term	38	4DFhHyjvGYa9wxdHUjtDkc
+239	12163992542	1668816682	artist	medium_term	39	5IcR3N7QB1j6KBL8eImZ8m
+240	12163992542	1668816682	artist	medium_term	40	3D4qYDvoPn5cQxtBm4oseo
+241	12163992542	1668816682	artist	medium_term	41	3tJ9PkBOrG7hFkHeNM2tbw
+242	12163992542	1668816682	artist	medium_term	42	2ApaG60P4r0yhBoDCGD8YG
+243	12163992542	1668816682	artist	medium_term	43	0bzfPKdbXL5ezYW2z3UGQj
+244	12163992542	1668816682	artist	medium_term	44	6RZUqkomCmb8zCRqc9eznB
+245	12163992542	1668816682	artist	medium_term	45	6GEykX11lQqp92UVOQQCC7
+246	12163992542	1668816682	artist	medium_term	46	0rpMdBzQXf7aYRnu5fDBJy
+247	12163992542	1668816682	artist	medium_term	47	1anAI9P9iSzc9qzLv6AtHZ
+248	12163992542	1668816682	artist	medium_term	48	2auiVi8sUZo17dLy1HwrTU
+249	12163992542	1668816682	artist	medium_term	49	3qnGvpP8Yth1AqSBMqON5x
+250	12163992542	1668816682	artist	medium_term	50	75dQReiBOHN37fQgWQrIAJ
+251	12163992542	1668816682	artist	short_term	1	5wFXmYsg3KFJ8BDsQudJ4f
+252	12163992542	1668816682	artist	short_term	2	0YrtvWJMgSdVrk3SfNjTbx
+253	12163992542	1668816682	artist	short_term	3	4hz8tIajF2INpgM0qzPJz2
+254	12163992542	1668816682	artist	short_term	4	0oSGxfWSnnOXhD2fKuz2Gy
+255	12163992542	1668816682	artist	short_term	5	4lujUKeO6nQAJXpq37Epn7
+256	12163992542	1668816682	artist	short_term	6	0EdvGhlC1FkGItLOWQzG4J
+257	12163992542	1668816682	artist	short_term	7	462T0buQ5ScBUQCRpodDRf
+258	12163992542	1668816682	artist	short_term	8	6TVVIyd0fsRDGg6WzHKyTP
+259	12163992542	1668816682	artist	short_term	9	3yY2gUcIsjMr8hjo51PoJ8
+260	12163992542	1668816682	artist	short_term	10	6ltzsmQQbmdoHHbLZ4ZN25
+261	12163992542	1668816682	artist	short_term	11	6LufpoVlIYKQCu9Gjpk8B7
+262	12163992542	1668816682	artist	short_term	12	6zvul52xwTWzilBZl6BUbT
+263	12163992542	1668816682	artist	short_term	13	75dQReiBOHN37fQgWQrIAJ
+264	12163992542	1668816682	artist	short_term	14	2ooIqOf4X2uz4mMptXCtie
+265	12163992542	1668816682	artist	short_term	15	3RGLhK1IP9jnYFH4BRFJBS
+266	12163992542	1668816682	artist	short_term	16	432R46LaYsJZV2Gmc4jUV5
+267	12163992542	1668816682	artist	short_term	17	0rpMdBzQXf7aYRnu5fDBJy
+268	12163992542	1668816682	artist	short_term	18	1nGqKVGfPPiVgxMdx8hYOI
+269	12163992542	1668816682	artist	short_term	19	1fZpYWNWdL5Z3wrDtISFUH
+270	12163992542	1668816682	artist	short_term	20	7bu3H8JO7d0UbMoVzbo70s
+271	12163992542	1668816682	artist	short_term	21	2bToe6WyGvADJftreuXh2K
+272	12163992542	1668816682	artist	short_term	22	0MVp3LuNho9Hk6Q1owsWwt
+273	12163992542	1668816682	artist	short_term	23	1SQRv42e4PjEYfPhS0Tk9E
+274	12163992542	1668816682	artist	short_term	24	0V7uVrIYr4FwFvUN9S4kYr
+275	12163992542	1668816682	artist	short_term	25	4BFMTELQyWJU1SwqcXMBm3
+276	12163992542	1668816682	artist	short_term	26	1PryMSya1JnSAlcwYawCxp
+277	12163992542	1668816682	artist	short_term	27	60df5JBRRPcnSpsIMxxwQm
+278	12163992542	1668816682	artist	short_term	28	7FKTg75ADVMZgY3P9ZMRtH
+279	12163992542	1668816682	artist	short_term	29	0oL26Dn9y761yfJgNb3vfu
+280	12163992542	1668816682	artist	short_term	30	0v6gOfGBclTSGu6agfXb23
+281	12163992542	1668816682	artist	short_term	31	0yNLKJebCb8Aueb54LYya3
+282	12163992542	1668816682	artist	short_term	32	2x9SpqnPi8rlE9pjHBwmSC
+283	12163992542	1668816682	artist	short_term	33	4LG4Bs1Gadht7TCrMytQUO
+284	12163992542	1668816682	artist	short_term	34	0XSqX2PB3C5dTMv7SZaxSm
+285	12163992542	1668816682	artist	short_term	35	1Tp7C6LzxZe9Mix6rn4zbI
+286	12163992542	1668816682	artist	short_term	36	7foyQbi7GKriLiv1GPVEwt
+287	12163992542	1668816682	artist	short_term	37	1anAI9P9iSzc9qzLv6AtHZ
+288	12163992542	1668816682	artist	short_term	38	1nJvji2KIlWSseXRSlNYsC
+289	12163992542	1668816682	artist	short_term	39	4Z8W4fKeB5YxbusRsdQVPb
+290	12163992542	1668816682	artist	short_term	40	4fXkvh05wFhuH77MfD4m9o
+291	12163992542	1668816682	artist	short_term	41	00tVTdpEhQQw1bqdu8RCx2
+292	12163992542	1668816682	artist	short_term	42	0vqkz1b2qBkoYrGMj2CUWq
+293	12163992542	1668816682	artist	short_term	43	22bE4uQ6baNwSHPVcDxLCe
+294	12163992542	1668816682	artist	short_term	44	2FXC3k01G6Gw61bmprjgqS
+295	12163992542	1668816682	artist	short_term	45	2g3PKH7Z1Ofn5oGR6oDjLy
+296	12163992542	1668816682	artist	short_term	46	2h93pZq0e7k5yf4dywlkpM
+297	12163992542	1668816682	artist	short_term	47	2oqwwcM17wrP9hBD25zKSR
+298	12163992542	1668816682	artist	short_term	48	32Ko3nL0210QAt14S3Rs4Y
+299	12163992542	1668816682	artist	short_term	49	4lYtGx5NZQJHsMyhHc5iz3
+300	12163992542	1668816682	artist	short_term	50	4oV5EVJ0XFWsJKoOvdRPvl
+527	the_real_wjdhollow	1668819797	track	long_term	1	7CUkeiG7QtB7tPU9f8SANS
+528	the_real_wjdhollow	1668819797	track	long_term	2	0HsGh7cboYz6cVMIyFrQ8j
+529	the_real_wjdhollow	1668819797	track	long_term	3	50bmpfgcV29ouRVDfr5wOc
+530	the_real_wjdhollow	1668819797	track	long_term	4	0ZAbupc7jAQpG9IxojQ3s3
+531	the_real_wjdhollow	1668819797	track	long_term	5	474uVhyGgK5MtY9gMcDgGl
+532	the_real_wjdhollow	1668819797	track	long_term	6	4uQ7wYsuL0DryknoDc11Hk
+533	the_real_wjdhollow	1668819797	track	long_term	7	734xplxSpoW22U5OeeZcr8
+534	the_real_wjdhollow	1668819797	track	long_term	8	65ENznU4hwrR04whyJboxr
+535	the_real_wjdhollow	1668819797	track	long_term	9	0fIffclhgJC5h8AdMMVvkp
+536	the_real_wjdhollow	1668819797	track	long_term	10	7trx783SvnHhKkmgSSTIFJ
+537	the_real_wjdhollow	1668819797	track	long_term	11	4rc2WNOt2w8BHfQjBC8PO0
+538	the_real_wjdhollow	1668819797	track	long_term	12	7HNpXPaTcX5CoNBjTAEWBr
+539	the_real_wjdhollow	1668819797	track	long_term	13	2XU0oxnq2qxCpomAAuJY8K
+540	the_real_wjdhollow	1668819797	track	long_term	14	61bwFjzXGG1x2aZsANdLyl
+541	the_real_wjdhollow	1668819797	track	long_term	15	0nbXyq5TXYPCO7pr3N8S4I
+542	the_real_wjdhollow	1668819797	track	long_term	16	4jM6Tl8062cc9gTJgTZTpx
+543	the_real_wjdhollow	1668819797	track	long_term	17	6vECYJHxYmm3Ydt3fF01pE
+544	the_real_wjdhollow	1668819797	track	long_term	18	2SY8qCm2nwl2JK3BBOhBrl
+545	the_real_wjdhollow	1668819797	track	long_term	19	7aiClxsDWFRQ0Kzk5KI5ku
+546	the_real_wjdhollow	1668819797	track	long_term	20	7fBv7CLKzipRk6EC6TWHOB
+547	the_real_wjdhollow	1668819797	track	long_term	21	1z4xjDLLWJgG48Bn8OCxZv
+548	the_real_wjdhollow	1668819797	track	long_term	22	02kDW379Yfd5PzW5A6vuGt
+549	the_real_wjdhollow	1668819797	track	long_term	23	4fuPFCrsnZ85emMfL52CKp
+550	the_real_wjdhollow	1668819797	track	long_term	24	2Z8WuEywRWYTKe1NybPQEW
+551	the_real_wjdhollow	1668819797	track	long_term	25	5OFEJMirg4NPz7G1zgXDYu
+552	the_real_wjdhollow	1668819797	track	long_term	26	6PQ88X9TkUIAUIZJHW2upE
+553	the_real_wjdhollow	1668819797	track	long_term	27	2eel5Us5RHsvtBNPnFT5E1
+554	the_real_wjdhollow	1668819797	track	long_term	28	6i0V12jOa3mr6uu4WYhUBr
+555	the_real_wjdhollow	1668819797	track	long_term	29	3NWTRZ0A8xKlBP1qgNftql
+556	the_real_wjdhollow	1668819797	track	long_term	30	19gEmPjfqSZT0ulDRfjl0m
+557	the_real_wjdhollow	1668819797	track	long_term	31	78JKJfKsqgeBDBF58gv1SF
+558	the_real_wjdhollow	1668819797	track	long_term	32	367HmvU5MpsWZdAJ3QbGlZ
+559	the_real_wjdhollow	1668819797	track	long_term	33	0wzruvvN7f5wu39aFcjTMw
+560	the_real_wjdhollow	1668819797	track	long_term	34	3p9x4bK5bwmgXE6POMvOp0
+561	the_real_wjdhollow	1668819797	track	long_term	35	6bnF93Rx87YqUBLSgjiMU8
+562	the_real_wjdhollow	1668819797	track	long_term	36	4EFy48vEJNG3xQf5Er4scn
+563	the_real_wjdhollow	1668819797	track	long_term	37	37ZvpHeZKazqOnLfAGm9nb
+564	the_real_wjdhollow	1668819797	track	long_term	38	6ORqU0bHbVCRjXm9AjyHyZ
+565	the_real_wjdhollow	1668819797	track	long_term	39	2fwz9mBaELJCzXuEEEe35Y
+566	the_real_wjdhollow	1668819797	track	long_term	40	5wfllwdjglyQislkskYLBv
+567	the_real_wjdhollow	1668819797	track	long_term	41	0VjIjW4GlUZAMYd2vXMi3b
+568	the_real_wjdhollow	1668819797	track	long_term	42	22VdIZQfgXJea34mQxlt81
+569	the_real_wjdhollow	1668819797	track	long_term	43	5rfT032kGmLvbxZzfHlu5D
+570	the_real_wjdhollow	1668819797	track	long_term	44	5mpLcXEsk3jjzLFGuNKk5I
+571	the_real_wjdhollow	1668819797	track	long_term	45	16ro1is6DmDKkarlJMBbzV
+572	the_real_wjdhollow	1668819797	track	long_term	46	0yhGTljYYHyP7phuxoKWiJ
+573	the_real_wjdhollow	1668819797	track	long_term	47	2QbGvQssb0VLLS4x5NOmyJ
+574	the_real_wjdhollow	1668819797	track	long_term	48	7vaFuClNKe02pjKYbXEJ46
+575	the_real_wjdhollow	1668819797	track	long_term	49	6L89mwZXSOwYl76YXfX13s
+576	the_real_wjdhollow	1668819797	track	long_term	50	1G6CIweqjfKzFyEfTH4V3u
+577	the_real_wjdhollow	1668819797	track	medium_term	1	0z5oHDjD9vMsck14zoAQOc
+578	the_real_wjdhollow	1668819797	track	medium_term	2	0KV4Ax6L10oSTWqC8607K4
+579	the_real_wjdhollow	1668819797	track	medium_term	3	6myUpr3GDR80Dg3zqNTmmG
+580	the_real_wjdhollow	1668819797	track	medium_term	4	5CFJRZRq6sdKKtRwNPWbYv
+581	the_real_wjdhollow	1668819797	track	medium_term	5	1xzUQMiCoY5pdego0pHMeV
+582	the_real_wjdhollow	1668819797	track	medium_term	6	7CUkeiG7QtB7tPU9f8SANS
+583	the_real_wjdhollow	1668819797	track	medium_term	7	3ImnbJHoSy5uUhC0ydBVI9
+584	the_real_wjdhollow	1668819797	track	medium_term	8	39Yp9wwQiSRIDOvrVg7mbk
+585	the_real_wjdhollow	1668819797	track	medium_term	9	5V5BHmvpylV0nSc2Yu2Mu4
+586	the_real_wjdhollow	1668819797	track	medium_term	10	40mjsnRjCpycdUw3xhS20g
+587	the_real_wjdhollow	1668819797	track	medium_term	11	4nuAslShoN77tq12fzwjUq
+588	the_real_wjdhollow	1668819797	track	medium_term	12	6LyAwkJsHlW7RQ8S1cYAtM
+589	the_real_wjdhollow	1668819797	track	medium_term	13	4jM6Tl8062cc9gTJgTZTpx
+590	the_real_wjdhollow	1668819797	track	medium_term	14	30KctD1WsHKTIYczXjip5a
+591	the_real_wjdhollow	1668819797	track	medium_term	15	4IIuCotvqijraSdnVLaFnM
+592	the_real_wjdhollow	1668819797	track	medium_term	16	6gBFPUFcJLzWGx4lenP6h2
+593	the_real_wjdhollow	1668819797	track	medium_term	17	3mRlFZHUyvJbPTlkzg4LyJ
+594	the_real_wjdhollow	1668819797	track	medium_term	18	5B3b5qszWCl22HlzitMh7x
+595	the_real_wjdhollow	1668819797	track	medium_term	19	1tX1GK4bLfoS9oDIIbhYAv
+596	the_real_wjdhollow	1668819797	track	medium_term	20	4xSY7Pxe3bveG1WOIIcYdr
+597	the_real_wjdhollow	1668819797	track	medium_term	21	0fIffclhgJC5h8AdMMVvkp
+598	the_real_wjdhollow	1668819797	track	medium_term	22	0IH3D0P8OrQFs6ajcqbm0R
+599	the_real_wjdhollow	1668819797	track	medium_term	23	2cYqizR4lgvp4Qu6IQ3qGN
+600	the_real_wjdhollow	1668819797	track	medium_term	24	46M2hXnaQpueG7vSvgVtVH
+601	the_real_wjdhollow	1668819797	track	medium_term	25	6AomCkEOQUODCYzQwH4SWC
+602	the_real_wjdhollow	1668819797	track	medium_term	26	2p23H2gdnWEiGUEymqarpJ
+603	the_real_wjdhollow	1668819797	track	medium_term	27	24jP9hAAauSG4IH5zGji8a
+604	the_real_wjdhollow	1668819797	track	medium_term	28	3eekarcy7kvN4yt5ZFzltW
+605	the_real_wjdhollow	1668819797	track	medium_term	29	7ycWLEP1GsNjVvcjawXz3z
+606	the_real_wjdhollow	1668819797	track	medium_term	30	1ZM8toCOlnfBKJdvR8GqUq
+607	the_real_wjdhollow	1668819797	track	medium_term	31	14eDzYfNRuqs1kf7zfIFJW
+608	the_real_wjdhollow	1668819797	track	medium_term	32	1dQtt3K8GyPmH7ZD1LJ2ox
+609	the_real_wjdhollow	1668819797	track	medium_term	33	1fewSx2d5KIZ04wsooEBOz
+610	the_real_wjdhollow	1668819797	track	medium_term	34	2Guz1b911CbpG8L92cnglI
+611	the_real_wjdhollow	1668819797	track	medium_term	35	4gmmRb6bZJffOOiww1JGTO
+612	the_real_wjdhollow	1668819797	track	medium_term	36	7sO5G9EABYOXQKNPNiE9NR
+613	the_real_wjdhollow	1668819797	track	medium_term	37	5OFEJMirg4NPz7G1zgXDYu
+614	the_real_wjdhollow	1668819797	track	medium_term	38	2MLuFz9Y3Vg3PF0Yf93M5c
+615	the_real_wjdhollow	1668819797	track	medium_term	39	1x5ihkusmVWsQWtvSCtW9q
+616	the_real_wjdhollow	1668819797	track	medium_term	40	0XLQyCwYu8dhhzWAKSs3wr
+617	the_real_wjdhollow	1668819797	track	medium_term	41	1tzTiTLSRisnQiOnhgAdtF
+618	the_real_wjdhollow	1668819797	track	medium_term	42	1wAdcYWWPbcqiUcum9brWw
+619	the_real_wjdhollow	1668819797	track	medium_term	43	2dy2C0StZ3yiEeb0Aoolcn
+620	the_real_wjdhollow	1668819797	track	medium_term	44	3WKrSWltDbNcY5M3haaFxQ
+621	the_real_wjdhollow	1668819797	track	medium_term	45	4FF4q2qyOsFhRavZ0bdVXT
+622	the_real_wjdhollow	1668819797	track	medium_term	46	1vvBUZseJ7fwYPX1NedOLd
+623	the_real_wjdhollow	1668819797	track	medium_term	47	4FeBA1bxkUae1aDsplsmrv
+624	the_real_wjdhollow	1668819797	track	medium_term	48	5SWnsxjhdcEDc7LJjq9UHk
+625	the_real_wjdhollow	1668819797	track	medium_term	49	643PW82aBMUa1FiWi5VQY7
+626	the_real_wjdhollow	1668819797	track	medium_term	50	367HmvU5MpsWZdAJ3QbGlZ
+627	the_real_wjdhollow	1668819797	track	short_term	1	1Hn0iEB1FPfJzJPK49qVtH
+628	the_real_wjdhollow	1668819797	track	short_term	2	6giaOyDFbE4J8iclhCdW7E
+629	the_real_wjdhollow	1668819797	track	short_term	3	0z5oHDjD9vMsck14zoAQOc
+630	the_real_wjdhollow	1668819797	track	short_term	4	044fQ35cLbMVwta0KyN5dM
+631	the_real_wjdhollow	1668819797	track	short_term	5	2BvDFQOl4JieEGK2cgKOey
+632	the_real_wjdhollow	1668819797	track	short_term	6	2cYqizR4lgvp4Qu6IQ3qGN
+633	the_real_wjdhollow	1668819797	track	short_term	7	3QKJELWORZZ7rUZDWeMWSA
+634	the_real_wjdhollow	1668819797	track	short_term	8	3zcBNmJH6ToRCI0WNEIuES
+635	the_real_wjdhollow	1668819797	track	short_term	9	4gmmRb6bZJffOOiww1JGTO
+636	the_real_wjdhollow	1668819797	track	short_term	10	4nuAslShoN77tq12fzwjUq
+637	the_real_wjdhollow	1668819797	track	short_term	11	50c0knPGjaJAuE4hRg28Qq
+638	the_real_wjdhollow	1668819797	track	short_term	12	5CFJRZRq6sdKKtRwNPWbYv
+639	the_real_wjdhollow	1668819797	track	short_term	13	5JuWx9sV8TbtIMhiiPVbnz
+640	the_real_wjdhollow	1668819797	track	short_term	14	5YctcwZCRMxlIHDpTuqKOE
+641	the_real_wjdhollow	1668819797	track	short_term	15	6myUpr3GDR80Dg3zqNTmmG
+642	the_real_wjdhollow	1668819797	track	short_term	16	6sKopGG4r21ObTE8V6pD6x
+643	the_real_wjdhollow	1668819797	track	short_term	17	78I8jaChZbPu72bIGGPMKk
+644	the_real_wjdhollow	1668819797	track	short_term	18	7lzfMZak2HjNPXXSxksjPB
+645	the_real_wjdhollow	1668819797	track	short_term	19	7sO5G9EABYOXQKNPNiE9NR
+646	the_real_wjdhollow	1668819797	track	short_term	20	0IH3D0P8OrQFs6ajcqbm0R
+647	the_real_wjdhollow	1668819797	track	short_term	21	1fewSx2d5KIZ04wsooEBOz
+648	the_real_wjdhollow	1668819797	track	short_term	22	1xzUQMiCoY5pdego0pHMeV
+649	the_real_wjdhollow	1668819797	track	short_term	23	24jP9hAAauSG4IH5zGji8a
+650	the_real_wjdhollow	1668819797	track	short_term	24	2wL88cvKXUOfHuYVd62hji
+651	the_real_wjdhollow	1668819797	track	short_term	25	39Yp9wwQiSRIDOvrVg7mbk
+652	the_real_wjdhollow	1668819797	track	short_term	26	6LyAwkJsHlW7RQ8S1cYAtM
+653	the_real_wjdhollow	1668819797	track	short_term	27	1O5pf5R8xvppS2pD03HVy5
+654	the_real_wjdhollow	1668819797	track	short_term	28	20I1Mickm2w7qGxk7uzOKr
+655	the_real_wjdhollow	1668819797	track	short_term	29	465hVdgg75kPgRdpJfEFFT
+656	the_real_wjdhollow	1668819797	track	short_term	30	4mn5HdatHKN7iFGDes9G8i
+657	the_real_wjdhollow	1668819797	track	short_term	31	7cEfPAbju7glmdAgT4e1AU
+658	the_real_wjdhollow	1668819797	track	short_term	32	0JL9TZip7mL7iwC5EOkALS
+659	the_real_wjdhollow	1668819797	track	short_term	33	0Nkp56EKreoWMYxpXJqUNZ
+660	the_real_wjdhollow	1668819797	track	short_term	34	0QZ5yyl6B6utIWkxeBDxQN
+661	the_real_wjdhollow	1668819797	track	short_term	35	0ZQfn5nh2TnVE6Q0AT8eXr
+662	the_real_wjdhollow	1668819797	track	short_term	36	0eEXcw3JLVXcRxYrVYMy68
+663	the_real_wjdhollow	1668819797	track	short_term	37	126HWk9JuCt4PHZJAAsgOv
+664	the_real_wjdhollow	1668819797	track	short_term	38	1IkE3IsuP4HNU073wsE6T5
+665	the_real_wjdhollow	1668819797	track	short_term	39	1MPmF4py7FxbeqFGpKn09C
+666	the_real_wjdhollow	1668819797	track	short_term	40	1XjFyPzU5z3zbYJQETYGiZ
+667	the_real_wjdhollow	1668819797	track	short_term	41	1brWhQEoBoT9tMnNfcRsjr
+668	the_real_wjdhollow	1668819797	track	short_term	42	29Lq5UKpHBGxQTDxsPKwFz
+669	the_real_wjdhollow	1668819797	track	short_term	43	2VBN5kSs1fyiE5fnOYeKsG
+670	the_real_wjdhollow	1668819797	track	short_term	44	2YXpMdEMEoy48OPr6VTzpI
+671	the_real_wjdhollow	1668819797	track	short_term	45	2dCBXxXNur85q9gGIpsAdr
+672	the_real_wjdhollow	1668819797	track	short_term	46	2uLFFR7p4rjOUCGVWccPIn
+673	the_real_wjdhollow	1668819797	track	short_term	47	3naWm5zvv424Pr89hSIYGC
+674	the_real_wjdhollow	1668819797	track	short_term	48	5Ikos3uiBfPYAf7EZfz8t3
+675	the_real_wjdhollow	1668819797	track	short_term	49	5tt394udRU89Pn2s3qPGaQ
+676	the_real_wjdhollow	1668819797	track	short_term	50	6K7JiWTYZrBJ7hHsyUHfBM
+677	the_real_wjdhollow	1668819799	artist	long_term	1	4hz8tIajF2INpgM0qzPJz2
+678	the_real_wjdhollow	1668819799	artist	long_term	2	68kEuyFKyqrdQQLLsmiatm
+679	the_real_wjdhollow	1668819799	artist	long_term	3	0EdvGhlC1FkGItLOWQzG4J
+680	the_real_wjdhollow	1668819799	artist	long_term	4	1Xyo4u8uXC1ZmMpatF05PJ
+681	the_real_wjdhollow	1668819799	artist	long_term	5	0fA0VVWsXO9YnASrzqfmYu
+682	the_real_wjdhollow	1668819799	artist	long_term	6	6PfSUFtkMVoDkx4MQkzOi3
+683	the_real_wjdhollow	1668819799	artist	long_term	7	5wFXmYsg3KFJ8BDsQudJ4f
+684	the_real_wjdhollow	1668819799	artist	long_term	8	0YrtvWJMgSdVrk3SfNjTbx
+685	the_real_wjdhollow	1668819799	artist	long_term	9	5IcR3N7QB1j6KBL8eImZ8m
+686	the_real_wjdhollow	1668819799	artist	long_term	10	2ooIqOf4X2uz4mMptXCtie
+687	the_real_wjdhollow	1668819799	artist	long_term	11	246dkjvS1zLTtiykXe5h60
+688	the_real_wjdhollow	1668819799	artist	long_term	12	25uiPmTg16RbhZWAqwLBy5
+689	the_real_wjdhollow	1668819799	artist	long_term	13	1hzfo8twXdOegF3xireCYs
+690	the_real_wjdhollow	1668819799	artist	long_term	14	4r63FhuTkUYltbVAg5TQnk
+691	the_real_wjdhollow	1668819799	artist	long_term	15	26T3LtbuGT1Fu9m0eRq5X3
+692	the_real_wjdhollow	1668819799	artist	long_term	16	4kI8Ie27vjvonwaB2ePh8T
+693	the_real_wjdhollow	1668819799	artist	long_term	17	24XtlMhEMNdi822vi0MhY1
+694	the_real_wjdhollow	1668819799	artist	long_term	18	64KEffDW9EtZ1y2vBYgq8T
+695	the_real_wjdhollow	1668819799	artist	long_term	19	3YQKmKGau1PzlVlkL1iodx
+696	the_real_wjdhollow	1668819799	artist	long_term	20	1yAwtBaoHLEDWAnWR87hBT
+697	the_real_wjdhollow	1668819799	artist	long_term	21	360IAlyVv4PCEVjgyMZrxK
+698	the_real_wjdhollow	1668819799	artist	long_term	22	15UsOTVnJzReFVN1VCnxy4
+699	the_real_wjdhollow	1668819799	artist	long_term	23	5cj0lLjcoR7YOSnhnX0Po5
+700	the_real_wjdhollow	1668819799	artist	long_term	24	6qqNVTkY8uBg9cP3Jd7DAH
+701	the_real_wjdhollow	1668819799	artist	long_term	25	5yV1qdnmxyIYiSFB02wpDj
+702	the_real_wjdhollow	1668819799	artist	long_term	26	41rVuRHYAiH7ltBTHVR9We
+703	the_real_wjdhollow	1668819799	artist	long_term	27	13ubrt8QOOCPljQ2FL1Kca
+704	the_real_wjdhollow	1668819799	artist	long_term	28	2kGBy2WHvF0VdZyqiVCkDT
+705	the_real_wjdhollow	1668819799	artist	long_term	29	0H39MdGGX6dbnnQPt6NQkZ
+706	the_real_wjdhollow	1668819799	artist	long_term	30	0EeQBlQJFiAfJeVN2vT9s0
+707	the_real_wjdhollow	1668819799	artist	long_term	31	0jNDKefhfSbLR9sFvcPLHo
+708	the_real_wjdhollow	1668819799	artist	long_term	32	18hl4QMrybIXbkGi2BzXcf
+709	the_real_wjdhollow	1668819799	artist	long_term	33	7boQqq2hUcz9kHcQOecG4j
+710	the_real_wjdhollow	1668819799	artist	long_term	34	3XHO7cRUPCLOr6jwp8vsx5
+711	the_real_wjdhollow	1668819799	artist	long_term	35	5BvJzeQpmsdsFp4HGUYUEx
+712	the_real_wjdhollow	1668819799	artist	long_term	36	0dlDsD7y6ccmDm8tuWCU6F
+713	the_real_wjdhollow	1668819799	artist	long_term	37	4MCBfE4596Uoi2O4DtmEMz
+714	the_real_wjdhollow	1668819799	artist	long_term	38	2EhUXeszBQRApbBmTOXlKU
+715	the_real_wjdhollow	1668819799	artist	long_term	39	4V8LLVI7PbaPR0K2TGSxFF
+716	the_real_wjdhollow	1668819799	artist	long_term	40	6eUKZXaKkcviH0Ku9w2n3V
+717	the_real_wjdhollow	1668819799	artist	long_term	41	0XSqX2PB3C5dTMv7SZaxSm
+718	the_real_wjdhollow	1668819799	artist	long_term	42	1vCWHaC5f2uS3yhpwWbIA6
+719	the_real_wjdhollow	1668819799	artist	long_term	43	3TVXtAsR1Inumwj472S9r4
+720	the_real_wjdhollow	1668819799	artist	long_term	44	0SwO7SWeDHJijQ3XNS7xEE
+721	the_real_wjdhollow	1668819799	artist	long_term	45	0Y5tJX1MQlPlqiwlOH1tJY
+722	the_real_wjdhollow	1668819799	artist	long_term	46	3AA28KZvwAUcZuOKwyblJQ
+723	the_real_wjdhollow	1668819799	artist	long_term	47	4LLpKhyESsyAXpc4laK94U
+724	the_real_wjdhollow	1668819799	artist	long_term	48	6QRlkjrHz5A62mqeNZz7t3
+725	the_real_wjdhollow	1668819799	artist	long_term	49	5r4anprO9Hg9CBlmdkwFdE
+726	the_real_wjdhollow	1668819799	artist	long_term	50	4Z8W4fKeB5YxbusRsdQVPb
+727	the_real_wjdhollow	1668819799	artist	medium_term	1	0fA0VVWsXO9YnASrzqfmYu
+728	the_real_wjdhollow	1668819799	artist	medium_term	2	18hl4QMrybIXbkGi2BzXcf
+729	the_real_wjdhollow	1668819799	artist	medium_term	3	2EhUXeszBQRApbBmTOXlKU
+730	the_real_wjdhollow	1668819799	artist	medium_term	4	6PfSUFtkMVoDkx4MQkzOi3
+731	the_real_wjdhollow	1668819799	artist	medium_term	5	4hz8tIajF2INpgM0qzPJz2
+732	the_real_wjdhollow	1668819799	artist	medium_term	6	5r4anprO9Hg9CBlmdkwFdE
+733	the_real_wjdhollow	1668819799	artist	medium_term	7	6Q1ggxOPVDbMyqlhv0tmT4
+734	the_real_wjdhollow	1668819799	artist	medium_term	8	1AldSIJ8ANuZVbjKIhpKKq
+735	the_real_wjdhollow	1668819799	artist	medium_term	9	0I11U609NiFEdpvNix7oNl
+736	the_real_wjdhollow	1668819799	artist	medium_term	10	0Y5tJX1MQlPlqiwlOH1tJY
+737	the_real_wjdhollow	1668819799	artist	medium_term	11	0dlDsD7y6ccmDm8tuWCU6F
+738	the_real_wjdhollow	1668819799	artist	medium_term	12	1hzfo8twXdOegF3xireCYs
+739	the_real_wjdhollow	1668819799	artist	medium_term	13	5IcR3N7QB1j6KBL8eImZ8m
+740	the_real_wjdhollow	1668819799	artist	medium_term	14	7HGNYPmbDrMkylWqeFCOIQ
+741	the_real_wjdhollow	1668819799	artist	medium_term	15	7Im2r58zlLJIDfamqDjEE6
+742	the_real_wjdhollow	1668819799	artist	medium_term	16	6xQwC94a61f3bZwyl4UJXD
+743	the_real_wjdhollow	1668819799	artist	medium_term	17	4M5nCE77Qaxayuhp3fVn4V
+744	the_real_wjdhollow	1668819799	artist	medium_term	18	13ubrt8QOOCPljQ2FL1Kca
+745	the_real_wjdhollow	1668819799	artist	medium_term	19	6aaMZ3fcfLv4tEbmY7bjRM
+746	the_real_wjdhollow	1668819799	artist	medium_term	20	7hi7sNBb4AWmzHRjFCs94V
+747	the_real_wjdhollow	1668819799	artist	medium_term	21	04gDigrS5kc9YWfZHwBETP
+748	the_real_wjdhollow	1668819799	artist	medium_term	22	6BIltkF2V7p0PHLtUyc7re
+749	the_real_wjdhollow	1668819799	artist	medium_term	23	2p1fiYHYiXz9qi0JJyxBzN
+750	the_real_wjdhollow	1668819799	artist	medium_term	24	7qJAk8CiXUgDPPUF3REKr2
+751	the_real_wjdhollow	1668819799	artist	medium_term	25	5SKEXbgzIdRl3gQJ23CnUP
+752	the_real_wjdhollow	1668819799	artist	medium_term	26	1cIz2h3ERs72r60yw78Deu
+753	the_real_wjdhollow	1668819799	artist	medium_term	27	4CrK2BAeyd3DIt2M2ELPJ4
+754	the_real_wjdhollow	1668819799	artist	medium_term	28	5CCwRZC6euC8Odo6y9X8jr
+755	the_real_wjdhollow	1668819799	artist	medium_term	29	1b8kpp4DUwt1hWaxTiWQhD
+756	the_real_wjdhollow	1668819799	artist	medium_term	30	4ERtgeBbWRkFzIz6LaFCeY
+757	the_real_wjdhollow	1668819799	artist	medium_term	31	1URnnhqYAYcrqrcwql10ft
+758	the_real_wjdhollow	1668819799	artist	medium_term	32	4dM6NDYSfLcspt8GLoT5aE
+759	the_real_wjdhollow	1668819799	artist	medium_term	33	1KEUVZo7CMTSJoM8doulOT
+760	the_real_wjdhollow	1668819799	artist	medium_term	34	67p5GMYQZOgaAfx1YyttQk
+761	the_real_wjdhollow	1668819799	artist	medium_term	35	6dGRShw3EqULdxZl9EEJYv
+762	the_real_wjdhollow	1668819799	artist	medium_term	36	7oEkUINVIj1Nr3Wnj8tzqr
+763	the_real_wjdhollow	1668819799	artist	medium_term	37	6ltzsmQQbmdoHHbLZ4ZN25
+764	the_real_wjdhollow	1668819799	artist	medium_term	38	68kEuyFKyqrdQQLLsmiatm
+765	the_real_wjdhollow	1668819799	artist	medium_term	39	6qgc4bSHhzZxnJ01WDEAHt
+766	the_real_wjdhollow	1668819799	artist	medium_term	40	0YrtvWJMgSdVrk3SfNjTbx
+767	the_real_wjdhollow	1668819799	artist	medium_term	41	1gIa65d5ICT2xVWiUJ3u27
+768	the_real_wjdhollow	1668819799	artist	medium_term	42	2YZyLoL8N0Wb9xBt1NhZWg
+769	the_real_wjdhollow	1668819799	artist	medium_term	43	5ZfHVIBVoMg0VjgUBU0alH
+770	the_real_wjdhollow	1668819799	artist	medium_term	44	5nJ5xDXFO4czh2gJ9f4wto
+771	the_real_wjdhollow	1668819799	artist	medium_term	45	5sEDTHJJyDEWVFx99hGSIb
+772	the_real_wjdhollow	1668819799	artist	medium_term	46	1K9pNfOfxZFfbEgoOmjV13
+773	the_real_wjdhollow	1668819799	artist	medium_term	47	4LLpKhyESsyAXpc4laK94U
+774	the_real_wjdhollow	1668819799	artist	medium_term	48	4Lm0pUvmisUHMdoky5ch2I
+775	the_real_wjdhollow	1668819799	artist	medium_term	49	6TVVIyd0fsRDGg6WzHKyTP
+776	the_real_wjdhollow	1668819799	artist	medium_term	50	1MXZ0hsGic96dWRDKwAwdr
+777	the_real_wjdhollow	1668819799	artist	short_term	1	7HGNYPmbDrMkylWqeFCOIQ
+778	the_real_wjdhollow	1668819799	artist	short_term	2	0fA0VVWsXO9YnASrzqfmYu
+779	the_real_wjdhollow	1668819799	artist	short_term	3	1b8kpp4DUwt1hWaxTiWQhD
+780	the_real_wjdhollow	1668819799	artist	short_term	4	7oEkUINVIj1Nr3Wnj8tzqr
+781	the_real_wjdhollow	1668819799	artist	short_term	5	1gIa65d5ICT2xVWiUJ3u27
+782	robyndanylla	1668825794	track	long_term	1	0a9uf4gKoAXwCuAjxt90Sz
+783	robyndanylla	1668825794	track	long_term	2	6yxPd3usemvhanh73TzwXi
+784	robyndanylla	1668825794	track	long_term	3	6VCC4JE3vE8c2szV0SWld9
+785	robyndanylla	1668825794	track	long_term	4	4lEOGsYnc9wdxkJGkHuXAm
+786	robyndanylla	1668825794	track	long_term	5	4pj2L6WbBAlevdxx6jgm32
+787	robyndanylla	1668825794	track	long_term	6	6UgmF3c0nWYeqVs7prJo9C
+788	robyndanylla	1668825794	track	long_term	7	2JiNqhSpFgkxgHNFRYjpDC
+789	robyndanylla	1668825794	track	long_term	8	5wBaNy59nK8hJnx8AB2zRe
+790	robyndanylla	1668825794	track	long_term	9	44QQarpAdUDdAidS5ddJIL
+791	robyndanylla	1668825794	track	long_term	10	0nLOl4fSiBZKGFla5pLUtf
+792	robyndanylla	1668825794	track	long_term	11	1HNRXicnRXw34nouoSQi3c
+793	robyndanylla	1668825794	track	long_term	12	3WZiHsjugLgasZW7wGemNN
+794	robyndanylla	1668825794	track	long_term	13	6AzrwTzu1Vhl2t13h3fNVh
+795	robyndanylla	1668825794	track	long_term	14	01NVKlabAce8Nw70qxgY3d
+796	robyndanylla	1668825794	track	long_term	15	6AioOohg4bQZFA4jIYQQ2r
+797	robyndanylla	1668825794	track	long_term	16	269xqcgGTN9PlivhUkOLhX
+798	robyndanylla	1668825794	track	long_term	17	3zUwwYcmob803s2Bkck8GY
+799	robyndanylla	1668825794	track	long_term	18	3jg7Dbq8xxUGLNeUe8TUYv
+800	robyndanylla	1668825794	track	long_term	19	54sEj5GIx2EW78nRDyC58R
+801	robyndanylla	1668825794	track	long_term	20	2Kerz9H9IejzeIpjhDJoYG
+802	robyndanylla	1668825794	track	long_term	21	3AOcpwgy3V2Fwg7B8PZfKl
+803	robyndanylla	1668825794	track	long_term	22	1PfkFgRDLuSggFQAd8uvXp
+804	robyndanylla	1668825794	track	long_term	23	0mt02gJ425Xjm7c3jYkOBn
+805	robyndanylla	1668825794	track	long_term	24	6wl8vrSR56Tm7GSXjAVP91
+806	robyndanylla	1668825794	track	long_term	25	45OFlmffEQJWlHu8Yf6Q1R
+807	robyndanylla	1668825794	track	long_term	26	0kgXAjZ2y0kGjKUekY0H8t
+808	robyndanylla	1668825794	track	long_term	27	0W8oh1Zst7Y1GczYEDOIuS
+809	robyndanylla	1668825794	track	long_term	28	2g4x7SwGAU05mTQqLKroFg
+810	robyndanylla	1668825794	track	long_term	29	12f3kgz9J1vU0Sd3qISMuJ
+811	robyndanylla	1668825794	track	long_term	30	3J84AjpIGKYHL1NDKmM2pB
+812	robyndanylla	1668825794	track	long_term	31	4LKieNzKrd4nk25Mq8dkfu
+813	robyndanylla	1668825794	track	long_term	32	5mkGfmJGFZpwK9nA5amOhv
+814	robyndanylla	1668825794	track	long_term	33	1lATXTBJDHwawvT1UfxWu3
+815	robyndanylla	1668825794	track	long_term	34	4S0oduY2t0ajpZQ6T9kAq1
+816	robyndanylla	1668825794	track	long_term	35	5WW76v0NDWK5Wy5tfai5G8
+817	robyndanylla	1668825794	track	long_term	36	76AYOdnKWcSLviCsKDXyS1
+818	robyndanylla	1668825794	track	long_term	37	79D6ftjlstX0zTqag7jw4z
+819	robyndanylla	1668825794	track	long_term	38	1Ym6aMuT5bliaZMC67AmPp
+820	robyndanylla	1668825794	track	long_term	39	3aARLhAch8wF1wDMzkL7nJ
+821	robyndanylla	1668825794	track	long_term	40	5QqyRUZeBE04yJxsD1OC0I
+822	robyndanylla	1668825794	track	long_term	41	5V2Tg65HSuF0hB22SlNRoa
+823	robyndanylla	1668825794	track	long_term	42	6eygbzyL6hY8jFQTARDuo9
+824	robyndanylla	1668825794	track	long_term	43	0qSVzDIOLWqIoOHjUUjv8c
+825	robyndanylla	1668825794	track	long_term	44	0QB98b4YFxtW4NQ9narHQM
+826	robyndanylla	1668825794	track	long_term	45	3ZKRAzNAsiJrBGUM2BX9av
+827	robyndanylla	1668825794	track	long_term	46	3ltS4rlFrCYkdQqGzVjXBi
+828	robyndanylla	1668825794	track	long_term	47	7x2jq2kAhxDH3M6FcgJKbs
+829	robyndanylla	1668825794	track	long_term	48	5gbxjsBPzpjZuPvIptYvPi
+830	robyndanylla	1668825794	track	long_term	49	7lSdUlVf8k6kxklKkskb1m
+831	robyndanylla	1668825794	track	long_term	50	03sEzk1VyrUZSgyhoQR0LZ
+832	robyndanylla	1668825794	track	medium_term	1	1JkZg3eMQTmTn93E8Yd3UL
+833	robyndanylla	1668825794	track	medium_term	2	6AzrwTzu1Vhl2t13h3fNVh
+834	robyndanylla	1668825794	track	medium_term	3	0nLOl4fSiBZKGFla5pLUtf
+835	robyndanylla	1668825794	track	medium_term	4	0lP4HYLmvowOKdsQ7CVkuq
+836	robyndanylla	1668825794	track	medium_term	5	50Re2bLgXqG9qN7v2QHNTm
+837	robyndanylla	1668825794	track	medium_term	6	1u8lE1YTkgQrXnMpPpVUC6
+838	robyndanylla	1668825794	track	medium_term	7	0W8oh1Zst7Y1GczYEDOIuS
+839	robyndanylla	1668825794	track	medium_term	8	2YwlwV98tjcKF664eEAAyV
+840	robyndanylla	1668825794	track	medium_term	9	3jg7Dbq8xxUGLNeUe8TUYv
+841	robyndanylla	1668825794	track	medium_term	10	3zUwwYcmob803s2Bkck8GY
+842	robyndanylla	1668825794	track	medium_term	11	5wBaNy59nK8hJnx8AB2zRe
+843	robyndanylla	1668825794	track	medium_term	12	58AwxWLaRHn2lTqqH9dLkU
+844	robyndanylla	1668825794	track	medium_term	13	7yWEPokjQeePPTZD9RqxP4
+845	robyndanylla	1668825794	track	medium_term	14	1HNRXicnRXw34nouoSQi3c
+846	robyndanylla	1668825794	track	medium_term	15	32j279x3imcBWBu9OaHX2n
+847	robyndanylla	1668825794	track	medium_term	16	44QQarpAdUDdAidS5ddJIL
+848	robyndanylla	1668825794	track	medium_term	17	45OFlmffEQJWlHu8Yf6Q1R
+849	robyndanylla	1668825794	track	medium_term	18	6wl8vrSR56Tm7GSXjAVP91
+850	robyndanylla	1668825794	track	medium_term	19	0aTiUssEOy0Mt69bsavj6K
+851	robyndanylla	1668825794	track	medium_term	20	0cKk8BKEi7zXbdrYdyqBP5
+852	robyndanylla	1668825794	track	medium_term	21	0eZBeB2xFIS65jQHerispi
+853	robyndanylla	1668825794	track	medium_term	22	2ae6mkuD2gJnJQADl488et
+854	robyndanylla	1668825794	track	medium_term	23	2iy4qPWFbtzGSDT8xzKIMb
+855	robyndanylla	1668825794	track	medium_term	24	3J84AjpIGKYHL1NDKmM2pB
+856	robyndanylla	1668825794	track	medium_term	25	3MGJF1CDFGfjXESL2Heva0
+857	robyndanylla	1668825794	track	medium_term	26	4hTg9q0AnxtH4yZKeRcMin
+858	robyndanylla	1668825794	track	medium_term	27	51G4UdHXjcNrdLueS1ohzU
+859	robyndanylla	1668825794	track	medium_term	28	5mkGfmJGFZpwK9nA5amOhv
+860	robyndanylla	1668825794	track	medium_term	29	5xrHvVmSF3ui0EKI8FArv3
+861	robyndanylla	1668825794	track	medium_term	30	70C4NyhjD5OZUMzvWZ3njJ
+862	robyndanylla	1668825794	track	medium_term	31	79D6ftjlstX0zTqag7jw4z
+863	robyndanylla	1668825794	track	medium_term	32	7qLs0IyUn6TrqgMzQ33SdH
+864	robyndanylla	1668825794	track	medium_term	33	5Pj9iXYfe607U62YwSF5rC
+865	robyndanylla	1668825794	track	medium_term	34	0eHxqgbpr2ptXQtw8Ab3ve
+866	robyndanylla	1668825794	track	medium_term	35	4l52LL7FmhrUXF1F9zV62c
+867	robyndanylla	1668825794	track	medium_term	36	170yBuCB3FvhMG2DMSQ4IG
+868	robyndanylla	1668825794	track	medium_term	37	1lATXTBJDHwawvT1UfxWu3
+869	robyndanylla	1668825794	track	medium_term	38	2tAzcTFry1OhmNERFjUR93
+870	robyndanylla	1668825794	track	medium_term	39	3C5CcBXFEldHfgwDe62zWI
+871	robyndanylla	1668825794	track	medium_term	40	03sEzk1VyrUZSgyhoQR0LZ
+872	robyndanylla	1668825794	track	medium_term	41	2aDk1KkyB7ieSwwEDXCHJg
+873	robyndanylla	1668825794	track	medium_term	42	3aARLhAch8wF1wDMzkL7nJ
+874	robyndanylla	1668825794	track	medium_term	43	6AioOohg4bQZFA4jIYQQ2r
+875	robyndanylla	1668825794	track	medium_term	44	0AFydkgl5Creero3gNjqvF
+876	robyndanylla	1668825794	track	medium_term	45	0L7MpEwFgZRP5rFdXOYaRT
+877	robyndanylla	1668825794	track	medium_term	46	0PhhFpOOM0dOJhMsjHtypt
+878	robyndanylla	1668825794	track	medium_term	47	0V7c0zElQpTNGUwyC18YMM
+879	robyndanylla	1668825794	track	medium_term	48	19siCk4vlsMuzQmLTwi5yt
+880	robyndanylla	1668825794	track	medium_term	49	1YQY7ODoHmrfDwzgshRBKq
+881	robyndanylla	1668825794	track	medium_term	50	2Dqg2mRbfIVKhBZleNrgmH
+882	robyndanylla	1668825794	track	short_term	1	70C4NyhjD5OZUMzvWZ3njJ
+883	robyndanylla	1668825794	track	short_term	2	2tAzcTFry1OhmNERFjUR93
+884	robyndanylla	1668825794	track	short_term	3	3H8BLMeJCoXQsozaXi2xzy
+885	robyndanylla	1668825794	track	short_term	4	3zUwwYcmob803s2Bkck8GY
+886	robyndanylla	1668825794	track	short_term	5	5C5gvDZsl6d8bh89URfKHr
+887	robyndanylla	1668825794	track	short_term	6	0UdBCetwMDQO7JIhi7Waik
+888	robyndanylla	1668825794	track	short_term	7	1lqTpQzSgGZZ850bimyxMP
+889	robyndanylla	1668825794	track	short_term	8	272Z4tzaSMMcgrZ0R494S2
+890	robyndanylla	1668825794	track	short_term	9	4KWntZBFeQOdoYNgPwcEGe
+891	robyndanylla	1668825794	track	short_term	10	4pj2L6WbBAlevdxx6jgm32
+892	robyndanylla	1668825794	track	short_term	11	5Pj9iXYfe607U62YwSF5rC
+893	robyndanylla	1668825794	track	short_term	12	5wBaNy59nK8hJnx8AB2zRe
+894	robyndanylla	1668825794	track	short_term	13	7qzNc93sUMR3vHt5WADmOa
+895	robyndanylla	1668825794	track	short_term	14	06WohfoFEUa5faNy8f9S5N
+896	robyndanylla	1668825794	track	short_term	15	08M4WOUOlAHeZEmj9gEyKt
+897	robyndanylla	1668825794	track	short_term	16	0CUbuoOBaYAGSYmjjSlNON
+898	robyndanylla	1668825794	track	short_term	17	0W8oh1Zst7Y1GczYEDOIuS
+899	robyndanylla	1668825794	track	short_term	18	0Yg1hSAUgd2AAneReFOVzS
+900	robyndanylla	1668825794	track	short_term	19	0cELvuwJW1acISUHYB6suj
+901	robyndanylla	1668825794	track	short_term	20	0eHIMJCzU1QV0R6OHeLOuR
+902	robyndanylla	1668825794	track	short_term	21	0q6WphTLKGQksoPMiNB1LJ
+903	robyndanylla	1668825794	track	short_term	22	0tvw5vooI7iT74m2x1T7HU
+904	robyndanylla	1668825794	track	short_term	23	170yBuCB3FvhMG2DMSQ4IG
+905	robyndanylla	1668825794	track	short_term	24	1HNRXicnRXw34nouoSQi3c
+906	robyndanylla	1668825794	track	short_term	25	1ZpcR68PKaoz8DpQDRqFEE
+907	robyndanylla	1668825794	track	short_term	26	1eNThMHqjtDhoyGXytVBvh
+908	robyndanylla	1668825794	track	short_term	27	1gsYCXkisSnnjBb3qwYZoc
+909	robyndanylla	1668825794	track	short_term	28	1gxdWpeOUBpvB908fiZs4D
+910	robyndanylla	1668825794	track	short_term	29	1kYR2wTYZUsZ2Gcx7yPYSZ
+911	robyndanylla	1668825794	track	short_term	30	1w1hr8DdUGqGF4qyhCvGhP
+912	robyndanylla	1668825794	track	short_term	31	26nwOFTFf5JLDBFOK1MMe1
+913	robyndanylla	1668825794	track	short_term	32	2IHcAcZ4D6QRGZgmWGgGhc
+914	robyndanylla	1668825794	track	short_term	33	2MaWDFu5l9SKXNDd6qCIx6
+915	robyndanylla	1668825794	track	short_term	34	2i9yWmgHVqWW1vmXtxUaN9
+916	robyndanylla	1668825794	track	short_term	35	2m17BTWlZq0wtS9cpJsCfM
+917	robyndanylla	1668825794	track	short_term	36	2p1Cjaderx0MeKrAoHwchx
+918	robyndanylla	1668825794	track	short_term	37	2ptbBxMTCbFBefVMXwrdSC
+919	robyndanylla	1668825794	track	short_term	38	2zsWRxMcUdGjj8TnWkVKw0
+920	robyndanylla	1668825794	track	short_term	39	39oHEZp6LFEmXLy8tKHcYf
+921	robyndanylla	1668825794	track	short_term	40	3DiRdaZtPrVdb4U2RIuRWm
+922	robyndanylla	1668825794	track	short_term	41	3HBZdyG6QHhrEdwLQYXjfU
+923	robyndanylla	1668825794	track	short_term	42	3NYq7c5AIUiubPz9UZl82h
+924	robyndanylla	1668825794	track	short_term	43	3e90JC8EKLsSDUHmPpxkfp
+925	robyndanylla	1668825794	track	short_term	44	3eIDFlBvKsssIpKeTSKEO6
+926	robyndanylla	1668825794	track	short_term	45	3ejS3PKnKnLiI1CIKM5E4K
+927	robyndanylla	1668825794	track	short_term	46	3ltS4rlFrCYkdQqGzVjXBi
+928	robyndanylla	1668825794	track	short_term	47	4191RXFPa7Ge9XkA4cWlna
+929	robyndanylla	1668825794	track	short_term	48	46SZJUs1Qnutjk3QlNcnKY
+930	robyndanylla	1668825794	track	short_term	49	4Cbrtoamv6acNiHNAUKnj0
+931	robyndanylla	1668825794	track	short_term	50	4K6QbaU4KdvYJAOncr2Iu0
 \.
 
 
@@ -5393,7 +7143,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 7JmPqImeW3kLoYVNBA9v11	1mFX1QlezK1lNPKQJkhwWb	1bTjSqotSDtUjcwFfukTQP	If It Isn't Love	57
 2aCKBrLn7rbhStk5k4FwnF	7guDJrEfX3qb6FEbdPA5qi	6thSjE17RxW8tJFtLyXA3B	I Was Made To Love Her	54
 0vJvCnuxXL2BCSRa1ZoeNl	0VbDAlm2KUlKI5UhXRBKWp	5wpZhWqsoXKBcVwvcEtCvv	Electric Feel	0
-1zkkvSLk5Nh4uoyKWwuie9	4hz8tIajF2INpgM0qzPJz2	7vXiklrUeffx5o2F8VYwm3	Holy War	51
+1zkkvSLk5Nh4uoyKWwuie9	4hz8tIajF2INpgM0qzPJz2	7vXiklrUeffx5o2F8VYwm3	Holy War	52
 62wdQ5CInFr7cjISqrr46f	7KGqvFukcZRbQ7YFsYrgPa	4v9R5sk4HQ0X1krbEis34P	Baby	54
 3iVp14VoAsAZkIdgQoRRAb	6PEMFpe3PTOksdV4ZXUpbE	0K3FiXt6ekJTWaUku3LpHL	Livvin	0
 63k361zOGEhmvgzBdzzSGP	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Sunshine	61
@@ -5434,44 +7184,45 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4PFiLGx8jAzcAJxwPLUeZ9	60df5JBRRPcnSpsIMxxwQm	3YKQkIPHtWGuvkBeVNIMhg	Cigarettes and Coffee	59
 1ULovMYbbglXIn9TQzMsKz	2ooIqOf4X2uz4mMptXCtie	0vVekV45lOaVKs6RZQQNob	King of Carrot Flowers Pts. 2 & 3	50
 4isk4UYRcmslphcTq61xUg	360IAlyVv4PCEVjgyMZrxK	493HYe7N5pleudEZRyhE7R	Quickie	54
-5WoaF1B5XIEnWfmb5NZikf	360IAlyVv4PCEVjgyMZrxK	05LEST8E8mkEIl2LRfUkcI	Sky Walker (feat. Travis Scott)	72
+5WoaF1B5XIEnWfmb5NZikf	360IAlyVv4PCEVjgyMZrxK	05LEST8E8mkEIl2LRfUkcI	Sky Walker (feat. Travis Scott)	73
 7sf0tmuGZlHXUWpi9dQqcw	360IAlyVv4PCEVjgyMZrxK	7ezeSBh9E63ijDAxn8Ke4P	Cadillac	33
 3Pu3IChaAoa5EjgUBv5F6x	3JaAGmSTpJK35DqWrDUzBz	3PsFboiPeObjAc6gbQHt54	Ballroom Blitz	64
-5p0bEz7DNsULez2X9yrNGa	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Pepper	51
-1dxXQuExRVu77xF1r5YtRF	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Roman Candles	53
-0wejso6CHHEEqvTD3f3gBz	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Rand McNally	50
-23od4rorIdhvYeLL7YqP9n	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Foxglove Through The Clearcut	50
-2I3ZdIFXnRn1PSAdMC4w71	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Wheat Like Waves	47
 5eKfpH2dQ7FltCqb7LWEGJ	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Alien	46
-7Cva2EgJougx6O6M5xgWAq	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Here to Forever	61
-7KR5uycb8gfQYRl1MTL8aB	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	I Miss Strangers	48
-7xjbn0bhs7zx7E1s0lCqT3	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Asphalt Meadows	54
 56KqaFSGTb7ifpt16t5Y1N	3RGLhK1IP9jnYFH4BRFJBS	1ZH5g1RDq3GY1OvyD0w0s2	Rock the Casbah - Remastered	71
+5p0bEz7DNsULez2X9yrNGa	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Pepper	51
 3YZa4IzxK2UtEKTvdTgsi8	0oSGxfWSnnOXhD2fKuz2Gy	48D1hRORqJq52qsnUYZX56	Suffragette City - 2012 Remaster	61
 4TIJ7zSBNejpoIPaWpWRKc	7lzordPuZEXxwt9aoVZYmG	2FZNWUmgRoP8uJZBaHJdfj	Rebel Yell	73
 21YxK0klhpfLW8budkJaMF	33EUXrFKGjpUSGacqEHhU4	2jnV6ytZOmt71iEC5xHEYz	Lust For Life	64
 29iwiYD3KVWBKxe31nGjEL	2CVBumuL5KyztqCyo7CETY	02OIGj20Ltaa8rN8mKsHBT	Jet Boy Jet Girl	37
 5El6bpLd8nYPsvWgZLdHio	5aBEGOeWQCJfptic9xyaAb	440zYLMcBZhHc93WSGKDKo	Go! - Club Mix	41
 72dIN8F7D5ydB3auSqNi84	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Silence	59
+1dxXQuExRVu77xF1r5YtRF	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Roman Candles	53
 29Znt9AbEH9FSsw86zPAYT	2ZfogSsOWP4mVfEqfpLXCt	3gz1CZk5wFg2inBuUWDa8x	Reptile	49
 3EytfC22ikoXM921cJbejn	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Gold	54
 4vKLfj7YuS2yRKAJ9Nn0Id	3gdbcIdNypBsYNu3iiCjtN	1K4t7Jv7DuolDWnFLxKxkd	Give Me Back My Man	49
 6eDwkS4IHADqk06ssrqfUX	0rpMdBzQXf7aYRnu5fDBJy	7bDSKEP1qhybTrrLhXw1D3	Blister In The Sun	50
 0WQiDwKJclirSYG9v5tayI	3yY2gUcIsjMr8hjo51PoJ8	5Y0p2XCgRRIjna91aQE8q7	There Is a Light That Never Goes Out - 2011 Remaster	79
 0vF9RAGwgYtfO1Aajwb7et	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Moth	44
+0wejso6CHHEEqvTD3f3gBz	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Rand McNally	50
 10fiZCExnOMqElSX952WZI	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	Lead, SD	39
 14z3RzUHeZQgtpOlSYvmZD	0Zy4ncr8h1jd7Nzr9946fD	2qcwXvluk9iFwNNg4eDBXm	Love Like Blood	48
-1AR58rtcLziNnRHTCmCywd	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	I’ll Never Give Up On You	46
 1e5XqFTNIrlgpXGjwPSykv	2to6ZW4W0XOZZsztSErr0b	0UHxylrPIp6GtS7EJlfwRU	Red Right Hand	47
+23od4rorIdhvYeLL7YqP9n	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Foxglove Through The Clearcut	50
+2I3ZdIFXnRn1PSAdMC4w71	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Wheat Like Waves	47
 3s5N94NsDYcOqgi7cSakv6	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Wolf	39
 3wtMkvedoWMQ3XTKv7tqcZ	3fhOTtm0LBJ3Ojn4hIljLo	5Tpor3YZBVEJ9tWD5L31mH	Love Is The Drug	59
-4J6JARDGkdc1fqLEflP94Z	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Fragments From the Decade	46
 4ZTl5GUAmO49b2cf6jovqx	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Grocery	40
-4oB0d8H93GtllDkoHNuLIN	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Mistake	40
+4oB0d8H93GtllDkoHNuLIN	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Mistake	41
 5avF5IwDg2v1QCxPvX9Fru	5wFXmYsg3KFJ8BDsQudJ4f	4hruYceqit29o6m4arpAql	The Parts	37
 672N8DGGTOLCOgWe0koX5g	4BFMTELQyWJU1SwqcXMBm3	3MANoCcmaHWeXSuWiO3iVo	I Wanna Be Your Dog	58
+7Cva2EgJougx6O6M5xgWAq	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Here to Forever	61
+7KR5uycb8gfQYRl1MTL8aB	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	I Miss Strangers	48
+7xjbn0bhs7zx7E1s0lCqT3	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Asphalt Meadows	54
 6Dq2LzijkY9WNPwBGDah4L	4JfFdF9Row7UXtdsKtT6tc	3nD9Oab8M4sCLNmqmwSOdA	Didn't I	64
 3Cx9j78Z0NE6jYwBWvvV3P	0EdvGhlC1FkGItLOWQzG4J	0vuwlanMPucXrYMGnOjhYL	Waiting For My Ruca	54
+1AR58rtcLziNnRHTCmCywd	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	I’ll Never Give Up On You	46
+4J6JARDGkdc1fqLEflP94Z	0YrtvWJMgSdVrk3SfNjTbx	2PIWPTOIxbaVSjTnc30vXS	Fragments From the Decade	46
+4sD9nPRNqWww4mADeEfJhi	0YrtvWJMgSdVrk3SfNjTbx	4jQW2mhMH3TxtAOol3Djuf	We Looked Like Giants	41
 0VjIjW4GlUZAMYd2vXMi3b	1Xyo4u8uXC1ZmMpatF05PJ	4yP0hdKOZPNshxUOjY0cZj	Blinding Lights	90
 1cKHdTo9u0ZymJdPGSh6nq	1Xyo4u8uXC1ZmMpatF05PJ	4qZBW3f2Q8y0k1A84d4iAO	I Was Never There	89
 7MXVkk9YMctZqd1Srtv4MB	1Xyo4u8uXC1ZmMpatF05PJ	2ODvWsOgouMbaA5xf0RkJe	Starboy	89
@@ -5508,7 +7259,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 3jHdKaLCkuNEkWcLVmQPCX	4V8LLVI7PbaPR0K2TGSxFF	5iUwaD3wFVwfaAfs9Z0eCh	BEST INTEREST	79
 3S68RFe1lsdCdTMPIMJM3X	2RdwBSPQiwcmiDo9kixcl8	4YV8SurDnk8sctOOZzYtbH	Cash In Cash Out	78
 1hz7SRTGUNAtIQ46qiNv2p	4V8LLVI7PbaPR0K2TGSxFF	5zi7WsKlIiUXv09tbGLKsE	GONE, GONE / THANK YOU	77
-5B0kgjHULYJhAQkK5XsMoC	4V8LLVI7PbaPR0K2TGSxFF	45ba6QAtNrdv6Ke4MFOKk9	WUSYANAME (feat. Youngboy Never Broke Again & Ty Dolla $ign)	75
+5B0kgjHULYJhAQkK5XsMoC	4V8LLVI7PbaPR0K2TGSxFF	45ba6QAtNrdv6Ke4MFOKk9	WUSYANAME (feat. Youngboy Never Broke Again & Ty Dolla $ign)	76
 3EG9FJ0ToLfgnc1IG2Z1wz	4V8LLVI7PbaPR0K2TGSxFF	45ba6QAtNrdv6Ke4MFOKk9	SWEET / I THOUGHT YOU WANTED TO DANCE (feat. Brent Faiyaz & Fana Hues)	75
 0SA0mMXWh23raZ6xzOCU2V	4V8LLVI7PbaPR0K2TGSxFF	5dbCm8qaCdWnNdVyi3urUO	She	74
 2a5qaGUrVHWAIrh0xmTADM	4lujUKeO6nQAJXpq37Epn7	3rioHzbE7RDGbgxzg9uFNd	neve give up	53
@@ -5532,11 +7283,11 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4G9aoDV0KAsAYqTEKY53BF	5wFXmYsg3KFJ8BDsQudJ4f	3mD3TH55C4q6H5ObfJw4w6	I Know How To Speak	54
 2i8fcnTT5iItxMNwa8mfr3	5wFXmYsg3KFJ8BDsQudJ4f	3GJ7F5BNIZjY5fhiu8ui4B	Telepath	53
 5P4zryS2epwU5j5fkmwO8Z	0oL26Dn9y761yfJgNb3vfu	4gFsfMVkEduaEMfQIlNEqn	In My Head	53
-5SvYRapjngsO2dYfBC9ZXV	5wFXmYsg3KFJ8BDsQudJ4f	3q44ueZD50lWp4BXm0GDcE	No Rule	51
+5SvYRapjngsO2dYfBC9ZXV	5wFXmYsg3KFJ8BDsQudJ4f	3q44ueZD50lWp4BXm0GDcE	No Rule	52
 5S67wnJOMjuySVEu4ssCof	0e9H8oaYYRCKFXOVv848nt	1RHlOUoinOK5WZconLM6lp	Forest Whitaker	50
 1fOc4Kf82a6J1C9gS5sE0d	462T0buQ5ScBUQCRpodDRf	7g7WzMzTLLOyTSzVUnJACI	Changes	61
-0PbOwOT7vjiO0NiI8D31XH	462T0buQ5ScBUQCRpodDRf	6llfJp31mi9r7swqmSAwuK	Heart of Gold	60
 7a5xvCgoD8qFEQmO8Jjvtf	462T0buQ5ScBUQCRpodDRf	6llfJp31mi9r7swqmSAwuK	The World (Is Going Up in Flames)	60
+0PbOwOT7vjiO0NiI8D31XH	462T0buQ5ScBUQCRpodDRf	6llfJp31mi9r7swqmSAwuK	Heart of Gold	60
 0LHm5xYhzH6ZfmTVJ6LWpR	462T0buQ5ScBUQCRpodDRf	6llfJp31mi9r7swqmSAwuK	No Time for Dreaming	57
 4ml0940tmn92PzmkSb2lwU	462T0buQ5ScBUQCRpodDRf	6llfJp31mi9r7swqmSAwuK	Stay Away	56
 6ZWDOwh9OO57DaO0ROHIHO	462T0buQ5ScBUQCRpodDRf	7g7WzMzTLLOyTSzVUnJACI	Good to Be Back Home	53
@@ -5548,9 +7299,9 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 5yc59J3MR3tVDPTOgwgRI5	0YrtvWJMgSdVrk3SfNjTbx	1NFGnxmeIEBakre4DvLaJq	Soul Meets Body	60
 6LNwTodkmxsc2dKRJWQr6y	0YrtvWJMgSdVrk3SfNjTbx	4jQW2mhMH3TxtAOol3Djuf	A Lack of Color	57
 0PTYTZvNNtlvdOwWRYrbfC	0YrtvWJMgSdVrk3SfNjTbx	4jQW2mhMH3TxtAOol3Djuf	The Sound of Settling	56
-0DoACS30GwIY6qaFjCMMUz	0YrtvWJMgSdVrk3SfNjTbx	4jQW2mhMH3TxtAOol3Djuf	Transatlanticism	55
 0hgEsoAu23ap8V5GFX9Y3i	0YrtvWJMgSdVrk3SfNjTbx	4jQW2mhMH3TxtAOol3Djuf	Title and Registration	55
 1crbFuCkGL4kXnAGd63RXq	0YrtvWJMgSdVrk3SfNjTbx	1NFGnxmeIEBakre4DvLaJq	Crooked Teeth	55
+0DoACS30GwIY6qaFjCMMUz	0YrtvWJMgSdVrk3SfNjTbx	4jQW2mhMH3TxtAOol3Djuf	Transatlanticism	55
 6p8ZhmQS4fia0j93S2M3Fj	0YrtvWJMgSdVrk3SfNjTbx	3stEKyV4hKU1G5yXtmDOaN	Waterfalls	54
 0QZ5yyl6B6utIWkxeBDxQN	6ltzsmQQbmdoHHbLZ4ZN25	3yoNZlqerJnsnMN5EDwwBS	The Night We Met	78
 4yyg2J2uXOjCtCyT64984C	6ltzsmQQbmdoHHbLZ4ZN25	2ZDjruwuzzzT8JMJRXvLtl	Ends of the Earth	67
@@ -5588,7 +7339,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 36AlMHDBFwSsD3FQOy1R81	60df5JBRRPcnSpsIMxxwQm	25uNcuL4dAoV62eKmr8Q0Y	Try a Little Tenderness	63
 5zQyqgNXKzhifkivumzxDS	60df5JBRRPcnSpsIMxxwQm	68BCjMsHX4Gf11BJSkjwGz	My Girl	60
 4pdLyulbYLCrPmDzWWeJIZ	60df5JBRRPcnSpsIMxxwQm	68BCjMsHX4Gf11BJSkjwGz	I've Been Loving You Too Long	59
-4STCTQ1h0VuWfvDyhGOxkv	60df5JBRRPcnSpsIMxxwQm	004EYz2DQttcGvyTQGDmLp	Merry Christmas Baby	44
+4STCTQ1h0VuWfvDyhGOxkv	60df5JBRRPcnSpsIMxxwQm	004EYz2DQttcGvyTQGDmLp	Merry Christmas Baby	45
 16dz1n3ctolQbuZPtvHVqH	60df5JBRRPcnSpsIMxxwQm	5K3FfkoIozJuEOhiwOm5SR	Love Man	57
 7ycWLEP1GsNjVvcjawXz3z	13ubrt8QOOCPljQ2FL1Kca	3MATDdrpHmQCmuOcozZjDa	Praise The Lord (Da Shine) (feat. Skepta)	81
 2aPTvyE09vUCRwVvj0I8WK	13ubrt8QOOCPljQ2FL1Kca	3AlyvIIMZyT5LjWFeK5LSl	Sundress	77
@@ -5601,7 +7352,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1j6kDJttn6wbVyMaM42Nxm	13ubrt8QOOCPljQ2FL1Kca	3arNdjotCvtiiLFfjKngMc	Lord Pretty Flacko Jodye 2 (LPFJ2)	70
 1AqemxWsT0iGg5Lvkm16Bt	13ubrt8QOOCPljQ2FL1Kca	3MATDdrpHmQCmuOcozZjDa	Fukk Sleep (feat. FKA twigs)	68
 7KXjTSCq5nL1LoYtL7XAwS	2YZyLoL8N0Wb9xBt1NhZWg	4eLPsYPBmXABThSJ821sqY	HUMBLE.	83
-3GCdLUSnKSMJhs4Tj6CV3s	2YZyLoL8N0Wb9xBt1NhZWg	3pLdWdkj83EYfDN6H2N8MR	All The Stars (with SZA)	82
+3GCdLUSnKSMJhs4Tj6CV3s	2YZyLoL8N0Wb9xBt1NhZWg	3pLdWdkj83EYfDN6H2N8MR	All The Stars (with SZA)	83
 6PGoSes0D9eUDeeAafB2As	2YZyLoL8N0Wb9xBt1NhZWg	4eLPsYPBmXABThSJ821sqY	LOVE. FEAT. ZACARI.	82
 0fX4oNGBWO3dSGUZcVdVV2	2YZyLoL8N0Wb9xBt1NhZWg	79ONNoS4M9tfIA1mYLBYVX	N95	82
 6IZvVAP7VPPnsGX6bvgkqg	2YZyLoL8N0Wb9xBt1NhZWg	4eLPsYPBmXABThSJ821sqY	PRIDE.	80
@@ -5669,21 +7420,21 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 6bZ9xnCsvwUacb29fbJ4xc	6eU0jV2eEZ8XTM7EmlguK6	7BEA5emJl0yTMC9XBDJCcm	Colors - Live In Studio	46
 6fGZAk8pyUwKw7E1Eoepkz	6eU0jV2eEZ8XTM7EmlguK6	7BEA5emJl0yTMC9XBDJCcm	Ain't No Love In The Heart of The City	46
 4YKSJHezbvr4e0026rz8Zo	6eU0jV2eEZ8XTM7EmlguK6	4KJGypBUe7ANibtri1msUe	OCT 33	45
-3xKsf9qdS1CyvXSMEid6g8	2h93pZq0e7k5yf4dywlkpM	3mH6qwIy9crq0I9YQbOuDf	Pink + White	84
+3xKsf9qdS1CyvXSMEid6g8	2h93pZq0e7k5yf4dywlkpM	3mH6qwIy9crq0I9YQbOuDf	Pink + White	85
 3GZD6HmiNUhxXYf8Gch723	2h93pZq0e7k5yf4dywlkpM	392p3shh2jkxUxY2VHvlH8	Lost	84
 4osgfFTICMkcGbbigdsa53	2h93pZq0e7k5yf4dywlkpM	3RYdEXhGHojkTILUdtnRVJ	Novacane	80
 2ZWlPOoWh0626oTaHrnl2a	2h93pZq0e7k5yf4dywlkpM	3mH6qwIy9crq0I9YQbOuDf	Ivy	80
 7eqoqGkKwgOaWNNHx90uEZ	2h93pZq0e7k5yf4dywlkpM	3mH6qwIy9crq0I9YQbOuDf	Nights	78
 4S4Mfvv03M1cHgIOJcbUCL	2h93pZq0e7k5yf4dywlkpM	71VX8yv9T2hNIYVZJVUWVp	In My Room	78
 2LMkwUfqC6S6s6qDVlEuzV	2h93pZq0e7k5yf4dywlkpM	3mH6qwIy9crq0I9YQbOuDf	White Ferrari	77
-6Nle9hKrkL1wQpwNfEkxjh	2h93pZq0e7k5yf4dywlkpM	6OGzmhzHcjf0uN9j7dYvZH	Chanel	77
 7DfFc7a6Rwfi3YQMRbDMau	2h93pZq0e7k5yf4dywlkpM	392p3shh2jkxUxY2VHvlH8	Thinkin Bout You	77
+6Nle9hKrkL1wQpwNfEkxjh	2h93pZq0e7k5yf4dywlkpM	6OGzmhzHcjf0uN9j7dYvZH	Chanel	77
 5GUYJTQap5F3RDQiCOJhrS	2h93pZq0e7k5yf4dywlkpM	3mH6qwIy9crq0I9YQbOuDf	Self Control	75
 3vvnpqqg7Jbi2c2aOn6GHt	1zXCFUgH6FWS0iCiCKsH55	71jxid8dyhioxjrZ4OiLWQ	Everything's Sweet	55
 7zJHwxabKK5TqW7xrKEC73	1zXCFUgH6FWS0iCiCKsH55	71jxid8dyhioxjrZ4OiLWQ	Are You Coming with Me?	52
 4s8uPDOuyjoO6Rmn7Armjc	1zXCFUgH6FWS0iCiCKsH55	3XQya9tCptDZRNFU90qBiL	Euphoria	46
 1dc7H76rkWGymUigYxQ4hp	1zXCFUgH6FWS0iCiCKsH55	6wRjGQayCybNhsUiTJdXcc	Chokin'	45
-1G9pU58ocxSyaBTOfDE15F	1zXCFUgH6FWS0iCiCKsH55	4jWRGEF8uP4vadXsot9SwK	Drowning in the XXX	45
+1G9pU58ocxSyaBTOfDE15F	1zXCFUgH6FWS0iCiCKsH55	4jWRGEF8uP4vadXsot9SwK	Drowning in the XXX	44
 0hVU7w5aEVjqYVbMcnp1CS	1zXCFUgH6FWS0iCiCKsH55	71jxid8dyhioxjrZ4OiLWQ	My Soul Is Lemonade	43
 4O4A5zbsLjBtN6Xsi2jLRt	1zXCFUgH6FWS0iCiCKsH55	1954USRP58YPbatjFxSphC	Megaphone	42
 67mBvvGurWeq8ILhG2Zyj5	1zXCFUgH6FWS0iCiCKsH55	71jxid8dyhioxjrZ4OiLWQ	Imagination	41
@@ -5717,7 +7468,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 3oaSvU9VBBmyfPA4lbibQM	74oJ4qxwOZvX6oSsu1DGnw	3W6CI0Lw7lElAPID2Fd3B4	Outside Woman Blues	53
 08xsXR637CEqbxJmpFcuSA	74oJ4qxwOZvX6oSsu1DGnw	2tVc8PhqDSRkpgiGOw7Ukb	Badge	52
 2JbS4ZDBIUcXavA9mfb2nC	74oJ4qxwOZvX6oSsu1DGnw	3W6CI0Lw7lElAPID2Fd3B4	SWLABR	49
-2uxsnsH0XzOBZkMrSFVmll	74oJ4qxwOZvX6oSsu1DGnw	0zrtTZC7yY2TOEhnbJzSb9	Born Under A Bad Sign	48
+2uxsnsH0XzOBZkMrSFVmll	74oJ4qxwOZvX6oSsu1DGnw	0zrtTZC7yY2TOEhnbJzSb9	Born Under A Bad Sign	49
 7zxikeAavSLQVGocbK2nau	0XSqX2PB3C5dTMv7SZaxSm	6ZeO3WNF2Gti8ZQnXog5SQ	I'll Believe in Anything	49
 6aAhBncpJcB0gJCKobVsrI	0XSqX2PB3C5dTMv7SZaxSm	0SGIIeSYwykTlnqfp3WjIN	Fine Young Cannibals	42
 3lvt2HbhH4wApvt05BfDkB	0XSqX2PB3C5dTMv7SZaxSm	6ZeO3WNF2Gti8ZQnXog5SQ	Modern World	39
@@ -5741,9 +7492,8 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 68Dni7IE4VyPkTOH9mRWHr	6l3HvQ5sa6mXTsMTB19rO5	0UMMIkurRUmkruZ3KGBLtG	No Role Modelz	87
 4tqcoej1zPvwePZCzuAjJd	6l3HvQ5sa6mXTsMTB19rO5	0UMMIkurRUmkruZ3KGBLtG	Wet Dreamz	83
 0Fs9cdPDhptWEDJmiCbkEW	6l3HvQ5sa6mXTsMTB19rO5	5FP9keIJnlSCKnkdVOf623	She Knows (feat. Amber Coffman & Cults)	81
-2JvzF1RMd7lE3KmFlsyZD8	6l3HvQ5sa6mXTsMTB19rO5	3XzSOIE6zGLliuqsVGLmUc	MIDDLE CHILD	80
+2JvzF1RMd7lE3KmFlsyZD8	6l3HvQ5sa6mXTsMTB19rO5	3XzSOIE6zGLliuqsVGLmUc	MIDDLE CHILD	81
 2wAJTrFhCnQyNSD3oUgTZO	6l3HvQ5sa6mXTsMTB19rO5	0fhmJYVhW0e4i33pCLPA5i	Work Out	80
-49TIT8O6KR9rdfgVBwdbac	2jgPkn6LuUazBoBk6vvjh5	1Sv2t548jDyfBDgvVzYJzw	Summertime	54
 5W8jRrZ6tWrTrqnKRtIQBf	6l3HvQ5sa6mXTsMTB19rO5	4JAvwK4APPArjIsOdGoJXX	p r i d e . i s . t h e . d e v i l (with Lil Baby)	77
 1D3z6HTiQsNmZxjl7F7eoG	6l3HvQ5sa6mXTsMTB19rO5	4JAvwK4APPArjIsOdGoJXX	m y . l i f e (with 21 Savage & Morray)	77
 2uwnP6tZVVmTovzX5ELooy	6l3HvQ5sa6mXTsMTB19rO5	5FP9keIJnlSCKnkdVOf623	Power Trip (feat. Miguel)	77
@@ -5756,9 +7506,9 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 32F0zqsDgqpIEYApk2b8sr	6RZUqkomCmb8zCRqc9eznB	4wxoPjHSYFYurNyKaEiZNT	Pure Morning	49
 6Vkn98iI3sfATzdacZ307z	6RZUqkomCmb8zCRqc9eznB	4rIT7o85FQB2KfTMMT4Pj0	Song to Say Goodbye	57
 7pmahAnqScI4MjbQiZZqei	6RZUqkomCmb8zCRqc9eznB	2toHnQWm3IbSocaWGYi9J4	This Picture	45
-0W6QtgkxPNJ7simo1UcBIr	6RZUqkomCmb8zCRqc9eznB	0PhJJToPch4jCjrfQjyarw	Special K	55
+0W6QtgkxPNJ7simo1UcBIr	6RZUqkomCmb8zCRqc9eznB	0PhJJToPch4jCjrfQjyarw	Special K	56
 54s0TZeheZOxoVFxxmB3wA	6RZUqkomCmb8zCRqc9eznB	19upQOw6eZRsGUGqGe6zF1	Beautiful James	35
-7jxR5vYnUhwE6niPPyzR4V	6RZUqkomCmb8zCRqc9eznB	19upQOw6eZRsGUGqGe6zF1	Try Better Next Time	32
+6Yg3J1OkP45uNcboiUg2Rw	6RZUqkomCmb8zCRqc9eznB	7kTsa1wUFrahJJf1cJEOpZ	Where Is My Mind? - XFM Live Version	53
 39Yp9wwQiSRIDOvrVg7mbk	2PaZWGu5T5nHjY2xxAkFsT	7q6zjWaLw8bN5nYiBWjrus	THE SCOTTS	75
 2ncLdwTd8qzkxiJjlbiOgC	0fA0VVWsXO9YnASrzqfmYu	0InO6eGRL47KErEYEoc2rP	Mr. Rager	72
 5PX4uS1LqlWEPL69phPVQQ	0fA0VVWsXO9YnASrzqfmYu	38MFjDPIDJFfLF7IVpe1rv	Pursuit Of Happiness - Extended Steve Aoki Remix	74
@@ -5811,11 +7561,12 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 5RVO5uHpeQVveseIWQRfvI	600GgDUq9kzGJgNIrVsWfz	11vaCG8601u7A6ViFQIRXA	Tomboy	21
 6hleUCx3E4gB2urwRvx1QT	2jgPkn6LuUazBoBk6vvjh5	6XqM4NINcx3oc7NhOUKxXp	Time of the Season - Mono Version	64
 4Wzt8Dm4xpO3LjWDecP4bA	2jgPkn6LuUazBoBk6vvjh5	1Sv2t548jDyfBDgvVzYJzw	She's Not There	62
-560OsnDa7tpsK2B0krVlOP	2jgPkn6LuUazBoBk6vvjh5	6XqM4NINcx3oc7NhOUKxXp	This Will Be Our Year	53
+49TIT8O6KR9rdfgVBwdbac	2jgPkn6LuUazBoBk6vvjh5	1Sv2t548jDyfBDgvVzYJzw	Summertime	54
+560OsnDa7tpsK2B0krVlOP	2jgPkn6LuUazBoBk6vvjh5	6XqM4NINcx3oc7NhOUKxXp	This Will Be Our Year	54
 69GPTeIbtyU1Vd1NPYX95k	2jgPkn6LuUazBoBk6vvjh5	1Sv2t548jDyfBDgvVzYJzw	The Way I Feel Inside	51
 5AxeiXkrfb2e4PsZ02CSyC	2jgPkn6LuUazBoBk6vvjh5	2ig7JTatcliu92WgxJKcxj	Tell Her No	49
 7p1fSjOvkphYCqxJupK8Et	2jgPkn6LuUazBoBk6vvjh5	1Sv2t548jDyfBDgvVzYJzw	What More Can I Do	48
-5Q08lzb2Uj4X9VVDGmUebR	2jgPkn6LuUazBoBk6vvjh5	1Sv2t548jDyfBDgvVzYJzw	Can't Nobody Love You	45
+5Q08lzb2Uj4X9VVDGmUebR	2jgPkn6LuUazBoBk6vvjh5	1Sv2t548jDyfBDgvVzYJzw	Can't Nobody Love You	46
 1SnTzsiSyLSbdO0DHVIZOw	2jgPkn6LuUazBoBk6vvjh5	6XqM4NINcx3oc7NhOUKxXp	Care Of Cell 44	45
 2tv1TH489D5jYz96DeGwT3	2jgPkn6LuUazBoBk6vvjh5	76v4YlZ9Cbh984zti9Q8rp	Going Out Of My Head	43
 0bIGNGUqgpB82sAksxonkZ	74ASZWbe4lXaubB36ztrGX	5OlEEw6gIk32eMhOqRlfGu	My Back Pages - Live at Madison Square Garden, New York, NY - October 1992	54
@@ -5849,14 +7600,14 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 6DJdXo8oT7kTA9mYpvpJRk	0qu422H5MOoQxGjd4IzHbS	5wnCTZtzIZxasRSHzI1JeW	Strawberry Privilege	48
 51rPRW8NjxZoWPPjnRGzHw	3ycxRkcZ67ALN3GQJ57Vig	2wqG59dVVQlJaxoO7N0LJt	Tadow	74
 0bkTdkWwGk3OGFX0afD3Wj	3ycxRkcZ67ALN3GQJ57Vig	1S0yIZRDiFmqCQyTIEV175	Mystery Lady	69
-6zWU7YALeEDMcPGhKKZJhV	3ycxRkcZ67ALN3GQJ57Vig	5DxMTCWwHlaz4Hx1og50xL	Navajo	66
+6zWU7YALeEDMcPGhKKZJhV	3ycxRkcZ67ALN3GQJ57Vig	5DxMTCWwHlaz4Hx1og50xL	Navajo	67
 1xTYy3K3hiTcoZfoD7culn	3ycxRkcZ67ALN3GQJ57Vig	0jKDicrmgUCTSNGRYXffXm	Say You Want Me	64
 6T3Ebo7EOh8cUOyE4OhFpp	5Vuvs6Py2JRU7WiFDVsI7J	3myUd2MqJKr3rfUrAf41Us	Good & Plenty - Remix	63
 5z2XleKRbvbiytGucM5v2D	3ycxRkcZ67ALN3GQJ57Vig	45IpQ6F0GYcas0yFGMzvac	Flight 99	60
 5tkR9JkBj3Ueeo8W4k8IZD	3ycxRkcZ67ALN3GQJ57Vig	2wqG59dVVQlJaxoO7N0LJt	Queen Tings	60
 1VAKnb1btGrQXcVZVSRkPe	7E2ioKxoxI2J94tUkIx6As	53FhNZMrcBim6Ec9mp8ifl	Good & Plenty	58
 0QUbiLQySWPq5Lh3f7A9bN	0cGUm45nv7Z6M6qdXYQGTX	6ROLwnmW9pOioLned0DaP3	Hate The Club (feat. Masego)	58
-5KaIIT6ijzJvlZPPiJby36	3ycxRkcZ67ALN3GQJ57Vig	2wqG59dVVQlJaxoO7N0LJt	Prone	57
+5KaIIT6ijzJvlZPPiJby36	3ycxRkcZ67ALN3GQJ57Vig	2wqG59dVVQlJaxoO7N0LJt	Prone	58
 64DpBZj4IlDFzCwxTq7azl	2ooIqOf4X2uz4mMptXCtie	0vVekV45lOaVKs6RZQQNob	Holland, 1945	58
 0n97PkKoTpnp5L343TMAgB	2ooIqOf4X2uz4mMptXCtie	0vVekV45lOaVKs6RZQQNob	Communist Daughter	52
 41WcmdweTbIJAc8tiOR6xw	2ooIqOf4X2uz4mMptXCtie	0vVekV45lOaVKs6RZQQNob	Oh Comely	49
@@ -5880,7 +7631,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 2nHrv8WYddyiom6o7xbE6d	5NYEE4kgrEZPlM3DxUsTyc	5KbpmB5vJUBpHKpy9j2AYa	Babalon	39
 0mUs7SDoJPWCgNv0Tmdg97	5NYEE4kgrEZPlM3DxUsTyc	5wopjMxpL3Bq6UE3oZ9Sun	Sex Magick	39
 3kp9ibchTs1RKlXnxlmooG	5NYEE4kgrEZPlM3DxUsTyc	5wopjMxpL3Bq6UE3oZ9Sun	I'm Wicked	38
-7zcDDM8zY0icYDU2r90JRo	5NYEE4kgrEZPlM3DxUsTyc	5wopjMxpL3Bq6UE3oZ9Sun	I Know How to Hex You	38
+7zcDDM8zY0icYDU2r90JRo	5NYEE4kgrEZPlM3DxUsTyc	5wopjMxpL3Bq6UE3oZ9Sun	I Know How to Hex You	37
 3HOJK8zgaNqcK0HuTrdL4s	5NYEE4kgrEZPlM3DxUsTyc	4fynbs9l2M5gcBvHMqYGfa	I Am a Witch	37
 1yTjpC27Sbdn5gcNeQF2qU	5NYEE4kgrEZPlM3DxUsTyc	5wopjMxpL3Bq6UE3oZ9Sun	Let's Hang Together	35
 5wCVLW9qMtIY9IkBeyYnh6	75dQReiBOHN37fQgWQrIAJ	0ORZb7kyr8aaP2LpL3mhuY	When Am I Gonna Lose You	61
@@ -5906,11 +7657,11 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 63T7DJ1AFDD6Bn8VzG6JE8	22bE4uQ6baNwSHPVcDxLCe	72qrnM4yUNMDDlWiqKc8iY	Paint It, Black	80
 6H3kDe7CGoWYBabAeVWGiD	22bE4uQ6baNwSHPVcDxLCe	4l4u9e9jSbotSXNjYfOugy	Gimme Shelter	76
 7HKez549fwJQDzx3zLjHKC	22bE4uQ6baNwSHPVcDxLCe	15XNBzVWARPMlu0sEbfBjJ	Start Me Up - Remastered 2009	76
-2PzU4IB8Dr6mxV3lHuaG34	22bE4uQ6baNwSHPVcDxLCe	2Q5MwpTmtjscaS34mJFXQQ	(I Can't Get No) Satisfaction - Mono Version	75
+2PzU4IB8Dr6mxV3lHuaG34	22bE4uQ6baNwSHPVcDxLCe	2Q5MwpTmtjscaS34mJFXQQ	(I Can't Get No) Satisfaction - Mono Version	76
 1Ud6moTC0KyXMq1Oxfien0	22bE4uQ6baNwSHPVcDxLCe	6OHri5qNxwCdVSdyCslspd	Sympathy For The Devil - 50th Anniversary Edition	73
 77oU2rjC5XbjQfNe3bD6so	22bE4uQ6baNwSHPVcDxLCe	1Jv2AqzhgsduUik2p4k3cS	Beast Of Burden - Remastered 1994	72
 1GcVa4jFySlun4jLSuMhiq	22bE4uQ6baNwSHPVcDxLCe	6iVOz2hudE6dv5Yrcsw2c9	Angie	71
-3hJLKtTpgct9Y9wKww0BiR	22bE4uQ6baNwSHPVcDxLCe	1Jv2AqzhgsduUik2p4k3cS	Miss You - Remastered	68
+3hJLKtTpgct9Y9wKww0BiR	22bE4uQ6baNwSHPVcDxLCe	1Jv2AqzhgsduUik2p4k3cS	Miss You - Remastered	69
 52dm9op3rbfAkc1LGXgipW	22bE4uQ6baNwSHPVcDxLCe	29m6DinzdaD0OPqWKGyMdz	Wild Horses - 2009 Mix	68
 6lFZbCc7pn6Lme1NP7qQqQ	22bE4uQ6baNwSHPVcDxLCe	4l4u9e9jSbotSXNjYfOugy	You Can't Always Get What You Want	67
 54X78diSLoUDI3joC2bjMz	5a2EaR3hamoenG9rDuVn8j	7nXJ5k4XgRj5OLg9m8V3zc	Purple Rain	74
@@ -5936,7 +7687,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 2GiJYvgVaD2HtM8GqD9EgQ	1KP6TWI40m7p3QBTU6u2xo	17l7MIu0Jh0tdgK7or9ovw	Electric Love	80
 4AewKenHXKBt643p473xCk	1KP6TWI40m7p3QBTU6u2xo	17l7MIu0Jh0tdgK7or9ovw	American Money	66
 1Dr5JexwA15wmKe7Y7maA9	1KP6TWI40m7p3QBTU6u2xo	17l7MIu0Jh0tdgK7or9ovw	Past Lives	63
-00Ci0EXS4fNPnkTbS6wkOh	1KP6TWI40m7p3QBTU6u2xo	2Y81I8p6wKD13rSgp9aujA	Electric Love - Oliver Remix	57
+00Ci0EXS4fNPnkTbS6wkOh	1KP6TWI40m7p3QBTU6u2xo	2Y81I8p6wKD13rSgp9aujA	Electric Love - Oliver Remix	56
 62ZXL1CWLJDiDWUZUhfLfU	1KP6TWI40m7p3QBTU6u2xo	17l7MIu0Jh0tdgK7or9ovw	Dopamine	56
 2CzXAeABCmbEB52ZziuMsH	1KP6TWI40m7p3QBTU6u2xo	46Mmmgl5yZhchLWhEef7gA	Seeing Stars	54
 03YZnK3XQWKpvo9TyNZzXf	1KP6TWI40m7p3QBTU6u2xo	17l7MIu0Jh0tdgK7or9ovw	The Emotion	53
@@ -5974,8 +7725,8 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 2XvpMAHHUVuKodlo7BKqpv	7HeVXdOdMhLslVputGTZFQ	79bRQkpKURXEnggeLVVxFq	Demon Host	42
 3kpRgTtMnArQ5Gay0JxElf	7HeVXdOdMhLslVputGTZFQ	2U1BUKvsYIkUik7xEhAP0C	Hot Dreams	42
 0AwLsPPWgYkib7HCrayqwy	7HeVXdOdMhLslVputGTZFQ	2U1BUKvsYIkUik7xEhAP0C	Run From Me	40
-14lFMWrwM30Q8FiijmxWVz	7HeVXdOdMhLslVputGTZFQ	2tWkGlUTyWZcVsqryi8U1q	Bad Ritual	39
 7BT2BsgZZffGmiENrzxCzy	7HeVXdOdMhLslVputGTZFQ	1peaWfJtqMtLmqKK79Cpxu	Magic Arrow	39
+14lFMWrwM30Q8FiijmxWVz	7HeVXdOdMhLslVputGTZFQ	2tWkGlUTyWZcVsqryi8U1q	Bad Ritual	39
 5Y8IMaCAPl996kjC4uo9Tx	7HeVXdOdMhLslVputGTZFQ	49I6QGpLjGJYC9WlyMEPhG	Velvet Gloves & Spit	38
 2rsswxxShjBqoEj7dbr4Sb	7HeVXdOdMhLslVputGTZFQ	49I6QGpLjGJYC9WlyMEPhG	Grifting	36
 3rly0zvX18j9J00wh5bs5S	7HeVXdOdMhLslVputGTZFQ	5xINyvUV0bHyJxBdFTT8xI	Dissociation	36
@@ -5991,7 +7742,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 501jsSXfxhgClQe4UDrofk	0V7uVrIYr4FwFvUN9S4kYr	1e1FoOAXam30VAJJb4q4Zk	I Feel an Urge Coming On	36
 5mqop2IekTZWc2hRE7NpmW	0V7uVrIYr4FwFvUN9S4kYr	1e1FoOAXam30VAJJb4q4Zk	Song for Winners	36
 1Zi74xhSWk5R13oGceGsfm	0V7uVrIYr4FwFvUN9S4kYr	0PHH7ZnpTBkek9iQtGNBno	Place Names	33
-7N15WWy12QAMpGAh6QMAej	6hnWRPzGGKiapVX1UCdEAC	2Dpw2XUAsBvuNdNLarNzz8	(What A) Wonderful World	61
+7N15WWy12QAMpGAh6QMAej	6hnWRPzGGKiapVX1UCdEAC	2Dpw2XUAsBvuNdNLarNzz8	(What A) Wonderful World	62
 0KOE1hat4SIer491XKk4Pa	6hnWRPzGGKiapVX1UCdEAC	2NFd4ApYFitFtJhGTSfDdP	A Change Is Gonna Come	66
 5EoYc5wvRYOtkudLfrjsL1	6hnWRPzGGKiapVX1UCdEAC	2Dpw2XUAsBvuNdNLarNzz8	Bring It On Home to Me	62
 7FS541dJh3iQAEXEZoDhE6	6hnWRPzGGKiapVX1UCdEAC	406RCIvK6uh49XviqAI6kY	Twistin' the Night Away	61
@@ -6087,7 +7838,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1jhdCONafFj1hzJsPvZx27	68kEuyFKyqrdQQLLsmiatm	2G549zeda2XNICgLmU0pNW	WHEN SPARKS FLY	60
 7uX3gufAoBVqKVoD3dBLLD	6qqNVTkY8uBg9cP3Jd7DAH	6eQpKhYCtvD0TwXQVHsgC2	&burn (with Vince Staples)	59
 7pBsquIkbED6W6uSQJGbkn	68kEuyFKyqrdQQLLsmiatm	35s58BRTGAEWztPo9WqCIs	Home	58
-7bUcBztfGqO7cSI2gMZeCI	68kEuyFKyqrdQQLLsmiatm	3pLdWdkj83EYfDN6H2N8MR	Opps (with Yugen Blakrok)	57
+7bUcBztfGqO7cSI2gMZeCI	68kEuyFKyqrdQQLLsmiatm	3pLdWdkj83EYfDN6H2N8MR	Opps (with Yugen Blakrok)	58
 6eL1ncVDtQHgSm3E288TS7	68kEuyFKyqrdQQLLsmiatm	5h3WJG0aZjNOrayFu3MhCS	Big Fish	57
 7jN5Abri3a1crehbnlWa1F	68kEuyFKyqrdQQLLsmiatm	2G549zeda2XNICgLmU0pNW	MAGIC	56
 6vECYJHxYmm3Ydt3fF01pE	1hzfo8twXdOegF3xireCYs	5D20ZzsNB377xbshIFP9Nb	Stolen Dance	73
@@ -6102,7 +7853,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1X6Kmaa2Yq70vF0cIQ6V0f	1hzfo8twXdOegF3xireCYs	707cK3j40hIquI15sOcYXP	Save Your Tears	59
 3HOXNIj8NjlgjQiBd3YVIi	251UrhgNbMr15NLzQ2KyKq	72YUTJrAuTuSHSVrgixbor	Yellow Eyes	60
 40DGtj95w54IDSbA7BWn3o	251UrhgNbMr15NLzQ2KyKq	26n1VRHY8iKUGgRneKSOud	Olivia	56
-6H96yLcXFKuBYTFEEi4Vl2	251UrhgNbMr15NLzQ2KyKq	26n1VRHY8iKUGgRneKSOud	Willy's Song	54
+6H96yLcXFKuBYTFEEi4Vl2	251UrhgNbMr15NLzQ2KyKq	26n1VRHY8iKUGgRneKSOud	Willy's Song	53
 5aXYNj2v1ut661U0HLT6fP	251UrhgNbMr15NLzQ2KyKq	72YUTJrAuTuSHSVrgixbor	Mr. Rodriguez	50
 3BkBTso1LQicQOkU1ga0xY	251UrhgNbMr15NLzQ2KyKq	43sgLebubxZtXox2i0QiVA	Without Me	50
 6FR7CxgunBBN1jYJxsX8uZ	251UrhgNbMr15NLzQ2KyKq	2JZRyLhDpddo6XUwtb2ZJA	Bad Things	48
@@ -6136,8 +7887,8 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 6tByydPskASjm9jTPkNQq0	5IcR3N7QB1j6KBL8eImZ8m	3UTp6spxkyTdvsmJDPfb7n	Numb Numb Juice	64
 6BKAKoo7J2vwJGZJs5dhGD	5IcR3N7QB1j6KBL8eImZ8m	3UTp6spxkyTdvsmJDPfb7n	CrasH	64
 0IH3D0P8OrQFs6ajcqbm0R	5IcR3N7QB1j6KBL8eImZ8m	3UTp6spxkyTdvsmJDPfb7n	Dangerous (feat. Kid Cudi)	61
-4NN6N5TxBO5k9uqu0W4gfQ	5IcR3N7QB1j6KBL8eImZ8m	3UTp6spxkyTdvsmJDPfb7n	Floating (feat. 21 Savage)	61
 2yJ9GVCLMmzBBfQAnfzlwr	5IcR3N7QB1j6KBL8eImZ8m	0YbpATCIng8Fz2JrfHmEf7	THat Part	61
+4NN6N5TxBO5k9uqu0W4gfQ	5IcR3N7QB1j6KBL8eImZ8m	3UTp6spxkyTdvsmJDPfb7n	Floating (feat. 21 Savage)	61
 2kfpH2OAAdpk5J3JaraAIh	5IcR3N7QB1j6KBL8eImZ8m	1C1mvUxPYGzTqVpXu6vOLf	Hands On The Wheel	59
 0BMzC3hYff1zj2MsllexiU	3D4qYDvoPn5cQxtBm4oseo	5mlCtfr6NLphHzAaXIuXz4	January 1979	46
 2v4kQsvlTPEYOIyJkytzGH	3D4qYDvoPn5cQxtBm4oseo	4yItCYzksCSiB8RcUsAdSg	In A Sweater Poorly Knit	43
@@ -6151,14 +7902,14 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 24gpcyxzfyE8DI89FXFHLh	3D4qYDvoPn5cQxtBm4oseo	2rErxidCuRG9OAFv2WPMKA	Bullet To Binary	33
 6Vi3zrYtd2n53YUiYLTnNC	3tJ9PkBOrG7hFkHeNM2tbw	7lFxuWjTe0JxXka9tjzGXm	Vem meu amor	48
 0Xt2ZJpiBRYnExG0k2Zk9b	7dzq55YG3wjViqexDwiycQ	0BGtZFqDInZuJJvJa8jChx	Faraó Divindade Do Egito / Ladeira Do Pelô / Doce Obsessão - Ao Vivo	46
-7c60MUlDMw6ZI1Ft4LxLBY	3tJ9PkBOrG7hFkHeNM2tbw	7lFxuWjTe0JxXka9tjzGXm	Deusa do amor - Ao vivo	44
 1wHNSciCOxqs4dft2EWrIC	3qvcCP2J0fWi0m0uQDUf6r	2hC2wtKkPe5Jdkx8g2IJPe	SOFRENDO FEITO UM LOUCO - SUMMER VERSION	44
+7c60MUlDMw6ZI1Ft4LxLBY	3tJ9PkBOrG7hFkHeNM2tbw	7lFxuWjTe0JxXka9tjzGXm	Deusa do amor - Ao vivo	44
 3vdevXZtf1T08rQubQcwY4	3tJ9PkBOrG7hFkHeNM2tbw	5haiFJR9CxVYTS3MpZX1NQ	I Miss Her	36
 1uJKTRjp5WxzrWwfElOZDp	3tJ9PkBOrG7hFkHeNM2tbw	4RPiOtWQymIOwQhazukSAu	Várias Queixas	40
 2gVRDshVuLTKslwTequSO1	3tJ9PkBOrG7hFkHeNM2tbw	7bY4SH61zQPK4bnffxu64P	Requebra - Ao vivo	39
+1XAGsBhvZ4iPJMx8XzD1Tk	0BHm7qbh3ENxvXzkQAG7MP	14tdR8SF0t6aDvGW95d4EA	Tudum Remix	0
 632pAox1NgFyiubpHzps90	3tJ9PkBOrG7hFkHeNM2tbw	4Pjo3KsaX35V2VHKER39T2	Madagáscar olodum	22
 42zb6MpkTpMhuV3C3OeFXK	3tJ9PkBOrG7hFkHeNM2tbw	06Atso1IAfXUpWakHGZdjh	Requebra	21
-35SwFntBxtKFFOFKurhesr	3tJ9PkBOrG7hFkHeNM2tbw	4Pjo3KsaX35V2VHKER39T2	Faraó divindade do Egito	28
 3mtIUX9LrCpIUiAAv9SD4a	2ApaG60P4r0yhBoDCGD8YG	6KMdn9HDIqcBPaaok0K34K	Between the Bars	60
 5AMrnF761nziCWUfjBgRUI	2ApaG60P4r0yhBoDCGD8YG	1zOxlHQGGV6EH7n4OIFTyh	Waltz #2 (XO)	59
 2uwN3PDudlRkAKE3wA0OqJ	2ApaG60P4r0yhBoDCGD8YG	6KMdn9HDIqcBPaaok0K34K	Angeles	54
@@ -6173,8 +7924,8 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 5taqLrLouA4vCjM7ZQpEtW	4RnBFZRiMLRyZy0AzzTg2C	6cx4GVNs03Pu4ZczRnWiLd	ooh la la (feat. Greg Nice & DJ Premier)	57
 1NfIOF8pH2auEaGq4roP2I	4xRYI6VqpkE3UwrDrAZL8L	0RTHMVF27KRMHIGnF7iLru	Vinyl Days (feat. DJ Premier)	50
 3rSiXFJlhhhy36761mj9js	6GEykX11lQqp92UVOQQCC7	3YQRfcAxfqX4KJt4o0yCTm	The Root of All (feat. Slick Rick & Lil Wayne)	48
-5UcJZVvqgX9dnjq161bGQ4	3s7WzrEs4FkNObqj4WyfQm	0L9rBwT5kUeKlwg7HOqwUU	Times Is Rough	42
 5Wt2UAS92w2ZyDqX2dOEBg	165ZgPlLkK7bf5bDoFc6Sb	5mi7FKaWE5CtcOjdyxScA7	Getcha Groove On - Dirt Road Mix	46
+5UcJZVvqgX9dnjq161bGQ4	3s7WzrEs4FkNObqj4WyfQm	0L9rBwT5kUeKlwg7HOqwUU	Times Is Rough	42
 0lRhj7HyP2KObeyFPUOPRA	6GEykX11lQqp92UVOQQCC7	2PXyfq0RX8BpA1NfOhnFaJ	Our Streets (feat. A$AP Ferg) (feat. A$AP Ferg)	45
 34rwJDeFgvZXd9KtiBkQKI	6GEykX11lQqp92UVOQQCC7	3YQRfcAxfqX4KJt4o0yCTm	Beat Breaks (feat. Nas)	45
 04jxZHjzLOknmIJSgjefyZ	6GEykX11lQqp92UVOQQCC7	4mLRYZaEEXZn5Ze3gxqtsf	Headlines (feat. Westside Gunn, Conway & Benny)	45
@@ -6190,15 +7941,25 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1kqBAV3R35lVIRvhYmSI6s	0rpMdBzQXf7aYRnu5fDBJy	2nb3J8l5RKHOU3R4oTQP9u	Country Death Song	41
 2vU1H8XKsK6bUff94gTorE	0rpMdBzQXf7aYRnu5fDBJy	0Ojio25IPzIrw1rUmgrhrG	Prove My Love	40
 6PuoZT4kgw5DrUEdnQ6e01	1anAI9P9iSzc9qzLv6AtHZ	7EfgATnOllXJ96s4sSdzei	This Must Be The Place	64
-7rNnqDOzc3Qoom2VhIyuxx	1anAI9P9iSzc9qzLv6AtHZ	31t6VcIOZ3WqsSH2F9Zcy0	Funky Galileo	44
 0aPX1AXz8Tp51Nak6B04ij	1anAI9P9iSzc9qzLv6AtHZ	7EfgATnOllXJ96s4sSdzei	Friends	56
+7rNnqDOzc3Qoom2VhIyuxx	1anAI9P9iSzc9qzLv6AtHZ	31t6VcIOZ3WqsSH2F9Zcy0	Funky Galileo	44
 0tN5MAdqjjhYS4HE2JnfzJ	1anAI9P9iSzc9qzLv6AtHZ	25gXJ8YPQpkC9fUEF5Wxlt	Warm Animal	53
 3YSefJ4OGYCIHNVowuSx7O	1anAI9P9iSzc9qzLv6AtHZ	7EfgATnOllXJ96s4sSdzei	Fat Lady	52
 7c0AtG5G1kbVUrBYxREGXv	1anAI9P9iSzc9qzLv6AtHZ	22rxIV4YCzp5LpFPDt95Kc	The Caller	48
 1wDBglPaH5ehDDNiNWCHp0	1anAI9P9iSzc9qzLv6AtHZ	31t6VcIOZ3WqsSH2F9Zcy0	California High	48
-0CNJyQiyzYxbsuMGTQlria	1anAI9P9iSzc9qzLv6AtHZ	7EfgATnOllXJ96s4sSdzei	Giants	47
 7dW6aiHZG0A8xApW0Xg40G	1anAI9P9iSzc9qzLv6AtHZ	31t6VcIOZ3WqsSH2F9Zcy0	Lonely One	47
+0CNJyQiyzYxbsuMGTQlria	1anAI9P9iSzc9qzLv6AtHZ	7EfgATnOllXJ96s4sSdzei	Giants	47
 0m9TcZ6H1tdRQ2zpdZybaZ	1anAI9P9iSzc9qzLv6AtHZ	7EfgATnOllXJ96s4sSdzei	New Biome	44
+48EjSdYh8wz2gBxxqzrsLe	2auiVi8sUZo17dLy1HwrTU	3Yko2SxDk4hc6fncIBQlcM	Cranes in the Sky	64
+6IAgarq2wDeYzpsY2Kx0Hw	2auiVi8sUZo17dLy1HwrTU	4WF4HvVT7VjGnVjxjoCR6w	Almeda	63
+7yvdp8dqmxExSJwT2fn6Xq	2auiVi8sUZo17dLy1HwrTU	4WF4HvVT7VjGnVjxjoCR6w	Binz	62
+6GCIYIWUBSLontW6divqsw	2auiVi8sUZo17dLy1HwrTU	4WF4HvVT7VjGnVjxjoCR6w	Stay Flo	61
+22DHmfJa31hKpc2Lg0gVBV	2auiVi8sUZo17dLy1HwrTU	3Yko2SxDk4hc6fncIBQlcM	Mad (feat. Lil Wayne)	55
+0deHsjyrgcKGMZzIuvawq3	2auiVi8sUZo17dLy1HwrTU	4WF4HvVT7VjGnVjxjoCR6w	Dreams	54
+688iitLNSV6Iik1QESqvth	2auiVi8sUZo17dLy1HwrTU	3Yko2SxDk4hc6fncIBQlcM	Rise	52
+2TyCAfhwu5tRqFW8VnGMIL	2auiVi8sUZo17dLy1HwrTU	3Yko2SxDk4hc6fncIBQlcM	Don't Touch My Hair (feat. Sampha)	52
+4o8Rk1YzdkTxsSEXd3YhAK	2auiVi8sUZo17dLy1HwrTU	4WF4HvVT7VjGnVjxjoCR6w	Sound of Rain	51
+5hR0wTnydz6lmErOV4c0sp	2auiVi8sUZo17dLy1HwrTU	6VCjvboIlNJ3N881Xja6ng	Losing You	50
 7wCmS9TTVUcIhRalDYFgPy	6zvul52xwTWzilBZl6BUbT	50j4Wm1b9hLpSpPIA39Vp9	Where Is My Mind? - Remastered	78
 4IvZLDtwBHmBmwgDIUbuwa	6zvul52xwTWzilBZl6BUbT	0DQyTVcDhK9wm0f6RaErWO	Here Comes Your Man	69
 0p5eZCY0R7uNCZS1YDtIYI	6zvul52xwTWzilBZl6BUbT	0DQyTVcDhK9wm0f6RaErWO	Hey	68
@@ -6209,7 +7970,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 16EKGMPGE3f6X3p18CjtkB	6zvul52xwTWzilBZl6BUbT	1EzLdeSngJNnzM94BHBtK2	The Thing	61
 51Z2IzJvLCnZaIpBV0IYRr	6zvul52xwTWzilBZl6BUbT	0DQyTVcDhK9wm0f6RaErWO	Wave Of Mutilation	59
 4lSqfVzoGBmBGnBZrSrKOJ	6zvul52xwTWzilBZl6BUbT	0BK1LxNNcaNUtAqTBQAOR8	Ana	57
-39shmbIHICJ2Wxnk1fPSdz	3RGLhK1IP9jnYFH4BRFJBS	1ZH5g1RDq3GY1OvyD0w0s2	Should I Stay or Should I Go - Remastered	79
+39shmbIHICJ2Wxnk1fPSdz	3RGLhK1IP9jnYFH4BRFJBS	1ZH5g1RDq3GY1OvyD0w0s2	Should I Stay or Should I Go - Remastered	78
 5jzma6gCzYtKB1DbEwFZKH	3RGLhK1IP9jnYFH4BRFJBS	6FCzvataOZh68j8OKzOt9a	London Calling - Remastered	72
 6ITuEsxEy2qPhqMowdDAeI	3RGLhK1IP9jnYFH4BRFJBS	6FCzvataOZh68j8OKzOt9a	Train in Vain (Stand by Me) - Remastered	66
 5dAxeuDkIkpa6wZpMOuG9i	3RGLhK1IP9jnYFH4BRFJBS	26zldGZFvob9Lj0kXZ6v7u	I Fought the Law	61
@@ -6218,16 +7979,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 7FYkZkF9fog6WS818wJnhl	3RGLhK1IP9jnYFH4BRFJBS	6FCzvataOZh68j8OKzOt9a	Brand New Cadillac - Remastered	56
 6IMlcKjsIM3l3yXWykTa3y	3RGLhK1IP9jnYFH4BRFJBS	49kzgMsxHU5CTeb2XmFHjo	Police & Thieves - Remastered	55
 2ax1vei61BzRGsEn6ckEdL	3RGLhK1IP9jnYFH4BRFJBS	1ZH5g1RDq3GY1OvyD0w0s2	Straight to Hell - Remastered	55
-25z7NYgTEt6MiA5qExNSH2	2bToe6WyGvADJftreuXh2K	02j4VRhJ7MKK0Jf3FtBBsD	Never Be Another You	55
-1emxi7e5EWFsJmwSKTuUDH	2bToe6WyGvADJftreuXh2K	7ElHdWPD6YbkbltJQgCiDc	Honey Dove	54
-6iNHWlOLt4NuDi9iSvtznO	2bToe6WyGvADJftreuXh2K	7ElHdWPD6YbkbltJQgCiDc	Ladies	53
-2axJJQBO4KbFsx0Twvb8mn	2bToe6WyGvADJftreuXh2K	6sPPhqjKQHveRVqR6Ijf8s	It Rains Love	47
-5ZmpzweHaXXOa1lndt3vDj	2bToe6WyGvADJftreuXh2K	1mtrVXhx0JBuv53GqqJbiG	Wish You Were Here (Instrumental)	32
-2vroaTJq214LCxTtRGzrFf	2bToe6WyGvADJftreuXh2K	2uKHclIQ4IphYCgJyKfSCe	Thinking About You	45
-6eFsavqVXRlyeSnlX75pc4	2bToe6WyGvADJftreuXh2K	2uKHclIQ4IphYCgJyKfSCe	Regenerate	43
-6Tn9J7LOj5CuytqzORpkrz	2bToe6WyGvADJftreuXh2K	6sPPhqjKQHveRVqR6Ijf8s	Blessed with the Best	42
-2mGWmvIIvs7jKEXxyh7Wfb	2bToe6WyGvADJftreuXh2K	3u38Zm1pGlCrGZSsUk2396	All I Need	39
-6gZkoHTufo7bTuMHFyppWv	2bToe6WyGvADJftreuXh2K	1mtrVXhx0JBuv53GqqJbiG	You're the Kind of Girl (Instrumental)	38
 34iOH7LY3vme5rQxsVILZ4	432R46LaYsJZV2Gmc4jUV5	0u0CJa9zwFbGSU8JWQYS5G	Love Will Tear Us Apart - 2020 Remaster	69
 5fbQCQt91LsVgXusFS0CCD	432R46LaYsJZV2Gmc4jUV5	33qkK1brpt6t8unIpeM2Oy	Disorder - 2007 Remaster	68
 4ZuC5MfGjRQs3pZtPxqMYP	432R46LaYsJZV2Gmc4jUV5	33qkK1brpt6t8unIpeM2Oy	Shadowplay - 2007 Remaster	58
@@ -6238,16 +7989,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 3iMq9V0Ece9ubjWAYVcMwj	432R46LaYsJZV2Gmc4jUV5	33qkK1brpt6t8unIpeM2Oy	Interzone - 2007 Remaster	52
 7k42ztYdHyKWrKrENxwjkV	432R46LaYsJZV2Gmc4jUV5	5bXAysvuhQbyWllgYuahwt	Atmosphere - 2020 Digital Remaster	52
 4lmYkAt0bgbNW2BhMXLWpa	432R46LaYsJZV2Gmc4jUV5	2KPhpTUihx9KRWRwBtpTeJ	Digital - 2010 Remaster	44
-2Y3x5VcEAxLNmVHxQOE0jB	1PryMSya1JnSAlcwYawCxp	0X9oLn2APMvGOIsogM1TSp	Queens Highway	64
-5nqd51nD2UACz5JQ83v878	1PryMSya1JnSAlcwYawCxp	54XBNTrXWfYgYhPbWVRLpX	There's a New Day Coming	57
-1bZH8L8V2m454tdcSPEIl7	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	The Traitor	56
-1xDeDsNoBNyBidVQKPnWXE	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	Home Again	52
-18OzYEBhFuusiRbvkhf6Zl	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	Make the Road By Walking	50
-4evkhyjgx4eLgyvujGWSTc	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	The Contender	46
-5aqR0sE4AVaycHGVVjoZmx	1PryMSya1JnSAlcwYawCxp	1MY3VMNUb73QNJhZB92uGB	Lights Out	45
-4EGhtRnsa6DoGImFOzVzLd	1PryMSya1JnSAlcwYawCxp	1MY3VMNUb73QNJhZB92uGB	Every Day a Dream	44
-74gBEukHVsGBlEdYWiwLWK	1PryMSya1JnSAlcwYawCxp	0X9oLn2APMvGOIsogM1TSp	Midnight Morning	42
-4rNOFDkStRndjL08iV8f4D	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	Tired of Fighting	41
 2Gzg7PlsNS1XunWQFJBVt9	1nGqKVGfPPiVgxMdx8hYOI	3a7wlGYi97AWoOBZxgjp77	Junk Food Chimney	56
 0vmxiz1Zx3OP8C5CjfhIXK	1nGqKVGfPPiVgxMdx8hYOI	51BUgK2KdAD7Jtm4nIbKdO	I Love You Too	45
 4nIVHPwEXljxt1D8hxEXgO	1nGqKVGfPPiVgxMdx8hYOI	17udU4Qibj6l4h0HWNd0EO	Let's Move to Vietnam	44
@@ -6258,16 +7999,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1Qc9iyuYBNMvlooaz4GRfN	1nGqKVGfPPiVgxMdx8hYOI	51kJncbEEq7mLs3J8C2dII	his first and last sounds	36
 6ixvtEJ8wDs6Rg41ttIVqa	1nGqKVGfPPiVgxMdx8hYOI	6ZsUkdYEqcFuVVfqsnPLSK	The 5-Year Binge	35
 3P2q1CHk8hVmu1IXjr8Us4	1nGqKVGfPPiVgxMdx8hYOI	3a7wlGYi97AWoOBZxgjp77	Pick a Place and Read	35
-0elCmyfISzkP5tAYTVuYjS	7FKTg75ADVMZgY3P9ZMRtH	7iTm9yZznLHb1GBOVm5IB1	August	63
-2BedHMJWiW5CuiTd2wza1u	7FKTg75ADVMZgY3P9ZMRtH	1gu4P2JcclHD1BvDXx2pqq	Sad Disco	56
-2JXiyD1zucGdFmnTeYb5Ry	7FKTg75ADVMZgY3P9ZMRtH	6uGsmECvPd2VoQI5OfnSPL	August (Acoustic)	55
-2BIfG6wL1t5wk1KixoK2BV	7FKTg75ADVMZgY3P9ZMRtH	6tM8YvhhXemdO5xjsmS8Ro	Chicago	53
-21lfQ6cXJF15ubyPLB6qHz	7FKTg75ADVMZgY3P9ZMRtH	6tM8YvhhXemdO5xjsmS8Ro	Vanilla	53
-7r5elbHLaVama2WsDQpDp6	7FKTg75ADVMZgY3P9ZMRtH	7iTm9yZznLHb1GBOVm5IB1	Hippies	51
-0cUGSqx7MfnjiVwDzpYdYo	7FKTg75ADVMZgY3P9ZMRtH	1gu4P2JcclHD1BvDXx2pqq	Whales	49
-2rpbbxk3EtstH1flOZcvVd	7FKTg75ADVMZgY3P9ZMRtH	3GSahG4letshmP6jWif5rh	Churches	48
-3FRJFImdfX5NSY3QH3jI4u	7FKTg75ADVMZgY3P9ZMRtH	4cZhiGqIqqqlHxWOC9r7Jp	Glistening	47
-2gxYpg3ruB8p9DFWvnTHNX	7FKTg75ADVMZgY3P9ZMRtH	7iTm9yZznLHb1GBOVm5IB1	Six Below	46
 4dneV7C1yDt9UtyxrQY375	7bu3H8JO7d0UbMoVzbo70s	7gPql7GFpBMOxeO80vMMsC	Boys Don't Cry - Single Version	65
 263aNAQCeFSWipk896byo6	7bu3H8JO7d0UbMoVzbo70s	3x1CmNdXWU0DzpTZXFFRZu	Friday I'm in Love	68
 76GlO5H5RT6g7y0gev86Nk	7bu3H8JO7d0UbMoVzbo70s	37Q22g0n9PzBLX6lNddrIa	Just like Heaven	68
@@ -6278,6 +8009,16 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 3O4TPMOgChXOerSdB5WENH	7bu3H8JO7d0UbMoVzbo70s	1T7A6Dt7KktX7pOw4I4Jzj	A Forest - 2006 Remaster	54
 5rzr3lYGJiw3OXEg8imWgH	7bu3H8JO7d0UbMoVzbo70s	6fFTxlpJPGQbO3CbVz9MOS	The Lovecats	49
 1tuwC1Ob5vnYZhvg3zyzJg	7bu3H8JO7d0UbMoVzbo70s	6vQB3ZBxnQPP3jQcGV2qzg	Pictures of You - 2010 Remaster	56
+25z7NYgTEt6MiA5qExNSH2	2bToe6WyGvADJftreuXh2K	02j4VRhJ7MKK0Jf3FtBBsD	Never Be Another You	55
+1emxi7e5EWFsJmwSKTuUDH	2bToe6WyGvADJftreuXh2K	7ElHdWPD6YbkbltJQgCiDc	Honey Dove	54
+6iNHWlOLt4NuDi9iSvtznO	2bToe6WyGvADJftreuXh2K	7ElHdWPD6YbkbltJQgCiDc	Ladies	53
+2axJJQBO4KbFsx0Twvb8mn	2bToe6WyGvADJftreuXh2K	6sPPhqjKQHveRVqR6Ijf8s	It Rains Love	47
+5ZmpzweHaXXOa1lndt3vDj	2bToe6WyGvADJftreuXh2K	1mtrVXhx0JBuv53GqqJbiG	Wish You Were Here (Instrumental)	32
+2vroaTJq214LCxTtRGzrFf	2bToe6WyGvADJftreuXh2K	2uKHclIQ4IphYCgJyKfSCe	Thinking About You	45
+6eFsavqVXRlyeSnlX75pc4	2bToe6WyGvADJftreuXh2K	2uKHclIQ4IphYCgJyKfSCe	Regenerate	43
+6Tn9J7LOj5CuytqzORpkrz	2bToe6WyGvADJftreuXh2K	6sPPhqjKQHveRVqR6Ijf8s	Blessed with the Best	42
+2mGWmvIIvs7jKEXxyh7Wfb	2bToe6WyGvADJftreuXh2K	3u38Zm1pGlCrGZSsUk2396	All I Need	39
+6gZkoHTufo7bTuMHFyppWv	2bToe6WyGvADJftreuXh2K	1mtrVXhx0JBuv53GqqJbiG	You're the Kind of Girl (Instrumental)	38
 5s1Qv9rWyU2f941kH0lqnS	0MVp3LuNho9Hk6Q1owsWwt	7a00isM0AXaDU9VFb7MOfA	Devil Dressed in Blue	36
 0KAlzEswdQxSP9oRJ7uuJG	0MVp3LuNho9Hk6Q1owsWwt	7iu0ZqtMGYifxPNnL9h7UX	Right Ahead, You Sailor!	34
 4pfQLkCEKxD9Z40ijuNG9N	0MVp3LuNho9Hk6Q1owsWwt	7iu0ZqtMGYifxPNnL9h7UX	Love, Come And Save Me	34
@@ -6298,15 +8039,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 6UTxpt4Fn0cRBZlki1dRFq	1SQRv42e4PjEYfPhS0Tk9E	1WprYNkzlwjeBzByXIZARq	Lola - Live at Providence Civic Center, September 1979	53
 0aGkeYwsDGqtsjzOQnmVAB	1SQRv42e4PjEYfPhS0Tk9E	3sccYVndePjnjJHpfVsOoU	Supersonic Rocket Ship	51
 0cTwMCvozZBj8jCq6o27nk	1SQRv42e4PjEYfPhS0Tk9E	7aKN7yS7Z9mDtPioRPmcqX	Come Dancing	51
-6Zz846CtUmQGP5z4F7sccA	0oL26Dn9y761yfJgNb3vfu	7nqQxq17r4eUTqsDAdrL6v	Misery	56
-6zvpLxTrTKDzdeQ9OLshpQ	0oL26Dn9y761yfJgNb3vfu	2ZwK8x38X6dRgBTZNSACVU	Let Down	54
-29WtjZlOl5MbzC3lhllMNv	0oL26Dn9y761yfJgNb3vfu	3LuBghNdV7Z1WSiN53P9OI	Nineties	54
-72tFZO4vGmXJvjG62rnpWI	0oL26Dn9y761yfJgNb3vfu	20k8V0vHdLxnkTaJjXGcFE	The Other Way	51
-1f8G4jvkONnLMxJMx7V2Ck	0oL26Dn9y761yfJgNb3vfu	2p70Xer2HAT9Ro0qiBVHOc	Stay Out Of It	48
-3NsIAWbfXNKbwC0UfvzyrK	0oL26Dn9y761yfJgNb3vfu	67DyTWAldohmwTvFvJCJpQ	East Chicago, IN	48
-2C93EaiXnfll8oL9TWqQTA	0oL26Dn9y761yfJgNb3vfu	3akwfKkhkypQRsK18KURaA	Better	47
-2DPTXclMay45uBj9bKEq9B	0oL26Dn9y761yfJgNb3vfu	1fOUybYJNec1lhpwWIln83	Ohio Forever	45
-2qNdBOuOlZaML9ZEktD6mi	0oL26Dn9y761yfJgNb3vfu	0bwOZcIDnfGPTDN6CGkA1D	Snow in Montana	40
 79MMMdYL00iwKVHBSAUkLY	4BFMTELQyWJU1SwqcXMBm3	0Z1Y5L90NjqUD351YUQWdA	I Wanna Be Your Dog - 2019 Remaster	58
 00sydAz6PeOxYzwG1dRIPi	4BFMTELQyWJU1SwqcXMBm3	6mxbG8KrOTZIxlP4gzaliM	Search and Destroy - Iggy Pop Mix	52
 2ukIOcbkpWR5pjDtCRHCcX	4BFMTELQyWJU1SwqcXMBm3	2jIzYmu0kYyj2NeO9p5Sx5	Louie Louie - Remastered Studio	48
@@ -6315,8 +8047,37 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4bscUDqkO6soLEFXMr22ji	4BFMTELQyWJU1SwqcXMBm3	0Z1Y5L90NjqUD351YUQWdA	1969 - 2019 Remaster	41
 6hAOC89VqirgFxREaQoGDQ	4BFMTELQyWJU1SwqcXMBm3	0Z1Y5L90NjqUD351YUQWdA	No Fun - 2019 Remaster	40
 21xrImrAULwa0VT8n4BJoA	4BFMTELQyWJU1SwqcXMBm3	5qhXaVIC5BdE4a5Kq1FMZG	Dirt	39
-406huHGjSj2bz0cnoeGI8j	4BFMTELQyWJU1SwqcXMBm3	5S38cTeAWT2aqlArzdWbuc	My Idea Of Fun	39
 4giZRI3pgupzawIJXLx7T9	4BFMTELQyWJU1SwqcXMBm3	5qhXaVIC5BdE4a5Kq1FMZG	Loose	39
+406huHGjSj2bz0cnoeGI8j	4BFMTELQyWJU1SwqcXMBm3	5S38cTeAWT2aqlArzdWbuc	My Idea Of Fun	38
+2Y3x5VcEAxLNmVHxQOE0jB	1PryMSya1JnSAlcwYawCxp	0X9oLn2APMvGOIsogM1TSp	Queens Highway	64
+5nqd51nD2UACz5JQ83v878	1PryMSya1JnSAlcwYawCxp	54XBNTrXWfYgYhPbWVRLpX	There's a New Day Coming	57
+1bZH8L8V2m454tdcSPEIl7	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	The Traitor	56
+1xDeDsNoBNyBidVQKPnWXE	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	Home Again	52
+18OzYEBhFuusiRbvkhf6Zl	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	Make the Road By Walking	50
+4evkhyjgx4eLgyvujGWSTc	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	The Contender	47
+5aqR0sE4AVaycHGVVjoZmx	1PryMSya1JnSAlcwYawCxp	1MY3VMNUb73QNJhZB92uGB	Lights Out	45
+4EGhtRnsa6DoGImFOzVzLd	1PryMSya1JnSAlcwYawCxp	1MY3VMNUb73QNJhZB92uGB	Every Day a Dream	44
+74gBEukHVsGBlEdYWiwLWK	1PryMSya1JnSAlcwYawCxp	0X9oLn2APMvGOIsogM1TSp	Midnight Morning	42
+4rNOFDkStRndjL08iV8f4D	1PryMSya1JnSAlcwYawCxp	6wdxaAC6P7f6w05QadHFcB	Tired of Fighting	41
+0elCmyfISzkP5tAYTVuYjS	7FKTg75ADVMZgY3P9ZMRtH	7iTm9yZznLHb1GBOVm5IB1	August	63
+2BedHMJWiW5CuiTd2wza1u	7FKTg75ADVMZgY3P9ZMRtH	1gu4P2JcclHD1BvDXx2pqq	Sad Disco	56
+2JXiyD1zucGdFmnTeYb5Ry	7FKTg75ADVMZgY3P9ZMRtH	6uGsmECvPd2VoQI5OfnSPL	August (Acoustic)	55
+2BIfG6wL1t5wk1KixoK2BV	7FKTg75ADVMZgY3P9ZMRtH	6tM8YvhhXemdO5xjsmS8Ro	Chicago	53
+21lfQ6cXJF15ubyPLB6qHz	7FKTg75ADVMZgY3P9ZMRtH	6tM8YvhhXemdO5xjsmS8Ro	Vanilla	53
+7r5elbHLaVama2WsDQpDp6	7FKTg75ADVMZgY3P9ZMRtH	7iTm9yZznLHb1GBOVm5IB1	Hippies	51
+0cUGSqx7MfnjiVwDzpYdYo	7FKTg75ADVMZgY3P9ZMRtH	1gu4P2JcclHD1BvDXx2pqq	Whales	49
+2rpbbxk3EtstH1flOZcvVd	7FKTg75ADVMZgY3P9ZMRtH	3GSahG4letshmP6jWif5rh	Churches	48
+3FRJFImdfX5NSY3QH3jI4u	7FKTg75ADVMZgY3P9ZMRtH	4cZhiGqIqqqlHxWOC9r7Jp	Glistening	47
+2gxYpg3ruB8p9DFWvnTHNX	7FKTg75ADVMZgY3P9ZMRtH	7iTm9yZznLHb1GBOVm5IB1	Six Below	46
+6Zz846CtUmQGP5z4F7sccA	0oL26Dn9y761yfJgNb3vfu	7nqQxq17r4eUTqsDAdrL6v	Misery	57
+6zvpLxTrTKDzdeQ9OLshpQ	0oL26Dn9y761yfJgNb3vfu	2ZwK8x38X6dRgBTZNSACVU	Let Down	54
+29WtjZlOl5MbzC3lhllMNv	0oL26Dn9y761yfJgNb3vfu	3LuBghNdV7Z1WSiN53P9OI	Nineties	54
+72tFZO4vGmXJvjG62rnpWI	0oL26Dn9y761yfJgNb3vfu	20k8V0vHdLxnkTaJjXGcFE	The Other Way	51
+1f8G4jvkONnLMxJMx7V2Ck	0oL26Dn9y761yfJgNb3vfu	2p70Xer2HAT9Ro0qiBVHOc	Stay Out Of It	48
+3NsIAWbfXNKbwC0UfvzyrK	0oL26Dn9y761yfJgNb3vfu	67DyTWAldohmwTvFvJCJpQ	East Chicago, IN	48
+2C93EaiXnfll8oL9TWqQTA	0oL26Dn9y761yfJgNb3vfu	3akwfKkhkypQRsK18KURaA	Better	47
+2DPTXclMay45uBj9bKEq9B	0oL26Dn9y761yfJgNb3vfu	1fOUybYJNec1lhpwWIln83	Ohio Forever	45
+2qNdBOuOlZaML9ZEktD6mi	0oL26Dn9y761yfJgNb3vfu	0bwOZcIDnfGPTDN6CGkA1D	Snow in Montana	41
 6qNuZL98ZSFOzIuG5zJrAj	0v6gOfGBclTSGu6agfXb23	2IpHSccHdJGTncaiuSKBjI	Eye Of The Tiger	42
 4nVfmii8T3OKMm8zRBPCiO	0v6gOfGBclTSGu6agfXb23	5X27E81cePL9bNER4QEjmO	Don't Haunt This Place	41
 0qA28TWVwPoIf8GuFO7O1V	0v6gOfGBclTSGu6agfXb23	5X27E81cePL9bNER4QEjmO	Frank, AB	37
@@ -6337,16 +8098,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4fpxnJGDWFxjGvLJOqPPt8	0yNLKJebCb8Aueb54LYya3	6iHuSGy6pq4tNGFV3ZVPtl	True Faith	55
 7j5Q3zhjvpQvMeoPSZwdsa	0yNLKJebCb8Aueb54LYya3	6iHuSGy6pq4tNGFV3ZVPtl	Temptation	54
 0F0imGVd7KnvQPkBmVtPo9	0yNLKJebCb8Aueb54LYya3	6NTrwu1XJ56jBPx7HMksbZ	Leave Me Alone - 2015 Remaster	53
-5Z0MrFDEIDB075We9w9276	4fXkvh05wFhuH77MfD4m9o	6BN0KczNzSrfmKoQzd6lMS	Call Me	61
-2eM4Ew20VXdjBhm6a6Cs9l	4fXkvh05wFhuH77MfD4m9o	2fRc3TJSXKXGFdnmcm17p2	Flow with It (You Got Me Feeling Like)	57
-4lhhYqzREcts4uOOqWHjRJ	4fXkvh05wFhuH77MfD4m9o	4EN9bVE0g7gUvQlNdPrUhL	Apollo	56
-1NwyJs8dFvkV5cvvehav7s	4fXkvh05wFhuH77MfD4m9o	6BN0KczNzSrfmKoQzd6lMS	Half the City	52
-26icLILupXJtsQq5EtZdwn	4fXkvh05wFhuH77MfD4m9o	2fRc3TJSXKXGFdnmcm17p2	Is It Me	49
-59s5vTB8LNV4tyZPp9HM3f	4fXkvh05wFhuH77MfD4m9o	4EN9bVE0g7gUvQlNdPrUhL	GotItBad	49
-3ItddtEzeCE37ScY8o3Tbg	4fXkvh05wFhuH77MfD4m9o	6BN0KczNzSrfmKoQzd6lMS	Like a Mighty River	48
-2rNVmfuyXAfmvZfg8O9D92	4fXkvh05wFhuH77MfD4m9o	6BN0KczNzSrfmKoQzd6lMS	Grass Is Greener	47
-2z6qRBkf6jjWUuzLA9CXO0	4fXkvh05wFhuH77MfD4m9o	36YdveJJhT49E0blTQODsS	A Change Is Gonna Come (feat. Lizzo) - Live at SXSW 2013	46
-26Vcf2qFrnaa0pFJkGFh61	4fXkvh05wFhuH77MfD4m9o	2fRc3TJSXKXGFdnmcm17p2	Sanctify	46
 1i6N76fftMZhijOzFQ5ZtL	2x9SpqnPi8rlE9pjHBwmSC	5eqcF7pWzHgWpGdEmHgeSN	Psycho Killer - 2005 Remaster	78
 6aBUnkXuCEQQHAlTokv9or	2x9SpqnPi8rlE9pjHBwmSC	4sLCQxMRfn3gAHrBNZtbTH	This Must Be the Place (Naive Melody) - 2005 Remaster	70
 38Ngied9rBORlAbLYNCl4k	2x9SpqnPi8rlE9pjHBwmSC	3AQgdwMNCiN7awXch5fAaG	Once in a Lifetime - 2005 Remaster	67
@@ -6359,7 +8110,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 3yO1OjqT59JyjHaQZcCYDX	2x9SpqnPi8rlE9pjHBwmSC	4sLCQxMRfn3gAHrBNZtbTH	Burning Down the House - 2005 Remaster	55
 0NslHuacjxQYfUTOW3HCIV	4LG4Bs1Gadht7TCrMytQUO	5XmhHMj5LZLWo32aA6ntKE	New Slang - 2021 Remaster	69
 47TQjzeG4KI0XWWb0wkbri	4LG4Bs1Gadht7TCrMytQUO	4Tm0dXi3s3aSAqng2DACHr	Australia	62
-48bo7uexDvAThcRDvEB2W7	4LG4Bs1Gadht7TCrMytQUO	4ZTcGoOrNro2aCAStXEjZi	Simple Song	59
+48bo7uexDvAThcRDvEB2W7	4LG4Bs1Gadht7TCrMytQUO	4ZTcGoOrNro2aCAStXEjZi	Simple Song	60
 1d1Uc9yNUMvUb0RbakGDt0	4LG4Bs1Gadht7TCrMytQUO	5XmhHMj5LZLWo32aA6ntKE	Caring Is Creepy - 2021 Remaster	56
 3Bz3lj6E9VFBk1Wj1hC8vw	4LG4Bs1Gadht7TCrMytQUO	4Tm0dXi3s3aSAqng2DACHr	Sleeping Lessons	55
 3NPiFBw3mA9qbJfo0nhk6X	4LG4Bs1Gadht7TCrMytQUO	4Tm0dXi3s3aSAqng2DACHr	Phantom Limb	54
@@ -6367,17 +8118,17 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4Omfr1OV4e0eaLcPe5JFRa	4LG4Bs1Gadht7TCrMytQUO	5XmhHMj5LZLWo32aA6ntKE	The Past and Pending - 2021 Remaster	51
 6WBNQSfB047hAZ7tusGhqB	4LG4Bs1Gadht7TCrMytQUO	05APAIA6c0Qf7QtFQYZAKm	So Says I	50
 4RMoPuik89bh3vHz2IUaku	4LG4Bs1Gadht7TCrMytQUO	4Tm0dXi3s3aSAqng2DACHr	Turn On Me	48
-7MbVZOLSUloG4J3nH3Tnos	1Tp7C6LzxZe9Mix6rn4zbI	4jPnb0rdxEawWMlO8RfzJP	Surefire	51
-3C3KF3yVvF7iIsGxkmr6VB	1Tp7C6LzxZe9Mix6rn4zbI	4jPnb0rdxEawWMlO8RfzJP	Take Some Time	49
+7MbVZOLSUloG4J3nH3Tnos	1Tp7C6LzxZe9Mix6rn4zbI	4jPnb0rdxEawWMlO8RfzJP	Surefire	52
 3o5K1YmFz9i9KluRGJusd1	1Tp7C6LzxZe9Mix6rn4zbI	62C9L1UCLOvvlu7Jb2FRRE	Rubble To Rubble	57
-3cHo4JYNEprRGPtunpABIK	1Tp7C6LzxZe9Mix6rn4zbI	02ib3HsTaZRxvPnSV3w4vC	Surefire - Piano	53
+3C3KF3yVvF7iIsGxkmr6VB	1Tp7C6LzxZe9Mix6rn4zbI	4jPnb0rdxEawWMlO8RfzJP	Take Some Time	50
+3cHo4JYNEprRGPtunpABIK	1Tp7C6LzxZe9Mix6rn4zbI	02ib3HsTaZRxvPnSV3w4vC	Surefire - Piano	54
 6hokBBgD7caSiEXJxPmryn	1Tp7C6LzxZe9Mix6rn4zbI	62C9L1UCLOvvlu7Jb2FRRE	Wheat	53
 65LAG4XH7Oq0mZhFdPYqO4	1Tp7C6LzxZe9Mix6rn4zbI	62C9L1UCLOvvlu7Jb2FRRE	Morning Light	49
-7JsrgtynTsvDBuzUJ82o89	1Tp7C6LzxZe9Mix6rn4zbI	4jPnb0rdxEawWMlO8RfzJP	Head Right	39
-564vp2eEPOegtvHjnkhnhs	1Tp7C6LzxZe9Mix6rn4zbI	4jPnb0rdxEawWMlO8RfzJP	Help Me Down	40
+7JsrgtynTsvDBuzUJ82o89	1Tp7C6LzxZe9Mix6rn4zbI	4jPnb0rdxEawWMlO8RfzJP	Head Right	40
+564vp2eEPOegtvHjnkhnhs	1Tp7C6LzxZe9Mix6rn4zbI	4jPnb0rdxEawWMlO8RfzJP	Help Me Down	41
 723gxwUYsB0XH2MTzYNiMB	1Tp7C6LzxZe9Mix6rn4zbI	1dSQSvPzdvdoOe8jYTrZk4	Sorrow - Acoustic	43
 1uWp3OTBE1pryDJ4igGD1q	7foyQbi7GKriLiv1GPVEwt	4zDxvE6VjZfELyXA13kLmn	Get Down	58
-7EDmkAQSnaGYk0ZoXbqvIM	7foyQbi7GKriLiv1GPVEwt	4zDxvE6VjZfELyXA13kLmn	God of Death	47
+7EDmkAQSnaGYk0ZoXbqvIM	7foyQbi7GKriLiv1GPVEwt	4zDxvE6VjZfELyXA13kLmn	God of Death	48
 7k6Ia6hsrweMKk1LiObkC9	7foyQbi7GKriLiv1GPVEwt	4zDxvE6VjZfELyXA13kLmn	Good Right Now	47
 43Rh4q9wWgIEETAt0F2zCu	7foyQbi7GKriLiv1GPVEwt	4zDxvE6VjZfELyXA13kLmn	Life Is Suffering	46
 0epaptkWK7BHkHJheQJtZ4	7foyQbi7GKriLiv1GPVEwt	5BMjWYvNyJDfdW5Gzfyc21	Jah Werx	44
@@ -6386,16 +8137,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4FMeyMuT6Rk1B34v0AzV9q	7foyQbi7GKriLiv1GPVEwt	5BMjWYvNyJDfdW5Gzfyc21	Cosmic Cowboy	40
 5n6BdIWBSpkfjZ29JP7WzK	7foyQbi7GKriLiv1GPVEwt	07Lss95oyQ0H0UP5i87G0A	If I Was	40
 4mOmMccRWthpaUtjPhiQm8	7foyQbi7GKriLiv1GPVEwt	752tNJJGYbjlnFfSZBO9ju	Weather Balloons [Feat. Frances Cone]	39
-7lIiKyRg4KumhJ4xf5VTFt	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	In the Night	52
-6NgoSSG4H4LyMQGbHulkcm	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	Hot Shot	51
-2X1D6fTtA76LsJh5JxB9c8	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	Big Wheel	51
-0S9zKOWiIwsR9Vla8NVYJd	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	Sunshine (You're Blowin' My Cool)	36
-5Wl6Nt74mR9RYy7R7GOWNa	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	Gonna Make Time	34
-2KaRGgJ1qMsFOOWvUL7aD2	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	Look Closer (Can't You See the Signs?)	27
-723j4ubztPUgRKvQfflQNy	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	Dear Mr. Teddy	26
-2VHbTftHVMguJfRpi5lsSt	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	Another Love Like Mine	26
-6XYVdHPqfmmoOPWZk46EAP	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	Blah Blah Blah Blah Blah Blah Blah	22
-4VSubATiLD4126APjXmQcD	6m4tJuf67jwVSvMP34hrck	5TJvbSps6D0gy3DHqeb8FP	If Only	14
 11607FzqoipskTsXrwEHnJ	1nJvji2KIlWSseXRSlNYsC	4xwx0x7k6c5VuThz5qVqmV	Sunday Morning	64
 11VwZwNF29HrqwalYUMitb	1nJvji2KIlWSseXRSlNYsC	2HOf3Nb44Us8U9oEtKLSrX	Pale Blue Eyes	63
 3PG7BAJG9WkmNOJOlc4uAo	1nJvji2KIlWSseXRSlNYsC	4xwx0x7k6c5VuThz5qVqmV	Femme Fatale	63
@@ -6406,16 +8147,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1o6DclZHw0HomxXEQR1ijX	1nJvji2KIlWSseXRSlNYsC	2ny1rPsLOoKNFZhMLubMrs	Rock & Roll - Full Length Version; 2015 Remaster	57
 3fElupNRLRJ0tbUDahPrAb	1nJvji2KIlWSseXRSlNYsC	4xwx0x7k6c5VuThz5qVqmV	I'm Waiting For The Man	56
 29engDqjmMr3VLqMm0c0WE	1nJvji2KIlWSseXRSlNYsC	4xwx0x7k6c5VuThz5qVqmV	Venus In Furs	55
-4gsR34XSIE2fUY4odwZqym	32Ko3nL0210QAt14S3Rs4Y	4BrJEabBSw59bwSjKZl25p	Seventeen	64
-0H6hMpN8zxZT3ToOelM5Cl	32Ko3nL0210QAt14S3Rs4Y	7HxeuvcM84U4sWEtOSlePG	Snow White	58
-56PgQIFxAvXcEtXNYrsB0w	32Ko3nL0210QAt14S3Rs4Y	0C0Oq2jJhJ4Rs6IwgCe0Ob	I Don't Know	58
-41oqThgUF4yiNz77TazXtl	32Ko3nL0210QAt14S3Rs4Y	6uR4bPGGdQHDphbyubK9zc	Now & Then	56
-03rZ4jEeqvKjrqdRHPZmpp	32Ko3nL0210QAt14S3Rs4Y	0dsp6TeaD2da6UvQy4CZ2C	Change	56
-4ulOJhLqbDeBFEbYVX6yjG	32Ko3nL0210QAt14S3Rs4Y	4cGpiQWYOPtHRB3mQLDWCC	Human Condition	54
-2oBzsiZT8qmlovYS1FMf06	32Ko3nL0210QAt14S3Rs4Y	6a9bsIUvtXmqj6HaEOIAq3	Better Off	51
-1EmUW3D8vAfp2miQJTMupc	32Ko3nL0210QAt14S3Rs4Y	7HxeuvcM84U4sWEtOSlePG	What Goes Around	48
-3dJSC3yIV69Afxvme5qf5d	32Ko3nL0210QAt14S3Rs4Y	2HatDWFqyd2cFNHX7wX7Yp	Drifty	45
-4UDBvtxDnUjzVu0HopFsZ8	32Ko3nL0210QAt14S3Rs4Y	5RkPNFjpGpN5KiTRpTRjzv	High Beam	43
 70LcF31zb1H0PyJoS1Sx1r	4Z8W4fKeB5YxbusRsdQVPb	3gBVdu4a1MMJVMy6vwPEb8	Creep	85
 10nyNJ6zNy2YVYLrcwLccB	4Z8W4fKeB5YxbusRsdQVPb	6dVIqQ8qmQ5GBnJ9shOYGE	No Surprises	81
 63OQupATfueTdZMWTxW03A	4Z8W4fKeB5YxbusRsdQVPb	6dVIqQ8qmQ5GBnJ9shOYGE	Karma Police	75
@@ -6425,17 +8156,17 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4wajJ1o7jWIg62YqpkHC7S	4Z8W4fKeB5YxbusRsdQVPb	5vkqYmiPBYLaalcmjujWxK	Weird Fishes/ Arpeggi	70
 1dyTcli07c77mtQK3ahUZR	4Z8W4fKeB5YxbusRsdQVPb	35UJLpClj5EDrhpNIi4DFg	Just	70
 0YJ9FWWHn9EfnN0lHwbzvV	4Z8W4fKeB5YxbusRsdQVPb	5vkqYmiPBYLaalcmjujWxK	Jigsaw Falling Into Place	69
-6LgJvl0Xdtc73RJ1mmpotq	4Z8W4fKeB5YxbusRsdQVPb	6dVIqQ8qmQ5GBnJ9shOYGE	Paranoid Android	68
-1ceeCjdsXB1PRoUQ5EKvZj	4zsrUnozu6zRlVELQezaBn	7tZbEknszSim0Ug0Zv3pxf	I'll Take the Long Road	41
-34Yd2MzccdIpLaGEWdL4I4	4zsrUnozu6zRlVELQezaBn	7tZbEknszSim0Ug0Zv3pxf	What Have You Done	39
-7MR20mD5bWffs5yNmtmvnK	4zsrUnozu6zRlVELQezaBn	57mOAqbdhcMncLg0rjaY7w	Sinner	26
-6x6xL8nI9uj94pd4cUyiHB	4zsrUnozu6zRlVELQezaBn	4WlxosPPabfbXUJ1w9gpKc	You Gotta Move	19
-3igY2JZg3xnyuZIEaZAE2Q	4zsrUnozu6zRlVELQezaBn	57mOAqbdhcMncLg0rjaY7w	Everybody Knows (River Song)	17
-1sOaZDQR1VSJZqxkD55ZtP	4zsrUnozu6zRlVELQezaBn	7tZbEknszSim0Ug0Zv3pxf	By Your Side	17
-2XdlLaMNZKmh8bqA4yK7pO	4zsrUnozu6zRlVELQezaBn	7tZbEknszSim0Ug0Zv3pxf	What More Can I Do?	17
-0Kj3JOdo5iWJcOic035iNs	4zsrUnozu6zRlVELQezaBn	7tZbEknszSim0Ug0Zv3pxf	Lift My Burdens	14
-7grHWewXZi12Qn941ePu4A	4zsrUnozu6zRlVELQezaBn	57mOAqbdhcMncLg0rjaY7w	Movin'	14
-339AymorMFeh9GvJahQvnq	4zsrUnozu6zRlVELQezaBn	7tZbEknszSim0Ug0Zv3pxf	Am I Asking Too Much?	13
+6LgJvl0Xdtc73RJ1mmpotq	4Z8W4fKeB5YxbusRsdQVPb	6dVIqQ8qmQ5GBnJ9shOYGE	Paranoid Android	69
+5Z0MrFDEIDB075We9w9276	4fXkvh05wFhuH77MfD4m9o	6BN0KczNzSrfmKoQzd6lMS	Call Me	61
+2eM4Ew20VXdjBhm6a6Cs9l	4fXkvh05wFhuH77MfD4m9o	2fRc3TJSXKXGFdnmcm17p2	Flow with It (You Got Me Feeling Like)	57
+4lhhYqzREcts4uOOqWHjRJ	4fXkvh05wFhuH77MfD4m9o	4EN9bVE0g7gUvQlNdPrUhL	Apollo	56
+1NwyJs8dFvkV5cvvehav7s	4fXkvh05wFhuH77MfD4m9o	6BN0KczNzSrfmKoQzd6lMS	Half the City	52
+26icLILupXJtsQq5EtZdwn	4fXkvh05wFhuH77MfD4m9o	2fRc3TJSXKXGFdnmcm17p2	Is It Me	49
+59s5vTB8LNV4tyZPp9HM3f	4fXkvh05wFhuH77MfD4m9o	4EN9bVE0g7gUvQlNdPrUhL	GotItBad	49
+3ItddtEzeCE37ScY8o3Tbg	4fXkvh05wFhuH77MfD4m9o	6BN0KczNzSrfmKoQzd6lMS	Like a Mighty River	48
+2rNVmfuyXAfmvZfg8O9D92	4fXkvh05wFhuH77MfD4m9o	6BN0KczNzSrfmKoQzd6lMS	Grass Is Greener	47
+26Vcf2qFrnaa0pFJkGFh61	4fXkvh05wFhuH77MfD4m9o	2fRc3TJSXKXGFdnmcm17p2	Sanctify	46
+2z6qRBkf6jjWUuzLA9CXO0	4fXkvh05wFhuH77MfD4m9o	36YdveJJhT49E0blTQODsS	A Change Is Gonna Come (feat. Lizzo) - Live at SXSW 2013	45
 5QTxFnGygVM4jFQiBovmRo	00tVTdpEhQQw1bqdu8RCx2	6C9WzlQANeoD0GW5B41YJt	(Don't Fear) The Reaper	76
 3fkPMWQ6cBNBLuFcPyMS8s	00tVTdpEhQQw1bqdu8RCx2	7v4kEpVtppoMm80m43lGzt	Burnin' for You	66
 6N0AnkdDFZUetw8KAGHV7e	00tVTdpEhQQw1bqdu8RCx2	105oUsR7H8AJNELy43XF3w	Godzilla	63
@@ -6445,7 +8176,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1bPUK3zBMK73QXmCLzqffn	00tVTdpEhQQw1bqdu8RCx2	7v4kEpVtppoMm80m43lGzt	Veteran of the Psychic Wars	49
 2g02rt0UFudctbAnmJsm22	00tVTdpEhQQw1bqdu8RCx2	0cs4Eli5HS6BomzJ9yfrAw	Astronomy	47
 7gzbnBiHnGBpruEIWTSh1X	00tVTdpEhQQw1bqdu8RCx2	35RIka08weHJaKXqn4ZEHI	Burning for You - Remastered	46
-3OXc6xDxasnl4uj2jl1q4Y	00tVTdpEhQQw1bqdu8RCx2	7v4kEpVtppoMm80m43lGzt	Fire of Unknown Origin	43
+6zdMlZyo0XyRNclXyQvVAl	00tVTdpEhQQw1bqdu8RCx2	7jQs5baTMHitYnJJX6JJMU	Take Me Away	43
 6G7MHIvSDR3ehXPkuDFAlM	0vqkz1b2qBkoYrGMj2CUWq	1Kw0H84LL5YuP37Kh8lbzY	California Dreamin'	65
 2zyTP97uGsIc1C4KNNEkyn	0vqkz1b2qBkoYrGMj2CUWq	7eVKCG0KD8FCvIlx8E1pBG	Across 110th Street	60
 2qhR4aymUGDfacDT6pzWf7	0vqkz1b2qBkoYrGMj2CUWq	1Kw0H84LL5YuP37Kh8lbzY	Fly Me To The Moon (In Other Words)	58
@@ -6456,16 +8187,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 3TPjX6hEANO8qGrxYtabkh	0vqkz1b2qBkoYrGMj2CUWq	5RavdrN0me6xkp4okXQWNI	Dayglo Reflection - Orchestral Version	44
 01wi82GHedsBUjSKf2hJQ0	0vqkz1b2qBkoYrGMj2CUWq	1d0vqL31qzWAWB8cxyfvuP	Dayglo Reflection	41
 48TcYDiPXXsOmoqwnl522G	0vqkz1b2qBkoYrGMj2CUWq	6aBN9OWwAcB49LWlI95ekd	Daylight	40
-0MHXrqn909p0LRTPsNsGEi	2AV6XDIs32ofIJhkkDevjm	2EwoYRFQRJqw7BTVG6GlTw	Move on Up - Single Edit	69
-01gDLZsi0j5fWC28FLPNO8	2AV6XDIs32ofIJhkkDevjm	3tgJmEz0R0ZsRSrpwafp4R	Move on Up - Extended Version	61
-7zrPswSV1yxrill5OyCuaU	2AV6XDIs32ofIJhkkDevjm	5QuvlU7nCUZZJauMvhlWR4	Pusherman	54
-4XsH9zBWPOCdXoH9ZDdS8r	2AV6XDIs32ofIJhkkDevjm	5ljIGCRRvS48V4ADzPGav2	Superfly	53
-1Mq4vRRox3bcruJA75M4D9	2AV6XDIs32ofIJhkkDevjm	3tgJmEz0R0ZsRSrpwafp4R	The Makings of You	48
-0zBNc7XcWXNHxeszwFsKiL	2AV6XDIs32ofIJhkkDevjm	4M8Zce860gRCdyv1hXOK32	Here but I'm Gone	47
-2ouFIPC3O1HNBcVTw1d9AN	2AV6XDIs32ofIJhkkDevjm	5QuvlU7nCUZZJauMvhlWR4	Freddie's Dead	45
-7gmB6hVMsv0XbjfiTgpATI	2AV6XDIs32ofIJhkkDevjm	3Jm5rknuSOa0tTFDLpJbCg	So in Love	45
-5wdlG60d0WHoo8P3QzrlbG	2AV6XDIs32ofIJhkkDevjm	3tgJmEz0R0ZsRSrpwafp4R	(Don't Worry) If There Is a Hell Below, We're All Going to Go	42
-4xWggCcJgtUWw1yxJAXZR9	2AV6XDIs32ofIJhkkDevjm	7tIqCuFn9DqkHE1lRj9C6L	Keep on Keeping On	40
 1CS7Sd1u5tWkstBhpssyjP	2FXC3k01G6Gw61bmprjgqS	4Pv7m8D82A1Xun7xNCKZjJ	Take Me to Church	75
 46nvQpUDsxpS08UTFOeKTA	0xRXCcSX89eobfrshSVdyu	27rVuwJ0g0eKRpnvEhQl3G	Tell It To My Heart	74
 57V4uc2b2diZ4RPHXWecb9	2FXC3k01G6Gw61bmprjgqS	4Pv7m8D82A1Xun7xNCKZjJ	Like Real People Do	70
@@ -6479,13 +8200,717 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 2uXkW8uJcOIhlbUatEPLPs	2g3PKH7Z1Ofn5oGR6oDjLy	4vqaqoTEbNyeeSHJA6KpdM	Have Love Will Travel	55
 6ae38qMdEC86XRa2LaOguu	2g3PKH7Z1Ofn5oGR6oDjLy	3FeFoMQnGxb8D9FKkCC5ES	Shot Down	43
 6u7UrwiZERRglVNSpgmxNf	2g3PKH7Z1Ofn5oGR6oDjLy	4vqaqoTEbNyeeSHJA6KpdM	Strychnine	43
-18k49mXvNPtKlcT6Ky39pe	2g3PKH7Z1Ofn5oGR6oDjLy	2EmUijeHFyILSHUC2kzxXv	The Witch	42
 77DvhwGhnmfrXWwiJzeIMC	2g3PKH7Z1Ofn5oGR6oDjLy	5joOZaTA1gkFmw0eLM8ASR	Psycho	42
+18k49mXvNPtKlcT6Ky39pe	2g3PKH7Z1Ofn5oGR6oDjLy	2EmUijeHFyILSHUC2kzxXv	The Witch	42
 5IY9xXJ6E1o6IiCc8ykDro	2g3PKH7Z1Ofn5oGR6oDjLy	4vqaqoTEbNyeeSHJA6KpdM	The Witch	34
 5chnuVLLyZgfVAHgWPwvTv	2g3PKH7Z1Ofn5oGR6oDjLy	2P1FIwA6kUTaacKrKoKl1o	I Don't Need No Doctor	31
 6qBYciZgi7JqSoNf8g7NpY	2g3PKH7Z1Ofn5oGR6oDjLy	4vqaqoTEbNyeeSHJA6KpdM	Money	30
 3bbZNvBuGRVElpRLENwa3J	2g3PKH7Z1Ofn5oGR6oDjLy	4vqaqoTEbNyeeSHJA6KpdM	Psycho	29
 1pPGQdGD3gXLZm2Y1DgiHo	2g3PKH7Z1Ofn5oGR6oDjLy	4vqaqoTEbNyeeSHJA6KpdM	Walkin' the Dog	28
+3TTVgqpcMhzeymFY0OJ4Ia	2oqwwcM17wrP9hBD25zKSR	02ikKnPQUJEz3pJ80yTnKS	Wave(s)	53
+4kK14radw0XfwxJDPt9tnP	2oqwwcM17wrP9hBD25zKSR	7BKGTpCWDwTCeHnlLFcfLJ	Painting (Masterpiece)	51
+7GQFqo7uDoOkTXrVBpARME	2oqwwcM17wrP9hBD25zKSR	0f6br7CLoGXr5WhM4ZS23K	The Ceiling	48
+4WBXTnzVmz3Thn76w3rYUR	2oqwwcM17wrP9hBD25zKSR	7BKGTpCWDwTCeHnlLFcfLJ	Live That Long	47
+5DOadSIDaKFwUPcbcbDv5J	2oqwwcM17wrP9hBD25zKSR	7BKGTpCWDwTCeHnlLFcfLJ	Loud(y)	46
+2Aj1tRbhbsBWVOMVgcO9pR	2oqwwcM17wrP9hBD25zKSR	7BKGTpCWDwTCeHnlLFcfLJ	Tap Water Drinking	44
+4g5MorMCNI2aOwEBSov4RT	2oqwwcM17wrP9hBD25zKSR	7BKGTpCWDwTCeHnlLFcfLJ	Malt Liquor	43
+1PBp3M4Dh1TO0D6kgL8GqA	2oqwwcM17wrP9hBD25zKSR	7BKGTpCWDwTCeHnlLFcfLJ	Such Small Scenes	43
+28nC2aXXUqvQCT3XeJs5Yd	2oqwwcM17wrP9hBD25zKSR	7BKGTpCWDwTCeHnlLFcfLJ	14 Faces	41
+6IexNWMbsvI5x0T0CQX3yT	2oqwwcM17wrP9hBD25zKSR	7BKGTpCWDwTCeHnlLFcfLJ	Puerto Cabezas, NI	40
+4gsR34XSIE2fUY4odwZqym	32Ko3nL0210QAt14S3Rs4Y	4BrJEabBSw59bwSjKZl25p	Seventeen	64
+0H6hMpN8zxZT3ToOelM5Cl	32Ko3nL0210QAt14S3Rs4Y	7HxeuvcM84U4sWEtOSlePG	Snow White	59
+56PgQIFxAvXcEtXNYrsB0w	32Ko3nL0210QAt14S3Rs4Y	0C0Oq2jJhJ4Rs6IwgCe0Ob	I Don't Know	58
+41oqThgUF4yiNz77TazXtl	32Ko3nL0210QAt14S3Rs4Y	6uR4bPGGdQHDphbyubK9zc	Now & Then	56
+03rZ4jEeqvKjrqdRHPZmpp	32Ko3nL0210QAt14S3Rs4Y	0dsp6TeaD2da6UvQy4CZ2C	Change	56
+4ulOJhLqbDeBFEbYVX6yjG	32Ko3nL0210QAt14S3Rs4Y	4cGpiQWYOPtHRB3mQLDWCC	Human Condition	54
+2oBzsiZT8qmlovYS1FMf06	32Ko3nL0210QAt14S3Rs4Y	6a9bsIUvtXmqj6HaEOIAq3	Better Off	51
+1EmUW3D8vAfp2miQJTMupc	32Ko3nL0210QAt14S3Rs4Y	7HxeuvcM84U4sWEtOSlePG	What Goes Around	48
+3dJSC3yIV69Afxvme5qf5d	32Ko3nL0210QAt14S3Rs4Y	2HatDWFqyd2cFNHX7wX7Yp	Drifty	45
+4UDBvtxDnUjzVu0HopFsZ8	32Ko3nL0210QAt14S3Rs4Y	5RkPNFjpGpN5KiTRpTRjzv	High Beam	43
+0ElRzK07sc9eszyk1ea9Ab	4lYtGx5NZQJHsMyhHc5iz3	1n1znRLH7iRtkhjbrCs0wi	Human Fly	59
+3sEQf5AuiphddGXRIWBcO9	4lYtGx5NZQJHsMyhHc5iz3	6S9rbimtTmC0v6UBWqSpay	I Was A Teenage Werewolf - Remastered	58
+1gElMA7YL2UEE9njNW9eiR	4lYtGx5NZQJHsMyhHc5iz3	1n1znRLH7iRtkhjbrCs0wi	I Can't Hardly Stand It	50
+3EEd6ldsPat620GVYMEhOP	4lYtGx5NZQJHsMyhHc5iz3	111E8uRgwGQo9YJJBvpALn	Goo Goo Muck	49
+6dyku3NZZukkS8yhzWG9TU	4lYtGx5NZQJHsMyhHc5iz3	1n1znRLH7iRtkhjbrCs0wi	The Way I Walk	47
+4JS9ziFhSRnm4ERHvdmlQg	4lYtGx5NZQJHsMyhHc5iz3	6S9rbimtTmC0v6UBWqSpay	Strychnine	46
+37XHUxnLE7yw4zhY7ce3pt	4lYtGx5NZQJHsMyhHc5iz3	111E8uRgwGQo9YJJBvpALn	Green Fuz	46
+7yh5TWp0LMOjFp5qrH8ygL	4lYtGx5NZQJHsMyhHc5iz3	6S9rbimtTmC0v6UBWqSpay	Fever	36
+1JiofWs0tas99RTFpFio2W	4lYtGx5NZQJHsMyhHc5iz3	1n1znRLH7iRtkhjbrCs0wi	Domino	44
+6qYq6JxCTwtd3jAonVrdkF	4lYtGx5NZQJHsMyhHc5iz3	6S9rbimtTmC0v6UBWqSpay	Garbageman	43
+7E99aG3oPQslXHHdnKFAmB	4oV5EVJ0XFWsJKoOvdRPvl	4QV8iMlscaIpidQHcErzbE	Game Of Pricks	54
+7Fwnn8npShUzE9HtVp9Y1H	4oV5EVJ0XFWsJKoOvdRPvl	2VQKZAvtL5epxdEOuLVP6t	Hot Freaks	53
+57TUYBa41jfW56U2U9652l	4oV5EVJ0XFWsJKoOvdRPvl	2VQKZAvtL5epxdEOuLVP6t	Awful Bliss	53
+3L1Fumo5u8mGvX10PK3vwG	4oV5EVJ0XFWsJKoOvdRPvl	4QV8iMlscaIpidQHcErzbE	As We Go Up, We Go Down	49
+4W5xR9p6Qa5kqUuDIcdvKD	4oV5EVJ0XFWsJKoOvdRPvl	4QV8iMlscaIpidQHcErzbE	My Valuable Hunting Knife	44
+1oeHOoPRMhyd9CrhjrUZJm	4oV5EVJ0XFWsJKoOvdRPvl	4QV8iMlscaIpidQHcErzbE	A Salty Salute	44
+3nX5TiovePqS6yG8pYdwR2	4oV5EVJ0XFWsJKoOvdRPvl	52YpKa3SQfp2obWDHgzYKx	If We Wait	43
+1pomBAKCKt5Lvk8FdckYfV	4oV5EVJ0XFWsJKoOvdRPvl	4QV8iMlscaIpidQHcErzbE	Motor Away	41
+4SrE9bJwNC2ldX8rAXsrKE	4oV5EVJ0XFWsJKoOvdRPvl	2VQKZAvtL5epxdEOuLVP6t	The Goldheart Mountaintop Queen Directory	40
+0oN2fJx5t5BzkKQQiojHrr	4oV5EVJ0XFWsJKoOvdRPvl	2VQKZAvtL5epxdEOuLVP6t	I Am A Scientist	40
+0a9uf4gKoAXwCuAjxt90Sz	14ep6TM2JzapH5nk7vaora	5zSfOxsBE4yFfcbc2gRd4q	Mind Control	16
+6yxPd3usemvhanh73TzwXi	14ep6TM2JzapH5nk7vaora	5zSfOxsBE4yFfcbc2gRd4q	Good	24
+6VCC4JE3vE8c2szV0SWld9	14ep6TM2JzapH5nk7vaora	5zSfOxsBE4yFfcbc2gRd4q	There Must Be Discipline	27
+4lEOGsYnc9wdxkJGkHuXAm	14ep6TM2JzapH5nk7vaora	3nbCR6OsvvZTYI0yXNGxFA	Any Dream You Wanted	0
+4pj2L6WbBAlevdxx6jgm32	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	As Above, So Below	52
+6UgmF3c0nWYeqVs7prJo9C	14ep6TM2JzapH5nk7vaora	5zSfOxsBE4yFfcbc2gRd4q	Discipline Equals Freedom	26
+2JiNqhSpFgkxgHNFRYjpDC	14ep6TM2JzapH5nk7vaora	5zSfOxsBE4yFfcbc2gRd4q	Unbroken	14
+5wBaNy59nK8hJnx8AB2zRe	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	Roots	54
+44QQarpAdUDdAidS5ddJIL	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	Salvation	31
+0nLOl4fSiBZKGFla5pLUtf	2yEwvVSSSUkcLeSTNyHKh8	6yWMN087PgSimbcVmHLEwG	Ænema	61
+1HNRXicnRXw34nouoSQi3c	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	River of Fire	46
+3WZiHsjugLgasZW7wGemNN	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	The In-Between	55
+6AzrwTzu1Vhl2t13h3fNVh	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	Half God Half Devil	48
+01NVKlabAce8Nw70qxgY3d	14ep6TM2JzapH5nk7vaora	0pC7lxDWdDQntOfCPfvbj6	Be the Hero	14
+6AioOohg4bQZFA4jIYQQ2r	2yEwvVSSSUkcLeSTNyHKh8	6yWMN087PgSimbcVmHLEwG	Forty Six & 2	67
+269xqcgGTN9PlivhUkOLhX	00FQb4jTyendYWaN8pK0wa	7xYiTrbTL57QO0bb4hXIKo	In My Feelings	66
+3zUwwYcmob803s2Bkck8GY	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	Black Wedding (feat. Rob Halford)	59
+3jg7Dbq8xxUGLNeUe8TUYv	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	No Me Importa	39
+54sEj5GIx2EW78nRDyC58R	6tbLPxj1uQ6vsRQZI2YFCT	7jMxSZ332lLfENKNEFAd9P	The Fighter	48
+2Kerz9H9IejzeIpjhDJoYG	00FQb4jTyendYWaN8pK0wa	7xYiTrbTL57QO0bb4hXIKo	Love	68
+3AOcpwgy3V2Fwg7B8PZfKl	5HYNPEO2NNBONQkp3Mvwvc	36z4UWQiasJxyuePtCH5Ij	Creep	58
+1PfkFgRDLuSggFQAd8uvXp	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	The Beginning - Interlude	30
+0mt02gJ425Xjm7c3jYkOBn	00FQb4jTyendYWaN8pK0wa	7xYiTrbTL57QO0bb4hXIKo	Lust For Life (with The Weeknd)	71
+6wl8vrSR56Tm7GSXjAVP91	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	In the Air Tonight	47
+45OFlmffEQJWlHu8Yf6Q1R	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	Joan of Arc	42
+0kgXAjZ2y0kGjKUekY0H8t	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	Mother	40
+0W8oh1Zst7Y1GczYEDOIuS	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	Oh Lord	49
+2g4x7SwGAU05mTQqLKroFg	14ep6TM2JzapH5nk7vaora	3aTXBCkLau3VP53JXez2hB	Good	0
+12f3kgz9J1vU0Sd3qISMuJ	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	Legacy	39
+3J84AjpIGKYHL1NDKmM2pB	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	Witching Hour	43
+4LKieNzKrd4nk25Mq8dkfu	14ep6TM2JzapH5nk7vaora	3aTXBCkLau3VP53JXez2hB	There Must Be Discipline	0
+5mkGfmJGFZpwK9nA5amOhv	7AQzXO3NPNQsI7oNu5rC3r	5dR0fhE3oveLRSUMMQ3oRB	Sex & Candy	70
+1lATXTBJDHwawvT1UfxWu3	2yEwvVSSSUkcLeSTNyHKh8	1fvWYcbjuycyHpzNPH1Vfk	The Pot	68
+4S0oduY2t0ajpZQ6T9kAq1	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	Born In Flames	33
+5WW76v0NDWK5Wy5tfai5G8	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	Fly Like An Eagle	40
+76AYOdnKWcSLviCsKDXyS1	6tbLPxj1uQ6vsRQZI2YFCT	7jMxSZ332lLfENKNEFAd9P	Sick Like Me	53
+79D6ftjlstX0zTqag7jw4z	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	Twin Flames	36
+1Ym6aMuT5bliaZMC67AmPp	00FQb4jTyendYWaN8pK0wa	7xYiTrbTL57QO0bb4hXIKo	Cherry	73
+3aARLhAch8wF1wDMzkL7nJ	6tbLPxj1uQ6vsRQZI2YFCT	1JIIc6FIetBaCAzWkCSBjL	Lay Your Gun Down	32
+5QqyRUZeBE04yJxsD1OC0I	00FQb4jTyendYWaN8pK0wa	7xYiTrbTL57QO0bb4hXIKo	Summer Bummer (feat. A$AP Rocky & Playboi Carti)	65
+5V2Tg65HSuF0hB22SlNRoa	6tbLPxj1uQ6vsRQZI2YFCT	7jMxSZ332lLfENKNEFAd9P	Natural Born Sinner	41
+6eygbzyL6hY8jFQTARDuo9	00FQb4jTyendYWaN8pK0wa	7xYiTrbTL57QO0bb4hXIKo	White Mustang	66
+0qSVzDIOLWqIoOHjUUjv8c	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	God Is She	36
+0QB98b4YFxtW4NQ9narHQM	6tbLPxj1uQ6vsRQZI2YFCT	7jMxSZ332lLfENKNEFAd9P	Big Bad Wolf	55
+3ZKRAzNAsiJrBGUM2BX9av	00FQb4jTyendYWaN8pK0wa	7xYiTrbTL57QO0bb4hXIKo	13 Beaches	64
+3ltS4rlFrCYkdQqGzVjXBi	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	We Will Rock You (feat. Maria Brink, Lzzy Hale and Taylor Momsen)	50
+7x2jq2kAhxDH3M6FcgJKbs	6tbLPxj1uQ6vsRQZI2YFCT	28IlwCwIt69Xh627BwUC8F	The Red Crusade - Interlude	29
+5gbxjsBPzpjZuPvIptYvPi	6tbLPxj1uQ6vsRQZI2YFCT	7jMxSZ332lLfENKNEFAd9P	Bones	39
+7lSdUlVf8k6kxklKkskb1m	00FQb4jTyendYWaN8pK0wa	7xYiTrbTL57QO0bb4hXIKo	Heroin	63
+03sEzk1VyrUZSgyhoQR0LZ	2yEwvVSSSUkcLeSTNyHKh8	7acEciVtnuTzmwKptkjth5	Pneuma	63
+1JkZg3eMQTmTn93E8Yd3UL	1LB8qB5BPb3MHQrfkvifXU	2sXJQdHykPYcRQ7xFhwzMR	I Want You to Want Me	68
+0lP4HYLmvowOKdsQ7CVkuq	0RqtSIYZmd4fiBKVFqyIqD	5sHvTCk793vr9EkSKcD7IT	The Kill	75
+50Re2bLgXqG9qN7v2QHNTm	5KDIH2gF0VpelTqyQS7udb	2JHjVEvYNVQ9FUUMB2LcMl	Outside	61
+1u8lE1YTkgQrXnMpPpVUC6	77aDWNQLrjzW7i6YBRhCbQ	5X7aXBpPLFxNvQGlZv7Nl6	Fuck Me	33
+2YwlwV98tjcKF664eEAAyV	5HYNPEO2NNBONQkp3Mvwvc	36z4UWQiasJxyuePtCH5Ij	Take Me To Church	42
+58AwxWLaRHn2lTqqH9dLkU	2MqhkhX4npxDZ62ObR5ELO	6471rrLPKqZgXQ6TqN5AgU	The Reason	51
+7yWEPokjQeePPTZD9RqxP4	5HYNPEO2NNBONQkp3Mvwvc	36z4UWQiasJxyuePtCH5Ij	All About That Bass - 2015 European Cast	41
+32j279x3imcBWBu9OaHX2n	1KCSPY1glIKqW2TotWuXOR	7hwhuEQT4Fp5bzwLlYZtiz	I Am Here	57
+0aTiUssEOy0Mt69bsavj6K	2yEwvVSSSUkcLeSTNyHKh8	7acEciVtnuTzmwKptkjth5	Descending	56
+0cKk8BKEi7zXbdrYdyqBP5	67ea9eGLXYMsO2eYQRui3w	5MqyhhHbT13zsloD3uHhlQ	Behind Blue Eyes	69
+0eZBeB2xFIS65jQHerispi	3TOqt5oJwL9BE2NG9MEwDa	1ROVEUk4lc2vD4a0IN1TWS	The Sound of Silence	70
+2ae6mkuD2gJnJQADl488et	2yEwvVSSSUkcLeSTNyHKh8	1fvWYcbjuycyHpzNPH1Vfk	Intension	47
+2iy4qPWFbtzGSDT8xzKIMb	3G5WkIXbDxdNoGWHZbXDjI	7mTxBqXEBsSmtTOk8N6NIp	T*ts Up Mask On	24
+3MGJF1CDFGfjXESL2Heva0	1KCSPY1glIKqW2TotWuXOR	2dpS2uYlkzDsPjl3IZbNjD	F**kin' Perfect	66
+4hTg9q0AnxtH4yZKeRcMin	74eX4C98E4FCrAMl39qRsJ	3KHkCXWAJANXQztdpMmKt4	Hallelujah	54
+51G4UdHXjcNrdLueS1ohzU	6CwfuxIqcltXDGjfZsMd9A	3yIfX4ZW0sYJyw1EMVvfWr	Purge The Poison (feat. Pussy Riot)	43
+5xrHvVmSF3ui0EKI8FArv3	5HYNPEO2NNBONQkp3Mvwvc	36z4UWQiasJxyuePtCH5Ij	Bad Romance	43
+70C4NyhjD5OZUMzvWZ3njJ	6zFYqv1mOsgBRQbae3JJ9e	69wjSAZXZiD2EBia3b3gxL	Piano Man	75
+5Pj9iXYfe607U62YwSF5rC	4QM5QCHicznALtX885CnZC	3GWdoCGEZLjrsofidLFwgV	Daddy AF	55
+0eHxqgbpr2ptXQtw8Ab3ve	5nGIFgo0shDenQYSE0Sn7c	3lFQ9ihSNR5YD0yi0yTzdC	Good Enough	51
+4l52LL7FmhrUXF1F9zV62c	5HYNPEO2NNBONQkp3Mvwvc	36z4UWQiasJxyuePtCH5Ij	Gangsta's Paradise	46
+170yBuCB3FvhMG2DMSQ4IG	5qa31A9HySw3T7MKWI9bGg	1cppTra3p7ByUGqNsv3Qla	Shh...Don't Say It	53
+2tAzcTFry1OhmNERFjUR93	6tbLPxj1uQ6vsRQZI2YFCT	3u8UbYIIZkOtawXLDuu57l	Whore	64
+0PhhFpOOM0dOJhMsjHtypt	3G5WkIXbDxdNoGWHZbXDjI	29omXgzwHznEed7roEZgRM	Don't Be A Ball Sack	22
+0V7c0zElQpTNGUwyC18YMM	5HYNPEO2NNBONQkp3Mvwvc	36z4UWQiasJxyuePtCH5Ij	I Believe in a Thing Called Love	32
+1YQY7ODoHmrfDwzgshRBKq	5HYNPEO2NNBONQkp3Mvwvc	36z4UWQiasJxyuePtCH5Ij	Paper Planes	31
+2Dqg2mRbfIVKhBZleNrgmH	2yEwvVSSSUkcLeSTNyHKh8	6yWMN087PgSimbcVmHLEwG	Third Eye	48
+3H8BLMeJCoXQsozaXi2xzy	1AwO9pWEBSBoWdEZu28XDC	19ZUoDOWmYb59rG5p5WoSW	I Want to Be Evil	44
+5C5gvDZsl6d8bh89URfKHr	4yvcSjfu4PC0CYQyLy4wSq	6qb9MDR0lfsN9a2pw77uJy	Pork Soda	62
+0UdBCetwMDQO7JIhi7Waik	1moxjboGR7GNWYIMWsRjgG	2FgknX5e7fJlriQtxvpLhZ	Girl With One Eye	48
+1lqTpQzSgGZZ850bimyxMP	1caBfBEapzw8z2Qz9q0OaQ	0jHGiwT6YJhI1OV75cbnlW	New Devil (feat. Maria Brink of In This Moment)	53
+272Z4tzaSMMcgrZ0R494S2	0vYkHhJ48Bs3jWcvZXvOrP	7xg7u99lilTCPbaRfnYuy6	Gloria: In Excelsis Deo	50
+4KWntZBFeQOdoYNgPwcEGe	1ET1wIkDmuCBC80XcTr3Sg	6Ymyr8aoX1jHVvrbGpyL24	Kill! Kill! Kill!	38
+7qzNc93sUMR3vHt5WADmOa	6tbLPxj1uQ6vsRQZI2YFCT	3u8UbYIIZkOtawXLDuu57l	Blood	58
+06WohfoFEUa5faNy8f9S5N	6tbLPxj1uQ6vsRQZI2YFCT	3u8UbYIIZkOtawXLDuu57l	Adrenalize	57
+08M4WOUOlAHeZEmj9gEyKt	6tbLPxj1uQ6vsRQZI2YFCT	4oWkraZHpmMWsR96zVKaOT	Adrenalize 1983	48
+0CUbuoOBaYAGSYmjjSlNON	7gcUMQcBkw833YqXciq0WB	4HyW5B0Xi7iY0rV6q9tlVs	NERVOUS	35
+0Yg1hSAUgd2AAneReFOVzS	7x3f7c0fBanNlQwpx1255g	0TcP4beTgxQmREuHJ7BBY2	Tous les garçons et les filles - Slow	57
+0cELvuwJW1acISUHYB6suj	4iHNK0tOyZPYnBU7nGAgpQ	0SHpIbyBLUugMXsl3yNkUz	Emotions	62
+0eHIMJCzU1QV0R6OHeLOuR	6tbLPxj1uQ6vsRQZI2YFCT	7jMxSZ332lLfENKNEFAd9P	Bloody Creature Poster Girl	44
+0q6WphTLKGQksoPMiNB1LJ	75xNYf2GU5wtQqBrd74SlY	12wZUFIsldyDhaPneJX9iU	Whore of Babylon	48
+0tvw5vooI7iT74m2x1T7HU	49aaHxvAJ0tCh0F15OnwIl	6RoosIKwrQCNYyAw5xidRl	Fiction Feels Good	24
+1ZpcR68PKaoz8DpQDRqFEE	4SdIXLzfabqU61iK7SnKAU	2ZPgzxiWsWCmCaC9jzNumu	GAY 4 ME (feat. Lauren Sanderson)	57
+1eNThMHqjtDhoyGXytVBvh	6tbLPxj1uQ6vsRQZI2YFCT	5ErztBSKEEKJDYzmlAbOy2	Lost At Sea	39
+1gsYCXkisSnnjBb3qwYZoc	7jZMxhsB8djyIbYmoiJSTs	5vQaqB1ZfaOW6BSEGuQ8HC	Ur Best Friend (with Kehlani)	60
+1gxdWpeOUBpvB908fiZs4D	00FQb4jTyendYWaN8pK0wa	6QeosPQpJckkW0Obir5RT8	Let Me Love You Like A Woman	63
+1kYR2wTYZUsZ2Gcx7yPYSZ	6tbLPxj1uQ6vsRQZI2YFCT	7jMxSZ332lLfENKNEFAd9P	Dirty Pretty	46
+1w1hr8DdUGqGF4qyhCvGhP	0cGUm45nv7Z6M6qdXYQGTX	1on2vSrrLw2LJfbqSgocJ6	Honey	31
+26nwOFTFf5JLDBFOK1MMe1	3ZJxEmjYZd5VOqZ8o3aXiL	7n7QlAD8PJQswHuWW8Xdm8	COME 4 ME	42
+2IHcAcZ4D6QRGZgmWGgGhc	11T0XSkxSB5KUPTe8P8BOl	5D6nWYP4m00b3LsXYOkzir	Seedy Tricks	33
+2MaWDFu5l9SKXNDd6qCIx6	5qa31A9HySw3T7MKWI9bGg	1cppTra3p7ByUGqNsv3Qla	The One	48
+2i9yWmgHVqWW1vmXtxUaN9	202HZzqKvPsMHcbwnDZx7u	2QFXjy3u6Bl6ctdK9FS9eF	M'Lady	46
+2m17BTWlZq0wtS9cpJsCfM	4Gzfk9Lxm67nBs7E9BZjzG	2HtT4gawEGgOvAPUO7tiU2	Kill Of The Night	57
+2p1Cjaderx0MeKrAoHwchx	0Xkd9GsWwOYETVF0kPXZIG	6tjA8CqgIYfPoBMBansXBi	Follow Me	24
+2ptbBxMTCbFBefVMXwrdSC	2cAXhrWAztXGwk6r15ibW2	5l7whBWhClQiC0pFLpPcRi	Dress	60
+2zsWRxMcUdGjj8TnWkVKw0	100sLnojEpcadRx4edEBA6	600XgAY1N6sRPVczmBogiF	Hypnotic	64
+39oHEZp6LFEmXLy8tKHcYf	3VjZEaHXvNbCmV5jc0VfZR	2AqpuNC4IqjOWfRIMOMczq	Cali God	43
+3DiRdaZtPrVdb4U2RIuRWm	4tpUmLEVLCGFr93o8hFFIB	25eZFwT2UvVK1kxC3wMoSW	One Way Or Another	52
+3HBZdyG6QHhrEdwLQYXjfU	6tbLPxj1uQ6vsRQZI2YFCT	4oWkraZHpmMWsR96zVKaOT	Burn 1983	44
+3NYq7c5AIUiubPz9UZl82h	3rWZHrfrsPBxVy692yAIxF	4B2pV5Zds6478QOqA8yqdj	PrettyGirlz	49
+3e90JC8EKLsSDUHmPpxkfp	3rWZHrfrsPBxVy692yAIxF	5cAJxOFxRwXkCihLMQJYtl	9	61
+3eIDFlBvKsssIpKeTSKEO6	6tbLPxj1uQ6vsRQZI2YFCT	1qPnZBLqLtVw6ER90x84Wb	Beautiful Tragedy	42
+3ejS3PKnKnLiI1CIKM5E4K	6tbLPxj1uQ6vsRQZI2YFCT	4JupbzBjFWUQVT8uQ8FF3p	Whore 1983	47
+4191RXFPa7Ge9XkA4cWlna	6qqNVTkY8uBg9cP3Jd7DAH	0JGOiO34nwfUdDrD612dOp	Lost Cause	71
+46SZJUs1Qnutjk3QlNcnKY	6E8uXyNsUKeGOgRqAOcgBa	1aQLXLo5hr1l3l9h7EVJWM	KIss Of Fire	41
+4Cbrtoamv6acNiHNAUKnj0	6blEmsLU25ewy8hHtgZaSL	2SVRzumTLUTdoHgYNQ4Rh9	Princess Castle	53
+4K6QbaU4KdvYJAOncr2Iu0	6tbLPxj1uQ6vsRQZI2YFCT	2byvabkqGEA7G4viYaoOlp	The Promise	42
+0f6WFVjzsDgZtCHPezwDei	14ep6TM2JzapH5nk7vaora	2etxKdN5Y3oBednnrGpOaG	Discipline Equals Freedom	37
+3kivhGSiCwW36JtxMu6kFO	14ep6TM2JzapH5nk7vaora	2etxKdN5Y3oBednnrGpOaG	There Must Be Discipline	36
+1sHrOGDcZAEwO8cYzXp2px	14ep6TM2JzapH5nk7vaora	2etxKdN5Y3oBednnrGpOaG	Good	34
+45PRMPtQ163u47G79aqFbG	14ep6TM2JzapH5nk7vaora	5zpL1adaFeRNPjgf6SkEei	HA! Santa!	33
+1CacwqIwf9D4SP4MuhtG1Y	14ep6TM2JzapH5nk7vaora	0aFtAfy01TIYWb6iJGxiU7	INTUITION	33
+0JrFwInlGGD43TRnAoBKpm	14ep6TM2JzapH5nk7vaora	7qCQOUdbHrDmRLZpLwOjGU	THE MAN AND THE BIRDS	33
+1zFw3nzmUyKbXgr75qtI9t	14ep6TM2JzapH5nk7vaora	2UNs8HyFV2QVAICFyVhgZV	Jordan B Peterson's Drinking Song	32
+1TvXWUL65B59au2zm4PltT	14ep6TM2JzapH5nk7vaora	4OdaRG0vEpMtFV8XJW2met	Discipline Gets Things Done	32
+1cqbd9BGaw3M9bIrFpX9P9	14ep6TM2JzapH5nk7vaora	2UNs8HyFV2QVAICFyVhgZV	Clean up Your Room	31
+3dr8PzwS05ajM6dMr94jnl	14ep6TM2JzapH5nk7vaora	3bY7zKbVCNqv9jNI90dmFu	Music (The Angels Fly Because They Take Themselves Lightly)	31
+75BGF4LC7AOLFfxn6ukZDH	6tbLPxj1uQ6vsRQZI2YFCT	7jMxSZ332lLfENKNEFAd9P	Sex Metal Barbie	53
+14zjlPXKkx3uCKOQB95PwU	3iJJD5v7oIFUevW4N5w5cj	3LMsFkOLJImsFFUddEjLDy	I Never Get Lonesome	48
+4Kh2MJAy65AfHFdGqBg1Jw	3iJJD5v7oIFUevW4N5w5cj	0cJ39KJ52lQ2tnZUyy299i	That's Us/Wild Combination	44
+1ToKOSrvlMVSPvFyvU9FvX	3iJJD5v7oIFUevW4N5w5cj	3pYFqjWzClbyDKvACv5bVQ	A Little Lost	42
+74LbkcDTjFV1WtMmTAtORI	3iJJD5v7oIFUevW4N5w5cj	3pYFqjWzClbyDKvACv5bVQ	This Is How We Walk On The Moon	42
+1JnlKzzj0xwPvHqPJrXzHd	3iJJD5v7oIFUevW4N5w5cj	7hodLjVNQZSsNEqvG77ZkI	Tone Bone Kone	39
+48zUFsio0IV0KQxnpqAaEm	3iJJD5v7oIFUevW4N5w5cj	7hodLjVNQZSsNEqvG77ZkI	Answers Me	37
+3zuPdhijmasKIcqPxkFu3v	3iJJD5v7oIFUevW4N5w5cj	02WH3YQOSzeEwwZK1jQWjX	Planted A Thought	35
+5BLSShy9K485PTTJ4xe7Bv	3iJJD5v7oIFUevW4N5w5cj	3LMsFkOLJImsFFUddEjLDy	You Did It Yourself	35
+3bU8rIEuatTa7XjHl4Sw8f	3iJJD5v7oIFUevW4N5w5cj	02WH3YQOSzeEwwZK1jQWjX	Close My Eyes	35
+7c3Oydv7ZFCKn8Gk8C7x91	3iJJD5v7oIFUevW4N5w5cj	0cJ39KJ52lQ2tnZUyy299i	Make 1,2	35
+60a0Rd6pjrkxjPbaKzXjfq	6XyY86QOPPrYVGvF9ch6wz	6hPkbAV3ZXpGZBGUvL6jVM	In the End	84
+2nLtzopw4rPReszdYBJU6h	6XyY86QOPPrYVGvF9ch6wz	4Gfnly5CzMJQqkUFfoHaP3	Numb	83
+18lR4BzEs7e3qzc0KVkTpU	6XyY86QOPPrYVGvF9ch6wz	2tlTBLz2w52rpGCLBGyGw6	What I've Done	78
+5sNESr6pQfIhL3krM8CtZn	3nFkdlSjzX9mRTtwJOzDYB	4lhyg7YGQagE8FT8cZBqyw	Numb / Encore	77
+3K4HG9evC7dg3N0R9cYqk4	6XyY86QOPPrYVGvF9ch6wz	6hPkbAV3ZXpGZBGUvL6jVM	One Step Closer	77
+4Yf5bqU3NK4kNOypcrLYwU	6XyY86QOPPrYVGvF9ch6wz	4Gfnly5CzMJQqkUFfoHaP3	Faint	76
+0UFDKFqW2oGspYeYqo9wjA	6XyY86QOPPrYVGvF9ch6wz	2tlTBLz2w52rpGCLBGyGw6	Bleed It Out	76
+57BrRMwf9LrcmuOsyGilwr	6XyY86QOPPrYVGvF9ch6wz	6hPkbAV3ZXpGZBGUvL6jVM	Crawling	75
+1Vej0qeQ3ioKwpI6FUbRv1	6XyY86QOPPrYVGvF9ch6wz	6hPkbAV3ZXpGZBGUvL6jVM	Papercut	74
+7oVEtyuv9NBmnytsCIsY5I	6XyY86QOPPrYVGvF9ch6wz	4XHIjbhjRmqWlosjj5rqSI	BURN IT DOWN	74
+7tpsHNpOI1tUN3vUcsYYmk	2lVklP2whG8hFeQnfenH2k	1bC9urRjJDIecKaA7e8OtQ	Move On	10
+0walmMYqjJq0P1qfu9qUAb	2lVklP2whG8hFeQnfenH2k	6f4598ldLTai2Vm2WszDep	Late Night	6
+60YpYjryABOUTf7YWZC0F2	2lVklP2whG8hFeQnfenH2k	6f4598ldLTai2Vm2WszDep	California	3
+6eSLOYotrIvpo1oQAw950v	2lVklP2whG8hFeQnfenH2k	6f4598ldLTai2Vm2WszDep	Superpowers	2
+5mY0dD8X4SBFYUbMK4DH4p	2lVklP2whG8hFeQnfenH2k	3v2bM9ivWdqBCJujakTkdL	I'll Get There	2
+4K5BshNO80X0F6tAObV9Pe	2lVklP2whG8hFeQnfenH2k	6f4598ldLTai2Vm2WszDep	Moments	1
+1FGChZvLy7tY4CzBHM7Cxb	2lVklP2whG8hFeQnfenH2k	6f4598ldLTai2Vm2WszDep	Question	1
+40KyfCBfKxKhahaPcda4hD	2lVklP2whG8hFeQnfenH2k	6f4598ldLTai2Vm2WszDep	Arcatractic	1
+4SnrNDqGPO24ezrQgdVMux	2lVklP2whG8hFeQnfenH2k	6f4598ldLTai2Vm2WszDep	City	1
+0v6Eeixn1cvckXRQ8Ffl1S	2lVklP2whG8hFeQnfenH2k	6f4598ldLTai2Vm2WszDep	The Floor Is a Very Pleasant Place to Lay On	1
+4sed0oB8YCo1WECMW6E4c8	2CCcoAwiAwpIs1hcsqkk3b	4WER0jHByxYmFwXZgRL6Pk	Dream	42
+7FDjCWThVVjvfTif6Phs70	6WO91WQMsVTfS1oET3Tfs3	43YwhBeUOwdiJKzg1Ut3HE	Intro	40
+2DbzxHuEBPNNPNJ297kPj2	2CCcoAwiAwpIs1hcsqkk3b	4WER0jHByxYmFwXZgRL6Pk	Listen	40
+192rk52HEJiyTm7SUucDBA	2CCcoAwiAwpIs1hcsqkk3b	3WxDoCNoBBXRJOdrpbQAnG	Mr. Jazz	35
+7kZSOD1ueLGlwZvUwZ714Q	2CCcoAwiAwpIs1hcsqkk3b	44IxTo82DCUN2qFXyXc09T	Beautiful Error	34
+10AvPUYmVapS2Amp2TVsE2	3N7feSJ5L5LiXyBvcFVUPm	1ChauYEiQTj1Oq9YrIXlrO	who am i?	32
+02Uhg1YnrReaIWz5GAXckr	2CCcoAwiAwpIs1hcsqkk3b	4WER0jHByxYmFwXZgRL6Pk	Dream (Instrumental)	32
+3Wr0QQhrmbtAIcko4Ahwmk	2CCcoAwiAwpIs1hcsqkk3b	44IxTo82DCUN2qFXyXc09T	The Resurgence of the Mind, Body, and Soul	31
+19jwzsJsKSL0w76rcxcNIi	2CCcoAwiAwpIs1hcsqkk3b	4RvU10koPNztzYeXOlwLWG	Your Own Self	31
+08unC8N1V1dEcqiyi06g6W	46auOkH1pk28rWrSoUNhLo	3950FHVErcINW3tjRgjebQ	Dead of Night	62
+67swXHVknS142T5tIcNFkl	46auOkH1pk28rWrSoUNhLo	2hCcPHWTbvF81CiXPUrM6I	C'mon Baby, Cry	54
+55mJleti2WfWEFNFcBduhc	2yEwvVSSSUkcLeSTNyHKh8	5l5m1hnH4punS1GQXgEi3T	Schism	69
+6DyywdbmTzlmXBzG9ym7Rt	2yEwvVSSSUkcLeSTNyHKh8	3Esn6LoXuWtLZNYq8FCzr0	Sober	67
+0pwObEOHolQZSldJ2q1wpy	2yEwvVSSSUkcLeSTNyHKh8	6yWMN087PgSimbcVmHLEwG	Stinkfist	65
+65ShmiE5aLBdcIGr7tHX35	2yEwvVSSSUkcLeSTNyHKh8	1fvWYcbjuycyHpzNPH1Vfk	Vicarious	63
+7tvuLLroI0n6uYBWuFig5d	2yEwvVSSSUkcLeSTNyHKh8	5l5m1hnH4punS1GQXgEi3T	Lateralus	62
+1vxu8vMNshg5J8z3oA7QJZ	2yEwvVSSSUkcLeSTNyHKh8	5l5m1hnH4punS1GQXgEi3T	Parabola	62
+2gbPu2QNqhnnqtfK3yyeZ0	2yEwvVSSSUkcLeSTNyHKh8	1fvWYcbjuycyHpzNPH1Vfk	Jambi	62
+02MWAaffLxlfxAUY7c5dvx	4yvcSjfu4PC0CYQyLy4wSq	0KTj6k94XZh0c6IEMfxeWV	Heat Waves	86
+1K2RnVhm3eauKnA8PAcPu1	4yvcSjfu4PC0CYQyLy4wSq	4SRt3uGUROnTFCw41dzHIh	Heat Waves - Slowed	73
+0rRjGruFonCGOt0S5zAJNQ	4yvcSjfu4PC0CYQyLy4wSq	6qb9MDR0lfsN9a2pw77uJy	The Other Side Of Paradise	71
+1gk3FhAV07q9Jg77UxnVjX	4yvcSjfu4PC0CYQyLy4wSq	14IOe7ahxQPTwUYUQX3IFi	Gooey	69
+37adYGaYaAWTGhBaOzX4Fh	4yvcSjfu4PC0CYQyLy4wSq	6qb9MDR0lfsN9a2pw77uJy	Take A Slice	68
+7vZqwaSk4sVcDyZbMcxS8N	4yvcSjfu4PC0CYQyLy4wSq	4nr6ytQ4OrEralEu4LhIVp	Heat Waves (with iann dior)	67
+1LPGwuFgIzbJoShfDdw7MY	4yvcSjfu4PC0CYQyLy4wSq	6qb9MDR0lfsN9a2pw77uJy	Youth	66
+2xXPVOKw75Ouju8Qu4SdIA	4yvcSjfu4PC0CYQyLy4wSq	4nr6ytQ4OrEralEu4LhIVp	I Don't Wanna Talk (I Just Wanna Dance)	65
+32zkKx35Et6A515oZKxDkD	4yvcSjfu4PC0CYQyLy4wSq	6qb9MDR0lfsN9a2pw77uJy	Life Itself	62
+1MPKBplSO3HmUD9PEaG02N	0DAZn759crST1j1p3Y2qTn	29M1rpCsLwuhfhSvurLtvy	The Well	11
+0CuqmRkvCNeIZCBfzXUNIX	0DAZn759crST1j1p3Y2qTn	29M1rpCsLwuhfhSvurLtvy	Siren Moon	7
+4tsjke1KKqZHgOf5hTylsL	0DAZn759crST1j1p3Y2qTn	6l4110MiDXq0APRJqfNY1r	Mother of the World	6
+4bDFVMZFCxW1zPdbyubFMp	0DAZn759crST1j1p3Y2qTn	2XQ1tT05aEyL2WTUaLXi1u	Fire in the Head	6
+3ZaLLFzx7xySykeE3ZgWJr	1TjaxisqOtZkkNRqGYGBNY	2CDhKaXbRZlwkowhqbHavc	Ancestor Chant	5
+6EMueQ4shWqGxVS00s6YOa	0DAZn759crST1j1p3Y2qTn	2XQ1tT05aEyL2WTUaLXi1u	Song of Wandering Aengus	5
+4Z3kBh3iH5URNyYiVfMCJw	0DAZn759crST1j1p3Y2qTn	6l4110MiDXq0APRJqfNY1r	Bewitched	4
+4oYD7pXVmNekDzOqPeUZTb	0DAZn759crST1j1p3Y2qTn	4w9GGiYm45kGM5fbKx9FuP	Let the Waters Rise	3
+3H87NChVLoIjhaJ0u0YEuY	0DAZn759crST1j1p3Y2qTn	29M1rpCsLwuhfhSvurLtvy	Song Of The Sea	3
+6Tj2rlXCpJRHM3bxDz2Fjw	0DAZn759crST1j1p3Y2qTn	29M1rpCsLwuhfhSvurLtvy	Lagan Love	3
+3cjvqsvvU80g7WJPMVh8iq	053q0ukIDRgzwTr4vNSwab	3HED2IUaNSnbOe88a7ZdwM	Genesis	68
+3LGsgpx4TfxhXbr07OFKqs	053q0ukIDRgzwTr4vNSwab	3HED2IUaNSnbOe88a7ZdwM	Oblivion	68
+0YQEWdfq3ajtNtK106Dr0k	053q0ukIDRgzwTr4vNSwab	4wsyyLWO72hZ39U6hrl31A	Shinigami Eyes	64
+3WXhshrs1fzwF3rQE399Gq	053q0ukIDRgzwTr4vNSwab	7J84ixPVFehy6FcLk8rhk3	Kill V. Maim	64
+4keclC0eBhQm8lFtYmX01K	053q0ukIDRgzwTr4vNSwab	4zyqNfmTrnvUejh8M1IEh9	4ÆM	62
+1jR9XTpUeT6a82Yz4GNCCo	3PyJHH2wyfQK3WZrk9rpmP	438ToDoVaJH5aTIXXrlDyI	Cry (feat. Grimes)	59
+1hT3eaGzrcFriQtgGdvsZv	053q0ukIDRgzwTr4vNSwab	1VGVJdmvOSRK2w9RKXk18A	Delicate Weapon	58
+3KeOFns3LGJuh1lapMm9eA	053q0ukIDRgzwTr4vNSwab	4zyqNfmTrnvUejh8M1IEh9	Violence - Original Mix	58
+1aL6wkVeoR41DqDpVN7Gl2	053q0ukIDRgzwTr4vNSwab	1WdV2sVtRWpiaPAxyvq51r	Player Of Games	57
+62jc4VA6WPoANaL9Duu8db	053q0ukIDRgzwTr4vNSwab	7J84ixPVFehy6FcLk8rhk3	Flesh without Blood	56
+5gW5dSy3vXJxgzma4rQuzH	6ueGR6SWhUJfvEhqkvMsVs	2PjlaxlMunGOUvcRzlTbtE	Make Me Feel	63
+2EznBGrlmx9wBeYgyDojsA	6ueGR6SWhUJfvEhqkvMsVs	2PjlaxlMunGOUvcRzlTbtE	I Like That	58
+1ljzHUgt2SU2ADkhfa9eBC	6ueGR6SWhUJfvEhqkvMsVs	7MvSB0JTdtl1pSwZcgvYQX	Tightrope (feat. Big Boi) - Big Boi Vocal Edit	52
+5OpiyfqaQLdtwHd3SfembH	6ueGR6SWhUJfvEhqkvMsVs	2PjlaxlMunGOUvcRzlTbtE	Pynk (feat. Grimes)	51
+3IJCSQoLF4YzPAKaxq2JLb	6ueGR6SWhUJfvEhqkvMsVs	5rzxGeVyCV74SvV5hjLRAU	Yoga	50
+5dzV75f9qVXVvdXLTqIG4L	6ueGR6SWhUJfvEhqkvMsVs	3bnHtSmmsgJiG82hGCmsq9	Primetime (feat. Miguel)	49
+3HW030T8eqPs8wpsgZqCGM	6ueGR6SWhUJfvEhqkvMsVs	3bnHtSmmsgJiG82hGCmsq9	Q.U.E.E.N. (feat. Erykah Badu)	47
+1Z2MfAx1nJ09NzGjodnvRW	6ueGR6SWhUJfvEhqkvMsVs	2PjlaxlMunGOUvcRzlTbtE	Screwed (feat. Zoë Kravitz)	46
+0Mi9oDxTwC7u9X6nxSQGN6	6ueGR6SWhUJfvEhqkvMsVs	27RUK36qlkCtwySz0pBQXq	Unbreakable	45
+56RfNBJGUgL1ZFCB1KEJrQ	6ueGR6SWhUJfvEhqkvMsVs	2PjlaxlMunGOUvcRzlTbtE	Django Jane	45
+5NeIONQWJ25uPylJBJiO4c	49qiE8dj4JuNdpYGRPdKbF	0dZB8UHYsM7jKmm7ByzAVq	Through Glass	69
+14EORgkbXqIx5K4Haucmnb	49qiE8dj4JuNdpYGRPdKbF	2nCHgPLLyIgxFKUBYuMKPn	Absolute Zero	65
+3V1H6liHwCDcWeqdPJabOM	49qiE8dj4JuNdpYGRPdKbF	0dZB8UHYsM7jKmm7ByzAVq	Wicked Game - Acoustic; Live	65
+0AfIsqZ4gTUg9CwwW2jLeK	49qiE8dj4JuNdpYGRPdKbF	1zxVmbhE7PevJT8Z6w6upn	Bother	62
+5jsDxDkJ1PqyYUWhDMr86B	49qiE8dj4JuNdpYGRPdKbF	4PERSgw7TXqpEZlIVN6zHr	Song #3	60
+7oL13WHjhUFhVq9POP7qfC	49qiE8dj4JuNdpYGRPdKbF	5tgokdjXViimLTW4LwiXMC	Say You'll Haunt Me	56
+1q9ru9Wx2Q9Ez8irkGcyFa	49qiE8dj4JuNdpYGRPdKbF	2nCHgPLLyIgxFKUBYuMKPn	Tired	55
+0pVL6gE6ebXHExO9IzrJDQ	49qiE8dj4JuNdpYGRPdKbF	2nCHgPLLyIgxFKUBYuMKPn	Taciturn	53
+70tDfuK1tlZQfyi0m8BZo0	49qiE8dj4JuNdpYGRPdKbF	0dZB8UHYsM7jKmm7ByzAVq	30/30-150	51
+3WeEYZivpdmeyXupUpQxgV	49qiE8dj4JuNdpYGRPdKbF	4n2cBoeyuL21un0GB8hu9q	Gimme Shelter (feat. Lzzy Hale)	49
+7snQQk1zcKl8gZ92AnueZW	3qm84nBOXUEQ2vnTfUTTFC	28yHV3Gdg30AiB8h8em1eW	Sweet Child O' Mine	77
+3YRCqOhFifThpSRFJ1VWFM	3qm84nBOXUEQ2vnTfUTTFC	0CxPbTRARqKUYighiEY9Sz	November Rain	80
+0G21yYKMZoHa30cYVi1iA8	3qm84nBOXUEQ2vnTfUTTFC	28yHV3Gdg30AiB8h8em1eW	Welcome To The Jungle	73
+4JiEyzf0Md7KEFFGWDDdCr	3qm84nBOXUEQ2vnTfUTTFC	00eiw4KOJZ7eC3NBEpmH4C	Knockin' On Heaven's Door	78
+6eN1f9KNmiWEhpE2RhQqB5	3qm84nBOXUEQ2vnTfUTTFC	28yHV3Gdg30AiB8h8em1eW	Paradise City	72
+2N2yrmodOnVF10mKvItC9P	3qm84nBOXUEQ2vnTfUTTFC	0CxPbTRARqKUYighiEY9Sz	Don't Cry (Original)	78
+0rFWuqFgHAfuzE8uSB9TWR	3qm84nBOXUEQ2vnTfUTTFC	0CxPbTRARqKUYighiEY9Sz	Live And Let Die	71
+0dlTGl67UFWcKupzkxZYOn	3qm84nBOXUEQ2vnTfUTTFC	00eiw4KOJZ7eC3NBEpmH4C	You Could Be Mine	71
+1OEoNpiyqBghuEUaT6Je6U	3qm84nBOXUEQ2vnTfUTTFC	3edmYBHOTxfz8NxJE1QmTP	Patience	70
+6i4Qi1mJxXjqNIL9HfJhRs	3qm84nBOXUEQ2vnTfUTTFC	00eiw4KOJZ7eC3NBEpmH4C	Civil War	69
+3wJOpq5ZwBMUFroNZ0N6uI	0e9C27umtAZF9E2jqyRfeP	6ssU2hZQfuJVTrwc463Ma4	A New Beginning	21
+73yenCZM9Fh0h58OaEOkjk	0e9C27umtAZF9E2jqyRfeP	2mHAYyspw9eCOGKhW7lvnS	A World Without	17
+291bcePoQ2Z9MvKIewgE2C	0e9C27umtAZF9E2jqyRfeP	5OOLdSsfHOIaX3btu50XBR	Blight	16
+3dbN14Hu8jsXzlBWMevLsm	0e9C27umtAZF9E2jqyRfeP	6ssU2hZQfuJVTrwc463Ma4	Halcyon	13
+2sMZO6HCWWOLSLMRpU6bDq	0e9C27umtAZF9E2jqyRfeP	0U1iGUMa7w84jrny8URO5f	Ideals	9
+3ONRXOWBKbeJFW7lxntkeK	0ZJoU0Z8MIukDaRiFwMZcp	0fELI71l0QCQD461aOkSTJ	Glacier Marriage	9
+2hYCW6cQ0xN2gurDXQZWhb	0e9C27umtAZF9E2jqyRfeP	6ssU2hZQfuJVTrwc463Ma4	Phoenix Down	8
+0lQS5PpevgXgCUHnBI2Klc	0e9C27umtAZF9E2jqyRfeP	2mHAYyspw9eCOGKhW7lvnS	Chemicals	8
+6wB5PsH2WWs9dR4VcOvGMl	0e9C27umtAZF9E2jqyRfeP	2mHAYyspw9eCOGKhW7lvnS	The Missing Piece	8
+4nA5V1hzpeNhM1gmvz11qr	0e9C27umtAZF9E2jqyRfeP	2mHAYyspw9eCOGKhW7lvnS	Control	7
+1d6KS9GH06JAd19uiBy9IE	6ogn9necmbUdCppmNnGOdi	5Ap3F8CxjjsQKZGASDcHNA	Ironic - 2015 Remaster	70
+3jS7bB0oXVOwGFZn3aE5NV	6ogn9necmbUdCppmNnGOdi	5Ap3F8CxjjsQKZGASDcHNA	You Oughta Know - 2015 Remaster	67
+2lE7oRoKssULAtbWViL385	6ogn9necmbUdCppmNnGOdi	5Ap3F8CxjjsQKZGASDcHNA	Hand in My Pocket - 2015 Remaster	66
+3CVDronuSnhguSUguPoseM	6ogn9necmbUdCppmNnGOdi	2QXT4rGSfqjqfgpZ059yKp	Thank U	63
+735rjks7kQgWCjTQlIHMuH	6ogn9necmbUdCppmNnGOdi	5Ap3F8CxjjsQKZGASDcHNA	Head over Feet - 2015 Remaster	61
+4l7YIni9bAiGwWMqK5wvgV	6ogn9necmbUdCppmNnGOdi	5Ap3F8CxjjsQKZGASDcHNA	You Learn - 2015 Remaster	60
+2LVxvGhl2U5p2ql2ujc6vZ	6ogn9necmbUdCppmNnGOdi	0kKfmdca8GY7bDWFWtY801	Hands Clean	57
+7c1iI6dwdCpHGYT8DGEfab	6ogn9necmbUdCppmNnGOdi	4N7LuZYpstQrtcHIoOKzqg	Uninvited	57
+2yx1kAK1Fe2zTOsaDKSNBk	6ogn9necmbUdCppmNnGOdi	0LkVxRq8mZbPUaRgEEvxKv	You Learn - Live / Unplugged	54
+6rRIRMEhVclbTleCJQsrPm	6ogn9necmbUdCppmNnGOdi	5Ap3F8CxjjsQKZGASDcHNA	All I Really Want - 2015 Remaster	53
+1mKXFLRA179hdOWQBwUk9e	1KCSPY1glIKqW2TotWuXOR	2Q9oTK48eb85waX1fFJsvj	Just Give Me a Reason (feat. Nate Ruess)	80
+1jF7IL57ayN4Ity3jQqGu0	1KCSPY1glIKqW2TotWuXOR	2Q9oTK48eb85waX1fFJsvj	Try	76
+1gv4xPanImH17bKZ9rOveR	1KCSPY1glIKqW2TotWuXOR	3uQMzfrf4kUNGsCtmTtjPh	Raise Your Glass	76
+0JiY190vktuhSGN6aqJdrt	1KCSPY1glIKqW2TotWuXOR	1LOJfNDxQhbpssKx7oM7at	So What	75
+6sZo5nJIsFWXefRCCexpx0	1KCSPY1glIKqW2TotWuXOR	6MCHSjoEVriUjWE6LERAaR	Never Gonna Not Dance Again	74
+0Qh38w01QRXK6KHIv0e3hb	1KCSPY1glIKqW2TotWuXOR	7hwhuEQT4Fp5bzwLlYZtiz	What About Us	74
+0UKUfxIkDAMZz7hMdiVX3m	1KCSPY1glIKqW2TotWuXOR	061vVdNVxwouz0INdQeOkn	Cover Me In Sunshine	67
+2hns6Dv29Yrg68AVTJiAyA	1KCSPY1glIKqW2TotWuXOR	5rK6h49Qd6gSxxbQGMrWfq	Who Knew	71
+5Oz15cyQP3TMDDXKWm4tYH	1KCSPY1glIKqW2TotWuXOR	02wEEiMLBV64tAhyPCtD4J	Irrelevant	70
+1QNqrsNQ1JVLEwncov3lEY	1KCSPY1glIKqW2TotWuXOR	2Q9oTK48eb85waX1fFJsvj	True Love (feat. Lily Allen)	70
+3wMJQ5qeN02ljNn3lRMVka	5HYNPEO2NNBONQkp3Mvwvc	1jRyMHSkbnP8GwptMnh66z	Habits	58
+2Lv9mFjcIFPn8zyWF89EAe	5HYNPEO2NNBONQkp3Mvwvc	4kZggLkaCdeboIu94dn8KB	Seven Nation Army	53
+1MAIJFzQFIQ2Hkm3X5YtCW	5HYNPEO2NNBONQkp3Mvwvc	4kZggLkaCdeboIu94dn8KB	Lovefool	51
+6Qk1YmTx5VyaAEDK2UuBrj	5HYNPEO2NNBONQkp3Mvwvc	1c8vOBrWZQS7VGrSmMkmpk	Mad World	49
+3LoIBdxoJR1P61Gxytw1Mg	5HYNPEO2NNBONQkp3Mvwvc	4kZggLkaCdeboIu94dn8KB	Oops!... I Did It Again	48
+5yB4E4t77x2k0VJTvRazQq	5HYNPEO2NNBONQkp3Mvwvc	2T46DrPiNwn89DDfl8J48E	Careless Whisper	48
+1jZRJKE7GZdiZzVgMS9mv2	5HYNPEO2NNBONQkp3Mvwvc	334uy6wA5harUKkI4rf62z	All About That Bass	47
+4rHrFEePW9WTMYby9bdsUr	5HYNPEO2NNBONQkp3Mvwvc	48DZGgsnOeX8CZR2SjUMmH	All The Small Things	47
+0E32W7S52AaR4ht7i7DwDq	5HYNPEO2NNBONQkp3Mvwvc	5CUFurrJe05hnz189d5mDK	Closer	46
+0n3sHHfdOq6Awix3JPe3xl	6om12Ev5ppgoMy3OYSoech	2fwH1QL0wgnbbXiHWCYs1D	Bad Romance	64
+3gmEzilP9BzF45wIMvA16l	6om12Ev5ppgoMy3OYSoech	4TyrGrbnsOVKOXVut2huz2	I Miss the Misery	63
+0JKY13K1Io2aqXJb96UyzX	6om12Ev5ppgoMy3OYSoech	5iMlDARMRcsRn0hvFMgDfS	I Get Off	59
+5l3gAGbkXFfPWxh4a3J8mp	6om12Ev5ppgoMy3OYSoech	4TyrGrbnsOVKOXVut2huz2	Love Bites (So Do I)	55
+7dIObUjmQfXbs56UsaBIHT	6om12Ev5ppgoMy3OYSoech	27Bw4tTQWjEv3jpp6ynGfu	Wicked Ways	55
+0a5UnIvDUBzqwUduJsouRy	6om12Ev5ppgoMy3OYSoech	4TyrGrbnsOVKOXVut2huz2	Here's to Us	55
+5MapUlM1un2Kh4aZ3IyWcL	6om12Ev5ppgoMy3OYSoech	6jPjpEJBxT0HN71TAEohZ0	I Am the Fire	54
+3238Ck8nZUFvTqh4fKv8cY	6om12Ev5ppgoMy3OYSoech	2JzsMlDbOOZbiXmfHAOREG	Mine	54
+78mjaBatbfvwx5KJwI036H	6om12Ev5ppgoMy3OYSoech	4TyrGrbnsOVKOXVut2huz2	Mz. Hyde	54
+09XBDPqHnevLn54rpRMjkZ	6om12Ev5ppgoMy3OYSoech	27Bw4tTQWjEv3jpp6ynGfu	The Steeple	53
+6EtKlIQmGPB9SX8UjDJG5s	2feDdbD5araYcm6JhFHHw7	788r22Bhr3IHLTNPy8pZea	Formula	83
+1ZdhOMWyFR8Iv9eylMGYg2	2feDdbD5araYcm6JhFHHw7	0FSsRH1jeZqKbGcHwq3UO0	Mount Everest	82
+6N22FZs2ZhPBYi3b9XPajV	2feDdbD5araYcm6JhFHHw7	788r22Bhr3IHLTNPy8pZea	Still Don't Know My Name	78
+4G92yYrUs0cvY7G41YRI0z	2feDdbD5araYcm6JhFHHw7	6bsCl6iS6dvC4xaiBlecPv	Jealous	76
+4xigPf2sigSPmuFH3qCelB	5WUlDfRSoLAfcVSX1WnrxN	0ujHQ5WCLuKJQXOqXpGtpf	Genius (feat. Sia, Diplo, and Labrinth)	75
+76YSWx6L6FNsuaP6GWBb8P	2feDdbD5araYcm6JhFHHw7	0zjbNtfnMLmt2q50E3wDx8	All For Us	71
+6potEImiklXkwD9qFzpu15	2feDdbD5araYcm6JhFHHw7	788r22Bhr3IHLTNPy8pZea	Forever	74
+2t16D9V5FmmRAJjsSpwvZf	2feDdbD5araYcm6JhFHHw7	788r22Bhr3IHLTNPy8pZea	When I R.I.P.	73
+4lJNen4SMTIJMahALc3DcB	5WUlDfRSoLAfcVSX1WnrxN	0ujHQ5WCLuKJQXOqXpGtpf	Thunderclouds (feat. Sia, Diplo, and Labrinth)	71
+30XBkzzcubUJLANeXM4D0C	2feDdbD5araYcm6JhFHHw7	43tSLc6ZxW8TTRLrBO0SU1	I’m Tired (with Zendaya) - Bonus Track	62
+6W21LNLz9Sw7sUSNWMSHRu	3RNrq3jvMZxD9ZyoOZbQOD	0gsiszk6JWYwAyGvaTTud4	Freak On a Leash	75
+3o7TMr6RmIusYH7Kkg7ujR	3RNrq3jvMZxD9ZyoOZbQOD	2c7ynrgZP08xNtkJi9MhjF	Coming Undone	74
+2F6FfZ4w8z3eJpSxPotVO5	3RNrq3jvMZxD9ZyoOZbQOD	5U0pevIOTrPoDsN8YsBCBh	Falling Away from Me	71
+6nJPHXRpKYv2yqtalEjKy5	3RNrq3jvMZxD9ZyoOZbQOD	0gsiszk6JWYwAyGvaTTud4	Got the Life	70
+05NpeTQWnzXS1d8ZqL4YFZ	3RNrq3jvMZxD9ZyoOZbQOD	2c7ynrgZP08xNtkJi9MhjF	Twisted Transistor	69
+3ESohZocQvwRDzedmk4fYi	3RNrq3jvMZxD9ZyoOZbQOD	1OzMlpOy3QYFYrnM9YShH9	Blind - Live at CBGB	56
+1pHPpLVH2XEN0xYRoQs4wq	3RNrq3jvMZxD9ZyoOZbQOD	1L9iPuSu8FZFaFzzqHQarF	Word Up!	65
+5NHTtXGCdO7ul16xr0q93w	3RNrq3jvMZxD9ZyoOZbQOD	1MqmDK2xw4isOPhiUb9eXO	Here to Stay	64
+2WSWm0zlL3CJRACHS5KXbB	3RNrq3jvMZxD9ZyoOZbQOD	3487OYBtnRl82qA6tfyWco	Y'all Want a Single	61
+0xgsyoVvRFSYvV5cdtYhX1	3RNrq3jvMZxD9ZyoOZbQOD	2b813fSxxzp9lcOfnLrrTH	A.D.I.D.A.S.	64
+6lanCCozUAMy9YWSXki2KT	4gKo3LXoxHriLS6CBKThAU	1PAxC4UQ1HQzCbfoDMpFIZ	Edge of Night [Pippin's Song] (Bonus Track)	54
+4lY38A2Od1FpAA5ApsWJ9H	4gKo3LXoxHriLS6CBKThAU	1ngCM5T0CSIGWdgNWGAqB6	Drunken Sailor	54
+2RO1DH40uEKycPoAe4EeC8	20q3NJtmeKSi3BTnmUFK16	5m2gJQ8uSKQYCvwoooGwKf	Nancy Mulligan	53
+35Wbv9gZlM4BH9ru0b53dD	4gKo3LXoxHriLS6CBKThAU	5PEfNDn9GLnKbR3KKZb0fN	Hoist the Colours	51
+7r1gjjGfBW6tZVESc9GV5s	4gKo3LXoxHriLS6CBKThAU	7c6r7iZmrlyY3oVvBU8btM	Don't Make Me	47
+5eosB56UtLkH1eckOG4OwM	4gKo3LXoxHriLS6CBKThAU	1PAxC4UQ1HQzCbfoDMpFIZ	Galway Girl	44
+6ACGnw7Av12JwzX5d1tz6I	4gKo3LXoxHriLS6CBKThAU	3qAFi30gvYYEnEM5rCCtqp	Wild One	44
+2cEUsHbwpk3D3R8l8myagO	4gKo3LXoxHriLS6CBKThAU	37nbyO9hjO4LIpq96HfKby	Forever (in my mind)	43
+0K3obK7pmH04aahBrWrlnD	4gKo3LXoxHriLS6CBKThAU	1PAxC4UQ1HQzCbfoDMpFIZ	Dúlamán	43
+5wPkADSHUuNOwVQ21QOlZs	4gKo3LXoxHriLS6CBKThAU	01cipgct2Fs6B4erVHVbB6	I'm not there yet	42
+7yoBjKO6cCnK3zV8gr1k4e	2pqd3HsfsvcBGtHvPOg6eg	7wGLeeJt18EBjc181FP2cM	Lydia	64
+1euszbbvkUzQzIhZUWFmXG	2pqd3HsfsvcBGtHvPOg6eg	3TC40H9dIJArFzy0rWnWCg	My Name Is Human	63
+4nMUPQeTor23d8RxiiJO9W	2pqd3HsfsvcBGtHvPOg6eg	0SWbz68LauoDrMdgdNv6gr	Natural Born Killer	58
+7jHJ2MzIKO1kIMxGamKRKn	2pqd3HsfsvcBGtHvPOg6eg	16ah4zHJlxx3wjRFg3nkSl	16	58
+5y1jgbDNgTfxoWXv3FhH2Q	2pqd3HsfsvcBGtHvPOg6eg	3TC40H9dIJArFzy0rWnWCg	Little One	56
+66Avcq6c51vcMGXLzHH5d7	2pqd3HsfsvcBGtHvPOg6eg	7wGLeeJt18EBjc181FP2cM	Bloodfeather	55
+252T5dAokvMiNzXZchojoH	2pqd3HsfsvcBGtHvPOg6eg	7wGLeeJt18EBjc181FP2cM	Bath Salts	55
+0aaOrTcwzvbTni3zUarEaT	2pqd3HsfsvcBGtHvPOg6eg	3TC40H9dIJArFzy0rWnWCg	Serotonia	53
+0Ha3SbwjPO11gZ0zPjZQ2o	2pqd3HsfsvcBGtHvPOg6eg	0SWbz68LauoDrMdgdNv6gr	Midnight Demon Club	52
+5yIHw5bnDscFViNtQRPlNn	2pqd3HsfsvcBGtHvPOg6eg	16ah4zHJlxx3wjRFg3nkSl	Canals	51
+6mFkJmJqdDVQ1REhVfGgd1	0k17h0D3J5VfsdmQ1iZtE9	0bCAjiUamIFqKJsekOYuRw	Wish You Were Here	76
+4gMgiXfqyzZLMhsksGmbQV	0k17h0D3J5VfsdmQ1iZtE9	5Dbax7G8SWrP9xyzkOvy2F	Another Brick in the Wall, Pt. 2	75
+5HNCy40Ni5BZJFw1TKzRsC	0k17h0D3J5VfsdmQ1iZtE9	5Dbax7G8SWrP9xyzkOvy2F	Comfortably Numb	72
+0vFOzaXqZHahrZp6enQwQb	0k17h0D3J5VfsdmQ1iZtE9	4LH4d3cOWNNsVw41Gqt2kv	Money	72
+2ctvdKmETyOzPb2GiJJT53	0k17h0D3J5VfsdmQ1iZtE9	4LH4d3cOWNNsVw41Gqt2kv	Breathe (In the Air)	71
+3TO7bbrUKrOSPGRTB5MeCz	0k17h0D3J5VfsdmQ1iZtE9	4LH4d3cOWNNsVw41Gqt2kv	Time	70
+7F02x6EKYIQV3VcTaTm7oN	0k17h0D3J5VfsdmQ1iZtE9	5Dbax7G8SWrP9xyzkOvy2F	Hey You	67
+05uGBKRCuePsf43Hfm0JwX	0k17h0D3J5VfsdmQ1iZtE9	4LH4d3cOWNNsVw41Gqt2kv	Brain Damage	65
+6pnwfWyaWjQiHCKTiZLItr	0k17h0D3J5VfsdmQ1iZtE9	0bCAjiUamIFqKJsekOYuRw	Shine On You Crazy Diamond (Pts. 1-5)	65
+2TjdnqlpwOjhijHCwHCP2d	0k17h0D3J5VfsdmQ1iZtE9	4LH4d3cOWNNsVw41Gqt2kv	The Great Gig in the Sky	65
+5thts3213xwSroRd11fv5A	5Va9LuEmaZxnbk1gMnjMD7	4KqorQ6C7yDXvqgfgGrnvm	People Everyday - Metamorphosis Mix	55
+5DOYik1z3Of1wAFfY3dYbC	5Va9LuEmaZxnbk1gMnjMD7	4QrhfVaznhrAPlM5xCKBPh	Mr. Wendal	55
+1aaoIHFT9UqhlaEwLAhh00	5Va9LuEmaZxnbk1gMnjMD7	4QrhfVaznhrAPlM5xCKBPh	Tennessee	52
+6JvodgYcsthsORxPsEYUoe	5Va9LuEmaZxnbk1gMnjMD7	4QrhfVaznhrAPlM5xCKBPh	People Everyday	44
+1BPGVK07VnVlMx5KiGSxf4	5Va9LuEmaZxnbk1gMnjMD7	0h3rxIcX0RNqqeNdj9ngZB	Africa's Inside Me	41
+0eArho4oNYdoDA5Ujrnp5b	5Va9LuEmaZxnbk1gMnjMD7	7ql593Au4JADM3UHtIw7cs	Vibe	37
+6Oz9XfeBlYgbwX8BN4uvQn	5Va9LuEmaZxnbk1gMnjMD7	4QrhfVaznhrAPlM5xCKBPh	Mama's Always On Stage	34
+60qV6RaRjg9ggvWQwq7WIG	5Va9LuEmaZxnbk1gMnjMD7	0h3rxIcX0RNqqeNdj9ngZB	Ease My Mind	33
+44X6LzQxlk16s0lK4QIdxi	5Va9LuEmaZxnbk1gMnjMD7	0h3rxIcX0RNqqeNdj9ngZB	Pride	31
+216MVnfuGsNJM7F27R7z8I	5Va9LuEmaZxnbk1gMnjMD7	0VT2emnH6OD535swnaI2b8	Since The Last Time	31
+2UZtI2HUyLRzqBjodvcUmY	74eX4C98E4FCrAMl39qRsJ	1P2L7DD1DCqb0VfpMyByLl	Rx (Medicate)	66
+5m7on0zpnmeAXy72ANrmfU	74eX4C98E4FCrAMl39qRsJ	2d4tYx2ulDP1Kgudxsrs7B	Bad Girlfriend	65
+2qJkesdHu9sMMVFgkRkqhQ	74eX4C98E4FCrAMl39qRsJ	6SfhyLVugAsXYDvs966WBn	Angel	64
+6kp8F9FpHXzjga2MeRDSG8	74eX4C98E4FCrAMl39qRsJ	2JUpjRRxWKUZwVwY9sTXS1	Bitch Came Back	60
+5zcLnqZbAjDGXX7HNcT1rE	74eX4C98E4FCrAMl39qRsJ	2d4tYx2ulDP1Kgudxsrs7B	Hate My Life	57
+5xyACR2lzIyzFepF4qlAas	74eX4C98E4FCrAMl39qRsJ	2d4tYx2ulDP1Kgudxsrs7B	Not Meant to Be	55
+3DK5OFBHIEF18MG40nzDgI	74eX4C98E4FCrAMl39qRsJ	2AcRfLUDOjcjFrysc0WY7R	Dinosaur	54
+2mYMAJGoauv6LYCpzIOGBi	74eX4C98E4FCrAMl39qRsJ	2JUpjRRxWKUZwVwY9sTXS1	Lowlife	53
+2ejt6exJRE2bXPfp37Xi8w	74eX4C98E4FCrAMl39qRsJ	2d4tYx2ulDP1Kgudxsrs7B	All or Nothing	52
+2oDqmfa2g8W893LlwJG1qu	0X380XXQSNBYuleKzav5UO	3nJnyDV8fwFpffo0EyHQto	Closer	67
+5ugzDiilhy6ILKmKfhEzd7	0X380XXQSNBYuleKzav5UO	56Us3Q6UIM4jKJZlWhqddL	The Hand That Feeds	62
+3ckd4YA4LcD3j50rfIVwUe	0X380XXQSNBYuleKzav5UO	3umFHeEpc4yLXtrRcv9gLN	Head Like A Hole	61
+1lo9k4PrxFd5Np4cAxXoKo	0X380XXQSNBYuleKzav5UO	3nJnyDV8fwFpffo0EyHQto	Hurt	56
+0XfNjyJcb7d2ZAscVM4K7J	0X380XXQSNBYuleKzav5UO	4jyWDa1yM9ul7zgUdR80hw	Wish	55
+0m1DJ5Jkv3kdnGrcZsJFmC	0X380XXQSNBYuleKzav5UO	56Us3Q6UIM4jKJZlWhqddL	Only	54
+14tKBoKXxGakkoEmYuFfor	0X380XXQSNBYuleKzav5UO	77PY9VYriArqduEpkD2Ues	The Perfect Drug	54
+0ypg59NyOVCpWVzd0SUsT5	0X380XXQSNBYuleKzav5UO	56Us3Q6UIM4jKJZlWhqddL	Every Day Is Exactly The Same	54
+3o1nX61oecxnqXieA2ma0U	0X380XXQSNBYuleKzav5UO	3umFHeEpc4yLXtrRcv9gLN	Terrible Lie	53
+1hMshRVQQQcIhXoqD2b4IC	65NrBzD3Jnf1iqbDjuUYjD	0aBrxKKNYOM5FvtCGoy5Hy	Towards the Light	36
+6C5H6rqeolq4qQF08ua1VH	65NrBzD3Jnf1iqbDjuUYjD	0M8rYJSqRmsRLiKDL8bJAE	Watching You Breathe	36
+0LRJnSa98xJNvhxsjjacxN	65NrBzD3Jnf1iqbDjuUYjD	0kDCsx0s9JjwmKGPkAAbS1	The Blizzard Was Relentless, But Surely He Was Getting Closer to That Shimmer	34
+3vuoyVIc0wA8Eh1xMwscGX	65NrBzD3Jnf1iqbDjuUYjD	4GJxpFYhWWkSO4NwJrAUvy	Strawberry Fields	33
+26cS02qbGxXO0ZQzIep7dv	65NrBzD3Jnf1iqbDjuUYjD	0M8rYJSqRmsRLiKDL8bJAE	Cosmos	33
+3jhloQVw4pXiqxdN9Q1WTR	65NrBzD3Jnf1iqbDjuUYjD	0M8rYJSqRmsRLiKDL8bJAE	Eternity	31
+046aTn8UtXxEmB7XGVGtuD	65NrBzD3Jnf1iqbDjuUYjD	3bTZgPevR8VerXJ1bBhG7I	All we need is time...	31
+5WhdOYLmpNgENGhtzyvEXc	46auOkH1pk28rWrSoUNhLo	2hCcPHWTbvF81CiXPUrM6I	The Curse of the Blackened Eye	54
+5D9fWPC6JwA8SgksEpO0jC	46auOkH1pk28rWrSoUNhLo	2hCcPHWTbvF81CiXPUrM6I	Daytona Sand	53
+62hBYWGwzo2fb4THTsNnKA	46auOkH1pk28rWrSoUNhLo	2hCcPHWTbvF81CiXPUrM6I	Let Me Drown	51
+66ZgPEKKoNuu5x0LeI53Wc	46auOkH1pk28rWrSoUNhLo	3950FHVErcINW3tjRgjebQ	Roses Are Falling	50
+2rhkDqUHN8qheTE1vZf7T9	4Q1IDfpCe7ZRhPDfqeb5dd	2wuSSfY2acuozXaOth22B1	Unchained Melody	49
+3usFKA7XXOtaIqDdH6mUx9	46auOkH1pk28rWrSoUNhLo	2hCcPHWTbvF81CiXPUrM6I	Outta Time	48
+29VSdjZG2XZCHzKwgjvsER	46auOkH1pk28rWrSoUNhLo	2hCcPHWTbvF81CiXPUrM6I	Kalahari Down	48
+5iG3DidIjI5wUqNowgmXQb	46auOkH1pk28rWrSoUNhLo	39R5c82ytTeEF85kmJTtNT	Legends Never Die - with Shania Twain	47
+4Ld4kbKo1eOzToQ0P8JA0V	3klZnJvYGIbWritVwQD434	1FNBevfbKAzZsgI2RpkkQQ	Arcade (feat. FLETCHER)	70
+1UmFLqmTmgHoSyvss6Q7gw	5qa31A9HySw3T7MKWI9bGg	38aH4OObJSjtO48q2eNoA4	Serial Heartbreaker	68
+2HKr9NflxjksCzxhMhxJMt	5qa31A9HySw3T7MKWI9bGg	5esH2DAz24R8zMbnttuFCK	Suckerpunch	68
+5Z0AM9HW78XIyZqF2BPasr	5qa31A9HySw3T7MKWI9bGg	2JqdcyrOqUzCJQOeuJ7h5u	Bitter	67
+3ng7epefERNazaZkkbwLdq	1lmU3giNF3CSbkVSQmLpHQ	5NUs7V7ETbYhyArrEGxyPr	Another Life (feat. FLETCHER & Josh Golden)	66
+2vVLSYsOUNCfN66jTyJsMY	5qa31A9HySw3T7MKWI9bGg	38aH4OObJSjtO48q2eNoA4	Becky's So Hot	64
+4bqkbekuSZFQmKcWpnGn5n	5qa31A9HySw3T7MKWI9bGg	38aH4OObJSjtO48q2eNoA4	I Think I'm Growing?	63
+2pDWMxjBf4xkIY4nRjVpZC	1QRj3hoop9Mv5VvHQkwPEp	5if1VcWOdT94468kyjgN3Z	Bitch Back (feat. FLETCHER)	63
+2TpZAFpamrkPQcCdQcNjRT	5qa31A9HySw3T7MKWI9bGg	38aH4OObJSjtO48q2eNoA4	Guess We Lied...	63
+1KA2L49RNYQzMe3LJJs7Tj	5qa31A9HySw3T7MKWI9bGg	38aH4OObJSjtO48q2eNoA4	Sting	62
+0M955bMOoilikPXwKLYpoi	2xiIXseIJcq3nG7C8fHeBj	13topfW33NjnACjnRiZBX7	I Hate Everything About You	73
+56sk7jBpZV0CD31G9hEU3b	2xiIXseIJcq3nG7C8fHeBj	4ZDwEvXIKxWdwhAQK8ndBU	Animal I Have Become	73
+1Q2fYlSdwuutWj3QplhY9q	2xiIXseIJcq3nG7C8fHeBj	4ZDwEvXIKxWdwhAQK8ndBU	Riot	70
+6OMO6WdRhSfjMPAiPT94wH	2xiIXseIJcq3nG7C8fHeBj	0YkHsU3Mblh7jvNngbV20W	Painkiller	69
+3HE50TVRquwXe9yv2HFoNL	2xiIXseIJcq3nG7C8fHeBj	4ZDwEvXIKxWdwhAQK8ndBU	Never Too Late	69
+1QTQ3VNzabl4yF5GJE6hhK	2xiIXseIJcq3nG7C8fHeBj	4drZZN0HTkJzcdlPmmQyqG	So Called Life	68
+2UDumaw7osnyjH7RZ2DLpB	2xiIXseIJcq3nG7C8fHeBj	0YkHsU3Mblh7jvNngbV20W	I Am Machine	67
+5PZ2cqh9Yem2g6cTSOLllz	2xiIXseIJcq3nG7C8fHeBj	4ZDwEvXIKxWdwhAQK8ndBU	Pain	67
+4urxRqBRiaH0i20OKBsgxc	2xiIXseIJcq3nG7C8fHeBj	0vv1zKShlm7WuawEup5Mf4	Break	67
+7piw04hPQZ1OHZ9Fq9JOXR	2xiIXseIJcq3nG7C8fHeBj	4ZDwEvXIKxWdwhAQK8ndBU	Time of Dying	66
+3Ty7OTBNSigGEpeW2PqcsC	6liAMWkVf5LH7YR9yfFy1Y	3539EbNgIdEDGBKkUf4wno	Glory Box	70
+2sW8fmnISifQTRgnRrQTYW	6liAMWkVf5LH7YR9yfFy1Y	3539EbNgIdEDGBKkUf4wno	Roads	62
+6vTtCOimcPs5H1Jr9d0Aep	6liAMWkVf5LH7YR9yfFy1Y	3539EbNgIdEDGBKkUf4wno	Sour Times	61
+7h14W1uQK7sjpVI1oVTobt	6liAMWkVf5LH7YR9yfFy1Y	3539EbNgIdEDGBKkUf4wno	Wandering Star	56
+5KX2DSPC6aCA0pdDidTmBC	6liAMWkVf5LH7YR9yfFy1Y	4BnNSzOWadogStvyYshJIo	The Rip	46
+7lR743VxfubUw5m9dpnR9x	6liAMWkVf5LH7YR9yfFy1Y	3539EbNgIdEDGBKkUf4wno	Numb	54
+2O6X9nPVVQSefg3xOQAo5u	6liAMWkVf5LH7YR9yfFy1Y	3539EbNgIdEDGBKkUf4wno	Mysterons	54
+785Qya5mtMUwBQtuypVqrx	6liAMWkVf5LH7YR9yfFy1Y	3G36754KQVLyGuskraEAVA	All Mine	53
+6pW8YspamPCxUwgvYttTSc	6liAMWkVf5LH7YR9yfFy1Y	3539EbNgIdEDGBKkUf4wno	Strangers	53
+1cpnpMvnvmdy3hzYgd5oo9	6liAMWkVf5LH7YR9yfFy1Y	3539EbNgIdEDGBKkUf4wno	It Could Be Sweet	52
+40rvBMQizxkIqnjPdEWY1v	3TOqt5oJwL9BE2NG9MEwDa	6IvosVciDOQ9NAPaKwhtLY	Down with the Sickness	75
+6RJdYpFQwLyNfDc5FbjkgV	3TOqt5oJwL9BE2NG9MEwDa	0Te7OvzuUMnbsqCneIDUm6	Stricken	71
+42ZVk59gT4tMlrZmd8Ijxf	3TOqt5oJwL9BE2NG9MEwDa	6hz9f6H7URtoigU517WjD6	Indestructible	68
+6KrxqNJFgdSrJTnfDnPT82	3TOqt5oJwL9BE2NG9MEwDa	0ZgFPrROyBNPg4jx2a261Q	Unstoppable	66
+5cxp9kjCFyJwzv3lzeX7ku	3TOqt5oJwL9BE2NG9MEwDa	6hz9f6H7URtoigU517WjD6	Inside the Fire	66
+3jjU4Pky1ja5J1onU6ei4T	3TOqt5oJwL9BE2NG9MEwDa	1ROVEUk4lc2vD4a0IN1TWS	The Vengeful One	65
+4WUSVvoafrgVgsF9D2urJ0	3TOqt5oJwL9BE2NG9MEwDa	0P5THTr6VX4rtxd8riRVOM	Hey You	64
+4ClGNWLK9vZMBtO0CpnyOE	3TOqt5oJwL9BE2NG9MEwDa	0Te7OvzuUMnbsqCneIDUm6	Land of Confusion	63
+5hkgrWxkobGtg30I7DsfVu	3TOqt5oJwL9BE2NG9MEwDa	0Te7OvzuUMnbsqCneIDUm6	Ten Thousand Fists	63
+19Yd77Zfwqdr0b23IvXo3i	1NVCNKYdNcuh92vE4rSxpo	3216GEWxTUvZ0PKsuy51pW	Human Demons	13
+05HWzT4k4ldy0Kt6C92XAr	1NVCNKYdNcuh92vE4rSxpo	73PVurmsIZadmiv9JagYBp	Thousand Yard Stare	10
+66p6psMwbsIMBSfNhxFgOw	1NVCNKYdNcuh92vE4rSxpo	7yELPPOJbq10HhOINUgFw9	As The Last Light Drains (Valkyrie)	7
+44O9OtI9V0UUS0qdgrKFRp	4xdB09l6ULFYOmbpUIS994	7fLR2TaTzUA3GM48YkTIRb	UltraViolet	1
+6Z17dUSaHoeLC4I6YAqqrI	1NVCNKYdNcuh92vE4rSxpo	7yELPPOJbq10HhOINUgFw9	Negative Infinity	5
+4nCRjAvUaeHJqOXLSRgXxO	4xdB09l6ULFYOmbpUIS994	7caYpJcRNYyHzjSVIxupNh	1P / Halley	2
+2YlUoIeaR9pWgW6k0MV8DH	4xdB09l6ULFYOmbpUIS994	17kFf7XXzca88YFsGdvGdV	Westerlies	1
+1WvaVzsqesbf7smbobbeQm	1NVCNKYdNcuh92vE4rSxpo	0kExoRi0p74VnSLjn5E9R2	War Pigs	4
+4hjNO4k9ou2yTLwfMspKku	1NVCNKYdNcuh92vE4rSxpo	4KLzZPo6c9rl9V367wjxWe	Queen	4
+08ytuV1eoFBCEQLjtl9Ypu	1NVCNKYdNcuh92vE4rSxpo	7yELPPOJbq10HhOINUgFw9	Veritas	3
+4eAwB5pnKFTmsgc3zWoYO0	6B5c4sch27tWHAGdarpPaW	59Tni3gA1OczshFWTMxmbo	Fake It	74
+507bYMYfbm6sUS9iEAaeSd	6B5c4sch27tWHAGdarpPaW	1mMgrxFYBUMKANGbapmXxi	Broken	69
+5ynxx6zC4dgzsMHLYQ04Dc	6B5c4sch27tWHAGdarpPaW	1C5xrwfzgDM0hz7Kb035V3	Remedy	69
+4eTIe5eqds88bA9ua6p5p6	6B5c4sch27tWHAGdarpPaW	5u0UdiircjbveLg8cs39iw	Fine Again	65
+46eHxWRKmtYhUHPDRgclt6	6B5c4sch27tWHAGdarpPaW	59Tni3gA1OczshFWTMxmbo	Careless Whisper	64
+2abHKI9Oox4NBEhOh3HMbq	6B5c4sch27tWHAGdarpPaW	1Bjmcy5hWGdGQ0zANfgIzh	Country Song	63
+3bq8WiQrEXMwPAibYs7tpu	6B5c4sch27tWHAGdarpPaW	4ZpfSlHwUXaL6kgFTL6hMk	Nobody Praying For Me	63
+0Q9f1NBvKCC37V4oJVEgCh	6B5c4sch27tWHAGdarpPaW	59Tni3gA1OczshFWTMxmbo	Breakdown	59
+5ih5herXfvp5coBVFhmoAW	6B5c4sch27tWHAGdarpPaW	5u0UdiircjbveLg8cs39iw	Gasoline	58
+4dZ4iHhsqQAQ4em4abLB6C	6B5c4sch27tWHAGdarpPaW	59Tni3gA1OczshFWTMxmbo	Rise Above This	57
+0dVnj3XPVTHfCvxpbIDOcx	3G5WkIXbDxdNoGWHZbXDjI	0Ts5Jzl0y8Nc13RVuEJFxi	Savage Daughter	58
+3WtpTP6yHNpWURmwZYoNUd	65NrBzD3Jnf1iqbDjuUYjD	7GnjwXMxeIiIiHRKqTzC96	Waiting for You	30
+1E9FhVXk68WCNbDK8JB4qL	65NrBzD3Jnf1iqbDjuUYjD	58hhTOPQoKbdzxD5r7Y7F4	New Horizons	30
+3UXOMZlpMPjUIJtgOHgx4u	65NrBzD3Jnf1iqbDjuUYjD	0M8rYJSqRmsRLiKDL8bJAE	If You Only Knew	29
+2aIB1CdRRG7YLBu9hNw9nR	2VYQTNDsvvKN9wmU5W7xpj	7APnZJwayR3lH9aUDPDYQB	The Beautiful People	72
+3D0bXrSv7O73vOaGOG8J9c	2VYQTNDsvvKN9wmU5W7xpj	5XiQM9S9V3XL03xxmIMPeb	Sweet Dreams (Are Made Of This)	65
+6pfdW2NouUI3ZnugM7r0G0	2VYQTNDsvvKN9wmU5W7xpj	3stFLIWyYH4a8u0bdxDopt	The Fight Song	64
+0cOyhnhy13lc5G5nr4EF0q	2VYQTNDsvvKN9wmU5W7xpj	7fmOTYDQn9DIXCy1YDrl4S	Tainted Love	58
+07YoPdPfhQ62iNztZvOlDY	2VYQTNDsvvKN9wmU5W7xpj	3stFLIWyYH4a8u0bdxDopt	Disposable Teens	61
+4ukiv6Rp5N4tQZSBT9JRLo	2VYQTNDsvvKN9wmU5W7xpj	69ACUmut0hbGOSonmU4kNS	Rock Is Dead	60
+1KQxH1Z1BiSo3MMukVpRfl	2VYQTNDsvvKN9wmU5W7xpj	69ACUmut0hbGOSonmU4kNS	The Dope Show	59
+3C84jaEdYxiq8LC4jwYqj6	2VYQTNDsvvKN9wmU5W7xpj	38FWu0ePBmlNQdpg6WiLld	This Is The New S**t	56
+2KUL1Ix9grxAWvIAft9EWL	2VYQTNDsvvKN9wmU5W7xpj	7xubspY1zmyTduYWnkGNxT	This is Halloween - Pop Version	58
+1x8sna2LV8WQ38NEtN5X46	2VYQTNDsvvKN9wmU5W7xpj	3stFLIWyYH4a8u0bdxDopt	The Nobodies	58
+48i055G1OT5KxGGftwFxWy	0JDkhL4rjiPNEp92jAgJnS	2jTbcSPVTBRAoc3mHU6hy0	Oh, Pretty Woman	73
+6r20M5DWYdIoCDmDViBxuz	0JDkhL4rjiPNEp92jAgJnS	1UPcuqLY9PC99fQAqWgrSU	You Got It	68
+0PkBTqRtN25z3oKasWoKlj	0JDkhL4rjiPNEp92jAgJnS	5txtL5NwxbzS5ENtNEWGpS	Only the Lonely	61
+6eLL7QTdMWdhhG4i3jHDR9	0JDkhL4rjiPNEp92jAgJnS	21REQ6X34DCAcoxtj654TI	Crying	58
+6U7QjXYOaLJ741cIWPBTyN	0JDkhL4rjiPNEp92jAgJnS	48CvRZSBT0FbOHKLFfHy0n	I Drove All Night	57
+44pN9jfSqY3d3lrKuv3QeN	0JDkhL4rjiPNEp92jAgJnS	5OpNbQPffWNtVhWCF6GziB	In Dreams	56
+5yqVF4y7dq6AgnNCHnHZEA	0JDkhL4rjiPNEp92jAgJnS	1UPcuqLY9PC99fQAqWgrSU	California Blue	52
+7FMXSSzIRW8aJwUPfzXsa2	0JDkhL4rjiPNEp92jAgJnS	1UPcuqLY9PC99fQAqWgrSU	She's a Mystery to Me	51
+6a0arm7sfmKWF30xWqAL9D	0JDkhL4rjiPNEp92jAgJnS	5OpNbQPffWNtVhWCF6GziB	Blue Bayou	49
+40w5KzJx6pS9J4hIEQDgIa	0JDkhL4rjiPNEp92jAgJnS	1UPcuqLY9PC99fQAqWgrSU	A Love So Beautiful	47
+0MteK167vtyb6hoJNC3Uz3	5Qlt3zQ63Z99mNhuun0JAT	4HBLunZ4GQjnraimqR77Ir	A Girl Like You	55
+3Y4050XIjyuqZtkKxCnPBm	5Qlt3zQ63Z99mNhuun0JAT	3llsvOzqNnROO871G1Pkst	The Magic Piper (Of Love)	29
+3euTpWQJ8sMbMTOAYSZmda	5Qlt3zQ63Z99mNhuun0JAT	4HBLunZ4GQjnraimqR77Ir	The Campaign For Real Rock	27
+38Y9mxHEyY5y3hsPWLBG5i	5Qlt3zQ63Z99mNhuun0JAT	4HBLunZ4GQjnraimqR77Ir	Low Expectations	18
+4QmDfXcT6hVazgkqUaAL5n	5Qlt3zQ63Z99mNhuun0JAT	4HBLunZ4GQjnraimqR77Ir	If You Could Love Me	15
+1p999fDXoXvAFh6l5V02yH	5Qlt3zQ63Z99mNhuun0JAT	32d5TXQwHyJUqvdiNa7FLK	Never Felt Like This	18
+45nKTsVo009PerGUEt40G2	5Qlt3zQ63Z99mNhuun0JAT	4HBLunZ4GQjnraimqR77Ir	Out Of This World	12
+1khBPVFAfH7f4wioSFTjnQ	5Qlt3zQ63Z99mNhuun0JAT	3EIP6yHRKXPcHXpWdTAvBm	Outside	16
+0CQY1UUJfRg0WP2OaJZQMx	5Qlt3zQ63Z99mNhuun0JAT	4HBLunZ4GQjnraimqR77Ir	North Of Heaven	11
+7C4QZWR2LTkCVQqMy3osHA	5Qlt3zQ63Z99mNhuun0JAT	6wIIQcHIwWU57I7Ic379zh	Quite Like Silver	6
+7BKLCZ1jbUBVqRi2FVlTVw	69GGBxA162lTqCwzJG5jLp	0rSLgV8p5FzfnqlEk4GzxE	Closer	83
+4a9tbd947vo9K8Vti9JwcI	3Nrfpe0tUJi4K4DXYWgMUX	2KqlAl1Kl5fZvbFgJ0qFB6	Boy With Luv (feat. Halsey)	80
+6FZDfxM3a3UCqtzo5pxSLZ	26VFTg2z8YR0cCuwLzESi2	68enXe5XcJdciSDAZr0Alr	Without Me	79
+5k38wzpLb15YgncyWdTZE4	02kJSzxNuaWGqwubyUba0Z	1VAc77UvK5wj8ZSWCo3V2b	Him & I (with Halsey)	78
+7FGq80cy8juXBCD2nrqdWU	5CiGnKThu5ctn9pBxv7DGa	7dQ734EW0iLvQfF6vBFNiZ	Eastside (with Halsey & Khalid)	77
+5ln5yQdUywVbf8HhFsOcd6	26VFTg2z8YR0cCuwLzESi2	7GjG91tyHQNGEHzKJaqOi0	Walls Could Talk	77
+6clzeGvi1CFioMOolbAOlX	7CajNmpbOovFoOoasH2HaY	49DV9eFp2xTdtO7veew5xS	Stay With Me (with Justin Timberlake, Halsey & Pharrell)	71
+3Z8FwOEN59mRMxDCtb8N0A	64KEffDW9EtZ1y2vBYgq8T	1eleCBhP2R8TXEDquvybwC	Be Kind (with Halsey)	76
+6kxaaIeowajN7w21PfMLbu	26VFTg2z8YR0cCuwLzESi2	2GCDQipR2hfrNzLC9FCwaf	So Good	75
+7y9iMe8SOB6z3NoHE2OfXl	26VFTg2z8YR0cCuwLzESi2	7GjG91tyHQNGEHzKJaqOi0	Bad At Love	73
+3aBIGzDlzBpYj9dPPBn9yj	4VpWzXVUAR2YyQuWQpNGAf	3CrWNG2oqbEBHKAqfZP6CO	Prowler	42
+3KJeOdlwj5W0c9XIrjqzY0	4VpWzXVUAR2YyQuWQpNGAf	2xDo02ZrqGjkkOcsm35E5L	Constant Fear	38
+6RHJvMCoUgQ5CSBFUEL9RI	4VpWzXVUAR2YyQuWQpNGAf	2xDo02ZrqGjkkOcsm35E5L	Maximum Black	34
+6shFSMxTjCAK20k5N3LeRA	4VpWzXVUAR2YyQuWQpNGAf	6l8mnq08KVmXmsaIKSBCuX	Midnight Radio Track 1	34
+51NvtuWxkDXHqtfWhQRjnH	4VpWzXVUAR2YyQuWQpNGAf	3CrWNG2oqbEBHKAqfZP6CO	Black City Skyline	34
+55y1H8Fiti2Pe04OYe0jk7	4VpWzXVUAR2YyQuWQpNGAf	5CRJpwVreE9DgrjvvM2ZqF	Im Rauch	26
+67F9o4pmEbG1HSA5A4Gysq	4VpWzXVUAR2YyQuWQpNGAf	3CrWNG2oqbEBHKAqfZP6CO	Midnight Walker	32
+1JiGeV5k67ZK6gKoMraF0w	4VpWzXVUAR2YyQuWQpNGAf	3CrWNG2oqbEBHKAqfZP6CO	On Demon Wings	31
+6DCucKDvfe2Hqc3PWMB9rF	4VpWzXVUAR2YyQuWQpNGAf	2xDo02ZrqGjkkOcsm35E5L	Crimson Ways	31
+6fcVNgHUB641hjlaVcvvPw	4VpWzXVUAR2YyQuWQpNGAf	3CrWNG2oqbEBHKAqfZP6CO	Painless Steel	29
+6Nm8h73ycDG2saCnZV8poF	3HVdAiMNjYrQIKlOGxoGh5	2B4lHoTCpWbxQPTZmCOjnH	Dragula	75
+10V8XpuyMoEcSMfM79WDET	3HVdAiMNjYrQIKlOGxoGh5	2B4lHoTCpWbxQPTZmCOjnH	Living Dead Girl	69
+4eNnMvUrSu2TRpySjVC0Pv	3HVdAiMNjYrQIKlOGxoGh5	2B4lHoTCpWbxQPTZmCOjnH	Superbeast	65
+6KnNDix4Owr4vNmsPhLmxD	3HVdAiMNjYrQIKlOGxoGh5	2ExOcLFwyExzkXK0ea180I	Feel So Numb	62
+2qrxKk3y85UpaNcI07LPn9	3HVdAiMNjYrQIKlOGxoGh5	2ExOcLFwyExzkXK0ea180I	Scum Of The Earth	59
+4P4V9JQhiQEP9hr4U33lEY	3HVdAiMNjYrQIKlOGxoGh5	2ExOcLFwyExzkXK0ea180I	Never Gonna Stop (The Red, Red Kroovy)	58
+1JeGX4cixemJfBJl6XGQES	3HVdAiMNjYrQIKlOGxoGh5	1IaJD3LbEBdVMBSS8UH07e	The Satanic Rites of Blacula	57
+5gZ8nTiDCrI6IIk447z04i	3HVdAiMNjYrQIKlOGxoGh5	1lRP2viDsQVnL5FZwTsFwB	What?	55
+605hJIiMrdsUjr4Vx4BFD6	3HVdAiMNjYrQIKlOGxoGh5	2ExOcLFwyExzkXK0ea180I	Demon Speeding	55
+3KAS4vmuvRGP2BUQcxmu5i	3HVdAiMNjYrQIKlOGxoGh5	4cwVkh8oYGwLGeVM0Jl35K	Well, Everybody's Fucking In A U.F.O.	55
+6qazZiNmTh7yTMX02R4CwZ	5DDSCugRjUhxIdW4tkFWXI	64l32tBDSlQsiauo1hhy4M	What Is Love?	47
+0432czMUYajdVkmmWSi3hB	5DDSCugRjUhxIdW4tkFWXI	5dlmA4BVDZskRQmrqaGDlY	Let Go and Relax	26
+1NFsyvnTyMcBtanSQPstrc	5DDSCugRjUhxIdW4tkFWXI	1Kkn1lN9QVZGzQU5UXpEDE	Are You Tired of Playing the Social Game?	25
+3KPH29mSOI6Or7tOTQTVSP	5DDSCugRjUhxIdW4tkFWXI	5jX8dP3U73hqTxPAetCxw9	Don't Take Life Too Seriously	25
+2Diydx5WIMCmII00gmvAtH	5DDSCugRjUhxIdW4tkFWXI	038i8HRCxLqjN16fDdRNqL	What Have You Forgotten?	25
+4S02BuT8jS3HubZTaJLcYE	5DDSCugRjUhxIdW4tkFWXI	0lkdVIaNwQ9B1NP0y3JsgD	It All Makes Sense	24
+5QTIGUgV4eFrg0o3k8lGTp	5DDSCugRjUhxIdW4tkFWXI	2Az6miDDBaVm31lVbdP5FS	The Story of the Chinese Farmer	22
+6RUim1yEwhP3SknvYanRhs	5DDSCugRjUhxIdW4tkFWXI	3D0I5IuGm06tx7vcWrsw94	Why You Should Never Feel Guilty	21
+2pTVg07DRd3yqiaFyjH7SI	5DDSCugRjUhxIdW4tkFWXI	3JRJWsFX65zMkCiVmLVY72	Let Go	21
+1UWty8VC9Hf8vLq8PEmEiw	5DDSCugRjUhxIdW4tkFWXI	4gTzK7lWIKqVm6GQcA1qgM	The One Thing Everyone Should Learn	21
+2h90T02jHEfnEAtnq4Mz7n	4KlYg0F5KG9QNDFKaeTNAy	45PWXKtlGjqOPXurzjthfC	Illusion	34
+4vIR1HidKfnReLifz0wm7G	4KlYg0F5KG9QNDFKaeTNAy	0BUIbWXO0NgStZNiy7Bodc	Nova	33
+3fdaRiQSPRnF21CqcTxPRg	4KlYg0F5KG9QNDFKaeTNAy	3MDQtJKPbTxvbM6HhCkDrY	When Is the Future	35
+0f8UJI1osudTTdB7CRh7bF	4KlYg0F5KG9QNDFKaeTNAy	0BUIbWXO0NgStZNiy7Bodc	Control	33
+4tiCYl0t67b2O1rodmaeIK	4KlYg0F5KG9QNDFKaeTNAy	6QrKSO5DXsPGGbvqSTQ5UF	Beloved	40
+1xly67V56WIImoKV45itZp	4KlYg0F5KG9QNDFKaeTNAy	0ePUvI74Sz0awGfcjoHZP2	Perpetual	38
+6a9aFMampfnI6ZKvnyAGzm	3OHbToMuJihWhRcqzKjpBd	4M9oBtmn9gTV5TJfhDQ2vJ	Kathy's Song - Victoria Mix by VNV Nation	38
+1hx7w7Csn4m3H9jPw60Ptp	4KlYg0F5KG9QNDFKaeTNAy	0ePUvI74Sz0awGfcjoHZP2	Chrome	37
+2FHOCcgQa5gMar0iwnFqoW	4KlYg0F5KG9QNDFKaeTNAy	3MDQtJKPbTxvbM6HhCkDrY	All Our Sins	25
+1eB3hFkoBZHMWrCvJk6MoW	4KlYg0F5KG9QNDFKaeTNAy	0BUIbWXO0NgStZNiy7Bodc	Space & Time	28
+1IqFh00G2kvvMm8pRMpehA	4NgfOZCL9Ml67xzM0xzIvC	3j7nicLAWXM0Fb08q9XGyf	Me and Bobby McGee	69
+1xKQbqQtQWrtQS47fUJBtl	4J69yWrKwWJgjv3DKTZcGo	2rogKfOpmCFuqNhtGKf2dX	Piece of My Heart	67
+3L60Vu9qmY6fg2QroRIxgi	4NgfOZCL9Ml67xzM0xzIvC	3j7nicLAWXM0Fb08q9XGyf	Cry Baby	61
+0xGSeBsG4V8Scc5YqpZQ66	4NgfOZCL9Ml67xzM0xzIvC	5rFRfDq52l2l5RtS5kxA9A	Maybe	58
+3eYCJXTViFwl5mdtcTsF4G	4J69yWrKwWJgjv3DKTZcGo	2rogKfOpmCFuqNhtGKf2dX	Summertime	57
+1MntHPLU1T7a9W4tojbg8g	4NgfOZCL9Ml67xzM0xzIvC	3j7nicLAWXM0Fb08q9XGyf	Mercedes Benz	56
+2bD9x9kN4wYyVoyckeqlLk	4NgfOZCL9Ml67xzM0xzIvC	3j7nicLAWXM0Fb08q9XGyf	Move Over	55
+7eYYxblNEZKKeTT0HBQbXO	4NgfOZCL9Ml67xzM0xzIvC	5rFRfDq52l2l5RtS5kxA9A	Kozmic Blues	54
+4HljoGSCvaFsesUZWpb2mK	4J69yWrKwWJgjv3DKTZcGo	4W821NJLoB9uHHkAFNXXKu	Call On Me	51
+6tv6EVWMV7AIWi8PhZ0uvO	4NgfOZCL9Ml67xzM0xzIvC	5rFRfDq52l2l5RtS5kxA9A	Little Girl Blue	50
+6PVcOcXn6VVmujmw0qCrTb	5Va9LuEmaZxnbk1gMnjMD7	7ql593Au4JADM3UHtIw7cs	Yes Always	27
+1r16DdcRQ6Vqej5co5LRNQ	5Va9LuEmaZxnbk1gMnjMD7	7ql593Au4JADM3UHtIw7cs	Swing Um	25
+0jZqEub4QD8tItPI4ncERw	5Va9LuEmaZxnbk1gMnjMD7	7ql593Au4JADM3UHtIw7cs	Thank You	24
+43ievcG8mUfVBVn5OJkTrC	0ATg66209dS5nFsvobJlRt	0vhOZ1ksYSS3HLD8RFiinl	Braided Hair	23
+6ROPtZUEiF1NR0bHFqo2A4	5Va9LuEmaZxnbk1gMnjMD7	7ql593Au4JADM3UHtIw7cs	Grandma's Southern Ways	22
+62duJtLxxN3mu95PcV32Uz	5Va9LuEmaZxnbk1gMnjMD7	7ql593Au4JADM3UHtIw7cs	I Want U 2 Make It	20
+6dPmfsFe2qnRt0LicZL4Cf	0ATg66209dS5nFsvobJlRt	2goBVmiGnMy30ZdZ2HzQbm	Ask Somebody Who Ain't (If You Think The System's Workin' ...)	9
+1tp3KD8fbxSdTWUxL27NJU	0ATg66209dS5nFsvobJlRt	3wteOr9PuLaMgew7R9gLDl	Hey Song	17
+4l9Sq7np8e2g57LFUou2hz	0ATg66209dS5nFsvobJlRt	2goBVmiGnMy30ZdZ2HzQbm	Like Marvin Gaye Said (What's Goin' On)	7
+61mWefnWQOLf90gepjOCb3	05fG473iIaoy82BF1aGhL8	4ZDBQSIDIZRUBOG2OHcN3T	Duality	79
+6wqJeItl3Vc3az4ZicSQAB	05fG473iIaoy82BF1aGhL8	4ZDBQSIDIZRUBOG2OHcN3T	Before I Forget	76
+3RAFcUBrCNaboRXoP3S5t1	05fG473iIaoy82BF1aGhL8	2ISXjEm0D4chvU2IDNvUqk	Psychosocial	75
+3GiJq4AQK7324mfIQbpiTf	05fG473iIaoy82BF1aGhL8	0ApKaazNHf0gzjAYZauexq	Custer	73
+5mpUKTdskZea0gStWzeHUZ	05fG473iIaoy82BF1aGhL8	754RY5WpZ2LTUZsk8kDBju	Unsainted	72
+15DLl1r2zi07Ssq5RT1yT0	05fG473iIaoy82BF1aGhL8	5lOFvOWAdy9G6p44noRILU	Wait and Bleed	65
+5hheGdf1cb4rK0FNiedCfK	05fG473iIaoy82BF1aGhL8	0ApKaazNHf0gzjAYZauexq	The Devil in I	72
+6rsoBvxrlxdmqJyGPPciyq	05fG473iIaoy82BF1aGhL8	3hWTXO0w02D6YpVRyLRmQz	The Dying Song (Time To Sing)	70
+2vPZ4Lklyu75zBR3SgbFNI	05fG473iIaoy82BF1aGhL8	2ISXjEm0D4chvU2IDNvUqk	Snuff	64
+5ih5d9WJSI7Hxz0KIPJPY2	05fG473iIaoy82BF1aGhL8	3hWTXO0w02D6YpVRyLRmQz	Yen	68
+6ZRuF2n1CQxyxxAAWsKJOy	0cGUm45nv7Z6M6qdXYQGTX	73ZvpuYhKDr2FW4vlPsTpW	Nights Like This (feat. Ty Dolla $ign)	74
+5cw9s2zGrbny2M2p3WRmGm	0cGUm45nv7Z6M6qdXYQGTX	32jei6omhyLZDCg8Ijvoym	Gangsta	58
+5nexAvWNhwg51EavnDgViy	0cGUm45nv7Z6M6qdXYQGTX	6ROLwnmW9pOioLned0DaP3	Toxic	68
+0uDdI4fAXCuNhQbmxENdsO	0cGUm45nv7Z6M6qdXYQGTX	6ROLwnmW9pOioLned0DaP3	Can I	68
+1lsBTdE6MGsKeZCD6llNu7	6VuMaDnrHyPL1p4EHjYLi7	0mZIUXje90JtHxPNzWsJNR	Done for Me (feat. Kehlani)	68
+5aUSEPNd3m5xliFK4pn5mU	2qxJFvFYMEDqd7ui6kSAcq	3wpdeV1FZfiEnelZSfAFp4	Good Thing (with Kehlani)	67
+5QTdOvIF2ehBMZpSIIGzIo	0cGUm45nv7Z6M6qdXYQGTX	2D37uNhXgherfImusGBKTx	Honey	66
+5DfWF0jqMgZDCiu9zJENTA	4kYSro6naA4h99UJvo89HB	4KdtEKjY3Gi0mKiSdy96ML	Ring (feat. Kehlani)	65
+3BjwSq6phb60SOdTZw5pZY	3KNIG74xSTc3dj0TRy7pGX	2VUhkRrg5dEJIGewOBOc7J	Beautiful Lies	64
+4WCAb7rGU70hyx3m9joKCx	0cGUm45nv7Z6M6qdXYQGTX	1fZRXWVJVe07UcD4GowJ8j	up at night (feat. justin bieber)	62
+11ZulcYY4lowvcQm4oe3VJ	3PyJHH2wyfQK3WZrk9rpmP	438ToDoVaJH5aTIXXrlDyI	Slumber Party (feat. Princess Nokia)	74
+2g1KggY9PKvsoEAOaiz4xx	3PyJHH2wyfQK3WZrk9rpmP	438ToDoVaJH5aTIXXrlDyI	Daisy	71
+6qNB2ChCVPepl5ZjVJJTUW	3PyJHH2wyfQK3WZrk9rpmP	5eKuModdAdZRmc51241r4D	STUPID (feat. Yung Baby Tate)	68
+0s8RXkQW9lwGEV6WlG8KDq	3PyJHH2wyfQK3WZrk9rpmP	6JZYS7UElSfjyTgFgE1ApG	Daisy 2.0 (feat. Hatsune Miku)	64
+1S85LGnDPKKOkfuFaK6vFu	3PyJHH2wyfQK3WZrk9rpmP	438ToDoVaJH5aTIXXrlDyI	Deal With It (feat. Kelis)	63
+3htJKHlAjUoRmNLheJ8uTV	3PyJHH2wyfQK3WZrk9rpmP	5IRp7hBdLQOz5gB90M1hg0	Tantrum	62
+2hwUHHqLSEue41V952MtD2	3PyJHH2wyfQK3WZrk9rpmP	2AWdSvqkBNvj9eeM48KQTJ	Halloweenie IV: Innards	61
+46aopTu45teng25ROkoeXk	3PyJHH2wyfQK3WZrk9rpmP	3UScUhqhOIpRVeYhKHSxSe	Invitation (feat. Kodie Shane)	60
+37KAHk68qniQvtacrldNmM	3PyJHH2wyfQK3WZrk9rpmP	438ToDoVaJH5aTIXXrlDyI	Toxic	60
+13gqe2AjtaPexcBoqA10IX	3PyJHH2wyfQK3WZrk9rpmP	5FmtIdXlRz4uyqjp7ECJsH	Panic Attacks in Paradise	59
+78yxwSxZesvUUvsiGwsMbt	3G5WkIXbDxdNoGWHZbXDjI	1VOP7WvAPHtuy9BrxE8RZf	Nobody To Love	37
+6NanviND3vgE6RozBkccbB	3G5WkIXbDxdNoGWHZbXDjI	5bxzfw7ghZwncljHoj8kfs	Stop Giving Men Microphones	30
+24Zimun9G8B2GrplhS5PQU	3G5WkIXbDxdNoGWHZbXDjI	7BVIQmVzsqiatOYh1EOnI0	No Babies	24
+2sv6BoVG3QNU2tL8Ik9v3c	3G5WkIXbDxdNoGWHZbXDjI	130X8At9eJrRpCki8HomwG	Life Goes On	20
+0jLXKir65CDBlIGmWgG29f	3G5WkIXbDxdNoGWHZbXDjI	2kxUnLQBN0M4bUNmLJ4nLt	Big Toe - Live	15
+0CHEDTGWAYQGgBDr3pfgzX	3G5WkIXbDxdNoGWHZbXDjI	5m5Fx07bdPdtY4CFxPNwd8	Don't Mess With a Redhead - Live	14
+49AP2D9Qu8JnT0qrricdGQ	3G5WkIXbDxdNoGWHZbXDjI	7k9XuT8AWAnDc4CCL216qq	As The World Caves In (Oh Love)	14
+5Q0Nhxo0l2bP3pNjpGJwV1	5YGY8feqx7naU7z4HrwZM6	64aKkqxc3Ur2LYIKeS5osS	Party In The U.S.A.	75
+1daDRI9ahBonbWD8YcxOIB	5YGY8feqx7naU7z4HrwZM6	5BRhg6NSEZOj0BR6Iz56fR	Angels Like You	78
+2Oycxb8QbPkpHTo8ZrmG0B	5YGY8feqx7naU7z4HrwZM6	5BRhg6NSEZOj0BR6Iz56fR	Prisoner (feat. Dua Lipa)	78
+2vwlzO0Qp8kfEtzTsCXfyE	5YGY8feqx7naU7z4HrwZM6	3RDqXDc1bAETps54MSSOW0	Wrecking Ball	77
+2y4lAQpi5VTNLu2ldeTdUH	5YGY8feqx7naU7z4HrwZM6	3RDqXDc1bAETps54MSSOW0	We Can't Stop	77
+02dRkCEc8Q5ch4TTcnLxOn	3hv9jJF3adDNsBSIQDqcjp	6vdLdzihSWxV8FgWU2GSvA	Nothing Breaks Like a Heart (feat. Miley Cyrus)	74
+4i2qxFEVVUi8yOYoxB8TCX	5YGY8feqx7naU7z4HrwZM6	5BRhg6NSEZOj0BR6Iz56fR	Midnight Sky	75
+1UZOjK1BwmwWU14Erba9CZ	5YGY8feqx7naU7z4HrwZM6	5xG9gJcs9ut3qDWezHUlsX	Malibu	74
+0V8FYVlBFuXXTIvRnMbZyS	5YGY8feqx7naU7z4HrwZM6	1fc8tPf36cZhNYpNFrWh7o	The Climb	67
+1EHUQesfVKwbthtNcpBi9g	2tIP7SsRs7vjIcLrU85W8J	6Aqt69riJ3JPLxIEI8EkzT	WITHOUT YOU (with Miley Cyrus)	71
+7nLEVh4vIhKOKNAFqQ1koF	7aWpPjjgItUnXljFxYYKZI	4SmLiMThmp5f4dCTOsIguj	Problems	50
+7lSRoGGERYMfi5mDotavru	2FovgCfOwN9iqbkCBlKFdT	5DkmK3sQcBanrRg1lFHlMs	Soul Sucker, Pt. 2	50
+61DonSX1OM40L2oOtbc1KU	7aWpPjjgItUnXljFxYYKZI	4SmLiMThmp5f4dCTOsIguj	I Feel Like A God	48
+3HFmXJ0xLyIBnoLlj7sruo	0okpgBQamDqOZazBeH0J3I	1jX2gY0FSPjwHzRtDBFa70	Fuck It (feat. DeathbyRomy)	47
+5cFyEZnK6o05ejxtJ78esm	4u5smJBskI6Adzv08PuiUP	0AUG7Sa8IIiCHTW6GONdf2	Numb (feat. DeathbyRomy & PVRIS)	45
+2PEQw1pDw6irt5OwRDQUQv	7aWpPjjgItUnXljFxYYKZI	02k59B671W2g0wbwqFxPL8	No Mercy	36
+706Zy5GHmBVpAejZPplY4O	7aWpPjjgItUnXljFxYYKZI	02k59B671W2g0wbwqFxPL8	I Kill Everything	33
+7bw4hAqx7oUwvIFKOn0Acq	7aWpPjjgItUnXljFxYYKZI	7ImKhsLPJoydUHcaN0H9ZR	Dangerous (feat. blackbear)	43
+57Y0WJbL9CwfhzkGUtGaqb	1FgsVeOhRYuSw2ghkIXV0A	0MrrJTGzbex5SHBCZmf3cR	True Crime	38
+4Qt6fOWtoMdjQYtV5jztL2	7aWpPjjgItUnXljFxYYKZI	4SmLiMThmp5f4dCTOsIguj	Day I Die	42
+22FniXvTKV9IC6IhxCpYve	6blEmsLU25ewy8hHtgZaSL	2SVRzumTLUTdoHgYNQ4Rh9	Hello Kitty	60
+6a9gDPGHaLfiM2XYrKXOVy	6blEmsLU25ewy8hHtgZaSL	3Np4ztZJFfK4IGT72lzqUo	Yandere	59
+0xLCawHAfE3tqlPWRvhT49	6blEmsLU25ewy8hHtgZaSL	2SVRzumTLUTdoHgYNQ4Rh9	Saccharine	56
+4xcTKltCfTCqYNtJfShnX8	6blEmsLU25ewy8hHtgZaSL	5zGyQgvJKk2o8qBYh5O1PZ	Puppy Pound	52
+0lUSIaEhUApWIbru6IX21z	6blEmsLU25ewy8hHtgZaSL	2SVRzumTLUTdoHgYNQ4Rh9	Worldwide Torture	49
+1bYg42gARlsX4iKQPDYs7l	6blEmsLU25ewy8hHtgZaSL	5H3icDEybgGmZac7nyFQWy	Monster Truck	47
+7x48rVuxpQAsaoQ56XX8bx	6blEmsLU25ewy8hHtgZaSL	2SVRzumTLUTdoHgYNQ4Rh9	I'm a Slave 4 U	46
+5FHmzUJo5djke3CM1UcJ5e	6blEmsLU25ewy8hHtgZaSL	4AxaQkhxbVMENx0jFWR01Y	R U Looking 4 Me Now	44
+4Orqpvelg2CWkdMszDEtQb	6blEmsLU25ewy8hHtgZaSL	2SVRzumTLUTdoHgYNQ4Rh9	Super Slaughter	42
+4qEoqyPbLYnLOii6mKlIjI	3dctbbXhrRgigX1icexnws	6Vsml6sziVKBHxbMEp5wgQ	Determinate - From "Lemonade Mouth"	65
+3dNjUFt6EFU4Gq6Q5vfJqf	3LjhVl7GzYsza1biQjTpaN	1DBeQGiRdap7iuvuxSx3bD	Girls Like Girls	61
+1o9kTjiWJ5lTgKonUK6jAU	5qa31A9HySw3T7MKWI9bGg	1h0qJIukGxKxxG4lfT0UOf	Cherry (feat. Hayley Kiyoko)	59
+5nFyaoBWwwMJ9fv33tZ2MB	3LjhVl7GzYsza1biQjTpaN	2oRkkW6ZudviRBd6mx4CfL	What I Need (feat. Kehlani)	56
+3EQMcKkWEB0LKLyRuspibc	3LjhVl7GzYsza1biQjTpaN	6nRu1dwPkZlk467QaV1Q0N	Demons	55
+4bb2UdCvi9LynD4rWvE06T	3dctbbXhrRgigX1icexnws	6Vsml6sziVKBHxbMEp5wgQ	Turn Up the Music	55
+5795tkQ1pTLZ2D3jctqhdQ	4VhL8KLjVso4vLfOLVViTb	6Vsml6sziVKBHxbMEp5wgQ	More Than a Band	55
+3KsjKXNeNMQ56baZH0RFq0	3LjhVl7GzYsza1biQjTpaN	2TJlASpVb5tgcEY0RMyZjQ	for the girls	53
+7eAWmk6IDva2iA0q2Wx9Lv	3dctbbXhrRgigX1icexnws	6Vsml6sziVKBHxbMEp5wgQ	Breakthrough	55
+5btaVjrLBxTvXNmCv5DrW2	3LjhVl7GzYsza1biQjTpaN	2oRkkW6ZudviRBd6mx4CfL	Curious	53
+2knr7ikPt4l7bk92qS4ZXW	49aaHxvAJ0tCh0F15OnwIl	73FYKSgOypVgghYr8GsEGl	Euphoria	62
+7tY2meg4csUMUjPXgFBRKk	49aaHxvAJ0tCh0F15OnwIl	75aUQwIa504ehmWDDkXMXi	Euphoria - Single Version	31
+7yDgeEC1EKU5klYxQPLCMb	49aaHxvAJ0tCh0F15OnwIl	5ChvqR6pa683F4PFICJqWE	Neon Lights	44
+0sg9jTiFokw2U15qGK7wPK	49aaHxvAJ0tCh0F15OnwIl	73FYKSgOypVgghYr8GsEGl	My Heart Is Refusing Me	44
+2NOuNZWj7pxGR0QDnqovep	49aaHxvAJ0tCh0F15OnwIl	7uCqq0kNl91s2A0sy3CYIE	Jag är en vampyr - Så mycket bättre 2020	43
+4GWnDzLsP31cul3K88pKVn	49aaHxvAJ0tCh0F15OnwIl	75aUQwIa504ehmWDDkXMXi	Euphoria - Alex Moreno Remix Radio Edit	40
+0YilCCHb5MxqvJML7LrEO2	49aaHxvAJ0tCh0F15OnwIl	2QKjjyP9LOg1JqYYz6NQxB	Du är min man - Så mycket bättre 2020	37
+6vL2WIThSBFJ6aQJX28EpX	49aaHxvAJ0tCh0F15OnwIl	4bJiKSTDQvVgAzkgtrHx97	I'm in It with You	36
+0tUh8HzIVpZPFW7HzE5Vhk	49aaHxvAJ0tCh0F15OnwIl	5KobRojZEROOh0CyLeLMbw	Statements	34
+6PZYMXl5HM2giJVi3wA77b	49aaHxvAJ0tCh0F15OnwIl	0XfG8dpX4kjuk0owtiHkMm	Paper Light (Higher)	33
+18uOcUO5mNEYHHigeXPgQM	4QM5QCHicznALtX885CnZC	3SQr5VHmYRkAGGMTCBbbnP	Mine	61
+4tlU5pwlM8ZnVofZqLxleM	4QM5QCHicznALtX885CnZC	7xCaejeRwZ0h10RSfXuBeK	Butterflies...	52
+2EZHO9OoxZoaBs669GtWZv	4QM5QCHicznALtX885CnZC	4cbs7e96BjbFaKqafPA8ZR	Hello Kitty	49
+30qNNWs5kUgcviZxOrQRTo	4QM5QCHicznALtX885CnZC	7xCaejeRwZ0h10RSfXuBeK	Troubled Paradise	47
+0G7ociNk1wIbXcU6uXtWPi	4QM5QCHicznALtX885CnZC	0e35TENSTAVVkaHlVEsTtz	BFF	46
+56P7blUafQK9P8LKda9Y6P	4QM5QCHicznALtX885CnZC	759tt2Z0PhIjKDEmbEVswM	Stupid Boy (feat. Big Freedia)	46
+5TfTuipU7TlZh8bki6ZNsW	4QM5QCHicznALtX885CnZC	0e35TENSTAVVkaHlVEsTtz	Celebrity	46
+6mfsAvXQ3pTT5tEnKKbxZp	4QM5QCHicznALtX885CnZC	0e35TENSTAVVkaHlVEsTtz	Devil	45
+5VQJSlO979CuYLiu8zyHtT	4QM5QCHicznALtX885CnZC	7xCaejeRwZ0h10RSfXuBeK	Clouds	44
+102xUWbf0uuklX8qThPeHK	5Lz5CnywFeg4Rs4l76OtG2	0tGwBl1H2dLqrOPceQ8CS0	cult leader	49
+4nBsvvjN134KFVcvFMLWwK	5Lz5CnywFeg4Rs4l76OtG2	2fKXo7qmQYw5u0DOeKhQoU	she calls me daddy	60
+4BaYa88YtE0WBDVKfTeUTP	5Lz5CnywFeg4Rs4l76OtG2	0tGwBl1H2dLqrOPceQ8CS0	martyr	59
+4PHZkpHmsig3EihQneGOMt	5Lz5CnywFeg4Rs4l76OtG2	5vlaew4MTOnlOfon5T0vfK	mercy	51
+678AImyMoHAtpJxV45PDN9	5Lz5CnywFeg4Rs4l76OtG2	6PuXHEyn0T3KYcmzCGikNP	cult leader (King Kitty Remix)	51
+4PeGUBERD8qDn6oP3XmEuQ	5Lz5CnywFeg4Rs4l76OtG2	0tGwBl1H2dLqrOPceQ8CS0	sloppy	51
+58vqgltwYoOCSPIyqNiBaU	245PKF3hKjtxJKIG153kF0	4fXvwuGNst1OzuwVdoK80D	Falling from the Sky	50
+20M00steJbkD9bCIUCuHPI	5Lz5CnywFeg4Rs4l76OtG2	5yMX1oz6JdR8ApLCB0TwOT	golden retriever boy	49
+0HZ0rQmcDWwXoC9779PCIu	5Lz5CnywFeg4Rs4l76OtG2	0tGwBl1H2dLqrOPceQ8CS0	i hope you know what you're doing	48
+5nxvSvwnZ0NpWzHXPFRvst	5Lz5CnywFeg4Rs4l76OtG2	0tGwBl1H2dLqrOPceQ8CS0	i could have been worse	45
+0O6u0VJ46W86TxN9wgyqDj	246dkjvS1zLTtiykXe5h60	3HHNR44YbP7XogMVwzbodx	I Like You (A Happier Song) (with Doja Cat)	89
+0hquQWY3xvYqN4qtiquniF	5cj0lLjcoR7YOSnhnX0Po5	2Q5DPv9uliinOBSdNooIe3	Vegas (From the Original Motion Picture Soundtrack ELVIS)	87
+6Uj1ctrBOjOas8xZXGqKk4	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Woman	87
+3Vi5XqYrmQgOYBajMWSvCi	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Need to Know	82
+0k4d5YPDr1r7FX77VdqWez	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	You Right	82
+60ynsPSSKe6O3sfwRnIBRf	5cj0lLjcoR7YOSnhnX0Po5	1MmVkhiwTH0BkNOU3nw5d3	Streets	82
+3DarAbFujv6eYNliUTyqtz	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Kiss Me More (feat. SZA)	80
+0W6I02J9xcqK8MtSeosEXb	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Get Into It (Yuh)	79
+5lAnYvAIkSDNXqfo7DyFUm	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Ain't Shit	78
+3Dv1eDb0MEgF93GpLXlucZ	5cj0lLjcoR7YOSnhnX0Po5	1MmVkhiwTH0BkNOU3nw5d3	Say So	78
+6ocbgoVGwYJhOv1GgI9NsF	66CXWjxzNUsdJxJ2JdwvnR	2fYhqwDWXjbpjaIJPEfKFw	7 rings	84
+35mvY5S1H3J2QZyna3TFe0	66CXWjxzNUsdJxJ2JdwvnR	3euz4vS7ezKGnNSwgyvKcd	positions	83
+1oFAF1hdPOickyHgbuRjyX	1Xyo4u8uXC1ZmMpatF05PJ	4ZyeHIgdujClXSjC2cSqSb	Save Your Tears (Remix) (with Ariana Grande) - Bonus Track	81
+4HBZA5flZLE435QTztThqH	66CXWjxzNUsdJxJ2JdwvnR	5mUdh6YWnUvf0MfklEk1oi	Stuck with U (with Justin Bieber)	82
+7xoUc6faLbCqZO6fQEYprd	66CXWjxzNUsdJxJ2JdwvnR	6EVYTRG1drKdO8OnIQBeEj	One Last Time	82
+3e9HZxeyfWwjeyPAMmWSSQ	66CXWjxzNUsdJxJ2JdwvnR	2fYhqwDWXjbpjaIJPEfKFw	thank u, next	81
+0lizgQ7Qw35od7CYaoMBZb	66CXWjxzNUsdJxJ2JdwvnR	27MNgBEnLCKoafz1g2Zu97	Santa Tell Me	80
+6Im9k8u9iIzKMrmV7BWtlF	66CXWjxzNUsdJxJ2JdwvnR	3euz4vS7ezKGnNSwgyvKcd	34+35	80
+0Ryd8975WihbObpp5cPW1t	66CXWjxzNUsdJxJ2JdwvnR	3zVB99XMdbP9HTVNg0GJwV	boyfriend (with Social House)	79
+5OCJzvD7sykQEKHH7qAC3C	66CXWjxzNUsdJxJ2JdwvnR	3tx8gQqWbGwqIGZHqDNrGe	God is a woman	78
 7CUkeiG7QtB7tPU9f8SANS	6PfSUFtkMVoDkx4MQkzOi3	2uhB1KivbFnlkARpbd0Cvu	hand crushed by a mallet	61
 734xplxSpoW22U5OeeZcr8	68kEuyFKyqrdQQLLsmiatm	4Csoz10NhNJOrCTUoPBdUD	Señorita	44
 65ENznU4hwrR04whyJboxr	5vSQUyT33qxr1xAX2Tkf3A	7Amrg2WughWQXMEmUfjhl3	All Nite (feat. Vince Staples)	41
@@ -6519,7 +8944,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 2QbGvQssb0VLLS4x5NOmyJ	6fxyWrfmjcbj5d12gXeiNV	6PkSBdx19zarn4ae1D08gA	RICKY	63
 7vaFuClNKe02pjKYbXEJ46	6PfSUFtkMVoDkx4MQkzOi3	2uhB1KivbFnlkARpbd0Cvu	xXXi_wud_nvrstøp_ÜXXx	48
 6L89mwZXSOwYl76YXfX13s	7oPftvlwr6VrsViSDV7fJY	4uG8q3GPuWHQlRbswMIRS6	Basket Case	80
-1G6CIweqjfKzFyEfTH4V3u	6kDMoHTcBICPILP2aclPWZ	0XJiBmyMDELqCXwZUaG3Rf	She Spider	20
+1G6CIweqjfKzFyEfTH4V3u	6kDMoHTcBICPILP2aclPWZ	0XJiBmyMDELqCXwZUaG3Rf	She Spider	21
 0z5oHDjD9vMsck14zoAQOc	21dooacK2WGBB5amYvKyfM	1pPpRk6AF8EL19sgm2MkSD	What I Please (feat. Denzel Curry)	52
 0KV4Ax6L10oSTWqC8607K4	7Im2r58zlLJIDfamqDjEE6	07VnhmPw4Ws1rvCN1z1rUz	São Bento Grande	21
 6myUpr3GDR80Dg3zqNTmmG	0fA0VVWsXO9YnASrzqfmYu	64nbgEEIcY4g1ElVLONJ0w	Another Day	59
@@ -6548,7 +8973,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 2Guz1b911CbpG8L92cnglI	1SImpQO0GbjRgvlwCcCtFo	6TyPSzd5rA2rQ9yLJJ1Gg2	Your Guardian Angel	65
 4gmmRb6bZJffOOiww1JGTO	1URnnhqYAYcrqrcwql10ft	4I3EcXD4e3KcEoDJfFEZ5b	No Heart	73
 7sO5G9EABYOXQKNPNiE9NR	4DdkRBBYG6Yk9Ka8tdJ9BW	0MV1yCXcNNQBfwApqAVkH0	Ric Flair Drip (with Metro Boomin)	82
-2MLuFz9Y3Vg3PF0Yf93M5c	6PfSUFtkMVoDkx4MQkzOi3	2uhB1KivbFnlkARpbd0Cvu	800 db cloud	49
+2MLuFz9Y3Vg3PF0Yf93M5c	6PfSUFtkMVoDkx4MQkzOi3	2uhB1KivbFnlkARpbd0Cvu	800 db cloud	50
 1x5ihkusmVWsQWtvSCtW9q	6Q1ggxOPVDbMyqlhv0tmT4	2BxVymXnPiWgxA8k6PWqCS	O Que é Ser Bom	15
 0XLQyCwYu8dhhzWAKSs3wr	1AldSIJ8ANuZVbjKIhpKKq	7b1LmekvPCy9410bKFoMRS	Paranauê / Corridos Regional	18
 1tzTiTLSRisnQiOnhgAdtF	2EhUXeszBQRApbBmTOXlKU	1RmE807F6wsfWzoaxF2qWH	Lembranca do Mestre	14
@@ -6559,44 +8984,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4FeBA1bxkUae1aDsplsmrv	6PfSUFtkMVoDkx4MQkzOi3	0qnExDZfz0kVeBjixPsyjS	gec 2 Ü (Remix) [feat. Dorian Electra]	37
 5SWnsxjhdcEDc7LJjq9UHk	1URnnhqYAYcrqrcwql10ft	6wTyGUWGCilBFZ837k5aRi	Runnin	79
 643PW82aBMUa1FiWi5VQY7	13ubrt8QOOCPljQ2FL1Kca	3zOkSAbg9o7gQ3yXtZhx5v	Babushka Boi	66
-23Dapn8107GgxvXDIsPwWm	6PfSUFtkMVoDkx4MQkzOi3	2uhB1KivbFnlkARpbd0Cvu	stupid horse	56
-2Tdkz4mLxN8szqcMeNWcI8	6PfSUFtkMVoDkx4MQkzOi3	3zy8FiB9URB4b2yNOwMM36	mememe	55
-3VHiIVQe8Sc6gtSsTp3pDz	6PfSUFtkMVoDkx4MQkzOi3	2uhB1KivbFnlkARpbd0Cvu	ringtone	52
-2WzWwYoxWIqyjzIaazsqYV	6PfSUFtkMVoDkx4MQkzOi3	1LWmE7Dy299uuwFo8wcOPC	Doritos & Fritos	50
-2T93MtJuKMzcGRTR8fdizV	6PfSUFtkMVoDkx4MQkzOi3	0qnExDZfz0kVeBjixPsyjS	ringtone (Remix) [feat. Charli XCX, Rico Nasty, Kero Kero Bonito]	50
-5Mm2CJzNRiICC5MWRWQnBo	6PfSUFtkMVoDkx4MQkzOi3	0qnExDZfz0kVeBjixPsyjS	hand crushed by a mallet (Remix) [feat. Fall Out Boy, Craig Owens, Nicole Dollanganger]	49
-0O6u0VJ46W86TxN9wgyqDj	246dkjvS1zLTtiykXe5h60	3HHNR44YbP7XogMVwzbodx	I Like You (A Happier Song) (with Doja Cat)	89
-21jGcNKet2qwijlDFuPiPb	246dkjvS1zLTtiykXe5h60	4g1ZRSobMefqF6nelkgibi	Circles	85
-0e7ipj03S05BNilyu5bRzt	246dkjvS1zLTtiykXe5h60	6trNtQUgC8cgbWcqoMYkOR	rockstar (feat. 21 Savage)	84
-0RiRZpuVRbi7oqRdSMwhQY	246dkjvS1zLTtiykXe5h60	4g1ZRSobMefqF6nelkgibi	Sunflower - Spider-Man: Into the Spider-Verse	80
-3a1lNhkSLSkpJE4MSHpDu9	246dkjvS1zLTtiykXe5h60	5s0rmjP8XOPhP6HhqOhuyC	Congratulations	81
-7xQAfvXzm3AkraOtGPWIZg	246dkjvS1zLTtiykXe5h60	4g1ZRSobMefqF6nelkgibi	Wow.	81
-7dt6x5M1jzdTEt8oCbisTK	246dkjvS1zLTtiykXe5h60	6trNtQUgC8cgbWcqoMYkOR	Better Now	80
-0t3ZvGKlmYmVsDzBJAXK8C	246dkjvS1zLTtiykXe5h60	4g1ZRSobMefqF6nelkgibi	Goodbyes (feat. Young Thug)	79
-75ZvA4QfFiZvzhj2xkaWAh	246dkjvS1zLTtiykXe5h60	5s0rmjP8XOPhP6HhqOhuyC	I Fall Apart	78
-1nltpRhEiXikwDlVn4UADk	246dkjvS1zLTtiykXe5h60	3HHNR44YbP7XogMVwzbodx	One Right Now (with The Weeknd)	73
-3Z7CaxQkqbIs1rewKi6v4W	2o5jDhtHVPhrJdv3cEQ99Z	6R7Yy0sY9N8PNUhseegr2Q	Hot In It	82
-6Dy1jexKYriXAVG6evyUTJ	6DgP9otnZw5z6daOntINxp	5wJb3DBSoSMKYJA8TrNKi8	OUT OUT (feat. Charli XCX & Saweetie)	79
-11M8c9SHQYpd8DOrmcu25k	25uiPmTg16RbhZWAqwLBy5	1QqipMXWzJhr6yfcNKTp8B	Beg For You (feat. Rina Sawayama)	64
-2grSOc6HNTXQQXNoRKt9UM	25uiPmTg16RbhZWAqwLBy5	1QqipMXWzJhr6yfcNKTp8B	Good Ones	66
-5dry5tz8yLcLuOJ3l6ZEQd	25uiPmTg16RbhZWAqwLBy5	1QqipMXWzJhr6yfcNKTp8B	Used To Know Me	66
-5cYEuFqzITZlZzpoR1sHvu	25uiPmTg16RbhZWAqwLBy5	1QqipMXWzJhr6yfcNKTp8B	Yuck	65
-0FZUbqZ1x2G71vl027d8Ud	25uiPmTg16RbhZWAqwLBy5	5A0U5x6tAfyQaG5lnOL0fA	Hot Girl (Bodies Bodies Bodies)	63
-5hyq3LBlCfjRQAFkdQwe8o	25uiPmTg16RbhZWAqwLBy5	261QvR3MgGdyL2HyYIlgfd	Vroom Vroom	63
-3qGHAKgjQruzj6doKkyEb5	25uiPmTg16RbhZWAqwLBy5	2HIwUmdxEl7SeWa1ndH5wC	Unlock it (Lock It) - feat. Kim Petras and Jay Park	62
-0TejbZNnypwBQDwkUPjPrT	2o5jDhtHVPhrJdv3cEQ99Z	4KjlM0sPFZS7TmcgYw7pD4	Hot In It - Tiësto’s Hotter Mix	62
-6fTgbkBiMITtHUmik95ClX	24XtlMhEMNdi822vi0MhY1	3t5ZnNa4NdyldNHZcFhETb	MakeDamnSure	69
-6OyKBwLzq4h15XmxeWf5n4	24XtlMhEMNdi822vi0MhY1	0gBSoXYKsE3HHZNbgMPnEg	Cute Without The 'E' (Cut From The Team) - Remastered	66
-0IPKskRI33eRXjUhNUr9b5	4o0pNHbyj36LPvukNqEug0	2tgx0FJj6dtx3GzTm1Jbbd	Loved You A Little (with Taking Back Sunday and Charlotte Sands)	62
-6um5ccNzX7k3SRsVnLupvI	24XtlMhEMNdi822vi0MhY1	6D1rTYBev0y8ZKE5tD7OP9	A Decade Under The Influence	59
-0cY6CAgB5wShSOTT3lQl2t	24XtlMhEMNdi822vi0MhY1	0gBSoXYKsE3HHZNbgMPnEg	You're So Last Summer - Remastered	58
-5om8idoAx58nxbReNe7HwL	77AiFEVeAVj2ORpC85QVJs	3gZolcYVh9Gm1cM5t335mj	Cute Without The E (Ziri)	28
-5heRy6IDNiQXDJf1tZ6SUc	24XtlMhEMNdi822vi0MhY1	3t5ZnNa4NdyldNHZcFhETb	Liar (It Takes One To Know One)	57
-3m1OyPw3fzMPAwDMcYcM6Z	24XtlMhEMNdi822vi0MhY1	6D1rTYBev0y8ZKE5tD7OP9	This Photograph Is Proof (I Know You Know)	51
-1JFPraHovseDzutd6BOIry	24XtlMhEMNdi822vi0MhY1	0gBSoXYKsE3HHZNbgMPnEg	Timberwolves At New Jersey - Remastered	49
-0G88ZH0qqBCBbtrHnEDqrn	7HGNYPmbDrMkylWqeFCOIQ	49cBF5iGpJ7nx6EAR8BLga	Triste Bahia	19
-7lzfMZak2HjNPXXSxksjPB	3qZ2n5keOAat1SoF6bHwmb	1SYy6QlPiObmtHW2PqpZWu	Camarão Que Dorme a Onda Leva	62
-02a8cGumnKuEPgoCzmalJp	7HGNYPmbDrMkylWqeFCOIQ	4HCs1WxdaCTb8S1TlgUG9C	Sozinho - Ao Vivo	63
 1Hn0iEB1FPfJzJPK49qVtH	7HGNYPmbDrMkylWqeFCOIQ	49cBF5iGpJ7nx6EAR8BLga	Mora Na Filosofia	20
 6giaOyDFbE4J8iclhCdW7E	09U6hmCerKcIJrixubiBjm	3716y3qiVChUSJv24nvCUB	Poesia Acústica 11: Nada Mudou	69
 044fQ35cLbMVwta0KyN5dM	7HGNYPmbDrMkylWqeFCOIQ	1EggMJbrddGeSyNjDzDRMI	Samba E Amor	41
@@ -6606,16 +8993,14 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 50c0knPGjaJAuE4hRg28Qq	1b8kpp4DUwt1hWaxTiWQhD	5NnAoeNFYhB4ypfoEX8e6H	Quando Você Olha Pra Ela	59
 5JuWx9sV8TbtIMhiiPVbnz	7HGNYPmbDrMkylWqeFCOIQ	1EggMJbrddGeSyNjDzDRMI	Qualquer Coisa	46
 5YctcwZCRMxlIHDpTuqKOE	1b8kpp4DUwt1hWaxTiWQhD	5Tk4wmf1IgEPPq36yD4G7Z	Baby - Ao Vivo	61
-6Sm4XdGI7GhHG7sjVcVrI2	1AldSIJ8ANuZVbjKIhpKKq	6FdbVYfwhJjaUOzYB7J9Uj	Capoeira Não Pode Parar	13
 6sKopGG4r21ObTE8V6pD6x	1b8kpp4DUwt1hWaxTiWQhD	1Vjf7xPNvBhqKnAR4rAXR2	Força Estranha	60
 78I8jaChZbPu72bIGGPMKk	1b8kpp4DUwt1hWaxTiWQhD	4jY3KTb8z9OZiIM92pTuNe	Lágrimas Negras	57
-5Ikos3uiBfPYAf7EZfz8t3	2FW6Zt8gyIF7Fb7O3TGxnE	1wG4O32OX2POpj77Cstqk7	Sonho Meu	60
+7lzfMZak2HjNPXXSxksjPB	3qZ2n5keOAat1SoF6bHwmb	1SYy6QlPiObmtHW2PqpZWu	Camarão Que Dorme a Onda Leva	62
 2wL88cvKXUOfHuYVd62hji	7oEkUINVIj1Nr3Wnj8tzqr	3qoUU8sm4eBT5POFHQSl5L	Palco	53
-43HM6P2yX7ls3q92qrkhL4	1AldSIJ8ANuZVbjKIhpKKq	3TCEm1O6JANZ1H55BPZ48L	Pimenta	3
 1O5pf5R8xvppS2pD03HVy5	0Mz5XE0kb1GBnbLQm2VbcO	5gK2l2LgWY0BA4p9uy27z6	May-December	39
 20I1Mickm2w7qGxk7uzOKr	0av074qUwLn5eyzwqoq3xh	7gkngZkZ51RJBzWUkU8uZ4	Graffiti on a High School Wall	40
 465hVdgg75kPgRdpJfEFFT	4hz8tIajF2INpgM0qzPJz2	4lGNpgFI67TUq5BMfnPe3Z	Seven	57
-4mn5HdatHKN7iFGDes9G8i	2PmIyxmEFsNfQJjEifPDZC	1VGVJdmvOSRK2w9RKXk18A	Who's Ready for Tomorrow	77
+4mn5HdatHKN7iFGDes9G8i	2PmIyxmEFsNfQJjEifPDZC	1VGVJdmvOSRK2w9RKXk18A	Who's Ready for Tomorrow	76
 7cEfPAbju7glmdAgT4e1AU	7HGNYPmbDrMkylWqeFCOIQ	64JvR5shy7j04mTiX0wfNp	Cajuína - Remixed Original Album	55
 0JL9TZip7mL7iwC5EOkALS	3Rq3YOF9YG9YfCWD4D56RZ	5FrjDW96mCYw9ECc74c637	Lady Brown (feat. Cise Starr from CYNE)	58
 0Nkp56EKreoWMYxpXJqUNZ	23cC3RI0hgD5sWmXKPAJuG	1uGIwfw9F1lR7TDDukbNyQ	Wandering Ways	53
@@ -6627,16 +9012,46 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1XjFyPzU5z3zbYJQETYGiZ	5JYtpnUKxAzXfHEYpOeeit	3xWp6y0HGsHZlXljNs7VRy	Balança Pema	58
 1brWhQEoBoT9tMnNfcRsjr	1gIa65d5ICT2xVWiUJ3u27	2jOgajtpXNsinBpwg2dUjH	A felicidade	44
 29Lq5UKpHBGxQTDxsPKwFz	1gIa65d5ICT2xVWiUJ3u27	4g9eq1iulwITLm6N0xttpW	Augusta, Angélica e Consolação	43
-2VBN5kSs1fyiE5fnOYeKsG	7HGNYPmbDrMkylWqeFCOIQ	2cgr7ZBd3X3gs99433bgES	Sampa	54
+2VBN5kSs1fyiE5fnOYeKsG	7HGNYPmbDrMkylWqeFCOIQ	2cgr7ZBd3X3gs99433bgES	Sampa	55
 2YXpMdEMEoy48OPr6VTzpI	1gIa65d5ICT2xVWiUJ3u27	2jOgajtpXNsinBpwg2dUjH	Tô	47
-2dCBXxXNur85q9gGIpsAdr	1gIa65d5ICT2xVWiUJ3u27	4g9eq1iulwITLm6N0xttpW	Happy End	46
+2dCBXxXNur85q9gGIpsAdr	1gIa65d5ICT2xVWiUJ3u27	4g9eq1iulwITLm6N0xttpW	Happy End	45
+2uLFFR7p4rjOUCGVWccPIn	4k7KKAyXbpBKe0iziD7c2P	3m8y5mcFFLi0UnieyTMlY6	B-Boy Beef	10
+3naWm5zvv424Pr89hSIYGC	3H24Sx4OTtMrkpQlcpGLtu	1Yta5y5Kz8xRyE9FE0GbFf	Salvador	31
+5Ikos3uiBfPYAf7EZfz8t3	2FW6Zt8gyIF7Fb7O3TGxnE	1wG4O32OX2POpj77Cstqk7	Sonho Meu	60
+5tt394udRU89Pn2s3qPGaQ	1gIa65d5ICT2xVWiUJ3u27	5EatIo50si8CoN3ARke59W	Vai (Menina Amanhã de Manhã)	47
+6K7JiWTYZrBJ7hHsyUHfBM	2wr7BzcHy6CsYZJd0HiB4f	6qmm8CLnB3Q26l1ZQhFoqn	C'est beau ça	5
+23Dapn8107GgxvXDIsPwWm	6PfSUFtkMVoDkx4MQkzOi3	2uhB1KivbFnlkARpbd0Cvu	stupid horse	56
+2Tdkz4mLxN8szqcMeNWcI8	6PfSUFtkMVoDkx4MQkzOi3	3zy8FiB9URB4b2yNOwMM36	mememe	55
+3VHiIVQe8Sc6gtSsTp3pDz	6PfSUFtkMVoDkx4MQkzOi3	2uhB1KivbFnlkARpbd0Cvu	ringtone	52
+2WzWwYoxWIqyjzIaazsqYV	6PfSUFtkMVoDkx4MQkzOi3	1LWmE7Dy299uuwFo8wcOPC	Doritos & Fritos	50
+2T93MtJuKMzcGRTR8fdizV	6PfSUFtkMVoDkx4MQkzOi3	0qnExDZfz0kVeBjixPsyjS	ringtone (Remix) [feat. Charli XCX, Rico Nasty, Kero Kero Bonito]	50
+5Mm2CJzNRiICC5MWRWQnBo	6PfSUFtkMVoDkx4MQkzOi3	0qnExDZfz0kVeBjixPsyjS	hand crushed by a mallet (Remix) [feat. Fall Out Boy, Craig Owens, Nicole Dollanganger]	49
+21jGcNKet2qwijlDFuPiPb	246dkjvS1zLTtiykXe5h60	4g1ZRSobMefqF6nelkgibi	Circles	85
+0e7ipj03S05BNilyu5bRzt	246dkjvS1zLTtiykXe5h60	6trNtQUgC8cgbWcqoMYkOR	rockstar (feat. 21 Savage)	84
+0RiRZpuVRbi7oqRdSMwhQY	246dkjvS1zLTtiykXe5h60	4g1ZRSobMefqF6nelkgibi	Sunflower - Spider-Man: Into the Spider-Verse	80
+3a1lNhkSLSkpJE4MSHpDu9	246dkjvS1zLTtiykXe5h60	5s0rmjP8XOPhP6HhqOhuyC	Congratulations	81
+7xQAfvXzm3AkraOtGPWIZg	246dkjvS1zLTtiykXe5h60	4g1ZRSobMefqF6nelkgibi	Wow.	81
+7dt6x5M1jzdTEt8oCbisTK	246dkjvS1zLTtiykXe5h60	6trNtQUgC8cgbWcqoMYkOR	Better Now	80
+0t3ZvGKlmYmVsDzBJAXK8C	246dkjvS1zLTtiykXe5h60	4g1ZRSobMefqF6nelkgibi	Goodbyes (feat. Young Thug)	79
+75ZvA4QfFiZvzhj2xkaWAh	246dkjvS1zLTtiykXe5h60	5s0rmjP8XOPhP6HhqOhuyC	I Fall Apart	79
+1nltpRhEiXikwDlVn4UADk	246dkjvS1zLTtiykXe5h60	3HHNR44YbP7XogMVwzbodx	One Right Now (with The Weeknd)	73
+3Z7CaxQkqbIs1rewKi6v4W	2o5jDhtHVPhrJdv3cEQ99Z	6R7Yy0sY9N8PNUhseegr2Q	Hot In It	82
+6Dy1jexKYriXAVG6evyUTJ	6DgP9otnZw5z6daOntINxp	5wJb3DBSoSMKYJA8TrNKi8	OUT OUT (feat. Charli XCX & Saweetie)	79
+11M8c9SHQYpd8DOrmcu25k	25uiPmTg16RbhZWAqwLBy5	1QqipMXWzJhr6yfcNKTp8B	Beg For You (feat. Rina Sawayama)	64
+2grSOc6HNTXQQXNoRKt9UM	25uiPmTg16RbhZWAqwLBy5	1QqipMXWzJhr6yfcNKTp8B	Good Ones	66
+5dry5tz8yLcLuOJ3l6ZEQd	25uiPmTg16RbhZWAqwLBy5	1QqipMXWzJhr6yfcNKTp8B	Used To Know Me	66
+5cYEuFqzITZlZzpoR1sHvu	25uiPmTg16RbhZWAqwLBy5	1QqipMXWzJhr6yfcNKTp8B	Yuck	65
+0FZUbqZ1x2G71vl027d8Ud	25uiPmTg16RbhZWAqwLBy5	5A0U5x6tAfyQaG5lnOL0fA	Hot Girl (Bodies Bodies Bodies)	63
+5hyq3LBlCfjRQAFkdQwe8o	25uiPmTg16RbhZWAqwLBy5	261QvR3MgGdyL2HyYIlgfd	Vroom Vroom	63
+3qGHAKgjQruzj6doKkyEb5	25uiPmTg16RbhZWAqwLBy5	2HIwUmdxEl7SeWa1ndH5wC	Unlock it (Lock It) - feat. Kim Petras and Jay Park	62
+0TejbZNnypwBQDwkUPjPrT	2o5jDhtHVPhrJdv3cEQ99Z	4KjlM0sPFZS7TmcgYw7pD4	Hot In It - Tiësto’s Hotter Mix	62
 5nujrmhLynf4yMoMtj8AQF	6M2wZ9GZgrQXHCFfjv46we	5lKlFlReHOLShQKyRv6AL9	Levitating (feat. DaBaby)	84
 7ytR5pFWmSjzHJIeQkgog4	4r63FhuTkUYltbVAg5TQnk	623PL2MBg50Br5dLXC9E9e	ROCKSTAR (feat. Roddy Ricch)	79
 5MPPttjfGap2C6j6eKcO6J	6i392l38cR3uBPF0DbNs7S	59zpaLOByFkJhc9D5Xqna9	Baby (Lil Baby feat. DaBaby)	76
 6Ozh9Ok6h4Oi1wUSLtBseN	4r63FhuTkUYltbVAg5TQnk	1NsTSXjVNE7XmZ8PmyW0wl	BOP	75
 0cu0rhnlCnJ7JIeHRiLpj3	4r63FhuTkUYltbVAg5TQnk	6N9oICOUm4QT2YpWdKwUlu	Ball If I Want To	72
 6r9xnueU24r4eoG3HXC87E	4r63FhuTkUYltbVAg5TQnk	1X4W9ApaYSS9ZsmUhIVDD3	Bestie	71
-2gwkD6igEhQbDQegRCcdoB	4r63FhuTkUYltbVAg5TQnk	0O1PJ0t69iTO5yWrIeIga0	Suge	70
+2gwkD6igEhQbDQegRCcdoB	4r63FhuTkUYltbVAg5TQnk	0O1PJ0t69iTO5yWrIeIga0	Suge	71
 1YDebgap5OFwXEBG18NJvy	4r63FhuTkUYltbVAg5TQnk	2u1Wc12FWm7X2ueUHCHxJC	Red Light Green Light	70
 26UxwWl9xCb83OynXELJcL	4r63FhuTkUYltbVAg5TQnk	6kaYDcX9dNmJE5OU71IUby	Masterpiece	70
 0fySG6A6qLE8IvDpayb5bM	4r63FhuTkUYltbVAg5TQnk	1NsTSXjVNE7XmZ8PmyW0wl	VIBEZ	69
@@ -6659,7 +9074,16 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4WMuY659P2MKnoW40oGXe8	4kI8Ie27vjvonwaB2ePh8T	6VoOCCv0bXPrTHDncJyIgF	Purple Yellow Red and Blue	54
 384TqRlwlMfeUAODhXfF3O	4kI8Ie27vjvonwaB2ePh8T	4VzzEviJGYUtAeSsJlI9QB	Tidal Wave	52
 0595RikX32pk1tk7cO7K7H	4kI8Ie27vjvonwaB2ePh8T	6wK4nx3a3x32QVfFohfjl1	Feel It Still - Ofenbach Remix	41
-43QhrhgRrH9NWy6eoUro4X	4kI8Ie27vjvonwaB2ePh8T	6VoOCCv0bXPrTHDncJyIgF	Atomic Man	49
+43QhrhgRrH9NWy6eoUro4X	4kI8Ie27vjvonwaB2ePh8T	6VoOCCv0bXPrTHDncJyIgF	Atomic Man	50
+6fTgbkBiMITtHUmik95ClX	24XtlMhEMNdi822vi0MhY1	3t5ZnNa4NdyldNHZcFhETb	MakeDamnSure	69
+6OyKBwLzq4h15XmxeWf5n4	24XtlMhEMNdi822vi0MhY1	0gBSoXYKsE3HHZNbgMPnEg	Cute Without The 'E' (Cut From The Team) - Remastered	66
+0IPKskRI33eRXjUhNUr9b5	4o0pNHbyj36LPvukNqEug0	2tgx0FJj6dtx3GzTm1Jbbd	Loved You A Little (with Taking Back Sunday and Charlotte Sands)	62
+6um5ccNzX7k3SRsVnLupvI	24XtlMhEMNdi822vi0MhY1	6D1rTYBev0y8ZKE5tD7OP9	A Decade Under The Influence	59
+5om8idoAx58nxbReNe7HwL	77AiFEVeAVj2ORpC85QVJs	3gZolcYVh9Gm1cM5t335mj	Cute Without The E (Ziri)	30
+0cY6CAgB5wShSOTT3lQl2t	24XtlMhEMNdi822vi0MhY1	0gBSoXYKsE3HHZNbgMPnEg	You're So Last Summer - Remastered	58
+5heRy6IDNiQXDJf1tZ6SUc	24XtlMhEMNdi822vi0MhY1	3t5ZnNa4NdyldNHZcFhETb	Liar (It Takes One To Know One)	57
+3m1OyPw3fzMPAwDMcYcM6Z	24XtlMhEMNdi822vi0MhY1	6D1rTYBev0y8ZKE5tD7OP9	This Photograph Is Proof (I Know You Know)	51
+1JFPraHovseDzutd6BOIry	24XtlMhEMNdi822vi0MhY1	0gBSoXYKsE3HHZNbgMPnEg	Timberwolves At New Jersey - Remastered	49
 376GmAj8YF8fIJLe5IwOoH	24XtlMhEMNdi822vi0MhY1	3t5ZnNa4NdyldNHZcFhETb	What's It Feel Like To Be A Ghost?	49
 10xV5l9nhLvFpR8mqzs0bL	64KEffDW9EtZ1y2vBYgq8T	3SBeYxkc3Ce7lanK0f3epk	Numb	85
 4qu63nuBpdn0qHUHuObEj1	64KEffDW9EtZ1y2vBYgq8T	66JuK41D3LpkbX3HCTGcQk	Leave Before You Love Me (with Jonas Brothers)	84
@@ -6669,7 +9093,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 0tBbt8CrmxbjRP0pueQkyU	0C8ZW7ezQVs4URX5aX7Kqx	5gQZvWM1o8NkQndueJtZcP	Wolves	79
 2Y0wPrPQBrGhoLn14xRYCG	4MCBfE4596Uoi2O4DtmEMz	6n9DKpOxwifT5hOXtgLZSL	Come & Go (with Marshmello)	79
 08bNPGLD8AhKpnnERrAc6G	64KEffDW9EtZ1y2vBYgq8T	1BmxOYHjQv1dKZRr13YRZM	FRIENDS	78
-3Z8FwOEN59mRMxDCtb8N0A	64KEffDW9EtZ1y2vBYgq8T	1eleCBhP2R8TXEDquvybwC	Be Kind (with Halsey)	76
 0ada5XsQGLPUVbmTCkAP49	4MCBfE4596Uoi2O4DtmEMz	6n9DKpOxwifT5hOXtgLZSL	Hate The Other Side (with Marshmello & The Kid Laroi)	74
 3CRDbSIZ4r5MsZ0YwxuEkn	3YQKmKGau1PzlVlkL1iodx	3cQO7jp5S9qLBoIVtbkSM1	Stressed Out	84
 23OXdR7YuUBVWh5hSnYJau	3YQKmKGau1PzlVlkL1iodx	621cXqrTSSJi1WqDMSLmbL	Chlorine	74
@@ -6689,15 +9112,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 7floNISpH8VF4z4459Qo18	15UsOTVnJzReFVN1VCnxy4	3cyyJALrHc8LawnQNFYRWL	Look At Me!	81
 06JvOZ39sK8D8SqiqfaxDU	5K4W6rqBFWDnAN6FQUkS6x	1YA0gAfV91LkDq1DODSCbc	True Love	80
 4jvjzW7Hm0yK4LvvE0Paz9	2kCcBybjl3SAtIcwdWpUe3	52JymrguPgkmmwLaWIusst	Falling Down - Bonus Track	80
-0hquQWY3xvYqN4qtiquniF	5cj0lLjcoR7YOSnhnX0Po5	2Q5DPv9uliinOBSdNooIe3	Vegas (From the Original Motion Picture Soundtrack ELVIS)	87
-6Uj1ctrBOjOas8xZXGqKk4	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Woman	87
-3Vi5XqYrmQgOYBajMWSvCi	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Need to Know	82
-0k4d5YPDr1r7FX77VdqWez	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	You Right	82
-60ynsPSSKe6O3sfwRnIBRf	5cj0lLjcoR7YOSnhnX0Po5	1MmVkhiwTH0BkNOU3nw5d3	Streets	82
-3DarAbFujv6eYNliUTyqtz	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Kiss Me More (feat. SZA)	80
-0W6I02J9xcqK8MtSeosEXb	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Get Into It (Yuh)	79
-5lAnYvAIkSDNXqfo7DyFUm	5cj0lLjcoR7YOSnhnX0Po5	1nAQbHeOWTfQzbOoFrvndW	Ain't Shit	78
-3Dv1eDb0MEgF93GpLXlucZ	5cj0lLjcoR7YOSnhnX0Po5	1MmVkhiwTH0BkNOU3nw5d3	Say So	78
 0u2P5u6lvoDfwTYjAADbn4	6qqNVTkY8uBg9cP3Jd7DAH	2sBB17RXTamvj7Ncps15AK	lovely (with Khalid)	88
 4RVwu0g32PAqgUiJoXsdF8	6qqNVTkY8uBg9cP3Jd7DAH	0JGOiO34nwfUdDrD612dOp	Happier Than Ever	87
 3GYlZ7tbxLOxe6ewMNVTkw	6qqNVTkY8uBg9cP3Jd7DAH	1YPWxMpQEC8kcOuefgXbhj	TV	85
@@ -6745,7 +9159,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 6fIjnWrv46njJHLDAY2JdC	0EeQBlQJFiAfJeVN2vT9s0	6rcbbhcm8Os7EiVRHP9Aef	Dedication (feat. Kendrick Lamar)	59
 39xWBHPM4E9MwzEy5gbM7p	0EeQBlQJFiAfJeVN2vT9s0	6rcbbhcm8Os7EiVRHP9Aef	Last Time That I Checc'd (feat. YG)	58
 7yB6GF5kgPEoeGE4EAWiJU	0EeQBlQJFiAfJeVN2vT9s0	6rcbbhcm8Os7EiVRHP9Aef	Blue Laces 2	57
-0A1owXuxPwqTQPqOJcmUGz	0EeQBlQJFiAfJeVN2vT9s0	1C5gVWv1k7r0LxsrIL8OL8	Face the World	53
+0A1owXuxPwqTQPqOJcmUGz	0EeQBlQJFiAfJeVN2vT9s0	1C5gVWv1k7r0LxsrIL8OL8	Face the World	54
 1f0tj0IQ28OXq7hS0Rz0LH	0EeQBlQJFiAfJeVN2vT9s0	6pAP6aJ2SUmhE9VXB8bm02	Ocean Views	53
 6jq6rcOikCZAmjliAgAmfT	0jNDKefhfSbLR9sFvcPLHo	4k2ygY7kW4n1eVtR2i0F0H	Light	60
 6Dg3ArDiJcseYoeeTZZXK6	0jNDKefhfSbLR9sFvcPLHo	4Z9aZaIeSiKBVOf7v7oHCI	All The Highs	57
@@ -6762,7 +9176,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 0n7K7V7ni5VBL65TzDMVwn	18hl4QMrybIXbkGi2BzXcf	5olInc6PT2TULCztcT0Csl	Mataram Besouro - Ao Vivo	23
 4E7M4Yz0kFfidlGnllvuTI	18hl4QMrybIXbkGi2BzXcf	5olInc6PT2TULCztcT0Csl	No Alto do Cruzeiro - Ao Vivo	23
 05BnyatUof9QNcvTXzdtW4	18hl4QMrybIXbkGi2BzXcf	5olInc6PT2TULCztcT0Csl	Atirei Mas Nao Matei - Ao Vivo	23
-7BYIzRTZDMMWrUYOJAtj19	18hl4QMrybIXbkGi2BzXcf	5olInc6PT2TULCztcT0Csl	O Fila Lá Eoo - Ao Vivo	22
+7BYIzRTZDMMWrUYOJAtj19	18hl4QMrybIXbkGi2BzXcf	5olInc6PT2TULCztcT0Csl	O Fila Lá Eoo - Ao Vivo	23
 7ICqkvo7Md45yI1XEYQBsw	18hl4QMrybIXbkGi2BzXcf	5olInc6PT2TULCztcT0Csl	Besouro Cordao de Ouro - Ao Vivo	22
 5eqpyyK2p7CbMofum6rRQK	18hl4QMrybIXbkGi2BzXcf	5olInc6PT2TULCztcT0Csl	Como Vai Como Vai Você - Ao Vivo	22
 1X4x5dsB2OhY4CctleooV2	7boQqq2hUcz9kHcQOecG4j	2Sy70AVTYlyrcRePSm4ext	Jungle	46
@@ -6775,22 +9189,6 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1ZbvEfR0gXKeuDSEtwdrwH	7boQqq2hUcz9kHcQOecG4j	1HG9bFZMfC6MLSEbOiI8ME	Fillmoe	39
 4arFkQK84KZjA7UPpunJ2y	7boQqq2hUcz9kHcQOecG4j	5hLV6kxqvWQdRDqlt8DT5T	Dice Of Life (The Battle)	39
 5KdWhOz7etD59lB2ehc6xo	7boQqq2hUcz9kHcQOecG4j	15mPPPMuN4jpwU0NqKE2DT	Scottie 15	39
-0tgVpDi06FyKpA1z0VMD4v	6eUKZXaKkcviH0Ku9w2n3V	3T4tUhGYeRNVUGevb0wThu	Perfect	86
-3rmo8F54jFF8OgYsqTxm5d	6eUKZXaKkcviH0Ku9w2n3V	32iAEBstCjauDhyKpGjTuq	Bad Habits	86
-50nfwKoDiSYg8zOCREWAm5	6eUKZXaKkcviH0Ku9w2n3V	32iAEBstCjauDhyKpGjTuq	Shivers	86
-7qiZfU4dY1lWllzX7mPBI3	6eUKZXaKkcviH0Ku9w2n3V	3T4tUhGYeRNVUGevb0wThu	Shape of You	85
-2DB4DdfCFMw1iaR6JaR03a	4nDoRrQiYLoBzwC5BhVJzF	4urxMitPAkjyey14LeuWSX	Bam Bam (feat. Ed Sheeran)	80
-6fxVffaTuwjgEk5h9QyRjy	6eUKZXaKkcviH0Ku9w2n3V	6NoBzYmh5gUusGPCfg0pct	Photograph	65
-4zrKN5Sv8JS5mqnbVcsul7	6eUKZXaKkcviH0Ku9w2n3V	2W5VVBPNkGAduaArE4sX29	Celestial	84
-1Slwb6dOYkBlWal1PGtnNg	6eUKZXaKkcviH0Ku9w2n3V	6NoBzYmh5gUusGPCfg0pct	Thinking out Loud	64
-0HaRLPnr887lcQM2YQzkff	3wcj11K77LjEY1PkEazffa	6kgDkAupBVRSqbJPUaTJwQ	For My Hand (feat. Ed Sheeran)	82
-2RttW7RAu5nOAfq6YFvApB	6eUKZXaKkcviH0Ku9w2n3V	3T4tUhGYeRNVUGevb0wThu	Happier	79
-3ymSzAIqvWTxKYD0BBODbH	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	A Maré a Maré	23
-6nAYtpcRsku5JoBUhXk5EA	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	Hoje Me Leva	21
-2hsjrCNUjG5vPLN2IcigtS	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	Amor É Meu Amor	20
-32eVHUmKEixGAX4hdNj5pR	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	O Vento Levou o Mar	19
-2rCB7ynjLw7iD1ZOI5zXvC	5r4anprO9Hg9CBlmdkwFdE	0iyPnXukC40URPczeXVvha	Movido Pela Capoeira	18
-6hlxA75xLIaazYhqjFAGXq	5r4anprO9Hg9CBlmdkwFdE	5V5iUFc3nj3Y92QeHzWGfH	Chora Berimbau Viola	18
 3AydAydLzyyZutA0375XIz	5BvJzeQpmsdsFp4HGUYUEx	7n8NJkGKAl2np1bXiRn0CY	A-Punk	67
 1eNrlXlW7Cj1QB1YUcZmpb	5BvJzeQpmsdsFp4HGUYUEx	7n8NJkGKAl2np1bXiRn0CY	Campus	63
 4dRqYKhLVujxiBXcq50YzG	5BvJzeQpmsdsFp4HGUYUEx	1A3nVEWRJ8yvlPzawHI1pQ	This Life	60
@@ -6801,20 +9199,20 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 53KFMdxzi8IJDewiql1Qo3	5BvJzeQpmsdsFp4HGUYUEx	1A3nVEWRJ8yvlPzawHI1pQ	Sunflower (feat. Steve Lacy)	56
 10f0hrbCBiQk9STrFG3EU7	5BvJzeQpmsdsFp4HGUYUEx	1GXMNFfoHF4sN7lG8gZq1j	Diane Young	55
 6AY1M1akbsVaQN3ATVyzH7	5BvJzeQpmsdsFp4HGUYUEx	1GXMNFfoHF4sN7lG8gZq1j	Hannah Hunt	53
-37F7E7BKEw2E4O2L7u0IEp	0dlDsD7y6ccmDm8tuWCU6F	2ll6KONxe4F87GJku1ZZrl	Limbo	79
+37F7E7BKEw2E4O2L7u0IEp	0dlDsD7y6ccmDm8tuWCU6F	2ll6KONxe4F87GJku1ZZrl	Limbo	80
 3omcH1HGghFtzaFGgazoy8	0dlDsD7y6ccmDm8tuWCU6F	4WLWbEhOq5kphrWF5oEEou	Devil's Work	74
 6J9UUQSQ9Vm9fh6vZgLlzu	0dlDsD7y6ccmDm8tuWCU6F	4WLWbEhOq5kphrWF5oEEou	WTH	72
 5WbKBMz6y0FbUdZl18XlJO	0dlDsD7y6ccmDm8tuWCU6F	2ll6KONxe4F87GJku1ZZrl	Wrath	69
-2qOfyyZc41LfQ63U9p3GVV	0dlDsD7y6ccmDm8tuWCU6F	43Xd3k45L0OgtJzJoQmUDD	Killin' On Demand	69
+2qOfyyZc41LfQ63U9p3GVV	0dlDsD7y6ccmDm8tuWCU6F	43Xd3k45L0OgtJzJoQmUDD	Killin' On Demand	70
 7hARdySaXWuTLeqBrYP2xf	0dlDsD7y6ccmDm8tuWCU6F	7pTr1AQkGqPlyZl9tS8Xg8	Ditty	69
-519nSwwD1B5g1nw4iZkqsh	0dlDsD7y6ccmDm8tuWCU6F	4WLWbEhOq5kphrWF5oEEou	Stunna	65
+519nSwwD1B5g1nw4iZkqsh	0dlDsD7y6ccmDm8tuWCU6F	4WLWbEhOq5kphrWF5oEEou	Stunna	66
 285pBltuF7vW8TeWk8hdRR	4MCBfE4596Uoi2O4DtmEMz	6tkjU4Umpo79wwkgPMV3nZ	Lucid Dreams	84
 2RJAKIw6nIkgZVsAIKhmqz	4MCBfE4596Uoi2O4DtmEMz	4I00tpvL54vnWy49vH5fRK	In My Head	84
 4VXIryQMWpIdGgYR4TrjT1	4MCBfE4596Uoi2O4DtmEMz	6tkjU4Umpo79wwkgPMV3nZ	All Girls Are The Same	83
 6iaSML1PIYq936g62BDtBq	4MCBfE4596Uoi2O4DtmEMz	1btu0SV2DOI5HoFsvUd78F	Robbery	81
 2U5WueTLIK5WJLD7mvDODv	4MCBfE4596Uoi2O4DtmEMz	6n9DKpOxwifT5hOXtgLZSL	Wishing Well	79
 3oDkdAySo1VQQG0ptV7uwa	4MCBfE4596Uoi2O4DtmEMz	6tkjU4Umpo79wwkgPMV3nZ	Lean Wit Me	79
-3wwo0bJvDSorOpNfzEkfXx	4MCBfE4596Uoi2O4DtmEMz	5wi0oKiF99ZVACf6oTTsp2	Let Me Know (I Wonder Why Freestyle)	77
+3wwo0bJvDSorOpNfzEkfXx	4MCBfE4596Uoi2O4DtmEMz	5wi0oKiF99ZVACf6oTTsp2	Let Me Know (I Wonder Why Freestyle)	78
 5wujBwqG7INdStqGd4tRMX	4MCBfE4596Uoi2O4DtmEMz	6tkjU4Umpo79wwkgPMV3nZ	Armed And Dangerous	77
 1lsHg7CSPitu1R3VjLTFUv	2EhUXeszBQRApbBmTOXlKU	4fN1wqKk72NNFja1oi9WEV	Ligeiros	18
 44em4VSTU8NBYyUZmYIOar	2EhUXeszBQRApbBmTOXlKU	1RmE807F6wsfWzoaxF2qWH	Pedir o Axe	17
@@ -6823,7 +9221,17 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 6BOpez82pPBooERz4yvdYP	2EhUXeszBQRApbBmTOXlKU	1RmE807F6wsfWzoaxF2qWH	Faca Amolada	11
 5jRiMVtNu3XF45niBV1QY4	2EhUXeszBQRApbBmTOXlKU	1RmE807F6wsfWzoaxF2qWH	Sou Capoeira	10
 1KdHNhK8yloNM4Cr5bndbg	2EhUXeszBQRApbBmTOXlKU	1RmE807F6wsfWzoaxF2qWH	Danca Guerreira	10
-0sIcnlaJrW34ypnaU9TnYV	2EhUXeszBQRApbBmTOXlKU	1RmE807F6wsfWzoaxF2qWH	Nego Veio	8
+092uPpAF9zVl7WbpVdSJFL	2EhUXeszBQRApbBmTOXlKU	4fN1wqKk72NNFja1oi9WEV	Andante	8
+0tgVpDi06FyKpA1z0VMD4v	6eUKZXaKkcviH0Ku9w2n3V	3T4tUhGYeRNVUGevb0wThu	Perfect	86
+3rmo8F54jFF8OgYsqTxm5d	6eUKZXaKkcviH0Ku9w2n3V	32iAEBstCjauDhyKpGjTuq	Bad Habits	86
+50nfwKoDiSYg8zOCREWAm5	6eUKZXaKkcviH0Ku9w2n3V	32iAEBstCjauDhyKpGjTuq	Shivers	86
+7qiZfU4dY1lWllzX7mPBI3	6eUKZXaKkcviH0Ku9w2n3V	3T4tUhGYeRNVUGevb0wThu	Shape of You	85
+2DB4DdfCFMw1iaR6JaR03a	4nDoRrQiYLoBzwC5BhVJzF	4urxMitPAkjyey14LeuWSX	Bam Bam (feat. Ed Sheeran)	80
+6fxVffaTuwjgEk5h9QyRjy	6eUKZXaKkcviH0Ku9w2n3V	6NoBzYmh5gUusGPCfg0pct	Photograph	65
+4zrKN5Sv8JS5mqnbVcsul7	6eUKZXaKkcviH0Ku9w2n3V	2W5VVBPNkGAduaArE4sX29	Celestial	84
+1Slwb6dOYkBlWal1PGtnNg	6eUKZXaKkcviH0Ku9w2n3V	6NoBzYmh5gUusGPCfg0pct	Thinking out Loud	64
+0HaRLPnr887lcQM2YQzkff	3wcj11K77LjEY1PkEazffa	6kgDkAupBVRSqbJPUaTJwQ	For My Hand (feat. Ed Sheeran)	82
+2RttW7RAu5nOAfq6YFvApB	6eUKZXaKkcviH0Ku9w2n3V	3T4tUhGYeRNVUGevb0wThu	Happier	79
 0ct6r3EGTcMLPtrXHDvVjc	1vCWHaC5f2uS3yhpwWbIA6	0h2knr6qpiAq0tV5ri5JMF	The Nights	85
 0nrRP2bk19rLc0orkWPQk2	1vCWHaC5f2uS3yhpwWbIA6	2H6i2CrWgXE1HookLu8Au0	Wake Me Up	84
 2P4OICZRVAQcYAV2JReRfj	1vCWHaC5f2uS3yhpwWbIA6	7dqftJ3kas6D0VAdmt3k3V	Waiting For Love	80
@@ -6880,6 +9288,16 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 1DWZUa5Mzf2BwzpHtgbHPY	4LLpKhyESsyAXpc4laK94U	5sY6UIQ32GqwMLAfSNEaXb	Good News	74
 01z2fBGB8Hl3Jd3zXe4IXR	4LLpKhyESsyAXpc4laK94U	5wtE5aLX5r7jOosmPhJhhk	Come Back to Earth	74
 5iUQMwxUPdJBFeGkePtM66	4LLpKhyESsyAXpc4laK94U	6f6tko6NWoH00cyFOl4VYQ	Dang! (feat. Anderson .Paak)	72
+3ymSzAIqvWTxKYD0BBODbH	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	A Maré a Maré	24
+6nAYtpcRsku5JoBUhXk5EA	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	Hoje Me Leva	21
+2hsjrCNUjG5vPLN2IcigtS	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	Amor É Meu Amor	21
+32eVHUmKEixGAX4hdNj5pR	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	O Vento Levou o Mar	19
+2rCB7ynjLw7iD1ZOI5zXvC	5r4anprO9Hg9CBlmdkwFdE	0iyPnXukC40URPczeXVvha	Movido Pela Capoeira	18
+6hlxA75xLIaazYhqjFAGXq	5r4anprO9Hg9CBlmdkwFdE	5V5iUFc3nj3Y92QeHzWGfH	Chora Berimbau Viola	18
+0OCFtx3jwLYfGxZ6Wcn7Aj	5r4anprO9Hg9CBlmdkwFdE	2cX8LwExMxThOI19CdW8cX	Arte e Luta	18
+1WgOf7lU1lGH7wHsam8rCH	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	Eu Levo a Vida	17
+36yAonKXZwKGJ6YVtkITRT	5r4anprO9Hg9CBlmdkwFdE	2cX8LwExMxThOI19CdW8cX	Sonho Lindo	15
+4NCwg4UvOsir3Vvozx0QFM	5r4anprO9Hg9CBlmdkwFdE	2cX8LwExMxThOI19CdW8cX	Já Quer Correr	13
 7kdyc52WSOnaYetBSS4mE5	6Q1ggxOPVDbMyqlhv0tmT4	2BxVymXnPiWgxA8k6PWqCS	Brilha o Mundo	16
 5edZrk1cC6VFtlryFT0QDx	6Q1ggxOPVDbMyqlhv0tmT4	2BxVymXnPiWgxA8k6PWqCS	Medo da Mare	15
 61qCCgptAHVqP8DLzDdDWS	6Q1ggxOPVDbMyqlhv0tmT4	2BxVymXnPiWgxA8k6PWqCS	Deus Sem Você	10
@@ -6896,16 +9314,18 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 7eiI2R22MxDNVLN7S9VqVH	1AldSIJ8ANuZVbjKIhpKKq	7b1LmekvPCy9410bKFoMRS	Puxada de Rede	20
 2xmOKduEJr0OwXim7ngrGG	1AldSIJ8ANuZVbjKIhpKKq	2MQvu0dayEtaR5Y2uxX056	Axé	19
 4cy68Rp4tdkCVoo8lj30F5	1AldSIJ8ANuZVbjKIhpKKq	3kUdjvoJpl53A2BLu56OvA	Chico Parauê	19
+6Sm4XdGI7GhHG7sjVcVrI2	1AldSIJ8ANuZVbjKIhpKKq	6FdbVYfwhJjaUOzYB7J9Uj	Capoeira Não Pode Parar	13
 6wiM5H4NW3WIOBoXhQ4dj9	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Branca	3
 77QQcQ7wIeaKL6Qs7Xxd08	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Potpourri 2	2
 3ATP7JXuBSLUXkZqzRYFoC	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Menino Danado	2
 3OevO7P8qXFaxB5R6GIfn0	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Potpourri 1	1
 1CimagjBZShN4Tju88HJZ0	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Capoeira Besouro Convite	1
 5iUP22DajCVfhuesgQT8Cz	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	A Minha História	1
-15uf8cMOumUbwio2InLSRD	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Dito Popular	1
 2y1Zu0XQcOmX90TCj1q40v	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Na Palma da Mão	1
+15uf8cMOumUbwio2InLSRD	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Dito Popular	1
 2bSnBMXCNPP7WyGoCzDGc8	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Besouro Capoeira	1
 0OpfYRVsgQ9LHX8oLtkMLO	0I11U609NiFEdpvNix7oNl	1nLj3uvuO1twD5Vzp1tQyh	Mandingueiro Viajante	1
+02a8cGumnKuEPgoCzmalJp	7HGNYPmbDrMkylWqeFCOIQ	4HCs1WxdaCTb8S1TlgUG9C	Sozinho - Ao Vivo	63
 0hQbovQO5Cui5Imze8Q3oo	7HGNYPmbDrMkylWqeFCOIQ	4UOAwKUc79FtTSK6NmRFB3	Voce E Linda - Remixed Original Album	57
 1wuB9MID26ep43OlkOtBXd	1b8kpp4DUwt1hWaxTiWQhD	5ZVLLME05cmciSZz4IGcZu	Que Pena (Ele Já Não Gosta Mais De Mim)	55
 0C13P4IghHNFPjt4zIJ8vX	1b8kpp4DUwt1hWaxTiWQhD	5ZVLLME05cmciSZz4IGcZu	Baby	55
@@ -6924,11 +9344,23 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 16G3MldzNlwg0Z5f3QqgqD	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	A morte do capoeira	26
 1Zv4IM34qfZDUAXphMsgKy	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Luana é	25
 4MGnJCU8aFXT6LzQ7WHOzE	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Capoeira de são salvador	24
-4P2SJB4mGJ0DpusrKbrGBV	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Cânticos de capoeira	22
-0OCFtx3jwLYfGxZ6Wcn7Aj	5r4anprO9Hg9CBlmdkwFdE	2cX8LwExMxThOI19CdW8cX	Arte e Luta	18
-1WgOf7lU1lGH7wHsam8rCH	5r4anprO9Hg9CBlmdkwFdE	3w8hDKDqyNFKwTuB2G15Sk	Eu Levo a Vida	17
-36yAonKXZwKGJ6YVtkITRT	5r4anprO9Hg9CBlmdkwFdE	2cX8LwExMxThOI19CdW8cX	Sonho Lindo	15
-4NCwg4UvOsir3Vvozx0QFM	5r4anprO9Hg9CBlmdkwFdE	2cX8LwExMxThOI19CdW8cX	Já Quer Correr	13
+4P2SJB4mGJ0DpusrKbrGBV	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Cânticos de capoeira	23
+0iSPxBpIugjKUCtaA09lJ9	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Pisa caboclo	21
+4KWBI1Wahst6TL5nCtdYco	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	São bento grande	20
+7jqm2nYr4bgr5k3mPdO3Of	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Iúna	20
+77nHLoT85IkKuq8f0HOerE	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Areia do mar - Samba de roda	20
+2vI5ny3qb8S3sXdlxMl5P0	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Cavalaria	19
+28UlfpwBBPTpvu9nsgHp2g	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Quando eu morrer, disse bezouro	16
+1fEGtTZjrjJW8eUeewnNJR	4M5nCE77Qaxayuhp3fVn4V	3fzjXU2SSKero9gVMcPivX	Flightless Bird, American Mouth	68
+5JEM7lT9uSyhUsKFXwGfSm	4M5nCE77Qaxayuhp3fVn4V	5NovnTHEYZjadICACf4yPo	Time After Time	65
+1MxHIIzcTeFnaNsDGY3pfj	4M5nCE77Qaxayuhp3fVn4V	33zayrSBdboyCyGTjtQrsw	Call It Dreaming	62
+6HbxpoChDH9ThadFOSAnma	4M5nCE77Qaxayuhp3fVn4V	7HsQnwEa1RXoPanfrRPbb3	Autumn Town Leaves	61
+6UIxGIqWlO5wsddY44AV1R	4M5nCE77Qaxayuhp3fVn4V	169vCBCFaW2na816P8Ir7m	Naked as We Came	61
+0QYgtwYCftkAqunXmvkZtr	1EI0NtLHoh9KBziYCeN1vM	6Q7WssoFXDJoqNEkn8LnWN	Forever Young - From NBC's Parenthood	57
+6dDxgfvM8pJm7AzmLZB1nN	4M5nCE77Qaxayuhp3fVn4V	5tOzXq44rU4yCCVY94f6m7	Such Great Heights	56
+7dP4k5nDDwI1qMDoz5m0f6	4M5nCE77Qaxayuhp3fVn4V	0jMBAo2pk2cEE0aJ3WseMl	This Must Be The Place	53
+2xa9PoO42d7VjT0KqG5d3I	4M5nCE77Qaxayuhp3fVn4V	169vCBCFaW2na816P8Ir7m	Each Coming Night	52
+6iw32k0OUKHildYsQTRnVB	4M5nCE77Qaxayuhp3fVn4V	1iGIqDBXm5HpTqHCvdc4QP	Flightless Bird, American Mouth - Wedding Version	46
 0xta6Gah3inmeHbj0e3F9a	6aaMZ3fcfLv4tEbmY7bjRM	6TQ8nqw43uUOWu7Yqp58ko	Headshots (4r Da Locals)	66
 6BiCjPFN5rM9JPy5eP5mCs	6aaMZ3fcfLv4tEbmY7bjRM	6TQ8nqw43uUOWu7Yqp58ko	RIP Young	66
 2RPbEp0DyBVlkRvvYKopO7	6aaMZ3fcfLv4tEbmY7bjRM	6jjX8mGrsWtrpYpFhGMrg1	Wat's Wrong (feat. Zacari & Kendrick Lamar)	65
@@ -6945,7 +9377,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 6nkyoFpw96gRuCto4B8uzw	7hi7sNBb4AWmzHRjFCs94V	6kAQmWSprYKeBpSEVC4dxa	Besouro	25
 4VPVkg5yKgMKH4LczJEHwH	7hi7sNBb4AWmzHRjFCs94V	6kAQmWSprYKeBpSEVC4dxa	Pastinha Tem Dois Meninos	25
 0mALRdpqjWgYqT6psEvCRo	7hi7sNBb4AWmzHRjFCs94V	6kAQmWSprYKeBpSEVC4dxa	A Àgua do Rio Invadiu o Mar	25
-3wJOOOjEuoF7JLwZASAr3U	7hi7sNBb4AWmzHRjFCs94V	6kAQmWSprYKeBpSEVC4dxa	Sinha e Meu Boi	24
+3wJOOOjEuoF7JLwZASAr3U	7hi7sNBb4AWmzHRjFCs94V	6kAQmWSprYKeBpSEVC4dxa	Sinha e Meu Boi	25
 1I9hUdCQaLcdQr9MtqY20k	7hi7sNBb4AWmzHRjFCs94V	6kAQmWSprYKeBpSEVC4dxa	Venha, Senta Aí	23
 3FhJkEJjDb54FGauk92KBl	7hi7sNBb4AWmzHRjFCs94V	6kAQmWSprYKeBpSEVC4dxa	Delegado Me Intimou	22
 6x4IkaBTb9UN2TkF0Z5eYL	7hi7sNBb4AWmzHRjFCs94V	6kAQmWSprYKeBpSEVC4dxa	Nego Nago	22
@@ -6954,7 +9386,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4gbVRS8gloEluzf0GzDOFc	04gDigrS5kc9YWfZHwBETP	2Auw0pTT6EcQdvHNimhLQI	Maps	83
 5zFglKYiknIxks8geR8rcL	04gDigrS5kc9YWfZHwBETP	1pCA38N6MkLlthXtAOvZTU	Beautiful Mistakes (feat. Megan Thee Stallion)	80
 2iuZJX9X9P0GKaE93xcPjk	04gDigrS5kc9YWfZHwBETP	2Auw0pTT6EcQdvHNimhLQI	Sugar	80
-2bL2gyO6kBdLkNSkxXNh6x	04gDigrS5kc9YWfZHwBETP	2Auw0pTT6EcQdvHNimhLQI	Animals	79
+2bL2gyO6kBdLkNSkxXNh6x	04gDigrS5kc9YWfZHwBETP	2Auw0pTT6EcQdvHNimhLQI	Animals	80
 6ECp64rv50XVz93WvxXMGF	04gDigrS5kc9YWfZHwBETP	5zClcGCSWj926AMjvBNSLc	This Love	79
 7LcfRTgAVTs5pQGEQgUEzN	04gDigrS5kc9YWfZHwBETP	7strNUlU6xZqlVWBNUdOYv	Moves Like Jagger - Studio Recording From "The Voice" Performance	70
 4llK75pXNWZz6KAho2Gp16	04gDigrS5kc9YWfZHwBETP	5zClcGCSWj926AMjvBNSLc	She Will Be Loved - Radio Mix	78
@@ -6970,14 +9402,14 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 5iWX0JLUmdOdxl8IwWVoLB	6BIltkF2V7p0PHLtUyc7re	0RnMuJpfEHHq0yDpSP6K48	Quem Quiser Saber de Mim	19
 6Gh4DYlRKid8w5zNbR8M98	5h6l7v8Ecxw1BKVBLrjFfE	13XcJE12Oyc3N9g7LZFCRu	Sou Filho da Torre Alta - Ao Vivo	18
 1S1bZVv8sqYY39S6KWchuk	5zfEatKLDdRkgbw6sdLBAQ	7KsMCyObKQhX37pocZEUcQ	Papi Chulo	66
-3Hha9pVZsWGwQiFKvsMrwS	39XT9gMoNmMCOlvTTR273m	1kiTzXHYN9CC5BfKrkjKbT	Warm - Remix	65
+3Hha9pVZsWGwQiFKvsMrwS	39XT9gMoNmMCOlvTTR273m	1kiTzXHYN9CC5BfKrkjKbT	Warm - Remix	66
 11RIJRbBfyLlJut96itSFd	2p1fiYHYiXz9qi0JJyxBzN	6c2FMAZeFKi8pui6dlZqXB	Energy (Stay Far Away)	64
-0Z5HVNSXGXHf7MDb0zJHVW	3tVQdUvClmAT7URs9V3rsp	73rKiFhHZatrwJL0B1F6hY	Wow (feat. Skepta & Naira Marley)	63
+0Z5HVNSXGXHf7MDb0zJHVW	3tVQdUvClmAT7URs9V3rsp	73rKiFhHZatrwJL0B1F6hY	Wow (feat. Skepta & Naira Marley)	64
 3nG784YlxS4VQOF0qiHKVP	2p1fiYHYiXz9qi0JJyxBzN	22zpCX6Nb9ppOVklalvGec	Greaze Mode	62
 44GokgCa37BTZP2NU2zkoJ	2p1fiYHYiXz9qi0JJyxBzN	6s4vWWWxNrGcKhrOFYRZzk	Shutdown	61
 2Jy4EdqIZswDZvVDh5dx3A	3NbqBIc16CNAe5nYSmHR3p	0Zp33hB1LZhbpMQCNfzeVF	Dimension (feat. Skepta & Rema)	61
 3tTDOodJcr6vKF2DASlwMZ	2p1fiYHYiXz9qi0JJyxBzN	6s4vWWWxNrGcKhrOFYRZzk	That's Not Me	59
-4DmgUMnnCw27Tu5Jvqhm1n	2p1fiYHYiXz9qi0JJyxBzN	22zpCX6Nb9ppOVklalvGec	What Do You Mean?	57
+0kmxWw7KjktV4V1ZpbOeru	2p1fiYHYiXz9qi0JJyxBzN	22zpCX6Nb9ppOVklalvGec	Glow In The Dark	57
 6tTsNfuUnA8JbGY8GvupSt	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	Lá Na Bahia	16
 45uq0gzKNTbLQz9vNJCnff	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	Não É Brincadeira	3
 4zMROpckk80sLKjw6tkawT	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	Livre Como Vento	3
@@ -6985,43 +9417,11 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 3C20qDtHYaVtofa6LhzNa1	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	O Segredo da Ginga	2
 1Dpy0E104inl2X65Ql3Y6V	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	Aruanda	2
 3ji7Cq0BDAyOZqeRJpDzie	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	O Berimbau Chorou	1
-5tW7ndPplZCfvI1MOHHUmu	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	É Valente	1
+5tW7ndPplZCfvI1MOHHUmu	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	É Valente	0
+0EzVzowY6rIB8VpiLLsRYK	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	Samba de Roda	0
 2b8YEV18sPCRStHLIK3aUg	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	Banguela	0
-7ssZ5w8Hl0WMK5uH1oJm3R	7qJAk8CiXUgDPPUF3REKr2	78AINSlgE7iolq1bmGfBCH	Um Sentimento	0
 26qUQwpITcSERRQHKoAOVC	5SKEXbgzIdRl3gQJ23CnUP	57XEL26edJ9dAhxH9thg20	Paranauê - Bonus Track	27
 48cO0bR6orzUT4csoMLNNn	5SKEXbgzIdRl3gQJ23CnUP	57XEL26edJ9dAhxH9thg20	Maré da Beira Mar	20
-0iSPxBpIugjKUCtaA09lJ9	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Pisa caboclo	21
-4KWBI1Wahst6TL5nCtdYco	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	São bento grande	20
-7jqm2nYr4bgr5k3mPdO3Of	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Iúna	20
-77nHLoT85IkKuq8f0HOerE	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Areia do mar - Samba de roda	20
-2vI5ny3qb8S3sXdlxMl5P0	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Cavalaria	19
-28UlfpwBBPTpvu9nsgHp2g	6xQwC94a61f3bZwyl4UJXD	21qADgVDiEKEITcniQYFRW	Quando eu morrer, disse bezouro	15
-1fEGtTZjrjJW8eUeewnNJR	4M5nCE77Qaxayuhp3fVn4V	3fzjXU2SSKero9gVMcPivX	Flightless Bird, American Mouth	68
-5JEM7lT9uSyhUsKFXwGfSm	4M5nCE77Qaxayuhp3fVn4V	5NovnTHEYZjadICACf4yPo	Time After Time	64
-1MxHIIzcTeFnaNsDGY3pfj	4M5nCE77Qaxayuhp3fVn4V	33zayrSBdboyCyGTjtQrsw	Call It Dreaming	62
-6HbxpoChDH9ThadFOSAnma	4M5nCE77Qaxayuhp3fVn4V	7HsQnwEa1RXoPanfrRPbb3	Autumn Town Leaves	61
-6UIxGIqWlO5wsddY44AV1R	4M5nCE77Qaxayuhp3fVn4V	169vCBCFaW2na816P8Ir7m	Naked as We Came	61
-0QYgtwYCftkAqunXmvkZtr	1EI0NtLHoh9KBziYCeN1vM	6Q7WssoFXDJoqNEkn8LnWN	Forever Young - From NBC's Parenthood	57
-6dDxgfvM8pJm7AzmLZB1nN	4M5nCE77Qaxayuhp3fVn4V	5tOzXq44rU4yCCVY94f6m7	Such Great Heights	56
-7dP4k5nDDwI1qMDoz5m0f6	4M5nCE77Qaxayuhp3fVn4V	0jMBAo2pk2cEE0aJ3WseMl	This Must Be The Place	53
-2xa9PoO42d7VjT0KqG5d3I	4M5nCE77Qaxayuhp3fVn4V	169vCBCFaW2na816P8Ir7m	Each Coming Night	52
-6iw32k0OUKHildYsQTRnVB	4M5nCE77Qaxayuhp3fVn4V	1iGIqDBXm5HpTqHCvdc4QP	Flightless Bird, American Mouth - Wedding Version	46
-5tt394udRU89Pn2s3qPGaQ	1gIa65d5ICT2xVWiUJ3u27	5EatIo50si8CoN3ARke59W	Vai (Menina Amanhã de Manhã)	47
-4tTZq61IKisspn9NhoJtYn	1gIa65d5ICT2xVWiUJ3u27	0hEDr5IFbF4mZBHffTZl61	Jimmy, Renda-Se	40
-6A7bFw2HCDcINCCQc8YrMb	1gIa65d5ICT2xVWiUJ3u27	2jOgajtpXNsinBpwg2dUjH	Vai (Menina amanhã de manhã)	40
-3wyElammb2nsBW3C9fAkIk	1gIa65d5ICT2xVWiUJ3u27	40jH4AC1hwNv8DpLqqLeK9	Xiquexique	38
-5kl98MGNOGnEeFCu4yjq9e	1gIa65d5ICT2xVWiUJ3u27	4g9eq1iulwITLm6N0xttpW	Menina, amanha de manha - O sonho voltou	38
-5fwEN7ftDTrqTpxOwadeIX	1gIa65d5ICT2xVWiUJ3u27	3bHozwj5kK03Wk7vXyzqup	Lá Vem a Onda	37
-1mCNkrKh9NEgxJWUqHnEgo	4Lm0pUvmisUHMdoky5ch2I	728y0VvMcIuamGmKhDpa6X	Not Strong Enough	61
-1WxF4gMsFXnKCyh48CW2RI	4Lm0pUvmisUHMdoky5ch2I	1rmhml18o2KDLUpYMXq6VQ	I Don't Care	59
-1JrtC2ubRFV2xB79J3UY1Z	4Lm0pUvmisUHMdoky5ch2I	1rcVwAd9FXK9ONouJVeRSF	I'm Not Jesus - International Version	58
-3bAoghFUTVwGYXYnzRqhCf	4Lm0pUvmisUHMdoky5ch2I	3SZrExQkv0QGbNV9MJUna0	I Don't Care - US Version	57
-00i9VF7sjSaTqblAuKFBDO	4Lm0pUvmisUHMdoky5ch2I	3W8ep9kCGVEf5TLFtRRB2T	Talk To Me (feat. Lzzy Hale)	52
-6Tkzu1nvzb5tHVsjiu8IDF	4Lm0pUvmisUHMdoky5ch2I	728y0VvMcIuamGmKhDpa6X	End of Me	52
-3uErbNGaNIPJkRlMrLxR9Z	4Lm0pUvmisUHMdoky5ch2I	6leqa6QQESn76w64IdN9yQ	Nothing Else Matters	52
-2mPpPlCJKhjojKylWEs4ZC	4Lm0pUvmisUHMdoky5ch2I	728y0VvMcIuamGmKhDpa6X	Broken Pieces	51
-2a8ND713OfNIdlJD1p8jB3	2xiIXseIJcq3nG7C8fHeBj	4drZZN0HTkJzcdlPmmQyqG	Someone To Talk To (feat. Apocalyptica)	50
-6W4pRJhZhyO3rz9vTITKRB	3o2dn2O0FCVsWDFSh8qxgG	3slBXddUn27FSk2rOB1Uy1	Angels Calling	47
 3LldLxInVpaT0AgIDpn4vw	5SKEXbgzIdRl3gQJ23CnUP	57XEL26edJ9dAhxH9thg20	Paranuê Pomba Voou - Bonus Track	16
 3G2r49FbOhh7osxOwLFFBX	5SKEXbgzIdRl3gQJ23CnUP	57XEL26edJ9dAhxH9thg20	Zoom Zoom Zoom	16
 7Li7QfaykOzZn1M2kExVft	5SKEXbgzIdRl3gQJ23CnUP	57XEL26edJ9dAhxH9thg20	Capoeria Funk Carioca	15
@@ -7029,17 +9429,17 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 7rgjTkoEzielkTQH5txOTC	5SKEXbgzIdRl3gQJ23CnUP	34IaQdgkecjJn1XuFGb1kF	Potpourri 2	12
 49Pbi6nYfpkBZLjLE41LW8	5SKEXbgzIdRl3gQJ23CnUP	57XEL26edJ9dAhxH9thg20	Marinheiro D&B	9
 4zegu7nLeNfg61wxkOMY8C	5SKEXbgzIdRl3gQJ23CnUP	23xCA877rpNuH1YOehpm3Q	Santa Maria Bossa	9
-1IGh7ZesvXXgiNlViqVqh8	5SKEXbgzIdRl3gQJ23CnUP	57XEL26edJ9dAhxH9thg20	O Canto do Berimbau	8
+1IGh7ZesvXXgiNlViqVqh8	5SKEXbgzIdRl3gQJ23CnUP	57XEL26edJ9dAhxH9thg20	O Canto do Berimbau	9
 2M2itA0spt6ZXit7l21WMJ	1cIz2h3ERs72r60yw78Deu	1YTS3nXEQvTSKnJK8ccN0C	Lights Go Down	61
 0c7OcnAQz6H3IIzQA3MP6C	1cIz2h3ERs72r60yw78Deu	7DrcBhY34PI4wgF16iY2E5	More To Give	43
 7xonaZK7T4Z18vpx8LMNV2	1cIz2h3ERs72r60yw78Deu	3FGBDhlwrAPNv486sGmYSS	Exhale	42
 7lrPlOCR3zXpXR9ZNHAOkX	1cIz2h3ERs72r60yw78Deu	2m9mAypAFaG33u60S6fYWJ	You'll Be There	40
 6SmvawO0Gp3P6B7b1A9dme	1cIz2h3ERs72r60yw78Deu	073ct5hRKoMoyYgTtZ6omK	Movies	38
 18K5KELzE7eOlNSJK331T5	1cIz2h3ERs72r60yw78Deu	5pNSuaEliVDmgJEWZoopSh	Planes	35
+44Yt3A3eD9WuFpSAMNcN9M	1cIz2h3ERs72r60yw78Deu	5XoxmvsEqRrsHMooW6DLyx	Comply	34
 22gwoAmeEcuEXRykQYkCEg	1cIz2h3ERs72r60yw78Deu	5r1COi4fv9t1woJqdnfz3A	Like Me	34
 3PdwZoy7TJcPGw7GI8GI4u	1cIz2h3ERs72r60yw78Deu	7vNlIGuuwVCwO4YhDojVdx	More To Give - VIP	34
-44Yt3A3eD9WuFpSAMNcN9M	1cIz2h3ERs72r60yw78Deu	5XoxmvsEqRrsHMooW6DLyx	Comply	34
-6dB6hoCnZMh8HHnDwC6uzq	4CrK2BAeyd3DIt2M2ELPJ4	78AINSlgE7iolq1bmGfBCH	No Clarão	14
+6dB6hoCnZMh8HHnDwC6uzq	4CrK2BAeyd3DIt2M2ELPJ4	78AINSlgE7iolq1bmGfBCH	No Clarão	13
 3UJi2gDm3F83DzoKpXQmK6	4CrK2BAeyd3DIt2M2ELPJ4	78AINSlgE7iolq1bmGfBCH	Adeus Adeus	13
 5nD10SsobH1vinpLywA2v0	4CrK2BAeyd3DIt2M2ELPJ4	78AINSlgE7iolq1bmGfBCH	Quero Ver Cair	10
 0SaX3d0lQxVk10l0BogLm6	4CrK2BAeyd3DIt2M2ELPJ4	78AINSlgE7iolq1bmGfBCH	Capoeira Matou Um	4
@@ -7071,7 +9471,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4NEAoEh4hZF1Tgp1QXrUHC	4ERtgeBbWRkFzIz6LaFCeY	0qByP4IV1nNHhLs3RfDrGB	Heart Beat Here	47
 1w5dZMSwIM242ymwTv0PAi	7FngGIEGgN3Iwauw1MvO4P	0pPPbYqZd2Qtf5kqrQNKue	Hopes Up (feat. Dashboard Confessional)	45
 7jvp8DZy7FtHeXdN1k8w2s	4ERtgeBbWRkFzIz6LaFCeY	7r7aUbWwuf3y0GY5ZUsQeW	Belle Of The Boulevard	45
-2zpXEpZbAgQdhNyy6iwPwZ	4ERtgeBbWRkFzIz6LaFCeY	17z7tsbs0gZi7ASeae9saS	Circles - Recorded at Electric Lady Studios NYC, 2020	42
+2zpXEpZbAgQdhNyy6iwPwZ	4ERtgeBbWRkFzIz6LaFCeY	17z7tsbs0gZi7ASeae9saS	Circles - Recorded at Electric Lady Studios NYC, 2020	43
 3aouFaljxig7RLEmPLFtnj	70TsVY28EcEUYSGG5Yw7mp	2TEE1RnUqjfSdOK5gxuswa	Bittersweet (Feat. Dashboard Confessional)	42
 45pUWUeEWGoSdH6UF162G8	3TVXtAsR1Inumwj472S9r4	5MS3MvWHJ3lOZPLiMxzOU6	Broke Boys	86
 0sSRLXxknVTQDStgU1NqpY	3TVXtAsR1Inumwj472S9r4	5MS3MvWHJ3lOZPLiMxzOU6	Hours In Silence	85
@@ -7082,16 +9482,16 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 3kKbRNJmzSWdDgfKqJ9Eck	4dM6NDYSfLcspt8GLoT5aE	3ryK3lfTB9KcFC876ykgAy	Options	61
 6ZT3coOj97F6CVvruPtnox	4dM6NDYSfLcspt8GLoT5aE	2VmLk5bAd5QjLtX7cHm594	Your Soul	60
 4U9kJBr61UhO5srPib7zyz	4dM6NDYSfLcspt8GLoT5aE	3xdTckJjSyCfWePM4DrTOc	Running Miles	59
-3bjLA6ukBcGtvhe5tybxp7	4dM6NDYSfLcspt8GLoT5aE	6cbYPzA3cmYlQD0JqsOjEQ	Different	57
 0TxPln0uhql4ucFGk1XISM	4dM6NDYSfLcspt8GLoT5aE	3a6or8qwEaFtPZFhEWVOTQ	Wrong Time	57
+3bjLA6ukBcGtvhe5tybxp7	4dM6NDYSfLcspt8GLoT5aE	6cbYPzA3cmYlQD0JqsOjEQ	Different	57
 1DehtVbbTjUQjxGaXd5PnH	4dM6NDYSfLcspt8GLoT5aE	6cbYPzA3cmYlQD0JqsOjEQ	Drifter	57
 3EmNjy3zFszmAOCikiKxCd	1KEUVZo7CMTSJoM8doulOT	4t8bZNqNroLlMNj8p908VL	Bottom of a Bottle	56
-7GXxHj3tEDoJJbeoiAFL5H	1KEUVZo7CMTSJoM8doulOT	32vTTEq3dQDej4V6vdNQUd	songbird	46
 7ryIN2iKJiWvvIgEUAZieL	1KEUVZo7CMTSJoM8doulOT	6f25XUNJkOsTg5XrX32q0w	Don't Ever Leave	46
+7GXxHj3tEDoJJbeoiAFL5H	1KEUVZo7CMTSJoM8doulOT	32vTTEq3dQDej4V6vdNQUd	songbird	46
 5mMbj4tHHK7rKA5xsjpxgy	1KEUVZo7CMTSJoM8doulOT	0Weyfoz5UL4BaLmqjrwY2r	a storm is coming	45
 0hH4tifGuOUFfosHyWYksB	1KEUVZo7CMTSJoM8doulOT	32vTTEq3dQDej4V6vdNQUd	prophecy fulfilled	44
-6BAsBBihclKUFYHFgfblVs	1KEUVZo7CMTSJoM8doulOT	32vTTEq3dQDej4V6vdNQUd	denial	44
 5OSxX2OPiEN4Y9xmxVbCuV	1KEUVZo7CMTSJoM8doulOT	4t8bZNqNroLlMNj8p908VL	Silhouettes	44
+6BAsBBihclKUFYHFgfblVs	1KEUVZo7CMTSJoM8doulOT	32vTTEq3dQDej4V6vdNQUd	denial	43
 2WABC8g95w3gco43ssbnZS	1KEUVZo7CMTSJoM8doulOT	7ff2gTB2vu17vAN59nutfR	Manifesto	29
 7BwOeJFK3isNQjk0OSydYW	1KEUVZo7CMTSJoM8doulOT	35bHrnMSA8aZ0P5nemqhIp	Finding Myself	37
 4Th8cKZu3Cv86XkVy0MvEC	1KEUVZo7CMTSJoM8doulOT	601sChSWKcqDH4qXKLWHVq	False Alarm	37
@@ -7100,12 +9500,12 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 3DWaW63wUHFFd3uPb3zxOG	67p5GMYQZOgaAfx1YyttQk	2vAbN8GEBdXE0cX7pfOHxR	Marinheiro	2
 6wKFvNbzWbDYF3l8zhHG9Y	67p5GMYQZOgaAfx1YyttQk	30DksLC22nJQRff9cd32Kq	Finta na Ginga	0
 4c0sQihy8sC6seVq58flWk	67p5GMYQZOgaAfx1YyttQk	78AINSlgE7iolq1bmGfBCH	Santa Maria Bossa	1
-4GN2wb0tsbw6bYy547NVLz	67p5GMYQZOgaAfx1YyttQk	78AINSlgE7iolq1bmGfBCH	Capoeira Swing	0
 6OQbZkUt3lrAL5IxpnfWl2	67p5GMYQZOgaAfx1YyttQk	78AINSlgE7iolq1bmGfBCH	Berimbau Viola Soul	0
+4GN2wb0tsbw6bYy547NVLz	67p5GMYQZOgaAfx1YyttQk	78AINSlgE7iolq1bmGfBCH	Capoeira Swing	0
 76DHj55PsSlbUmBgtJFW19	67p5GMYQZOgaAfx1YyttQk	2vAbN8GEBdXE0cX7pfOHxR	Benguela Typhon	0
 78Vr6h9qESHnTkN60Uiyak	67p5GMYQZOgaAfx1YyttQk	78AINSlgE7iolq1bmGfBCH	São Bento's Journey	0
 1PNpMSjXiBDvcPGU72ZPPh	67p5GMYQZOgaAfx1YyttQk	2oFrL4aAUeQI9rHyUQ48bo	Angola Dream	0
-4DxRJQrvZOwj3qcw8M6buA	6dGRShw3EqULdxZl9EEJYv	6hzBCRXB9kFWZQJ7CJiUl2	Valor da Capoeira	31
+4DxRJQrvZOwj3qcw8M6buA	6dGRShw3EqULdxZl9EEJYv	6hzBCRXB9kFWZQJ7CJiUl2	Valor da Capoeira	32
 4mCBnL9grVQwl5CqBaWtfL	6dGRShw3EqULdxZl9EEJYv	2Af5jyVN1dvDTgeQGCFeVu	Paraneuê Paraná	30
 3vUKsxHqRk4QLXPTiZrLVP	6dGRShw3EqULdxZl9EEJYv	5yB1c8G5CYXZh3kE5Mu8I7	Balaio de Café	31
 4sjEulO9EpD7w41TaWx5Xr	6dGRShw3EqULdxZl9EEJYv	5yB1c8G5CYXZh3kE5Mu8I7	Essa Noite Eu Tive um Sonho	26
@@ -7131,10 +9531,15 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 4Xs7u89f7XGy4Ayr7qMJ9g	6qgc4bSHhzZxnJ01WDEAHt	0kh4iDfosdAu9wYYCWuADE	Quem Vem Lá	20
 23nUrTSlZxZcBepKnV1awN	6qgc4bSHhzZxnJ01WDEAHt	6p83U6vuMZYV1kkhUbyMIG	Ai Ai Ai Ai O Lelê	20
 36ZakwjewtzwQBkC3quEeI	6qgc4bSHhzZxnJ01WDEAHt	0kh4iDfosdAu9wYYCWuADE	África Brasil	19
-1OVkk2RSizr8K76vJ5I4fH	5ZfHVIBVoMg0VjgUBU0alH	208EfBvaP5XUYayo4jb2kA	Kalundu	24
+4tTZq61IKisspn9NhoJtYn	1gIa65d5ICT2xVWiUJ3u27	0hEDr5IFbF4mZBHffTZl61	Jimmy, Renda-Se	40
+6A7bFw2HCDcINCCQc8YrMb	1gIa65d5ICT2xVWiUJ3u27	2jOgajtpXNsinBpwg2dUjH	Vai (Menina amanhã de manhã)	40
+3wyElammb2nsBW3C9fAkIk	1gIa65d5ICT2xVWiUJ3u27	40jH4AC1hwNv8DpLqqLeK9	Xiquexique	38
+5kl98MGNOGnEeFCu4yjq9e	1gIa65d5ICT2xVWiUJ3u27	4g9eq1iulwITLm6N0xttpW	Menina, amanha de manha - O sonho voltou	38
+5fwEN7ftDTrqTpxOwadeIX	1gIa65d5ICT2xVWiUJ3u27	3bHozwj5kK03Wk7vXyzqup	Lá Vem a Onda	37
+1OVkk2RSizr8K76vJ5I4fH	5ZfHVIBVoMg0VjgUBU0alH	208EfBvaP5XUYayo4jb2kA	Kalundu	25
 3eylvPuZoAkWdifEKCa1oQ	5ZfHVIBVoMg0VjgUBU0alH	208EfBvaP5XUYayo4jb2kA	Brincando na roda	23
 1UYcrnSD8Rnoq2WF63bm1p	5ZfHVIBVoMg0VjgUBU0alH	00R7lDfWhAQcv72jlCni1P	Ladainha: Rei Zumbi dos Palmares	23
-5YHU5831C6bRvOa6CVCM06	5ZfHVIBVoMg0VjgUBU0alH	00R7lDfWhAQcv72jlCni1P	Ladainha: História do Mestre Pastinha	22
+5YHU5831C6bRvOa6CVCM06	5ZfHVIBVoMg0VjgUBU0alH	00R7lDfWhAQcv72jlCni1P	Ladainha: História do Mestre Pastinha	23
 5nB2JGElpjz3S1mvuRqtmt	5ZfHVIBVoMg0VjgUBU0alH	00R7lDfWhAQcv72jlCni1P	Rei Zumbi dos Palmares: Tim, Tim Lá Vai Viola	22
 5OHtcQ9E8yBPMkBJErXq2X	5ZfHVIBVoMg0VjgUBU0alH	00R7lDfWhAQcv72jlCni1P	Rei Zumbi dos Palmares: Côco no Dente	22
 3PiXFYaUEppQNIVd4oUHtm	5ZfHVIBVoMg0VjgUBU0alH	00R7lDfWhAQcv72jlCni1P	Retrato de Salvador: A Manteiga Derramou	21
@@ -7142,7 +9547,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 30HDhoUonXtlCNbCf0Ba2K	5ZfHVIBVoMg0VjgUBU0alH	00R7lDfWhAQcv72jlCni1P	Toques Tradicionais: Angola	20
 7yipsQk69cuYXLUhNfjVAI	5ZfHVIBVoMg0VjgUBU0alH	00R7lDfWhAQcv72jlCni1P	História do Mestre Pastinha: Chula	20
 27bGm75UZl3dAoAU7LNMia	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Luna	26
-17OgIIdvc0KymFYcor26Gq	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Eu Sou Capoeira	23
+17OgIIdvc0KymFYcor26Gq	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Eu Sou Capoeira	24
 6y9HlkxnspyN5oR72nq8fR	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Benguela	21
 2LujgCdmK3q7E1MUoQtqDQ	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Cantigas de Capoeira São Bento Grande de Angola	21
 0DOEEDHu8u8WibYECqV3jP	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Amazonas	20
@@ -7150,7 +9555,7 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 2pywyi09scGdkNi867SC5L	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Cantigas de Capoeira Regional	17
 2SE3og1vCHpzjeoCavKhAm	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Toques Tradicionais de Capoeira Regional, São Bento Grande	17
 2h57VIrvd8hOcN0y0Sys2v	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Santa Maria	17
-0CQjhFLfrrTjKqulms4Qdw	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Idalina	17
+0CQjhFLfrrTjKqulms4Qdw	5nJ5xDXFO4czh2gJ9f4wto	3birV9Fqgob9yiPaz2cQ8u	Idalina	16
 4Jm9RwZ2C46J06ARRllUs5	5sEDTHJJyDEWVFx99hGSIb	4gecrZPdDxMlVxBtpobpxr	Thor: Ragnarok	46
 6ksqO0S2mvvwpyMhVpVYFx	5sEDTHJJyDEWVFx99hGSIb	4gecrZPdDxMlVxBtpobpxr	What Heroes Do	37
 646yYgVW5sZWJloaGEW728	5sEDTHJJyDEWVFx99hGSIb	4gecrZPdDxMlVxBtpobpxr	Ragnarok Suite	36
@@ -7171,6 +9576,16 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 0gs7nB5nWGLx80u4Xmhdaq	1K9pNfOfxZFfbEgoOmjV13	4BtGSQwvM9K67Gx9VanBFy	Santo Antonio É Protetor	15
 67bdhgDvzzWeoXwe3Nd2dM	1K9pNfOfxZFfbEgoOmjV13	4BtGSQwvM9K67Gx9VanBFy	Pisei na Folha Seca	15
 1ACxSxd20k2neg8hmUp01j	1K9pNfOfxZFfbEgoOmjV13	4BtGSQwvM9K67Gx9VanBFy	Ave Maria Meu Deus	15
+1mCNkrKh9NEgxJWUqHnEgo	4Lm0pUvmisUHMdoky5ch2I	728y0VvMcIuamGmKhDpa6X	Not Strong Enough	61
+1WxF4gMsFXnKCyh48CW2RI	4Lm0pUvmisUHMdoky5ch2I	1rmhml18o2KDLUpYMXq6VQ	I Don't Care	59
+1JrtC2ubRFV2xB79J3UY1Z	4Lm0pUvmisUHMdoky5ch2I	1rcVwAd9FXK9ONouJVeRSF	I'm Not Jesus - International Version	58
+3bAoghFUTVwGYXYnzRqhCf	4Lm0pUvmisUHMdoky5ch2I	3SZrExQkv0QGbNV9MJUna0	I Don't Care - US Version	57
+00i9VF7sjSaTqblAuKFBDO	4Lm0pUvmisUHMdoky5ch2I	3W8ep9kCGVEf5TLFtRRB2T	Talk To Me (feat. Lzzy Hale)	52
+3uErbNGaNIPJkRlMrLxR9Z	4Lm0pUvmisUHMdoky5ch2I	6leqa6QQESn76w64IdN9yQ	Nothing Else Matters	52
+6Tkzu1nvzb5tHVsjiu8IDF	4Lm0pUvmisUHMdoky5ch2I	728y0VvMcIuamGmKhDpa6X	End of Me	52
+2mPpPlCJKhjojKylWEs4ZC	4Lm0pUvmisUHMdoky5ch2I	728y0VvMcIuamGmKhDpa6X	Broken Pieces	51
+2a8ND713OfNIdlJD1p8jB3	2xiIXseIJcq3nG7C8fHeBj	4drZZN0HTkJzcdlPmmQyqG	Someone To Talk To (feat. Apocalyptica)	50
+6W4pRJhZhyO3rz9vTITKRB	3o2dn2O0FCVsWDFSh8qxgG	3slBXddUn27FSk2rOB1Uy1	Angels Calling	47
 5QZKcQDp0tCcvMdyqEciBV	1MXZ0hsGic96dWRDKwAwdr	2PFiZ23ZyPTcgwmXk4X6o0	Tommy Lee (feat. Post Malone)	67
 5DPASDOoVakOcD8EIhb46T	1MXZ0hsGic96dWRDKwAwdr	0imwCieoxougGmptrN1WAx	High Right Now (feat. Wiz Khalifa) - Remix	65
 341lTIxmhybbQsgydwJiFx	1MXZ0hsGic96dWRDKwAwdr	0ntJqUFZt7XQmRycj6typz	Stuntin' On You (feat. DaBaby)	64
@@ -7189,8 +9604,9 @@ COPY public.tracks (track_id, artist_id, album_id, name, popularity) FROM stdin;
 --
 
 COPY public.users (user_id, display_name, profile_photo, created, last_login) FROM stdin;
-12163992542	Christina	https://i.scdn.co/image/ab6775700000ee854734dc6670bfaaed615b7edf	1668750205	1668750205
-the_real_wjdhollow	the_real_wjdhollow	https://i.scdn.co/image/ab6775700000ee85d1872696f7133856770fdc4c	1668750259	1668750259
+the_real_wjdhollow	the_real_wjdhollow	https://i.scdn.co/image/ab6775700000ee85d1872696f7133856770fdc4c	1668819796	1668819796
+robyndanylla	Robyn Learned	https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=177751589902552&height=300&width=300&ext=1671396934&hash=AeSxx6jOUUmSi-DhUO4	1668825793	1668827478
+12163992542	Christina	https://i.scdn.co/image/ab6775700000ee854734dc6670bfaaed615b7edf	1668816679	1669168111
 \.
 
 
@@ -7198,21 +9614,21 @@ the_real_wjdhollow	the_real_wjdhollow	https://i.scdn.co/image/ab6775700000ee85d1
 -- Name: artists_genres_id_seq; Type: SEQUENCE SET; Schema: public; Owner: cnicosia
 --
 
-SELECT pg_catalog.setval('public.artists_genres_id_seq', 1021, true);
+SELECT pg_catalog.setval('public.artists_genres_id_seq', 1377, true);
 
 
 --
 -- Name: friends_friend_id_seq; Type: SEQUENCE SET; Schema: public; Owner: cnicosia
 --
 
-SELECT pg_catalog.setval('public.friends_friend_id_seq', 1, false);
+SELECT pg_catalog.setval('public.friends_friend_id_seq', 4, true);
 
 
 --
 -- Name: items_id_seq; Type: SEQUENCE SET; Schema: public; Owner: cnicosia
 --
 
-SELECT pg_catalog.setval('public.items_id_seq', 555, true);
+SELECT pg_catalog.setval('public.items_id_seq', 931, true);
 
 
 --

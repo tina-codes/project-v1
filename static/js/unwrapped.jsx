@@ -88,14 +88,22 @@ function ItemDetails(props) {
 
     return (
         <React.Fragment>
-            <h6>{props.displayText}</h6>
-            <div id="details" className="detailDisplay">
-            <p>Popularity: {Math.round(props.popularity)} | Loudness: {Math.round(props.loudness)} | Tempo: {Math.round(props.tempo)} BPM</p>
-            <p>Time Signature: {Math.round(props.timeSignature)}/4 | Key: {pitch} | Mode: {mode}</p>
-            <p>Duration: {props.duration}</p>
-            <p>{props.album}</p>
+            <div className="row">
+                <h6>{props.displayText}</h6>
             </div>
-            <div id="albumCover" className="detailDisplay"><img className="artistImg" src={props.imgUrl}/></div>
+            <div className="row">
+                    <div className="col-8">
+                        <div id="details" className="detailDisplay">
+                            <p>Popularity: {Math.round(props.popularity)} | Loudness: {Math.round(props.loudness)} | Tempo: {Math.round(props.tempo)} BPM</p>
+                            <p>Time Signature: {Math.round(props.timeSignature)}/4 | Key: {pitch} | Mode: {mode}</p>
+                            <p>Duration: {props.duration}</p>
+                            <p>{props.album}</p>
+                        </div>
+                    </div>
+                    <div className="col-4">
+                        <img className="artistImg" src={props.imgUrl}/>
+                    </div>
+            </div>
         </React.Fragment>
     );
 };
@@ -257,32 +265,26 @@ function GetData() {
         <React.Fragment>
             <div className="container">
                 <div className="row">
-                    <div className="col">
-                        <div className="row">
-                            <div id="navigation">
-                            <div className="col">
+                    <div id="navigation">
+                        <div className="col">
                             <button className={type === "track" ? "active" : "inactive"} id="track" onClick={() => handleNavClickTracks('track')}>Tracks</button>
-                            </div>
-                            <div className="col">
-                            <button className={type === "artist" ? "active" : "inactive"} id="artist" onClick={() => handleNavClick('artist')}>Artists</button>
-                            </div>
-                            <div className="col">
-                            <button className={type === "genre" ? "active" : "inactive"} id="genre" onClick={() => handleNavClick('genre')}>Genres</button>
-                            </div>
-                            <div className="col">
-                            <a href="/profile"  id="profile">Profile</a>
-                            </div>
-                            <div className="col">
-                            <a href="/unwrapped" id="profilePhoto">
-                                <img className="profileImg" src={profilePhoto}/>
-                                </a>
-                            </div>
-                            </div>  
                         </div>
-                    </div>
+                        <div className="col">
+                            <button className={type === "artist" ? "active" : "inactive"} id="artist" onClick={() => handleNavClick('artist')}>Artists</button>
+                        </div>
+                        <div className="col">
+                            <button className={type === "genre" ? "active" : "inactive"} id="genre" onClick={() => handleNavClick('genre')}>Genres</button>
+                        </div>
+                        <div className="col">
+                            <a href="/profile"  id="profile">Profile</a>
+                        </div>
+                        <div className="col">
+                            <a href="/unwrapped" id="profilePhoto"><img className="profileImg" src={profilePhoto}/></a>
+                        </div>
+                    </div>  
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col-4">
                         <div className="row">
                             <div id="viewNav">
                                 {viewOptionsList}
@@ -290,29 +292,22 @@ function GetData() {
                         </div>
                         <div className="row">
                             <div>
-                            <ul>
-                            <button id="currentItem" className={active === "parent" ? "active" : "inactive"} id={parentItem.itemId} onClick={() => handleParentSelect(parentItem)}>{parentItem.displayText}</button>
-                            </ul>
+                                <ul>
+                                    <button id="currentItem" className={active === "parent" ? "active" : "inactive"} id={parentItem.itemId} onClick={() => handleParentSelect(parentItem)}>{parentItem.displayText}</button>
+                                </ul>
                             </div>
                             <div id="itemNav">
-                            <ol>{createItemOptions}</ol>
+                                <ol>{createItemOptions}</ol>
                             </div>
                         </div>
                     </div>
-                    <div className="col">
-                        <div id="dataPane">
-                            <div id="detailDisplay">
-                                {displayDetails}
-                            </div>
+                    <div className="col-8">
+                        {displayDetails}
+                        <div className="row">
                             <div id="chartDisplay">
-                                <canvas id="dataChart" width="400" height="400"></canvas>
+                                <canvas id="dataChart"></canvas>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <div id="footer">Footer links go here</div>
                     </div>
                 </div>
             </div>
@@ -321,4 +316,3 @@ function GetData() {
 }
 
 ReactDOM.render(<GetData />, document.querySelector('#root'));
-

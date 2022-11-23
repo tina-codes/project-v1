@@ -30,15 +30,15 @@
       {% for followed in following %}
       <a href="/unwrapped/{{ followed.user_id }}">
       <img class="profileImg" src="{{ followed.profile_photo }}"/>
-      </a>
       {{ followed.display_name }}
+      </a>
       {% endfor %}
       <h3>Followers</h3>
       {% for follower in followers %}
       <a href="/unwrapped/{{ follower.user_id }}"></a>
       <img class="profileImg" src="{{ follower.profile_photo }}"/>
-      </a>
       {{ follower.display_name }}
+      </a>
       {% endfor %}
       <p>
         {{ tastes.decade_labels }} :: {{ tastes.decade_count }}
