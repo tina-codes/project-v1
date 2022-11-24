@@ -397,6 +397,13 @@ def get_user_by_id(user_id):
     '''Get current user by user_id.'''
     return User.query.get(user_id)
 
+def get_user_photo_by_id(user_id):
+    '''Get user's profile photo url.'''
+
+    user = User.query.get(user_id)
+    
+    return user.profile_photo
+
 def get_user_friends(user_id):
     user = User.query.get(user_id)
 

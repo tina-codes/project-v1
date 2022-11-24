@@ -28,6 +28,8 @@ def unwrapped():
 
     if 'user' in session:
         session['userview'] = session['user']
+        session['userviewPhoto'] = session['photo']
+
         return render_template('unwrapped.html')
 
     else:
@@ -47,6 +49,7 @@ def unwrapped_friend(user_id):
 
     if 'user' in session:
         session['userview'] = user_id
+        session['userviewPhoto'] = crud.get_user_photo_by_id(user_id)
 
         return render_template('unwrapped.html')
 
@@ -242,12 +245,13 @@ def get_items_json():
     user_id = session.get('userview')
         
     photo = session.get('photo')
+    viewPhoto = session.get('userviewPhoto')
     timespan = request.args.get('timespan')
     item_type = request.args.get('item_type')
     parentItem, items = crud.get_items_for_nav(item_type, user_id, timespan)
     viewOptions = crud.get_view_options_by_type(item_type)
 
-    return jsonify({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo})
+    return jsonify({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo, 'viewPhoto': viewPhoto})
 
 
 

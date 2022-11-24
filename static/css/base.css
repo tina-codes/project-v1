@@ -22,6 +22,11 @@ a:active {
   border-radius: 50%;
   width: 50px;
 }
+
+.friendImg {
+  border-radius: 50%;
+  width: 50px;
+}
   
 .artistImg {
   /* object-fit: contain; */

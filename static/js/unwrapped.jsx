@@ -85,6 +85,26 @@ function ItemDetails(props) {
     const modeInt = Math.round(props.mode)
     const mode = modeList[modeInt]
 
+    if (props.album === '') {
+        return (
+            <React.Fragment>
+                <div className="row">
+                    <h6>{props.displayText}</h6>
+                </div>
+                <div className="row">
+                        <div className="col-8">
+                            <div id="details" className="detailDisplay">
+                                <p>Feature averages for top {props.itemType}s</p>
+                            </div>
+                        </div>
+                        <div className="col-4">
+                            <img className="artistImg" src={props.imgUrl}/>
+                        </div>
+                </div>
+            </React.Fragment>
+        );
+    };
+
 
     return (
         <React.Fragment>
@@ -94,10 +114,9 @@ function ItemDetails(props) {
             <div className="row">
                     <div className="col-8">
                         <div id="details" className="detailDisplay">
-                            <p>Popularity: {Math.round(props.popularity)} | Loudness: {Math.round(props.loudness)} | Tempo: {Math.round(props.tempo)} BPM</p>
-                            <p>Time Signature: {Math.round(props.timeSignature)}/4 | Key: {pitch} | Mode: {mode}</p>
-                            <p>Duration: {props.duration}</p>
-                            <p>{props.album}</p>
+                            <p>Popularity: {Math.round(props.popularity)} | Duration: {props.duration}<br></br>
+                            Time Signature: {Math.round(props.timeSignature)}/4 | Key: {pitch} | Mode: {mode} | Tempo: {Math.round(props.tempo)} BPM<br></br>
+                            {props.album}</p>
                         </div>
                     </div>
                     <div className="col-4">
@@ -119,6 +138,7 @@ function GetData() {
     const [parentItem, setParentItem] = React.useState({});
     const [navType, setNavType] = React.useState('track');
     const [profilePhoto, setProfilePhoto] = React.useState('');
+    const [viewPhoto, setViewPhoto] = React.useState('');
     const [active, setActive] = React.useState('');
 
     const url = '/get-items';
@@ -135,6 +155,7 @@ function GetData() {
             setSelectedItem(data.parentItem);
             setParentItem(data.parentItem);
             setProfilePhoto(data.photo);
+            setViewPhoto(data.viewPhoto);
             displayChart(data.parentItem);
             setActive('parent')
         });
@@ -182,6 +203,7 @@ function GetData() {
         displayDetails.push(
             <ItemDetails
             key={selectedItem.itemId}
+            itemType={selectedItem.itemType}
             imgUrl={selectedItem.imgUrl}
             displayText={selectedItem.displayText}
             album={selectedItem.album}
@@ -279,33 +301,43 @@ function GetData() {
                             <a href="/profile"  id="profile">Profile</a>
                         </div>
                         <div className="col">
-                            <a href="/unwrapped" id="profilePhoto"><img className="profileImg" src={profilePhoto}/></a>
+                            <div id="profilePhoto">
+                                <a href="/unwrapped" ><img className="profileImg" src={profilePhoto}/></a>
+                            </div>
+                            <div id="viewPhoto">
+                                <span className={profilePhoto !== viewPhoto ? "showBadge" : "hideBadge"}>VIEWING</span>
+                                <img className="profileImg" src={profilePhoto !== viewPhoto ? viewPhoto : undefined}/>
+                            </div>
                         </div>
                     </div>  
                 </div>
                 <div className="row">
                     <div className="col-4">
                         <div className="row">
-                            <div id="viewNav">
-                                {viewOptionsList}
+                            <div className="col">
+                                <div id="viewNav">
+                                    {viewOptionsList}
+                                </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div>
+                            <div className="col">
                                 <ul>
                                     <button id="currentItem" className={active === "parent" ? "active" : "inactive"} id={parentItem.itemId} onClick={() => handleParentSelect(parentItem)}>{parentItem.displayText}</button>
                                 </ul>
-                            </div>
-                            <div id="itemNav">
-                                <ol>{createItemOptions}</ol>
+                                <div id="itemNav">
+                                    <ol>{createItemOptions}</ol>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-8">
                         {displayDetails}
                         <div className="row">
-                            <div id="chartDisplay">
-                                <canvas id="dataChart"></canvas>
+                            <div className="col">
+                                <div id="chartDisplay">
+                                    <canvas id="dataChart"></canvas>
+                                </div>
                             </div>
                         </div>
                     </div>

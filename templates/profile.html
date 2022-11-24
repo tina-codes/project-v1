@@ -1,25 +1,17 @@
 {% extends 'base.html' %}
 {% block head %}
 <link rel="stylesheet" href="/static/css/style.css">
-<style>
-  svg {
-    width: 100%;
-    height: 100%;
-  }
-  #basic-demo { height: 200px; }
-  #datavis { height: 200px; }
-  #force-layout { height: 500px; }
-</style>
-<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 {% endblock %}
 
 {% block body %}
+
 <div id="profilePage">
   <h1>Welcome to Spotify Unwrapped</h1>
   <div>
       <h2>
         <img class="profileImg" src="{{ current_user.profile_photo }}">
           {{ current_user.display_name }}
+          {{ current_user.user_id }}
       </h2>
       <p>Last data refresh: {{ last_refresh }} | </p>
       <p>
@@ -29,38 +21,23 @@
       <h3>Following</h3>
       {% for followed in following %}
       <a href="/unwrapped/{{ followed.user_id }}">
-      <img class="profileImg" src="{{ followed.profile_photo }}"/>
+      <img class="friendImg" src="{{ followed.profile_photo }}"/>
       {{ followed.display_name }}
+      {{ followed.user_id }}
       </a>
       {% endfor %}
       <h3>Followers</h3>
       {% for follower in followers %}
       <a href="/unwrapped/{{ follower.user_id }}"></a>
-      <img class="profileImg" src="{{ follower.profile_photo }}"/>
+      <img class="friendImg" src="{{ follower.profile_photo }}"/>
       {{ follower.display_name }}
+      {{ follower.user_id }}
       </a>
       {% endfor %}
-      <p>
-        {{ tastes.decade_labels }} :: {{ tastes.decade_count }}
-      </p>
-      <p>
-        {{ tastes.top_genre_labels }} :: {{ tastes.top_genre_counts }}
-      </p>
+      
   </div>
 </div>
 
-<div id="datavis">
-  <svg></svg>
-</div>
-
-<div id="basic-demo">
-  <svg></svg>
-</div>
-<div>
-  <p>
-    <h3><a href="/deleteuser">Delete My Data</a> </h3>
-  </p>
-</div>
 {% endblock %}
 
 {% block js %}

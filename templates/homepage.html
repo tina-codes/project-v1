@@ -3,27 +3,48 @@
 <link rel="stylesheet" href="/static/css/login.css">
 {% endblock %}
 {% block body %}
-<h1>Welcome to Spotify Unwrapped</h1>
-    <div>
-        <div id="login">
-        <h2>Log in to your Spotify account to explore the features of your top Spotify tracks!</h1>
-            <form action="/login">
-                <button class="login" type="submit">Log In</button>
-             </form>
-            <!-- <a href="/login">Log in</a> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">
         </div>
-
-        <div>
-            <h1>Test H1</h1>
-            <h2>Test H2</h2>
-            <h3>Test H3</h3>
-            <h4>Test H4</h4>
-            <h5>Test H5</h5>
-            <h6>Test H6</h6>
-            <p>Test p</p>
-
+        <div class="col-4">
+            <div class="row">
+                <div class="col">
+                    <div class="center" id="homepage">
+                            <h1>UNWRAPPED</h1>
+                            <h5>for <img id="logo" src="/static/images/Spotify_Logo_RGB_Green.png"></h5>
+                    </div>
+                    <div class="center" id="intro">
+                        Log in to your Spotify account to explore the your top Spotify tracks, artists and genres!
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="center">
+                        <form action="/login">
+                            <button id="login" class="login" type="submit">Log In</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    
+                    <div class="center" id="privacyPolicy">
+                        Data Privacy Policy:
+                        When logging into Unwrapped we will ask for permission to view your spotify data.
+                        You can revoke these permissions and delete all of your data from Unwrapped at any time by visiting your profile page and selecting "delete my data".
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
         </div>
     </div>
-</p>
+</div>
+
+
 
 {% endblock %}

@@ -4,3 +4,4 @@ env
 test*
 old*
 .sql
+seed_genres.py
