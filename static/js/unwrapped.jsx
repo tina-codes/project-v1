@@ -105,7 +105,6 @@ function ItemDetails(props) {
         );
     };
 
-
     return (
         <React.Fragment>
             <div className="row">
@@ -322,8 +321,8 @@ function GetData() {
                         </div>
                         <div className="row">
                             <div className="col">
-                                <ul>
-                                    <button id="currentItem" className={active === "parent" ? "active" : "inactive"} id={parentItem.itemId} onClick={() => handleParentSelect(parentItem)}>{parentItem.displayText}</button>
+                                <ul id="currentItem">
+                                    <button className={active === "parent" ? "active" : "inactive"} id={parentItem.itemId} onClick={() => handleParentSelect(parentItem)}>{parentItem.displayText}</button>
                                 </ul>
                                 <div id="itemNav">
                                     <ol>{createItemOptions}</ol>
