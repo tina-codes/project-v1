@@ -75,7 +75,6 @@ def get_users_profile(auth_header):
     res = requests.get(url, headers=auth_header)
     return res
 
-
 def get_users_top_items(auth_header, sptype, timespan):
     url = '{}/{}/{}/{}?time_range={}&limit=50'.format(SPOTIFY_API_URL, 'me', 'top', sptype, timespan)
     res = requests.get(url, headers=auth_header)
@@ -94,11 +93,9 @@ def get_artists_info(auth_header, query_string):
 def get_artist_top_tracks(auth_header, query_string):
     url = '{}/{}/{}/{}?market=US'.format(SPOTIFY_API_URL, 'artists', query_string, 'top-tracks')
     res = requests.get(url, headers=auth_header)
-    
     return res
 
 def check_user_follows(auth_header, query_string):
     url = '{}/{}/following/contains?type=user&ids={}'.format(SPOTIFY_API_URL, 'me', query_string)
     res = requests.get(url, headers=auth_header)
-
     return res

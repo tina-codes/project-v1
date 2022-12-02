@@ -3,17 +3,34 @@ button {
     border: none;
     text-align: left;
     word-wrap: break-word;
+    font-weight: 600;
+    
 }
 button:hover {
     color: #1db954;
+}
+#navigation {
+    margin-top: 1%;
 }
 
 #artist, #track, #genre, #profile, #profilePhoto {
     float: left;
     font-size: 40px;
     font-weight: bold;
+    font-variant: small-caps;
     margin-right: 25px;
     margin-left: 25px;
+    margin-bottom: 15px;
+    background-color: Transparent;
+    order: none;     
+}
+
+#profileNav {
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-right: 25px;
     margin-bottom: 15px;
     background-color: Transparent;
     order: none; 
@@ -28,8 +45,9 @@ button:hover {
 
 #viewNav {
     float: left;
-    font-size: small;
+    font-size: large;
     font-weight: bold;
+    font-variant: small-caps;
 }
 
 .showBadge{
@@ -43,6 +61,7 @@ button:hover {
     padding:1px 5px;
     font-size:11px;
 }
+
 .hideBadge{
     position: absolute;
     right:-20px;
@@ -55,22 +74,21 @@ button:hover {
     font-size:11px;
 }
 
-
-
+/* Item Nav */
 ol {
     list-style-type: none;
     padding: 0; 
     margin: 0; 
-    font-size: x-small;
-    font-weight: bold;
+    font-size: small;
     white-space: normal;
 }
+
+/* View Nav */
 ul {
     list-style-type: none;
     padding: 0; 
     margin: 0; 
-    font-size: small;
-    font-weight: bold;
+    font-size: medium;
     display: inline-block;
     list-style-position: inside;
 }
@@ -84,10 +102,21 @@ ul {
     float: left;
     font-size: small;
     padding-right: 10px;
+    margin-left: 20px;
+}
+
+.detailDisplayHeader {
+    float: left;
+    font-size: small;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 #chartDisplay {
     width: 80%;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .inactive {
@@ -96,6 +125,47 @@ ul {
 
 .active {
     color: #1db954;
+}
+
+.viewInactive {
+    color: #fff;
+    font-variant: small-caps;
+    margin-right: 10px;
+}
+
+.viewActive {
+    color: #1db954;
+    font-variant: small-caps;
+    margin-right: 10px;
+}
+
+.friendCard {
+    border-radius: 3px;
+    border: 2px solid #1db954;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.profile {
+    line-height: .9;
+}
+
+.profileData {
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h5 {
+    font-size: 18px;
 }
 
 h6 {

@@ -48,7 +48,10 @@ function createChart(chartItem) {
                         color: 'rgba(255, 255, 255, 0.7)'
                     },
                     pointLabels: {
-                        color: 'rgba(255, 255, 255)'
+                        color: 'rgba(255, 255, 255)',
+                        font: {
+                            size: 12
+                        },
                     },
                     ticks: {
                         color: 'rgba(255, 255, 255)',
@@ -85,16 +88,19 @@ function ItemDetails(props) {
     const modeInt = Math.round(props.mode)
     const mode = modeList[modeInt]
 
-    if (props.album === '') {
+    if (props.itemId === "tracks" || props.itemId === "artists" || props.itemId === "genres") {
         return (
             <React.Fragment>
                 <div className="row">
+                <div className="detailDisplayHeader">
                     <h6>{props.displayText}</h6>
+                </div>
                 </div>
                 <div className="row">
                         <div className="col-8">
                             <div id="details" className="detailDisplay">
                                 <p>Feature averages for top {props.itemType}s</p>
+                                <br></br><br></br><br></br>
                             </div>
                         </div>
                         <div className="col-4">
@@ -103,19 +109,50 @@ function ItemDetails(props) {
                 </div>
             </React.Fragment>
         );
-    };
+    } else if (props.album === "") {
+        return (
+            <React.Fragment>
+                <div className="row">
+                <div className="detailDisplayHeader">
+                    <h6>{props.displayText}</h6>
+                </div>
+                </div>
+                <div className="row">
+                        <div className="col-8">
+                            <div id="details" className="detailDisplay">
+                                <p>Feature averages for top tracks</p>
+                                <p>
+                                <a href={`/spotifyartist/${props.itemId}`} target="_blank">
+                                <img className="icon" src="/static/images/Spotify_Icon_RGB_Green.png"/>
+                                View artist on Spotify
+                                </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-4">
+                            <img className="artistImg" src={props.imgUrl}/>
+                        </div>
+                </div>
+            </React.Fragment>
+        );
+    }
 
     return (
         <React.Fragment>
             <div className="row">
-                <h6>{props.displayText}</h6>
+                <div className="detailDisplayHeader">
+                    <h6>{props.displayText}</h6>
+                </div>
             </div>
             <div className="row">
                     <div className="col-8">
                         <div id="details" className="detailDisplay">
                             <p>Popularity: {Math.round(props.popularity)} | Duration: {props.duration}<br></br>
                             Time Signature: {Math.round(props.timeSignature)}/4 | Key: {pitch} | Mode: {mode} | Tempo: {Math.round(props.tempo)} BPM<br></br>
-                            {props.album}</p>
+                            <a href={`/spotifytrack/${props.itemId}`} target="_blank" rel="noreferrer">
+                                <img className="icon" src="/static/images/Spotify_Icon_RGB_Green.png"/>
+                                View track on Spotify
+                            </a></p>
                         </div>
                     </div>
                     <div className="col-4">
@@ -156,7 +193,7 @@ function GetData() {
             setProfilePhoto(data.photo);
             setViewPhoto(data.viewPhoto);
             displayChart(data.parentItem);
-            setActive('parent')
+            setActive('parent');
         });
     }, [searchTerms]);
 
@@ -192,7 +229,6 @@ function GetData() {
                 );
             };
         };
-        console.log(active)
         return itemOptions
     }, [navType, items, active]);
     
@@ -203,6 +239,7 @@ function GetData() {
             <ItemDetails
             key={selectedItem.itemId}
             itemType={selectedItem.itemType}
+            itemId={selectedItem.itemId}
             imgUrl={selectedItem.imgUrl}
             displayText={selectedItem.displayText}
             album={selectedItem.album}
@@ -222,7 +259,7 @@ function GetData() {
 
     for (const option of viewOptions) {
         viewOptionsList.push(
-          <button className={view === option.timespan ? "active" : "inactive"} key={option.timespan} id={option.timespan} onClick={() => handleViewSelect(option.timespan)}>{option.displayText}</button>
+          <button className={view === option.timespan ? "viewActive" : "viewInactive"} key={option.timespan} id={option.timespan} onClick={() => handleViewSelect(option.timespan)}>{option.displayText}</button>
         );
     };      
 
@@ -267,12 +304,14 @@ function GetData() {
 
     function handleNavClick(newType) {
         setType(newType);
+        setView('short_term');
         setSearchTerms({'type': newType, 'view': 'short_term'});
     };
 
     function handleNavClickTracks(newType) {
         setNavType('track');
         setType(newType);
+        setView('short_term');
         setSearchTerms({'type': newType, 'view': 'short_term'})
     };
 
@@ -340,6 +379,8 @@ function GetData() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="row">
                 </div>
             </div>
         </React.Fragment>

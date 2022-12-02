@@ -22,6 +22,24 @@ def show_homepage():
 
     return render_template('homepage.html')
 
+@app.route('/spotifyartist/<URL>')
+def route_to_artisturl(URL):
+    '''Redirect to external link for Spotify Artist.'''
+ 
+    spotifyUrl = "https://open.spotify.com/artist/"
+    redirectUrl = spotifyUrl + URL
+
+    return redirect(redirectUrl)
+
+@app.route('/spotifytrack/<URL>')
+def route_to_trackurl(URL):
+    '''Redirect to external link for Spotify Track.'''
+
+    spotifyUrl = "https://open.spotify.com/track/"
+    redirectUrl = spotifyUrl + URL
+
+    return redirect(redirectUrl)
+
 @app.route('/unwrapped')
 def unwrapped():
     '''Load page if user is logged in, redirect to homepage if not.'''
@@ -35,13 +53,6 @@ def unwrapped():
     else:
         return redirect('/')
 
-# @app.route('/unwrapped/<user_id>')
-# def unwrapped_friends_view(friend_id):
-#     '''Load Unwrapped with friend's music.'''
-
-#     session['friend'] = friend_id
-
-#     return render_template('unwrapped.html')
 
 @app.route('/unwrapped/<user_id>')
 def unwrapped_friend(user_id):
@@ -85,11 +96,6 @@ def loggedin():
         api_response = res.json()
         current_user, query_string = crud.create_update_user(api_response, timestamp)
 
-        # user_id = api_response['id']
-        # session['user'] = user_id
-        # session['photo'] = api_response['images'][0]['url']
-        # session['name'] = api_response['display_name']
-
         user_id = current_user.user_id
         session['user'] = user_id
         session['photo'] = current_user.profile_photo
@@ -123,7 +129,7 @@ def show_profile():
     user_id = session.get('user')
     current_user = crud.get_user_by_id(user_id)
     tastes = crud.get_users_taste_profile(user_id)
-    following, followers = crud.get_user_friends(user_id)
+    friends = crud.get_user_friends(user_id)
     last_data_pull = crud.get_last_data_refresh_date(user_id)
     last_refresh = datetime.fromtimestamp(last_data_pull).strftime('%B %d, %Y')
 
@@ -131,25 +137,7 @@ def show_profile():
                             current_user=current_user,
                             last_refresh=last_refresh,
                             tastes=tastes,
-                            following=following,
-                            followers=followers)
-
-@app.route('/deleteuser')
-def delete_user_data():
-    '''Delete user's data and profile.'''
-    user_id = session.get('user')
-    crud.delete_user_data(user_id)
-
-    return redirect('/')
-
-
-@app.route('/logout')
-def log_out():
-    '''Log user out.'''
-
-    session.clear()
-
-    return redirect('/')
+                            friends=friends)
 
 @app.route('/api/topitems')
 def get_user_tracks():
@@ -189,7 +177,6 @@ def get_user_artists():
     '''Request top tracks and audio features'''
     photo = session.get('photo')
 
-    print("Beginning of top artists route")
     timestamp = datetime.now().timestamp()
     user_id = session.get('user')
     top_artists = crud.check_for_top_items(user_id, timestamp, 'artist')
@@ -219,24 +206,6 @@ def get_user_artists():
 
     return redirect('/unwrapped')
 
-
-# @app.route('/get-items')
-# def get_items_json():
-#     '''Return a JSON response with nav items.'''
-    
-#     if 'friend' in session:
-#         user_id = session.get('friend')
-#     else:
-#         user_id = session.get('user')
-        
-#     photo = session.get('photo')
-#     timespan = request.args.get('timespan')
-#     item_type = request.args.get('item_type')
-#     parentItem, items = crud.get_items_for_nav(item_type, user_id, timespan)
-#     viewOptions = crud.get_view_options_by_type(item_type)
-
-#     return jsonify({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo})
-
 @app.route('/get-items')
 def get_items_json():
     '''Return a JSON response with nav items.'''
@@ -253,7 +222,21 @@ def get_items_json():
 
     return jsonify({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo, 'viewPhoto': viewPhoto})
 
+@app.route('/logout')
+def log_out():
+    '''Log user out.'''
 
+    session.clear()
+
+    return redirect('/')
+
+@app.route('/deleteuser')
+def delete_user_data():
+    '''Delete user's data and profile.'''
+    user_id = session.get('user')
+    crud.delete_user_data(user_id)
+
+    return redirect('/')
 
 
 if __name__ == "__main__":

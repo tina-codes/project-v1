@@ -5,3 +5,4 @@ test*
 old*
 .sql
 seed_genres.py
+resetdb.py

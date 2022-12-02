@@ -58,7 +58,7 @@ class User(db.Model):
 class Item(db.Model):
     """A user's top Spotify items.
     
-    This will be used to filter through tracks and artists"""
+    Spotify_id will be used to reference track and artist ids"""
 
     __tablename__ = 'items'
 
@@ -143,7 +143,6 @@ class Feature(db.Model):
     tempo = db.Column(db.Float, nullable=False)
     time_signature = db.Column(db.Integer, nullable=False)
     duration_ms = db.Column(db.Integer, nullable=False)
-    ### Better to use ints for key/mode/etc or convert to string?
 
     track = db.relationship('Track', uselist=False, back_populates='feature')
     
@@ -160,9 +159,9 @@ class Artist(db.Model):
     artist_id = db.Column(db.String(22),
                             primary_key=True)
     name = db.Column(db.String(100), nullable=False)
-    popularity = db.Column(db.Integer, default=0) #Only through artist item
-    followers = db.Column(db.Integer, default=0) #Only through artist item
-    img_url = db.Column(db.String, default='') #Only through artist item
+    popularity = db.Column(db.Integer, default=0) 
+    followers = db.Column(db.Integer, default=0) 
+    img_url = db.Column(db.String, default='')
     
     albums = db.relationship('Album', back_populates='artist')
     tracks = db.relationship('Track', back_populates='artist')
@@ -176,9 +175,7 @@ class ArtistGenre(db.Model):
     '''Connection between artists and genres.'''
 
     __tablename__ = 'artists_genres'
-    # __table_args__ = (db.UniqueConstraint
-    #                 ('artist_id', 'genre_id', 
-    #                 name='unique_artist_genre'))       
+    
     id = db.Column(db.Integer,
                     autoincrement=True,
                     primary_key=True)

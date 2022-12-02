@@ -6,30 +6,37 @@ import statistics
 
 ############################## Table of Contents ###################################
 ### Create/Update:
-# create_update_user(profile_data): Create or update and return a user
+# create_update_user(profile_data): Create or update and return a user.
+# create_user_following_query(timestamp): Create list of users created since last login.
+# create_user_relationship(current_user, query_string, following_check): Connects user to their Spotify friends.
 # create_ranked_list(user_items, user_id, timestamp, timespan, item_type): Create user's ranked list.
 # create_artists_basic(user_items): Create artist from Tracks api call.
 # create_artists_full(user_items): Create artist from Artists api call.
 # create_albums(user_items): Create album.
-# create_tracks(user_items): Create track.
+# create_tracks(user_items): Create tracks.
 # create_genres(user_items): Create genres.
 # create_artist_genre(user_items): Create an artist/genre link.
 # create_audio_features(api_response): Creates and returns list of audio features objects.
 # update_artists(api_response): Update artists to include missing data.
 # create_top_artists(user_top_items, user_id, timestamp, timespan): Processes user's top artists, returns list of spotify IDs.
 # create_top_tracks(user_top_items, user_id, timestamp, timespan): Processes user's top tracks, returns query string for features API call
+# create_artist_tracks(api_response): Create an artist's top tracks, returns list of track ids.
 #
 ### Retreive: 
 # get_user_by_id(user_id): Get current user by user_id.
+# get_user_photo_by_id(user_id): Get user's profile photo url.
+# get_user_friends(user_id): Get user's friends.
+# get_last_data_refresh_date(user_id): Get timestamp for last time user's data was refreshed.
 # check_for_top_items(user_id, timestamp, item_type): Checks to see if top items available and more than one week old.
 # get_user_items(user_id, item_type): Get list of item ids for a user's items.
 # get_user_top_list(user_id, item_type, timespan): Get list of item ids for a user's top items.
 # def get_item_by_id(item_id, item_type): Return an object by item ID.
 # get_items_by_ids(item_ids, item_type): Return a list of objects from a list of item IDs.
 # get_artists_by_genre(genre): Return a list of artists objects and IDs for a given genre.
+# get_tracks_by_genre(genre): Return a list of tracks for a given genre.
 # get_albums_by_artist(artist_id): Return album objects and IDs for an artist.
-# get_tracks_by_parent_id(item_id, item_type): Return track objects and IDs for an artist or album.
-# get_track_features(tracks): Returns feature data for list of track IDs.
+# get_tracks_by_parent_id(item_id, item_type): Return track IDs for an artist or album.
+# get_track_features(track_ids): Returns feature data for list of track IDs.
 # get_features_for_tracks(track_ids): Returns dictionary of track feature lists.
 # get_avgs_for_lists(feature_lists): Takes in feature dictionary and returns one list of avgs.
 # get_avg_for_tracks(tracks): Calculate feature averages for list of tracks.
@@ -39,11 +46,15 @@ import statistics
 # get_view_options_by_type(item_type): Return view options for that item type.
 # def get_items_for_nav(item_type, user_id, viewOption): Create list of items to show in item nav.
 # 
-# 
-# 
-# 
-# 
-
+### Data Analysis:
+# get_user_music(user_id): Get various items to process user's tastes.
+# analyze_decades(top_tracks): Analyze release years for top tracks.
+# analyze_genres(top_tracks): Analyze genre distribution of top tracks.
+# analyze_artist_popularity(top_artists): Analyze artists popularity distribution.
+# get_users_taste_profile(user_id): Generate data to describe user's taste in music.
+#
+### Delete: 
+# delete_user_data(user_id): Delete all records containing user's personal data.
 ####################################################################################
 
 #################### Creation/Update Functions #########################
@@ -79,21 +90,15 @@ def create_update_user(api_response, timestamp):
 def create_user_following_query(timestamp):
     '''Create list of users created since last login.'''
 
-    # q = db.session.query(User.user_id)
-    # # # new_users = q.filter(User.last_login>last_login)
-    # new_users = [r[0] for r in q.filter(User.created>timestamp).all()]
-    # query_string = ','.join(new_users)
-
     users = [r[0] for r in db.session.query(User.user_id).all()]
     query_string = ','.join(users)
-    print(query_string)
 
     return query_string
 
 def create_user_relationship(current_user, query_string, following_check):
+    '''Connects user to their Spotify friends.'''
+
     query_string = query_string.split(',')
-    print(f"qstring: {query_string}")
-    print(f"fcheck: {following_check}")
 
     for ind, user in enumerate(query_string):
         if following_check[ind] is True:
@@ -125,6 +130,7 @@ def create_ranked_list(user_items, user_id, timestamp, timespan, item_type):
 
 def create_artists_basic(user_items):
     '''Create artist from Tracks api call.'''
+
     artist_ids = []
     artists = []
 
@@ -143,6 +149,7 @@ def create_artists_basic(user_items):
 
 def create_artists_full(user_items):
     '''Create artist from Artists api call.'''
+
     artist_ids = []
     artists = []
 
@@ -170,6 +177,7 @@ def create_artists_full(user_items):
 
 def create_albums(user_items):
     '''Create album.'''
+
     albums = []
     album_ids = []
 
@@ -194,7 +202,8 @@ def create_albums(user_items):
     return albums, album_ids
 
 def create_tracks(user_items):
-    '''Create track.'''
+    '''Create tracks.'''
+
     tracks = []
     track_ids = []
 
@@ -405,12 +414,18 @@ def get_user_photo_by_id(user_id):
     return user.profile_photo
 
 def get_user_friends(user_id):
+    '''Get user's friends.'''
+
     user = User.query.get(user_id)
 
-    following = user.following
+    friends = user.following
     followers = user.followers
+    
+    for follower in followers:
+        if follower not in friends:
+            friends.append(follower)
 
-    return following, followers
+    return friends
 
 def get_last_data_refresh_date(user_id):
     '''Get timestamp for last time user's data was refreshed.'''
@@ -459,7 +474,9 @@ def get_user_top_list(user_id, item_type, timespan):
             genres = all_genres.filter(ArtistGenre.artist_id==artist).all()
             for genre in genres:
                 item_ids.append(genre[0])
-
+        
+        item_ids = set(item_ids)
+        item_ids = list(item_ids)
 
     else:
         item_list = db.session.query(Item.spotify_id)
@@ -467,9 +484,7 @@ def get_user_top_list(user_id, item_type, timespan):
                                             Item.item_type==item_type,
                                             Item.timespan==timespan).all()]
 
-    item_ids = set(item_ids)
-
-    return list(item_ids)
+    return item_ids
 
 def get_item_by_id(item_id, item_type):
     '''Return an object by item ID.'''
@@ -522,7 +537,7 @@ def get_artists_by_genre(genre):
 
     return artists, artist_ids
 
-def get_tracks_by_genre(genre): #Not being called anywhere... I think.
+def get_tracks_by_genre(genre):
     '''Return a list of tracks for a given genre.'''
 
     tracks = []
@@ -671,15 +686,11 @@ def get_avgs_for_lists(feature_lists):
     duration_ms = statistics.mean(feature_lists['duration_ms'])
     duration_seconds = duration_ms / 1000
     duration = datetime.fromtimestamp(duration_seconds).strftime('%-M:%S')
-    # print(duration_ms)
-    # print(duration_seconds)
-    # print(duration)
 
     for feature in feature_keys:
         final_avg.append(statistics.mean(feature_lists[feature]))
 
     final_avg.append(duration)
-    # print(final_avg)
 
     return final_avg
 
@@ -749,15 +760,8 @@ def get_items_for_nav(item_type, user_id, timespan):
 
     return items
 
-### Create function to delete user data, make sure there's some kind of confirmation
-def delete_user_data(user_id):
-    user_items = Item.query.filter(Item.user_id == user_id).delete()
-    print(f"Items Deleted: {user_items}")
-    user = User.query.get(user_id)
-    db.session.delete(user)
-    db.session.commit()
 
-    return print("User Deleted")
+
 
 ### Data fun time!!!
 
@@ -772,7 +776,7 @@ def get_user_music(user_id):
     return top_track_ids, top_track_features, top_tracks, top_artist_ids, top_artists
 
 def analyze_decades(top_tracks):
-    '''Analyze release dates for top tracks.'''
+    '''Analyze release years for top tracks.'''
 
     track_decades = {}
 
@@ -818,7 +822,7 @@ def analyze_decades(top_tracks):
     return track_decades, decade_labels, decade_count
 
 def analyze_genres(top_tracks):
-    '''Analyze genre distribution.'''
+    '''Analyze genre distribution of top tracks.'''
 
     track_genres = []
 
@@ -882,6 +886,17 @@ def get_users_taste_profile(user_id):
             'top_genre_counts': top_genre_counts,
             'top_genres': top_genres}
 
+ ########################################### Delete #############################
+
+def delete_user_data(user_id):
+    '''Delete all records containing user's personal data.'''
+
+    user_items = Item.query.filter(Item.user_id == user_id).delete()
+    user = User.query.get(user_id)
+    db.session.delete(user)
+    db.session.commit()
+
+    return print("User Deleted")
 
 
 

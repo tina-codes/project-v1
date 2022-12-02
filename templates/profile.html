@@ -4,43 +4,72 @@
 {% endblock %}
 
 {% block body %}
-
-<div id="profilePage">
-  <h1>Welcome to Spotify Unwrapped</h1>
-  <div>
-      <h2>
-        <img class="profileImg" src="{{ current_user.profile_photo }}">
-          {{ current_user.display_name }}
-          {{ current_user.user_id }}
-      </h2>
-      <p>Last data refresh: {{ last_refresh }} | </p>
-      <p>
-        <a href="/unwrapped">Return to Unwrapped</a> | 
-        <a href="/logout">Log Out</a>
-      </p>
-      <h3>Following</h3>
-      {% for followed in following %}
-      <a href="/unwrapped/{{ followed.user_id }}">
-      <img class="friendImg" src="{{ followed.profile_photo }}"/>
-      {{ followed.display_name }}
-      {{ followed.user_id }}
-      </a>
-      {% endfor %}
-      <h3>Followers</h3>
-      {% for follower in followers %}
-      <a href="/unwrapped/{{ follower.user_id }}"></a>
-      <img class="friendImg" src="{{ follower.profile_photo }}"/>
-      {{ follower.display_name }}
-      {{ follower.user_id }}
-      </a>
-      {% endfor %}
-      
+<div class="container">
+  <div id="profilePage">
+    <div class="row">
+      <div class="col-2">
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <a id="profileNav" href="/unwrapped">Unwrapped</a>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+              <div class="center">
+                <img class="userImg" src="{{ current_user.profile_photo }}">
+                <h5><a href="/unwrapped">{{ current_user.display_name }}</a></h5>
+              </div>  
+            </div>
+            <div class="col">
+              <div class="profileData">
+                <p>
+                  <a href="https://open.spotify.com/user/{{ current_user.user_id }}" target="_blank">
+                    <img class="icon" src="/static/images/Spotify_Icon_RGB_Green.png"/> View your Spotify profile</a>
+                </p>
+                <p class="profile">Last data refresh: {{ last_refresh }} <br>
+                  <span style="font-size: x-small">To update your Spotify data, select delete data and log back in.</span>
+                  </p>
+                    <p class="profile">
+                      <a href="/logout">Log Out</a> | 
+                      <a href="/deleteuser">Delete Data</a>
+                    </p>
+              </div>
+            </div>
+        </div>
+        <div class="col-1">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+      </div>
+      <div class="col">
+        <div class="friends">
+          <h3>Friends</h3>
+          {% for friend in friends %}
+          <div class="friendCard">
+            <img class="friendImg" src="{{ friend.profile_photo }}"/><br>
+            <a href="/unwrapped/{{ friend.user_id }}">{{ friend.display_name }}</a><br>
+            <a href="https://open.spotify.com/user/{{ friend.user_id }}" target="_blank">
+            <img class="icon" src="/static/images/Spotify_Icon_RGB_Green.png"/> View user on Spotify</a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-1">
+      </div>
+    </div>
   </div>
 </div>
+
+
+
+  
+
 
 {% endblock %}
 
 {% block js %}
-<script src="/static/js/profile.js"></script>
-<script src="/static/js/d3.js"></script>
 {% endblock %}

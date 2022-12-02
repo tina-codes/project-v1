@@ -2,24 +2,20 @@ body {
   font-weight: 600;
 }
 
-.center {
-  text-align: center;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
 #login {
   background-color: #1db954;
   border: none;
   color:#FFFFFF;
-  padding: 8px 20px;
+  padding: 6px 20px;
   text-align: center;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: large;
   display: inline-block;
   margin: 6px 2px;
   cursor: pointer;
   border-radius: 16px;
+  font-variant: small-caps;
 }
 
 #logo {
@@ -38,4 +34,14 @@ body {
 
 #homepage {
   margin-top: 40%;
+}
+
+h4 {
+  font-size: small;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+h5 {
+  font-variant: small-caps;
 }
