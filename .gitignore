@@ -3,6 +3,6 @@ env
 *.pyc
 test*
 old*
-.sql
+*.sql
 seed_genres.py
 resetdb.py
