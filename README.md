@@ -74,6 +74,7 @@ the application queries the database for the genres of the user's top artists, a
 queries the database for any tracks by artists associated with those genres. These artists
 and tracks may have been brought into the database via another user's top lists, so will
 expand beyond the tracks and artists known to the user.
+
 <img src="/static/images/genreview.gif" alt="Genre View" width="700"/>
 
 
