@@ -12,6 +12,7 @@ Learn more about the developer: https://www.linkedin.com/in/christinanicosia/
 * [Top Artists View](#artists)
 * [Top Genres View](#genres)
 * [Friends View](#friends)
+* [Upcoming Features](#upcoming)
 
 ## <a name="tech"></a>Tech Stack
 (dependencies are listed in requirements.txt)
@@ -32,7 +33,7 @@ Learn more about the developer: https://www.linkedin.com/in/christinanicosia/
 The Authorization Flow and Spotify API call utilities are found in spotify.py 
 and were adapted from [spotify-flask](https://github.com/hereismari/spotify-flask).
 
-## <a name="datamodel"></a>Data Model
+## <a name="data"></a>Data Model
 The data model was built to create a division between user data and music catalog data. 
 User's top items are stored in the items table, and the spotify_id column references the
 artist or track catalog items. Users can easily delete all traces of their personal data 
@@ -87,7 +88,7 @@ selecting them from the friend list on the profile page.
 <img src="/static/images/friendview.gif" alt="Friend View" width="700"/>
 
 
-## <a name="friends"></a>Upcoming Features
+## <a name="upcoming"></a>Upcoming Features
 I plan to keep working on this application and to add the following features:
 * Music taste visualizations
 * Album view
