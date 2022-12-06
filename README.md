@@ -1,7 +1,7 @@
-# Unwrapped for ![Spotify](/static/images/Spotify_Logo_RGB_Green.png)
+# Unwrapped for <img src="/static/images/Spotify_Logo_RGB_Green.png" alt="Artist View" height="30"/>
 Unwrapped allows users to explore the data behind the music they love. When a user logs in through the Spotify OAuth process, the application requests their top tracks and artists from the Spotify API, which are appended to the PostgreSQL database for quick retrieval. Users are then brought to the main page, where they can explore the audio feature data for their top tracks, the top tracks for their top artists, or their top genres. This page is implemented fully in React, with visualizations generated using Chart.js. If a user's Spotify friends have also logged in to Unwrapped, they will appear on the user profile page, where they can view each other's Unwrapped data as well.
 
-Learn more about the developer: https://www.linkedin.com/in/christinanicosia/
+Learn more about the developer: <a href="https://www.linkedin.com/in/christinanicosia/" target="_blank">https://www.linkedin.com/in/christinanicosia/</a>
 
 ## Table of Contents
 * [Tech Stack](#tech)
@@ -31,7 +31,7 @@ Learn more about the developer: https://www.linkedin.com/in/christinanicosia/
 
 ## <a name="authflow"></a>Spotify Authorization Flow
 The Authorization Flow and Spotify API call utilities are found in spotify.py 
-and were adapted from [spotify-flask.](https://github.com/hereismari/spotify-flask)
+and were adapted from <a href="https://github.com/hereismari/spotify-flask" target="_blank">spotify-flask</a>.
 
 ## <a name="datamodel"></a>Data Model & Database
 The data model was built to create a division between user data and music catalog data. 
