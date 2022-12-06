@@ -22,24 +22,6 @@ def show_homepage():
 
     return render_template('homepage.html')
 
-@app.route('/spotifyartist/<URL>')
-def route_to_artisturl(URL):
-    '''Redirect to external link for Spotify Artist.'''
- 
-    spotifyUrl = "https://open.spotify.com/artist/"
-    redirectUrl = spotifyUrl + URL
-
-    return redirect(redirectUrl)
-
-@app.route('/spotifytrack/<URL>')
-def route_to_trackurl(URL):
-    '''Redirect to external link for Spotify Track.'''
-
-    spotifyUrl = "https://open.spotify.com/track/"
-    redirectUrl = spotifyUrl + URL
-
-    return redirect(redirectUrl)
-
 @app.route('/unwrapped')
 def unwrapped():
     '''Load page if user is logged in, redirect to homepage if not.'''
@@ -52,7 +34,6 @@ def unwrapped():
 
     else:
         return redirect('/')
-
 
 @app.route('/unwrapped/<user_id>')
 def unwrapped_friend(user_id):
@@ -139,6 +120,7 @@ def show_profile():
                             tastes=tastes,
                             friends=friends)
 
+################ API Calls ################
 @app.route('/api/topitems')
 def get_user_tracks():
     '''Request top tracks and audio features'''
@@ -222,6 +204,27 @@ def get_items_json():
 
     return jsonify({'viewOptions': viewOptions, 'parentItem': parentItem, 'items': items, 'photo': photo, 'viewPhoto': viewPhoto})
 
+
+################ External link handling ################
+@app.route('/spotifyartist/<URL>')
+def route_to_artisturl(URL):
+    '''Redirect to external link for Spotify Artist.'''
+ 
+    spotifyUrl = "https://open.spotify.com/artist/"
+    redirectUrl = spotifyUrl + URL
+
+    return redirect(redirectUrl)
+
+@app.route('/spotifytrack/<URL>')
+def route_to_trackurl(URL):
+    '''Redirect to external link for Spotify Track.'''
+
+    spotifyUrl = "https://open.spotify.com/track/"
+    redirectUrl = spotifyUrl + URL
+
+    return redirect(redirectUrl)
+
+################ Log out/Delete ################
 @app.route('/logout')
 def log_out():
     '''Log user out.'''
